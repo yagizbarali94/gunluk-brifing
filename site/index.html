@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Günlük Şirket Brifingi</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  --bg: #F5F5F5;
+  --card: #ffffff;
+  --border: #E8E8E8;
+  --text: #1D1D1B;
+  --muted: #717171;
+  --brand: #F27A1A;
+  --brand-dark: #E56A0A;
+  --brand-light: #FFF4EC;
+  --green: #16a34a;
+  --red: #dc2626;
+  --amber: #d97706;
+  --gray-dot: #9ca3af;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+
+.header {
+  background: linear-gradient(135deg, #1D1D1B 0%, #3D1800 60%, #F27A1A 100%);
+  color: white; padding: 24px 32px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+.header .subtitle { font-size: 13px; color: #ffcca0; margin-top: 4px; }
+.mock-badge { background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.35); color: #ffe3c9; font-size: 11px; font-weight: 600; padding: 4px 12px; border-radius: 20px; letter-spacing: .5px; text-transform: uppercase; }
+
+.filter-bar { background: var(--card); border-bottom: 1px solid var(--border); padding: 12px 32px; display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.filter-bar label { font-size: 13px; font-weight: 600; color: var(--muted); }
+.filter-bar select { padding: 6px 12px; border-radius: 20px; border: 1.5px solid var(--border); background: white; font-size: 13px; font-weight: 500; cursor: pointer; color: var(--text); }
+.filter-bar select:hover { border-color: var(--brand); }
+.filter-note { margin-left: auto; font-size: 11px; color: var(--muted); }
+
+.container { max-width: 1080px; margin: 0 auto; padding: 24px 32px 8px; }
+
+.card { background: var(--card); border-radius: 12px; border: 1px solid var(--border); padding: 20px 24px; margin-bottom: 16px; }
+
+.hero { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+.hero .ticker { font-size: 30px; font-weight: 800; letter-spacing: -1px; }
+.hero .cname { font-size: 14px; color: var(--muted); font-weight: 500; }
+.why-badge { display: inline-block; margin-top: 10px; background: var(--brand-light); color: #C45A00; font-size: 12px; font-weight: 600; padding: 5px 14px; border-radius: 20px; }
+.hero .price { font-size: 28px; font-weight: 800; text-align: right; letter-spacing: -1px; }
+.hero .chg { font-size: 14px; font-weight: 700; text-align: right; margin-top: 2px; }
+.hero-meta { font-size: 12px; color: var(--muted); margin-top: 14px; width: 100%; }
+
+.cal-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 13px; }
+.cal-row b { font-weight: 700; }
+.cal-track { position: relative; height: 6px; background: #EFEFEF; border-radius: 999px; margin-top: 14px; }
+.cal-fill { position: absolute; left: 0; top: 0; height: 6px; background: var(--brand); border-radius: 999px; }
+.cal-dot { position: absolute; top: -3px; width: 12px; height: 12px; border-radius: 50%; background: var(--brand); border: 2px solid #fff; box-shadow: 0 0 0 1px var(--border); }
+.cal-legend { display: flex; justify-content: space-between; font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+.kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 16px; }
+.kpi-card { background: var(--card); border-radius: 12px; padding: 20px 24px; border: 1px solid var(--border); position: relative; overflow: hidden; }
+.kpi-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+.kpi-card.total::before   { background: linear-gradient(90deg, #1D1D1B, #F27A1A); }
+.kpi-card.primary::before { background: var(--brand); }
+.kpi-card.secondary::before { background: #dc2626; }
+.kpi-card.avg::before { background: linear-gradient(90deg, var(--brand-dark), var(--brand)); }
+.kpi-label { font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.kpi-value { font-size: 26px; font-weight: 800; margin-top: 8px; letter-spacing: -1px; }
+.kpi-sub { font-size: 12px; color: var(--muted); margin-top: 4px; font-weight: 600; }
+.t-pos { color: var(--green); } .t-neg { color: var(--red); } .t-neutral { color: var(--muted); }
+
+.chart-title { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+.chart-subtitle { font-size: 12px; color: var(--muted); margin-bottom: 16px; }
+.card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.pill { background: var(--brand-light); color: #C45A00; font-size: 11px; font-weight: 700; padding: 3px 12px; border-radius: 20px; white-space: nowrap; }
+
+table.karne { width: 100%; border-collapse: collapse; }
+table.karne td { padding: 9px 12px; border-bottom: 1px solid #f5f5f5; font-size: 13px; }
+td.grp { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; background: #FFF8F4; border-bottom: 2px solid var(--border); }
+td.mname { color: var(--muted); font-weight: 500; width: 34%; }
+td.mval { font-weight: 700; width: 22%; }
+td.mnote { width: 36%; font-weight: 500; }
+td.mdot { width: 8%; text-align: right; }
+.dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; }
+.dot.green { background: var(--green); } .dot.gray { background: var(--gray-dot); } .dot.amber { background: var(--amber); }
+.n-green { color: var(--green); } .n-gray { color: var(--muted); } .n-amber { color: var(--amber); }
+.karne-legend { font-size: 11px; color: var(--muted); margin-top: 10px; }
+
+.chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.chart-grid-2 .card { margin-bottom: 0; }
+.chart-wrap { position: relative; height: 210px; }
+
+.news-row { display: flex; gap: 10px; align-items: baseline; padding: 10px 0; border-bottom: 1px solid #f5f5f5; font-size: 13px; }
+.news-row:last-child { border-bottom: none; }
+.news-row a { color: var(--text); text-decoration: none; font-weight: 500; flex: 1; }
+.news-row a:hover { color: var(--brand); }
+.news-meta { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.sdot { width: 8px; height: 8px; border-radius: 50%; flex: none; position: relative; top: -1px; }
+.s-pos { background: var(--green); } .s-neu { background: var(--gray-dot); } .s-neg { background: var(--red); }
+
+.note-body { font-size: 14px; line-height: 1.65; }
+.counter { border-top: 1px solid var(--border); margin-top: 14px; padding-top: 12px; font-size: 13px; color: #4b5563; line-height: 1.6; }
+.counter b { color: var(--text); }
+
+.insights-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.insight-card { border-radius: 10px; padding: 16px 18px; border: 1px solid; }
+.insight-card.yellow { background: #fefce8; border-color: #fde047; }
+.insight-card.purple { background: #faf5ff; border-color: #c4b5fd; }
+.insight-icon { font-size: 20px; margin-bottom: 8px; }
+.insight-title { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; margin-bottom: 6px; }
+.insight-desc { font-size: 13px; color: #374151; line-height: 1.6; }
+.insight-desc ol { margin-left: 18px; }
+.insight-desc li { margin-bottom: 6px; }
+
+.footer { text-align: center; font-size: 11px; color: var(--muted); padding: 8px 16px 28px; }
+.err { text-align: center; color: var(--muted); padding: 60px 20px; font-size: 14px; }
+
+@media (max-width: 900px) {
+  .header, .filter-bar { padding-left: 16px; padding-right: 16px; }
+  .container { padding: 16px 16px 8px; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .chart-grid-2, .insights-grid { grid-template-columns: 1fr; }
+  td.mnote { display: none; }
+  td.mname { width: 52%; } td.mval { width: 36%; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div>
+    <h1>📊 Günlük Şirket Brifingi</h1>
+    <div class="subtitle" id="subtitle">yükleniyor…</div>
+  </div>
+  <span class="mock-badge" id="mockBadge" style="display:none">temsili veri</span>
+</div>
+
+<div class="filter-bar">
+  <label for="daySelect">Gün:</label>
+  <select id="daySelect"></select>
+  <span class="filter-note">kaynaklar: yfinance · Alpaca News · Claude</span>
+</div>
+
+<div class="container" id="app">
+  <div class="err">Brifing yükleniyor…</div>
+</div>
+
+<div class="footer" id="footer"></div>
+
+<script>
+var charts = [];
+var TR_M = ['Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'];
+
+function trDate(iso) {
+  var p = iso.split('-');
+  return parseInt(p[2], 10) + ' ' + TR_M[parseInt(p[1], 10) - 1] + ' ' + p[0];
+}
+function fmtCap(n) {
+  if (n == null) return '—';
+  if (n >= 1e12) return '$' + (n / 1e12).toFixed(1) + 'T';
+  if (n >= 1e9)  return '$' + (n / 1e9).toFixed(0) + 'B';
+  return '$' + Math.round(n / 1e6) + 'M';
+}
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+  });
+}
+
+function karneRows(groups) {
+  var h = '';
+  groups.forEach(function (g) {
+    h += '<tr><td class="grp" colspan="4">' + esc(g.name) + '</td></tr>';
+    g.rows.forEach(function (r) {
+      h += '<tr><td class="mname">' + esc(r.metric) + '</td>'
+         + '<td class="mval">' + esc(r.value) + '</td>'
+         + '<td class="mnote n-' + esc(r.tone) + '">' + esc(r.note) + '</td>'
+         + '<td class="mdot"><span class="dot ' + esc(r.tone) + '"></span></td></tr>';
+    });
+  });
+  return h;
+}
+
+function barChart(id, labels, values, unit, baseColor, hiColor) {
+  var L = [], V = [];
+  for (var i = 0; i < values.length; i++) {
+    if (values[i] != null) { L.push(labels[i] || ''); V.push(values[i]); }
+  }
+  if (!V.length) return false;
+  var colors = V.map(function (_, i) { return i === V.length - 1 ? hiColor : baseColor; });
+  var c = new Chart(document.getElementById(id), {
+    type: 'bar',
+    data: { labels: L, datasets: [{ data: V, backgroundColor: colors, borderWidth: 0, borderRadius: 4 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, animation: false,
+      plugins: { legend: { display: false },
+        tooltip: { callbacks: { label: function (x) {
+          return unit === '%' ? ' %' + x.raw : ' ' + x.raw + ' ' + unit; } } } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 11 } } },
+        y: { grid: { color: '#f1f5f9' },
+             ticks: { font: { size: 11 }, callback: function (v) {
+               return unit === '%' ? '%' + v : v; } } }
+      }
+    },
+    plugins: [{
+      id: 'valTop',
+      afterDatasetsDraw: function (chart) {
+        var ctx = chart.ctx, meta = chart.getDatasetMeta(0);
+        ctx.save();
+        ctx.font = 'bold 10px system-ui, sans-serif';
+        ctx.fillStyle = '#374151'; ctx.textAlign = 'center'; ctx.textBaseline = 'bottom';
+        meta.data.forEach(function (bar, i) {
+          ctx.fillText(String(V[i]), bar.x, bar.y - 3);
+        });
+        ctx.restore();
+      }
+    }]
+  });
+  charts.push(c);
+  return true;
+}
+
+function render(d) {
+  charts.forEach(function (c) { c.destroy(); });
+  charts = [];
+
+  document.getElementById('subtitle').textContent =
+    trDate(d.date) + ' · ' + d.ticker + ' — ' + (d.company.name || '');
+  document.getElementById('mockBadge').style.display = d.mock ? '' : 'none';
+
+  var chgCls = (d.price.change_pct || 0) >= 0 ? 't-pos' : 't-neg';
+  var chgTxt = d.price.change_pct == null ? '—'
+    : (d.price.change_pct >= 0 ? '+' : '-') + '%' + Math.abs(d.price.change_pct).toFixed(1) + ' bugün';
+
+  var cal = d.earnings_calendar || {};
+  var kpiCls = ['total', 'primary', 'avg', 'secondary'];
+
+  var h = '';
+
+  h += '<div class="card"><div class="hero">'
+     + '<div><div class="ticker">' + esc(d.ticker)
+     + ' <span class="cname">' + esc(d.company.name) + ' · ' + esc(d.company.sector) + '</span></div>'
+     + '<span class="why-badge">Neden bugün: ' + esc(d.why_today.text) + '</span></div>'
+     + '<div><div class="price">' + (d.price.last != null ? '$' + d.price.last.toFixed(2) : '—') + '</div>'
+     + '<div class="chg ' + chgCls + '">' + chgTxt + '</div></div>'
+     + '<div class="hero-meta">Piyasa değeri ' + fmtCap(d.company.market_cap)
+     + (cal.next_label ? ' · Sonraki bilanço: ' + esc(cal.next_label) : '') + '</div>'
+     + '</div></div>';
+
+  if (cal.last_label || cal.next_label) {
+    var p = cal.progress_pct == null ? 0 : cal.progress_pct;
+    h += '<div class="card"><div class="cal-row">'
+       + '<span>📅 <span style="color:var(--muted)">Son bilanço:</span> <b>' + esc(cal.last_label || '—') + '</b></span>'
+       + '<span><span style="color:var(--muted)">Sonraki:</span> <b>' + esc(cal.next_label || '—') + '</b>'
+       + (cal.days_to_next != null ? ' <span style="color:var(--brand);font-weight:700">· ' + cal.days_to_next + ' gün kaldı</span>' : '')
+       + '</span></div>'
+       + '<div class="cal-track"><div class="cal-fill" style="width:' + p + '%"></div>'
+       + '<div class="cal-dot" style="left:calc(' + p + '% - 6px)"></div></div>'
+       + '<div class="cal-legend"><span>bilanço açıklandı</span><span>bugün — çeyreğin %' + p + '\u0027i</span><span>sonraki bilanço</span></div>'
+       + '</div>';
+  }
+
+  h += '<div class="kpi-grid">';
+  (d.kpi || []).forEach(function (k, i) {
+    h += '<div class="kpi-card ' + kpiCls[i % 4] + '">'
+       + '<div class="kpi-label">' + esc(k.label) + '</div>'
+       + '<div class="kpi-value">' + esc(k.value) + '</div>'
+       + '<div class="kpi-sub t-' + esc(k.tone) + '">' + esc(k.sub) + '</div></div>';
+  });
+  h += '</div>';
+
+  if (d.karne && d.karne.groups && d.karne.groups.length) {
+    h += '<div class="card"><div class="card-head">'
+       + '<div><div class="chart-title">📋 Bilanço karnesi</div>'
+       + '<div class="chart-subtitle">' + esc(d.karne.period_label || '') + '</div></div>'
+       + '<span class="pill">' + esc(d.karne.template || '') + '</span></div>'
+       + '<table class="karne">' + karneRows(d.karne.groups) + '</table>'
+       + '<div class="karne-legend"><span class="dot green"></span> güçlü &nbsp;'
+       + '<span class="dot gray"></span> nötr &nbsp;'
+       + '<span class="dot amber"></span> izle</div></div>';
+  }
+
+  h += '<div class="chart-grid-2">'
+     + '<div class="card"><div class="chart-title">Çeyreklik gelir</div>'
+     + '<div class="chart-subtitle">milyar $ — son çeyrek turuncu</div>'
+     + '<div class="chart-wrap"><canvas id="revChart"></canvas></div></div>'
+     + '<div class="card"><div class="chart-title">Brüt marj trendi</div>'
+     + '<div class="chart-subtitle">fiyatlama gücü radarı</div>'
+     + '<div class="chart-wrap"><canvas id="gmChart"></canvas></div></div>'
+     + '</div>';
+
+  if (d.news && d.news.length) {
+    h += '<div class="card"><div class="chart-title">📰 Son 7 gün — öne çıkan haberler</div><div style="margin-top:10px">';
+    d.news.forEach(function (n) {
+      h += '<div class="news-row"><span class="sdot s-' + esc(n.sentiment || 'neu') + '"></span>'
+         + '<a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(n.headline_tr) + '</a>'
+         + '<span class="news-meta">' + esc(n.source) + (n.published ? ' · ' + esc(n.published) : '') + '</span></div>';
+    });
+    h += '</div></div>';
+  }
+
+  if (d.ai) {
+    h += '<div class="card"><div class="chart-title">💬 Proxy-Yağız\u0027ın notu</div>'
+       + '<div class="note-body" style="margin-top:10px">' + esc(d.ai.note) + '</div>'
+       + (d.ai.counter ? '<div class="counter"><b>⚖️ Karşı argüman:</b> ' + esc(d.ai.counter) + '</div>' : '')
+       + '</div>';
+
+    h += '<div class="insights-grid">';
+    if (d.ai.watch && d.ai.watch.length) {
+      h += '<div class="insight-card yellow"><div class="insight-icon">👀</div>'
+         + '<div class="insight-title">İzlenecekler</div><div class="insight-desc"><ol>';
+      d.ai.watch.forEach(function (w) { h += '<li>' + esc(w) + '</li>'; });
+      h += '</ol></div></div>';
+    }
+    if (d.ai.concept && d.ai.concept.title) {
+      h += '<div class="insight-card purple"><div class="insight-icon">🎓</div>'
+         + '<div class="insight-title">Günün kavramı</div>'
+         + '<div class="insight-desc"><b>' + esc(d.ai.concept.title) + ':</b> '
+         + esc(d.ai.concept.body) + '</div></div>';
+    }
+    h += '</div>';
+  }
+
+  document.getElementById('app').innerHTML = h;
+
+  var ch = d.charts || {};
+  var hasRev = ch.revenue && barChart('revChart', ch.revenue.labels, ch.revenue.values, ch.revenue.unit || '$B', '#F8B57C', '#F27A1A');
+  var hasGm = ch.gross_margin && barChart('gmChart', ch.gross_margin.labels, ch.gross_margin.values, '%', '#CFCDC8', '#1D1D1B');
+  if (!hasRev) { var rc = document.getElementById('revChart'); if (rc) rc.parentElement.innerHTML = '<div class="err" style="padding:40px 0">grafik için yeterli veri yok</div>'; }
+  if (!hasGm) { var gc = document.getElementById('gmChart'); if (gc) gc.parentElement.innerHTML = '<div class="err" style="padding:40px 0">grafik için yeterli veri yok</div>'; }
+
+  document.getElementById('footer').textContent =
+    'Üretim: ' + (d.generated_at || '—') + (d.mock ? ' · temsili veri — gerçek yatırım verisi değildir' : '') +
+    ' · Yağız\u0027ın brifing sistemi';
+}
+
+function loadDay(date, push) {
+  fetch('briefings/' + date + '.json')
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (d) {
+      render(d);
+      if (push) {
+        var u = new URL(location.href);
+        u.searchParams.set('date', date);
+        history.replaceState(null, '', u);
+      }
+    })
+    .catch(function () {
+      document.getElementById('app').innerHTML =
+        '<div class="err">Bu güne ait brifing bulunamadı.</div>';
+    });
+}
+
+fetch('briefings/manifest.json')
+  .then(function (r) { return r.json(); })
+  .then(function (manifest) {
+    var sel = document.getElementById('daySelect');
+    manifest.forEach(function (e) {
+      var o = document.createElement('option');
+      o.value = e.date;
+      o.textContent = trDate(e.date) + ' · ' + e.ticker;
+      sel.appendChild(o);
+    });
+    var want = new URLSearchParams(location.search).get('date');
+    var start = manifest.some(function (e) { return e.date === want; }) ? want
+              : (manifest[0] ? manifest[0].date : null);
+    if (!start) {
+      document.getElementById('app').innerHTML = '<div class="err">Henüz brifing üretilmemiş.</div>';
+      return;
+    }
+    sel.value = start;
+    sel.addEventListener('change', function () { loadDay(sel.value, true); });
+    loadDay(start, false);
+  })
+  .catch(function () {
+    document.getElementById('app').innerHTML = '<div class="err">manifest.json okunamadı.</div>';
+  });
+</script>
+</body>
+</html>
