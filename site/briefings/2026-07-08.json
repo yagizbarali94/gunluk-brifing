@@ -1,0 +1,210 @@
+{
+ "date": "2026-07-08",
+ "generated_at": "2026-07-09T20:27:13+00:00",
+ "mock": true,
+ "ticker": "MSFT",
+ "company": {
+  "name": "MSFT Corp.",
+  "sector": "Technology",
+  "market_cap": 4500000000000.0
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı"
+ },
+ "price": {
+  "last": 184.2,
+  "change_pct": 4.8
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-27",
+  "last_label": "27 Mayıs",
+  "next_date": "2026-08-26",
+  "next_label": "26 Ağustos",
+  "days_to_next": 48,
+  "progress_pct": 47
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$46.7B",
+   "sub": "+%62 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.42",
+   "sub": "Beat · beklenti $1.29",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%72.4",
+   "sub": "+1.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$16.8B",
+   "sub": "marj %36",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "çekirdek şablon v1",
+  "period_label": "Son bilanço dönemi (8 Temmuz itibarıyla)",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$46.7B",
+      "note": "+%62 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$26.4B",
+      "note": "+%80 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.42",
+      "note": "beklenti $1.29 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%72.4",
+      "note": "+1.1 puan ç/ç",
+      "tone": "green"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%62.0",
+      "note": "+2.4 puan y/y",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Nakit",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$16.8B",
+      "note": "marj %36",
+      "tone": "green"
+     },
+     {
+      "metric": "Nakit ve benzerleri",
+      "value": "$53.0B",
+      "note": "bilanço kalemi",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Gelecek çeyrek gelir",
+      "value": "$54B ±%2",
+      "note": "konsensüs üstü",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Eyl'24",
+    "Ara'24",
+    "Mar'25",
+    "Haz'25",
+    "Eyl'25",
+    "Ara'25",
+    "Mar'26",
+    "Haz'26"
+   ],
+   "values": [
+    18.1,
+    22.1,
+    26.0,
+    30.0,
+    35.1,
+    39.3,
+    44.1,
+    46.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Eyl'24",
+    "Ara'24",
+    "Mar'25",
+    "Haz'25",
+    "Eyl'25",
+    "Ara'25",
+    "Mar'26",
+    "Haz'26"
+   ],
+   "values": [
+    66.1,
+    67.0,
+    68.9,
+    68.2,
+    69.8,
+    70.6,
+    71.3,
+    72.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Data center gelirinde yeni rekor; hyperscaler talebi 2027'ye kadar dolu görünüyor",
+   "source": "Reuters",
+   "published": "2026-07-08",
+   "url": "https://example.com/1",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Yeni nesil çip mimarisinin üretim takvimi teyit edildi, ilk sevkiyat 4. çeyrek",
+   "source": "Bloomberg",
+   "published": "2026-07-08",
+   "url": "https://example.com/2",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Çin'e ihracat kısıtlamalarında yeni belirsizlik; gelirin ~%9'u risk altında",
+   "source": "FT",
+   "published": "2026-07-08",
+   "url": "https://example.com/3",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "note": "Rakamlar güçlü ama asıl hikâye marjda: sekiz çeyrektir yükselen brüt marj, fiyatlama gücünün hâlâ elde olduğunu söylüyor. Neden şimdi sorusunun cevabı bilanço sonrası momentum — ancak Çin riskinin guidance'a ne kadar yedirildiğine bakmadan pozisyon açmak aceleci olur.",
+  "counter": "Beklenti o kadar yüksek ki beat bile fiyatın içinde olabilir — 45x ileri F/K'da hata payı dar.",
+  "watch": [
+   "Gelecek çeyrek guidance'ı Çin'siz senaryoyu içeriyor mu",
+   "Envanter büyümesi gelir büyümesini aşarsa erken uyarı sinyali"
+  ],
+  "concept": {
+   "title": "Operating leverage",
+   "body": "Gelir büyürken sabit maliyetlerin aynı kalması sayesinde kârın gelirden daha hızlı büyümesi. Bu çeyrekte gelir +%62 iken net kârın +%80 artmasının sebebi bu."
+  }
+ }
+}
