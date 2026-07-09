@@ -1,0 +1,60 @@
+name: Günlük brifing
+
+on:
+  schedule:
+    # 05:45 UTC = 08:45 İstanbul (Türkiye yıl boyu UTC+3), hafta içi
+    - cron: '45 5 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      ticker:
+        description: 'Hisseyi elle seç (boş = otomatik seçim)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: brifing
+  cancel-in-progress: false
+
+jobs:
+  brifing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Depoyu çek
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Bağımlılıklar
+        run: pip install -r requirements.txt
+
+      - name: Brifing üret
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+          TICKER: ${{ inputs.ticker }}
+        run: |
+          if [ -n "$TICKER" ]; then
+            python briefing_generator.py --ticker "$TICKER"
+          else
+            python briefing_generator.py
+          fi
+
+      - name: Commit + push (Netlify otomatik yayınlar)
+        run: |
+          git config user.name "brifing-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add site/briefings state.json
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok, commit atlanıyor."
+          else
+            git commit -m "brifing: $(date -u +%F)"
+            git push
+          fi
