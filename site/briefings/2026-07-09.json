@@ -1,16 +1,17 @@
 {
  "date": "2026-07-09",
- "generated_at": "2026-07-09T22:06:12+00:00",
+ "generated_at": "2026-07-09T22:53:16+00:00",
  "mock": false,
  "ticker": "ARM",
  "company": {
   "name": "Arm Holdings plc",
   "sector": "Technology",
+  "industry": "Semiconductors",
   "market_cap": 350190993408
  },
  "why_today": {
-  "reason_code": "mover",
-  "text": "Dün %9.2 yükseldi — büyük hareket"
+  "reason_code": "manual",
+  "text": "Elle seçildi"
  },
  "price": {
   "last": 327.87,
@@ -155,28 +156,28 @@
  },
  "news": [
   {
-   "headline_tr": "ARM hissesi iki günde sert yükselişle AI sektöründe büyük hareketlere yol açtı; analistler rallinin sürdürülebilirliğini sorguluyor.",
+   "headline_tr": "ARM hissesi tek günde %11 yükseldi; hareket, AI sektöründeki genel toparlanmayla bağlantılı ve sektörde yeniden konumlanma sinyali veriyor.",
    "source": "benzinga",
    "published": "2026-07-09",
    "url": "https://www.benzinga.com/markets/tech/26/07/60367899/arm-stock-rockets-11-why-this-massive-tech-rebound-is-shaking-up-the-ai-sector",
    "sentiment": "pos"
   },
   {
-   "headline_tr": "Salı günü ARM'daki hareketi açıklayan analiz; net bir katalizör belirsizliği öne çıkıyor.",
+   "headline_tr": "ARM hissesinde Salı günü dikkat çekici bir hareket yaşandı; yatırımcılar kısa vadeli fiyat oynaklığının nedenini sorguladı.",
    "source": "benzinga",
    "published": "2026-07-07",
    "url": "https://www.benzinga.com/markets/tech/26/07/60304515/whats-going-on-with-arm-holdings-stock-tuesday-2",
    "sentiment": "neu"
   },
   {
-   "headline_tr": "Pazartesi günü ARM'daki fiyat hareketini sorgulayan içerik; haber akışı kaynaklı volatiliteye dikkat çekiyor.",
+   "headline_tr": "Pazartesi günü de ARM hissesindeki sıra dışı fiyat hareketleri gündem oluşturdu, arka planda net bir katalist belirtilmedi.",
    "source": "benzinga",
    "published": "2026-07-06",
    "url": "https://www.benzinga.com/markets/tech/26/07/60283228/whats-going-on-with-arm-holdings-stock-monday-2",
    "sentiment": "neu"
   },
   {
-   "headline_tr": "Yarı iletken sektöründe Lam Research ve Applied Materials dahil birden fazla büyük hisse yükseldi; ARM bu dalgadan pay aldı.",
+   "headline_tr": "Lam Research ve Applied Materials ile birlikte ARM da yükselen büyük teknoloji hisseleri arasında yer aldı; sektör genelinde alım dalgası gözlemlendi.",
    "source": "benzinga",
    "published": "2026-07-09",
    "url": "https://www.benzinga.com/news/26/07/60359081/aehr-test-systems-lam-research-applied-materials-and-other-big-stocks-moving-higher-on-thursday",
@@ -184,15 +185,16 @@
   }
  ],
  "ai": {
-  "note": "ARM, %97.9 brüt marjla lisans/royalty modelinin gücünü gösteriyor; ancak FCF marjının sadece %11 olması yüksek harcamaların kazancı bastırdığına işaret ediyor. Dün %9.2'lik sert yükseliş momentumu tetikledi ama iki günlük +%20 hareketten sonra swing girişi için risk/getiri oranı bozulmuş durumda — 'neden şimdi' sorusunun cevabı momentum değil, geri çekilmede destek testi olmalı.",
-  "counter": "İki günde %20 artış sonrası short-squeeze ve haber kaynaklı froth riski yüksek; haberlerin büyük çoğunluğu Benzinga'dan gelen kısa vadeli 'neden yükseliyor?' türü içerikler olup kurumsal katalizör eksikliğine işaret ediyor. Mevcut fiyatlamada herhangi bir satış dalgası ya da piyasa geneli düzeltme pozisyonu hızla eritir.",
+  "about": "ARM, işlemci mimarisi tasarlayıp lisanslayan bir IP şirketidir; ürünlerini kendisi üretmez, bunun yerine Apple, Qualcomm, NVIDIA gibi çip üreticilerine ve OEM'lere lisans ile royalty ücreti karşılığında mimari hakkı satar. Gelirinin büyük kısmı, satılan her çipten kesilen royalty gelirinden oluşur.",
+  "note": "ARM'ın %97,9 brüt marjı, neredeyse saf IP modelinin kalitesini ortaya koyuyor; fiziksel varlık gerektirmeden ölçeklenen bu yapı, uzun vadeli sermaye verimliliği açısından nadir görülen bir nitelik. AI sunucu pazarında ARM mimarisinin yükselişi (NVIDIA GB serisi, AWS Graviton) royalty havuzunu genişletiyor; bu, 3-5 yıllık tezin en güçlü katalizörü. Ancak FCF marjının (%11) brüt marjla (%98) arasındaki derin makas, yüksek AR&GE ve SBC harcamalarının sermayeyi erittiğini gösteriyor; bunu not etmek gerekir.",
+  "counter": "Intel ve RISC-V ekosistemi başta olmak üzere açık kaynak alternatiflerinin yaygınlaşması, özellikle veri merkezi segmentinde ARM'ın fiyatlama gücünü orta vadede kırabilir. Ayrıca en büyük müşterisi Apple'ın kendi çip mimarisini geliştirme kapasitesi, royalty gelirinin konsantrasyon riskini artırıyor.",
   "watch": [
-   "2 günlük yükselişin ardından hacim profili: bugünkü kapanışta hacim düşüyorsa momentum tükeniyor olabilir",
-   "Royalty gelirlerinin büyüme hızı — AI çiplerinde ARM mimarisi benimsenmesi yavaşlarsa hikâye çöker"
+   "Veri merkezi ve AI segmentindeki royalty gelirinin toplam gelir içindeki payı ve birim başına ortalama royalty ücreti trendi",
+   "RISC-V lisanslama anlaşmalarının sektördeki büyüme hızı ve ARM'ın pazar payına etkisi"
   ],
   "concept": {
-   "title": "Royalty Gelir Modeli ve FCF Makas Riski",
-   "body": "ARM, tasarımlarını lisanslayıp her satılan çipten royalty alır; bu yapı %97.9 brüt marj üretir. Ancak yüksek Ar-Ge ve SBC giderleri FCF marjını %11'e baskılarsa, 'yüksek kaliteli iş' algısı gerçek nakit üretimiyle çelişir ve değerleme sorgulanır."
+   "title": "Royalty Modelinde FCF Kalitesi",
+   "body": "Royalty bazlı iş modellerinde brüt marj yüksek görünse de gerçek nakit üretimi, AR&GE ve hisse bazlı ödeme (SBC) giderleri düşüldükten sonra netleşir. ARM'da brüt marj %98 iken FCF marjının %11'de kalması, bu 'marj yanılsamasına' somut bir örnek teşkil eder."
   }
  }
 }
