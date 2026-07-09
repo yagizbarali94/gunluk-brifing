@@ -174,6 +174,7 @@ def fetch_financials(ticker):
         info = {}
     out["name"] = info.get("shortName") or info.get("longName") or ticker
     out["sector"] = info.get("sector") or "—"
+    out["industry"] = info.get("industry") or ""
     out["market_cap"] = info.get("marketCap")
 
     # Fiyat
@@ -439,9 +440,11 @@ def build_calendar(f, ref_date):
 # 4) CLAUDE — Türkçe yorum katmanı
 # ----------------------------------------------------------------------
 
-CLAUDE_SYSTEM = """Sen Proxy-Yağız'sın: agresif fırsatçı ama öğrenmeye aç bir yatırımcı karakteri.
-Yağız'ın günlük şirket brifingi için yorum üretiyorsun. Swing trade perspektifinden bak,
-"neden şimdi?" sorusunu önemse, ama tek taraflı iyimserlikten kaçın.
+CLAUDE_SYSTEM = """Sen deneyimli, uzun vadeli düşünen bir yatırım analistisin. İş modeli kalitesi,
+ekonomik hendek (moat), fiyatlama gücü, marj trendi ve serbest nakit akışına odaklanırsın.
+Günlük gürültüden çok 3-5 yıllık resme bakarsın; "bu şirket 5 yıl sonra daha mı değerli olur?"
+sorusunu önemsersin. Yağız'ın günlük şirket brifingi için yorum üretiyorsun.
+Tek taraflı iyimserlikten kaçın, değerlemeyi ihmal etme.
 SADECE geçerli JSON döndür — başka hiçbir şey yazma, markdown kod bloğu kullanma."""
 
 CLAUDE_PROMPT = """Şirket: {name} ({ticker}) — sektör: {sector}
@@ -456,9 +459,10 @@ Son 7 günün haber başlıkları (İngilizce, kaynaklarıyla):
 
 Şu şemada JSON üret (tüm metinler Türkçe, kısa ve net):
 {{
-  "note": "2-3 cümlelik sentez: rakamların ana hikâyesi + swing perspektifinden 'neden şimdi/neden değil'",
-  "counter": "1-2 cümlelik karşı argüman — bu hisseye bugün girmemek için en güçlü sebep",
-  "watch": ["izlenecek somut şey 1", "izlenecek somut şey 2"],
+  "about": "şirketin ne iş yaptığını sade Türkçeyle 1-2 cümlede anlat: ürünler, müşteriler, para kazanma modeli",
+  "note": "2-3 cümlelik uzun vadeli sentez: iş modelinin kalitesi, moat ve bu çeyreğin 3-5 yıllık yatırım tezine etkisi",
+  "counter": "1-2 cümle: uzun vadeli tezi en çok tehdit eden yapısal risk",
+  "watch": ["önümüzdeki çeyreklerde izlenecek yapısal gösterge 1", "yapısal gösterge 2"],
   "concept": {{"title": "bugünün finansal kavramı (bu şirketle ilgili)", "body": "2 cümlelik açıklama, mümkünse bu şirketten örnekle"}},
   "guidance": {{"value": "şirketin son guidance'ı haberlerde/verilerde geçiyorsa özetle, yoksa 'veri yok'", "note": "kısa yorum", "tone": "green|gray|amber"}},
   "news": [{{"i": haber_index, "ozet": "tek cümlelik Türkçe özet", "sentiment": "pos|neu|neg"}}]
@@ -556,7 +560,7 @@ def mock_doc(ticker, date_str):
         "mock": True,
         "ticker": ticker,
         "company": {"name": "NVIDIA" if ticker == "NVDA" else f"{ticker} Corp.",
-                    "sector": "Technology", "market_cap": 4.5e12},
+                    "sector": "Technology", "industry": "Semiconductors", "market_cap": 4.5e12},
         "why_today": {"reason_code": "earnings", "text": "Dün bilanço açıkladı"},
         "price": {"last": 184.20, "change_pct": 4.8},
         "earnings_calendar": {"last_date": "2026-05-27", "last_label": "27 Mayıs",
@@ -600,6 +604,7 @@ def mock_doc(ticker, date_str):
              "source": "FT", "published": date_str, "url": "https://example.com/3", "sentiment": "neg"},
         ],
         "ai": {
+            "about": "Veri merkezleri ve yapay zeka için grafik işlemcileri (GPU) tasarlar; gelirinin büyük kısmı bulut devlerinin AI altyapı yatırımlarından gelir.",
             "note": "Rakamlar güçlü ama asıl hikâye marjda: sekiz çeyrektir yükselen brüt marj, fiyatlama gücünün hâlâ elde olduğunu söylüyor. Neden şimdi sorusunun cevabı bilanço sonrası momentum — ancak Çin riskinin guidance'a ne kadar yedirildiğine bakmadan pozisyon açmak aceleci olur.",
             "counter": "Beklenti o kadar yüksek ki beat bile fiyatın içinde olabilir — 45x ileri F/K'da hata payı dar.",
             "watch": ["Gelecek çeyrek guidance'ı Çin'siz senaryoyu içeriyor mu",
@@ -675,7 +680,7 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "mock": False,
         "ticker": ticker,
-        "company": {"name": f["name"], "sector": f["sector"], "market_cap": f["market_cap"]},
+        "company": {"name": f["name"], "sector": f["sector"], "industry": f.get("industry", ""), "market_cap": f["market_cap"]},
         "why_today": why,
         "price": f["price"],
         "earnings_calendar": build_calendar(f, ref_date),
@@ -686,7 +691,7 @@ def main():
                   "groups": build_karne(f, m, guidance_row)},
         "charts": build_charts(f, m),
         "news": news_out,
-        "ai": ai and {"note": ai.get("note", ""), "counter": ai.get("counter", ""),
+        "ai": ai and {"about": ai.get("about", ""), "note": ai.get("note", ""), "counter": ai.get("counter", ""),
                       "watch": ai.get("watch", [])[:3],
                       "concept": ai.get("concept", {})} or None,
     }
