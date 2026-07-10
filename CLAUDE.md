@@ -20,6 +20,9 @@ Uçtan uca akış:
      - Her slot kendi doğal adayını bulamazsa günlük |%4+| hareket eden > yoksa
        `config.py`'deki `WATCHLIST` sırasında rotasyona düşer (`state.json`'da tutulur).
      - İki slot asla aynı hisseyi seçmez (çakışırsa bir sonraki adaya geçilir).
+     - `config.PINNED` sözlüğünde o günün tarihi varsa, listelenen hisseler için
+       otomatik seçime EK olarak `pinned` slotlu brifingler üretilir
+       (dosya: `YYYY-MM-DD-pinned-<TICKER>.json`; otomatik seçimle çakışan yinelenmez).
      - Elle tetiklemede (`--ticker` / `workflow_dispatch` ticker girdisi) bu iki-slot
        mantığı atlanır, tek hisse için tek brifing üretilir (slot yok).
    - Her seçilen hisse için ayrı ayrı: `yfinance` ile finansallar (gelir, marj, FCF,
@@ -44,7 +47,7 @@ Uçtan uca akış:
 |---|---|
 | `.github/workflows/brifing.yml` | Cron + manuel tetikleme; Python kurar, `briefing_generator.py`'yi çalıştırır, çıktıyı commit+push eder. |
 | `briefing_generator.py` | Ana üretici script: iki-slot hisse seçimi (`select_tickers`), her hisse için veri toplama (yfinance/Alpaca) + Claude çağrısı + JSON çıktı yazımı (`generate_for_ticker`, `write_output`). `--ticker`, `--mock`, `--date` argümanlarıyla elle/test modunda (tek slot) da çalışır. |
-| `config.py` | `WATCHLIST` (rotasyon sırası), seçim eşikleri (`EARNINGS_LOOKBACK_DAYS`, `EARNINGS_UPCOMING_DAYS`, `MOVER_THRESHOLD_PCT`), haber ayarları, Claude model/token ayarları, karne renk eşikleri (`THRESHOLDS`), dosya yolları. |
+| `config.py` | `WATCHLIST` (rotasyon sırası), seçim eşikleri (`EARNINGS_LOOKBACK_DAYS`, `EARNINGS_UPCOMING_DAYS`, `MOVER_THRESHOLD_PCT`), `PINNED` (tarihe sabitlenmiş ek hisseler), haber ayarları, Claude model/token ayarları, karne renk eşikleri (`THRESHOLDS`), dosya yolları. |
 | `state.json` | Rotasyonun kaldığı yeri tutar: `last_index`, `last_ticker`. Workflow tarafından otomatik güncellenir. |
 | `site/index.html` | Netlify'da yayınlanan frontend — brifingleri okuyup gösteren tek sayfa; "Gün" + "Odak" (slot) filtreleriyle gezinilir. |
 | `site/briefings/YYYY-MM-DD-<slot>.json` | Her gün, her slot (`upcoming`/`reported`) için üretilen brifing verisi (fiyat, KPI'lar, karne, grafikler, haberler, Claude yorumu). Elle tetiklemede slot'suz `YYYY-MM-DD.json` (geriye dönük uyum). |

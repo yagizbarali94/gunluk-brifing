@@ -179,10 +179,11 @@ def select_tickers(state):
     if reported_list:
         delta, t, dd = reported_list[0]
         log(f"Seçim (yeni açıklanan): {t} — {dd} tarihinde bilanço açıkladı")
+        ne_zaman = ("Bugün" if delta == 0
+                    else "Dün" if delta == 1
+                    else f"{delta} gün önce")
         reported_pick = (t, {"reason_code": "earnings",
-                             "text": ("Bugün bilanço açıkladı" if delta == 0
-                                      else "Dün bilanço açıkladı" if delta == 1
-                                      else f"{delta} gün önce bilanço açıkladı")})
+                             "text": f"{ne_zaman} bilanço açıkladı ({tr_date(dd)})"})
 
     upcoming_pick = None
     reported_ticker = reported_pick[0] if reported_pick else None
@@ -192,7 +193,7 @@ def select_tickers(state):
         log(f"Seçim (yaklaşan): {t} — {dd} tarihinde bilanço açıklayacak ({days_until} gün kaldı)")
         kalan = "yarın" if days_until == 1 else f"{days_until} gün sonra"
         upcoming_pick = (t, {"reason_code": "upcoming_earnings",
-                             "text": f"Bilanço {kalan} açıklanacak — beklentileri incele"})
+                             "text": f"Bilanço {kalan} açıklanacak ({tr_date(dd)}) — beklentileri incele"})
         break
 
     if upcoming_pick is None:
@@ -590,10 +591,11 @@ def metrics_text(f, m):
 # 5) ÇIKTI
 # ----------------------------------------------------------------------
 
-def write_output(date_str, slot, doc):
-    """slot=None -> eski tekli davranış (dosya: YYYY-MM-DD.json, geriye dönük uyum).
-    slot='upcoming'/'reported' -> dosya: YYYY-MM-DD-<slot>.json, günde 2 kayıt."""
-    file_id = date_str if slot is None else f"{date_str}-{slot}"
+def write_output(date_str, file_suffix, doc):
+    """file_suffix=None -> eski tekli davranış (dosya: YYYY-MM-DD.json, geriye dönük uyum).
+    file_suffix='upcoming'/'reported'/'pinned-NVDA' -> dosya: YYYY-MM-DD-<suffix>.json.
+    Manifest'e yazılan slot etiketi doc["slot"]'tan gelir (upcoming/reported/pinned)."""
+    file_id = date_str if file_suffix is None else f"{date_str}-{file_suffix}"
     bdir = os.path.join(BASE_DIR, config.BRIEFINGS_DIR)
     os.makedirs(bdir, exist_ok=True)
     with open(os.path.join(bdir, f"{file_id}.json"), "w", encoding="utf-8") as fp:
@@ -607,8 +609,8 @@ def write_output(date_str, slot, doc):
     manifest = [e for e in manifest if e.get("id", e.get("date")) != file_id]
     entry = {"id": file_id, "date": date_str, "ticker": doc["ticker"],
              "name": doc["company"]["name"]}
-    if slot:
-        entry["slot"] = slot
+    if doc.get("slot"):
+        entry["slot"] = doc["slot"]
     manifest.insert(0, entry)
     manifest.sort(key=lambda e: (e["date"], e.get("slot", "")), reverse=True)
     with open(mpath, "w", encoding="utf-8") as fp:
@@ -687,8 +689,11 @@ def mock_doc(ticker, date_str):
 # ANA AKIŞ
 # ----------------------------------------------------------------------
 
-def generate_for_ticker(ticker, why, date_str, ref_date, slot=None):
-    """Tek bir hisse için tüm veri toplama + Claude yorumu + JSON çıktı akışı."""
+def generate_for_ticker(ticker, why, date_str, ref_date, slot=None, file_suffix=None):
+    """Tek bir hisse için tüm veri toplama + Claude yorumu + JSON çıktı akışı.
+    file_suffix verilmezse slot kullanılır (pinned'de 'pinned-NVDA' gibi ayrışır)."""
+    if file_suffix is None:
+        file_suffix = slot
     log(f"Veri çekiliyor: {ticker}" + (f" [{slot}]" if slot else ""))
     f = fetch_financials(ticker)
     news_raw = fetch_news(ticker)
@@ -745,7 +750,7 @@ def generate_for_ticker(ticker, why, date_str, ref_date, slot=None):
                       "concept": ai.get("concept", {})} or None,
     }
 
-    write_output(date_str, slot, doc)
+    write_output(date_str, file_suffix, doc)
     return ticker
 
 
@@ -776,8 +781,24 @@ def main():
         return
 
     picks = select_tickers(state)
+
+    # Bugün için sabitlenmiş hisseler (config.PINNED) — otomatik seçime EK brifing
+    auto_tickers = {p["ticker"] for p in picks}
+    for t in getattr(config, "PINNED", {}).get(date_str, []):
+        t = t.upper()
+        if t in auto_tickers:
+            log(f"Sabitlenen {t} zaten otomatik seçildi — yinelenmiyor")
+            continue
+        log(f"Seçim (sabitlenen): {t} — {date_str} için config.PINNED'de")
+        picks.append({"slot": "pinned", "ticker": t,
+                      "why": {"reason_code": "pinned",
+                              "text": "Bugün için senin sabitlediğin hisse"},
+                      "file_suffix": f"pinned-{t}"})
+        auto_tickers.add(t)
+
     for p in picks:
-        generate_for_ticker(p["ticker"], p["why"], date_str, ref_date, slot=p["slot"])
+        generate_for_ticker(p["ticker"], p["why"], date_str, ref_date,
+                            slot=p["slot"], file_suffix=p.get("file_suffix"))
     state["last_ticker"] = [p["ticker"] for p in picks]
     save_state(state)
     log("Tamamlandı.")

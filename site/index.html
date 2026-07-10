@@ -362,7 +362,7 @@ function render(d) {
     ' · Yağız\u0027ın brifing sistemi';
 }
 
-var SLOT_LABELS = { upcoming: '🔭 Yaklaşan bilanço', reported: '📣 Yeni açıklanan' };
+var SLOT_LABELS = { upcoming: '🔭 Yaklaşan bilanço', reported: '📣 Yeni açıklanan', pinned: '⭐ Senin seçimin' };
 
 function loadDay(id, push) {
   fetch('briefings/' + id + '.json')
