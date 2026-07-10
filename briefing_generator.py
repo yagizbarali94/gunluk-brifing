@@ -781,6 +781,8 @@ def generate_for_ticker(ticker, why, date_str, ref_date, slot=None, file_suffix=
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ticker", help="Hisseyi elle seç (otomatik iki-hisse seçimini atlar)")
+    ap.add_argument("--pin", metavar="TICKER",
+                    help="Tek hisse için hemen '⭐ Senin seçimin' brifingi üret (rotasyona dokunmaz)")
     ap.add_argument("--mock", metavar="TICKER", help="Ağ kullanmadan temsili veri üret")
     ap.add_argument("--date", help="YYYY-MM-DD (varsayılan: bugün)")
     args = ap.parse_args()
@@ -791,6 +793,14 @@ def main():
     if args.mock:
         log(f"MOCK mod: {args.mock} / {date_str}")
         write_output(date_str, None, mock_doc(args.mock.upper(), date_str))
+        return
+
+    if args.pin:
+        t = args.pin.upper()
+        generate_for_ticker(t, {"reason_code": "pinned",
+                                "text": "Senin seçimin — anında üretildi"},
+                            date_str, ref_date, slot="pinned", file_suffix=f"pinned-{t}")
+        log("Tamamlandı.")
         return
 
     state = load_state()

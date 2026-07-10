@@ -57,7 +57,12 @@ seçer). Elle seçimde tek brifing üretilir, iki slotlu otomatik akış atlanı
   o sabah, otomatik 2 brifinge ek olarak "⭐ Senin seçimin" etiketli bir brifing
   üretilir (otomatik seçimle çakışırsa yinelenmez). Tarihi geçen kayıtlar her
   sabah otomatik silinir. `pinned.json`'ı GitHub'dan elle düzenlemek de olur.
-  Panelin çalışması için Netlify ortam değişkenleri: `GITHUB_TOKEN`
+- **Hemen brifing üretme:** aynı paneldeki **⚡ Hemen** butonu — tarihi
+  beklemeden, girilen hisse için workflow'u anında tetikler
+  (`repository_dispatch: pin-now` → `briefing_generator.py --pin TICKER`).
+  2-3 dk içinde brifing bugünün Odak listesine "⭐ Senin seçimin" olarak düşer,
+  hazır olunca sayfa otomatik açar.
+- Panelin çalışması için Netlify ortam değişkenleri: `GITHUB_TOKEN`
   (fine-grained PAT, sadece bu repo, Contents: Read and write) ve `CHAT_PASS`
   (sohbetle aynı erişim kelimesi — panel bu kelimeyi sorar).
 - **Saat/sıklık:** `.github/workflows/brifing.yml` içindeki `cron` satırı.

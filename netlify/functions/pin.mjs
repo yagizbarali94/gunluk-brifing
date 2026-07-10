@@ -53,9 +53,26 @@ export default async (req) => {
   } catch {
     return Response.json({ error: "bad json" }, { status: 400 });
   }
-  const action = body.action === "remove" ? "remove" : "add";
+  const action = ["remove", "now"].includes(body.action) ? body.action : "add";
   const date = String(body.date || "");
   const ticker = String(body.ticker || "").toUpperCase().trim();
+
+  // "⚡ Hemen üret": pinned.json'a dokunmadan workflow'u tetikler
+  if (action === "now") {
+    if (!/^[A-Z][A-Z0-9.\-]{0,9}$/.test(ticker)) {
+      return Response.json({ error: "geçersiz hisse kodu" }, { status: 400 });
+    }
+    const disp = await fetch(`https://api.github.com/repos/${REPO}/dispatches`, {
+      method: "POST",
+      headers: { ...gh, "content-type": "application/json" },
+      body: JSON.stringify({ event_type: "pin-now", client_payload: { ticker } }),
+    });
+    if (disp.status !== 204) {
+      const e = await disp.json().catch(() => ({}));
+      return Response.json({ error: e.message || "workflow tetiklenemedi (" + disp.status + ")" }, { status: 502 });
+    }
+    return Response.json({ started: true, ticker });
+  }
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
     return Response.json({ error: "tarih YYYY-MM-DD olmalı" }, { status: 400 });
   }

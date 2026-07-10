@@ -26,6 +26,10 @@ Uçtan uca akış:
        yinelenmez). Tarihi geçen kayıtlar her çalıştırmada otomatik temizlenir.
        Sabitleme, sitedeki "⭐ Sabitle" panelinden yapılır (`netlify/functions/pin.mjs`
        GitHub API ile pinned.json'ı commit'ler; `GITHUB_TOKEN` + `CHAT_PASS` gerekir).
+     - Paneldeki "⚡ Hemen" butonu tarihi beklemeden üretir: pin.mjs
+       `repository_dispatch` (event: `pin-now`) gönderir → workflow
+       `briefing_generator.py --pin TICKER` çalıştırır → bugünün tarihiyle
+       `pinned` slotlu brifing üretilir (rotasyon/state'e dokunmaz).
      - Elle tetiklemede (`--ticker` / `workflow_dispatch` ticker girdisi) bu iki-slot
        mantığı atlanır, tek hisse için tek brifing üretilir (slot yok).
    - Her seçilen hisse için ayrı ayrı: `yfinance` ile finansallar (gelir, marj, FCF,
