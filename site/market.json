@@ -1,6 +1,6 @@
 {
  "date": "2026-07-10",
- "generated_at": "2026-07-10T21:43:42+00:00",
+ "generated_at": "2026-07-10T21:57:47+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -21,13 +21,13 @@
     "tone": "green"
    },
    {
-    "ticker": "^IXIC",
+    "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 26281.61,
-    "chg_1d": 0.29,
+    "last": 29825.11,
+    "chg_1d": 0.33,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.0,
+    "from_high": -2.7,
     "state": "yükseliş trendi",
     "tone": "green"
    },
@@ -188,16 +188,16 @@
   }
  ],
  "ai": {
-  "headline": "Endeksler zirvede, yapısal zemin sağlam; ancak defansiflerin öne çıkması ve yükselen faizler piyasanın temkinli bir riskten kaçış moduna girdiğine işaret ediyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde ve zirveye yakın seyrediyor — bu, temel trendin hâlâ olumlu olduğunu gösteriyor. Sektörlerin yüzde doksanının bu ortalamanın üzerinde olması breadth'in yapısal olarak sağlıklı kaldığına işaret ediyor; ancak döngüsel sektörlerin geride kalıp defansiflerin öne çıkması, yatırımcıların kâr açıklamak yerine korunmayı tercih ettiğini ortaya koyuyor. Petrol fiyatındaki sert gerileme ve altındaki düşüş, büyüme beklentilerinde bir kırılganlığın fiyatlandığına işaret ederken, on yıllık faizin yüzde 4.57'ye ulaşması özsermaye değerlemelerine baskı unsuru olmaya devam ediyor. VIX'in sakin seyri ve kredi piyasalarındaki istikrar sistematik bir stres olmadığını doğruluyor; ancak bu tablo 'coşkulu' değil, 'bekle-gör' modunda bir piyasayı tanımlıyor.",
+  "headline": "Endeksler zirveye yakın ve yapı sağlam, ancak sektör rotasyonu defansiflere kayıyor ve yükselen faiz ile güçlenen dolar arka rüzgarı hafifletiyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor ve VIX 15 civarında kalarak panik olmadığını teyit ediyor; bu tablo teknik zeminin hâlâ olumlu olduğunu gösteriyor. Öte yandan sektör tablosunda döngüsel grupların geride kalıp defansiflerin öne çıkması, yatırımcıların büyüme beklentilerine karşı temkinli bir duruş sergilediğine işaret ediyor. Breadth tamamen bozulmamış olmakla birlikte, eşit ağırlıklı performansın cap ağırlıklının gerisinde kalması piyasanın bir bölümünün büyük şirketlerin omuzlarında yükseldiğini düşündürüyor. 10 yıllık faizin son bir ayda sert yükselmesi ve dolardaki güçlenme, özellikle değerleme çarpanlarına duyarlı varlıklar için finansal koşulların sıkılaştığını ortaya koyuyor.",
   "watch": [
-   "14 Temmuz JPMorgan bilançosu — özellikle net faiz marjı ve kredi karşılıkları, hem faiz ortamının bankalara yansımasını hem de kredi kalitesini okumak için kritik olacak",
-   "10 yıllık ABD Hazine faizinin yüzde 4.57 seviyesindeki seyri — yüzde 4.70 üzerine kalıcı bir kırılma, değerleme üzerindeki baskıyı artırabilir",
-   "Petrol fiyatının bir aylık yüzde 19.6'lık düşüşün ardından dip arayışına girip girmediği — emtia fiyatlarındaki stabilizasyon ya da ivmelenen düşüş, büyüme rejimi okuması için önemli bir sinyal"
+   "14 Temmuz JPMorgan bilançosu: Banka kredi kalitesi ve faiz marjlarına ilişkin yönetim yorumları, hem finans sektörünün liderliğinin sürdürülebilirliği hem de genel kredi ortamı hakkında sinyal verecek.",
+   "10 yıllık ABD Hazine faizi: %4.57 seviyesinden yukarı bir kırılma finansal koşulları daha da sıkılaştırabilir; aşağı dönüş ise büyüme varlıklarındaki baskıyı hafifletebilir.",
+   "Petrol ve emtia fiyatları: WTI'nin bir ayda yaklaşık %20 gerilemesi hem talep kaygılarını hem de deflasyonist baskıları gündeme taşıyor; bu trendin devam edip etmediği enerji sektörü ve enflasyon beklentileri açısından kritik."
   ],
   "concept": {
-   "title": "Sektör Rotasyonu ve Risk Rejimi Sinyali",
-   "body": "Sektör rotasyonu, hangi endüstrilerin para çektiğini izleyerek piyasanın genel risk iştahı hakkında fikir edinme yöntemidir; döngüsel sektörler (enerji, tüketici) öne çıktığında 'risk açık', defansifler (sağlık, finans) öne geçtiğinde 'risk kapalı' rejimden söz edilir. Bugünkü tabloda savunmacı sektörlerin net üstünlüğü, endeksin yüksek seyretmesine karşın piyasanın altında temkinli bir korunma refleksinin var olduğunu gösteriyor."
+   "title": "Sektör Rotasyonu ve Piyasa Rejimi Okuması",
+   "body": "Sektör rotasyonu, hangi endüstri gruplarının öne çıktığını izleyerek yatırımcıların risk iştahını ve ekonomik beklentilerini anlamaya yarayan bir analiz yöntemidir. Döngüsel sektörlerin geride kalıp defansiflerin liderliği üstlenmesi, fiyat seviyeleri yüksek görünse dahi altındaki konjonktür algısının ihtiyatlıya döndüğüne dair önemli bir bağlam sinyali olarak okunabilir."
   }
  }
 }

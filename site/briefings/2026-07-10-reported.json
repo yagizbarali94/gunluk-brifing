@@ -1,7 +1,7 @@
 {
  "date": "2026-07-10",
  "slot": "reported",
- "generated_at": "2026-07-10T21:43:35+00:00",
+ "generated_at": "2026-07-10T21:57:40+00:00",
  "mock": false,
  "ticker": "META",
  "company": {
@@ -281,72 +281,72 @@
  },
  "news": [
   {
-   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yaratan' özelliklerini gerekçe göstererek Meta'ya milyarlarca euro ceza uygulayabilir.",
+   "headline_tr": "AB, Facebook ve Instagram'ın bağımlılık yaratan özelliklerine yönelik düzenleme kapsamında Meta'ya milyarlarca euro para cezası uygulayabilir.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Meta'nın yüksek kullanıcı etkileşimine yönelik olası bir 'günah vergisi' tartışması hisse üzerinde belirsizlik yaratıyor.",
+   "headline_tr": "Meta'nın sosyal medya platformlarına yönelik olası 'günah vergisi' uygulaması, gelir ve hisse senedi üzerinde baskı yaratabilir.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Analistler Meta'yı büyük şirketler arasında en beğenilen hisse olarak öne çıkarıyor ve önemli yükseliş potansiyeli görüyor.",
-   "source": "benzinga",
-   "published": "2026-07-10",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
-   "sentiment": "pos"
-  },
-  {
-   "headline_tr": "Citizens, Meta için 'Piyasa Üstü Getiri' tavsiyesini korurken fiyat hedefini 800 dolara indirdi.",
+   "headline_tr": "Citizens, Meta'yı 'Piyasa Üstü Getiri' tavsiyesiyle korurken fiyat hedefini 800 dolara indirdi.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/news/26/07/60380987/citizens-maintains-market-outperform-meta-platforms-lowers-price-target-800",
    "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Analistler Meta'yı large-cap kategorisinde en çok tercih edilen hisse olarak öne çıkarıyor ve önemli yükseliş potansiyeline dikkat çekiyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
+   "sentiment": "pos"
   }
  ],
  "ai": {
-  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işletir. Gelirinin yaklaşık %98'i reklamcılıktan gelir; milyarlarca kullanıcıya ulaşan reklam envanterini işletmelere satar.",
-  "note": "Meta'nın reklam teknolojisindeki yapay zeka yatırımları (Advantage+, Llama tabanlı araçlar) reklam verimi ve fiyatlama gücünü artırıyor; bu da %33'lük gelir büyümesinin sürdürülebilirliğini destekliyor. ROIC %18 ve Rule of 40 skoru 56 ile iş modeli kalitesi yüksek; geri alımlarla hisse sayısını azaltması uzun vadeli EPS büyümesini besliyor. 3-5 yıllık tezde AI Glasses/Ray-Ban Meta ve yapay zeka ajans ekosistemi, reklam dışı gelir çeşitlendirmesi açısından önemli bir opsiyon sunuyor.",
-  "counter": "AB'nin 'bağımlılık yaratan' özellikler gerekçesiyle uygulayabileceği milyarlarca euroluk ceza ve olası platform kısıtlamaları, hem maliyet hem de kullanıcı etkileşim metrikleri açısından yapısal bir baskı oluşturabilir. Dijital reklam gelirinin döngüselliği ve TikTok/YouTube Shorts gibi rakiplerle süregelen dikkat rekabeti de uzun vadeli büyüme tezini tehdit ediyor.",
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları aracılığıyla 3 milyarı aşkın günlük aktif kullanıcıya ulaşır. Gelirinin %98'inden fazlası reklamcılıktan gelir; kalan küçük pay ise Reality Labs (VR/AR) donanım ve yazılımlarından elde edilir.",
+  "note": "Meta'nın reklam teknolojisi altyapısı ve ölçek ekonomisi güçlü bir ekonomik hendek oluşturuyor; %33'lük gelir büyümesi ve ardı ardına gelen EPS beklenti aşımları iş modelinin sağlamlığını teyit ediyor. Yapay zeka destekli reklam optimizasyonu ve Llama model ailesi, önümüzdeki 3-5 yılda hem reklam verimliliğini hem de monetizasyon yüzeyini genişletme potansiyeli taşıyor. Bununla birlikte faaliyet marjının trend olarak gerilemesi ve yüksek sermaye harcamalarının FCF/net kâr oranını baskılaması, marj genişlemesi hikayesinin sorgulanmasına neden olmaktadır.",
+  "counter": "AB ve ABD düzenleyicilerinin sosyal medyanın 'bağımlılık yapıcı' özelliklerine yönelik vergi ve para cezası tehdidi, özellikle Avrupa'daki reklam gelirlerini kalıcı biçimde kısıtlayabilir. Bunun yanı sıra Reality Labs'ın kronik zarar üretmesi ve artan veri merkezi yatırımları, yapay zeka döngüsü beklentilerin altında kalırsa serbest nakit akışını ciddi şekilde eritebilir.",
   "watch": [
-   "Faaliyet marjının AI altyapı yatırım dalgası sonrasında 42-44% bandına dönüp dönmediği (capex normalizasyonu)",
-   "AB dijital düzenleme cezalarının büyüklüğü ve Avrupa kullanıcı etkileşim metriklerine olası etkisi"
+   "Faaliyet marjının yapay zeka altyapı harcamaları karşısında 40 puan üzerinde tutunup tutunamayacağı ve Reality Labs zararının daralma trendine girip girmeyeceği",
+   "AB'nin 'bağımlılık yapıcı özellikler' düzenlemesinden doğacak somut para cezası veya ürün kısıtlamalarının Avrupa reklam geliri büyümesine etkisi"
   ],
   "diagnosis": [
    {
     "baslik": "Büyüme ivmesi",
     "verdict": "guclu",
-    "yorum": "Gelir 4 çeyrek boyunca 42.3→59.9 milyar dolar seyrine karşın son çeyrekte 56.3 milyara geriledi; ancak yıllık %33 büyüme ve ardışık beat serisi büyümenin yapısal sağlamlığını koruyor."
+    "yorum": "%33 y/y gelir artışı güçlü olmakla birlikte, son çeyrek ($56.3B) bir önceki çeyreğin zirve noktası ($59.9B) olan ardışık rekor seyrinden geri adım attığı için ivme hafif yavaşlama sinyali veriyor."
    },
    {
     "baslik": "Kârlılık ve sermaye getirisi",
     "verdict": "notr",
-    "yorum": "Brüt marj %82 seviyesinde stabil olsa da faaliyet marjı 43%'ten %40.6'ya geriledi; ROIC %18 ve ROE %33 ise sektör ortalamasının üzerinde kalite işareti veriyor."
+    "yorum": "Brüt marj %81.9 ile istikrarlı seyrederken faaliyet marjı 41.5'ten 40.6'ya geriledi; ROIC %18 ve ROE %32.9 sermaye verimliliğinin hâlâ yüksek olduğunu gösterse de artan yapay zeka yatırım harcamaları marj baskısını sürdürebilir."
    },
    {
     "baslik": "Kazanç kalitesi",
     "verdict": "notr",
-    "yorum": "FCF/net kâr dönüşümü 0.68× ile net kârın altında kalıyor; bu büyük ölçüde yüksek sermaye harcamalarından (AI altyapısı) kaynaklanıyor ve hisse geri alımlarıyla -%1 seyrelmesi olumlu ancak dönüşüm oranı takip gerektiriyor."
+    "yorum": "Sekiz çeyrek üst üste beklenti aşımı ve -%1 hisse seyrelmesi olumlu; ancak FCF/net kâr oranının 0.68x gibi görece düşük kalması, kârın nakit karşılığının sınırlı olduğuna işaret ediyor."
    },
    {
     "baslik": "Bilanço sağlığı",
     "verdict": "zayif",
-    "yorum": "Net nakit eksi 63.3 milyar dolar ile şirket net borç pozisyonunda; bu büyük ölçüde AI ve metaverse yatırımları ile hisse geri alımlarının finansmanından kaynaklanıyor ve faiz ortamında dikkate alınması gereken bir risk unsuru."
+    "yorum": "Net nakit pozisyonunun -63.3 milyar dolar olması, yüksek capex ve agresif hisse geri alım programının bilançoyu net borç tarafına taşıdığını gösteriyor; faiz ortamında bu yük göz ardı edilmemeli."
    },
    {
     "baslik": "Değerleme",
     "verdict": "notr",
-    "yorum": "İleri F/K 18.4 ve Fiyat/FCF 35.2, %33 büyüme ve yüksek marj kalitesi göz önüne alındığında makul-hafif primli seviyelerde; Citizens'ın 800 dolar hedef fiyatını koruması piyasanın zaten olumlu senaryoyu fiyatladığını gösteriyor."
+    "yorum": "İleri F/K 18.4 ve Rule of 40 skoru 56 göz önüne alındığında çarpanlar büyüme kalitesiyle kabaca makul görünüyor; ancak Fiyat/FCF 35.2 ve FD/Satış 7.5 sınırlı güvenlik marjına işaret ederek hata payını düşürüyor."
    }
   ],
   "concept": {
-   "title": "FCF Dönüşüm Oranı (FCF Conversion)",
-   "body": "FCF dönüşüm oranı, net kârın ne kadarının gerçek serbest nakit akışına dönüştüğünü ölçer; 1×'in üzeri kaliteli, altı ise yüksek sermaye gereksinimi veya çalışma sermayesi baskısına işaret eder. Meta'da bu oran 0.68× olup AI veri merkezi yatırımlarının nakit akışını net kârın gerisinde tuttuğunu, ancak bu harcamaların ileriye dönük büyüme kapasitesi oluşturduğunu gösteriyor."
+   "title": "Rule of 40 (40 Kuralı)",
+   "body": "Yazılım ve teknoloji şirketlerini değerlendirmede kullanılan bu kural; gelir büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ı geçmesi durumunda şirketin sağlıklı büyüme-kârlılık dengesi kurduğunu öne sürer. Meta'nın 56 puanlık Rule of 40 skoru, %33 büyüme ile %23 FCF marjının birleşiminden geliyor ve sektörün en güçlü large-cap değerlerinden biri olduğunu sayısal olarak destekliyor."
   }
  }
 }

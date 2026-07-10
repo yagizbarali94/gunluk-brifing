@@ -1,7 +1,7 @@
 {
  "date": "2026-07-10",
  "slot": "upcoming",
- "generated_at": "2026-07-10T21:42:55+00:00",
+ "generated_at": "2026-07-10T21:56:58+00:00",
  "mock": false,
  "ticker": "TSM",
  "company": {
@@ -281,28 +281,28 @@
  },
  "news": [
   {
-   "headline_tr": "Ken Griffin, TSMC çiplerini kaybetmenin 'Büyük Buhran'a yol açabileceği uyarısında bulundu; çiplerin her yüksek teknoloji ürününde yer aldığını vurguladı.",
+   "headline_tr": "Ken Griffin, TSMC çiplerini kaybetmenin 'Büyük Buhran' tetikleyebileceği uyarısında bulundu; şirketin her yüksek kaliteli üründe yer aldığını vurguladı.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/markets/equities/26/07/60376976/ken-griffin-warns-losing-tsmc-chips-could-trigger-a-great-depression-theyre-in-every-high-end-product",
    "sentiment": "pos"
   },
   {
-   "headline_tr": "Futurum analisti, Nvidia, AMD, Apple ve Broadcom'un tamamının TSMC'ye bağımlı olduğunu açıkladı; her yapay zeka token'ının TSMC'ye 'görünmez bir telif' ödediğini belirtti.",
+   "headline_tr": "Futurum analisti, Nvidia, AMD, Apple ve Broadcom'un tamamının TSMC'ye bağımlı olduğunu açıkladı; 'Her token görünmez bir royalty öder' ifadesini kullandı.",
    "source": "benzinga",
    "published": "2026-07-09",
    "url": "https://www.benzinga.com/markets/tech/26/07/60350514/futurums-shay-boloor-explains-why-nvidia-amd-apple-and-broadcom-all-depend-on-tsmc-every-token-ultimately-pays-an-invisible-royalty",
    "sentiment": "pos"
   },
   {
-   "headline_tr": "Teknoloji hisse senedi volatilitesi 23 yılın en yüksek seviyesine ulaştı; Nasdaq salınımları S&P 500'ü aştı.",
+   "headline_tr": "Teknoloji hisselerinde volatilite 23 yılın zirvesine ulaştı; Nasdaq salınımları S&P 500'ü aştı ve sektördeki kısa vadeli belirsizliği artırdı.",
    "source": "benzinga",
    "published": "2026-07-09",
    "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Apple'ın ardından Intel de 'piyasa dinamiklerini' gerekçe göstererek çip fiyatlarını 50 dolara kadar artırdı.",
+   "headline_tr": "Apple'ın ardından Intel de çip fiyatlarını 50 dolara kadar artırdı; sektörde genel fiyatlama gücünün yükseldiğine işaret ediyor.",
    "source": "benzinga",
    "published": "2026-07-06",
    "url": "https://www.benzinga.com/markets/equities/26/07/60273487/after-apple-intel-raises-chip-prices-by-up-to-50-citing-market-dynamics",
@@ -310,43 +310,43 @@
   }
  ],
  "ai": {
-  "about": "TSMC, dünyanın en büyük sözleşmeli çip üreticisidir; Apple, Nvidia, AMD, Broadcom gibi fabrikasız tasarım şirketlerinin tasarladığı yarı iletkenleri 3nm ve 2nm gibi ileri süreç teknolojileriyle üretir. Gelirini üretim hizmeti ücretleri üzerinden, teknoloji düzeyi ve hacme göre belirlenen wafer fiyatlarıyla kazanır.",
-  "note": "TSMC'nin brüt marjının son beş çeyrekte %58.8'den %66.2'ye, faaliyet marjının %48.5'ten %58.1'e yükselmesi; artan yapay zeka çip talebinin fiyatlama gücüne dönüştüğünü ve geçici olmadığını gösteriyor. Sekiz ardışık beklenti üstü performans, yönetimin öngörü kalitesinin yüksekliğini kanıtlarken ROIC'in %27.7 seviyesinde seyretmesi sermayenin son derece verimli kullanıldığına işaret ediyor. 3-5 yıllık ufukta yapay zeka hızlandırıcı, edge AI ve gelişmiş paketleme talebi şirketin teknoloji liderliğini sürdürdüğü sürece bu marj kaldıracını besleyecek.",
-  "counter": "Jeopolitik en büyük varoluşsal risktir: Taiwan üzerinde artan gerilim ya da ABD-Çin çatışması TSMC'nin üretim altyapısını kesintiye uğratabilir ve hiçbir finansal metrik bu senaryoya karşı tam bir kalkan sağlayamaz. Arizona ve Japonya fabrikaları riskten çeşitlendirme yaratsa da maliyet yapısı ve verim oranları hâlâ Tayvan'ın gerisinde kalmaktadır.",
+  "about": "TSMC (Taiwan Semiconductor Manufacturing), dünyanın en büyük sözleşmeli çip üreticisidir; Apple, Nvidia, AMD, Broadcom ve Qualcomm gibi fabrikasız tasarım şirketleri için ileri teknoloji yarı iletkenler üretir. Şirket, müşterilerinden üretim hizmeti bedeli alarak para kazanır ve gelirinin büyük bölümü 3nm/5nm gibi en gelişmiş süreç teknolojilerinden gelir.",
+  "note": "TSMC'nin iş modeli, ölçek ekonomisi ve teknoloji liderliğinin oluşturduğu derin bir ekonomik hendekle korunmaktadır; beş çeyreklik kesintisiz gelir büyümesi ve marj genişlemesi bu tezin güçlendiğini göstermektedir. Brüt marjın %58'den %66'ya, faaliyet marjının %58'e yükselmesi fiyatlama gücünün somut kanıtıdır ve yapay zeka altyapısına olan talep arttıkça TSMC bu değer zincirinde 'zorunlu geçiş noktası' konumunu pekiştirmektedir. 3-5 yıllık perspektiften bakıldığında, CoWoS ve N2/A16 süreç teknolojisine yapılan CapEx yatırımları gelecek nesil büyümeyi destekliyor; ancak yüksek sermaye yoğunluğu ve jeopolitik bağımlılık tezi karmaşıklaştırmaktadır.",
+  "counter": "Taiwan Boğazı'nda jeopolitik gerilim, üretimin tek bir coğrafyada yoğunlaşmasından kaynaklanan varoluşsal riski canlı tutmaktadır. ABD (Arizona) ve Japonya (Kumamoto) fabrikalarının maliyet yapısı anakaradaki tesislerden belirgin biçimde yüksek olduğundan, coğrafi çeşitlendirme uzun vadede marj baskısı yaratabilir.",
   "watch": [
-   "2nm süreç teknolojisinin verim oranları ve müşteri benimseme hızı: teknoloji liderliği ile fiyatlama gücünün sürdürülebilirliğini belirleyecek",
-   "Sermaye harcamalarının FCF dönüşümüne etkisi: yatırım dönemi tamamlandıkça 0.55× olan nakit dönüşüm oranının 0.75-0.80× bandına yükselip yükselemeyeceği"
+   "N2/A16 süreç teknolojisinin kabullenme hızı ve CoWoS kapasitesinin yapay zeka talebini karşılayıp karşılamadığı",
+   "Arizona ve Japonya tesislerinin maliyet yapısı ile konsolide brüt marj üzerindeki etkisi (coğrafi çeşitlendirme maliyeti)"
   ],
   "diagnosis": [
    {
     "baslik": "Büyüme ivmesi",
     "verdict": "guclu",
-    "yorum": "Çeyreklik gelir beş dönemdir kesintisiz yükseliyor; yıllık %35 büyüme ivmesi yapay zeka ve ileri süreç talebinin hızlandığını net biçimde ortaya koyuyor."
+    "yorum": "Çeyreklik gelir beş dönem boyunca $839B'dan $1.134T'ye kesintisiz tırmandı ve yıllık büyüme %35 ile hızlanma eğilimini koruyor."
    },
    {
     "baslik": "Kârlılık ve sermaye getirisi",
     "verdict": "guclu",
-    "yorum": "Brüt marj son çeyrekte 3.9 puan artarak %66.2'ye ulaştı; ROIC %27.7 ve ROE %36.2 ile sermaye tahsisinin yüksek kaliteli olduğunu kanıtlıyor."
+    "yorum": "Brüt marj 1 çeyrekte 3,9 puan artarak %66,2'ye ulaştı; ROIC %27,7 ve ROE %36,2, sermayenin olağanüstü verimli kullanıldığını kanıtlıyor."
    },
    {
     "baslik": "Kazanç kalitesi",
     "verdict": "notr",
-    "yorum": "FCF/net kâr dönüşümü 0.55× ile net kârın oldukça altında seyrediyor; yoğun sermaye harcamalarının (fabrika yatırımları) nakit üretimine baskı uyguladığı görülüyor, ancak hisse seyrelmesi sıfır olması olumlu."
+    "yorum": "FCF/Net kâr dönüşümü 0,55× görece zayıf; bunun temel nedeni yoğun CapEx harcamaları olup seyreltme sıfır olması olumlu, fakat nakit kalitesi kâr büyümesinin gerisinde kalıyor."
    },
    {
     "baslik": "Bilanço sağlığı",
     "verdict": "guclu",
-    "yorum": "1.94 trilyon TWD net nakit pozisyonu, büyük ölçekli yatırımlar sürerken bile güçlü finansal esneklik ve stres senaryolarına karşı kalın bir tampon sağlıyor."
+    "yorum": "$1,94T net nakit pozisyonu şirkete hem yoğun yatırım döngülerini finanse etme hem de olası şoklara karşı güçlü bir tampon sağlıyor."
    },
    {
     "baslik": "Değerleme",
     "verdict": "guclu",
-    "yorum": "İleri F/K 21.4, Fiyat/FCF 2.2 ve FD/Satış 3.9; %35 büyüme, %66 brüt marj ve sekiz ardışık beklenti üstü performans ile kıyaslandığında çarpanlar hâlâ makul hatta cazip görünüyor."
+    "yorum": "İleri F/K 21,4 ve Fiyat/FCF 2,2, %35 gelir büyümesi ile %66 brüt marj kalitesi göz önüne alındığında makul hatta cazip; FD/Satış 3,9 sektördeki liderlik primine karşın aşırı değil."
    }
   ],
   "concept": {
-   "title": "Fabless-Foundry Modeli ve 'Görünmez Telif' (Invisible Royalty)",
-   "body": "Fabless model, çip tasarımını üretimden ayırır; Nvidia ve Apple gibi şirketler tasarımı yapar, TSMC üretir. Bu yapıda TSMC, hangi marka çip satılırsa satılsın her üretim sürecinden sabit bir 'görünmez telif' alır — yapay zeka harcamaları arttıkça son kullanıcı ne kadar öderse ödesin TSMC'nin wafer geliri otomatik büyür."
+   "title": "Fabless-Foundry Modeli ve Zorunlu Geçiş Noktası Ekonomisi",
+   "body": "Fabless modelde çip tasarım şirketleri (Nvidia, Apple vb.) üretim yapmaz; tüm üretimi TSMC gibi foundrylara dışarıdan yaptırır. Bu yapı TSMC'yi tüm sektörün geçmek zorunda olduğu tek kapı haline getirir; Ken Griffin'in 'Her yüksek kaliteli ürün TSMC çipi içerir' sözü bu zorunlu geçiş noktası ekonomisini özetler ve şirkete rakipsiz fiyatlama gücü sağlar."
   }
  }
 }
