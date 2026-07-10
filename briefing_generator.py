@@ -2,11 +2,16 @@
 """
 Günlük Şirket Brifingi — üretici script
 =======================================
-Her sabah cron tarafından çalıştırılır. Akış:
-  1. Hisse seç (bilanço açıklayan > yaklaşan bilanço (7 gün) > büyük hareket > rotasyon)
+Her sabah cron tarafından çalıştırılır. Her gün 2 hisseye bakar — iki bağımsız slot:
+  - "upcoming": bilançosuna en fazla 7 gün kalan, en yakın tarihli hisse
+  - "reported": son 2 gün içinde bilanço açıklamış hisse
+  Her slot kendi doğal adayını bulamazsa büyük hareket > rotasyona düşer; iki slot
+  asla aynı hisseyi seçmez (select_tickers()).
+Akış (her slot için ayrı ayrı):
+  1. Hisse seç
   2. yfinance'ten finansallar + Alpaca'dan haberler
   3. Claude API ile Türkçe yorum, karşı argüman, günün kavramı
-  4. site/briefings/YYYY-MM-DD.json + manifest.json yaz
+  4. site/briefings/YYYY-MM-DD-<slot>.json + manifest.json yaz
 
 Kullanım:
   python3 briefing_generator.py                 # normal (gerçek veri)
@@ -97,14 +102,17 @@ def pct_str(x, signed=True, decimals=0):
 # 1) HİSSE SEÇİMİ
 # ----------------------------------------------------------------------
 
-def select_ticker(state):
-    """Öncelik: son 2 günde bilanço > önümüzdeki 7 günde bilanço > |%4+| hareket > rotasyon."""
+def _scan_earnings():
+    """Watchlist'i tek geçişte tarar.
+    reported: watchlist sırasıyla, son EARNINGS_LOOKBACK_DAYS gün içinde bilanço
+      açıklayanlar (delta, ticker, tarih).
+    upcoming: önümüzdeki EARNINGS_UPCOMING_DAYS gün içinde bilanço açıklayacaklar,
+      en yakın tarihliden başlayarak sıralı (days_until, ticker, tarih).
+    """
     import yfinance as yf
 
     today = datetime.now(timezone.utc).date()
-    upcoming = None  # (ticker, days_until, date) — pencere içindeki en yakın bilanço
-
-    # (a) Yakın zamanda bilanço açıklayan var mı? (yol boyunca yaklaşan bilançoları da topla)
+    reported, upcoming = [], []
     for t in config.WATCHLIST:
         try:
             ed = yf.Ticker(t).get_earnings_dates(limit=8)
@@ -114,34 +122,28 @@ def select_ticker(state):
                 dd = d.date()
                 delta = (today - dd).days
                 if 0 <= delta <= config.EARNINGS_LOOKBACK_DAYS:
-                    log(f"Seçim: {t} — {dd} tarihinde bilanço açıkladı")
-                    return t, {"reason_code": "earnings",
-                               "text": ("Bugün bilanço açıkladı" if delta == 0
-                                        else "Dün bilanço açıkladı" if delta == 1
-                                        else f"{delta} gün önce bilanço açıkladı")}
+                    reported.append((delta, t, dd))
                 days_until = -delta
                 if 0 < days_until <= config.EARNINGS_UPCOMING_DAYS:
-                    if upcoming is None or days_until < upcoming[1]:
-                        upcoming = (t, days_until, dd)
+                    upcoming.append((days_until, t, dd))
             time.sleep(0.3)
         except Exception as e:
             log(f"  bilanço kontrolü atlandı ({t}): {e}")
 
-    # (b) Yaklaşan bilanço var mı? (7 gün içinde — beklentileri önceden incele)
-    if upcoming:
-        t, days_until, dd = upcoming
-        log(f"Seçim: {t} — {dd} tarihinde bilanço açıklayacak ({days_until} gün kaldı)")
-        kalan = "yarın" if days_until == 1 else f"{days_until} gün sonra"
-        return t, {"reason_code": "upcoming_earnings",
-                   "text": f"Bilanço {kalan} açıklanacak — beklentileri incele"}
+    upcoming.sort(key=lambda c: c[0])
+    return reported, upcoming
 
-    # (c) Büyük fiyat hareketi var mı? (tek toplu istek)
+
+def _mover_or_rotation(state, exclude=()):
+    """Eski zincirin geri kalanı: büyük hareket > rotasyon. exclude'daki hisseleri atlar."""
+    import yfinance as yf
+
     try:
         data = yf.download(config.WATCHLIST, period="5d", progress=False,
                            auto_adjust=True)["Close"].dropna(how="all")
         if len(data) >= 2:
             chg = (data.iloc[-1] / data.iloc[-2] - 1.0) * 100.0
-            chg = chg.dropna()
+            chg = chg.dropna().drop(index=[t for t in exclude if t in chg.index])
             if not chg.empty:
                 top = chg.abs().idxmax()
                 if abs(chg[top]) >= config.MOVER_THRESHOLD_PCT:
@@ -152,12 +154,59 @@ def select_ticker(state):
     except Exception as e:
         log(f"  hareket taraması atlandı: {e}")
 
-    # (d) Rotasyon
-    idx = (state.get("last_index", -1) + 1) % len(config.WATCHLIST)
-    t = config.WATCHLIST[idx]
-    state["last_index"] = idx
-    log(f"Seçim: {t} — sıralı rotasyon ({idx + 1}/{len(config.WATCHLIST)})")
-    return t, {"reason_code": "rotation", "text": "Sıralı rotasyon — düzenli check-up"}
+    idx = state.get("last_index", -1)
+    for _ in range(len(config.WATCHLIST)):
+        idx = (idx + 1) % len(config.WATCHLIST)
+        t = config.WATCHLIST[idx]
+        if t not in exclude:
+            state["last_index"] = idx
+            log(f"Seçim: {t} — sıralı rotasyon ({idx + 1}/{len(config.WATCHLIST)})")
+            return t, {"reason_code": "rotation", "text": "Sıralı rotasyon — düzenli check-up"}
+    # watchlist'in tamamı exclude ise (pratikte olmaz) ilk elemana düş
+    return config.WATCHLIST[0], {"reason_code": "rotation", "text": "Sıralı rotasyon — düzenli check-up"}
+
+
+def select_tickers(state):
+    """Günde 2 hisse seçer — bağımsız iki slot:
+      upcoming: önümüzdeki 7 gün içinde bilanço açıklayacak, en yakın tarihli olan.
+      reported: son 2 gün içinde bilanço açıklamış olan.
+    Her ikisi de doğal aday bulamazsa eski zincire (büyük hareket > rotasyon) düşer.
+    İki slot da asla aynı hisseyi seçmez.
+    """
+    reported_list, upcoming_list = _scan_earnings()
+
+    reported_pick = None
+    if reported_list:
+        delta, t, dd = reported_list[0]
+        log(f"Seçim (yeni açıklanan): {t} — {dd} tarihinde bilanço açıkladı")
+        reported_pick = (t, {"reason_code": "earnings",
+                             "text": ("Bugün bilanço açıkladı" if delta == 0
+                                      else "Dün bilanço açıkladı" if delta == 1
+                                      else f"{delta} gün önce bilanço açıkladı")})
+
+    upcoming_pick = None
+    reported_ticker = reported_pick[0] if reported_pick else None
+    for days_until, t, dd in upcoming_list:
+        if t == reported_ticker:
+            continue
+        log(f"Seçim (yaklaşan): {t} — {dd} tarihinde bilanço açıklayacak ({days_until} gün kaldı)")
+        kalan = "yarın" if days_until == 1 else f"{days_until} gün sonra"
+        upcoming_pick = (t, {"reason_code": "upcoming_earnings",
+                             "text": f"Bilanço {kalan} açıklanacak — beklentileri incele"})
+        break
+
+    if upcoming_pick is None:
+        exclude = {reported_ticker} if reported_ticker else set()
+        upcoming_pick = _mover_or_rotation(state, exclude=exclude)
+
+    if reported_pick is None:
+        exclude = {upcoming_pick[0]}
+        reported_pick = _mover_or_rotation(state, exclude=exclude)
+
+    return [
+        {"slot": "upcoming", "ticker": upcoming_pick[0], "why": upcoming_pick[1]},
+        {"slot": "reported", "ticker": reported_pick[0], "why": reported_pick[1]},
+    ]
 
 
 # ----------------------------------------------------------------------
@@ -541,10 +590,13 @@ def metrics_text(f, m):
 # 5) ÇIKTI
 # ----------------------------------------------------------------------
 
-def write_output(date_str, doc):
+def write_output(date_str, slot, doc):
+    """slot=None -> eski tekli davranış (dosya: YYYY-MM-DD.json, geriye dönük uyum).
+    slot='upcoming'/'reported' -> dosya: YYYY-MM-DD-<slot>.json, günde 2 kayıt."""
+    file_id = date_str if slot is None else f"{date_str}-{slot}"
     bdir = os.path.join(BASE_DIR, config.BRIEFINGS_DIR)
     os.makedirs(bdir, exist_ok=True)
-    with open(os.path.join(bdir, f"{date_str}.json"), "w", encoding="utf-8") as fp:
+    with open(os.path.join(bdir, f"{file_id}.json"), "w", encoding="utf-8") as fp:
         json.dump(doc, fp, ensure_ascii=False, indent=1)
 
     mpath = os.path.join(bdir, "manifest.json")
@@ -552,13 +604,16 @@ def write_output(date_str, doc):
     if os.path.exists(mpath):
         with open(mpath, encoding="utf-8") as fp:
             manifest = json.load(fp)
-    manifest = [e for e in manifest if e["date"] != date_str]
-    manifest.insert(0, {"date": date_str, "ticker": doc["ticker"],
-                        "name": doc["company"]["name"]})
-    manifest.sort(key=lambda e: e["date"], reverse=True)
+    manifest = [e for e in manifest if e.get("id", e.get("date")) != file_id]
+    entry = {"id": file_id, "date": date_str, "ticker": doc["ticker"],
+             "name": doc["company"]["name"]}
+    if slot:
+        entry["slot"] = slot
+    manifest.insert(0, entry)
+    manifest.sort(key=lambda e: (e["date"], e.get("slot", "")), reverse=True)
     with open(mpath, "w", encoding="utf-8") as fp:
         json.dump(manifest, fp, ensure_ascii=False, indent=1)
-    log(f"Yazıldı: briefings/{date_str}.json (manifest: {len(manifest)} gün)")
+    log(f"Yazıldı: briefings/{file_id}.json (manifest: {len(manifest)} kayıt)")
 
 
 # ----------------------------------------------------------------------
@@ -632,35 +687,15 @@ def mock_doc(ticker, date_str):
 # ANA AKIŞ
 # ----------------------------------------------------------------------
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--ticker", help="Hisseyi elle seç (seçim mantığını atlar)")
-    ap.add_argument("--mock", metavar="TICKER", help="Ağ kullanmadan temsili veri üret")
-    ap.add_argument("--date", help="YYYY-MM-DD (varsayılan: bugün)")
-    args = ap.parse_args()
-
-    date_str = args.date or datetime.now().strftime("%Y-%m-%d")
-
-    if args.mock:
-        log(f"MOCK mod: {args.mock} / {date_str}")
-        write_output(date_str, mock_doc(args.mock.upper(), date_str))
-        return
-
-    state = load_state()
-    if args.ticker:
-        ticker, why = args.ticker.upper(), {"reason_code": "manual", "text": "Elle seçildi"}
-    else:
-        ticker, why = select_ticker(state)
-    state["last_ticker"] = ticker
-
-    log(f"Veri çekiliyor: {ticker}")
+def generate_for_ticker(ticker, why, date_str, ref_date, slot=None):
+    """Tek bir hisse için tüm veri toplama + Claude yorumu + JSON çıktı akışı."""
+    log(f"Veri çekiliyor: {ticker}" + (f" [{slot}]" if slot else ""))
     f = fetch_financials(ticker)
     news_raw = fetch_news(ticker)
     m = build_metrics(f)
 
     news_lines = "\n".join(f"{i}. [{n['source']} {n['published']}] {n['headline']}"
                            for i, n in enumerate(news_raw))
-    ref_date = datetime.fromisoformat(date_str).date()
     ai = call_claude(metrics_text(f, m), news_lines,
                      {"name": f["name"], "ticker": ticker, "sector": f["sector"],
                       "date": date_str, "why": why["text"]})
@@ -690,6 +725,7 @@ def main():
 
     doc = {
         "date": date_str,
+        "slot": slot,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "mock": False,
         "ticker": ticker,
@@ -709,7 +745,40 @@ def main():
                       "concept": ai.get("concept", {})} or None,
     }
 
-    write_output(date_str, doc)
+    write_output(date_str, slot, doc)
+    return ticker
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ticker", help="Hisseyi elle seç (otomatik iki-hisse seçimini atlar)")
+    ap.add_argument("--mock", metavar="TICKER", help="Ağ kullanmadan temsili veri üret")
+    ap.add_argument("--date", help="YYYY-MM-DD (varsayılan: bugün)")
+    args = ap.parse_args()
+
+    date_str = args.date or datetime.now().strftime("%Y-%m-%d")
+    ref_date = datetime.fromisoformat(date_str).date()
+
+    if args.mock:
+        log(f"MOCK mod: {args.mock} / {date_str}")
+        write_output(date_str, None, mock_doc(args.mock.upper(), date_str))
+        return
+
+    state = load_state()
+
+    if args.ticker:
+        ticker = args.ticker.upper()
+        why = {"reason_code": "manual", "text": "Elle seçildi"}
+        generate_for_ticker(ticker, why, date_str, ref_date, slot=None)
+        state["last_ticker"] = ticker
+        save_state(state)
+        log("Tamamlandı.")
+        return
+
+    picks = select_tickers(state)
+    for p in picks:
+        generate_for_ticker(p["ticker"], p["why"], date_str, ref_date, slot=p["slot"])
+    state["last_ticker"] = [p["ticker"] for p in picks]
     save_state(state)
     log("Tamamlandı.")
 

@@ -160,6 +160,8 @@ td.mdot { width: 8%; text-align: right; }
 <div class="filter-bar">
   <label for="daySelect">Gün:</label>
   <select id="daySelect"></select>
+  <label for="slotSelect" id="slotLabel" style="display:none">Odak:</label>
+  <select id="slotSelect" style="display:none"></select>
   <span class="filter-note">kaynaklar: yfinance · Alpaca News · Claude</span>
 </div>
 
@@ -264,6 +266,7 @@ function render(d) {
   h += '<div class="card"><div class="hero">'
      + '<div><div class="ticker">' + esc(d.ticker)
      + ' <span class="cname">' + esc(d.company.name) + ' · ' + esc(d.company.sector) + (d.company.industry ? ' · ' + esc(d.company.industry) : '') + '</span></div>'
+     + (d.slot ? '<span class="why-badge" style="margin-right:8px">' + esc(SLOT_LABELS[d.slot] || d.slot) + '</span>' : '')
      + '<span class="why-badge">Neden bugün: ' + esc(d.why_today.text) + '</span></div>'
      + '<div><div class="price">' + (d.price.last != null ? '$' + d.price.last.toFixed(2) : '—') + '</div>'
      + '<div class="chg ' + chgCls + '">' + chgTxt + '</div></div>'
@@ -359,14 +362,17 @@ function render(d) {
     ' · Yağız\u0027ın brifing sistemi';
 }
 
-function loadDay(date, push) {
-  fetch('briefings/' + date + '.json')
+var SLOT_LABELS = { upcoming: '🔭 Yaklaşan bilanço', reported: '📣 Yeni açıklanan' };
+
+function loadDay(id, push) {
+  fetch('briefings/' + id + '.json')
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
       render(d);
       if (push) {
         var u = new URL(location.href);
-        u.searchParams.set('date', date);
+        u.searchParams.set('b', id);
+        u.searchParams.delete('date');
         history.replaceState(null, '', u);
       }
     })
@@ -379,23 +385,65 @@ function loadDay(date, push) {
 fetch('briefings/manifest.json')
   .then(function (r) { return r.json(); })
   .then(function (manifest) {
-    var sel = document.getElementById('daySelect');
+    var byDate = {};
     manifest.forEach(function (e) {
-      var o = document.createElement('option');
-      o.value = e.date;
-      o.textContent = trDate(e.date) + ' · ' + e.ticker;
-      sel.appendChild(o);
+      e.id = e.id || e.date;
+      (byDate[e.date] = byDate[e.date] || []).push(e);
     });
-    var want = new URLSearchParams(location.search).get('date');
-    var start = manifest.some(function (e) { return e.date === want; }) ? want
-              : (manifest[0] ? manifest[0].date : null);
-    if (!start) {
+    var dates = Object.keys(byDate).sort().reverse();
+    if (!dates.length) {
       document.getElementById('app').innerHTML = '<div class="err">Henüz brifing üretilmemiş.</div>';
       return;
     }
-    sel.value = start;
-    sel.addEventListener('change', function () { loadDay(sel.value, true); });
-    loadDay(start, false);
+
+    var daySel = document.getElementById('daySelect');
+    var slotSel = document.getElementById('slotSelect');
+    var slotLabel = document.getElementById('slotLabel');
+    dates.forEach(function (d) {
+      var o = document.createElement('option');
+      o.value = d; o.textContent = trDate(d);
+      daySel.appendChild(o);
+    });
+
+    function populateSlots(date, preferId) {
+      var entries = byDate[date] || [];
+      slotSel.innerHTML = '';
+      if (entries.length <= 1) {
+        slotSel.style.display = 'none';
+        slotLabel.style.display = 'none';
+        return entries[0];
+      }
+      slotSel.style.display = '';
+      slotLabel.style.display = '';
+      entries.forEach(function (e) {
+        var o = document.createElement('option');
+        o.value = e.id;
+        o.textContent = (SLOT_LABELS[e.slot] || e.slot || 'Brifing') + ' · ' + e.ticker;
+        slotSel.appendChild(o);
+      });
+      var match = entries.filter(function (e) { return e.id === preferId; })[0];
+      slotSel.value = (match || entries[0]).id;
+      return match || entries[0];
+    }
+
+    var qp = new URLSearchParams(location.search);
+    var wantId = qp.get('b') || qp.get('date');
+    var wantDate = null;
+    manifest.forEach(function (e) { if (e.id === wantId) wantDate = e.date; });
+    if (!wantDate && byDate[wantId]) wantDate = wantId; // eski ?date=YYYY-MM-DD linkleri
+    var startDate = dates.indexOf(wantDate) >= 0 ? wantDate : dates[0];
+
+    daySel.value = startDate;
+    var startEntry = populateSlots(startDate, wantId);
+    loadDay(startEntry.id, false);
+
+    daySel.addEventListener('change', function () {
+      var entry = populateSlots(daySel.value, null);
+      loadDay(entry.id, true);
+    });
+    slotSel.addEventListener('change', function () {
+      loadDay(slotSel.value, true);
+    });
   })
   .catch(function () {
     document.getElementById('app').innerHTML = '<div class="err">manifest.json okunamadı.</div>';

@@ -1,10 +1,12 @@
 # Günlük Şirket Brifingi
 
-Her sabah watchlist'ten bir hisse seçer (bilanço açıklayan > önümüzdeki 7 günde
-bilanço açıklayacak > büyük hareket eden > rotasyondaki sıradaki), yfinance +
-Alpaca News'ten veriyi toplar, Claude'a Türkçe
-yorum yazdırır ve sonucu `site/briefings/` altına JSON olarak işler. Netlify bu
-depoya bağlı olduğu için her commit otomatik yayınlanır:
+Her sabah watchlist'ten **2 hisse** seçer — biri bilançosuna en fazla 7 gün kalan
+(beklentileri önceden incelemek için), diğeri son 2 gün içinde bilanço açıklamış
+olan. İkisi de doğal aday bulamazsa büyük hareket eden > rotasyondaki sıradaki
+hisseye düşer; iki slot asla aynı hisseyi seçmez. Her hisse için yfinance +
+Alpaca News'ten veri toplanır, Claude'a Türkçe yorum yazdırılır ve sonuç
+`site/briefings/` altına JSON olarak işlenir. Netlify bu depoya bağlı olduğu
+için her commit otomatik yayınlanır:
 
 **Canlı site:** https://gunluk-brifing.netlify.app
 
@@ -12,11 +14,16 @@ depoya bağlı olduğu için her commit otomatik yayınlanır:
 
 1. GitHub Actions, hafta içi her sabah ~08:45'te (İstanbul) `brifing.yml`
    workflow'unu çalıştırır — `05:45 UTC` (Türkiye yıl boyu UTC+3).
-2. Workflow `briefing_generator.py`'yi çalıştırır: hisse seçimi → yfinance
+2. Workflow `briefing_generator.py`'yi çalıştırır: 2 hisse seçilir (yaklaşan
+   bilanço + yeni açıklanan bilanço slotları) → her biri için yfinance
    finansalları → Alpaca haberleri → Claude yorumu.
-3. Üretilen `site/briefings/YYYY-MM-DD.json`, güncellenen `manifest.json` ve
+3. Üretilen `site/briefings/YYYY-MM-DD-upcoming.json` ve
+   `site/briefings/YYYY-MM-DD-reported.json`, güncellenen `manifest.json` ve
    rotasyon durumunu tutan `state.json` depoya commit'lenir.
 4. Netlify push'u görür, `site/` klasörünü yayınlar. Bitti.
+5. Sitede "Gün" seçicisinin yanındaki **Odak** filtresiyle o günün hangi
+   brifingini (yaklaşan bilanço mu, yeni açıklanan mı) görmek istediğini
+   seçebilirsin.
 
 Not: GitHub'ın zamanlayıcısı dakikası dakikasına değildir; 08:45 yerine
 08:50–09:00 arası normaldir.
@@ -34,7 +41,8 @@ Netlify token'ı **gerekmez** — yayın, Netlify'ın depo bağlantısı üzerin
 ## Elle tetikleme / test
 
 Actions sekmesi → **Günlük brifing** → **Run workflow**. İstersen `ticker`
-kutusuna hisse yazarak seçimi elle yapabilirsin (boş bırakırsan otomatik seçer).
+kutusuna hisse yazarak seçimi elle yapabilirsin (boş bırakırsan otomatik 2 hisse
+seçer). Elle seçimde tek brifing üretilir, iki slotlu otomatik akış atlanır.
 
 ## Ayarlar
 
