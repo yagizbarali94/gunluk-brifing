@@ -1,22 +1,22 @@
 {
  "date": "2026-07-10",
  "slot": "reported",
- "generated_at": "2026-07-10T18:58:18+00:00",
+ "generated_at": "2026-07-10T19:20:38+00:00",
  "mock": false,
- "ticker": "CRWD",
+ "ticker": "MDB",
  "company": {
-  "name": "CrowdStrike Holdings, Inc.",
+  "name": "MongoDB, Inc.",
   "sector": "Technology",
   "industry": "Software - Infrastructure",
-  "market_cap": 190442799104
+  "market_cap": 27578097664
  },
  "why_today": {
   "reason_code": "mover",
-  "text": "Dün %5.7 düştü — büyük hareket"
+  "text": "Dün %5.6 düştü — büyük hareket"
  },
  "price": {
-  "last": 187.03,
-  "change_pct": -5.53
+  "last": 342.88,
+  "change_pct": -5.32
  },
  "earnings_calendar": {
   "last_date": null,
@@ -29,8 +29,8 @@
  "kpi": [
   {
    "label": "Gelir (çeyrek)",
-   "value": "$1.4B",
-   "sub": "+%26 y/y",
+   "value": "$688M",
+   "sub": "+%25 y/y",
    "tone": "pos"
   },
   {
@@ -41,14 +41,14 @@
   },
   {
    "label": "Brüt marj",
-   "value": "%75.3",
-   "sub": "-0.8 puan ç/ç",
+   "value": "%72.2",
+   "sub": "-0.9 puan ç/ç",
    "tone": "neg"
   },
   {
    "label": "Serbest nakit akışı",
-   "value": "$471M",
-   "sub": "marj %34",
+   "value": "$199M",
+   "sub": "marj %29",
    "tone": "pos"
   }
  ],
@@ -61,14 +61,14 @@
     "rows": [
      {
       "metric": "Gelir",
-      "value": "$1.4B",
-      "note": "+%26 y/y",
+      "value": "$688M",
+      "note": "+%25 y/y",
       "tone": "green"
      },
      {
       "metric": "Net kâr",
-      "value": "$28M",
-      "note": "-%127 y/y",
+      "value": "$4M",
+      "note": "-%112 y/y",
       "tone": "amber"
      },
      {
@@ -84,14 +84,14 @@
     "rows": [
      {
       "metric": "Brüt marj",
-      "value": "%75.3",
-      "note": "-0.8 puan ç/ç",
+      "value": "%72.2",
+      "note": "-0.9 puan ç/ç",
       "tone": "amber"
      },
      {
       "metric": "Faaliyet marjı",
-      "value": "%-2.2",
-      "note": "+8.6 puan y/y",
+      "value": "%-3.6",
+      "note": "+6.1 puan y/y",
       "tone": "green"
      }
     ]
@@ -101,13 +101,13 @@
     "rows": [
      {
       "metric": "Serbest nakit akışı",
-      "value": "$471M",
-      "note": "marj %34",
+      "value": "$199M",
+      "note": "marj %29",
       "tone": "green"
      },
      {
       "metric": "Nakit ve benzerleri",
-      "value": "$4.6B",
+      "value": "$1.0B",
       "note": "bilanço kalemi",
       "tone": "gray"
      }
@@ -125,11 +125,11 @@
     "Apr'26"
    ],
    "values": [
-    1.1,
-    1.2,
-    1.2,
-    1.3,
-    1.4
+    0.5,
+    0.6,
+    0.6,
+    0.7,
+    0.7
    ],
    "unit": "$B"
   },
@@ -142,56 +142,42 @@
     "Apr'26"
    ],
    "values": [
-    73.9,
-    73.5,
-    75.1,
-    76.1,
-    75.3
+    71.2,
+    71.0,
+    71.5,
+    73.0,
+    72.2
    ],
    "unit": "%"
   }
  },
  "news": [
   {
-   "headline_tr": "Needham, CRWD için Al tavsiyesini korurken fiyat hedefini 235 dolara indirdi.",
+   "headline_tr": "Needham, MongoDB için Satın Al tavsiyesini koruyarak hedef fiyatı 430 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/news/26/07/60379317/needham-maintains-buy-mongodb-raises-price-target-430",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Truist Securities de Satın Al görüşünü sürdürerek hedef fiyatı 400 dolara çıkardı.",
    "source": "benzinga",
    "published": "2026-07-09",
-   "url": "https://www.benzinga.com/news/26/07/60353434/needham-maintains-buy-crowdstrike-holdings-lowers-price-target-235",
-   "sentiment": "neu"
-  },
-  {
-   "headline_tr": "Benchmark de Al tavsiyesini sürdürerek fiyat hedefini 230 dolara düşürdü.",
-   "source": "benzinga",
-   "published": "2026-07-08",
-   "url": "https://www.benzinga.com/news/26/07/60328894/benchmark-maintains-buy-crowdstrike-holdings-lowers-price-target-230",
-   "sentiment": "neu"
-  },
-  {
-   "headline_tr": "Morgan Stanley Overweight tavsiyesini korusa da fiyat hedefini 172 dolara belirgin biçimde indirdi; en düşük hedef veren kurum oldu.",
-   "source": "benzinga",
-   "published": "2026-07-07",
-   "url": "https://www.benzinga.com/news/26/07/60309016/morgan-stanley-maintains-overweight-crowdstrike-holdings-lowers-price-target-172",
-   "sentiment": "neg"
-  },
-  {
-   "headline_tr": "Stifel, 4'e-1 hisse bölünmesini yansıtacak şekilde fiyat hedefini 220 dolara ayarladı ve Al tavsiyesini sürdürdü.",
-   "source": "benzinga",
-   "published": "2026-07-07",
-   "url": "https://www.benzinga.com/news/26/07/60317941/stifel-maintains-buy-crowdstrike-holdings-adjusts-price-target-220-reflect-4-1-stock-split",
-   "sentiment": "neu"
+   "url": "https://www.benzinga.com/news/26/07/60357822/truist-securities-maintains-buy-mongodb-raises-price-target-400",
+   "sentiment": "pos"
   }
  ],
  "ai": {
-  "about": "CrowdStrike, bulut tabanlı Falcon platformu aracılığıyla uç nokta güvenliği, tehdit istihbaratı ve siber saldırı önleme hizmetleri sunar. Kurumsal müşterilere abonelik modeliyle satış yapar; gelirinin büyük çoğunluğu yıllık tekrarlayan aboneliklerden (ARR) gelir.",
-  "note": "CrowdStrike'ın tek platform, çoklu modül mimarisi güçlü bir platform moat'ı oluşturuyor; müşteri bir kez entegre olunca geçiş maliyeti yüksek ve çapraz satış fırsatları artıyor. %26 büyüme ve %34 FCF marjının eş zamanlı sürmesi, iş modelinin olgunlaşırken karlılığa döndüğünün sağlam işareti. Ancak Temmuz 2024 küresel kesinti krizinin müşteri güvenine uzun vadeli etkisi ve rekabet yoğunlaşması (Microsoft, SentinelOne) 3-5 yıllık büyüme ivmesini test edecek kritik değişkenler olmaya devam ediyor.",
-  "counter": "Microsoft'un Defender ürün ailesini mevcut kurumsal lisans paketlerine dahil etmesi, CRWD'nin fiyatlama gücünü ve net yeni müşteri kazanım hızını yapısal olarak sıkıştırabilir. Ayrıca 2024 kesintisinin yarattığı itibar hasarı, büyük kamu kurumu ihalelerinde dezavantaj olmayı sürdürebilir.",
+  "about": "MongoDB, doküman tabanlı NoSQL veritabanı yazılımı geliştiren bir bulut veri platformudur. Gelirini ağırlıklı olarak bulut tabanlı Atlas servisi (kullanım bazlı) ve kurumsal lisans abonelikleriyle elde eder; müşteri tabanı start-up'lardan Fortune 500 şirketlerine kadar uzanır.",
+  "note": "Atlas'ın toplam gelir içindeki payının büyümesi ve kullanım bazlı modelin doğal kaldıraç etkisi, uzun vadeli serbest nakit akışı yaratma potansiyelini güçlü kılıyor. %72 brüt marj ve %29 FCF marjının bir arada var olması, iş modelinin henüz tam olarak olgunlaşmadığını ama sağlıklı bir yönde ilerlediğini gösteriyor. Faaliyet zararının devam etmesi kısa vadede bir baskı unsuru olsa da büyüme yatırımlarının geride kalmasıyla marjın yapısal olarak iyileşmesi beklentisi 3-5 yıllık tezi destekliyor.",
+  "counter": "AWS DocumentDB, Google Firestore ve açık kaynak alternatifleri fiyat baskısı yaratmaya devam ediyor; büyük bulut sağlayıcılarının entegre veritabanı çözümleri müşteri edinim maliyetini artırarak Atlas büyümesini yavaşlatabilir. Brüt marjdaki çeyreksel erozyon bu riskin henüz geçmediğini işaret ediyor.",
   "watch": [
-   "Net Yeni ARR büyümesi ve müşteri başına modül sayısı (platform genişlemesinin gerçek göstergesi)",
-   "Brüt marjın toparlanıp toparlanamayacağı — platform yatırımları ile fiyatlama baskısı arasındaki denge"
+   "Atlas gelirinin toplam gelir içindeki payı ve Atlas kullanım büyüme hızı (kullanım bazlı modelin sağlığı)",
+   "Faaliyet marjının pozitife dönme takvimi ve FCF marjı sürdürülebilirliği"
   ],
   "concept": {
-   "title": "Serbest Nakit Akışı (FCF) Marjı ile GAAP Kar Ayrışması",
-   "body": "Bir şirket GAAP bazında zarar açıklarken güçlü FCF üretebilir; bu durumun temel sebebi hisse bazlı ödeme (SBC) ve amortisman gibi nakit çıkışı olmayan giderlerin kârı baskılamasıdır. CrowdStrike'ta tam da bu durum geçerli: Faaliyet marjı %-2.2 iken FCF marjı %34, yani nakit gerçekte kârlı ama muhasebe rakamları yanıltıcı görünüyor."
+   "title": "Kullanım Bazlı Gelir Modeli (Consumption-Based Revenue)",
+   "body": "Kullanım bazlı modelde müşteri önceden sabit lisans ödemez; ne kadar kullanırsa o kadar öder. MongoDB Atlas bu modeli uygular: ekonomi canlandığında gelir organik olarak büyür, durgunlukta ise müşteri harcamaları ani biçimde kısabilir ve bu da gelir görünürlüğünü seat-based aboneliklere kıyasla daha değişken kılar."
   }
  }
 }

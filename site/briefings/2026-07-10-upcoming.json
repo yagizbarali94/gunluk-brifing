@@ -1,22 +1,22 @@
 {
  "date": "2026-07-10",
  "slot": "upcoming",
- "generated_at": "2026-07-10T18:57:49+00:00",
+ "generated_at": "2026-07-10T19:20:15+00:00",
  "mock": false,
  "ticker": "META",
  "company": {
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
   "industry": "Internet Content & Information",
-  "market_cap": 1701403557888
+  "market_cap": 1697469038592
  },
  "why_today": {
   "reason_code": "mover",
-  "text": "Dün %6.1 yükseldi — büyük hareket"
+  "text": "Dün %5.9 yükseldi — büyük hareket"
  },
  "price": {
-  "last": 670.26,
-  "change_pct": 4.75
+  "last": 668.63,
+  "change_pct": 4.5
  },
  "earnings_calendar": {
   "last_date": null,
@@ -157,28 +157,28 @@
  },
  "news": [
   {
-   "headline_tr": "AB, Facebook ve Instagram'daki 'bağımlılık yapan' özellikler nedeniyle Meta'ya milyarlarca euro ceza uygulayabilir.",
+   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yaratan' özelliklerini gerekçe göstererek Meta'ya milyarlarca euro para cezası uygulama sürecini başlattı.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Meta'nın nişan (engagement) odaklı iş modeline yönelik 'günah vergisi' tartışması hisse üzerinde baskı riski oluşturuyor.",
+   "headline_tr": "Meta'nın etkileşim odaklı iş modeline yönelik olası bir 'günah vergisi' düzenlemesi, hisse üzerinde baskı yaratabilecek yeni bir regülatif risk olarak tartışılıyor.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Citizens, Meta için 'piyasa üstü getiri' tavsiyesini korurken fiyat hedefini 800 dolara indirdi.",
+   "headline_tr": "Citizens, Meta için piyasa üstü performans tavsiyesini korurken hedef fiyatı 800 dolara düşürdü.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/news/26/07/60380987/citizens-maintains-market-outperform-meta-platforms-lowers-price-target-800",
    "sentiment": "neu"
   },
   {
-   "headline_tr": "Analistler Meta'yı büyük şirketler arasında en beğenilen hisse olarak öne çıkarmaya devam ediyor.",
+   "headline_tr": "Analistler Meta'yı büyük sermayeli hisseler arasında en beğendikleri seçim olarak öne çıkarmaya devam ediyor ve önemli yukarı potansiyel görüyor.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
@@ -186,16 +186,16 @@
   }
  ],
  "ai": {
-  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işleterek aylık yaklaşık 3,3 milyar kullanıcıya ulaşır. Gelirinin %97'si dijital reklam satışından gelir; küçük bir kısmı ise Reality Labs (VR/AR) segmentinden elde edilir.",
-  "note": "Çeyrek başına %33 gelir büyümesi ve %40,6 faaliyet marjı, Meta'nın reklam teknolojisi altyapısının ve yapay zeka destekli hedefleme motorunun hâlâ güçlü bir ekonomik hendek oluşturduğunu gösteriyor. Reel nakit üretimi ($13,2B FCF) şirkete hem ağırlıklı hisse geri alımı hem de altyapı yatırımı için alan tanıyor; bu da 3-5 yıllık tezde sermaye tahsisini olumlu kılıyor. Ancak FCF marjının (%23) faaliyet marjının (%40,6) oldukça altında kalması, yüksek capex harcamalarının nakit dönüşümünü bastırdığına işaret ediyor — yatırımların getiriye dönüşme hızı kritik olmaya devam edecek.",
-  "counter": "AB'nin 'bağımlılık yapan özellikler' gerekçesiyle uygulamayı düşündüğü milyarlarca dolarlık cezalar ve olası zorunlu ürün değişiklikleri, hem kısa vadeli nakit çıkışına hem de uzun vadeli nişan (engagement) modelinin yapısal tahribatına yol açabilir. Buna ek olarak, kullanıcı dikkatini hedef alan 'günah vergisi' (sin tax) benzeri düzenleyici baskılar reklam eko-sisteminin temel yakıtını — ekran süresini — doğrudan tehdit ediyor.",
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işletir. Gelirinin %98'inden fazlası reklamcılıktan gelir; işletmelere kullanıcı davranışı verisiyle hedeflenmiş dijital reklam hizmeti sunar.",
+  "note": "Meta'nın %81.9 brüt marjı ve %40.6 faaliyet marjı, reklam teknolojisindeki ölçek ekonomisinin ve yapay zeka destekli hedefleme altyapısının gücünü gösteriyor. %33 gelir büyümesi, dijital reklam pazarındaki pazar payı kazanımının sürdüğüne işaret ederken Reality Labs yatırımları ve AI altyapısı harcamaları FCF marjını (yalnızca %23) bastırıyor. Beş yıllık tez şu an için sağlam: 3.35 milyar günlük aktif kullanıcı tabanı ve reklam algoritmasındaki AI avantajı, hendek derinleşmeye devam ediyor.",
+  "counter": "AB'nin 'bağımlılık yaratan özellikler' gerekçesiyle uygulamaya alabileceği milyarlarca euroluk para cezaları ve olası ürün yasakları, sadece finansal değil operasyonel bir tehdit; üstelik benzer regülasyonların küresel ölçekte yayılma riski var. Reklam gelirlerinin tek bir iş modeline bu denli yoğunlaşması, resesyon dönemlerinde veya reklam bütçelerinin yapay zeka destekli alternatif kanallara kayması halinde ciddi kırılganlık yaratır.",
   "watch": [
-   "Reality Labs'ın yıllık zarar büyüklüğü ve AR/VR gelir kırılımı — yatırımın ne zaman ürüne dönüşeceği",
-   "AB ve ABD düzenleyici süreçlerinin somut para cezası veya ürün kısıtlamasına dönüşüp dönüşmediği"
+   "AB dijital düzenleme süreçleri ve DSA/DMA kapsamındaki para cezalarının boyutu — operasyonel sınırlamaya dönüşüp dönüşmeyeceği",
+   "Reality Labs yatırım harcamalarının FCF marjına etkisi ve AR/VR ürünlerinin gelir katkısının anlamlı hale gelip gelmediği"
   ],
   "concept": {
-   "title": "FCF Dönüşüm Oranı (Free Cash Flow Conversion)",
-   "body": "Net kârın ya da faaliyet kârının ne kadarının gerçek nakde döndüğünü ölçer; yüksek capex dönemlerinde bu oran baskılanır. Meta'da faaliyet marjı %40,6 iken FCF marjının %23'te kalması, veri merkezi ve AI altyapısına yapılan ağır sermaye harcamalarının nakit dönüşümünü geçici olarak ezebildiğini somut biçimde gösteriyor."
+   "title": "Reklam Yoğunluğu Riski (Ad Load Risk)",
+   "body": "Bir platformun feed/içerik akışına sıkıştırabileceği maksimum reklam miktarına 'ad load' denir; bu sınıra yaklaşıldığında büyüme için ya fiyat artırılmalı ya da kullanıcı sayısı genişletilmelidir. Meta, 2016-2018 arasında bu sınıra yaklaştığını açıklamış, ardından Reels ve Stories gibi yeni reklam yüzeyleri yaratarak büyümeyi sürdürmüştür — AI destekli reklam verimliliği ise fiyatlamayı yüksek tutmanın şimdiki ana motorudur."
   }
  }
 }
