@@ -2,8 +2,8 @@ name: Günlük brifing
 
 on:
   schedule:
-    # 05:45 UTC = 08:45 İstanbul (Türkiye yıl boyu UTC+3), hafta içi
-    - cron: '45 5 * * 1-5'
+    # 05:45 UTC = 08:45 İstanbul (Türkiye yıl boyu UTC+3), her gün
+    - cron: '45 5 * * *'
   workflow_dispatch:
     inputs:
       ticker:

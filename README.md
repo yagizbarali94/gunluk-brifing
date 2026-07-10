@@ -12,8 +12,11 @@ için her commit otomatik yayınlanır:
 
 ## Nasıl çalışıyor (sunucusuz)
 
-1. GitHub Actions, hafta içi her sabah ~08:45'te (İstanbul) `brifing.yml`
+1. GitHub Actions, her sabah ~08:45'te (İstanbul) `brifing.yml`
    workflow'unu çalıştırır — `05:45 UTC` (Türkiye yıl boyu UTC+3).
+   Hafta sonu borsa kapalı olduğundan cumartesi/pazar brifingleri cuma
+   kapanış verisiyle üretilir; yaklaşan bilanço takibi ve sabitlenen
+   hisseler için yine de çalışır.
 2. Workflow `briefing_generator.py`'yi çalıştırır: 2 hisse seçilir (yaklaşan
    bilanço + yeni açıklanan bilanço slotları) → her biri için yfinance
    finansalları → Alpaca haberleri → Claude yorumu.

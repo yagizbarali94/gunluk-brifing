@@ -2,7 +2,7 @@
 
 ## Sistem ne yapıyor
 
-Hafta içi her sabah (~08:45 İstanbul saati) GitHub Actions tetiklenir, watchlist'ten
+Her sabah (~08:45 İstanbul saati) GitHub Actions tetiklenir, watchlist'ten
 **2 hisse** seçer, her biri için yfinance + Alpaca News'ten veri toplar, Claude
 API'ye Türkçe yatırım yorumu yazdırır ve sonuçları JSON olarak `site/briefings/`
 altına commit'ler. Netlify bu depoya bağlı olduğu için **main'e giden her push
@@ -11,7 +11,7 @@ otomatik olarak yayına alınır** — ayrı bir deploy adımı yok.
 Canlı site: https://gunluk-brifing.netlify.app
 
 Uçtan uca akış:
-1. `.github/workflows/brifing.yml` cron ile (`45 5 * * 1-5` UTC) veya elle
+1. `.github/workflows/brifing.yml` cron ile (`45 5 * * *` UTC, her gün) veya elle
    (`workflow_dispatch`, opsiyonel `ticker` girdisiyle) tetiklenir.
 2. `briefing_generator.py` çalışır:
    - Hisse seçimi (`select_tickers()`): **iki bağımsız slot**.
