@@ -1,7 +1,7 @@
 {
  "date": "2026-07-10",
  "slot": "pinned",
- "generated_at": "2026-07-10T20:18:24+00:00",
+ "generated_at": "2026-07-10T21:11:00+00:00",
  "mock": false,
  "ticker": "OUST",
  "company": {
@@ -19,12 +19,12 @@
   "change_pct": -10.39
  },
  "earnings_calendar": {
-  "last_date": null,
-  "next_date": null,
-  "last_label": null,
-  "next_label": null,
-  "days_to_next": null,
-  "progress_pct": null
+  "last_date": "2026-05-05",
+  "next_date": "2026-08-06",
+  "last_label": "5 Mayıs",
+  "next_label": "6 Ağustos",
+  "days_to_next": 27,
+  "progress_pct": 71
  },
  "kpi": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "label": "EPS",
-   "value": "—",
-   "sub": "veri yok",
-   "tone": "neutral"
+   "value": "$-0.25",
+   "sub": "Miss · beklenti $-0.11",
+   "tone": "neg"
   },
   {
    "label": "Brüt marj",
@@ -53,8 +53,8 @@
   }
  ],
  "karne": {
-  "template": "çekirdek şablon v1",
-  "period_label": "Son çeyrek",
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Mayıs",
   "groups": [
    {
     "name": "Büyüme",
@@ -63,19 +63,37 @@
       "metric": "Gelir",
       "value": "$49M",
       "note": "+%49 y/y",
-      "tone": "green"
+      "tone": "green",
+      "spark": [
+       null,
+       0.03,
+       0.04,
+       0.04,
+       0.06,
+       0.05
+      ],
+      "spark_unit": "$B gelir"
      },
      {
       "metric": "Net kâr",
       "value": "$-17M",
       "note": "-%21 y/y",
-      "tone": "amber"
+      "tone": "amber",
+      "spark": [
+       null,
+       -67.5,
+       -58.8,
+       -55.0,
+       6.4,
+       -36.0
+      ],
+      "spark_unit": "% net marj"
      },
      {
       "metric": "EPS",
-      "value": "veri yok",
-      "note": "veri yok",
-      "tone": "gray"
+      "value": "$-0.25",
+      "note": "beklenti $-0.11 — altında",
+      "tone": "amber"
      }
     ]
    },
@@ -86,18 +104,82 @@
       "metric": "Brüt marj",
       "value": "%42.9",
       "note": "-17.3 puan ç/ç",
-      "tone": "amber"
+      "tone": "amber",
+      "spark": [
+       null,
+       41.3,
+       45.2,
+       42.1,
+       60.2,
+       42.9
+      ],
+      "spark_unit": "%"
      },
      {
       "metric": "Faaliyet marjı",
       "value": "%-39.5",
       "note": "+33.5 puan y/y",
-      "tone": "green"
+      "tone": "green",
+      "spark": [
+       null,
+       -73.0,
+       -76.5,
+       -61.4,
+       1.5,
+       -39.5
+      ],
+      "spark_unit": "%"
      }
     ]
    },
    {
-    "name": "Nakit",
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-13.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-25.2",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-14.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%17.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "11",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
     "rows": [
      {
       "metric": "Serbest nakit akışı",
@@ -106,15 +188,57 @@
       "tone": "amber"
      },
      {
-      "metric": "Nakit ve benzerleri",
-      "value": "$79M",
-      "note": "bilanço kalemi",
-      "tone": "gray"
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$61M",
+      "note": "nakit $79M · borç $17M",
+      "tone": "green"
      }
     ]
    }
   ]
  },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "-961.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "15.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-42.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "miss",
+  "miss",
+  "miss",
+  "miss",
+  "miss",
+  "beat",
+  "beat",
+  "miss"
+ ],
  "charts": {
   "revenue": {
    "labels": [
@@ -157,21 +281,21 @@
  },
  "news": [
   {
-   "headline_tr": "Ouster hissesi Cuma günü belirgin şekilde geriledi; analistler düşüşün sermaye artırımı sonrası seyreltme kaygılarından beslendiğine işaret etti.",
+   "headline_tr": "Ouster hissesi Cuma günü sert düşüş yaşadı; yatırımcılar EPS miss ve marj baskısına tepki gösterdi.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393374/why-is-ouster-stock-falling-friday",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "192 milyon dolarlık sermaye artırımının açıklanmasının ardından hisse geri çekildi; yatırımcılar yeni nakit kullanımına temkinli yaklaşıyor.",
+   "headline_tr": "$192M'lık sermaye artırımının ardından hissede satış baskısı oluştu; seyreltme endişesi ön plana çıktı.",
    "source": "benzinga",
    "published": "2026-07-07",
    "url": "https://www.benzinga.com/markets/offerings/26/07/60312481/ousters-latest-pullback-follows-192-million-capital-raise",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Ouster, 3,62 milyon hisse ihracını tamamlayarak yaklaşık 191,9 milyon dolar net gelir elde etti.",
+   "headline_tr": "Ouster, 3,62 milyon hisse ihraç ederek yaklaşık $191,9M net nakit sağladı.",
    "source": "benzinga",
    "published": "2026-07-06",
    "url": "https://www.benzinga.com/news/26/07/60291982/ouster-completes-offering-3-62m-shares-raises-191-9m-net-proceeds",
@@ -179,16 +303,43 @@
   }
  ],
  "ai": {
-  "about": "Ouster, otonom araçlar, robotik, endüstriyel otomasyon ve akıllı altyapı uygulamaları için LiDAR sensörü tasarlayıp satan bir teknoloji şirketidir. Donanım satışı ve yazılım/hizmet aboneliği karışık bir gelir modeliyle çalışır.",
-  "note": "Yüzde 49'luk gelir büyümesi Ouster'ın pazar payı kazanımını destekliyor ancak brüt marjın çeyrek bazında 17 puan çökmesi, ölçeklendikçe karlılığa ulaşılacağı tezini ciddi biçimde sorgulatıyor. Sektördeki yoğun fiyat rekabeti (Hesai, Luminar vb.) fiyatlama gücünü kısıtlarken faaliyet kaybı %-39 seviyesindeyken yapılan 192 milyon dolarlık sermaye artırımı likiditeyi kısa vadede güvence altına alıyor fakat hissedar seyreltmesi maliyeti yüksek. 3-5 yıllık tezin ayakta kalması için brüt marjın kalıcı olarak %50+ bandına dönmesi ve FCF'nin pozitife yaklaşması şart.",
-  "counter": "LiDAR sektöründe Çinli rakipler (özellikle Hesai) çok daha düşük maliyetle üretim yaparak agresif fiyat kırıyor; bu yapısal baskı Ouster'ın hem fiyatlama gücünü hem de marjını kalıcı olarak aşağıda tutabilir. Otonom araç ve robotik alanındaki genel benimseme hızı beklentilerin altında kalmaya devam ederse toplam adreslenebilir pazar büyümesi de hayal kırıklığı yaratır.",
+  "about": "Ouster, otonom araçlar, robotlar, endüstriyel otomasyon ve akıllı altyapı sistemleri için LiDAR (lazer bazlı mesafe algılama) sensörleri tasarlar ve satar. Donanım satışı ve yazılım/hizmet gelirleriyle para kazanır; müşterileri arasında otomotiv OEM'leri, robotik şirketler ve lojistik firmaları bulunur.",
+  "note": "Ouster, %49 y/y gelir büyümesiyle LiDAR pazarında pazar payı kazandığını gösteriyor; ancak brüt marjın %60'dan %43'e düşmesi ve faaliyet zararının derinleşmesi, ölçek ekonomisinin henüz işlemediğini açıkça ortaya koyuyor. Şirketin 5 yıllık tezi, LiDAR'ın otonom araç ve robotik ekosisteminde zorunlu donanım hâline gelmesine dayansa da Hesai ve Velodyne gibi rakiplerle süregelen fiyat savaşı ve müşteri yoğunlaşması riski hendek gücünü sorgulatıyor. Tüm baskılara rağmen $191M'lık sermaye artırımı operasyonel pistin uzatılmasını sağlıyor ancak %17,8 seyreltme hissedar için gerçek bir maliyet.",
+  "counter": "LiDAR sektörü hâlâ yoğun fiyat rekabeti altında; Çinli üreticilerin (Hesai, RoboSense) agresif fiyatlandırması hem brüt marjları hem de müşteri güveni üzerindeki pazarlık gücünü yapısal olarak aşındırabilir. Otonom araç programlarındaki gecikmeler ise en büyük hacim kaynağını kalıcı olarak öteleyebilir.",
   "watch": [
-   "Brüt marjın toparlanma seyri — özellikle yazılım/hizmet gelirinin toplam içindeki payı %50+ bandına çıkıp çıkmadığı",
-   "Yeni sermayenin yakma hızına (burn rate) etkisi ve FCF'nin negatiften çıkış zaman çizelgesi"
+   "Brüt marjın %50+ seviyesine geri dönüp dönmeyeceği — ürün miksinde yazılım/hizmet payının artışı izlenmeli",
+   "Otomotiv ve robotik segmentinden gelen büyük ölçekli sözleşme duyuruları — hacim büyümesinin gerçek katalizörü olacak"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "%49 y/y gelir artışı güçlü olmakla birlikte gelir tabanı hâlâ küçük ($49M) ve çeyreklik seyir kademeli yükselişi sürdürüyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Brüt marj ç/ç 17 puan geriledi, faaliyet marjı yeniden derin negatife döndü; ROIC %-13,2 ile sermaye yok ediliyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF %-20 marjla negatif, EPS beklentinin iki katından fazla miss yedi ve %17,8 yıllık hisse seyrelmesi hissedar değerini sürekli aşındırıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "$61M net nakit pozisyonu ve $192M'lık yeni sermaye artırımı likiditeyi güçlendirdi, ancak operasyonel nakit tükenmesi devam ettiği için bu tampon birkaç yıl içinde erir."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "FD/Satış 15,5x, Rule of 40 yalnızca 11 ve şirket kârsız; büyüme hızına kıyasla çarpanlar aşırı değerlemeye işaret ediyor."
+   }
   ],
   "concept": {
-   "title": "Sermaye Seyreltmesi (Dilution) ve Hisse Başına Değer Etkisi",
-   "body": "Şirket hisse ihraç ederek nakit topladığında mevcut hissedarların şirketteki oranı düşer; bu 'seyreltme' hisse başına kazanç ve değeri azaltır. Ouster'ın 3,62 milyon yeni hisse çıkararak 192 milyon dolar toplaması likiditeyi artırırken hisse fiyatının bu haberin ardından geri çekilmesi piyasanın seyreltme maliyetini fiyatladığının göstergesidir."
+   "title": "Seyreltici Sermaye Artırımı (Dilutive Equity Offering)",
+   "body": "Şirketler kâr edemediği dönemlerde operasyonları finanse etmek için hisse ihraç eder; bu süreç mevcut hissedarların pay başına değerini düşürür. Ouster, tek bir çeyrekte %17,8 oranında seyreltme yaratırken $192M likidite elde etti — bu nakit hayatta kalmayı sağlasa da uzun vadeli değer yaratımı için kritik kârlılık eşiğine ulaşmak zorunludur."
   }
  }
 }
