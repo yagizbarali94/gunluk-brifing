@@ -1,0 +1,200 @@
+{
+ "date": "2026-07-10",
+ "generated_at": "2026-07-10T08:51:50+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 350190993408
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %9.2 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 327.87,
+  "change_pct": -2.08
+ },
+ "earnings_calendar": {
+  "last_date": null,
+  "next_date": null,
+  "last_label": null,
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.5B",
+   "sub": "+%20 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "—",
+   "sub": "veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.9",
+   "sub": "+0.3 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$170M",
+   "sub": "marj %11",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "çekirdek şablon v1",
+  "period_label": "Son çeyrek",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.5B",
+      "note": "+%20 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$313M",
+      "note": "+%49 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "EPS",
+      "value": "veri yok",
+      "note": "veri yok",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.9",
+      "note": "+0.3 puan ç/ç",
+      "tone": "gray"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%29.5",
+      "note": "-3.5 puan y/y",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Nakit",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$170M",
+      "note": "marj %11",
+      "tone": "green"
+     },
+     {
+      "metric": "Nakit ve benzerleri",
+      "value": "$2.8B",
+      "note": "bilanço kalemi",
+      "tone": "gray"
+     }
+    ]
+   }
+  ]
+ },
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    1.2,
+    1.1,
+    1.1,
+    1.2,
+    1.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    97.7,
+    97.2,
+    97.4,
+    97.6,
+    97.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Arm hissesi tek günde %11 yükselerek AI sektöründe büyük yeniden fiyatlamanın simgesi haline geldi.",
+   "source": "benzinga",
+   "published": "2026-07-09",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60367899/arm-stock-rockets-11-why-this-massive-tech-rebound-is-shaking-up-the-ai-sector",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Salı günü Arm hissesindeki hareketi açıklayan analiz; kısa vadeli katalizörler sorgulandı.",
+   "source": "benzinga",
+   "published": "2026-07-07",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60304515/whats-going-on-with-arm-holdings-stock-tuesday-2",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Pazartesi günkü hisse hareketini inceleyen haber; belirgin bir temel katalizör raporlanmadı.",
+   "source": "benzinga",
+   "published": "2026-07-06",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60283228/whats-going-on-with-arm-holdings-stock-monday-2",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Arm dahil yarı iletken sektörü genelinde yükseliş haberi; sektör geneli risk iştahının arttığına işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-07-09",
+   "url": "https://www.benzinga.com/news/26/07/60359081/aehr-test-systems-lam-research-applied-materials-and-other-big-stocks-moving-higher-on-thursday",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Arm Holdings, CPU ve GPU mimarileri tasarlayarak bu tasarımları lisanslayan bir IP şirketidir; doğrudan çip üretmez. Apple, Qualcomm, Nvidia gibi dünyanın önde gelen çip üreticileri Arm mimarisini kullanır ve her satılan çip başına royalty öder.",
+  "note": "Arm'ın iş modeli neredeyse saf IP lisanslama olduğu için %97.9 brüt marj yapısal bir avantajı yansıtıyor; bu rakam kolayca bozulmaz. AI uç cihazları ve veri merkezi hızlandırıcılarında Arm mimarisinin payı artıyor, bu da royalty gelirlerini hem hacim hem birim fiyat açısından büyütme potansiyeli taşıyor. Ancak faaliyet marjının (%29.5) brüt marjın çok gerisinde kalması ve FCF marjının (%11) düşüklüğü, Ar-Ge ve SG&A harcamalarının henüz gelir büyümesine paralel ölçeklenmediğini gösteriyor; 3-5 yıllık tezin kilit sorusu işletme kaldıracının ne zaman devreye gireceğidir.",
+  "counter": "RISC-V açık mimarisi, özellikle maliyet duyarlı pazarlarda Arm lisans ücretlerine alternatif sunuyor ve büyük teknoloji şirketlerinin kendi mimarilerini geliştirme motivasyonunu artırıyor. Tek bir lisans modelinde gelirin büyük müşteri konsantrasyonuna (Apple, Qualcomm) bağımlı olması, olası yeniden müzakere ya da geçiş riskini yapısal olarak canlı tutuyor.",
+  "watch": [
+   "Royalty gelirinin lisans gelirine oranı — royalty büyümesi uzun vadeli tezin motorudur, bu oran ivmeleniyor mu?",
+   "Faaliyet marjı genişlemesi — Ar-Ge harcamaları sabit kalırken gelir büyüdükçe işletme kaldıracı devreye giriyor mu?"
+  ],
+  "concept": {
+   "title": "IP Lisanslama ve Royalty Kaldıracı",
+   "body": "IP lisans modeli, bir ürünü bir kez tasarlayıp defalarca satmayı mümkün kıldığı için marjinal maliyet sıfıra yakındır; bu da ölçek büyüdükçe marjların genişlemesi anlamına gelir. Arm'da her yeni nesil akıllı telefon çipi satışı, ek üretim maliyeti olmaksızın royalty geliri üretir — bu yapı %97.9 brüt marjın temel açıklamasıdır."
+  }
+ }
+}
