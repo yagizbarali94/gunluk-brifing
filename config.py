@@ -42,7 +42,7 @@ THRESHOLDS = {
 # ----------------------------------------------------------------------
 # PİYASA REJİMİ SAYFASI (market_generator.py)
 # ----------------------------------------------------------------------
-MARKET_INDICES = {"^GSPC": "S&P 500", "^IXIC": "Nasdaq 100", "^RUT": "Russell 2000"}
+MARKET_INDICES = {"^GSPC": "S&P 500", "^NDX": "Nasdaq 100", "^RUT": "Russell 2000"}
 
 # 11 SPDR sektör ETF'i (ısı haritası + rotasyon)
 MARKET_SECTORS = {
