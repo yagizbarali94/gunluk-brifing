@@ -1,0 +1,203 @@
+{
+ "date": "2026-07-10",
+ "generated_at": "2026-07-10T21:43:42+00:00",
+ "mock": false,
+ "regime": {
+  "label": "Nötr-olumlu — temkinli iyimser",
+  "tone": "green",
+  "score": 2.5
+ },
+ "trend": {
+  "rows": [
+   {
+    "ticker": "^GSPC",
+    "name": "S&P 500",
+    "last": 7575.39,
+    "chg_1d": 0.42,
+    "above_50": true,
+    "above_200": true,
+    "from_high": -0.5,
+    "state": "yükseliş trendi",
+    "tone": "green"
+   },
+   {
+    "ticker": "^IXIC",
+    "name": "Nasdaq 100",
+    "last": 26281.61,
+    "chg_1d": 0.29,
+    "above_50": true,
+    "above_200": true,
+    "from_high": -3.0,
+    "state": "yükseliş trendi",
+    "tone": "green"
+   },
+   {
+    "ticker": "^RUT",
+    "name": "Russell 2000",
+    "last": 2977.81,
+    "chg_1d": -0.49,
+    "above_50": true,
+    "above_200": true,
+    "from_high": -1.5,
+    "state": "yükseliş trendi",
+    "tone": "green"
+   }
+  ],
+  "above_200_count": 3,
+  "total": 3
+ },
+ "fear": {
+  "vix": 15.03,
+  "vix3m": 18.57,
+  "zone": "normal",
+  "term": "contango",
+  "tone": "green",
+  "vix_chg_5d": -6.9
+ },
+ "breadth": {
+  "rsp_3m": 9.4,
+  "spy_3m": 11.4,
+  "spread": -2.0,
+  "pct_sectors_above_200": 91,
+  "verdict": "orta — birkaç dev öne çıkıyor",
+  "tone": "gray"
+ },
+ "sectors": {
+  "rows": [
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 9.0,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLV",
+    "name": "Sağlık",
+    "chg": 7.1,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLI",
+    "name": "Sanayi",
+    "chg": 4.9,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLU",
+    "name": "Kamu hizmetleri",
+    "chg": 2.4,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 1.0,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": 0.3,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": -0.5,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": -0.5,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLE",
+    "name": "Enerji",
+    "chg": -2.6,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": -3.8,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": -4.1,
+    "group": "döngüsel"
+   }
+  ],
+  "lookback_days": 30,
+  "tilt": "risk-kapalı — defansifler önde",
+  "tone": "amber",
+  "def_avg": 2.7,
+  "cyc_avg": 0.3
+ },
+ "macro": {
+  "rows": [
+   {
+    "metric": "10 yıllık faiz",
+    "value": "%4.57",
+    "note": "son 1 ay +%2.0",
+    "tone": "gray"
+   },
+   {
+    "metric": "Getiri eğrisi (10Y − 3ay)",
+    "value": "+0.87 puan",
+    "note": "normal (pozitif)",
+    "tone": "gray"
+   },
+   {
+    "metric": "Dolar endeksi (DXY)",
+    "value": "101.0",
+    "note": "son 1 ay +%2.0",
+    "tone": "gray"
+   },
+   {
+    "metric": "Altın",
+    "value": "$377",
+    "note": "son 1 ay -%8.7",
+    "tone": "gray"
+   },
+   {
+    "metric": "Petrol (WTI)",
+    "value": "$71.5",
+    "note": "son 1 ay -%19.6",
+    "tone": "gray"
+   },
+   {
+    "metric": "Kredi iştahı (HYG)",
+    "value": "+%0.3",
+    "note": "yüksek getirili tahvil güçlü — kredi sakin",
+    "tone": "green"
+   }
+  ],
+  "curve_inverted": false
+ },
+ "calendar": [
+  {
+   "date": "2026-07-14",
+   "label": "JPM bilanço",
+   "days": 4,
+   "date_label": "14 Temmuz",
+   "kind": "bilanço"
+  }
+ ],
+ "ai": {
+  "headline": "Endeksler zirvede, yapısal zemin sağlam; ancak defansiflerin öne çıkması ve yükselen faizler piyasanın temkinli bir riskten kaçış moduna girdiğine işaret ediyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde ve zirveye yakın seyrediyor — bu, temel trendin hâlâ olumlu olduğunu gösteriyor. Sektörlerin yüzde doksanının bu ortalamanın üzerinde olması breadth'in yapısal olarak sağlıklı kaldığına işaret ediyor; ancak döngüsel sektörlerin geride kalıp defansiflerin öne çıkması, yatırımcıların kâr açıklamak yerine korunmayı tercih ettiğini ortaya koyuyor. Petrol fiyatındaki sert gerileme ve altındaki düşüş, büyüme beklentilerinde bir kırılganlığın fiyatlandığına işaret ederken, on yıllık faizin yüzde 4.57'ye ulaşması özsermaye değerlemelerine baskı unsuru olmaya devam ediyor. VIX'in sakin seyri ve kredi piyasalarındaki istikrar sistematik bir stres olmadığını doğruluyor; ancak bu tablo 'coşkulu' değil, 'bekle-gör' modunda bir piyasayı tanımlıyor.",
+  "watch": [
+   "14 Temmuz JPMorgan bilançosu — özellikle net faiz marjı ve kredi karşılıkları, hem faiz ortamının bankalara yansımasını hem de kredi kalitesini okumak için kritik olacak",
+   "10 yıllık ABD Hazine faizinin yüzde 4.57 seviyesindeki seyri — yüzde 4.70 üzerine kalıcı bir kırılma, değerleme üzerindeki baskıyı artırabilir",
+   "Petrol fiyatının bir aylık yüzde 19.6'lık düşüşün ardından dip arayışına girip girmediği — emtia fiyatlarındaki stabilizasyon ya da ivmelenen düşüş, büyüme rejimi okuması için önemli bir sinyal"
+  ],
+  "concept": {
+   "title": "Sektör Rotasyonu ve Risk Rejimi Sinyali",
+   "body": "Sektör rotasyonu, hangi endüstrilerin para çektiğini izleyerek piyasanın genel risk iştahı hakkında fikir edinme yöntemidir; döngüsel sektörler (enerji, tüketici) öne çıktığında 'risk açık', defansifler (sağlık, finans) öne geçtiğinde 'risk kapalı' rejimden söz edilir. Bugünkü tabloda savunmacı sektörlerin net üstünlüğü, endeksin yüksek seyretmesine karşın piyasanın altında temkinli bir korunma refleksinin var olduğunu gösteriyor."
+  }
+ }
+}
