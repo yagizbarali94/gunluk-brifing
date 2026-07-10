@@ -192,6 +192,60 @@ td.mdot { width: 6%; text-align: right; }
 .pin-row button { background: none; border: none; color: var(--red); font-size: 14px; cursor: pointer; padding: 0 4px; }
 .pin-msg { margin-top: 8px; font-size: 11px; color: var(--muted); }
 .pin-msg.err { color: var(--red); }
+
+.nav-tabs { display: flex; gap: 4px; background: var(--card); border-bottom: 1px solid var(--border); padding: 0 32px; }
+.nav-tab { background: none; border: none; border-bottom: 3px solid transparent; padding: 12px 16px; font-size: 14px; font-weight: 600; color: var(--muted); cursor: pointer; }
+.nav-tab:hover { color: var(--text); }
+.nav-tab.active { color: var(--brand-dark); border-bottom-color: var(--brand); }
+
+.regime-banner { border-radius: 14px; padding: 22px 26px; margin-bottom: 16px; color: #fff; }
+.regime-banner.green { background: linear-gradient(135deg, #14532d 0%, #16a34a 100%); }
+.regime-banner.gray  { background: linear-gradient(135deg, #1D1D1B 0%, #57534e 100%); }
+.regime-banner.amber { background: linear-gradient(135deg, #7c2d12 0%, #d97706 100%); }
+.regime-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .6px; opacity: .85; }
+.regime-value { font-size: 26px; font-weight: 800; margin-top: 6px; letter-spacing: -.5px; }
+.regime-headline { font-size: 14px; margin-top: 10px; line-height: 1.55; opacity: .95; }
+
+.idx-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 16px; }
+.idx-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; position: relative; overflow: hidden; }
+.idx-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+.idx-card.green::before { background: var(--green); } .idx-card.amber::before { background: var(--amber); } .idx-card.gray::before { background: var(--gray-dot); }
+.idx-name { font-size: 12px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
+.idx-val { font-size: 22px; font-weight: 800; margin: 6px 0 2px; letter-spacing: -.5px; }
+.idx-state { font-size: 12px; font-weight: 600; }
+.idx-meta { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+.gauge-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.gauge-row .card { margin-bottom: 0; }
+.big-num { font-size: 34px; font-weight: 800; letter-spacing: -1px; margin: 6px 0; }
+.tag { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .3px; }
+.tag.green { background: #dcfce7; color: #15803d; } .tag.gray { background: #f1f1f1; color: #6b7280; } .tag.amber { background: #fef3c7; color: #b45309; }
+
+.sect-row { display: flex; align-items: center; gap: 10px; padding: 5px 0; font-size: 13px; }
+.sect-name { width: 150px; flex: none; color: var(--text); }
+.sect-name .gdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 6px; }
+.sect-name .gdot.d { background: #6366f1; } .sect-name .gdot.c { background: var(--brand); }
+.sect-bar-wrap { flex: 1; height: 18px; background: #f3f3f3; border-radius: 4px; position: relative; }
+.sect-bar { position: absolute; top: 0; height: 18px; border-radius: 4px; }
+.sect-bar.pos { background: var(--green); left: 50%; } .sect-bar.neg { background: var(--red); right: 50%; }
+.sect-mid { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--border); }
+.sect-val { width: 54px; flex: none; text-align: right; font-weight: 700; font-size: 12px; }
+.sect-legend { font-size: 11px; color: var(--muted); margin-top: 10px; }
+.sect-legend .gdot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin: 0 4px 0 8px; }
+.sect-legend .gdot.d { background: #6366f1; } .sect-legend .gdot.c { background: var(--brand); }
+
+.cal-list { margin-top: 12px; }
+.cal-item { display: flex; align-items: center; gap: 12px; padding: 9px 0; border-bottom: 1px solid #f5f5f5; font-size: 13px; }
+.cal-item:last-child { border-bottom: none; }
+.cal-when { font-weight: 700; width: 92px; flex: none; }
+.cal-kind { font-size: 10px; font-weight: 700; padding: 2px 8px; border-radius: 12px; text-transform: uppercase; }
+.cal-kind.makro { background: #ede9fe; color: #6d28d9; } .cal-kind.bilanço { background: var(--brand-light); color: #c45a00; }
+.cal-days { margin-left: auto; font-size: 11px; color: var(--muted); }
+@media (max-width: 900px) {
+  .nav-tabs { padding: 0 12px; }
+  .idx-grid { grid-template-columns: 1fr; } .gauge-row { grid-template-columns: 1fr; }
+  .sect-name { width: 110px; font-size: 12px; }
+}
 </style>
 </head>
 <body>
@@ -204,7 +258,12 @@ td.mdot { width: 6%; text-align: right; }
   <span class="mock-badge" id="mockBadge" style="display:none">temsili veri</span>
 </div>
 
-<div class="filter-bar">
+<div class="nav-tabs">
+  <button class="nav-tab active" id="tabStock" type="button" data-view="stock">📋 Hisse brifingi</button>
+  <button class="nav-tab" id="tabMarket" type="button" data-view="market">🧭 Piyasa rejimi</button>
+</div>
+
+<div class="filter-bar" id="filterBar">
   <label for="daySelect">Gün:</label>
   <select id="daySelect"></select>
   <label for="slotSelect" id="slotLabel" style="display:none">Odak:</label>
@@ -228,6 +287,10 @@ td.mdot { width: 6%; text-align: right; }
 
 <div class="container" id="app">
   <div class="err">Brifing yükleniyor…</div>
+</div>
+
+<div class="container" id="market" style="display:none">
+  <div class="err">Piyasa verisi yükleniyor…</div>
 </div>
 
 <div class="footer" id="footer"></div>
@@ -571,6 +634,160 @@ fetch('briefings/manifest.json')
   .catch(function () {
     document.getElementById('app').innerHTML = '<div class="err">manifest.json okunamadı.</div>';
   });
+
+// ---- Piyasa Rejimi görünümü ----
+function toneCls(t) { return t === 'green' ? 'green' : t === 'amber' ? 'amber' : 'gray'; }
+
+function renderMarket(d) {
+  var reg = d.regime || {};
+  var ai = d.ai || {};
+  var h = '';
+
+  h += '<div class="regime-banner ' + toneCls(reg.tone) + '">'
+     + '<div class="regime-label">Bugünkü piyasa rejimi</div>'
+     + '<div class="regime-value">' + esc(reg.label || '—') + '</div>'
+     + (ai.headline ? '<div class="regime-headline">' + esc(ai.headline) + '</div>' : '')
+     + '</div>';
+
+  // Endeks trendleri
+  h += '<div class="idx-grid">';
+  (d.trend && d.trend.rows || []).forEach(function (r) {
+    var chgCls = r.chg_1d >= 0 ? 't-pos' : 't-neg';
+    h += '<div class="idx-card ' + toneCls(r.tone) + '">'
+       + '<div class="idx-name">' + esc(r.name) + '</div>'
+       + '<div class="idx-val">' + (r.last != null ? r.last.toLocaleString('tr-TR') : '—') + '</div>'
+       + '<div class="idx-state ' + chgCls + '">' + (r.chg_1d >= 0 ? '+' : '') + '%' + Math.abs(r.chg_1d).toFixed(1) + ' bugün</div>'
+       + '<div class="idx-meta">' + esc(r.state) + ' · zirveden %' + r.from_high.toFixed(1)
+       + ' · 200g ' + (r.above_200 ? 'üstü ✓' : 'altı ✕') + '</div></div>';
+  });
+  h += '</div>';
+
+  // Korku + Genişlik
+  var f = d.fear || {}, b = d.breadth || {};
+  h += '<div class="gauge-row">';
+  h += '<div class="card"><div class="chart-title">😱 Korku göstergesi (VIX)</div>'
+     + '<div class="big-num">' + (f.vix != null ? f.vix : '—') + '</div>'
+     + '<span class="tag ' + toneCls(f.tone) + '">' + esc(f.zone || '—') + '</span>'
+     + '<div class="chart-subtitle" style="margin-top:10px">'
+     + 'vade yapısı: <b>' + esc(f.term || '—') + '</b>'
+     + (f.term === 'backwardation' ? ' (akut stres)' : ' (sakin)')
+     + (f.vix_chg_5d != null ? ' · 5 günde ' + (f.vix_chg_5d >= 0 ? '+' : '') + '%' + Math.abs(f.vix_chg_5d).toFixed(1) : '')
+     + '</div></div>';
+  h += '<div class="card"><div class="chart-title">📐 Genişlik (breadth)</div>'
+     + '<div class="big-num" style="font-size:26px">' + (b.spread != null ? (b.spread >= 0 ? '+' : '') + b.spread.toFixed(1) + ' puan' : '—') + '</div>'
+     + '<span class="tag ' + toneCls(b.tone) + '">' + esc(b.verdict || '—') + '</span>'
+     + '<div class="chart-subtitle" style="margin-top:10px">'
+     + 'eşit-ağırlık 3 ay ' + (b.rsp_3m != null ? '%' + b.rsp_3m.toFixed(1) : '—')
+     + ' vs cap-ağırlık ' + (b.spy_3m != null ? '%' + b.spy_3m.toFixed(1) : '—')
+     + (b.pct_sectors_above_200 != null ? ' · sektörlerin %' + b.pct_sectors_above_200 + '’i 200g üstünde' : '')
+     + '</div></div>';
+  h += '</div>';
+
+  // Sektör rotasyonu
+  var s = d.sectors || {};
+  if (s.rows && s.rows.length) {
+    var maxAbs = Math.max.apply(null, s.rows.map(function (r) { return Math.abs(r.chg); })) || 1;
+    h += '<div class="card"><div class="card-head"><div>'
+       + '<div class="chart-title">🔄 Sektör rotasyonu</div>'
+       + '<div class="chart-subtitle">son ' + (s.lookback_days || 30) + ' gün — kim önde, risk-açık mı risk-kapalı mı</div></div>'
+       + '<span class="pill">' + esc(s.tilt || '') + '</span></div>';
+    s.rows.forEach(function (r) {
+      var w = Math.abs(r.chg) / maxAbs * 50;
+      var pos = r.chg >= 0;
+      h += '<div class="sect-row"><div class="sect-name"><span class="gdot ' + (r.group === 'defansif' ? 'd' : 'c') + '"></span>' + esc(r.name) + '</div>'
+         + '<div class="sect-bar-wrap"><div class="sect-mid"></div>'
+         + '<div class="sect-bar ' + (pos ? 'pos' : 'neg') + '" style="width:' + w + '%"></div></div>'
+         + '<div class="sect-val ' + (pos ? 't-pos' : 't-neg') + '">' + (pos ? '+' : '') + r.chg.toFixed(1) + '%</div></div>';
+    });
+    h += '<div class="sect-legend"><span class="gdot c"></span> döngüsel (risk-açık) <span class="gdot d"></span> defansif (risk-kapalı)</div></div>';
+  }
+
+  // Makro arka plan
+  var mac = d.macro || {};
+  if (mac.rows && mac.rows.length) {
+    h += '<div class="card"><div class="chart-title">🌍 Makro arka plan</div>'
+       + '<div class="chart-subtitle">hisselerin zeminini kuran koşullar</div>'
+       + '<table class="karne" style="margin-top:10px">';
+    mac.rows.forEach(function (r) {
+      h += '<tr><td class="mname" style="width:38%">' + esc(r.metric) + '</td>'
+         + '<td class="mval" style="width:22%">' + esc(r.value) + '</td>'
+         + '<td class="mnote n-' + esc(r.tone) + '">' + esc(r.note) + '</td>'
+         + '<td class="mdot"><span class="dot ' + esc(r.tone) + '"></span></td></tr>';
+    });
+    h += '</table></div>';
+  }
+
+  // Claude okuması + izlenecekler
+  if (ai.read) {
+    h += '<div class="card"><div class="chart-title">🧭 Rejim okuması</div>'
+       + '<div class="note-body" style="margin-top:10px">' + esc(ai.read) + '</div></div>';
+  }
+  h += '<div class="insights-grid">';
+  if (ai.watch && ai.watch.length) {
+    h += '<div class="insight-card yellow"><div class="insight-icon">👀</div>'
+       + '<div class="insight-title">İzlenecekler</div><div class="insight-desc"><ol>';
+    ai.watch.forEach(function (w) { h += '<li>' + esc(w) + '</li>'; });
+    h += '</ol></div></div>';
+  }
+  if (ai.concept && ai.concept.title) {
+    h += '<div class="insight-card purple"><div class="insight-icon">🎓</div>'
+       + '<div class="insight-title">Piyasa kavramı</div>'
+       + '<div class="insight-desc"><b>' + esc(ai.concept.title) + ':</b> ' + esc(ai.concept.body) + '</div></div>';
+  }
+  h += '</div>';
+
+  // Takvim
+  if (d.calendar && d.calendar.length) {
+    h += '<div class="card"><div class="chart-title">📆 Yaklaşan olaylar</div><div class="cal-list">';
+    d.calendar.forEach(function (e) {
+      h += '<div class="cal-item"><span class="cal-when">' + esc(e.date_label) + '</span>'
+         + '<span class="cal-kind ' + esc(e.kind) + '">' + esc(e.kind) + '</span>'
+         + '<span>' + esc(e.label) + '</span>'
+         + '<span class="cal-days">' + (e.days === 0 ? 'bugün' : e.days === 1 ? 'yarın' : e.days + ' gün') + '</span></div>';
+    });
+    h += '</div></div>';
+  }
+
+  document.getElementById('market').innerHTML = h;
+  document.getElementById('mockBadge').style.display = d.mock ? '' : 'none';
+  document.getElementById('subtitle').textContent = trDate(d.date) + ' · Piyasa rejimi';
+}
+
+var marketLoaded = false;
+function loadMarket() {
+  if (marketLoaded) return;
+  marketLoaded = true;
+  fetch('market.json?t=' + Date.now())
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(renderMarket)
+    .catch(function () {
+      marketLoaded = false;
+      document.getElementById('market').innerHTML = '<div class="err">Piyasa verisi henüz üretilmemiş.</div>';
+    });
+}
+
+(function () {
+  var tabStock = document.getElementById('tabStock');
+  var tabMarket = document.getElementById('tabMarket');
+  var appEl = document.getElementById('app');
+  var marketEl = document.getElementById('market');
+  var filterBar = document.getElementById('filterBar');
+  function show(view) {
+    var isMarket = view === 'market';
+    tabStock.classList.toggle('active', !isMarket);
+    tabMarket.classList.toggle('active', isMarket);
+    appEl.style.display = isMarket ? 'none' : '';
+    filterBar.style.display = isMarket ? 'none' : '';
+    marketEl.style.display = isMarket ? '' : 'none';
+    var u = new URL(location.href);
+    if (isMarket) { u.searchParams.set('view', 'market'); loadMarket(); }
+    else { u.searchParams.delete('view'); }
+    history.replaceState(null, '', u);
+  }
+  tabStock.addEventListener('click', function () { show('stock'); });
+  tabMarket.addEventListener('click', function () { show('market'); });
+  if (new URLSearchParams(location.search).get('view') === 'market') show('market');
+})();
 </script>
 
 <button class="chat-fab" id="chatFab" title="Claude'a sor">💬</button>

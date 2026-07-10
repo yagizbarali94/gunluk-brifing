@@ -62,10 +62,12 @@ Uçtan uca akış:
 | `.github/workflows/brifing.yml` | Cron + manuel tetikleme; Python kurar, `briefing_generator.py`'yi çalıştırır, çıktıyı commit+push eder. |
 | `briefing_generator.py` | Ana üretici script: iki-slot hisse seçimi (`select_tickers`), her hisse için veri toplama (yfinance/Alpaca) + Claude çağrısı + JSON çıktı yazımı (`generate_for_ticker`, `write_output`). `--ticker`, `--mock`, `--date` argümanlarıyla elle/test modunda (tek slot) da çalışır. |
 | `config.py` | `WATCHLIST` (rotasyon sırası), seçim eşikleri (`EARNINGS_LOOKBACK_DAYS`, `EARNINGS_UPCOMING_DAYS`, `MOVER_THRESHOLD_PCT`), haber ayarları, Claude model/token ayarları, karne renk eşikleri (`THRESHOLDS`), dosya yolları. |
+| `market_generator.py` | Piyasa Rejimi sayfasının üreticisi: yfinance'ten endeksler/sektörler/makro çekip trend, VIX, breadth, sektör rotasyonu, makro arka plan + rejim skoru hesaplar, Claude'a Türkçe rejim okuması yazdırır, `site/market.json` yazar. Günde bir kez çalışır (pin-now hariç). `--mock`/`--date` destekler. |
+| `site/market.json` | Piyasa rejimi verisi (trend/fear/breadth/sectors/macro/calendar/regime/ai). Frontend "🧭 Piyasa rejimi" sekmesi bunu okur. |
 | `pinned.json` | Tarihe sabitlenmiş ek hisseler: `{"YYYY-MM-DD": ["TICKER", ...]}`. Sitedeki "⭐ Sabitle" paneli (pin.mjs) veya GitHub'dan elle güncellenir; geçmiş tarihler her sabah otomatik silinir. |
 | `netlify/functions/pin.mjs` | "⭐ Sabitle" panelinin arka ucu (`/api/pin`): pinned.json'ı GitHub Contents API ile okur/commit'ler. Netlify env: `GITHUB_TOKEN` (fine-grained PAT, Contents RW) + `CHAT_PASS` (erişim kelimesi). |
 | `state.json` | Rotasyonun kaldığı yeri tutar: `last_index`, `last_ticker`. Workflow tarafından otomatik güncellenir. |
-| `site/index.html` | Netlify'da yayınlanan frontend — brifingleri okuyup gösteren tek sayfa; "Gün" + "Odak" (slot) filtreleriyle gezinilir. |
+| `site/index.html` | Netlify'da yayınlanan frontend — tek sayfa, iki sekme: "📋 Hisse brifingi" (Gün+Odak filtreleri, briefings/*.json) ve "🧭 Piyasa rejimi" (market.json). `?view=market` ile doğrudan açılır. |
 | `site/briefings/YYYY-MM-DD-<slot>.json` | Her gün, her slot (`upcoming`/`reported`) için üretilen brifing verisi (fiyat, KPI'lar, karne, grafikler, haberler, Claude yorumu). Elle tetiklemede slot'suz `YYYY-MM-DD.json` (geriye dönük uyum). |
 | `site/briefings/manifest.json` | Mevcut brifing kayıtlarının listesi — `{id, date, ticker, name, slot?}`; frontend hangi gün/slot kombinasyonlarının mevcut olduğunu buradan öğrenir. |
 | `netlify.toml` | Netlify build ayarı — `site/` klasörünü publish dizini olarak işaretler. |

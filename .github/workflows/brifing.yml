@@ -53,11 +53,18 @@ jobs:
             python briefing_generator.py
           fi
 
+      - name: Piyasa rejimi üret
+        # "⚡ Hemen" (repository_dispatch) tek hisse içindir; piyasayı yenilemez
+        if: ${{ github.event_name != 'repository_dispatch' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python market_generator.py
+
       - name: Commit + push (Netlify otomatik yayınlar)
         run: |
           git config user.name "brifing-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add site/briefings state.json pinned.json
+          git add site/briefings site/market.json state.json pinned.json
           if git diff --cached --quiet; then
             echo "Değişiklik yok, commit atlanıyor."
           else

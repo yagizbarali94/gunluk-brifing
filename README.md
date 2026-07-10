@@ -31,6 +31,17 @@ için her commit otomatik yayınlanır:
 Not: GitHub'ın zamanlayıcısı dakikası dakikasına değildir; 08:45 yerine
 08:50–09:00 arası normaldir.
 
+## Piyasa Rejimi sayfası
+
+Sitedeki **🧭 Piyasa rejimi** sekmesi, "piyasanın yönü ne olur" tahmini değil,
+piyasanın şu an hangi rejimde olduğunu gösteren göstergeleri toplar: endeks
+trendleri (50/200 gün ortalama), VIX korku göstergesi, genişlik (breadth),
+sektör rotasyonu, makro arka plan (faiz/dolar/altın/petrol/kredi) ve yaklaşan
+olaylar takvimi + Claude'un Türkçe rejim okuması. `market_generator.py` günde bir
+kez çalışıp `site/market.json` üretir; hepsi ücretsiz yfinance verisiyle.
+Makro takvim olaylarını (Fed, TÜFE vb.) `config.py` içindeki `MACRO_EVENTS`'e
+elle ekleyebilirsin.
+
 ## Gerekli secrets (Settings → Secrets and variables → Actions)
 
 | Secret | Nereden |

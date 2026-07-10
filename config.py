@@ -39,8 +39,46 @@ THRESHOLDS = {
     "fcf_margin":    {"green": 10.0, "amber": 0.0},    # FCF / gelir %
 }
 
+# ----------------------------------------------------------------------
+# PİYASA REJİMİ SAYFASI (market_generator.py)
+# ----------------------------------------------------------------------
+MARKET_INDICES = {"^GSPC": "S&P 500", "^IXIC": "Nasdaq 100", "^RUT": "Russell 2000"}
+
+# 11 SPDR sektör ETF'i (ısı haritası + rotasyon)
+MARKET_SECTORS = {
+    "XLK": "Teknoloji", "XLC": "İletişim", "XLY": "Tüketici (döngüsel)",
+    "XLF": "Finans", "XLI": "Sanayi", "XLB": "Malzeme", "XLE": "Enerji",
+    "XLV": "Sağlık", "XLP": "Tüketici (temel)", "XLU": "Kamu hizmetleri",
+    "XLRE": "Gayrimenkul",
+}
+DEFENSIVE_SECTORS = ["XLU", "XLP", "XLV", "XLRE"]        # defansif (risk-kapalı lideri)
+CYCLICAL_SECTORS = ["XLK", "XLY", "XLF", "XLI", "XLB", "XLE", "XLC"]  # döngüsel (risk-açık lideri)
+
+# Makro arka plan sembolleri
+MARKET_MACRO = {
+    "^TNX": "10 yıllık tahvil faizi", "^IRX": "3 aylık tahvil faizi",
+    "DX-Y.NYB": "Dolar endeksi (DXY)", "GLD": "Altın", "CL=F": "Petrol (WTI)",
+    "HYG": "Yüksek getirili tahvil", "TLT": "Uzun vadeli tahvil",
+    "^VIX": "VIX (korku)", "^VIX3M": "VIX 3 ay",
+    "RSP": "S&P eşit-ağırlık", "SPY": "S&P cap-ağırlık",
+}
+
+# Bu hafta izlenecek mega-cap bilançoları (piyasayı oynatabilir)
+MARKET_EARNINGS_WATCH = ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN", "META",
+                         "AVGO", "TSLA", "JPM", "LLY"]
+
+# Kullanıcının elle güncelleyebileceği makro takvim ("YYYY-MM-DD": "açıklama").
+# Fed faiz kararı, TÜFE, istihdam gibi bilinen tarihleri buraya ekle.
+MACRO_EVENTS = {}
+
+MARKET_LOOKBACK_DAYS = 30       # sektör/breadth performans penceresi
+
+# VIX bölge eşikleri
+VIX_ZONES = [(15, "sakin"), (20, "normal"), (28, "tedbirli"), (999, "stres")]
+
 # Dosya yolları (script'in bulunduğu klasöre göre)
 SITE_DIR = "site"
 BRIEFINGS_DIR = "site/briefings"
 STATE_FILE = "state.json"
 PINNED_FILE = "pinned.json"
+MARKET_FILE = "site/market.json"
