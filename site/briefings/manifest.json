@@ -14,6 +14,13 @@
   "slot": "reported"
  },
  {
+  "id": "2026-07-10-pinned-NVDA",
+  "date": "2026-07-10",
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "slot": "pinned"
+ },
+ {
   "id": "2026-07-10-pinned-OUST",
   "date": "2026-07-10",
   "ticker": "OUST",
