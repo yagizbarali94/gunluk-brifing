@@ -1,0 +1,194 @@
+{
+ "date": "2026-07-10",
+ "slot": "pinned",
+ "generated_at": "2026-07-10T20:18:24+00:00",
+ "mock": false,
+ "ticker": "OUST",
+ "company": {
+  "name": "Ouster, Inc.",
+  "sector": "Technology",
+  "industry": "Electronic Components",
+  "market_cap": 2912519936
+ },
+ "why_today": {
+  "reason_code": "pinned",
+  "text": "Senin seçimin — anında üretildi"
+ },
+ "price": {
+  "last": 43.28,
+  "change_pct": -10.39
+ },
+ "earnings_calendar": {
+  "last_date": null,
+  "next_date": null,
+  "last_label": null,
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$49M",
+   "sub": "+%49 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "—",
+   "sub": "veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%42.9",
+   "sub": "-17.3 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-10M",
+   "sub": "marj %-20",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "çekirdek şablon v1",
+  "period_label": "Son çeyrek",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$49M",
+      "note": "+%49 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-17M",
+      "note": "-%21 y/y",
+      "tone": "amber"
+     },
+     {
+      "metric": "EPS",
+      "value": "veri yok",
+      "note": "veri yok",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%42.9",
+      "note": "-17.3 puan ç/ç",
+      "tone": "amber"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-39.5",
+      "note": "+33.5 puan y/y",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Nakit",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-10M",
+      "note": "marj %-20",
+      "tone": "amber"
+     },
+     {
+      "metric": "Nakit ve benzerleri",
+      "value": "$79M",
+      "note": "bilanço kalemi",
+      "tone": "gray"
+     }
+    ]
+   }
+  ]
+ },
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    0.0,
+    0.0,
+    0.0,
+    0.1,
+    0.0
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    41.3,
+    45.2,
+    42.1,
+    60.2,
+    42.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Ouster hissesi Cuma günü belirgin şekilde geriledi; analistler düşüşün sermaye artırımı sonrası seyreltme kaygılarından beslendiğine işaret etti.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393374/why-is-ouster-stock-falling-friday",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "192 milyon dolarlık sermaye artırımının açıklanmasının ardından hisse geri çekildi; yatırımcılar yeni nakit kullanımına temkinli yaklaşıyor.",
+   "source": "benzinga",
+   "published": "2026-07-07",
+   "url": "https://www.benzinga.com/markets/offerings/26/07/60312481/ousters-latest-pullback-follows-192-million-capital-raise",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Ouster, 3,62 milyon hisse ihracını tamamlayarak yaklaşık 191,9 milyon dolar net gelir elde etti.",
+   "source": "benzinga",
+   "published": "2026-07-06",
+   "url": "https://www.benzinga.com/news/26/07/60291982/ouster-completes-offering-3-62m-shares-raises-191-9m-net-proceeds",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Ouster, otonom araçlar, robotik, endüstriyel otomasyon ve akıllı altyapı uygulamaları için LiDAR sensörü tasarlayıp satan bir teknoloji şirketidir. Donanım satışı ve yazılım/hizmet aboneliği karışık bir gelir modeliyle çalışır.",
+  "note": "Yüzde 49'luk gelir büyümesi Ouster'ın pazar payı kazanımını destekliyor ancak brüt marjın çeyrek bazında 17 puan çökmesi, ölçeklendikçe karlılığa ulaşılacağı tezini ciddi biçimde sorgulatıyor. Sektördeki yoğun fiyat rekabeti (Hesai, Luminar vb.) fiyatlama gücünü kısıtlarken faaliyet kaybı %-39 seviyesindeyken yapılan 192 milyon dolarlık sermaye artırımı likiditeyi kısa vadede güvence altına alıyor fakat hissedar seyreltmesi maliyeti yüksek. 3-5 yıllık tezin ayakta kalması için brüt marjın kalıcı olarak %50+ bandına dönmesi ve FCF'nin pozitife yaklaşması şart.",
+  "counter": "LiDAR sektöründe Çinli rakipler (özellikle Hesai) çok daha düşük maliyetle üretim yaparak agresif fiyat kırıyor; bu yapısal baskı Ouster'ın hem fiyatlama gücünü hem de marjını kalıcı olarak aşağıda tutabilir. Otonom araç ve robotik alanındaki genel benimseme hızı beklentilerin altında kalmaya devam ederse toplam adreslenebilir pazar büyümesi de hayal kırıklığı yaratır.",
+  "watch": [
+   "Brüt marjın toparlanma seyri — özellikle yazılım/hizmet gelirinin toplam içindeki payı %50+ bandına çıkıp çıkmadığı",
+   "Yeni sermayenin yakma hızına (burn rate) etkisi ve FCF'nin negatiften çıkış zaman çizelgesi"
+  ],
+  "concept": {
+   "title": "Sermaye Seyreltmesi (Dilution) ve Hisse Başına Değer Etkisi",
+   "body": "Şirket hisse ihraç ederek nakit topladığında mevcut hissedarların şirketteki oranı düşer; bu 'seyreltme' hisse başına kazanç ve değeri azaltır. Ouster'ın 3,62 milyon yeni hisse çıkararak 192 milyon dolar toplaması likiditeyi artırırken hisse fiyatının bu haberin ardından geri çekilmesi piyasanın seyreltme maliyetini fiyatladığının göstergesidir."
+  }
+ }
+}
