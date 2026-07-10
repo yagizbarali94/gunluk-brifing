@@ -28,7 +28,7 @@ NEWS_SHOWN = 4                  # dashboard'da gösterilecek haber sayısı
 
 # Claude
 CLAUDE_MODEL_DEFAULT = "claude-sonnet-4-6"
-CLAUDE_MAX_TOKENS = 1600
+CLAUDE_MAX_TOKENS = 2400
 
 # Karne eşikleri (çekirdek şablon v1) — yeşil / gri / sarı sınırları
 THRESHOLDS = {

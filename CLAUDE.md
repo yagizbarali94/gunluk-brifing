@@ -33,10 +33,17 @@ Uçtan uca akış:
      - Elle tetiklemede (`--ticker` / `workflow_dispatch` ticker girdisi) bu iki-slot
        mantığı atlanır, tek hisse için tek brifing üretilir (slot yok).
    - Her seçilen hisse için ayrı ayrı: `yfinance` ile finansallar (gelir, marj, FCF,
-     EPS, bilanço takvimi), Alpaca News API ile son 7 günün haberleri çekilir.
-   - Toplanan veriler + haberler Claude API'ye (`claude-sonnet-4-6`) gönderilir;
-     model Türkçe "about / note / counter / watch / concept / guidance / haber
-     özetleri" içeren JSON döner.
+     EPS, bilanço takvimi + derin metrikler), Alpaca News API ile son 7 günün haberleri çekilir.
+   - `build_quality()` derin metrikleri hesaplar: çeyreklik trend serileri (sparkline),
+     sermaye getirisi (ROIC/ROE/ROA), kazanç kalitesi (nakit dönüşümü FCF/net kâr,
+     hisse seyrelmesi, Rule of 40), bilanço sağlığı (net nakit), değerleme çarpanları
+     (F/K cari-ileri, FD/Satış, FD/FAVÖK, Fiyat/FCF), beat/miss geçmişi. Bunlar hem
+     karneye ("derin şablon v2": Büyüme/Kârlılık/Sermaye getirisi/Kazanç kalitesi/Bilanço
+     grupları + satır içi sparkline'lar) hem de ayrı "Değerleme çarpanları" kartına yansır.
+   - Toplanan veriler (derin metrikler dahil) + haberler Claude API'ye
+     (`claude-sonnet-4-6`) gönderilir; model Türkçe "about / note / counter /
+     diagnosis (5 maddelik sağlık teşhisi: her boyut için güçlü/nötr/zayıf) /
+     watch / concept / guidance / haber özetleri" içeren JSON döner.
    - Çıktı `site/briefings/YYYY-MM-DD-<slot>.json` olarak yazılır (elle tetiklemede
      slot'suz `YYYY-MM-DD.json`), `manifest.json` güncellenir, rotasyon durumu
      `state.json`'a kaydedilir.

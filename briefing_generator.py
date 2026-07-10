@@ -264,6 +264,22 @@ def fetch_financials(ticker):
     out["industry"] = info.get("industry") or ""
     out["market_cap"] = info.get("marketCap")
 
+    # Değerleme çarpanları + sermaye getirileri (info'dan)
+    def _f(key):
+        v = info.get(key)
+        return float(v) if isinstance(v, (int, float)) else None
+    out["valuation"] = {
+        "pe_trailing": _f("trailingPE"),
+        "pe_forward": _f("forwardPE"),
+        "ev_sales": _f("enterpriseToRevenue"),
+        "ev_ebitda": _f("enterpriseToEbitda"),
+        "ps_ttm": _f("priceToSalesTrailing12Months"),
+    }
+    out["returns"] = {"roe": _f("returnOnEquity"), "roa": _f("returnOnAssets")}
+    out["fcf_ttm_info"] = _f("freeCashflow")
+    out["total_debt_info"] = _f("totalDebt")
+    out["total_cash_info"] = _f("totalCash")
+
     # Fiyat
     try:
         fi = t.fast_info
@@ -274,7 +290,7 @@ def fetch_financials(ticker):
     except Exception:
         out["price"] = {"last": None, "change_pct": None}
 
-    # Çeyreklik gelir tablosu (yfinance: en yeni sütun solda)
+    # Çeyreklik gelir tablosu (yfinance: en yeni sütun solda; [::-1] ile eskiden yeniye)
     try:
         inc = t.quarterly_income_stmt
         out["q_labels"] = [c.strftime("%b'%y") for c in inc.columns][::-1]
@@ -283,29 +299,52 @@ def fetch_financials(ticker):
         out["opinc"] = (_row(inc, "Operating Income") or [])[::-1]
         out["netinc"] = (_row(inc, "Net Income",
                               "Net Income Common Stockholders") or [])[::-1]
+        out["dil_shares"] = (_row(inc, "Diluted Average Shares") or [])[::-1]
+        out["ebit"] = (_row(inc, "EBIT", "Operating Income") or [])[::-1]
+        tax = _row(inc, "Tax Rate For Calcs")
+        out["tax_rate"] = tax[0] if tax else None
     except Exception as e:
         log(f"  gelir tablosu alınamadı: {e}")
         out.update({"q_labels": [], "revenue": [], "gross": [],
-                    "opinc": [], "netinc": []})
+                    "opinc": [], "netinc": [], "dil_shares": [], "ebit": [],
+                    "tax_rate": None})
 
-    # Nakit akışı + bilanço
+    # Nakit akışı
     try:
         cf = t.quarterly_cashflow
         fcf = _row(cf, "Free Cash Flow")
         out["fcf"] = fcf[0] if fcf else None
+        out["fcf_series"] = (fcf or [])[::-1]
+        sbc = _row(cf, "Stock Based Compensation")
+        out["sbc"] = sbc[0] if sbc else None
+        ocf = _row(cf, "Operating Cash Flow", "Cash Flow From Continuing Operating Activities")
+        out["ocf"] = ocf[0] if ocf else None
+        buyback = _row(cf, "Repurchase Of Capital Stock")
+        out["buyback"] = buyback[0] if buyback else None
     except Exception:
-        out["fcf"] = None
+        out.update({"fcf": None, "fcf_series": [], "sbc": None,
+                    "ocf": None, "buyback": None})
+
+    # Bilanço: nakit, borç, yatırılan sermaye, özkaynak
     try:
         bs = t.quarterly_balance_sheet
         cash = _row(bs, "Cash And Cash Equivalents",
                     "Cash Cash Equivalents And Short Term Investments")
         out["cash"] = cash[0] if cash else None
+        debt = _row(bs, "Total Debt")
+        out["debt"] = debt[0] if debt else out.get("total_debt_info")
+        inv = _row(bs, "Invested Capital")
+        out["invested_capital"] = inv[0] if inv else None
+        eq = _row(bs, "Stockholders Equity", "Common Stock Equity")
+        out["equity"] = eq[0] if eq else None
     except Exception:
-        out["cash"] = None
+        out.update({"cash": None, "debt": out.get("total_debt_info"),
+                    "invested_capital": None, "equity": None})
 
-    # Bilanço tarihleri + EPS beklenti/gerçekleşme
+    # Bilanço tarihleri + EPS beklenti/gerçekleşme + beat/miss geçmişi
     out["earnings"] = {"last_date": None, "next_date": None,
                        "eps_actual": None, "eps_estimate": None}
+    out["beat_history"] = []  # eskiden yeniye: "beat"/"miss"/"inline"
     try:
         ed = t.get_earnings_dates(limit=12)
         if ed is not None and not ed.empty:
@@ -324,6 +363,18 @@ def fetch_financials(ticker):
                 out["earnings"]["eps_estimate"] = None if re_ != re_ else float(re_)
             if future:
                 out["earnings"]["next_date"] = min(future).date().isoformat()
+            # Son 8 çeyreğin beat/miss serisi (eskiden yeniye)
+            hist = []
+            for d in sorted(past)[-8:]:
+                row = ed.loc[d]
+                if hasattr(row, "iloc") and getattr(row, "ndim", 1) > 1:
+                    row = row.iloc[0]
+                a, e = row.get("Reported EPS"), row.get("EPS Estimate")
+                if a != a or e != e or e is None or a is None:
+                    continue
+                a, e = float(a), float(e)
+                hist.append("beat" if a > e else "miss" if a < e else "inline")
+            out["beat_history"] = hist
     except Exception as e:
         log(f"  bilanço takvimi alınamadı: {e}")
 
@@ -440,14 +491,30 @@ def build_kpi(f, m):
     ]
 
 
-def build_karne(f, m, guidance_row=None):
+def _tone_gte(value, green, amber, invert=False):
+    """Basit eşik tonu: value >= green -> green; < amber -> amber; arası gray."""
+    if value is None:
+        return "gray"
+    v = -value if invert else value
+    g = -green if invert else green
+    a = -amber if invert else amber
+    if invert:
+        return "green" if value <= green else "amber" if value > amber else "gray"
+    return "green" if v >= g else "amber" if v < a else "gray"
+
+
+def build_karne(f, m, q=None, guidance_row=None):
+    q = q or {}
+    tr = q.get("trends", {})
     rows_growth = [
         {"metric": "Gelir", "value": fmt_usd(f["revenue"][-1]) if f["revenue"] else "veri yok",
          "note": f"{pct_str(m['rev_yoy'])} y/y" if m["rev_yoy"] is not None else "y/y veri yok",
-         "tone": tone_from_threshold(m["rev_yoy"], "revenue_yoy")},
+         "tone": tone_from_threshold(m["rev_yoy"], "revenue_yoy"),
+         "spark": tr.get("rev"), "spark_unit": "$B gelir"},
         {"metric": "Net kâr", "value": fmt_usd(f["netinc"][-1]) if f["netinc"] else "veri yok",
          "note": f"{pct_str(m['ni_yoy'])} y/y" if m["ni_yoy"] is not None else "y/y veri yok",
-         "tone": tone_from_threshold(m["ni_yoy"], "netinc_yoy")},
+         "tone": tone_from_threshold(m["ni_yoy"], "netinc_yoy"),
+         "spark": tr.get("nm"), "spark_unit": "% net marj"},
     ]
     eps_note, eps_tone = "veri yok", "gray"
     if m["eps_beat"] == "beat":
@@ -465,30 +532,76 @@ def build_karne(f, m, guidance_row=None):
          "value": f"%{m['gm_last']:.1f}" if m["gm_last"] is not None else "veri yok",
          "note": (f"{'+' if m['gm_qoq'] >= 0 else ''}{m['gm_qoq']:.1f} puan ç/ç"
                   if m["gm_qoq"] is not None else "ç/ç veri yok"),
-         "tone": tone_from_threshold(m["gm_qoq"], "gm_qoq_pts")},
+         "tone": tone_from_threshold(m["gm_qoq"], "gm_qoq_pts"),
+         "spark": tr.get("gm"), "spark_unit": "%"},
         {"metric": "Faaliyet marjı",
          "value": f"%{m['om_last']:.1f}" if m["om_last"] is not None else "veri yok",
          "note": (f"{'+' if m['om_yoy'] >= 0 else ''}{m['om_yoy']:.1f} puan y/y"
                   if m["om_yoy"] is not None else "y/y veri yok"),
-         "tone": tone_from_threshold(m["om_yoy"], "opm_yoy_pts")},
+         "tone": tone_from_threshold(m["om_yoy"], "opm_yoy_pts"),
+         "spark": tr.get("om"), "spark_unit": "%"},
     ]
 
+    ret = q.get("returns", {})
+    rows_returns = [
+        {"metric": "ROIC", "value": f"%{ret['roic']:.1f}" if ret.get("roic") is not None else "veri yok",
+         "note": "yatırılan sermaye getirisi (NOPAT)", "tone": _tone_gte(ret.get("roic"), 15, 8)},
+        {"metric": "Özkaynak getirisi (ROE)", "value": f"%{ret['roe']:.1f}" if ret.get("roe") is not None else "veri yok",
+         "note": "net kâr / özkaynak", "tone": _tone_gte(ret.get("roe"), 20, 8)},
+        {"metric": "Aktif getirisi (ROA)", "value": f"%{ret['roa']:.1f}" if ret.get("roa") is not None else "veri yok",
+         "note": "net kâr / toplam varlık", "tone": _tone_gte(ret.get("roa"), 10, 3)},
+    ]
+
+    ql = q.get("quality", {})
+    cc = ql.get("cash_conversion")
+    dil = ql.get("dilution_yoy")
+    r40 = ql.get("rule_of_40")
+    rows_quality = [
+        {"metric": "Nakit dönüşümü", "value": f"{cc:.2f}×" if cc is not None else "veri yok",
+         "note": "FCF / net kâr (TTM) — 1'e yakın iyi", "tone": _tone_gte(cc, 0.9, 0.6)},
+        {"metric": "Hisse seyrelmesi", "value": f"{pct_str(dil, decimals=1)} y/y" if dil is not None else "veri yok",
+         "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi", "tone": _tone_gte(dil, 0, 2, invert=True)},
+        {"metric": "Rule of 40", "value": f"{r40:.0f}" if r40 is not None else "veri yok",
+         "note": "büyüme % + FCF marjı — ≥40 kaliteli", "tone": _tone_gte(r40, 40, 25)},
+    ]
+
+    bal = q.get("balance", {})
     rows_cash = [
         {"metric": "Serbest nakit akışı", "value": fmt_usd(m["fcf"]),
          "note": f"marj %{m['fcf_m']:.0f}" if m["fcf_m"] is not None else "marj veri yok",
          "tone": tone_from_threshold(m["fcf_m"], "fcf_margin")},
-        {"metric": "Nakit ve benzerleri", "value": fmt_usd(f.get("cash")),
-         "note": "bilanço kalemi", "tone": "gray"},
+        {"metric": "Net nakit (nakit − borç)", "value": fmt_usd(bal.get("net_cash")),
+         "note": (f"nakit {fmt_usd(bal.get('cash'))} · borç {fmt_usd(bal.get('debt'))}"
+                  if bal.get("cash") is not None else "bilanço kalemi"),
+         "tone": "green" if (bal.get("net_cash") or 0) > 0 else "amber" if bal.get("net_cash") is not None else "gray"},
     ]
 
     groups = [
         {"name": "Büyüme", "rows": rows_growth},
         {"name": "Kârlılık", "rows": rows_prof},
-        {"name": "Nakit", "rows": rows_cash},
+        {"name": "Sermaye getirisi", "rows": rows_returns},
+        {"name": "Kazanç kalitesi", "rows": rows_quality},
+        {"name": "Bilanço", "rows": rows_cash},
     ]
     if guidance_row:
         groups.append({"name": "Guidance", "rows": [guidance_row]})
     return groups
+
+
+def build_valuation(q):
+    """Değerleme çarpanları — ayrı kart (piyasa fiyatlaması, şirket performansı değil)."""
+    v = q.get("valuation", {})
+    def row(metric, val, note, fmt="{:.1f}×"):
+        return {"metric": metric,
+                "value": fmt.format(val) if isinstance(val, (int, float)) else "veri yok",
+                "note": note, "tone": "gray"}
+    return [
+        row("F/K (cari)", v.get("pe_trailing"), "son 12 ay kazancına göre"),
+        row("F/K (ileri)", v.get("pe_forward"), "gelecek 12 ay tahminine göre"),
+        row("FD/Satış", v.get("ev_sales"), "firma değeri / yıllık satış"),
+        row("FD/FAVÖK", v.get("ev_ebitda"), "firma değeri / FAVÖK"),
+        row("Fiyat/FCF", v.get("p_fcf"), "piyasa değeri / serbest nakit akışı"),
+    ]
 
 
 def build_charts(f, m):
@@ -497,6 +610,110 @@ def build_charts(f, m):
     gm = [round(g, 1) if g is not None else None for g in m.get("gm", [])]
     return {"revenue": {"labels": labels, "values": rev_b, "unit": "$B"},
             "gross_margin": {"labels": labels, "values": gm, "unit": "%"}}
+
+
+# ----------------------------------------------------------------------
+# 3b) DERİN KALİTE — trend, sermaye getirisi, kazanç kalitesi, değerleme
+# ----------------------------------------------------------------------
+
+def _ttm(series):
+    """Serinin (eskiden yeniye) son 4 çeyreğinin toplamı; eksikse None."""
+    vals = [x for x in (series or [])[-4:] if x is not None]
+    return sum(vals) if len(vals) == 4 else None
+
+
+def _spark(series, n=8, dec=1):
+    """Sparkline için son n değeri, yuvarlanmış (None'lar korunur)."""
+    return [None if v is None else round(v, dec) for v in (series or [])[-n:]]
+
+
+def _accel(series):
+    """İvme: son çeyreğin değişimi ile bir önceki çeyreğin değişimini kıyasla."""
+    s = [v for v in (series or []) if v is not None]
+    if len(s) < 3:
+        return None
+    return "up" if (s[-1] - s[-2]) > (s[-2] - s[-3]) else \
+           "down" if (s[-1] - s[-2]) < (s[-2] - s[-3]) else "flat"
+
+
+def _yoy_series(series):
+    """Her noktanın 4 çeyrek öncesine göre y/y % değişimi (eskiden yeniye)."""
+    out = []
+    for i in range(len(series)):
+        if i >= 4 and series[i] is not None and series[i - 4] not in (None, 0):
+            out.append((series[i] / series[i - 4] - 1) * 100)
+        else:
+            out.append(None)
+    return out
+
+
+def build_quality(f, m):
+    """Karneyi zenginleştiren derin metrikler: trend serileri, sermaye getirisi,
+    kazanç kalitesi (nakit dönüşümü, seyrelme), bilanço sağlığı, değerleme."""
+    rev = f.get("revenue") or []
+    netinc = f.get("netinc") or []
+    q = {}
+
+    # --- Trend serileri (karne satırlarına sparkline) ---
+    nm = [margin(ni, r) for ni, r in zip(netinc, rev)] if netinc and rev else []
+    rev_b = [None if r is None else r / 1e9 for r in rev]  # mutlak gelir ($B) trendi
+    q["trends"] = {
+        "labels": (f.get("q_labels") or [])[-8:],
+        "rev": _spark(rev_b, dec=2),
+        "gm": _spark(m.get("gm", []), dec=1),
+        "om": _spark(m.get("om", []), dec=1),
+        "nm": _spark(nm, dec=1),
+    }
+    q["accel"] = {"rev": _accel(_yoy_series(rev)), "gm": _accel(m.get("gm", [])),
+                  "om": _accel(m.get("om", [])), "nm": _accel(nm)}
+
+    # --- Sermaye getirileri ---
+    roe = f.get("returns", {}).get("roe")
+    roa = f.get("returns", {}).get("roa")
+    ebit_ttm = _ttm(f.get("ebit"))
+    invcap = f.get("invested_capital")
+    roic = None
+    if ebit_ttm is not None and invcap not in (None, 0) and invcap > 0:
+        tr = f.get("tax_rate")
+        tr = tr if (isinstance(tr, (int, float)) and 0 <= tr <= 0.6) else 0.21
+        roic = ebit_ttm * (1 - tr) / invcap * 100
+    q["returns"] = {
+        "roe": roe * 100 if roe is not None else None,
+        "roa": roa * 100 if roa is not None else None,
+        "roic": roic,
+    }
+
+    # --- Kazanç kalitesi ---
+    fcf_ttm = _ttm(f.get("fcf_series")) or f.get("fcf_ttm_info")
+    ni_ttm = _ttm(netinc)
+    rev_ttm = _ttm(rev)
+    cash_conv = (fcf_ttm / ni_ttm) if (fcf_ttm is not None and ni_ttm not in (None, 0) and ni_ttm > 0) else None
+    shares = f.get("dil_shares") or []
+    dilution = safe_pct(shares[-1], shares[-5]) if len(shares) >= 5 and shares[-1] and shares[-5] else None
+    sbc_pct = margin(f.get("sbc"), rev[-1]) if (f.get("sbc") is not None and rev) else None
+    fcf_margin_ttm = (fcf_ttm / rev_ttm * 100) if (fcf_ttm is not None and rev_ttm) else None
+    rule40 = (m["rev_yoy"] + fcf_margin_ttm) if (m.get("rev_yoy") is not None and fcf_margin_ttm is not None) else None
+    q["quality"] = {"cash_conversion": cash_conv, "dilution_yoy": dilution,
+                    "sbc_pct_rev": sbc_pct, "rule_of_40": rule40,
+                    "fcf_margin_ttm": fcf_margin_ttm}
+
+    # --- Bilanço sağlığı ---
+    cash = f.get("cash")
+    debt = f.get("debt")
+    net_cash = (cash - debt) if (cash is not None and debt is not None) else None
+    q["balance"] = {"cash": cash, "debt": debt, "net_cash": net_cash}
+
+    # --- Değerleme ---
+    v = f.get("valuation", {})
+    mc = f.get("market_cap")
+    p_fcf = (mc / fcf_ttm) if (mc and fcf_ttm and fcf_ttm > 0) else None
+    q["valuation"] = {"pe_trailing": v.get("pe_trailing"), "pe_forward": v.get("pe_forward"),
+                      "ev_sales": v.get("ev_sales"), "ev_ebitda": v.get("ev_ebitda"),
+                      "p_fcf": p_fcf}
+
+    # --- Beat/miss geçmişi (eskiden yeniye) ---
+    q["beat_history"] = f.get("beat_history", [])
+    return q
 
 
 def build_calendar(f, ref_date):
@@ -549,11 +766,19 @@ Son 7 günün haber başlıkları (İngilizce, kaynaklarıyla):
   "about": "şirketin ne iş yaptığını sade Türkçeyle 1-2 cümlede anlat: ürünler, müşteriler, para kazanma modeli",
   "note": "2-3 cümlelik uzun vadeli sentez: iş modelinin kalitesi, moat ve bu çeyreğin 3-5 yıllık yatırım tezine etkisi",
   "counter": "1-2 cümle: uzun vadeli tezi en çok tehdit eden yapısal risk",
+  "diagnosis": [
+    {{"baslik": "Büyüme ivmesi", "verdict": "guclu|notr|zayif", "yorum": "verdiğim trend/büyüme verisine dayanarak 1 cümle: hızlanıyor mu yavaşlıyor mu"}},
+    {{"baslik": "Kârlılık ve sermaye getirisi", "verdict": "guclu|notr|zayif", "yorum": "marj trendi + ROIC/ROE 1 cümle"}},
+    {{"baslik": "Kazanç kalitesi", "verdict": "guclu|notr|zayif", "yorum": "nakit dönüşümü ve hisse seyrelmesine bak, 1 cümle"}},
+    {{"baslik": "Bilanço sağlığı", "verdict": "guclu|notr|zayif", "yorum": "net nakit/borç durumu 1 cümle"}},
+    {{"baslik": "Değerleme", "verdict": "guclu|notr|zayif", "yorum": "çarpanlar büyümeye/kaliteye göre makul mü, 1 cümle (guclu=cazip, zayif=pahalı)"}}
+  ],
   "watch": ["önümüzdeki çeyreklerde izlenecek yapısal gösterge 1", "yapısal gösterge 2"],
   "concept": {{"title": "bugünün finansal kavramı (bu şirketle ilgili)", "body": "2 cümlelik açıklama, mümkünse bu şirketten örnekle"}},
   "guidance": {{"value": "şirketin son guidance'ı haberlerde/verilerde geçiyorsa özetle, yoksa 'veri yok'", "note": "kısa yorum", "tone": "green|gray|amber"}},
   "news": [{{"i": haber_index, "ozet": "tek cümlelik Türkçe özet", "sentiment": "pos|neu|neg"}}]
 }}
+diagnosis'te 5 maddenin hepsini doldur; veri yoksa verdict "notr" ve yorumda "veri yetersiz" de.
 news dizisinde en fazla {news_shown} haber seç (en önemlileri), i alanı verdiğim listedeki sıra numarası olsun."""
 
 
@@ -590,24 +815,64 @@ def call_claude(payload_text, news_lines, meta):
         return None
 
 
-def metrics_text(f, m):
+def metrics_text(f, m, q=None):
+    q = q or {}
     lines = []
     if f["revenue"]:
         lines.append(f"- Gelir: {fmt_usd(f['revenue'][-1])} ({pct_str(m['rev_yoy'])} y/y)")
+    tr = q.get("trends", {})
+    if tr.get("rev"):
+        seri = ", ".join(f"{v:.1f}" for v in tr["rev"] if v is not None)
+        if seri:
+            lines.append(f"- Çeyreklik gelir trendi ($B, eskiden yeniye): {seri}")
+    for lbl, key in [("Brüt marj", "gm"), ("Faaliyet marjı", "om"), ("Net marj", "nm")]:
+        s = tr.get(key)
+        if s and any(v is not None for v in s):
+            seri = ", ".join(f"%{v:.1f}" for v in s if v is not None)
+            lines.append(f"- {lbl} trendi (eskiden yeniye): {seri} (ivme: {q.get('accel', {}).get(key) or '—'})")
     if m["eps_a"] is not None:
         lines.append(f"- EPS: ${m['eps_a']:.2f} (beklenti: "
                      f"{'$%.2f' % m['eps_e'] if m['eps_e'] is not None else '—'}, {m['eps_beat'] or '—'})")
+    if q.get("beat_history"):
+        lines.append(f"- Son çeyrekler beat/miss (eskiden yeniye): {', '.join(q['beat_history'])}")
     if m["gm_last"] is not None:
         lines.append(f"- Brüt marj: %{m['gm_last']:.1f}"
                      + (f" ({'+' if m['gm_qoq'] >= 0 else ''}{m['gm_qoq']:.1f} puan ç/ç)"
-                        if m["gm_qoq"] is not None else ""))
+                        if m["gm_qoq"] is not None else "")
+                     + (f", trend {q['accel']['gm']}" if q.get('accel', {}).get('gm') else ""))
     if m["om_last"] is not None:
-        lines.append(f"- Faaliyet marjı: %{m['om_last']:.1f}")
+        lines.append(f"- Faaliyet marjı: %{m['om_last']:.1f}"
+                     + (f", trend {q['accel']['om']}" if q.get('accel', {}).get('om') else ""))
+    ret = q.get("returns", {})
+    if ret.get("roic") is not None or ret.get("roe") is not None:
+        lines.append("- Sermaye getirisi: "
+                     + " · ".join(x for x in [
+                         f"ROIC %{ret['roic']:.1f}" if ret.get("roic") is not None else None,
+                         f"ROE %{ret['roe']:.1f}" if ret.get("roe") is not None else None,
+                         f"ROA %{ret['roa']:.1f}" if ret.get("roa") is not None else None] if x))
+    ql = q.get("quality", {})
+    if ql.get("cash_conversion") is not None:
+        lines.append(f"- Nakit dönüşümü (FCF/net kâr, TTM): {ql['cash_conversion']:.2f}×")
+    if ql.get("dilution_yoy") is not None:
+        lines.append(f"- Hisse seyrelmesi: {pct_str(ql['dilution_yoy'], decimals=1)} y/y")
+    if ql.get("rule_of_40") is not None:
+        lines.append(f"- Rule of 40: {ql['rule_of_40']:.0f} (büyüme + FCF marjı)")
     if m["fcf"] is not None:
         lines.append(f"- FCF: {fmt_usd(m['fcf'])}"
                      + (f" (marj %{m['fcf_m']:.0f})" if m["fcf_m"] is not None else ""))
-    if f.get("cash") is not None:
+    bal = q.get("balance", {})
+    if bal.get("net_cash") is not None:
+        lines.append(f"- Net nakit (nakit − borç): {fmt_usd(bal['net_cash'])}")
+    elif f.get("cash") is not None:
         lines.append(f"- Nakit: {fmt_usd(f['cash'])}")
+    v = q.get("valuation", {})
+    val_parts = [x for x in [
+        f"F/K cari {v['pe_trailing']:.1f}" if v.get("pe_trailing") else None,
+        f"F/K ileri {v['pe_forward']:.1f}" if v.get("pe_forward") else None,
+        f"FD/Satış {v['ev_sales']:.1f}" if v.get("ev_sales") else None,
+        f"Fiyat/FCF {v['p_fcf']:.1f}" if v.get("p_fcf") else None] if x]
+    if val_parts:
+        lines.append("- Değerleme: " + " · ".join(val_parts))
     return "\n".join(lines) or "(finansal veri sınırlı)"
 
 
@@ -666,23 +931,44 @@ def mock_doc(ticker, date_str):
             {"label": "Brüt marj", "value": "%72.4", "sub": "+1.1 puan ç/ç", "tone": "pos"},
             {"label": "Serbest nakit akışı", "value": "$16.8B", "sub": "marj %36", "tone": "pos"},
         ],
-        "karne": {"template": "çekirdek şablon v1",
+        "karne": {"template": "derin şablon v2",
                   "period_label": f"Son bilanço dönemi ({tr_date(d)} itibarıyla)",
                   "groups": [
                       {"name": "Büyüme", "rows": [
-                          {"metric": "Gelir", "value": "$46.7B", "note": "+%62 y/y", "tone": "green"},
-                          {"metric": "Net kâr", "value": "$26.4B", "note": "+%80 y/y", "tone": "green"},
+                          {"metric": "Gelir", "value": "$46.7B", "note": "+%62 y/y", "tone": "green",
+                           "spark": [45, 52, 88, 101, 122, 94, 69, 62], "spark_unit": "%y/y"},
+                          {"metric": "Net kâr", "value": "$26.4B", "note": "+%80 y/y", "tone": "green",
+                           "spark": [48.1, 51.2, 53.4, 54.0, 55.1, 56.0, 56.4, 56.5], "spark_unit": "% net marj"},
                           {"metric": "EPS", "value": "$1.42", "note": "beklenti $1.29 — üstünde", "tone": "green"}]},
                       {"name": "Kârlılık", "rows": [
-                          {"metric": "Brüt marj", "value": "%72.4", "note": "+1.1 puan ç/ç", "tone": "green"},
-                          {"metric": "Faaliyet marjı", "value": "%62.0", "note": "+2.4 puan y/y", "tone": "green"}]},
-                      {"name": "Nakit", "rows": [
+                          {"metric": "Brüt marj", "value": "%72.4", "note": "+1.1 puan ç/ç", "tone": "green",
+                           "spark": [66.1, 67.0, 68.9, 68.2, 69.8, 70.6, 71.3, 72.4], "spark_unit": "%"},
+                          {"metric": "Faaliyet marjı", "value": "%62.0", "note": "+2.4 puan y/y", "tone": "green",
+                           "spark": [54.1, 56.0, 58.2, 59.0, 59.8, 60.4, 61.2, 62.0], "spark_unit": "%"}]},
+                      {"name": "Sermaye getirisi", "rows": [
+                          {"metric": "ROIC", "value": "%78.5", "note": "yatırılan sermaye getirisi (NOPAT)", "tone": "green"},
+                          {"metric": "Özkaynak getirisi (ROE)", "value": "%114.3", "note": "net kâr / özkaynak", "tone": "green"},
+                          {"metric": "Aktif getirisi (ROA)", "value": "%52.7", "note": "net kâr / toplam varlık", "tone": "green"}]},
+                      {"name": "Kazanç kalitesi", "rows": [
+                          {"metric": "Nakit dönüşümü", "value": "0.88×", "note": "FCF / net kâr (TTM) — 1'e yakın iyi", "tone": "gray"},
+                          {"metric": "Hisse seyrelmesi", "value": "-%0.4 y/y", "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi", "tone": "green"},
+                          {"metric": "Rule of 40", "value": "98", "note": "büyüme % + FCF marjı — ≥40 kaliteli", "tone": "green"}]},
+                      {"name": "Bilanço", "rows": [
                           {"metric": "Serbest nakit akışı", "value": "$16.8B", "note": "marj %36", "tone": "green"},
-                          {"metric": "Nakit ve benzerleri", "value": "$53.0B", "note": "bilanço kalemi", "tone": "gray"}]},
+                          {"metric": "Net nakit (nakit − borç)", "value": "$40.4B",
+                           "note": "nakit $53.0B · borç $12.6B", "tone": "green"}]},
                       {"name": "Guidance", "rows": [
                           {"metric": "Gelecek çeyrek gelir", "value": "$54B ±%2",
                            "note": "konsensüs üstü", "tone": "green"}]},
                   ]},
+        "valuation": [
+            {"metric": "F/K (cari)", "value": "32.3×", "note": "son 12 ay kazancına göre", "tone": "gray"},
+            {"metric": "F/K (ileri)", "value": "16.5×", "note": "gelecek 12 ay tahminine göre", "tone": "gray"},
+            {"metric": "FD/Satış", "value": "19.2×", "note": "firma değeri / yıllık satış", "tone": "gray"},
+            {"metric": "FD/FAVÖK", "value": "29.4×", "note": "firma değeri / FAVÖK", "tone": "gray"},
+            {"metric": "Fiyat/FCF", "value": "30.4×", "note": "piyasa değeri / serbest nakit akışı", "tone": "gray"},
+        ],
+        "beat_history": ["beat", "beat", "beat", "miss", "beat", "beat", "beat", "beat"],
         "charts": {
             "revenue": {"labels": ["Eyl'24", "Ara'24", "Mar'25", "Haz'25", "Eyl'25", "Ara'25", "Mar'26", "Haz'26"],
                         "values": [18.1, 22.1, 26.0, 30.0, 35.1, 39.3, 44.1, 46.7], "unit": "$B"},
@@ -701,6 +987,13 @@ def mock_doc(ticker, date_str):
             "about": "Veri merkezleri ve yapay zeka için grafik işlemcileri (GPU) tasarlar; gelirinin büyük kısmı bulut devlerinin AI altyapı yatırımlarından gelir.",
             "note": "Rakamlar güçlü ama asıl hikâye marjda: sekiz çeyrektir yükselen brüt marj, fiyatlama gücünün hâlâ elde olduğunu söylüyor. Neden şimdi sorusunun cevabı bilanço sonrası momentum — ancak Çin riskinin guidance'a ne kadar yedirildiğine bakmadan pozisyon açmak aceleci olur.",
             "counter": "Beklenti o kadar yüksek ki beat bile fiyatın içinde olabilir — 45x ileri F/K'da hata payı dar.",
+            "diagnosis": [
+                {"baslik": "Büyüme ivmesi", "verdict": "notr", "yorum": "Büyüme hâlâ çok güçlü ama y/y oran %122'den %62'ye yavaşlıyor — zorlu baz etkisi."},
+                {"baslik": "Kârlılık ve sermaye getirisi", "verdict": "guclu", "yorum": "Sekiz çeyrektir yükselen marj ve %78 ROIC olağanüstü fiyatlama gücü gösteriyor."},
+                {"baslik": "Kazanç kalitesi", "verdict": "guclu", "yorum": "Hisse seyrelmesi negatif (geri alım) ve nakit dönüşümü sağlıklı."},
+                {"baslik": "Bilanço sağlığı", "verdict": "guclu", "yorum": "$40B net nakit pozisyonu, borç yükü ihmal edilebilir."},
+                {"baslik": "Değerleme", "verdict": "notr", "yorum": "İleri F/K 16.5x büyümeye göre makul ama FD/Satış 19x hata payını daraltıyor."},
+            ],
             "watch": ["Gelecek çeyrek guidance'ı Çin'siz senaryoyu içeriyor mu",
                       "Envanter büyümesi gelir büyümesini aşarsa erken uyarı sinyali"],
             "concept": {"title": "Operating leverage",
@@ -722,10 +1015,11 @@ def generate_for_ticker(ticker, why, date_str, ref_date, slot=None, file_suffix=
     f = fetch_financials(ticker)
     news_raw = fetch_news(ticker)
     m = build_metrics(f)
+    q = build_quality(f, m)
 
     news_lines = "\n".join(f"{i}. [{n['source']} {n['published']}] {n['headline']}"
                            for i, n in enumerate(news_raw))
-    ai = call_claude(metrics_text(f, m), news_lines,
+    ai = call_claude(metrics_text(f, m, q), news_lines,
                      {"name": f["name"], "ticker": ticker, "sector": f["sector"],
                       "date": date_str, "why": why["text"]})
 
@@ -763,14 +1057,17 @@ def generate_for_ticker(ticker, why, date_str, ref_date, slot=None, file_suffix=
         "price": f["price"],
         "earnings_calendar": build_calendar(f, ref_date),
         "kpi": build_kpi(f, m),
-        "karne": {"template": "çekirdek şablon v1",
+        "karne": {"template": "derin şablon v2",
                   "period_label": (f"Son bilanço: {tr_date(datetime.fromisoformat(f['earnings']['last_date']))}"
                                    if f["earnings"].get("last_date") else "Son çeyrek"),
-                  "groups": build_karne(f, m, guidance_row)},
+                  "groups": build_karne(f, m, q, guidance_row)},
+        "valuation": build_valuation(q),
+        "beat_history": q.get("beat_history", []),
         "charts": build_charts(f, m),
         "news": news_out,
         "ai": ai and {"about": ai.get("about", ""), "note": ai.get("note", ""), "counter": ai.get("counter", ""),
                       "watch": ai.get("watch", [])[:3],
+                      "diagnosis": ai.get("diagnosis", [])[:5],
                       "concept": ai.get("concept", {})} or None,
     }
 

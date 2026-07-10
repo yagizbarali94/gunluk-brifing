@@ -78,14 +78,41 @@ body { font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; background
 table.karne { width: 100%; border-collapse: collapse; }
 table.karne td { padding: 9px 12px; border-bottom: 1px solid #f5f5f5; font-size: 13px; }
 td.grp { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; background: #FFF8F4; border-bottom: 2px solid var(--border); }
-td.mname { color: var(--muted); font-weight: 500; width: 34%; }
-td.mval { font-weight: 700; width: 22%; }
-td.mnote { width: 36%; font-weight: 500; }
-td.mdot { width: 8%; text-align: right; }
+td.mname { color: var(--muted); font-weight: 500; width: 28%; }
+td.mval { font-weight: 700; width: 16%; white-space: nowrap; }
+td.mspark { width: 84px; padding: 4px 12px; }
+td.mspark .spark { display: block; }
+td.mnote { width: 30%; font-weight: 500; }
+td.mdot { width: 6%; text-align: right; }
 .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; }
 .dot.green { background: var(--green); } .dot.gray { background: var(--gray-dot); } .dot.amber { background: var(--amber); }
 .n-green { color: var(--green); } .n-gray { color: var(--muted); } .n-amber { color: var(--amber); }
 .karne-legend { font-size: 11px; color: var(--muted); margin-top: 10px; }
+.spark { vertical-align: middle; overflow: visible; }
+
+.beat-strip { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 12px; padding-top: 10px; border-top: 1px solid #f0f0f0; }
+.beat-label { font-size: 12px; font-weight: 600; color: var(--text); }
+.beat-dots { display: inline-flex; gap: 4px; }
+.beat-dot { width: 11px; height: 11px; border-radius: 3px; display: inline-block; }
+.beat-dot.green { background: var(--green); } .beat-dot.amber { background: var(--amber); } .beat-dot.gray { background: var(--gray-dot); }
+.beat-hint { font-size: 10px; color: var(--muted); }
+
+.val-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-top: 14px; }
+.val-item { background: #FAFAFA; border: 1px solid var(--border); border-radius: 10px; padding: 12px 10px; text-align: center; }
+.val-metric { font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .3px; }
+.val-value { font-size: 20px; font-weight: 800; margin: 6px 0 4px; letter-spacing: -.5px; }
+.val-note { font-size: 10px; color: var(--muted); line-height: 1.3; }
+
+.diag-list { margin-top: 12px; display: flex; flex-direction: column; gap: 2px; }
+.diag-row { display: flex; gap: 12px; align-items: flex-start; padding: 11px 0; border-bottom: 1px solid #f5f5f5; }
+.diag-row:last-child { border-bottom: none; }
+.diag-badge { flex: none; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: .3px; min-width: 52px; text-align: center; }
+.diag-badge.green { background: #dcfce7; color: #15803d; }
+.diag-badge.gray { background: #f1f1f1; color: #6b7280; }
+.diag-badge.amber { background: #fef3c7; color: #b45309; }
+.diag-title { font-size: 13px; font-weight: 700; margin-bottom: 2px; }
+.diag-note { font-size: 13px; color: #4b5563; line-height: 1.5; }
+@media (max-width: 900px) { .val-grid { grid-template-columns: repeat(2, 1fr); } }
 
 .chart-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
 .chart-grid-2 .card { margin-bottom: 0; }
@@ -122,7 +149,7 @@ td.mdot { width: 8%; text-align: right; }
   .kpi-grid { grid-template-columns: 1fr 1fr; }
   .chart-grid-2, .insights-grid { grid-template-columns: 1fr; }
   td.mnote { display: none; }
-  td.mname { width: 52%; } td.mval { width: 36%; }
+  td.mname { width: 44%; } td.mval { width: 34%; } td.mspark { width: 76px; }
 }
 
 .about { font-size: 13px; color: #4b5563; margin-top: 12px; line-height: 1.6; width: 100%; max-width: 680px; }
@@ -225,13 +252,38 @@ function esc(s) {
   });
 }
 
+function sparkSvg(vals) {
+  if (!vals || !vals.length) return '';
+  var clean = vals.filter(function (v) { return v != null; });
+  if (clean.length < 2) return '';
+  var min = Math.min.apply(null, clean), max = Math.max.apply(null, clean);
+  var range = (max - min) || 1;
+  var W = 76, H = 22, pad = 3, n = vals.length;
+  var coords = [];
+  vals.forEach(function (v, i) {
+    if (v == null) return;
+    var x = pad + (W - 2 * pad) * (n > 1 ? i / (n - 1) : 0.5);
+    var y = H - pad - (H - 2 * pad) * ((v - min) / range);
+    coords.push([x, y]);
+  });
+  var path = coords.map(function (c, i) { return (i ? 'L' : 'M') + c[0].toFixed(1) + ' ' + c[1].toFixed(1); }).join(' ');
+  var last = coords[coords.length - 1];
+  var up = clean[clean.length - 1] >= clean[0];
+  var color = up ? 'var(--green)' : 'var(--red)';
+  return '<svg class="spark" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '">'
+    + '<path d="' + path + '" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>'
+    + '<circle cx="' + last[0].toFixed(1) + '" cy="' + last[1].toFixed(1) + '" r="2.1" fill="' + color + '"/></svg>';
+}
+
 function karneRows(groups) {
   var h = '';
   groups.forEach(function (g) {
-    h += '<tr><td class="grp" colspan="4">' + esc(g.name) + '</td></tr>';
+    h += '<tr><td class="grp" colspan="5">' + esc(g.name) + '</td></tr>';
     g.rows.forEach(function (r) {
+      var spark = sparkSvg(r.spark);
       h += '<tr><td class="mname">' + esc(r.metric) + '</td>'
          + '<td class="mval">' + esc(r.value) + '</td>'
+         + '<td class="mspark" title="' + esc(r.spark_unit || '') + ' — son çeyrekler">' + spark + '</td>'
          + '<td class="mnote n-' + esc(r.tone) + '">' + esc(r.note) + '</td>'
          + '<td class="mdot"><span class="dot ' + esc(r.tone) + '"></span></td></tr>';
     });
@@ -332,14 +384,38 @@ function render(d) {
   h += '</div>';
 
   if (d.karne && d.karne.groups && d.karne.groups.length) {
+    var beatStrip = '';
+    if (d.beat_history && d.beat_history.length) {
+      var dots = d.beat_history.map(function (b) {
+        var cls = b === 'beat' ? 'green' : b === 'miss' ? 'amber' : 'gray';
+        var t = b === 'beat' ? 'beklenti üstü' : b === 'miss' ? 'beklenti altı' : 'beklentiyle uyumlu';
+        return '<span class="beat-dot ' + cls + '" title="' + t + '"></span>';
+      }).join('');
+      var beats = d.beat_history.filter(function (b) { return b === 'beat'; }).length;
+      beatStrip = '<div class="beat-strip"><span class="beat-label">Son ' + d.beat_history.length
+        + ' çeyrek EPS: ' + beats + '/' + d.beat_history.length + ' beat</span>'
+        + '<span class="beat-dots">' + dots + '</span><span class="beat-hint">eski → yeni</span></div>';
+    }
     h += '<div class="card"><div class="card-head">'
        + '<div><div class="chart-title">📋 Bilanço karnesi</div>'
        + '<div class="chart-subtitle">' + esc(d.karne.period_label || '') + '</div></div>'
        + '<span class="pill">' + esc(d.karne.template || '') + '</span></div>'
        + '<table class="karne">' + karneRows(d.karne.groups) + '</table>'
+       + beatStrip
        + '<div class="karne-legend"><span class="dot green"></span> güçlü &nbsp;'
        + '<span class="dot gray"></span> nötr &nbsp;'
-       + '<span class="dot amber"></span> izle</div></div>';
+       + '<span class="dot amber"></span> izle &nbsp;·&nbsp; çizgi grafik: son 5 çeyrek trendi</div></div>';
+  }
+
+  if (d.valuation && d.valuation.length) {
+    var vrows = d.valuation.map(function (r) {
+      return '<div class="val-item"><div class="val-metric">' + esc(r.metric) + '</div>'
+           + '<div class="val-value">' + esc(r.value) + '</div>'
+           + '<div class="val-note">' + esc(r.note) + '</div></div>';
+    }).join('');
+    h += '<div class="card"><div class="chart-title">💲 Değerleme çarpanları</div>'
+       + '<div class="chart-subtitle">piyasa ne kadar ödüyor — düşük her zaman iyi, yüksek her zaman kötü değildir</div>'
+       + '<div class="val-grid">' + vrows + '</div></div>';
   }
 
   h += '<div class="chart-grid-2">'
@@ -359,6 +435,19 @@ function render(d) {
          + '<span class="news-meta">' + esc(n.source) + (n.published ? ' · ' + esc(n.published) : '') + '</span></div>';
     });
     h += '</div></div>';
+  }
+
+  if (d.ai && d.ai.diagnosis && d.ai.diagnosis.length) {
+    var VMAP = { guclu: ['güçlü', 'green'], notr: ['nötr', 'gray'], zayif: ['zayıf', 'amber'] };
+    var drows = d.ai.diagnosis.map(function (p) {
+      var vm = VMAP[p.verdict] || VMAP.notr;
+      return '<div class="diag-row"><span class="diag-badge ' + vm[1] + '">' + vm[0] + '</span>'
+           + '<div class="diag-body"><div class="diag-title">' + esc(p.baslik) + '</div>'
+           + '<div class="diag-note">' + esc(p.yorum) + '</div></div></div>';
+    }).join('');
+    h += '<div class="card"><div class="chart-title">🩺 Sağlık teşhisi</div>'
+       + '<div class="chart-subtitle">beş boyutta hızlı okuma — Claude’un metriklere dayalı değerlendirmesi</div>'
+       + '<div class="diag-list">' + drows + '</div></div>';
   }
 
   if (d.ai) {
