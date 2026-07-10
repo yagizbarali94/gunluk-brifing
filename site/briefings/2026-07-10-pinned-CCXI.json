@@ -1,7 +1,7 @@
 {
  "date": "2026-07-10",
  "slot": "pinned",
- "generated_at": "2026-07-10T20:15:56+00:00",
+ "generated_at": "2026-07-10T21:12:43+00:00",
  "mock": false,
  "ticker": "CCXI",
  "company": {
@@ -53,7 +53,7 @@
   }
  ],
  "karne": {
-  "template": "çekirdek şablon v1",
+  "template": "derin şablon v2",
   "period_label": "Son çeyrek",
   "groups": [
    {
@@ -63,13 +63,23 @@
       "metric": "Gelir",
       "value": "$0",
       "note": "y/y veri yok",
-      "tone": "gray"
+      "tone": "gray",
+      "spark": [
+       0.0,
+       0.0
+      ],
+      "spark_unit": "$B gelir"
      },
      {
       "metric": "Net kâr",
       "value": "$3M",
       "note": "-%6327 y/y",
-      "tone": "amber"
+      "tone": "amber",
+      "spark": [
+       null,
+       null
+      ],
+      "spark_unit": "% net marj"
      },
      {
       "metric": "EPS",
@@ -86,18 +96,71 @@
       "metric": "Brüt marj",
       "value": "veri yok",
       "note": "ç/ç veri yok",
-      "tone": "gray"
+      "tone": "gray",
+      "spark": [],
+      "spark_unit": "%"
      },
      {
       "metric": "Faaliyet marjı",
       "value": "veri yok",
       "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       null,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "veri yok",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "veri yok",
+      "note": "net kâr / toplam varlık",
       "tone": "gray"
      }
     ]
    },
    {
-    "name": "Nakit",
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "veri yok",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
     "rows": [
      {
       "metric": "Serbest nakit akışı",
@@ -106,15 +169,48 @@
       "tone": "gray"
      },
      {
-      "metric": "Nakit ve benzerleri",
-      "value": "$410,097",
-      "note": "bilanço kalemi",
+      "metric": "Net nakit (nakit − borç)",
+      "value": "veri yok",
+      "note": "nakit $410,097 · borç veri yok",
       "tone": "gray"
      }
     ]
    }
   ]
  },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "veri yok",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "veri yok",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "veri yok",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [],
  "charts": {
   "revenue": {
    "labels": [
@@ -138,7 +234,7 @@
  },
  "news": [
   {
-   "headline_tr": "CCXI hisseleri, 2,5 milyar dolar değerlemeyle Agility Robotics birleşmesinin yatırımcı ilgisini canlı tutması sayesinde yükseliş kaydetti.",
+   "headline_tr": "CCXI hisseleri, 2,5 milyar dolarlık Agility Robotics birleşme haberinin yatırımcı ilgisini canlı tutmasıyla değer kazandı.",
    "source": "benzinga",
    "published": "2026-07-06",
    "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60275077/churchill-capital-shares-rise-as-25-billion-agility-robotics-merger-keeps-investors-engaged",
@@ -146,16 +242,43 @@
   }
  ],
  "ai": {
-  "about": "Churchill Capital Corp XI (CCXI), henüz bir hedef şirketle birleşmemiş boş çek şirketi (SPAC) olarak faaliyet göstermektedir. Geliri olmayan bu yapı, yatırımcılardan topladığı sermayeyi bir satın alma veya birleşme işlemi tamamlanana kadar emanet hesabında tutmaktadır.",
-  "note": "CCXI, özünde bir geçiş aracıdır; kalıcı bir iş modeli, ekonomik hendek veya fiyatlama gücü yoktur. Agility Robotics ile açıklanan 2,5 milyar dolarlık birleşme bu SPAC'ın tek varlık sebebidir ve uzun vadeli yatırım tezi tamamen Agility Robotics'in robotik iş modelinin kalitesine, büyüme potansiyeline ve birleşme sonrası yönetim kapasitesine dayanmaktadır. CCXI hissesine yapılan yatırım bugün itibarıyla doğrudan Agility Robotics üzerine spekülasyon yapmakla eşdeğerdir.",
-  "counter": "SPAC birleşmeleri tarihsel olarak hisse sahipleri için değer yok edici sonuçlar doğurmuştur; kurucuların sulandırma etkisi, hedef şirketin öngörülen büyümeyi tutturamaması ve geri ödeme baskısı uzun vadeli tezi ciddi biçimde tehdit etmektedir. Agility Robotics'in ticari ölçeklenme ve rekabet ortamındaki belirsizlik ek yapısal risk katmaktadır.",
+  "about": "Churchill Capital Corp XI (CCXI), henüz bir hedef şirketle birleşme sürecinde olan bir SPAC (Özel Amaçlı Satın Alma Şirketi) olup gelir üretmemektedir. Para kazanma modeli, halka arz yoluyla toplanan sermayeyi uygun bir özel şirketle birleştirip onu borsaya taşımak üzerine kuruludur.",
+  "note": "CCXI'nin 2,5 milyar dolar değerlemeyle Agility Robotics'i halka taşıma planı, insansı robot sektörüne yönelik yatırımcı ilgisini yansıtıyor ve başarılı kapanma halinde anlamlı bir pozisyon sunabilir. Ancak SPAC yapısı gereği şirketin bugünkü değeri tamamen birleşmenin kapanıp kapanmamasına, ardından Agility Robotics'in operasyonel başarısına bağlıdır; CCXI'nin kendisine has bir iş modeli ya da ekonomik hendeki yoktur. 3-5 yıllık tez aslında CCXI değil Agility Robotics'in rekabet konumu, müşteri tabanı ve nakit yakma hızı üzerine kurulmak zorundadır.",
+  "counter": "SPAC birleşmeleri tarihin gösterdiği üzere kapanma sonrası ciddi değer kaybına uğrayabilir; yoğun geri alım baskısı ve Agility Robotics'in robotik sektöründe kârlılığa ulaşmadan önce büyük sermaye ihtiyacı yaratacak olması uzun vadeli tezi doğrudan tehdit etmektedir. Ayrıca Boston Dynamics ve Figure AI gibi rakiplerle artan rekabet, Agility'nin pazar payı ve fiyatlama gücünü kısıtlayabilir.",
   "watch": [
-   "Birleşme oylaması ve hissedar geri ödeme (redemption) oranı — yüksek geri ödeme oranı şirketi nakit açığına düşürür",
-   "Agility Robotics'in birleşme sonrası gelir büyümesi ve brüt marj trendi — robotik iş modelinin ticari olgunluğunu ölçer"
+   "Birleşme oylamasının kapanıp kapanmayacağı ve geri alım (redemption) oranının ne kadar yüksek olacağı",
+   "Birleşme sonrasında Agility Robotics'in ticari müşteri sözleşmeleri ve gelire dönüşüm hızı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "zayif",
+    "yorum": "SPAC statüsü nedeniyle gelir sıfır, herhangi bir organik büyüme trendi analiz edilememektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Operasyonel faaliyeti bulunmadığından marj veya ROIC hesaplanamaz; FCF negatif ve tamamen gider bazlıdır."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "Nakit dönüşümü mevcut değil; SPAC yapısı gereği birleşme kapanana kadar anlamlı bir kazanç kalitesi değerlendirmesi yapılamaz."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "410 bin dolar nakit ve 326 bin dolar negatif FCF ile güçlü bir bilanço olmasa da kısa vadeli yükümlülükleri karşılayabilecek düzeyde görünmektedir; birleşme öncesi güvence hesabındaki sermaye belirleyici faktördür."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "2,5 milyar dolarlık birleşme değerlemesi; henüz gelir üretmeyen, yoğun Ar-Ge harcaması yapan bir robotik şirket için agresif olmakla birlikte insansı robot sektörüne olan spekülatif talep bu seviyeyi geçici olarak destekleyebilir."
+   }
   ],
   "concept": {
-   "title": "SPAC Sulandırma Riski (Dilution Risk)",
-   "body": "SPAC yapılarında kurucu hissedarlar (sponsor) genellikle toplam hissenin %20'sini bedelsiz alır; bu durum halka açılma sonrası mevcut yatırımcıların payını doğrudan seyreltir. CCXI-Agility Robotics birleşmesinde bu sulandırma etkisinin boyutu ve varsa ek PIPE yatırımcılarının koşulları, gerçek net varlık değerinin hesaplanmasında kritik öneme sahiptir."
+   "title": "SPAC Geri Alım Riski (Redemption Risk)",
+   "body": "SPAC yatırımcıları, birleşme öncesinde hisselerini genellikle 10 dolar civarında geri satabilme hakkına sahiptir; bu durum birleşme kapandığında şirkete çok az nakit kalmasına neden olabilir. CCXI-Agility Robotics birleşmesinde yüksek geri alım oranı gerçekleşirse şirket yeterli çalışma sermayesine ulaşamayabilir ve kısa sürede ek finansmana muhtaç kalabilir."
   }
  }
 }
