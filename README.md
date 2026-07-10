@@ -1,7 +1,8 @@
 # Günlük Şirket Brifingi
 
-Her sabah watchlist'ten bir hisse seçer (bilanço açıklayan > büyük hareket eden >
-rotasyondaki sıradaki), yfinance + Alpaca News'ten veriyi toplar, Claude'a Türkçe
+Her sabah watchlist'ten bir hisse seçer (bilanço açıklayan > önümüzdeki 7 günde
+bilanço açıklayacak > büyük hareket eden > rotasyondaki sıradaki), yfinance +
+Alpaca News'ten veriyi toplar, Claude'a Türkçe
 yorum yazdırır ve sonucu `site/briefings/` altına JSON olarak işler. Netlify bu
 depoya bağlı olduğu için her commit otomatik yayınlanır:
 

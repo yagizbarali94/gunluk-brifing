@@ -3,7 +3,7 @@
 Günlük Şirket Brifingi — üretici script
 =======================================
 Her sabah cron tarafından çalıştırılır. Akış:
-  1. Hisse seç (bilanço > büyük hareket > rotasyon)
+  1. Hisse seç (bilanço açıklayan > yaklaşan bilanço (7 gün) > büyük hareket > rotasyon)
   2. yfinance'ten finansallar + Alpaca'dan haberler
   3. Claude API ile Türkçe yorum, karşı argüman, günün kavramı
   4. site/briefings/YYYY-MM-DD.json + manifest.json yaz
@@ -98,12 +98,13 @@ def pct_str(x, signed=True, decimals=0):
 # ----------------------------------------------------------------------
 
 def select_ticker(state):
-    """Öncelik: son 2 günde bilanço > |%4+| hareket > rotasyon."""
+    """Öncelik: son 2 günde bilanço > önümüzdeki 7 günde bilanço > |%4+| hareket > rotasyon."""
     import yfinance as yf
 
     today = datetime.now(timezone.utc).date()
+    upcoming = None  # (ticker, days_until, date) — pencere içindeki en yakın bilanço
 
-    # (a) Yakın zamanda bilanço açıklayan var mı?
+    # (a) Yakın zamanda bilanço açıklayan var mı? (yol boyunca yaklaşan bilançoları da topla)
     for t in config.WATCHLIST:
         try:
             ed = yf.Ticker(t).get_earnings_dates(limit=8)
@@ -118,11 +119,23 @@ def select_ticker(state):
                                "text": ("Bugün bilanço açıkladı" if delta == 0
                                         else "Dün bilanço açıkladı" if delta == 1
                                         else f"{delta} gün önce bilanço açıkladı")}
+                days_until = -delta
+                if 0 < days_until <= config.EARNINGS_UPCOMING_DAYS:
+                    if upcoming is None or days_until < upcoming[1]:
+                        upcoming = (t, days_until, dd)
             time.sleep(0.3)
         except Exception as e:
             log(f"  bilanço kontrolü atlandı ({t}): {e}")
 
-    # (b) Büyük fiyat hareketi var mı? (tek toplu istek)
+    # (b) Yaklaşan bilanço var mı? (7 gün içinde — beklentileri önceden incele)
+    if upcoming:
+        t, days_until, dd = upcoming
+        log(f"Seçim: {t} — {dd} tarihinde bilanço açıklayacak ({days_until} gün kaldı)")
+        kalan = "yarın" if days_until == 1 else f"{days_until} gün sonra"
+        return t, {"reason_code": "upcoming_earnings",
+                   "text": f"Bilanço {kalan} açıklanacak — beklentileri incele"}
+
+    # (c) Büyük fiyat hareketi var mı? (tek toplu istek)
     try:
         data = yf.download(config.WATCHLIST, period="5d", progress=False,
                            auto_adjust=True)["Close"].dropna(how="all")
@@ -139,7 +152,7 @@ def select_ticker(state):
     except Exception as e:
         log(f"  hareket taraması atlandı: {e}")
 
-    # (c) Rotasyon
+    # (d) Rotasyon
     idx = (state.get("last_index", -1) + 1) % len(config.WATCHLIST)
     t = config.WATCHLIST[idx]
     state["last_index"] = idx

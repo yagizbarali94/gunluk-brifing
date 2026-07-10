@@ -14,8 +14,9 @@ Uçtan uca akış:
 1. `.github/workflows/brifing.yml` cron ile (`45 5 * * 1-5` UTC) veya elle
    (`workflow_dispatch`, opsiyonel `ticker` girdisiyle) tetiklenir.
 2. `briefing_generator.py` çalışır:
-   - Hisse seçimi: son 2 günde bilanço açıklayan > günlük |%4+| hareket eden >
-     yoksa `config.py`'deki `WATCHLIST` sırasında rotasyon (`state.json`'da tutulur).
+   - Hisse seçimi: son 2 günde bilanço açıklayan > önümüzdeki 7 gün içinde bilanço
+     açıklayacak (varsa en yakın tarihli) > günlük |%4+| hareket eden > yoksa
+     `config.py`'deki `WATCHLIST` sırasında rotasyon (`state.json`'da tutulur).
    - `yfinance` ile finansallar (gelir, marj, FCF, EPS, bilanço takvimi),
      Alpaca News API ile son 7 günün haberleri çekilir.
    - Toplanan veriler + haberler Claude API'ye (`claude-sonnet-4-6`) gönderilir;
@@ -34,7 +35,7 @@ Uçtan uca akış:
 |---|---|
 | `.github/workflows/brifing.yml` | Cron + manuel tetikleme; Python kurar, `briefing_generator.py`'yi çalıştırır, çıktıyı commit+push eder. |
 | `briefing_generator.py` | Ana üretici script: hisse seçimi, veri toplama (yfinance/Alpaca), Claude çağrısı, JSON çıktı yazımı. `--ticker`, `--mock`, `--date` argümanlarıyla elle/test modunda da çalışır. |
-| `config.py` | `WATCHLIST` (rotasyon sırası), seçim eşikleri (`EARNINGS_LOOKBACK_DAYS`, `MOVER_THRESHOLD_PCT`), haber ayarları, Claude model/token ayarları, karne renk eşikleri (`THRESHOLDS`), dosya yolları. |
+| `config.py` | `WATCHLIST` (rotasyon sırası), seçim eşikleri (`EARNINGS_LOOKBACK_DAYS`, `EARNINGS_UPCOMING_DAYS`, `MOVER_THRESHOLD_PCT`), haber ayarları, Claude model/token ayarları, karne renk eşikleri (`THRESHOLDS`), dosya yolları. |
 | `state.json` | Rotasyonun kaldığı yeri tutar: `last_index`, `last_ticker`. Workflow tarafından otomatik güncellenir. |
 | `site/index.html` | Netlify'da yayınlanan frontend — brifingleri okuyup gösteren tek sayfa. |
 | `site/briefings/YYYY-MM-DD.json` | Her gün üretilen brifing verisi (fiyat, KPI'lar, karne, grafikler, haberler, Claude yorumu). |

@@ -13,6 +13,7 @@ WATCHLIST = [
 
 # Hisse seçim öncelikleri
 EARNINGS_LOOKBACK_DAYS = 2      # son N gün içinde bilanço açıklayan öne geçer
+EARNINGS_UPCOMING_DAYS = 7      # önümüzdeki N gün içinde bilanço açıklayacak olan öne geçer
 MOVER_THRESHOLD_PCT = 4.0       # tek günde |değişim| >= bu ise "büyük hareket"
 
 # Haberler
