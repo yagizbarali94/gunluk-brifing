@@ -145,6 +145,25 @@ td.mdot { width: 8%; text-align: right; }
 .chat-form button { background: var(--brand); color: #fff; border: none; border-radius: 20px; padding: 0 16px; font-size: 13px; font-weight: 700; cursor: pointer; }
 .chat-form button:disabled { opacity: .5; cursor: default; }
 @media (max-width: 900px) { .chat-panel { right: 8px; bottom: 78px; } .chat-fab { right: 12px; bottom: 14px; } }
+
+.pin-btn { padding: 6px 14px; border-radius: 20px; border: 1.5px solid var(--border); background: white; font-size: 13px; font-weight: 600; cursor: pointer; color: var(--text); }
+.pin-btn:hover { border-color: var(--brand); color: var(--brand-dark); }
+.pin-panel { display: none; position: absolute; top: calc(100% + 6px); left: 0; width: 320px; max-width: calc(100vw - 32px); background: #fff; border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 10px 32px rgba(0,0,0,.16); padding: 14px 16px; z-index: 50; }
+.pin-wrap { position: relative; }
+.pin-panel.open { display: block; }
+.pin-title { font-size: 13px; font-weight: 700; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
+.pin-title button { background: none; border: none; font-size: 16px; cursor: pointer; color: var(--muted); }
+.pin-form { display: flex; gap: 6px; }
+.pin-form input[type=date] { flex: 1.3; min-width: 0; padding: 7px 8px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 12px; }
+.pin-form input[type=text] { flex: 1; min-width: 0; padding: 7px 8px; border: 1.5px solid var(--border); border-radius: 8px; font-size: 12px; text-transform: uppercase; }
+.pin-form button { background: var(--brand); color: #fff; border: none; border-radius: 8px; padding: 0 12px; font-size: 12px; font-weight: 700; cursor: pointer; }
+.pin-form button:disabled { opacity: .5; }
+.pin-list { margin-top: 10px; font-size: 12px; }
+.pin-row { display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid #f5f5f5; }
+.pin-row:last-child { border-bottom: none; }
+.pin-row button { background: none; border: none; color: var(--red); font-size: 14px; cursor: pointer; padding: 0 4px; }
+.pin-msg { margin-top: 8px; font-size: 11px; color: var(--muted); }
+.pin-msg.err { color: var(--red); }
 </style>
 </head>
 <body>
@@ -162,6 +181,19 @@ td.mdot { width: 8%; text-align: right; }
   <select id="daySelect"></select>
   <label for="slotSelect" id="slotLabel" style="display:none">Odak:</label>
   <select id="slotSelect" style="display:none"></select>
+  <span class="pin-wrap">
+    <button class="pin-btn" id="pinBtn" type="button">⭐ Sabitle</button>
+    <div class="pin-panel" id="pinPanel">
+      <div class="pin-title"><span>⭐ İleri tarih için hisse sabitle</span><button id="pinClose" type="button">×</button></div>
+      <form class="pin-form" id="pinForm">
+        <input type="date" id="pinDate" required>
+        <input type="text" id="pinTicker" placeholder="NVDA" maxlength="10" autocomplete="off" required>
+        <button type="submit" id="pinSave">Ekle</button>
+      </form>
+      <div class="pin-list" id="pinList"></div>
+      <div class="pin-msg" id="pinMsg">Sabitlenen hisse o sabah "⭐ Senin seçimin" brifingi olarak eklenir.</div>
+    </div>
+  </span>
   <span class="filter-note">kaynaklar: yfinance · Alpaca News · Claude</span>
 </div>
 
@@ -461,6 +493,93 @@ fetch('briefings/manifest.json')
     <button type="submit" id="chatSend">Gönder</button>
   </form>
 </div>
+<script>
+(function () {
+  var btn = document.getElementById('pinBtn');
+  var panel = document.getElementById('pinPanel');
+  var form = document.getElementById('pinForm');
+  var dateIn = document.getElementById('pinDate');
+  var tickIn = document.getElementById('pinTicker');
+  var saveBtn = document.getElementById('pinSave');
+  var listEl = document.getElementById('pinList');
+  var msgEl = document.getElementById('pinMsg');
+  var defaultMsg = msgEl.textContent;
+
+  function getPass() {
+    var p = sessionStorage.getItem('brifing_chat_pass');
+    if (!p) {
+      p = prompt('Erişim kelimesi:');
+      if (p) sessionStorage.setItem('brifing_chat_pass', p);
+    }
+    return p || '';
+  }
+  function msg(text, isErr) {
+    msgEl.textContent = text;
+    msgEl.className = 'pin-msg' + (isErr ? ' err' : '');
+  }
+  function api(method, body) {
+    return fetch('/api/pin', {
+      method: method,
+      headers: { 'content-type': 'application/json', 'x-chat-pass': getPass() },
+      body: body ? JSON.stringify(body) : undefined
+    }).then(function (r) {
+      return r.json().then(function (d) {
+        if (r.status === 401) { sessionStorage.removeItem('brifing_chat_pass'); throw new Error('Erişim kelimesi hatalı — paneli kapatıp açınca tekrar sorar.'); }
+        if (!r.ok) throw new Error(d.error || ('hata ' + r.status));
+        return d;
+      });
+    });
+  }
+  function renderPins(pins) {
+    var dates = Object.keys(pins).sort();
+    if (!dates.length) { listEl.innerHTML = '<div class="pin-row" style="color:var(--muted)">Sabitlenmiş hisse yok.</div>'; return; }
+    var h = '';
+    dates.forEach(function (d) {
+      pins[d].forEach(function (t) {
+        h += '<div class="pin-row"><span>' + esc(trDate(d)) + ' · <b>' + esc(t) + '</b></span>'
+           + '<button type="button" data-d="' + esc(d) + '" data-t="' + esc(t) + '" title="kaldır">×</button></div>';
+      });
+    });
+    listEl.innerHTML = h;
+  }
+  function refresh() {
+    listEl.innerHTML = '<div class="pin-row" style="color:var(--muted)">yükleniyor…</div>';
+    api('GET').then(function (d) { renderPins(d.pins); msg(defaultMsg); })
+      .catch(function (e) { listEl.innerHTML = ''; msg(e.message, true); });
+  }
+
+  btn.addEventListener('click', function () {
+    panel.classList.toggle('open');
+    if (panel.classList.contains('open')) {
+      var t = new Date(); t.setDate(t.getDate() + 1);
+      if (!dateIn.value) dateIn.value = t.toISOString().slice(0, 10);
+      refresh();
+    }
+  });
+  document.getElementById('pinClose').addEventListener('click', function () { panel.classList.remove('open'); });
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var d = dateIn.value, t = tickIn.value.trim().toUpperCase();
+    if (!d || !t) return;
+    saveBtn.disabled = true;
+    msg('kaydediliyor…');
+    api('POST', { action: 'add', date: d, ticker: t })
+      .then(function (res) { renderPins(res.pins); tickIn.value = ''; msg('Eklendi ✓ — o sabah brifingi üretilecek.'); })
+      .catch(function (err) { msg(err.message, true); })
+      .finally(function () { saveBtn.disabled = false; });
+  });
+
+  listEl.addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-d]');
+    if (!b) return;
+    msg('kaldırılıyor…');
+    api('POST', { action: 'remove', date: b.getAttribute('data-d'), ticker: b.getAttribute('data-t') })
+      .then(function (res) { renderPins(res.pins); msg('Kaldırıldı.'); })
+      .catch(function (err) { msg(err.message, true); });
+  });
+})();
+</script>
 <script>
 (function () {
   var hist = [];

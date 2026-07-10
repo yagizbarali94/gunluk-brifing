@@ -64,6 +64,30 @@ def save_state(state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
+def load_pinned():
+    """pinned.json: {"YYYY-MM-DD": ["NVDA", ...]} — site paneli veya GitHub'dan yönetilir."""
+    path = os.path.join(BASE_DIR, config.PINNED_FILE)
+    if os.path.exists(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                data = json.load(f)
+            if isinstance(data, dict):
+                return data
+        except Exception as e:
+            log(f"  pinned.json okunamadı: {e}")
+    return {}
+
+
+def prune_pinned(pinned, date_str):
+    """Tarihi geçmiş sabitlemeleri sil; değişiklik olduysa dosyayı güncelle."""
+    kept = {d: v for d, v in pinned.items() if d >= date_str}
+    if kept != pinned:
+        with open(os.path.join(BASE_DIR, config.PINNED_FILE), "w", encoding="utf-8") as f:
+            json.dump(kept, f, ensure_ascii=False, indent=1)
+        log(f"pinned.json temizlendi: {len(pinned) - len(kept)} geçmiş tarih silindi")
+    return kept
+
+
 def tone_from_threshold(value, key, invert=False):
     """Eşiklere göre yeşil/gri/sarı. invert=True ise düşük değer iyidir."""
     if value is None:
@@ -782,14 +806,15 @@ def main():
 
     picks = select_tickers(state)
 
-    # Bugün için sabitlenmiş hisseler (config.PINNED) — otomatik seçime EK brifing
+    # Bugün için sabitlenmiş hisseler (pinned.json) — otomatik seçime EK brifing
+    pinned_map = prune_pinned(load_pinned(), date_str)
     auto_tickers = {p["ticker"] for p in picks}
-    for t in getattr(config, "PINNED", {}).get(date_str, []):
+    for t in pinned_map.get(date_str, []):
         t = t.upper()
         if t in auto_tickers:
             log(f"Sabitlenen {t} zaten otomatik seçildi — yinelenmiyor")
             continue
-        log(f"Seçim (sabitlenen): {t} — {date_str} için config.PINNED'de")
+        log(f"Seçim (sabitlenen): {t} — {date_str} için pinned.json'da")
         picks.append({"slot": "pinned", "ticker": t,
                       "why": {"reason_code": "pinned",
                               "text": "Bugün için senin sabitlediğin hisse"},

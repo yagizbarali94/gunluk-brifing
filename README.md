@@ -49,10 +49,14 @@ seçer). Elle seçimde tek brifing üretilir, iki slotlu otomatik akış atlanı
 - **Watchlist ve eşikler:** `config.py` — GitHub'da dosyaya girip kalem
   ikonuyla tarayıcıdan düzenleyebilirsin; commit ettiğinde bir sonraki sabah
   yeni liste geçerli olur.
-- **İleri tarih için hisse sabitleme:** `config.py` içindeki `PINNED` sözlüğü.
-  Örn. `PINNED = {"2026-07-22": ["TSM"]}` yazarsan 22 Temmuz sabahı, otomatik
-  2 brifinge ek olarak TSM için "⭐ Senin seçimin" etiketli bir brifing üretilir
-  (otomatik seçimle çakışırsa yinelenmez). Tarihi geçen satırları silebilirsin.
+- **İleri tarih için hisse sabitleme:** sitedeki **⭐ Sabitle** paneli (filtre
+  çubuğunda). Tarih + hisse kodu girince `pinned.json` GitHub'a commit'lenir;
+  o sabah, otomatik 2 brifinge ek olarak "⭐ Senin seçimin" etiketli bir brifing
+  üretilir (otomatik seçimle çakışırsa yinelenmez). Tarihi geçen kayıtlar her
+  sabah otomatik silinir. `pinned.json`'ı GitHub'dan elle düzenlemek de olur.
+  Panelin çalışması için Netlify ortam değişkenleri: `GITHUB_TOKEN`
+  (fine-grained PAT, sadece bu repo, Contents: Read and write) ve `CHAT_PASS`
+  (sohbetle aynı erişim kelimesi — panel bu kelimeyi sorar).
 - **Saat/sıklık:** `.github/workflows/brifing.yml` içindeki `cron` satırı.
 
 ## Notlar

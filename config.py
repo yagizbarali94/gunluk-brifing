@@ -16,16 +16,10 @@ EARNINGS_LOOKBACK_DAYS = 2      # son N gün içinde bilanço açıklayan öne g
 EARNINGS_UPCOMING_DAYS = 7      # önümüzdeki N gün içinde bilanço açıklayacak olan öne geçer
 MOVER_THRESHOLD_PCT = 4.0       # tek günde |değişim| >= bu ise "büyük hareket"
 
-# Belirli günler için sabitlenmiş hisseler.
-# O gün, otomatik seçilen 2 brifinge EK olarak buradaki her hisse için
-# "⭐ Senin seçimin" etiketiyle ayrı bir brifing üretilir (otomatik seçimle
-# çakışırsa yinelenmez). Tarih geçtikten sonra satırı silebilirsin.
-# Örnek:
-#   PINNED = {
-#       "2026-07-15": ["NVDA"],
-#       "2026-07-22": ["TSM", "ASML"],
-#   }
-PINNED = {}
+# Belirli günlere hisse sabitleme: pinned.json dosyasında tutulur
+# ({"YYYY-MM-DD": ["NVDA", ...]}). Sitedeki "⭐ Sabitle" panelinden veya
+# GitHub'da pinned.json'ı düzenleyerek yönetilir; tarihi geçen kayıtlar
+# her sabah otomatik temizlenir.
 
 # Haberler
 NEWS_LOOKBACK_DAYS = 7
@@ -49,3 +43,4 @@ THRESHOLDS = {
 SITE_DIR = "site"
 BRIEFINGS_DIR = "site/briefings"
 STATE_FILE = "state.json"
+PINNED_FILE = "pinned.json"
