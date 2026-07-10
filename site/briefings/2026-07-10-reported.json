@@ -1,81 +1,99 @@
 {
  "date": "2026-07-10",
  "slot": "reported",
- "generated_at": "2026-07-10T19:20:38+00:00",
+ "generated_at": "2026-07-10T21:04:47+00:00",
  "mock": false,
- "ticker": "MDB",
+ "ticker": "META",
  "company": {
-  "name": "MongoDB, Inc.",
-  "sector": "Technology",
-  "industry": "Software - Infrastructure",
-  "market_cap": 27578097664
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1698738339840
  },
  "why_today": {
   "reason_code": "mover",
-  "text": "Dün %5.6 düştü — büyük hareket"
+  "text": "Dün %6.0 yükseldi — büyük hareket"
  },
  "price": {
-  "last": 342.88,
-  "change_pct": -5.32
+  "last": 669.21,
+  "change_pct": 4.59
  },
  "earnings_calendar": {
-  "last_date": null,
-  "next_date": null,
-  "last_label": null,
-  "next_label": null,
-  "days_to_next": null,
-  "progress_pct": null
+  "last_date": "2026-04-29",
+  "next_date": "2026-07-29",
+  "last_label": "29 Nisan",
+  "next_label": "29 Temmuz",
+  "days_to_next": 19,
+  "progress_pct": 79
  },
  "kpi": [
   {
    "label": "Gelir (çeyrek)",
-   "value": "$688M",
-   "sub": "+%25 y/y",
+   "value": "$56.3B",
+   "sub": "+%33 y/y",
    "tone": "pos"
   },
   {
    "label": "EPS",
-   "value": "—",
-   "sub": "veri yok",
-   "tone": "neutral"
+   "value": "$7.31",
+   "sub": "Beat · beklenti $6.82",
+   "tone": "pos"
   },
   {
    "label": "Brüt marj",
-   "value": "%72.2",
-   "sub": "-0.9 puan ç/ç",
-   "tone": "neg"
+   "value": "%81.9",
+   "sub": "+0.1 puan ç/ç",
+   "tone": "pos"
   },
   {
    "label": "Serbest nakit akışı",
-   "value": "$199M",
-   "sub": "marj %29",
+   "value": "$13.2B",
+   "sub": "marj %23",
    "tone": "pos"
   }
  ],
  "karne": {
-  "template": "çekirdek şablon v1",
-  "period_label": "Son çeyrek",
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Nisan",
   "groups": [
    {
     "name": "Büyüme",
     "rows": [
      {
       "metric": "Gelir",
-      "value": "$688M",
-      "note": "+%25 y/y",
-      "tone": "green"
+      "value": "$56.3B",
+      "note": "+%33 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       42.31,
+       47.52,
+       51.24,
+       59.89,
+       56.31
+      ],
+      "spark_unit": "$B gelir"
      },
      {
       "metric": "Net kâr",
-      "value": "$4M",
-      "note": "-%112 y/y",
-      "tone": "amber"
+      "value": "$26.8B",
+      "note": "+%61 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       39.3,
+       38.6,
+       5.3,
+       38.0,
+       47.5
+      ],
+      "spark_unit": "% net marj"
      },
      {
       "metric": "EPS",
-      "value": "veri yok",
-      "note": "veri yok",
-      "tone": "gray"
+      "value": "$7.31",
+      "note": "beklenti $6.82 — üstünde",
+      "tone": "green"
      }
     ]
    },
@@ -84,100 +102,251 @@
     "rows": [
      {
       "metric": "Brüt marj",
-      "value": "%72.2",
-      "note": "-0.9 puan ç/ç",
-      "tone": "amber"
+      "value": "%81.9",
+      "note": "+0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       82.1,
+       82.1,
+       82.0,
+       81.8,
+       81.9
+      ],
+      "spark_unit": "%"
      },
      {
       "metric": "Faaliyet marjı",
-      "value": "%-3.6",
-      "note": "+6.1 puan y/y",
+      "value": "%40.6",
+      "note": "-0.9 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       41.5,
+       43.0,
+       40.1,
+       41.3,
+       40.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%18.0",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%32.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%16.4",
+      "note": "net kâr / toplam varlık",
       "tone": "green"
      }
     ]
    },
    {
-    "name": "Nakit",
+    "name": "Kazanç kalitesi",
     "rows": [
      {
-      "metric": "Serbest nakit akışı",
-      "value": "$199M",
-      "note": "marj %29",
+      "metric": "Nakit dönüşümü",
+      "value": "0.68×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%1.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
       "tone": "green"
      },
      {
-      "metric": "Nakit ve benzerleri",
-      "value": "$1.0B",
-      "note": "bilanço kalemi",
-      "tone": "gray"
+      "metric": "Rule of 40",
+      "value": "56",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$13.2B",
+      "note": "marj %23",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-63.3B",
+      "note": "nakit $23.4B · borç $86.8B",
+      "tone": "amber"
      }
     ]
    }
   ]
  },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "24.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "18.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "7.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "14.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "35.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
  "charts": {
   "revenue": {
    "labels": [
-    "Apr'25",
-    "Jul'25",
-    "Oct'25",
-    "Jan'26",
-    "Apr'26"
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
    ],
    "values": [
-    0.5,
-    0.6,
-    0.6,
-    0.7,
-    0.7
+    null,
+    42.3,
+    47.5,
+    51.2,
+    59.9,
+    56.3
    ],
    "unit": "$B"
   },
   "gross_margin": {
    "labels": [
-    "Apr'25",
-    "Jul'25",
-    "Oct'25",
-    "Jan'26",
-    "Apr'26"
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
    ],
    "values": [
-    71.2,
-    71.0,
-    71.5,
-    73.0,
-    72.2
+    null,
+    82.1,
+    82.1,
+    82.0,
+    81.8,
+    81.9
    ],
    "unit": "%"
   }
  },
  "news": [
   {
-   "headline_tr": "Needham, MongoDB için Satın Al tavsiyesini koruyarak hedef fiyatı 430 dolara yükseltti.",
+   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yapıcı' özelliklerini gerekçe göstererek Meta'ya milyarlarca Euro ceza kesmeyi değerlendiriyor.",
    "source": "benzinga",
    "published": "2026-07-10",
-   "url": "https://www.benzinga.com/news/26/07/60379317/needham-maintains-buy-mongodb-raises-price-target-430",
-   "sentiment": "pos"
+   "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
+   "sentiment": "neg"
   },
   {
-   "headline_tr": "Truist Securities de Satın Al görüşünü sürdürerek hedef fiyatı 400 dolara çıkardı.",
+   "headline_tr": "Meta'nın nişan artırma algoritmaları, olası bir 'günah vergisi' düzenlemesiyle karşı karşıya kalabilir ve bu durum hisse değerini olumsuz etkileyebilir.",
    "source": "benzinga",
-   "published": "2026-07-09",
-   "url": "https://www.benzinga.com/news/26/07/60357822/truist-securities-maintains-buy-mongodb-raises-price-target-400",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Citizens, Meta için 'Market Outperform' notunu korurken hedef fiyatı 800 dolara indirdi.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/news/26/07/60380987/citizens-maintains-market-outperform-meta-platforms-lowers-price-target-800",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Analistler Meta'yı büyük sermayeli hisseler arasında en beğenilen seçim olarak öne çıkarmaya devam ediyor ve önemli yükseliş potansiyeli görüyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
    "sentiment": "pos"
   }
  ],
  "ai": {
-  "about": "MongoDB, doküman tabanlı NoSQL veritabanı yazılımı geliştiren bir bulut veri platformudur. Gelirini ağırlıklı olarak bulut tabanlı Atlas servisi (kullanım bazlı) ve kurumsal lisans abonelikleriyle elde eder; müşteri tabanı start-up'lardan Fortune 500 şirketlerine kadar uzanır.",
-  "note": "Atlas'ın toplam gelir içindeki payının büyümesi ve kullanım bazlı modelin doğal kaldıraç etkisi, uzun vadeli serbest nakit akışı yaratma potansiyelini güçlü kılıyor. %72 brüt marj ve %29 FCF marjının bir arada var olması, iş modelinin henüz tam olarak olgunlaşmadığını ama sağlıklı bir yönde ilerlediğini gösteriyor. Faaliyet zararının devam etmesi kısa vadede bir baskı unsuru olsa da büyüme yatırımlarının geride kalmasıyla marjın yapısal olarak iyileşmesi beklentisi 3-5 yıllık tezi destekliyor.",
-  "counter": "AWS DocumentDB, Google Firestore ve açık kaynak alternatifleri fiyat baskısı yaratmaya devam ediyor; büyük bulut sağlayıcılarının entegre veritabanı çözümleri müşteri edinim maliyetini artırarak Atlas büyümesini yavaşlatabilir. Brüt marjdaki çeyreksel erozyon bu riskin henüz geçmediğini işaret ediyor.",
+  "about": "Meta Platforms, Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işleterek küresel ölçekte dijital reklamcılık geliri elde eder. Gelirinin ~%98'i reklam satışından gelir; Reality Labs segmentiyle VR/AR donanım ve yazılım ekosistemi inşa etmektedir.",
+  "note": "Meta'nın reklam teknolojisi altyapısı ve 3 milyar+ günlük aktif kullanıcı tabanı, rakiplerin kopyalaması güç bir ağ etkisi hendeği oluşturuyor. %33 gelir büyümesi ve tutarlı EPS beat serisi, AI destekli reklam optimizasyonunun henüz olgunlaşmadığını gösteriyor; bu durum önümüzdeki 3-5 yıl için yapısal bir büyüme katalizörü sunuyor. Ancak faaliyet marjındaki kademeli aşınma ve Reality Labs'ın süregelen zararları, sermaye tahsisinin disiplinini test etmeye devam ediyor.",
+  "counter": "AB'nin 'bağımlılık yapıcı özellikler' gerekçesiyle milyarlarca Euro'luk ceza ve ürün değişikliği zorunluluğu getirebilmesi, hem mali hem de iş modeli bütünlüğü açısından ciddi bir yapısal tehdit oluşturuyor. Bunun yanı sıra genç kullanıcı kitlesinin TikTok ve yeni platformlara kayması, uzun vadeli kullanıcı büyümesini kısıtlayabilir.",
   "watch": [
-   "Atlas gelirinin toplam gelir içindeki payı ve Atlas kullanım büyüme hızı (kullanım bazlı modelin sağlığı)",
-   "Faaliyet marjının pozitife dönme takvimi ve FCF marjı sürdürülebilirliği"
+   "Faaliyet marjının Reality Labs zararları ve AI altyapı yatırımları karşısında toparlanıp toparlanamayacağı",
+   "AB düzenleyici sürecinin mali boyutu ve platforma yönelik zorunlu ürün değişikliklerinin reklam geliri üzerindeki etkisi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir trendi 42B'dan 59.9B'a güçlü bir ivme göstermiş olmakla birlikte son çeyrekte 56.3B'a geri çekilmesi tek çeyreklik bir yavaşlamaya işaret ediyor; ancak %33 y/y büyüme sektörün belirgin üzerinde kalmaya devam ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj %81.9 ile istikrarlı seyrederken faaliyet marjı trendinin aşağı yönlü olması maliyet baskısına işaret ediyor; ROIC %18 ve ROE %33 ise sermaye getirisinin hâlâ yüksek olduğunu teyit ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümünün 0.68x düzeyinde kalması, yüksek sermaye harcamalarının nakit üretimine etkisini kısıtladığını gösteriyor; hisse geri alımları sayesinde %1 seyrelme azalması olumlu ancak bu oran sınırlı kalmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net nakit pozisyonunun -63.3B dolar net borç pozisyonunda olması, agresif sermaye harcamaları ve hisse geri alımlarının bilançoyu borca ittiğini gösteriyor; bu durum faiz ortamında kırılganlık yaratabilir."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 18.4x, %33 büyüme ve Rule of 40 skoru 56 göz önüne alındığında makul görünüyor; ancak Fiyat/FCF 35.2x ve FD/Satış 7.5x, dünkü %6'lık yükselişin ardından hata payını daralttığını ortaya koyuyor."
+   }
   ],
   "concept": {
-   "title": "Kullanım Bazlı Gelir Modeli (Consumption-Based Revenue)",
-   "body": "Kullanım bazlı modelde müşteri önceden sabit lisans ödemez; ne kadar kullanırsa o kadar öder. MongoDB Atlas bu modeli uygular: ekonomi canlandığında gelir organik olarak büyür, durgunlukta ise müşteri harcamaları ani biçimde kısabilir ve bu da gelir görünürlüğünü seat-based aboneliklere kıyasla daha değişken kılar."
+   "title": "Ağ Etkisi Hendeği (Network Effect Moat)",
+   "body": "Bir platformun değeri, kullanıcı sayısı arttıkça katlanarak yükselir; bu durum yeni rakiplerin boş bir platformla rekabet edemeyeceği anlamına gelir. Meta, 3 milyar+ günlük aktif kullanıcısıyla bu hendekten faydalanmakta ve reklamverenlerin bütçelerini kaçıramayacakları bir mecra konumunu korumaktadır."
   }
  }
 }
