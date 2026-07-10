@@ -1,4 +1,7 @@
 {
   "last_index": -1,
-  "last_ticker": "ARM"
+  "last_ticker": [
+    "META",
+    "CRWD"
+  ]
 }

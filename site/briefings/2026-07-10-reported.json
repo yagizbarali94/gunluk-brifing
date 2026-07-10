@@ -1,0 +1,197 @@
+{
+ "date": "2026-07-10",
+ "slot": "reported",
+ "generated_at": "2026-07-10T18:58:18+00:00",
+ "mock": false,
+ "ticker": "CRWD",
+ "company": {
+  "name": "CrowdStrike Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 190442799104
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.7 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 187.03,
+  "change_pct": -5.53
+ },
+ "earnings_calendar": {
+  "last_date": null,
+  "next_date": null,
+  "last_label": null,
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.4B",
+   "sub": "+%26 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "—",
+   "sub": "veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%75.3",
+   "sub": "-0.8 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$471M",
+   "sub": "marj %34",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "çekirdek şablon v1",
+  "period_label": "Son çeyrek",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.4B",
+      "note": "+%26 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28M",
+      "note": "-%127 y/y",
+      "tone": "amber"
+     },
+     {
+      "metric": "EPS",
+      "value": "veri yok",
+      "note": "veri yok",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%75.3",
+      "note": "-0.8 puan ç/ç",
+      "tone": "amber"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-2.2",
+      "note": "+8.6 puan y/y",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Nakit",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$471M",
+      "note": "marj %34",
+      "tone": "green"
+     },
+     {
+      "metric": "Nakit ve benzerleri",
+      "value": "$4.6B",
+      "note": "bilanço kalemi",
+      "tone": "gray"
+     }
+    ]
+   }
+  ]
+ },
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    1.1,
+    1.2,
+    1.2,
+    1.3,
+    1.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    73.9,
+    73.5,
+    75.1,
+    76.1,
+    75.3
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Needham, CRWD için Al tavsiyesini korurken fiyat hedefini 235 dolara indirdi.",
+   "source": "benzinga",
+   "published": "2026-07-09",
+   "url": "https://www.benzinga.com/news/26/07/60353434/needham-maintains-buy-crowdstrike-holdings-lowers-price-target-235",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Benchmark de Al tavsiyesini sürdürerek fiyat hedefini 230 dolara düşürdü.",
+   "source": "benzinga",
+   "published": "2026-07-08",
+   "url": "https://www.benzinga.com/news/26/07/60328894/benchmark-maintains-buy-crowdstrike-holdings-lowers-price-target-230",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Morgan Stanley Overweight tavsiyesini korusa da fiyat hedefini 172 dolara belirgin biçimde indirdi; en düşük hedef veren kurum oldu.",
+   "source": "benzinga",
+   "published": "2026-07-07",
+   "url": "https://www.benzinga.com/news/26/07/60309016/morgan-stanley-maintains-overweight-crowdstrike-holdings-lowers-price-target-172",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Stifel, 4'e-1 hisse bölünmesini yansıtacak şekilde fiyat hedefini 220 dolara ayarladı ve Al tavsiyesini sürdürdü.",
+   "source": "benzinga",
+   "published": "2026-07-07",
+   "url": "https://www.benzinga.com/news/26/07/60317941/stifel-maintains-buy-crowdstrike-holdings-adjusts-price-target-220-reflect-4-1-stock-split",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "CrowdStrike, bulut tabanlı Falcon platformu aracılığıyla uç nokta güvenliği, tehdit istihbaratı ve siber saldırı önleme hizmetleri sunar. Kurumsal müşterilere abonelik modeliyle satış yapar; gelirinin büyük çoğunluğu yıllık tekrarlayan aboneliklerden (ARR) gelir.",
+  "note": "CrowdStrike'ın tek platform, çoklu modül mimarisi güçlü bir platform moat'ı oluşturuyor; müşteri bir kez entegre olunca geçiş maliyeti yüksek ve çapraz satış fırsatları artıyor. %26 büyüme ve %34 FCF marjının eş zamanlı sürmesi, iş modelinin olgunlaşırken karlılığa döndüğünün sağlam işareti. Ancak Temmuz 2024 küresel kesinti krizinin müşteri güvenine uzun vadeli etkisi ve rekabet yoğunlaşması (Microsoft, SentinelOne) 3-5 yıllık büyüme ivmesini test edecek kritik değişkenler olmaya devam ediyor.",
+  "counter": "Microsoft'un Defender ürün ailesini mevcut kurumsal lisans paketlerine dahil etmesi, CRWD'nin fiyatlama gücünü ve net yeni müşteri kazanım hızını yapısal olarak sıkıştırabilir. Ayrıca 2024 kesintisinin yarattığı itibar hasarı, büyük kamu kurumu ihalelerinde dezavantaj olmayı sürdürebilir.",
+  "watch": [
+   "Net Yeni ARR büyümesi ve müşteri başına modül sayısı (platform genişlemesinin gerçek göstergesi)",
+   "Brüt marjın toparlanıp toparlanamayacağı — platform yatırımları ile fiyatlama baskısı arasındaki denge"
+  ],
+  "concept": {
+   "title": "Serbest Nakit Akışı (FCF) Marjı ile GAAP Kar Ayrışması",
+   "body": "Bir şirket GAAP bazında zarar açıklarken güçlü FCF üretebilir; bu durumun temel sebebi hisse bazlı ödeme (SBC) ve amortisman gibi nakit çıkışı olmayan giderlerin kârı baskılamasıdır. CrowdStrike'ta tam da bu durum geçerli: Faaliyet marjı %-2.2 iken FCF marjı %34, yani nakit gerçekte kârlı ama muhasebe rakamları yanıltıcı görünüyor."
+  }
+ }
+}

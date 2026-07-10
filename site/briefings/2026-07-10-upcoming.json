@@ -1,0 +1,201 @@
+{
+ "date": "2026-07-10",
+ "slot": "upcoming",
+ "generated_at": "2026-07-10T18:57:49+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1701403557888
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %6.1 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 670.26,
+  "change_pct": 4.75
+ },
+ "earnings_calendar": {
+  "last_date": null,
+  "next_date": null,
+  "last_label": null,
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$56.3B",
+   "sub": "+%33 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "—",
+   "sub": "veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.9",
+   "sub": "+0.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$13.2B",
+   "sub": "marj %23",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "çekirdek şablon v1",
+  "period_label": "Son çeyrek",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$56.3B",
+      "note": "+%33 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$26.8B",
+      "note": "+%61 y/y",
+      "tone": "green"
+     },
+     {
+      "metric": "EPS",
+      "value": "veri yok",
+      "note": "veri yok",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.9",
+      "note": "+0.1 puan ç/ç",
+      "tone": "gray"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%40.6",
+      "note": "-0.9 puan y/y",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Nakit",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$13.2B",
+      "note": "marj %23",
+      "tone": "green"
+     },
+     {
+      "metric": "Nakit ve benzerleri",
+      "value": "$23.4B",
+      "note": "bilanço kalemi",
+      "tone": "gray"
+     }
+    ]
+   }
+  ]
+ },
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    42.3,
+    47.5,
+    51.2,
+    59.9,
+    56.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    82.1,
+    82.1,
+    82.0,
+    81.8,
+    81.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "AB, Facebook ve Instagram'daki 'bağımlılık yapan' özellikler nedeniyle Meta'ya milyarlarca euro ceza uygulayabilir.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Meta'nın nişan (engagement) odaklı iş modeline yönelik 'günah vergisi' tartışması hisse üzerinde baskı riski oluşturuyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Citizens, Meta için 'piyasa üstü getiri' tavsiyesini korurken fiyat hedefini 800 dolara indirdi.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/news/26/07/60380987/citizens-maintains-market-outperform-meta-platforms-lowers-price-target-800",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Analistler Meta'yı büyük şirketler arasında en beğenilen hisse olarak öne çıkarmaya devam ediyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işleterek aylık yaklaşık 3,3 milyar kullanıcıya ulaşır. Gelirinin %97'si dijital reklam satışından gelir; küçük bir kısmı ise Reality Labs (VR/AR) segmentinden elde edilir.",
+  "note": "Çeyrek başına %33 gelir büyümesi ve %40,6 faaliyet marjı, Meta'nın reklam teknolojisi altyapısının ve yapay zeka destekli hedefleme motorunun hâlâ güçlü bir ekonomik hendek oluşturduğunu gösteriyor. Reel nakit üretimi ($13,2B FCF) şirkete hem ağırlıklı hisse geri alımı hem de altyapı yatırımı için alan tanıyor; bu da 3-5 yıllık tezde sermaye tahsisini olumlu kılıyor. Ancak FCF marjının (%23) faaliyet marjının (%40,6) oldukça altında kalması, yüksek capex harcamalarının nakit dönüşümünü bastırdığına işaret ediyor — yatırımların getiriye dönüşme hızı kritik olmaya devam edecek.",
+  "counter": "AB'nin 'bağımlılık yapan özellikler' gerekçesiyle uygulamayı düşündüğü milyarlarca dolarlık cezalar ve olası zorunlu ürün değişiklikleri, hem kısa vadeli nakit çıkışına hem de uzun vadeli nişan (engagement) modelinin yapısal tahribatına yol açabilir. Buna ek olarak, kullanıcı dikkatini hedef alan 'günah vergisi' (sin tax) benzeri düzenleyici baskılar reklam eko-sisteminin temel yakıtını — ekran süresini — doğrudan tehdit ediyor.",
+  "watch": [
+   "Reality Labs'ın yıllık zarar büyüklüğü ve AR/VR gelir kırılımı — yatırımın ne zaman ürüne dönüşeceği",
+   "AB ve ABD düzenleyici süreçlerinin somut para cezası veya ürün kısıtlamasına dönüşüp dönüşmediği"
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (Free Cash Flow Conversion)",
+   "body": "Net kârın ya da faaliyet kârının ne kadarının gerçek nakde döndüğünü ölçer; yüksek capex dönemlerinde bu oran baskılanır. Meta'da faaliyet marjı %40,6 iken FCF marjının %23'te kalması, veri merkezi ve AI altyapısına yapılan ağır sermaye harcamalarının nakit dönüşümünü geçici olarak ezebildiğini somut biçimde gösteriyor."
+  }
+ }
+}
