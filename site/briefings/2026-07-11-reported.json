@@ -1,14 +1,14 @@
 {
  "date": "2026-07-11",
  "slot": "reported",
- "generated_at": "2026-07-11T07:28:56+00:00",
+ "generated_at": "2026-07-11T20:50:39+00:00",
  "mock": false,
  "ticker": "META",
  "company": {
   "name": "Meta Platforms, Inc.",
   "sector": "Communication Services",
   "industry": "Internet Content & Information",
-  "market_cap": 1700121673728
+  "market_cap": 1698738339840
  },
  "why_today": {
   "reason_code": "mover",
@@ -200,7 +200,7 @@
  "valuation": [
   {
    "metric": "F/K (cari)",
-   "value": "23.0×",
+   "value": "24.3×",
    "note": "son 12 ay kazancına göre",
    "tone": "gray"
   },
@@ -281,28 +281,28 @@
  },
  "news": [
   {
-   "headline_tr": "Meta, gizlilik tartışmaları ve SAG-AFTRA eleştirileri nedeniyle AI görsel özelliğini geri çekti; 'hedefi ıskaladığını' kabul etti.",
-   "source": "benzinga",
-   "published": "2026-07-11",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60402849/meta-pulls-ai-image-feature-after-privacy-backlash-admits-it-missed-the-mark-amid-sag-aftra-criticism",
-   "sentiment": "neg"
-  },
-  {
-   "headline_tr": "Meta'nın sosyal medya platformlarına yönelik potansiyel 'günah vergisi' düzenlemesinin hisse senedi üzerindeki etkileri değerlendiriliyor.",
-   "source": "benzinga",
-   "published": "2026-07-10",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
-   "sentiment": "neg"
-  },
-  {
-   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yaratan' özelliklerini hedef alarak Meta'ya milyarlarca Euro ceza uygulayabilir.",
+   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yaratan' özelliklerini gerekçe göstererek Meta'ya milyarlarca euro ceza uygulayabilecek soruşturma başlattı.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
    "sentiment": "neg"
   },
   {
-   "headline_tr": "Analistler Meta'yı büyük sermayeli hisseler arasında en çok tercih edilen seçim olarak koruyor ve önemli yükseliş potansiyeli görüyor.",
+   "headline_tr": "Meta, gizlilik ihlali gerekçesiyle tepki çeken AI görsel özelliğini geri çekti ve SAG-AFTRA eleştirilerinin ardından 'hedefi ıskaladığını' kabul etti.",
+   "source": "benzinga",
+   "published": "2026-07-11",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60402849/meta-pulls-ai-image-feature-after-privacy-backlash-admits-it-missed-the-mark-amid-sag-aftra-criticism",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "ABD'de platformların bağımlılık yaratan tasarımına yönelik olası bir 'günah vergisi' önerisi Meta'nın iş modeli için yapısal risk olarak değerlendiriliyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Analistler Meta'yı büyük cap hisseler arasında ilk sıraya koymayı sürdürüyor ve mevcut fiyattan önemli yükseliş potansiyeli görüyor.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
@@ -310,43 +310,43 @@
   }
  ],
  "ai": {
-  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları ile Quest VR cihazlarını işleten, gelirinin büyük bölümünü dijital reklamcılıktan elde eden bir teknoloji şirketidir. Milyarlarca kullanıcıdan oluşan ağ etkisi, reklam hedefleme altyapısıyla monetize edilmektedir.",
-  "note": "Meta'nın %82 brüt marj ile sürdürdüğü reklam motoru, AI destekli hedefleme iyileştirmeleriyle büyüme hızını yüksek tutmaya devam ediyor; 8 çeyrek üst üste beklenti aşımı disiplinli yönetimin kanıtı. Ancak faaliyet marjının gerileme trendinde olması ve AI altyapısına yönelik yoğun capex baskısı, 3-5 yıllık süreçte marj genişlemesinin sınırlı kalabileceğine işaret ediyor. Uzun vadeli tez, AI reklam verimliliğinin ve potansiyel yeni gelir akışlarının (WhatsApp Business, Threads) mevcut büyük kullanıcı tabanını daha karlı hâle getirip getiremeyeceğine bağlı.",
-  "counter": "AB'nin bağımlılık yaratan özellikler gerekçesiyle milyarlarca Euro ceza uygulaması ve sosyal medyaya yönelik olası 'günah vergisi' düzenlemeleri, gelir tabanını yapısal olarak baskı altına alabilir. Bunun yanı sıra TikTok ve yeni nesil platformlarla gençlik kitlesinde yaşanan kullanıcı erimesi, uzun vadeli ağ etkisini aşındırabilir.",
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları üzerinden reklamcılık geliri elde eder. Ayrıca Reality Labs segmentiyle VR/AR donanım ve yazılım geliştirme alanında yatırım yapar; gelirinin %97'si dijital reklam satışından gelir.",
+  "note": "Meta'nın reklam teknolojisi altyapısı ve 3,2 milyarı aşan günlük aktif kullanıcı tabanı güçlü bir ekonomik hendek oluşturuyor; Reels ve Threads'in monetizasyonu henüz olgunlaşmamış olduğundan önümüzdeki 3-5 yılda ek gelir katmanları devreye girebilir. AI altyapı yatırımları (Llama ekosistemine dayalı reklam optimizasyonu) marj baskısı yaratsa da uzun vadede reklam verimliliğini artıracak yapısal bir varlığa dönüşme potansiyeli taşıyor. 8 çeyrek üst üste beklenti aşımı, yönetimin yürütme kalitesini teyit ediyor.",
+  "counter": "AB'nin 'bağımlılık yaratan tasarım' gerekçesiyle uygulayabileceği milyar dolarlık cezalar ve olası ürün kısıtlamaları hem marka değerini hem de Avrupa gelirlerini kalıcı biçimde zedeleyebilir. ABD'de önerilen 'günah vergisi' veya ekran süresi düzenlemeleri de platform bağımlılığı üzerine kurulu iş modelini yapısal olarak tehdit eden ikinci bir risk katmanı oluşturuyor.",
   "watch": [
-   "Faaliyet marjının AI capex baskısına rağmen %40 üzerinde tutulup tutulamayacağı ve capex-to-revenue oranının seyri",
-   "AB düzenleyici cezaları ve potansiyel 'sin tax' yasalarının gelire doğrudan etkisi ile Avrupa gelir payının trendi"
+   "AI destekli reklam araçlarının (Advantage+ vb.) ARPU ve faaliyet marjına katkısı — AI capex'in geri dönüşü görünür hale geliyor mu?",
+   "AB düzenleyici sürecinin somutlaşması ve olası ürün kısıtlamalarının Avrupa gelir payına etkisi"
   ],
   "diagnosis": [
    {
     "baslik": "Büyüme ivmesi",
     "verdict": "guclu",
-    "yorum": "Yıllık %33 gelir artışı güçlü olmakla birlikte önceki çeyreğin $59.9B zirvesinden $56.3B'ye gerileme, büyüme temposunda hafif bir ivme kaybına işaret ediyor."
+    "yorum": "%33 yıllık gelir büyümesi güçlü olmakla birlikte, önceki çeyrekteki 59,9 milyar dolar zirvesinden 56,3 milyar dolara kısmen gerileme mevsimsel mi yoksa yapısal yavaşlama sinyali mi olduğu yakından izlenmeli."
    },
    {
     "baslik": "Kârlılık ve sermaye getirisi",
     "verdict": "notr",
-    "yorum": "Brüt marj %82 seviyesinde istikrarlı ancak faaliyet marjı son iki çeyrekte aşağı yönlü trend izliyor; buna karşın ROIC %18 ve ROE %33 ile sermaye getirisi hâlâ sağlam."
+    "yorum": "Brüt marj %81,9 ile stabil ve AI yatırımlarına karşın savunmacı seyrederken faaliyet marjının son üç çeyrekte %43'ten %40,6'ya gerilemesi, capex yoğunluğunun kârlılığı baskıladığını gösteriyor; ROIC %18 tatmin edici ama yukarı ivme yok."
    },
    {
     "baslik": "Kazanç kalitesi",
     "verdict": "notr",
-    "yorum": "FCF/net kâr dönüşümü 0.68× ile yüksek capex harcamalarının serbest nakit akışını baskıladığını gösteriyor; net marjtaki volatilite (bir çeyrek %5.3'e düşüş) dikkat çekici olmakla birlikte buyback programı hisse seyrelme etkisini tersine çeviriyor."
+    "yorum": "FCF/net kâr oranının 0,68× ile makul ama tam olgunlaşmış bir düzeyin altında kalması ve net marj trendinin dalgalı seyretmesi (özellikle bir çeyrekteki %5,3 çukuru) nakit dönüşümünün tutarlılığı konusunda soru işareti bırakıyor; hisse geri alımıyla -%1 seyreltme ise olumlu."
    },
    {
     "baslik": "Bilanço sağlığı",
     "verdict": "zayif",
-    "yorum": "Net borç pozisyonu -$63.3B ile oldukça yüksek; AI altyapısı ve Reality Labs yatırımları borç yükünü artırıyor ve finansal esnekliği kısıtlıyor."
+    "yorum": "Net borç pozisyonunun 63,3 milyar dolara ulaşması, agresif capex ve geri alım programının nakit tamponunu eritmesi nedeniyle bilanço eskiye kıyasla daha kırılgan; faiz ortamı yüksek kalmaya devam ederse bu borç yükü değerlemeyi baskılayabilir."
    },
    {
     "baslik": "Değerleme",
     "verdict": "notr",
-    "yorum": "İleri F/K 18.4 ve Rule of 40 skoru 56 göz önüne alındığında değerleme makul görünmekle birlikte Fiyat/FCF 35.2× ve FD/Satış 7.9× çarpanları önemli büyüme bozulmasına karşı sınırlı güvenlik marjı bırakıyor."
+    "yorum": "İleri F/K 18,4 ve Rule of 40 skoru 56 göz önüne alındığında çarpanlar kaliteye görece makul görünse de Fiyat/FCF'nin 35,2× ile tarihi ortalamaların üzerinde seyretmesi ve dün %6'lık sert yükselişin ardından kısa vadeli risk/ödül dengesinin daha az cazip olduğuna işaret ediyor."
    }
   ],
   "concept": {
-   "title": "Ağ Etkisi (Network Effect) ve Moat",
-   "body": "Ağ etkisi, bir platforma katılan her yeni kullanıcının mevcut tüm kullanıcılar için değeri artırması anlamına gelir; bu da rakiplerin pazara girişini yapısal olarak güçleştirir. Meta'nın 3 milyarı aşkın günlük aktif kullanıcısı bu moat'ın somut örneğidir: reklamverenler için başka hiçbir platformun sunamadığı ölçek ve hedefleme hassasiyetini yaratarak fiyatlama gücünü korumaktadır."
+   "title": "Rule of 40 (40 Kuralı)",
+   "body": "Teknoloji şirketleri için kullanılan bu metrik, gelir büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ı aşması durumunda şirketin büyüme-kârlılık dengesini sağlıklı kurduğunu gösterir. Meta'nın 56 skoru, %33 büyüme ve %23 FCF marjını birleştirerek sektörün en üst dilimine girdiğini teyit ediyor."
   }
  }
 }

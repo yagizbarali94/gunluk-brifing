@@ -1,6 +1,6 @@
 {
  "date": "2026-07-11",
- "generated_at": "2026-07-11T07:29:05+00:00",
+ "generated_at": "2026-07-11T20:50:45+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -188,16 +188,16 @@
   }
  ],
  "ai": {
-  "headline": "Endeksler zirvede ama sektör rotasyonu defansife kaymış; faiz baskısı ve güçlü dolar zemini karmaşıklaştırıyor.",
-  "read": "Üç ana endeksin de 200 günlük ortalamanın üzerinde olması ve VIX'in 15 civarında sakin seyretmesi, genel trendde belirgin bir kırılma olmadığını gösteriyor. Ancak sektör tercihlerinde Finans, Sağlık ve Sanayi öne çıkarken Enerji, Tüketici (döngüsel) ve İletişim'in geride kalması, yatırımcıların döngüsel riske daha temkinli baktığına işaret ediyor. Breadth görece sağlıklı — sektörlerin yüzde doksanı 200 günlük ortalamanın üzerinde — fakat eşit ağırlıklı endeksin cap ağırlıklıya 2 puan geride kalması, gücün hâlâ birkaç büyük şirkette yoğunlaştığını hatırlatıyor. Petrol fiyatındaki sert gerileme ve altındaki düşüş emtia zemininde zayıflığa, yükselen 10 yıllık faiz ve güçlenen dolar ise özellikle büyüme hassasiyeti yüksek varlıklar için ek bir maliyet katmanına işaret ediyor.",
+  "headline": "Endeksler zirveye yakın ve trend sağlam, ancak sektör rotasyonu defansiflere kaymış; faiz baskısı ve güçlenen dolar zemini karmaşıklaştırıyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor ve VIX'in 15 civarında kalmasıyla birlikte korku seviyesi oldukça ılımlı; bu tablo yapısal olarak sağlıklı bir trendi yansıtıyor. Bununla birlikte, sektör dağılımına bakıldığında Finans, Sağlık ve Sanayi öne çıkarken döngüsel sektörler geride kalıyor; bu tablo yatırımcıların büyüme ivmesine değil, kalite ve savunmaya yöneldiğine işaret ediyor. Breadth görece güçlü — sektörlerin yüzde doksanbirinin 200 gün üzerinde olması genişliğin bozulmadığını gösteriyor; ancak eşit ağırlıklı endeks ile piyasa değeri ağırlıklı endeks arasındaki iki puanlık fark, bir avuç büyük şirketin performansı sürüklediğini düşündürüyor. Makro tarafta ise on yıllık faizin yüzde 4.57'ye çıkması ve doların aylık yüzde iki değer kazanması, değerleme ve küresel likidite açısından ek bir ağırlık oluşturuyor; petrol ve altındaki sert geri çekilme ise enflasyon beklentilerinin ve emtia talebinin yeniden fiyatlandığına işaret ediyor.",
   "watch": [
-   "14 Temmuz JPMorgan bilançosu: Finans sektörünün liderliğini sürdürüp sürdüremeyeceğine ve kredi kalitesine ilişkin ilk somut sinyal gelecek.",
-   "10 yıllık ABD faizinin yüzde 4.60-4.70 bandını test edip etmeyeceği: Bu seviyeler hisse senedi değerlemelerine yönelik baskıyı artırabilir.",
-   "Petrol fiyatının 70 dolar desteğini koruyup koruyamayacağı: Enerji'nin zaten geride olduğu bir ortamda kırılma makro büyüme algısını etkileyebilir."
+   "14 Temmuz JPMorgan bilançosu: Finans sektörünün liderliğini teyit edip etmeyeceği ve bankanın faiz marjına ilişkin yönetim yorumu",
+   "10 yıllık ABD tahvil faizinin yüzde 4.6 - 4.7 bandını geçip geçmeyeceği; bu eşiğin aşılması değerleme baskısını artırabilir",
+   "Petrol fiyatındaki sert düşüşün devam edip etmeyeceği: enerji sektörü zaten geride kalıyor, olası bir toparlanma ya da daha derin bir kırılma sektör genelinde sinyal niteliği taşıyor"
   ],
   "concept": {
-   "title": "Sektör Rotasyonu ve Piyasa Rejimi",
-   "body": "Sektör rotasyonu, piyasanın hangi aşamada olduğuna dair fiyat tabanlı bir harita sunar; defansiflerin öne çıkması genellikle yatırımcıların belirsizliği fiyatlamaya başladığını değil, mevcut kazançları koruma güdüsünün ağır basışını yansıtır. Bu tablo, mutlaka düşüş beklentisini değil, 'temkinli ama henüz çıkmıyorum' denilen bir rejimi tanımlayabilir."
+   "title": "Defansif Rotasyon (Defensive Rotation)",
+   "body": "Defansif rotasyon, piyasa genelinde bir çöküş yaşanmadan yatırımcıların döngüsel sektörlerden (enerji, tüketici ürünleri, iletişim gibi) daha istikrarlı kabul edilen sektörlere (sağlık, finans, kamu hizmetleri) ağırlık kaydırması durumudur. Bu hareket, fiyatların düşmediği ancak piyasa katılımcılarının risk iştahını sessizce azalttığı geçiş dönemlerinin karakteristik bir özelliğidir."
   }
  }
 }
