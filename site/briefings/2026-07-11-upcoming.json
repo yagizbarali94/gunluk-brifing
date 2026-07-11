@@ -1,13 +1,13 @@
 {
  "date": "2026-07-11",
  "slot": "upcoming",
- "generated_at": "2026-07-11T20:49:53+00:00",
+ "generated_at": "2026-07-11T21:05:58+00:00",
  "mock": false,
  "ticker": "TSM",
  "company": {
   "name": "Taiwan Semiconductor Manufactur",
-  "sector": "Technology",
-  "industry": "Semiconductors",
+  "sector": "—",
+  "industry": "",
   "market_cap": 2251500027904
  },
  "why_today": {
@@ -143,15 +143,15 @@
      },
      {
       "metric": "Özkaynak getirisi (ROE)",
-      "value": "%36.2",
+      "value": "veri yok",
       "note": "net kâr / özkaynak",
-      "tone": "green"
+      "tone": "gray"
      },
      {
       "metric": "Aktif getirisi (ROA)",
-      "value": "%17.3",
+      "value": "veri yok",
       "note": "net kâr / toplam varlık",
-      "tone": "green"
+      "tone": "gray"
      }
     ]
    },
@@ -212,13 +212,13 @@
   },
   {
    "metric": "FD/Satış",
-   "value": "3.8×",
+   "value": "veri yok",
    "note": "firma değeri / yıllık satış",
    "tone": "gray"
   },
   {
    "metric": "FD/FAVÖK",
-   "value": "5.5×",
+   "value": "veri yok",
    "note": "firma değeri / FAVÖK",
    "tone": "gray"
   },
@@ -281,72 +281,72 @@
  },
  "news": [
   {
-   "headline_tr": "Ken Griffin, TSMC çiplerini kaybetmenin 'Büyük Buhran'a yol açabileceği konusunda uyardı; çiplerin her yüksek teknoloji ürününde yer aldığını vurguladı.",
+   "headline_tr": "Ken Griffin, TSMC çiplerini kaybetmenin her yüksek kaliteli üründe yer aldığını vurgulayarak Büyük Depresyon benzeri bir krize yol açabileceği uyarısında bulundu.",
    "source": "benzinga",
    "published": "2026-07-10",
    "url": "https://www.benzinga.com/markets/equities/26/07/60376976/ken-griffin-warns-losing-tsmc-chips-could-trigger-a-great-depression-theyre-in-every-high-end-product",
-   "sentiment": "pos"
+   "sentiment": "neu"
   },
   {
-   "headline_tr": "Futurum analisti, NVIDIA, AMD, Apple ve Broadcom'un tamamının TSMC'ye bağımlı olduğunu açıkladı; 'her token görünmez bir royalty öder' ifadesini kullandı.",
+   "headline_tr": "Analist Shay Boloor, Nvidia, AMD, Apple ve Broadcom'un tamamının TSMC'ye bağımlı olduğunu; her AI jetonunun TSMC'ye 'görünmez bir royalty' ödediğini açıkladı.",
    "source": "benzinga",
    "published": "2026-07-09",
    "url": "https://www.benzinga.com/markets/tech/26/07/60350514/futurums-shay-boloor-explains-why-nvidia-amd-apple-and-broadcom-all-depend-on-tsmc-every-token-ultimately-pays-an-invisible-royalty",
    "sentiment": "pos"
   },
   {
-   "headline_tr": "Teknoloji hisse volatilitesi 23 yılın en yüksek seviyesine ulaştı; Nasdaq'ın S&P 500'ü geçen sert salınımları kısa vadeli risk primini artırıyor.",
-   "source": "benzinga",
-   "published": "2026-07-09",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
-   "sentiment": "neg"
-  },
-  {
-   "headline_tr": "Apple'ın ardından Intel de 'piyasa dinamiklerini' gerekçe göstererek çip fiyatlarını 50 dolara kadar artırdı; bu eğilim TSMC'nin fiyatlama gücünü dolaylı olarak destekliyor.",
+   "headline_tr": "Apple'ın ardından Intel de 'piyasa dinamiklerini' gerekçe göstererek çip fiyatlarını 50 dolara kadar artırdı; bu durum sektör genelinde fiyatlama gücünün arttığına işaret ediyor.",
    "source": "benzinga",
    "published": "2026-07-06",
    "url": "https://www.benzinga.com/markets/equities/26/07/60273487/after-apple-intel-raises-chip-prices-by-up-to-50-citing-market-dynamics",
    "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Nasdaq'ın S&P 500'ü aşan oynaklığıyla teknoloji hisselerinde 23 yılın en yüksek volatilitesi gözlemlendi; bu ortam TSMC gibi yüksek çarpanlı hisselerde kısa vadeli baskı yaratabilir.",
+   "source": "benzinga",
+   "published": "2026-07-09",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
+   "sentiment": "neg"
   }
  ],
  "ai": {
-  "about": "TSMC, dünyanın en büyük sözleşmeli çip üreticisidir; NVIDIA, Apple, AMD, Broadcom gibi fabrikasız tasarım şirketlerinin tasarladığı yüksek performanslı yarı iletken çipleri kendi tesislerinde üretir. Gelirini üretim kapasitesi kiralama ve teknoloji lisansı üzerinden kazanır.",
-  "note": "TSMC'nin marj profili son beş çeyrekte sürekli genişleyerek brüt marjı %58.8'den %66.2'ye ulaşmış; bu, fiyatlama gücünün ve ileri teknoloji node'larına (3nm/2nm) geçişin somut kanıtıdır. Yapay zeka hızlandırıcı talebinin sürdüğü ortamda şirket, 'her token TSMC'ye görünmez bir royalty öder' saptamasıyla küresel yapay zeka altyapısının zorunlu geçiş noktası konumunu pekiştiriyor. 3-5 yıllık tezde CoWoS paketleme kapasitesi, 2nm rampa hızı ve Japonya/Arizona tesislerinin maliyete etkisi belirleyici olacak.",
-  "counter": "Jeopolitik risk TSMC'nin en büyük yapısal tehdididir; Tayvan Boğazı'nda tırmanan gerilim veya ABD-Çin teknoloji ayrışması üretimin devamlılığını sekteye uğratabilir. Buna ek olarak, Intel, Samsung ve yeni nesil yerli Çin üreticilerinin ileri node'larda rekabet etme çabası uzun vadede pazar payını tehdit edebilir.",
+  "about": "TSMC (Taiwan Semiconductor Manufacturing), dünyanın en büyük bağımsız çip üreticisidir; Apple, Nvidia, AMD, Broadcom gibi fabrikasız tasarım şirketlerinin tasarladığı yonga setlerini kendi fabrikalarında üretir ve bu hizmet karşılığında adet bazlı üretim bedeli alır.",
+  "note": "TSMC'nin 3nm ve 2nm süreç teknolojisindeki liderliği, müşterilerinin ürün rekabet gücünü doğrudan etkilediğinden geçiş maliyeti son derece yüksektir; bu durum hem fiyatlama gücünü hem de marj genişlemesini sürdürülebilir kılmaktadır. Brüt marjın %58'den %66'ya, faaliyet marjının %49'dan %58'e yükselmesi, artan AI çip talebinin üstüne güçlü mix-shift (yüksek katma değerli CoWoS/advanced packaging) etkisini yansıtmakta; 3-5 yıllık tezde her AI jetonunun TSMC'ye 'görünmez royalty' ödemesi metaforu yapısal bir moat kanıtı olmaya devam etmektedir. Sekiz çeyrek üst üste beklenti aşımı ve yükselen marj eğimi, tezin sağlamlığını pekiştiriyor.",
+  "counter": "Jeopolitik risk (Tayvan Boğazı gerilimi veya ABD-Çin yarı iletken savaşının tırmanması) tek bir olayda tüm iş modelini kesintiye uğratabilir; Arizona ve Japonya fabrikaları bu riski azaltıyor ancak maliyeti artırıyor ve uzun vadede marj baskısı yaratabilir.",
   "watch": [
-   "2nm node rampa hızı ve CoWoS gelişmiş paketleme kapasitesinin gelir karışımına katkısı — ileri teknoloji node'larının toplam gelirdeki payı marj genişlemesinin sürdürülebilirliğini belirleyecek",
-   "Arizona ve Japonya tesislerinin maliyet yapısı ve devlet teşviklerinin net marj üzerindeki etkisi — coğrafi çeşitlendirme uzun vadede fırsat mı yoksa marj baskısı mı getirecek?"
+   "2nm ve A16 süreç node'larının üretim randımanı (yield) ile müşteri benimseme hızı — marj genişlemesinin sürdürülebilirliğini belirleyecek",
+   "ABD/Japonya/Avrupa fabrikalarının maliyet yapısı ve Arizona'nın planlanan kapasiteye ulaşma takvimi — jeopolitik riske karşı tampon oluşturulurken marj seyreltme riski izlenmeli"
   ],
   "diagnosis": [
    {
     "baslik": "Büyüme ivmesi",
     "verdict": "guclu",
-    "yorum": "Çeyreklik gelir 839 milyar TWD'den 1.134 trilyon TWD'ye kesintisiz yükselmiş ve yıllık %35 büyüme hızı hem baz etkisini hem de talep ivmesinin gerçekliğini teyit ediyor."
+    "yorum": "Çeyreklik gelir 839B'den 1.134T'ye kesintisiz çıktı; y/y %35 büyüme ivmesi hızlanmaya devam ediyor."
    },
    {
     "baslik": "Kârlılık ve sermaye getirisi",
     "verdict": "guclu",
-    "yorum": "Brüt marj %66.2, faaliyet marjı %58.1 ve net marj %50.5 ile tüm göstergeler yukarı yönlü trendde; ROIC %27.7 ve ROE %36.2 olağanüstü sermaye verimliliğine işaret ediyor."
+    "yorum": "Brüt marj beş çeyrekte 7,4 puan, faaliyet marjı 9,6 puan genişledi; ROIC %27,7 ile sektörün çok üzerinde seyrediyor."
    },
    {
     "baslik": "Kazanç kalitesi",
     "verdict": "notr",
-    "yorum": "FCF/net kâr dönüşüm oranı 0.55× ile yüksek sermaye harcamalarının nakit kârlılığı baskıladığını gösteriyor; seyreltme sıfır olduğundan hissedar değeri korunsa da FCF marjı net marjın gerisinde kalıyor."
+    "yorum": "FCF/net kâr dönüşümü 0,55× ile makul seviyede ancak ağır yatırım harcamaları nedeniyle net kârın yarısı nakde dönüşemediğinden kalite tam anlamıyla birinci sınıf değil."
    },
    {
     "baslik": "Bilanço sağlığı",
     "verdict": "guclu",
-    "yorum": "1.94 trilyon TWD net nakit pozisyonu, şirkete yoğun yatırım döneminde bile tam finansal esneklik sağlıyor ve dış finansmana bağımlılığı sıfıra yakın tutuyor."
+    "yorum": "1,94T TWD net nakit pozisyonu ve sıfır hisse seyrelmesi ile bilanço son derece sağlam."
    },
    {
     "baslik": "Değerleme",
-    "verdict": "guclu",
-    "yorum": "İleri F/K 21.4, Fiyat/FCF 2.2 ve FD/Satış 3.8 çarpanları, %35 büyüme ve %66 brüt marj kalitesiyle kıyaslandığında tarihi ortalamalarına ve emsallerine göre hâlâ makul görünüyor."
+    "verdict": "notr",
+    "yorum": "Cari F/K 37,7 görece yüksek görünse de ileri F/K 21,4 ve Fiyat/FCF 2,2 ile büyüme/kalite profiline kıyasla makul bir band içinde; belirgin bir ucuzluk yok ama aşırı ısınma da yok."
    }
   ],
   "concept": {
-   "title": "Invisible Royalty Etkisi (Görünmez Royalty)",
-   "body": "Bir platform şirketi, doğrudan müşteriye fatura kesmese de ekosistemdeki her değer yaratımından pay aldığında 'görünmez royalty' etkisi ortaya çıkar. TSMC, her yapay zeka çipi, her akıllı telefon işlemcisi ve her veri merkezi hızlandırıcısı için üretim bedeli alarak küresel dijital ekonominin zorunlu altyapı katmanını işletiyor ve bu konum fiyatlama gücünü rakipsiz kılıyor."
+   "title": "Mix-Shift Etkisi (Ürün Karması Değişimi)",
+   "body": "Mix-shift, gelir içinde katma değeri yüksek ürünlerin payının artmasıyla ortalama satış fiyatı ve marjın yükselmesi anlamına gelir. TSMC'de AI hızlandırıcıları için kullanılan CoWoS gelişmiş paketleme ve 3nm/2nm süreçlerin toplam gelir içindeki payı artıkça hem fiyat hem de brüt marj otomatik olarak yukarı çekiliyor; son beş çeyrekteki %7+ brüt marj genişlemesinin temel motoru budur."
   }
  }
 }

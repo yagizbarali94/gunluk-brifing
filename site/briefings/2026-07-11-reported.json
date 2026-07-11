@@ -1,98 +1,96 @@
 {
  "date": "2026-07-11",
  "slot": "reported",
- "generated_at": "2026-07-11T20:50:39+00:00",
+ "generated_at": "2026-07-11T21:06:45+00:00",
  "mock": false,
- "ticker": "META",
+ "ticker": "NVDA",
  "company": {
-  "name": "Meta Platforms, Inc.",
-  "sector": "Communication Services",
-  "industry": "Internet Content & Information",
-  "market_cap": 1698738339840
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 5109662089216
  },
  "why_today": {
-  "reason_code": "mover",
-  "text": "Dün %6.0 yükseldi — büyük hareket"
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
  },
  "price": {
-  "last": 669.21,
-  "change_pct": 4.59
+  "last": 210.96,
+  "change_pct": 4.27
  },
  "earnings_calendar": {
-  "last_date": "2026-04-29",
-  "next_date": "2026-07-29",
-  "last_label": "29 Nisan",
-  "next_label": "29 Temmuz",
-  "days_to_next": 18,
-  "progress_pct": 80
+  "last_date": "2026-05-20",
+  "next_date": "2026-08-26",
+  "last_label": "20 Mayıs",
+  "next_label": "26 Ağustos",
+  "days_to_next": 46,
+  "progress_pct": 53
  },
  "kpi": [
   {
    "label": "Gelir (çeyrek)",
-   "value": "$56.3B",
-   "sub": "+%33 y/y",
+   "value": "$81.6B",
+   "sub": "+%85 y/y",
    "tone": "pos"
   },
   {
    "label": "EPS",
-   "value": "$7.31",
-   "sub": "Beat · beklenti $6.82",
+   "value": "$1.87",
+   "sub": "Beat · beklenti $1.77",
    "tone": "pos"
   },
   {
    "label": "Brüt marj",
-   "value": "%81.9",
-   "sub": "+0.1 puan ç/ç",
-   "tone": "pos"
+   "value": "%74.9",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
   },
   {
    "label": "Serbest nakit akışı",
-   "value": "$13.2B",
-   "sub": "marj %23",
+   "value": "$48.6B",
+   "sub": "marj %60",
    "tone": "pos"
   }
  ],
  "karne": {
   "template": "derin şablon v2",
-  "period_label": "Son bilanço: 29 Nisan",
+  "period_label": "Son bilanço: 20 Mayıs",
   "groups": [
    {
     "name": "Büyüme",
     "rows": [
      {
       "metric": "Gelir",
-      "value": "$56.3B",
-      "note": "+%33 y/y",
+      "value": "$81.6B",
+      "note": "+%85 y/y",
       "tone": "green",
       "spark": [
-       null,
-       42.31,
-       47.52,
-       51.24,
-       59.89,
-       56.31
+       44.06,
+       46.74,
+       57.01,
+       68.13,
+       81.61
       ],
       "spark_unit": "$B gelir"
      },
      {
       "metric": "Net kâr",
-      "value": "$26.8B",
-      "note": "+%61 y/y",
+      "value": "$58.3B",
+      "note": "+%211 y/y",
       "tone": "green",
       "spark": [
-       null,
-       39.3,
-       38.6,
-       5.3,
-       38.0,
-       47.5
+       42.6,
+       56.5,
+       56.0,
+       63.1,
+       71.5
       ],
       "spark_unit": "% net marj"
      },
      {
       "metric": "EPS",
-      "value": "$7.31",
-      "note": "beklenti $6.82 — üstünde",
+      "value": "$1.87",
+      "note": "beklenti $1.77 — üstünde",
       "tone": "green"
      }
     ]
@@ -102,31 +100,29 @@
     "rows": [
      {
       "metric": "Brüt marj",
-      "value": "%81.9",
-      "note": "+0.1 puan ç/ç",
+      "value": "%74.9",
+      "note": "-0.1 puan ç/ç",
       "tone": "gray",
       "spark": [
-       null,
-       82.1,
-       82.1,
-       82.0,
-       81.8,
-       81.9
+       60.5,
+       72.4,
+       73.4,
+       75.0,
+       74.9
       ],
       "spark_unit": "%"
      },
      {
       "metric": "Faaliyet marjı",
-      "value": "%40.6",
-      "note": "-0.9 puan y/y",
-      "tone": "amber",
+      "value": "%65.6",
+      "note": "+16.5 puan y/y",
+      "tone": "green",
       "spark": [
-       null,
-       41.5,
-       43.0,
-       40.1,
-       41.3,
-       40.6
+       49.1,
+       60.8,
+       63.2,
+       65.0,
+       65.6
       ],
       "spark_unit": "%"
      }
@@ -137,19 +133,19 @@
     "rows": [
      {
       "metric": "ROIC",
-      "value": "%18.0",
+      "value": "%77.6",
       "note": "yatırılan sermaye getirisi (NOPAT)",
       "tone": "green"
      },
      {
       "metric": "Özkaynak getirisi (ROE)",
-      "value": "%32.9",
+      "value": "%114.3",
       "note": "net kâr / özkaynak",
       "tone": "green"
      },
      {
       "metric": "Aktif getirisi (ROA)",
-      "value": "%16.4",
+      "value": "%52.7",
       "note": "net kâr / toplam varlık",
       "tone": "green"
      }
@@ -160,19 +156,19 @@
     "rows": [
      {
       "metric": "Nakit dönüşümü",
-      "value": "0.68×",
+      "value": "0.75×",
       "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
       "tone": "gray"
      },
      {
       "metric": "Hisse seyrelmesi",
-      "value": "-%1.0 y/y",
+      "value": "-%0.9 y/y",
       "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
       "tone": "green"
      },
      {
       "metric": "Rule of 40",
-      "value": "56",
+      "value": "132",
       "note": "büyüme % + FCF marjı — ≥40 kaliteli",
       "tone": "green"
      }
@@ -183,15 +179,15 @@
     "rows": [
      {
       "metric": "Serbest nakit akışı",
-      "value": "$13.2B",
-      "note": "marj %23",
+      "value": "$48.6B",
+      "note": "marj %60",
       "tone": "green"
      },
      {
       "metric": "Net nakit (nakit − borç)",
-      "value": "$-63.3B",
-      "note": "nakit $23.4B · borç $86.8B",
-      "tone": "amber"
+      "value": "$889M",
+      "note": "nakit $13.2B · borç $12.3B",
+      "tone": "green"
      }
     ]
    }
@@ -200,31 +196,31 @@
  "valuation": [
   {
    "metric": "F/K (cari)",
-   "value": "24.3×",
+   "value": "32.3×",
    "note": "son 12 ay kazancına göre",
    "tone": "gray"
   },
   {
    "metric": "F/K (ileri)",
-   "value": "18.4×",
+   "value": "16.5×",
    "note": "gelecek 12 ay tahminine göre",
    "tone": "gray"
   },
   {
    "metric": "FD/Satış",
-   "value": "7.9×",
+   "value": "20.0×",
    "note": "firma değeri / yıllık satış",
    "tone": "gray"
   },
   {
    "metric": "FD/FAVÖK",
-   "value": "15.6×",
+   "value": "30.6×",
    "note": "firma değeri / FAVÖK",
    "tone": "gray"
   },
   {
    "metric": "Fiyat/FCF",
-   "value": "35.2×",
+   "value": "42.9×",
    "note": "piyasa değeri / serbest nakit akışı",
    "tone": "gray"
   }
@@ -242,111 +238,107 @@
  "charts": {
   "revenue": {
    "labels": [
-    "Dec'24",
-    "Mar'25",
-    "Jun'25",
-    "Sep'25",
-    "Dec'25",
-    "Mar'26"
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
    ],
    "values": [
-    null,
-    42.3,
-    47.5,
-    51.2,
-    59.9,
-    56.3
+    44.1,
+    46.7,
+    57.0,
+    68.1,
+    81.6
    ],
    "unit": "$B"
   },
   "gross_margin": {
    "labels": [
-    "Dec'24",
-    "Mar'25",
-    "Jun'25",
-    "Sep'25",
-    "Dec'25",
-    "Mar'26"
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
    ],
    "values": [
-    null,
-    82.1,
-    82.1,
-    82.0,
-    81.8,
-    81.9
+    60.5,
+    72.4,
+    73.4,
+    75.0,
+    74.9
    ],
    "unit": "%"
   }
  },
  "news": [
   {
-   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yaratan' özelliklerini gerekçe göstererek Meta'ya milyarlarca euro ceza uygulayabilecek soruşturma başlattı.",
+   "headline_tr": "ABD'nin Alibaba, ByteDance ve DeepSeek'e Nvidia H200 çipi satışına onay verebileceği haberi, ihracat kısıtlamalarının gevşeyebileceğine ve NVIDIA için yeni bir gelir kapısı açılabileceğine işaret ediyor.",
    "source": "benzinga",
    "published": "2026-07-10",
-   "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
-   "sentiment": "neg"
+   "url": "https://www.benzinga.com/news/26/07/60386995/alibaba-bytedance-and-deepseek-have-been-told-they-may-soon-receive-approval-buy-nvidia-h200-chips-i",
+   "sentiment": "pos"
   },
   {
-   "headline_tr": "Meta, gizlilik ihlali gerekçesiyle tepki çeken AI görsel özelliğini geri çekti ve SAG-AFTRA eleştirilerinin ardından 'hedefi ıskaladığını' kabul etti.",
+   "headline_tr": "Teknik analistler nadir bir grafik formasyonuna dayanarak NVDA hissesinin yükselişinin devam edebileceğini öne sürüyor.",
    "source": "benzinga",
    "published": "2026-07-11",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60402849/meta-pulls-ai-image-feature-after-privacy-backlash-admits-it-missed-the-mark-amid-sag-aftra-criticism",
-   "sentiment": "neg"
-  },
-  {
-   "headline_tr": "ABD'de platformların bağımlılık yaratan tasarımına yönelik olası bir 'günah vergisi' önerisi Meta'nın iş modeli için yapısal risk olarak değerlendiriliyor.",
-   "source": "benzinga",
-   "published": "2026-07-10",
-   "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
-   "sentiment": "neg"
-  },
-  {
-   "headline_tr": "Analistler Meta'yı büyük cap hisseler arasında ilk sıraya koymayı sürdürüyor ve mevcut fiyattan önemli yükseliş potansiyeli görüyor.",
-   "source": "benzinga",
-   "published": "2026-07-10",
-   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60404495/nvidia-stock-is-finally-soaring-and-rare-chart-pattern-points-to-more-upside",
    "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Yarı iletken sektöründe SK Hynix-Micron iskonto kapanması beklentisiyle volatilite artıyor, AI bellek tedarik zinciri dengeleri NVIDIA'nın büyüme hızını etkiliyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/Opinion/26/07/60393150/semis-volatile-as-traders-wait-for-sk-hynixs-discount-to-micron-to-close-us-approves-cryptobank",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "ETF yatırımcılarının Magnificent Seven'dan çeşitlendirmeye yöneldiğine dair raporlar, NVIDIA de dahil mega-cap AI hisselerinde rotasyon riskine dikkat çekiyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60381758/etf-investors-are-finally-getting-paid-to-diversify-away-from-the-magnificent-seven",
+   "sentiment": "neg"
   }
  ],
  "ai": {
-  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları üzerinden reklamcılık geliri elde eder. Ayrıca Reality Labs segmentiyle VR/AR donanım ve yazılım geliştirme alanında yatırım yapar; gelirinin %97'si dijital reklam satışından gelir.",
-  "note": "Meta'nın reklam teknolojisi altyapısı ve 3,2 milyarı aşan günlük aktif kullanıcı tabanı güçlü bir ekonomik hendek oluşturuyor; Reels ve Threads'in monetizasyonu henüz olgunlaşmamış olduğundan önümüzdeki 3-5 yılda ek gelir katmanları devreye girebilir. AI altyapı yatırımları (Llama ekosistemine dayalı reklam optimizasyonu) marj baskısı yaratsa da uzun vadede reklam verimliliğini artıracak yapısal bir varlığa dönüşme potansiyeli taşıyor. 8 çeyrek üst üste beklenti aşımı, yönetimin yürütme kalitesini teyit ediyor.",
-  "counter": "AB'nin 'bağımlılık yaratan tasarım' gerekçesiyle uygulayabileceği milyar dolarlık cezalar ve olası ürün kısıtlamaları hem marka değerini hem de Avrupa gelirlerini kalıcı biçimde zedeleyebilir. ABD'de önerilen 'günah vergisi' veya ekran süresi düzenlemeleri de platform bağımlılığı üzerine kurulu iş modelini yapısal olarak tehdit eden ikinci bir risk katmanı oluşturuyor.",
+  "about": "NVIDIA, yapay zeka ve yüksek performanslı hesaplama için GPU ve sistem çipleri tasarlar; başlıca müşterileri bulut sağlayıcıları (Microsoft, Google, Amazon), büyük teknoloji şirketleri ve araştırma kurumlarıdır. Gelirinin büyük bölümü veri merkezi segmentinden gelir ve şirket çip tasarımını yapıp üretimi TSMC gibi döküm fabrikalarına devreder.",
+  "note": "NVIDIA'nın veri merkezi segmentindeki hakim konumu, CUDA ekosistemi ve Blackwell nesil çip mimarisiyle güçlü bir yazılım+donanım hendeki oluşturmuştur; sekiz çeyrek üst üste beklenti aşması bu hendeki doğrular. %85 y/y büyüme ve Rule of 40'ın 132 gibi olağandışı bir seviyede seyretmesi iş modelinin kalitesini gösterse de brüt marjdaki kademeli düşüş eğilimi ve FCF/net kâr dönüşümünün 0.75x'e gerilemesi, rekabetçi baskı ve CapEx yükü konusunda dikkatli olmayı gerektirir. 3-5 yıllık tezin özü şudur: kurumsal ve hükümet AI altyapısına yatırım hız kesmeden devam ettikçe NVIDIA talep görmeye devam edecek, ancak AMD ve özel ASIC'lerin pazar payı alma çabası marjlar üzerinde baskı yaratacaktır.",
+  "counter": "Google'ın TPU'ları, Amazon'un Trainium'u ve Microsoft'un Maia gibi özel ASIC'leri en büyük müşterilerin içselleştirilmiş alternatif geliştirme hızını artırmakta, uzun vadede CUDA kilidinin zayıflaması NVIDIA'nın fiyatlama gücünü aşındırabilir. Bunun yanı sıra ABD ihracat kısıtlamalarının gevşemesi (Haber 6) potansiyel ek gelir sunarken olası yeniden sıkılaşmalar talep tavanı oluşturabilir.",
   "watch": [
-   "AI destekli reklam araçlarının (Advantage+ vb.) ARPU ve faaliyet marjına katkısı — AI capex'in geri dönüşü görünür hale geliyor mu?",
-   "AB düzenleyici sürecinin somutlaşması ve olası ürün kısıtlamalarının Avrupa gelir payına etkisi"
+   "Brüt marj trendinin 73-75 bantında kalıp kalmadığı: Blackwell geçişiyle birlikte özel ASIC ve AMD rekabetinin fiyatlama gücüne etkisi",
+   "FCF/net kâr dönüşümünün 0.85x üzerine toparlanması: envanter ve alacak yönetimi, nakit kazancının gerçek kalitesini gösterir"
   ],
   "diagnosis": [
    {
     "baslik": "Büyüme ivmesi",
     "verdict": "guclu",
-    "yorum": "%33 yıllık gelir büyümesi güçlü olmakla birlikte, önceki çeyrekteki 59,9 milyar dolar zirvesinden 56,3 milyar dolara kısmen gerileme mevsimsel mi yoksa yapısal yavaşlama sinyali mi olduğu yakından izlenmeli."
+    "yorum": "Çeyreklik gelir 44.1 milyardan 81.6 milyara tırmandı; y/y büyüme %85 ile hızlanma sürüyor ve mutlak büyüme rakamı ivmesini korumaktadır."
    },
    {
     "baslik": "Kârlılık ve sermaye getirisi",
-    "verdict": "notr",
-    "yorum": "Brüt marj %81,9 ile stabil ve AI yatırımlarına karşın savunmacı seyrederken faaliyet marjının son üç çeyrekte %43'ten %40,6'ya gerilemesi, capex yoğunluğunun kârlılığı baskıladığını gösteriyor; ROIC %18 tatmin edici ama yukarı ivme yok."
+    "verdict": "guclu",
+    "yorum": "Brüt marjda (-0.1 puan ç/ç) ve faaliyet marjında hafif gerileme dikkat çekici olsa da ROIC %77.6 ve ROE %114.3 gibi olağanüstü sermaye verimliliği iş modelinin gücünü teyit eder."
    },
    {
     "baslik": "Kazanç kalitesi",
     "verdict": "notr",
-    "yorum": "FCF/net kâr oranının 0,68× ile makul ama tam olgunlaşmış bir düzeyin altında kalması ve net marj trendinin dalgalı seyretmesi (özellikle bir çeyrekteki %5,3 çukuru) nakit dönüşümünün tutarlılığı konusunda soru işareti bırakıyor; hisse geri alımıyla -%1 seyreltme ise olumlu."
+    "yorum": "FCF/net kâr dönüşümünün 0.75x olması ağırlıklı olarak yüksek alacak ve envanter gereksinimlerini yansıtıyor; hisse seyrelmesinin -%0.9 y/y azalması olumlu ancak dönüşüm oranı izlenmeye devam etmeli."
    },
    {
     "baslik": "Bilanço sağlığı",
-    "verdict": "zayif",
-    "yorum": "Net borç pozisyonunun 63,3 milyar dolara ulaşması, agresif capex ve geri alım programının nakit tamponunu eritmesi nedeniyle bilanço eskiye kıyasla daha kırılgan; faiz ortamı yüksek kalmaya devam ederse bu borç yükü değerlemeyi baskılayabilir."
+    "verdict": "notr",
+    "yorum": "Net nakit sadece 889 milyon dolar ile bu ölçekteki bir şirket için oldukça mütevazı; Blackwell yatırım döngüsünün yoğun CapEx gereksinimi bilançoyu sınırlı tutuyor."
    },
    {
     "baslik": "Değerleme",
     "verdict": "notr",
-    "yorum": "İleri F/K 18,4 ve Rule of 40 skoru 56 göz önüne alındığında çarpanlar kaliteye görece makul görünse de Fiyat/FCF'nin 35,2× ile tarihi ortalamaların üzerinde seyretmesi ve dün %6'lık sert yükselişin ardından kısa vadeli risk/ödül dengesinin daha az cazip olduğuna işaret ediyor."
+    "yorum": "İleri F/K 16.5x büyüme hızına kıyasla görece makul, ancak FD/Satış 20x ve Fiyat/FCF 42.9x herhangi bir yavaşlama senaryosunda ciddi çoklu-küçülme riski barındırır."
    }
   ],
   "concept": {
-   "title": "Rule of 40 (40 Kuralı)",
-   "body": "Teknoloji şirketleri için kullanılan bu metrik, gelir büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ı aşması durumunda şirketin büyüme-kârlılık dengesini sağlıklı kurduğunu gösterir. Meta'nın 56 skoru, %33 büyüme ve %23 FCF marjını birleştirerek sektörün en üst dilimine girdiğini teyit ediyor."
+   "title": "CUDA Kilidi (Vendor Lock-in & Switching Cost Moat)",
+   "body": "Müşterilerin bir platformda yazdığı koda ve eğittiği modellere bağımlı hale gelmesi, rakip platforma geçişi maliyetli kılar; buna geçiş maliyeti hendeği denir. NVIDIA'nın CUDA kütüphanesi ve ekosistemi, on yılı aşkın geliştirici birikimi sayesinde bu hendeğin en güçlü örneklerinden birini oluşturur ve şirketin fiyatlama gücünü sürdürmesinin temel nedenidir."
   }
  }
 }

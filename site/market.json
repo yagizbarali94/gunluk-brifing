@@ -1,6 +1,6 @@
 {
  "date": "2026-07-11",
- "generated_at": "2026-07-11T20:50:45+00:00",
+ "generated_at": "2026-07-11T21:06:54+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -188,16 +188,16 @@
   }
  ],
  "ai": {
-  "headline": "Endeksler zirveye yakın ve trend sağlam, ancak sektör rotasyonu defansiflere kaymış; faiz baskısı ve güçlenen dolar zemini karmaşıklaştırıyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor ve VIX'in 15 civarında kalmasıyla birlikte korku seviyesi oldukça ılımlı; bu tablo yapısal olarak sağlıklı bir trendi yansıtıyor. Bununla birlikte, sektör dağılımına bakıldığında Finans, Sağlık ve Sanayi öne çıkarken döngüsel sektörler geride kalıyor; bu tablo yatırımcıların büyüme ivmesine değil, kalite ve savunmaya yöneldiğine işaret ediyor. Breadth görece güçlü — sektörlerin yüzde doksanbirinin 200 gün üzerinde olması genişliğin bozulmadığını gösteriyor; ancak eşit ağırlıklı endeks ile piyasa değeri ağırlıklı endeks arasındaki iki puanlık fark, bir avuç büyük şirketin performansı sürüklediğini düşündürüyor. Makro tarafta ise on yıllık faizin yüzde 4.57'ye çıkması ve doların aylık yüzde iki değer kazanması, değerleme ve küresel likidite açısından ek bir ağırlık oluşturuyor; petrol ve altındaki sert geri çekilme ise enflasyon beklentilerinin ve emtia talebinin yeniden fiyatlandığına işaret ediyor.",
+  "headline": "Endeksler trend içinde, yapı sağlam; ancak defansiflerin öne çıkması ve yükselen faizler ihtiyatlı bir iyimserliği işaret ediyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde ve zirvelerine yakın seyrediyor; bu, teknik zeminin korunduğunu gösteriyor. VIX 15 civarında, volatilite beklenti yapısı contango'da ve kredi piyasaları sakin — paniğin ya da aşırı stresin izi yok. Bununla birlikte sektör rotasyonu risk-kapalı bir renk taşıyor: Finans ve Sağlık gibi savunmacı ağırlıklı isimler döngüsellerin önüne geçmiş durumda. Eşit ağırlıklı endeksin cap-ağırlıklıya 2 puanlık geri kalması orta düzeyde bir konsantrasyon sinyali; piyasayı birkaç büyük isim sürüklüyor, ama breadth hâlâ derin çöküş bölgesinde değil — sektörlerin yüzde doksanından fazlası 200 gününün üstünde.",
   "watch": [
-   "14 Temmuz JPMorgan bilançosu: Finans sektörünün liderliğini teyit edip etmeyeceği ve bankanın faiz marjına ilişkin yönetim yorumu",
-   "10 yıllık ABD tahvil faizinin yüzde 4.6 - 4.7 bandını geçip geçmeyeceği; bu eşiğin aşılması değerleme baskısını artırabilir",
-   "Petrol fiyatındaki sert düşüşün devam edip etmeyeceği: enerji sektörü zaten geride kalıyor, olası bir toparlanma ya da daha derin bir kırılma sektör genelinde sinyal niteliği taşıyor"
+   "14 Temmuz JPMorgan bilançosu: Kredi kalitesi, net faiz marjı ve yönetimin ekonomi yorumu mevcut risk-kapalı sektör rotasyonunu teyit edip etmeyeceğini gösterecek.",
+   "10 yıllık ABD faizinin seyri: Son bir ayda 2 puan yükselen faizin ivmesi devam ederse değerleme baskısı ve sermaye maliyeti tartışması yeniden öne çıkabilir.",
+   "Dolar endeksi (DXY): Bir ayda yüzde 2 güçlenen dolar ve eş zamanlı altın düşüşü dikkat çekici; DXY'nin 101 üzerinde tutunması emtia ve gelişen piyasalar üzerindeki baskıyı izlemek için kritik bir referans noktası."
   ],
   "concept": {
-   "title": "Defansif Rotasyon (Defensive Rotation)",
-   "body": "Defansif rotasyon, piyasa genelinde bir çöküş yaşanmadan yatırımcıların döngüsel sektörlerden (enerji, tüketici ürünleri, iletişim gibi) daha istikrarlı kabul edilen sektörlere (sağlık, finans, kamu hizmetleri) ağırlık kaydırması durumudur. Bu hareket, fiyatların düşmediği ancak piyasa katılımcılarının risk iştahını sessizce azalttığı geçiş dönemlerinin karakteristik bir özelliğidir."
+   "title": "Sektör Rotasyonu (Defensive Rotation)",
+   "body": "Sektör rotasyonu, yatırımcıların döngüsel risklerden uzaklaşarak daha istikrarlı nakit akışı üreten savunmacı sektörlere yönelmesi sürecidir. Bu hareket genellikle piyasanın fiyat seviyesini değil, katılımcıların risk algısını yansıtır; trend bozulmadan önce bile ihtiyatın arttığını erken sinyal olarak okumak mümkündür."
   }
  }
 }
