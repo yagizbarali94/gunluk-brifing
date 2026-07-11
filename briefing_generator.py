@@ -158,14 +158,30 @@ def _scan_earnings():
     return reported, upcoming
 
 
-def _mover_or_rotation(state, exclude=()):
-    """Eski zincirin geri kalanı: büyük hareket > rotasyon. exclude'daki hisseleri atlar."""
-    import yfinance as yf
+def _mover_or_rotation(state, exclude=(), cache=None):
+    """Eski zincirin geri kalanı: büyük hareket > rotasyon. exclude'daki hisseleri atlar.
 
+    cache: aynı select_tickers() çağrısı içindeki iki fallback çağrısının fiyat verisini
+    ve seans tazelik durumunu paylaşması için (dict, çağıran tarafından oluşturulur).
+    Hafta sonu/tatil gibi yeni işlem seansı yoksa (son kapanış bir önceki çalıştırmayla
+    aynıysa) mover atlanır ve doğrudan rotasyona düşülür — aynı "dün %X hareket etti"
+    metni art arda tekrarlanmasın diye."""
+    cache = cache if cache is not None else {}
     try:
-        data = yf.download(config.WATCHLIST, period="5d", progress=False,
-                           auto_adjust=True)["Close"].dropna(how="all")
-        if len(data) >= 2:
+        if "data" not in cache:
+            import yfinance as yf
+            data = yf.download(config.WATCHLIST, period="5d", progress=False,
+                               auto_adjust=True)["Close"].dropna(how="all")
+            cache["data"] = data
+            if len(data) >= 2:
+                last_session = data.index[-1].strftime("%Y-%m-%d")
+                cache["is_new_session"] = state.get("last_mover_session") != last_session
+                state["last_mover_session"] = last_session
+            else:
+                cache["is_new_session"] = False
+
+        data = cache["data"]
+        if cache.get("is_new_session") and len(data) >= 2:
             chg = (data.iloc[-1] / data.iloc[-2] - 1.0) * 100.0
             chg = chg.dropna().drop(index=[t for t in exclude if t in chg.index])
             if not chg.empty:
@@ -175,6 +191,8 @@ def _mover_or_rotation(state, exclude=()):
                     yon = "yükseldi" if chg[top] > 0 else "düştü"
                     return top, {"reason_code": "mover",
                                  "text": f"Dün %{abs(chg[top]):.1f} {yon} — büyük hareket"}
+        elif not cache.get("is_new_session"):
+            log("  yeni işlem seansı yok (hafta sonu/tatil) — mover atlanıp rotasyona geçiliyor")
     except Exception as e:
         log(f"  hareket taraması atlandı: {e}")
 
@@ -220,13 +238,14 @@ def select_tickers(state):
                              "text": f"Bilanço {kalan} açıklanacak ({tr_date(dd)}) — beklentileri incele"})
         break
 
+    mover_cache = {}
     if upcoming_pick is None:
         exclude = {reported_ticker} if reported_ticker else set()
-        upcoming_pick = _mover_or_rotation(state, exclude=exclude)
+        upcoming_pick = _mover_or_rotation(state, exclude=exclude, cache=mover_cache)
 
     if reported_pick is None:
         exclude = {upcoming_pick[0]}
-        reported_pick = _mover_or_rotation(state, exclude=exclude)
+        reported_pick = _mover_or_rotation(state, exclude=exclude, cache=mover_cache)
 
     return [
         {"slot": "upcoming", "ticker": upcoming_pick[0], "why": upcoming_pick[1]},

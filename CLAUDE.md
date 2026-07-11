@@ -19,6 +19,10 @@ Uçtan uca akış:
      - `reported`: son 2 gün içinde bilanço açıklamış hisse.
      - Her slot kendi doğal adayını bulamazsa günlük |%4+| hareket eden > yoksa
        `config.py`'deki `WATCHLIST` sırasında rotasyona düşer (`state.json`'da tutulur).
+       Hafta sonu/tatil gibi yeni işlem seansı yoksa (son kapanış bir önceki
+       çalıştırmayla aynıysa, `state.json`'daki `last_mover_session` ile karşılaştırılır)
+       "büyük hareket" adımı atlanır ve doğrudan rotasyona düşülür — aynı "dün %X
+       hareket etti" metni art arda tekrarlanmasın diye.
      - İki slot asla aynı hisseyi seçmez (çakışırsa bir sonraki adaya geçilir).
      - `pinned.json`'da ({"YYYY-MM-DD": ["TICKER", ...]}) o günün tarihi varsa,
        listelenen hisseler için otomatik seçime EK olarak `pinned` slotlu brifingler
