@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-11",
+ "slot": "reported",
+ "generated_at": "2026-07-11T07:28:56+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1700121673728
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %6.0 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 669.21,
+  "change_pct": 4.59
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-29",
+  "next_date": "2026-07-29",
+  "last_label": "29 Nisan",
+  "next_label": "29 Temmuz",
+  "days_to_next": 18,
+  "progress_pct": 80
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$56.3B",
+   "sub": "+%33 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$7.31",
+   "sub": "Beat · beklenti $6.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.9",
+   "sub": "+0.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$13.2B",
+   "sub": "marj %23",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$56.3B",
+      "note": "+%33 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       42.31,
+       47.52,
+       51.24,
+       59.89,
+       56.31
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$26.8B",
+      "note": "+%61 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       39.3,
+       38.6,
+       5.3,
+       38.0,
+       47.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$7.31",
+      "note": "beklenti $6.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.9",
+      "note": "+0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       82.1,
+       82.1,
+       82.0,
+       81.8,
+       81.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%40.6",
+      "note": "-0.9 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       41.5,
+       43.0,
+       40.1,
+       41.3,
+       40.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%18.0",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%32.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%16.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.68×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%1.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "56",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$13.2B",
+      "note": "marj %23",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-63.3B",
+      "note": "nakit $23.4B · borç $86.8B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "23.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "18.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "7.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "15.6×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "35.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    42.3,
+    47.5,
+    51.2,
+    59.9,
+    56.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    82.1,
+    82.1,
+    82.0,
+    81.8,
+    81.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Meta, gizlilik tartışmaları ve SAG-AFTRA eleştirileri nedeniyle AI görsel özelliğini geri çekti; 'hedefi ıskaladığını' kabul etti.",
+   "source": "benzinga",
+   "published": "2026-07-11",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60402849/meta-pulls-ai-image-feature-after-privacy-backlash-admits-it-missed-the-mark-amid-sag-aftra-criticism",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Meta'nın sosyal medya platformlarına yönelik potansiyel 'günah vergisi' düzenlemesinin hisse senedi üzerindeki etkileri değerlendiriliyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60389548/metas-engagement-machine-faces-a-sin-tax-what-it-could-mean-for-the-stock",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "AB, Facebook ve Instagram'ın 'bağımlılık yaratan' özelliklerini hedef alarak Meta'ya milyarlarca Euro ceza uygulayabilir.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Analistler Meta'yı büyük sermayeli hisseler arasında en çok tercih edilen seçim olarak koruyor ve önemli yükseliş potansiyeli görüyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60393737/meta-remains-top-large-cap-pick-analysts-see-significant-upside",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları ile Quest VR cihazlarını işleten, gelirinin büyük bölümünü dijital reklamcılıktan elde eden bir teknoloji şirketidir. Milyarlarca kullanıcıdan oluşan ağ etkisi, reklam hedefleme altyapısıyla monetize edilmektedir.",
+  "note": "Meta'nın %82 brüt marj ile sürdürdüğü reklam motoru, AI destekli hedefleme iyileştirmeleriyle büyüme hızını yüksek tutmaya devam ediyor; 8 çeyrek üst üste beklenti aşımı disiplinli yönetimin kanıtı. Ancak faaliyet marjının gerileme trendinde olması ve AI altyapısına yönelik yoğun capex baskısı, 3-5 yıllık süreçte marj genişlemesinin sınırlı kalabileceğine işaret ediyor. Uzun vadeli tez, AI reklam verimliliğinin ve potansiyel yeni gelir akışlarının (WhatsApp Business, Threads) mevcut büyük kullanıcı tabanını daha karlı hâle getirip getiremeyeceğine bağlı.",
+  "counter": "AB'nin bağımlılık yaratan özellikler gerekçesiyle milyarlarca Euro ceza uygulaması ve sosyal medyaya yönelik olası 'günah vergisi' düzenlemeleri, gelir tabanını yapısal olarak baskı altına alabilir. Bunun yanı sıra TikTok ve yeni nesil platformlarla gençlik kitlesinde yaşanan kullanıcı erimesi, uzun vadeli ağ etkisini aşındırabilir.",
+  "watch": [
+   "Faaliyet marjının AI capex baskısına rağmen %40 üzerinde tutulup tutulamayacağı ve capex-to-revenue oranının seyri",
+   "AB düzenleyici cezaları ve potansiyel 'sin tax' yasalarının gelire doğrudan etkisi ile Avrupa gelir payının trendi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Yıllık %33 gelir artışı güçlü olmakla birlikte önceki çeyreğin $59.9B zirvesinden $56.3B'ye gerileme, büyüme temposunda hafif bir ivme kaybına işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj %82 seviyesinde istikrarlı ancak faaliyet marjı son iki çeyrekte aşağı yönlü trend izliyor; buna karşın ROIC %18 ve ROE %33 ile sermaye getirisi hâlâ sağlam."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü 0.68× ile yüksek capex harcamalarının serbest nakit akışını baskıladığını gösteriyor; net marjtaki volatilite (bir çeyrek %5.3'e düşüş) dikkat çekici olmakla birlikte buyback programı hisse seyrelme etkisini tersine çeviriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç pozisyonu -$63.3B ile oldukça yüksek; AI altyapısı ve Reality Labs yatırımları borç yükünü artırıyor ve finansal esnekliği kısıtlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 18.4 ve Rule of 40 skoru 56 göz önüne alındığında değerleme makul görünmekle birlikte Fiyat/FCF 35.2× ve FD/Satış 7.9× çarpanları önemli büyüme bozulmasına karşı sınırlı güvenlik marjı bırakıyor."
+   }
+  ],
+  "concept": {
+   "title": "Ağ Etkisi (Network Effect) ve Moat",
+   "body": "Ağ etkisi, bir platforma katılan her yeni kullanıcının mevcut tüm kullanıcılar için değeri artırması anlamına gelir; bu da rakiplerin pazara girişini yapısal olarak güçleştirir. Meta'nın 3 milyarı aşkın günlük aktif kullanıcısı bu moat'ın somut örneğidir: reklamverenler için başka hiçbir platformun sunamadığı ölçek ve hedefleme hassasiyetini yaratarak fiyatlama gücünü korumaktadır."
+  }
+ }
+}
