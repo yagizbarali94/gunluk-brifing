@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-12-upcoming",
+  "date": "2026-07-12",
+  "ticker": "TSM",
+  "name": "Taiwan Semiconductor Manufactur",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-12-reported",
+  "date": "2026-07-12",
+  "ticker": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-11-upcoming",
   "date": "2026-07-11",
   "ticker": "TSM",
