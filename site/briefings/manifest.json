@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-13-upcoming",
+  "date": "2026-07-13",
+  "ticker": "TSM",
+  "name": "Taiwan Semiconductor Manufactur",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-13-reported",
+  "date": "2026-07-13",
+  "ticker": "AVGO",
+  "name": "Broadcom Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-12-upcoming",
   "date": "2026-07-12",
   "ticker": "TSM",

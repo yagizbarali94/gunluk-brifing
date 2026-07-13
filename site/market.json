@@ -1,6 +1,6 @@
 {
- "date": "2026-07-12",
- "generated_at": "2026-07-12T07:52:29+00:00",
+ "date": "2026-07-13",
+ "generated_at": "2026-07-13T08:38:53+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.03,
+  "vix": 16.26,
   "vix3m": 18.57,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -6.9
+  "vix_chg_5d": 4.4
  },
  "breadth": {
   "rsp_3m": 9.4,
@@ -153,7 +153,7 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.0",
+    "value": "100.9",
     "note": "son 1 ay +%2.0",
     "tone": "gray"
    },
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$71.4",
-    "note": "son 1 ay -%19.7",
+    "value": "$73.2",
+    "note": "son 1 ay -%16.2",
     "tone": "gray"
    },
    {
@@ -182,36 +182,36 @@
   {
    "date": "2026-07-14",
    "label": "JPM bilanço",
-   "days": 2,
+   "days": 1,
    "date_label": "14 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-22",
    "label": "GOOGL bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-22",
    "label": "TSLA bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Endeksler zirve yakınında, trend sağlam; ancak sektör rotasyonu defansife kaymış ve yükselen faizler zemini zorlaştırıyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde ve zirveden çok az geri çekilmiş — bu yapısal trendin hâlâ ayakta olduğunu gösteriyor. Bununla birlikte sektör tablosu farklı bir hikâye anlatıyor: Finans ve Sağlık öne çıkarken İletişim, Tüketici Döngüsel ve Enerji geride kalıyor; bu tablo yatırımcıların büyüme iştahını kısmen kıstığına işaret ediyor. Breadth makul düzeyde — sektörlerin yüzde doksan birinin 200 gün üzerinde olması zeminin bozulmadığını söylüyor, ancak eşit ağırlıklı endeksin cap ağırlıklıya iki puan geride kalması birkaç büyük ismin genel tabloyu taşıdığına dair bir uyarı. On yıllık faizin yüzde 4,57'ye çıkması ve doların güçlenmesi, özellikle değerleme hassasiyeti yüksek büyüme hisselerine ek bir yük bindiriyor; petrolün son bir ayda yüzde yirmi düşmesi ise büyüme endişesini ve arz dinamiklerini aynı anda yansıtıyor.",
+  "headline": "Endeksler zirvede tutunuyor; sektör rotasyonu defansiflere kayarken faiz yükselişi ve güçlenen dolar zemini karmaşıklaştırıyor.",
+  "read": "Üç büyük endeks 200 günlük ortalamanın üzerinde seyrediyor ve VIX'in 16 civarında sakin kalması ile kredi piyasasının (HYG) dirençli görünmesi, panik değil temkinli bir ortama işaret ediyor. Ancak sektör rotasyonu döngüsel hisselerden Finans, Sağlık ve Sanayi gibi daha savunmacı alanlara doğru kayıyor; bu, katılımcıların büyüme hikâyesine olan inancını tam anlamıyla yenilemediğinin sinyali. Breadth'in zayıf olmadığı söylenebilir — sektörlerin yüzde doksanı 200 günlük ortalamanın üzerinde — fakat eşit ağırlıklı endeksin cap ağırlıklıdan geride kalması, yükselişin hâlâ birkaç büyük şirketin omuzlarında ilerlediğini gösteriyor. Bir aylık petrol düşüşü (-yüzde on altı) ve altındaki gerileme enflasyon baskısının hafiflediğine işaret edebilirken, faizin aynı dönemde yüzde iki buçuk artması ve doların güçlenmesi risk iştahını frenleyen iki karşı rüzgâr olarak öne çıkıyor.",
   "watch": [
-   "14 Temmuz JPMorgan bilançosu: kredi kalitesi ve net faiz marjı, faiz ortamının bankacılığa yansımasını gösterecek",
-   "10 yıllık ABD Hazine faizinin yüzde 4,60-4,70 bandını test edip etmeyeceği: bu seviyeler değerleme baskısını artırabilir",
-   "22 Temmuz GOOGL ve TSLA bilançoları: İletişim ve Döngüsel sektörün geri kalma nedenini teyit ya da çürütecek"
+   "14 Temmuz JPM bilançosu: Finans sektörü öndeyken bankanın faiz marjı ve kredi kalitesi açıklamaları mevcut sektör liderliğinin sağlam temelli olup olmadığını test edecek.",
+   "10 yıllık faizin seyri: Yüzde 4.57 seviyesinden devam eden yükseliş, değerleme baskısını artırarak büyüme hisselerindeki göreli zayıflığı pekiştirebilir.",
+   "Dolar endeksi (DXY) ve petrol: Doların 101 üzerinde tutunması çok uluslu şirket kârlılığını ve emtia fiyatlarını aynı anda sıkıştırabileceğinden iki gösterge birlikte takip edilmeli."
   ],
   "concept": {
-   "title": "Sektör Rotasyonu: Piyasanın İçindeki Tercih Değişimi",
-   "body": "Sektör rotasyonu, yatırımcıların endeks seviyesi sabitmiş gibi görünse de içeride farklı sektörlere ağırlık kaydırmasını ifade eder; defansiflerin öne çıkması genellikle ihtiyatlı bir ruh halinin habercisidir. Endeks yatay ya da yukarıda olsa bile rotasyon yönünü okumak, risk iştahının gerçek anlamda nerede durduğunu anlamak için önemli bir bağlam sunar."
+   "title": "Sektör Rotasyonu (Sector Rotation)",
+   "body": "Sektör rotasyonu, yatırımcıların ekonomik veya piyasa koşullarındaki değişimlere tepki olarak sermayelerini bir sektörden diğerine kaydırmasını tanımlar. Döngüsel sektörlerin geride kalıp defansiflerin öne çıkması, katılımcıların büyüme hızına ilişkin beklentilerini 'fiyatladığının' bir göstergesidir; bu nedenle rotasyonun yönü, piyasa haberleri kadar rejim okuması için değerli bir bağlam sunar."
   }
  }
 }

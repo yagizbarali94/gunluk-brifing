@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-13",
+ "slot": "upcoming",
+ "generated_at": "2026-07-13T08:38:05+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 2251500027904
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 3 gün sonra açıklanacak (16 Temmuz) — beklentileri incele"
+ },
+ "price": {
+  "last": 434.11,
+  "change_pct": -0.39
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-15",
+  "next_date": "2026-07-16",
+  "last_label": "15 Nisan",
+  "next_label": "16 Temmuz",
+  "days_to_next": 3,
+  "progress_pct": 97
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.13T",
+   "sub": "+%35 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$3.49",
+   "sub": "Beat · beklenti $3.33",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%66.2",
+   "sub": "+3.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$347.3B",
+   "sub": "marj %31",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 15 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.13T",
+      "note": "+%35 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       839.25,
+       933.79,
+       989.92,
+       1046.09,
+       1134.1
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$572.5B",
+      "note": "+%58 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       43.1,
+       42.7,
+       45.7,
+       46.4,
+       50.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$3.49",
+      "note": "beklenti $3.33 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%66.2",
+      "note": "+3.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       58.8,
+       58.6,
+       59.5,
+       62.3,
+       66.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%58.1",
+      "note": "+9.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       48.5,
+       49.6,
+       50.6,
+       54.0,
+       58.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%27.7",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%36.2",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%17.3",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.55×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$347.3B",
+      "note": "marj %31",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$1.94T",
+      "note": "nakit $3.04T · borç $1.09T",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "37.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "5.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "2.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    839.3,
+    933.8,
+    989.9,
+    1046.1,
+    1134.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    58.8,
+    58.6,
+    59.5,
+    62.3,
+    66.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Ken Griffin, TSMC çiplerini kaybetmenin 'Büyük Buhran'a yol açabileceğini uyararak şirketin her üst segment üründeki vazgeçilmez konumunu vurguladı.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60376976/ken-griffin-warns-losing-tsmc-chips-could-trigger-a-great-depression-theyre-in-every-high-end-product",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Futurum analisti, Nvidia, AMD, Apple ve Broadcom'un tamamının TSMC'ye bağımlı olduğunu; her AI tokeninin görünmez bir 'TSMC royaltisi' ödediğini açıkladı.",
+   "source": "benzinga",
+   "published": "2026-07-09",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60350514/futurums-shay-boloor-explains-why-nvidia-amd-apple-and-broadcom-all-depend-on-tsmc-every-token-ultimately-pays-an-invisible-royalty",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Micron'un 250 milyar dolarlık ABD genişlemesi ve Apple'ın 30 milyar dolarlık Broadcom anlaşması, yarı iletken talebinin yapısal olarak güçlü kaldığına işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-07-12",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60405076/consumer-tech-news-july-6-10-micron-plans-250b-us-expansion-apple-signs-30b-broadcom-deal-more",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Nasdaq'ın 23 yıllık en yüksek volatilite seviyesine ulaşması, teknoloji hisselerinde kısa vadeli fiyat riskini artırıyor.",
+   "source": "benzinga",
+   "published": "2026-07-09",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "TSMC (Taiwan Semiconductor Manufacturing), dünyanın en büyük bağımsız çip üreticisidir; Apple, Nvidia, AMD, Broadcom gibi fabrikasız tasarım şirketlerinin tasarladığı yonga setlerini en ileri teknoloji süreçlerinde (3nm, 2nm) üretir. Para kazanma modeli, wafer başına alınan üretim ücretine dayanır ve müşteri yoğunlaşması yüksektir.",
+  "note": "TSMC'nin brüt marjı son beş çeyrekte %58,8'den %66,2'ye, faaliyet marjı %48,5'ten %58,1'e yükseldi; bu yapısal fiyatlama gücünü ve ileri teknoloji geçişinin (3nm/2nm) birim karlılığa katkısını kanıtlıyor. AI altyapı harcamalarının 3-5 yıl boyunca güçlü kalması bekleniyor; Ken Griffin'in 'TSMC çiplerini kaybetmek Büyük Buhran'a yol açar' sözü bu eşsiz konumu özetliyor. Sekiz çeyrek üst üste beklenti aşımı ve yükselen marj trendi, uzun vadeli yatırım tezini bu çeyrekte de doğrular nitelikte.",
+  "counter": "TSMC'nin en kritik yapısal riski, Taiwan üretim tesislerinin jeopolitik kırılganlığıdır; ABD-Çin gerilimi tırmanırsa hem sigorta primi hem de müşteri çeşitlendirme baskısı marjları aşağı çekebilir. Arizona ve Japonya fabrikalarının devreye girmesiyle coğrafi çeşitlendirme ilerliyor; ancak bu süreç hem maliyetli hem de uzun solukludur.",
+  "watch": [
+   "2nm ve A16 süreç geçişinin wafer fiyatlamasına ve brüt marjına katkısı — teknoloji liderliğinin fiyatlama gücüne dönüşümünü ölçer",
+   "Arizona ve Japonya fabrikalarının kapasite kullanım oranı ve maliyet yapısı — coğrafi çeşitlendirmenin marj seyreltici etkisinin hızı kritik"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 839B'den 1,13T'ye (%35 y/y) sürekli yükselen bir eğriyle ivmeleniyor; AI çip talebindeki yapısal artış büyümeyi besliyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj beş çeyrekte art arda genişleyerek %66,2'ye ulaştı; ROIC %27,7 ve ROE %36,2 ile sermaye getirisi döngünün en yüksek seviyesinde seyrediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü 0,55× ile görece düşük; yoğun sermaye harcamaları (fab inşaatı) serbest nakit akışını baskıluyor, bu geçici ama göz ardı edilmemeli."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "1,94 trilyon TWD net nakit pozisyonu ve sıfır hisse seyrelmesi bilanço kalitesini son derece güçlü kılıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 21,4 ve Fiyat/FCF 2,2; Rule of 40 skoru 61 olan, %35 büyüyen ve %58 faaliyet marjlı bir şirket için çarpanlar hâlâ makul görünüyor."
+   }
+  ],
+  "concept": {
+   "title": "Fabless-Foundry Modeli ve Fiyatlama Gücü",
+   "body": "Fabless model, çip tasarımcılarının (Apple, Nvidia) üretimi TSMC gibi foundry'lere devretmesini ifade eder; bu yapıda TSMC, teknoloji liderliğini koruduğu sürece tek alternatifli bir tekel konumuna yaklaşır. TSMC'nin %66,2'lik brüt marjı, bu yapısal fiyatlama gücünün somut yansımasıdır — müşteriler alternatif bulamadığı için maliyet artışlarını kabul etmek zorunda kalır."
+  }
+ }
+}

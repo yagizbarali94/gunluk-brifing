@@ -1,0 +1,360 @@
+{
+ "date": "2026-07-13",
+ "slot": "reported",
+ "generated_at": "2026-07-13T08:38:46+00:00",
+ "mock": false,
+ "ticker": "AVGO",
+ "company": {
+  "name": "Broadcom Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1902889402368
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 399.97,
+  "change_pct": -0.11
+ },
+ "earnings_calendar": {
+  "last_date": "2026-06-03",
+  "next_date": "2026-09-03",
+  "last_label": "3 Haziran",
+  "next_label": "3 Eylül",
+  "days_to_next": 52,
+  "progress_pct": 43
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$22.2B",
+   "sub": "+%48 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.44",
+   "sub": "Beat · beklenti $2.40",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%69.5",
+   "sub": "+1.3 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$10.3B",
+   "sub": "marj %46",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 3 Haziran",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$22.2B",
+      "note": "+%48 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       15.0,
+       15.95,
+       18.02,
+       19.31,
+       22.19
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$9.3B",
+      "note": "+%88 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       33.1,
+       26.0,
+       47.3,
+       38.1,
+       42.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.44",
+      "note": "beklenti $2.40 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%69.5",
+      "note": "+1.3 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       68.0,
+       67.1,
+       68.0,
+       68.1,
+       69.5
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%48.9",
+      "note": "+9.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       39.4,
+       38.1,
+       42.5,
+       44.9,
+       48.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%20.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%37.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%12.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.12×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "91",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$10.3B",
+      "note": "marj %46",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-45.3B",
+      "note": "nakit $19.6B · borç $64.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "66.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "20.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "25.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "46.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "58.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Oct'24",
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    null,
+    null,
+    15.0,
+    16.0,
+    18.0,
+    19.3,
+    22.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Oct'24",
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    null,
+    null,
+    68.0,
+    67.1,
+    68.0,
+    68.1,
+    69.5
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Apple ile 30 milyar dolarlık Broadcom tedarik anlaşması imzalandı; bu anlaşma Broadcom'un en büyük müşterisiyle uzun vadeli gelir görünümünü güvence altına alıyor.",
+   "source": "benzinga",
+   "published": "2026-07-12",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60405076/consumer-tech-news-july-6-10-micron-plans-250b-us-expansion-apple-signs-30b-broadcom-deal-more",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Broadcom, Nvidia, Micron ve Applied Materials'ın önümüzdeki dönemde toplam 430 milyar dolar serbest nakit akışı üretmesi bekleniyor.",
+   "source": "benzinga",
+   "published": "2026-07-13",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60406621/nvidia-micron-broadcom-and-applied-materials-set-to-generate-430-billion-in-free-cash-flow",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Yapay zeka çip düşüşlerinde rekor 7,1 milyar dolarlık yatırımcı ilgisi yarı iletken ETF'lerine aktı; Broadcom bu ilgiden doğrudan yararlanan şirketler arasında.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60375892/semiconductor-etfs-draw-record-7-1-billion-as-investors-buy-the-ai-chip-dip",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Trump hava taşıtı tarifelerini şimdilik geçti ancak ticaret ortaklarına altı aylık süre tanıdı; ticaret belirsizliği yarı iletken tedarik zinciri için izleme riski taşıyor.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/news/politics/26/07/60378921/trump-skips-aircraft-tariffs-for-now-after-security-review-but-puts-trade-partners-on-six-month-clock",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Broadcom, yarı iletken ve altyapı yazılımı alanında faaliyet gösteren bir teknoloji devi; ağ çipleri, özel yapay zeka hızlandırıcıları (ASIC), depolama kontrolörleri ve VMware tabanlı kurumsal yazılım çözümleri üretir. Başlıca müşterileri Apple, Meta, Google ve büyük veri merkezi operatörleridir; hem lisans hem çip satışı ile gelir elde eder.",
+  "note": "VMware entegrasyonunun marjlara yansıması beklentilerin üzerinde seyrediyor; faaliyet marjının %49'a yaklaşması ve FCF marjının %46 olması, ölçek ekonomisinin güçlendiğini gösteriyor. Apple ile imzalanan 30 milyar dolarlık anlaşma ve hiperscaler özel ASIC talebi, Broadcom'u yapay zeka altyapısının merkezi konumlandırıyor; bu dinamik 3-5 yıllık büyüme görünümünü sağlamlaştırıyor. Rule of 40 skorunun 91 olması, şirketin hem büyüme hem kârlılık cephesinde aynı anda üstün performans sergilediğini teyit ediyor.",
+  "counter": "45 milyar doları aşan net borç yükü, faiz ortamının yüksek kaldığı senaryolarda finansal esnekliği kısıtlar ve olası bir ekonomik yavaşlamada özel ASIC müşteri harcamalarının keskin düşmesi gelir görünümünü bozabilir. Ayrıca müşteri konsantrasyonu riski yüksek; Apple ve birkaç hiperscaler'ın içselleştirme kararları rekabeti hızla keskinleştirebilir.",
+  "watch": [
+   "Hiperscaler özel ASIC sipariş hacminin sürdürülebilirliği ve müşteri konsantrasyonundaki değişimler",
+   "VMware yazılım segmentinin yıllık tekrarlayan gelir (ARR) büyümesi ve brüt marja katkısı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 15,0 milyar dolardan 22,2 milyar dolara hızlanarak çeyrekten çeyreğe ivme kaybetmeksizin yükseliyor; yıllık %48 büyüme VMware ve yapay zeka ASIC talebiyle destekleniyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %69,5, faaliyet marjı %48,9 ile tarihi zirvelere yaklaşırken ROIC %20,3 ve ROE %37,3 sermayenin çok verimli kullanıldığını ortaya koyuyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr çarpanı 1,12× ile kazançlar nakit akışıyla fazlasıyla örtüşüyor ve sekiz çeyrek üst üste beklenti aşımı tutarlılığı teyit ediyor; hisse seyrelmesi %1 ile sınırlı kalmış."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "45 milyar dolar net borç, VMware satın alımının kalıcı bir yük olarak bilançoda kaldığını gösteriyor; güçlü FCF borç azaltmayı hızlandırsa da kaldıraç hâlâ yüksek."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 20,6 makul görünse de Fiyat/FCF 58,1 ve FD/Satış 25,8 mükemmeliyetin büyük ölçüde fiyatlandığına işaret ediyor; kalite primini hak ediyor ancak hata payı dar."
+   }
+  ],
+  "concept": {
+   "title": "Özel ASIC (Application-Specific Integrated Circuit)",
+   "body": "Özel ASIC, belirli bir iş yükü için optimize edilmiş, genel amaçlı GPU'lardan daha verimli çalışan entegre devrelerdir. Broadcom, Google'ın TPU'su ve Meta'nın MTIA'sı gibi hiperscaler özel yapay zeka çiplerini tasarlayıp üreterek Nvidia'ya alternatif sunan en önemli ASIC ortağı konumuna gelmiştir."
+  }
+ }
+}
