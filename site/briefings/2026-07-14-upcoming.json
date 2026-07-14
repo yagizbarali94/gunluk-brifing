@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-14",
+ "slot": "upcoming",
+ "generated_at": "2026-07-14T07:31:09+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 2186513612800
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 2 gün sonra açıklanacak (16 Temmuz) — beklentileri incele"
+ },
+ "price": {
+  "last": 421.58,
+  "change_pct": -3.26
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-15",
+  "next_date": "2026-07-16",
+  "last_label": "15 Nisan",
+  "next_label": "16 Temmuz",
+  "days_to_next": 2,
+  "progress_pct": 98
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.13T",
+   "sub": "+%35 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$3.49",
+   "sub": "Beat · beklenti $3.33",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%66.2",
+   "sub": "+3.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$347.3B",
+   "sub": "marj %31",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 15 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.13T",
+      "note": "+%35 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       839.25,
+       933.79,
+       989.92,
+       1046.09,
+       1134.1
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$572.5B",
+      "note": "+%58 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       43.1,
+       42.7,
+       45.7,
+       46.4,
+       50.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$3.49",
+      "note": "beklenti $3.33 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%66.2",
+      "note": "+3.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       58.8,
+       58.6,
+       59.5,
+       62.3,
+       66.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%58.1",
+      "note": "+9.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       48.5,
+       49.6,
+       50.6,
+       54.0,
+       58.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%27.7",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%36.2",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%17.3",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.55×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$347.3B",
+      "note": "marj %31",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$1.94T",
+      "note": "nakit $3.04T · borç $1.09T",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "37.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "20.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "5.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "2.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    839.3,
+    933.8,
+    989.9,
+    1046.1,
+    1134.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    58.8,
+    58.6,
+    59.5,
+    62.3,
+    66.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "TSMC'nin Haziran ayı geliri yıllık %68 artarak AI talebinin Q2'de de güçlü sürdüğünü teyit etti.",
+   "source": "benzinga",
+   "published": "2026-07-13",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60408014/taiwan-semiconductors-ai-boom-rolls-on-june-revenue-jumps-68",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Opsiyon piyasası bu haftaki bilanço için TSMC hissesinde 150 milyar dolarlık olası bir fiyat salınımı fiyatlıyor.",
+   "source": "benzinga",
+   "published": "2026-07-13",
+   "url": "https://www.benzinga.com/markets/options/26/07/60411633/tsmc-could-swing-150-billion-as-options-market-prices-big-moves-for-this-weeks-earnings",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Ken Griffin, TSMC çiplerini kaybetmenin 'Büyük Buhran' tetikleyebileceğini söyleyerek şirketin küresel kritikliğinin altını çizdi.",
+   "source": "benzinga",
+   "published": "2026-07-10",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60376976/ken-griffin-warns-losing-tsmc-chips-could-trigger-a-great-depression-theyre-in-every-high-end-product",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "ABD-İran gerilimi ABD borsalarında satış baskısı yarattı; jeopolitik volatilite TSMC gibi Tayvan merkezli varlıklar için ek risk faktörü oluşturuyor.",
+   "source": "benzinga",
+   "published": "2026-07-13",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60408205/stock-market-today-dow-futures-gain-sp-500-slips-as-us-and-iran-exchange-strikes-saratoga-exxon-mobil-levi-strauss-in-focus",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "TSMC, dünyanın en büyük bağımsız sözleşmeli çip üreticisidir; Apple, NVIDIA, AMD ve Qualcomm gibi fabrikasız şirketlerin tasarladığı yarıiletken yongaları kendi tesislerinde üretip teslim eder. Gelirini üretim hizmeti karşılığı alınan wafer fiyatlarından, özellikle gelişmiş 3nm/2nm süreçlerden elde eder.",
+  "note": "TSMC'nin teknolojik liderliği (N3/N2 süreçler), müşteri geçiş maliyetleri ve ölçek ekonomisi birleşimi rakipsiz bir ekonomik hendek oluşturuyor; brüt marjın beş çeyrekte %58.8'den %66.2'ye çıkması fiyatlama gücünün fiilen kullanıldığını kanıtlıyor. AI altyapısına olan talep 2026 yılında da ivme kazanıyor: Haziran ayı geliri %68 artarak güçlü bir Q2 sinyali veriyor. Bu çeyreğin rakamları ve yükselen marjlar, 3-5 yıllık yatırım tezini —yani TSMC'nin AI döneminin temel altyapı sağlayıcısı olduğunu— güçlendiriyor.",
+  "counter": "Jeopolitik risk (Tayvan Boğazı gerilimi) şirketin coğrafi tekelleşmesini yapısal bir Damokles kılıcı haline getiriyor; Arizona ve Japonya fabrikalarının maliyetin yüksekliği bu riski kısmen telafi etse de tam bir coğrafi çeşitlendirme yıllar alacak. Bunun yanı sıra ABD ve diğer hükümetlerin yerel üretim sübvansiyonları uzun vadede TSMC'nin müzakere gücünü aşındırabilir.",
+  "watch": [
+   "2nm (N2) süreç geçişinin hız ve maliyet profili: Gelişmiş düğümlerdeki wafer fiyatı artışı marj sürdürülebilirliğinin anahtarı",
+   "ABD/Japonya/Avrupa fabrikalarının kapasite devreye alma takvimi ve bu tesislerin maliyet yapısının Tayvan bazlı marjlara yakınsaması"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir beş dönemde kesintisiz hızlanıyor ($839B → $1.13T) ve yıllık %35 büyüme ivmesi Haziran aylık verisindeki %68 artışla desteklenerek Q3 için de güçlü momentum işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj son çeyrekte 3.9 puan sıçrayarak %66.2'ye ulaştı; ROIC %27.7 ve ROE %36.2 ile sermaye tahsisi mükemmel seviyede seyrediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşüm oranı 0.55× görece düşük; bunun başlıca nedeni agresif sermaye harcamaları (capex yoğunluğu) olup sekiz ardışık EPS beat serisi kazanç kalitesi açısından olumlu, ancak nakit dönüşümünün düşüklüğü yakın izlem gerektiriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "$1.94T net nakit pozisyonu ve Fiyat/FCF 2.1× gibi son derece düşük bir çarpan, şirketin güçlü bilanço tamponuna ve yüksek serbest nakit üretimine işaret ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 20.8× ve Fiyat/FCF 2.1× çarpanları, %35 büyüme + %66 brüt marj + sektör liderliği kombinasyonu göz önüne alındığında cazip görünüyor; Rule of 40 skoru 61 bu değerlemeyi destekliyor."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (FCF Conversion)",
+   "body": "FCF dönüşüm oranı, net kârın ne kadarının gerçek serbest nakde dönüştüğünü ölçer; yüksek capex harcayan şirketlerde bu oran düşük çıkabilir ve muhasebe kârıyla nakit gerçekliği arasındaki farkı ortaya koyar. TSMC'de oran 0.55× ile görece düşük seyrediyor; bu, şirketin N2/A16 teknoloji nesli için agresif yatırım yaptığını gösteriyor — uzun vadede bu yatırımların olgunlaşmasıyla oranın yükselmesi beklenir."
+  }
+ }
+}

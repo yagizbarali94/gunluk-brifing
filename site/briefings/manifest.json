@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-14-upcoming",
+  "date": "2026-07-14",
+  "ticker": "TSM",
+  "name": "Taiwan Semiconductor Manufactur",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-14-reported",
+  "date": "2026-07-14",
+  "ticker": "ARM",
+  "name": "Arm Holdings plc",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-13-upcoming",
   "date": "2026-07-13",
   "ticker": "TSM",
