@@ -1,6 +1,6 @@
 {
- "date": "2026-07-14",
- "generated_at": "2026-07-14T07:31:59+00:00",
+ "date": "2026-07-15",
+ "generated_at": "2026-07-15T07:35:14+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 17.22,
+  "vix": 16.22,
   "vix3m": 18.57,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 6.8
+  "vix_chg_5d": 0.6
  },
  "breadth": {
   "rsp_3m": 8.2,
@@ -83,6 +83,12 @@
     "group": "döngüsel"
    },
    {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 3.7,
+    "group": "defansif"
+   },
+   {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
     "chg": 3.6,
@@ -92,12 +98,6 @@
     "ticker": "XLP",
     "name": "Tüketici (temel)",
     "chg": 2.7,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 2.5,
     "group": "defansif"
    },
    {
@@ -134,7 +134,7 @@
   "lookback_days": 30,
   "tilt": "risk-kapalı — defansifler önde",
   "tone": "amber",
-  "def_avg": 4.3,
+  "def_avg": 4.6,
   "cyc_avg": 0.3
  },
  "macro": {
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.2",
-    "note": "son 1 ay +%2.0",
+    "value": "100.9",
+    "note": "son 1 ay +%1.7",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$80.4",
-    "note": "son 1 ay -%12.7",
+    "value": "$80.3",
+    "note": "son 1 ay -%14.4",
     "tone": "gray"
    },
    {
@@ -180,38 +180,31 @@
  },
  "calendar": [
   {
-   "date": "2026-07-14",
-   "label": "JPM bilanço",
-   "days": 0,
-   "date_label": "14 Temmuz",
-   "kind": "bilanço"
-  },
-  {
    "date": "2026-07-22",
    "label": "GOOGL bilanço",
-   "days": 8,
+   "days": 7,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-22",
    "label": "TSLA bilanço",
-   "days": 8,
+   "days": 7,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Endeksler teknik olarak sağlam dursa da teknolojinin geride kalması, yükselen faizler ve defansiflerin öne çıkması temkinli bir iyimserlik zemini oluşturuyor.",
-  "read": "Üç büyük endeksin tamamı 200 günlük ortalamasının üzerinde seyretmesi ve VIX'in contango yapısında 17 civarında kalması, panik olmaksızın devam eden bir yükseliş ortamına işaret ediyor. Ancak Teknoloji sektörünün -%5 ile en geride, Finans ve Sağlık gibi defansiflerin ise belirgin biçimde önde olması, piyasanın içinde bir rotasyon yaşandığını ve yatırımcıların risk iştahını kısmen geri çektiğini gösteriyor. Eşit ağırlıklı endeksin cap ağırlıklıya yakın seyretmesi breadth'in bütünüyle bozulmadığını ortaya koysa da sektörlerin %82'sinin hâlâ 200 günün üzerinde olması tek başına yeterince güven verici; asıl dikkat noktası 10 yıllık faizin son bir ayda %4.61'e çıkması ve altın ile petrolün sert gerilemesidir; bu üçlü bir arada enflasyon beklentilerinin değil, büyüme ve reel faiz endişelerinin fiyatlandığına dair sinyal veriyor. Yüksek getirili tahvil fiyatının neredeyse hiç kıpırdamaması kredi piyasasında henüz belirgin bir stres olmadığını söylüyor, fakat bu sessizliğin kırılıp kırılmayacağı önümüzdeki haftalarda dikkatle takip edilmeli.",
+  "headline": "Trend yapısal olarak sağlam, ancak teknoloji geriliyor, faizler yükseliyor ve sektör rotasyonu defansife kayıyor — bu bir genişleme değil, dikkatli bir tutunma rejimidir.",
+  "read": "Her üç endeks 200 günlük ortalamanın üzerinde ve VIX 16 civarında seyretmesi paniğin uzak olduğunu gösteriyor; piyasanın iskeleti henüz bozulmamış. Ancak sektör tablosu farklı bir hikâye anlatıyor: Teknoloji -%5, İletişim -%3 gerilerken Finans ve Sağlık öne çıkıyor — bu, büyüme hikâyesinden savunmaya doğru sessiz bir ağırlık kaymasına işaret ediyor. 10 yıllık faizin bir ayda 35 baz puan yükselmesi ve dolardaki sertleşme, değerleme baskısını özellikle uzun vadeli nakit akışlarına dayanan büyüme hisseleri üzerinde hissettiriyor. Altının sert gerilmesi ve petrolün düşüşü ise küresel büyüme beklentilerinde temkinlilik işareti olarak okunabilir; kaldıraçlı kredi tarafında da belirgin bir coşku yok.",
   "watch": [
-   "JPM bilançosu (bugün) ve ardından gelecek banka açıklamaları — Finans sektörünün liderliğinin kazanç kalitesine dayanıp dayanmadığını test edecek",
-   "10 yıllık faizin %4.70 direncini zorlayıp zorlamayacağı — artan faiz baskısı büyüme hisselerinde ikinci bir satış dalgasını tetikleyebilir",
-   "HYG (yüksek getirili tahvil ETF'i) fiyatının mevcut yatay seyrini koruyup koruyamayacağı — olası bir kırılma kredi stresinin başlangıcına işaret eder"
+   "22 Temmuz GOOGL ve TSLA bilanço sonuçları: Teknoloji/İletişim sektörlerindeki mevcut zayıflığın bilançolarla onaylanıp onaylanmayacağı ya da tersine döneceği kritik bir test.",
+   "10 yıllık ABD faizi: %4.61 seviyesinden yukarı kırılma olursa büyüme hisselerindeki baskı ve defansife kayış ivme kazanabilir; aşağı dönüş ise rotasyonu tersine çevirebilir.",
+   "HYG (yüksek getirili tahvil ETF): Kredi piyasasındaki hareketsizlik şimdilik stres sinyali vermiyor, ancak zayıflamanın hız kazanması geniş piyasa için erken uyarı niteliği taşır."
   ],
   "concept": {
-   "title": "Sektör Rotasyonu",
-   "body": "Sektör rotasyonu, yatırımcıların ekonomik döngünün veya faiz ortamının değişimine bağlı olarak sermayelerini büyüme/döngüsel sektörlerden defansif/değer sektörlerine (ya da tersine) kaydırma sürecini ifade eder. Bugün gözlemlenen tablo — teknoloji ve tüketici döngüsel geride, finans ve sağlık önde — bu sürecin canlı bir örneğidir ve tek başına yükseliş trendini bozmaz, ancak piyasanın 'kalitesini' ve altındaki endişeleri okumak için kritik bir ipucu sunar."
+   "title": "Sektör Rotasyonu (Sector Rotation)",
+   "body": "Sektör rotasyonu, yatırımcıların ekonomik döngünün farklı evrelerine göre ağırlıklarını bir sektörden diğerine kaydırmasıdır. Döngüsel sektörlerin geride kalıp defansiflerin öne çıkması — bugün tam da gözlemlenen tablo — genellikle büyüme ivmesindeki yavaşlama kaygısını veya belirsizlik ortamında 'kalite ve güvenlik' arayışını yansıtır; bu tek başına bir satış sinyali olmasa da piyasanın iç rengini okumak için önemli bir rehberdir."
   }
  }
 }

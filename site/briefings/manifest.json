@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-15-upcoming",
+  "date": "2026-07-15",
+  "ticker": "TSM",
+  "name": "Taiwan Semiconductor Manufactur",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-15-reported",
+  "date": "2026-07-15",
+  "ticker": "MU",
+  "name": "Micron Technology, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-14-upcoming",
   "date": "2026-07-14",
   "ticker": "TSM",

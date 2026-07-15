@@ -1,0 +1,344 @@
+{
+ "date": "2026-07-15",
+ "slot": "reported",
+ "generated_at": "2026-07-15T07:35:06+00:00",
+ "mock": false,
+ "ticker": "MU",
+ "company": {
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1110328999936
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 983.12,
+  "change_pct": 6.77
+ },
+ "earnings_calendar": {
+  "last_date": "2026-06-24",
+  "next_date": "2026-09-23",
+  "last_label": "24 Haziran",
+  "next_label": "23 Eylül",
+  "days_to_next": 70,
+  "progress_pct": 23
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$41.5B",
+   "sub": "+%346 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$25.11",
+   "sub": "Beat · beklenti $20.71",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%84.6",
+   "sub": "+10.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$17.6B",
+   "sub": "marj %42",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 24 Haziran",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$41.5B",
+      "note": "+%346 y/y",
+      "tone": "green",
+      "spark": [
+       9.3,
+       11.31,
+       13.64,
+       23.86,
+       41.46
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28.2B",
+      "note": "+%1398 y/y",
+      "tone": "green",
+      "spark": [
+       20.3,
+       28.3,
+       38.4,
+       57.8,
+       68.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$25.11",
+      "note": "beklenti $20.71 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%84.6",
+      "note": "+10.1 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       37.7,
+       44.7,
+       56.0,
+       74.4,
+       84.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%80.4",
+      "note": "+57.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       23.3,
+       32.6,
+       45.0,
+       67.6,
+       80.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%48.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%66.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%34.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.52×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "375",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$17.6B",
+      "note": "marj %42",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$18.6B",
+      "note": "nakit $25.0B · borç $6.4B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "21.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "6.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "11.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "15.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "42.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    9.3,
+    11.3,
+    13.6,
+    23.9,
+    41.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    37.7,
+    44.7,
+    56.0,
+    74.4,
+    84.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "KeyBanc, Micron için Overweight notunu koruyarak hedef fiyatı 1.750 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-14",
+   "url": "https://www.benzinga.com/news/26/07/60436703/keybanc-maintains-overweight-micron-technology-raises-price-target-1750",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Analist öngörüleri Micron hissesinin yaklaşık %87 oranında yükselebileceğine işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-07-14",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60438841/micron-to-rally-around-87-here-are-10-top-analyst-forecasts-for-tuesday",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Teknoloji analistleri Çin'in CXMT şirketinin bellek sektöründe ciddi bir rakip haline geldiğini, ancak SK Hynix'in 4 yıl gerisinde olduğunu belirtiyor.",
+   "source": "benzinga",
+   "published": "2026-07-14",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60438401/forget-micron-and-sandisk-ray-wang-says-chinas-cxmt-is-already-a-very-serious-player-but-4-years-behind-sk-hynix",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "New York, veri merkezi inşaatına bir yıllık moratoryum ilan etti; bu gelişme veri merkezi odaklı bellek talebini olumsuz etkileyebilir.",
+   "source": "benzinga",
+   "published": "2026-07-14",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/07/60444517/reported-earlier-new-york-becomes-first-state-impose-data-center-moratorium-gov-kathy-hochul-d-signe",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Micron Technology, DRAM ve NAND flash bellek çipleri üreten dünyanın önde gelen hafıza yarı iletken şirketlerinden biridir. Başlıca müşterileri veri merkezi operatörleri, akıllı telefon üreticileri ve PC/sunucu OEM'leridir; gelirini birim fiyat × hacim modeline dayalı olarak elde eder.",
+  "note": "Micron, HBM (High Bandwidth Memory) ve yüksek yoğunluklu DRAM/NAND üretiminde AI altyapısına yönelik talebin sürüklediği tarihsel bir döngü zirvesindedir; %84,6 brüt marj ve 375 Rule of 40 skoru döngüsel bir bellekçi için alışılmamış derecede yüksektir ve yapısal bir mix-shift (HBM ağırlığı artışı) ile açıklanabilir. Ancak bu tür marjlar döngünün ne kadar olgun olduğuna işaret eder ve 3-5 yıllık perspektifte yatırımcının asıl sorusu döngü yönetimi ile HBM kapasitesindeki teknolojik üstünlüğün sürdürülebilirliğidir. Güçlü FCF ve net nakit pozisyonu (18,6 milyar $) şirkete bir sonraki döngüsel düşüşe karşı tampon sağlarken ileri F/K 6,5x çarpanı, piyasanın halihazırda normalleşmeyi fiyatladığını göstermektedir.",
+  "counter": "Bellek sektörü son derece döngüsel olup CXMT liderliğinde Çin'in kapasitesini hızla artırması orta vadede DRAM/NAND fiyatlarını aşağı çekebilir ve şu anki olağanüstü marjların kalıcı olmadığını ortaya koyabilir. HBM pazarında Samsung ve SK Hynix ile kıyasıya süren rekabet de Micron'un premium fiyatlamasını koruyup koruyamayacağı konusunda ciddi bir soru işareti bırakmaktadır.",
+  "watch": [
+   "HBM3E/HBM4 birim fiyatları ve Micron'un toplam HBM pazar payındaki çeyreklik değişim — marjların yapısal mı döngüsel mi olduğunu bu metrik belirleyecek",
+   "DRAM spot ve kontrat fiyat trendi ile CXMT başta olmak üzere Çin merkezli üreticilerin piyasaya sürüm kapasitesi — döngünün ne zaman döneceğinin en erken göstergesi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 9,3 milyar $'dan 41,5 milyar $'a yükselerek beş çeyrekte yaklaşık 4,5 kat artmış olup y/y %346 büyüme döngüsel ivmenin ve HBM rampasının birlikte etkisini yansıtmaktadır; ancak bu tempo sürdürülemez ve baz etkisiyle önümüzdeki çeyreklerde yavaşlama kaçınılmazdır."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "%84,6 brüt marj ve %80,4 faaliyet marjı son çeyrekte yeni zirvelere ulaşmış olmakla birlikte 'trend down' uyarısı marjların tepe bölgesine girdiğini ve ROIC %48,6 gibi olağanüstü rakamların döngünün en iyi noktasını temsil ettiğini akılda tutmayı gerektirmektedir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü 0,52x ile kazancın yaklaşık yarısı nakit olarak gerçekleşmekte; bu oran genişleme capex'i düşünüldüğünde anlaşılabilir olmakla birlikte %1,8 hisse seyrelmesi yönetimin pay bazlı tazminat baskısının sürdüğüne işaret etmektedir."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "18,6 milyar $ net nakit pozisyonu, olası bir döngüsel gerileme veya agresif HBM kapasitesi yatırımları karşısında güçlü bir finansal esneklik sunmaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 6,5x, piyasanın zaten ciddi bir kâr normalizasyonunu fiyatladığını gösteriyor; eğer HBM talebi beklentilerin üzerinde seyrederse mevcut çarpanlar cazip görünse de döngü dönüşünde ileri kazançların dramatik düşeceği senaryoda 'cazip' algısı yanıltıcı olabilir."
+   }
+  ],
+  "concept": {
+   "title": "Döngüsel Tepe Marjı Tuzağı (Peak Margin Trap)",
+   "body": "Döngüsel sektörlerde şirketler en yüksek marjlarını arz kısıtlı ve talep güçlü dönemde açıklarlar; bu görünüm temel değeri abartarak yatırımcıları 'ucuz' hissedilen ileriye dönük çarpanlara çekebilir. Micron'un ileri F/K 6,5x ile 'ucuz' görünmesi, piyasanın önümüzdeki 12-18 ayda normalleşecek kazançları iskonto etmesinin doğal sonucudur ve bu nedenle döngü analizi olmadan ileri kazanç çarpanı güvenilir bir değerleme kılavuzu olmaz."
+  }
+ }
+}
