@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-16",
+ "slot": "upcoming",
+ "generated_at": "2026-07-16T07:49:56+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 4526178304000
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 6 gün sonra açıklanacak (22 Temmuz) — beklentileri incele"
+ },
+ "price": {
+  "last": 370.92,
+  "change_pct": 3.42
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-29",
+  "next_date": "2026-07-22",
+  "last_label": "29 Nisan",
+  "next_label": "22 Temmuz",
+  "days_to_next": 6,
+  "progress_pct": 93
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$109.9B",
+   "sub": "+%22 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$5.11",
+   "sub": "Beat · beklenti $2.67",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%62.4",
+   "sub": "+2.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$10.1B",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$109.9B",
+      "note": "+%22 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       90.23,
+       96.43,
+       102.35,
+       113.83,
+       109.9
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$62.6B",
+      "note": "+%81 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       38.3,
+       29.2,
+       34.2,
+       30.3,
+       56.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$5.11",
+      "note": "beklenti $2.67 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%62.4",
+      "note": "+2.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       59.7,
+       59.5,
+       59.6,
+       59.8,
+       62.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%36.1",
+      "note": "+2.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       33.9,
+       32.4,
+       30.5,
+       31.6,
+       36.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%28.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%38.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "37",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$10.1B",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-52.4B",
+      "note": "nakit $38.1B · borç $90.5B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "27.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "25.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "10.6×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "27.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "70.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    90.2,
+    96.4,
+    102.3,
+    113.8,
+    109.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    59.7,
+    59.5,
+    59.6,
+    59.8,
+    62.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Warren Buffett, Berkshire'ın Alphabet hissesi alımını bizzat kendisinin başlattığını açıkladı.",
+   "source": "benzinga",
+   "published": "2026-07-15",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60483466/warren-buffett-takes-credit-for-berkshires-alphabet-stock-buy-i-initiated-it",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Google, Epic davasına ilişkin mahkeme kararını değiştirme talebinden çekildi ve Play Store'u üçüncü taraf mağazalara açmayı planlıyor.",
+   "source": "benzinga",
+   "published": "2026-07-15",
+   "url": "https://www.benzinga.com/news/26/07/60477828/google-allow-third-party-stores-its-app-store-next-week-bloomberg",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Anthropic Claude'un trafiği %500 artarak küçük rakiplerini geride bıraktı; AI arama alternatiflerindeki rekabet yoğunlaşıyor.",
+   "source": "benzinga",
+   "published": "2026-07-15",
+   "url": "https://www.benzinga.com/markets/private-markets/26/07/60477358/anthropic-claude-traffic-skyrockets-500-to-outpace-smaller-ai-rivals",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Yeni bir ETF, Nvidia ve Microsoft gibi AI liderlerini hedef alarak Alphabet'i de kapsayan günlük gelir stratejisi sunuyor.",
+   "source": "benzinga",
+   "published": "2026-07-15",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60484862/new-magnificent-10-etf-targets-nvidia-microsoft-and-ai-leaders-with-daily-income-strategy",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Alphabet, Google arama motoru, YouTube, Google Cloud ve Android ekosistemi üzerinden reklam geliri, bulut hizmetleri ve donanım satışı yapan bir teknoloji holdingidir. Gelirinin büyük bölümü arama ve YouTube reklamcılığından, büyüyen kısmı ise Google Cloud'dan gelir.",
+  "note": "Çeyreklik bazda brüt marjın %62.4'e ve faaliyet marjının %36.1'e yükselmesi, AI yatırım yükünün verimlilikle dengelendiğini gösteriyor; bu yapı hendek kalitesini teyit eder. ROIC %28.4 ile sermaye tahsisi güçlü seyrediyor ve sekiz ardışık beat, yönetimin beklenti yönetiminde tutarlı olduğuna işaret ediyor. 3-5 yıllık perspektifte Google Cloud'un marj katkısının artması ve Gemini tabanlı arama monetizasyonunun olgunlaşması tezi besliyor.",
+  "counter": "Yapısal risk, OpenAI/Anthropic destekli AI arama alternatifleri ve Apple'ın kendi arama geliştirme ihtimaliyle arama trafiğinin uzun vadede erimesidir. Arama gelirinin toplam gelir içindeki ağırlığı düşmeden Cloud ve diğer segmentler bu açığı kapatamaz.",
+  "watch": [
+   "Google Cloud segment gelir büyümesi ve işletme kâr marjının her çeyrekte iyileşip iyileşmediği — Cloud'un ana reklam motorunun yerini ne kadar doldurabileceğinin göstergesi",
+   "AI destekli arama (Gemini/AI Overview) kaynaklı sorgu başına reklam geliri ve tıklama oranı — arama moat'ının yapay zeka geçişinde korunup korunmadığının en kritik ölçütü"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir trendi bir önceki çeyrekteki $113.8B'dan $109.9B'a gerilese de yıllık %22 büyüme ivmeli; tek çeyreklik düşüş mevsimsellik ve baz etkisine bağlanabilir, yapısal yavaşlama sinyali değil."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı beş çeyreklik seride en yüksek seviyeye (%36.1) ulaşırken ROIC %28.4 ve ROE %38.9, sermayenin son derece verimli kullanıldığını doğruluyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr oranı 0.40× gibi oldukça düşük bir seviyede; net marjdaki %56.9 yüksekliğinin büyük bölümü nakit dışı kalemlerden (yatırım getirileri, vergi etkileri vb.) kaynaklanıyor olabilir, bu nedenle kâr kalitesi sorgulanmalı."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit pozisyonu -$52.4B ile net borç tarafında görünüyor; ancak Alphabet'in güçlü nakit üretme kapasitesi ve geri alım programı göz önünde bulundurulduğunda bu durum acil bir risk oluşturmuyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 25.4 ve Fiyat/FCF 70.3, yüksek marj ve büyüme göz önüne alındığında makul sınırda olmakla birlikte FCF marjının %9 gibi düşük seyretmesi çarpanları pahalı hissettiriyor; Rule of 40'ın 37 ile eşik altında kalması da ek iskonto gerektirebilir."
+   }
+  ],
+  "concept": {
+   "title": "FCF / Net Kâr Oranı (Nakit Dönüşüm Kalitesi)",
+   "body": "Bir şirketin muhasebe kârının ne kadarının gerçek nakde dönüştüğünü gösterir; 1.0'ın üzeri yüksek kaliteye, düşük değerler ise kârın büyük bölümünün nakit dışı kalemlerden oluştuğuna işaret eder. Alphabet'te bu oran 0.40× ile dikkat çekici biçimde düşük; net marjdaki sıçramanın gerçek nakit üretkenliğini yansıtıp yansıtmadığını sorgulatıyor."
+  }
+ }
+}
