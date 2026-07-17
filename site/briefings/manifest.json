@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-17-upcoming",
+  "date": "2026-07-17",
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-17-reported",
+  "date": "2026-07-17",
+  "ticker": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-16-upcoming",
   "date": "2026-07-16",
   "ticker": "GOOGL",
