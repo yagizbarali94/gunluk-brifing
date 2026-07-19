@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-19-upcoming",
+  "date": "2026-07-19",
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-19-reported",
+  "date": "2026-07-19",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-18-upcoming",
   "date": "2026-07-18",
   "ticker": "GOOGL",

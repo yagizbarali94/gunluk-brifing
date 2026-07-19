@@ -1,0 +1,315 @@
+{
+ "date": "2026-07-19",
+ "slot": "reported",
+ "generated_at": "2026-07-19T07:52:11+00:00",
+ "mock": false,
+ "ticker": "MDB",
+ "company": {
+  "name": "MongoDB, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 25121302528
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.0 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 312.33,
+  "change_pct": -4.72
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-28",
+  "next_date": "2026-08-26",
+  "last_label": "28 Mayıs",
+  "next_label": "26 Ağustos",
+  "days_to_next": 38,
+  "progress_pct": 58
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$688M",
+   "sub": "+%25 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.32",
+   "sub": "Beat · beklenti $1.18",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%72.2",
+   "sub": "-0.9 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$199M",
+   "sub": "marj %29",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$688M",
+      "note": "+%25 y/y",
+      "tone": "green",
+      "spark": [
+       0.55,
+       0.59,
+       0.63,
+       0.7,
+       0.69
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$4M",
+      "note": "-%112 y/y",
+      "tone": "amber",
+      "spark": [
+       -6.9,
+       -8.0,
+       -0.3,
+       2.2,
+       0.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.32",
+      "note": "beklenti $1.18 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%72.2",
+      "note": "-0.9 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       71.2,
+       71.0,
+       71.5,
+       73.0,
+       72.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-3.6",
+      "note": "+6.1 puan y/y",
+      "tone": "green",
+      "spark": [
+       -9.8,
+       -11.0,
+       -2.9,
+       0.0,
+       -3.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-0.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-1.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-1.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.6 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "48",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$199M",
+      "note": "marj %29",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$1.0B",
+      "note": "nakit $1.0B · borç $30M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "42.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-284.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "42.5×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    0.5,
+    0.6,
+    0.6,
+    0.7,
+    0.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    71.2,
+    71.0,
+    71.5,
+    73.0,
+    72.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [],
+ "ai": {
+  "about": "MongoDB, belge tabanlı NoSQL veritabanı platformu Atlas'ı ve kurumsal lisans ürünlerini geliştirip satmaktadır. Gelirini ağırlıklı olarak bulut tabanlı Atlas abonelikleri ve kurumsal lisans/destek sözleşmelerinden elde eder; müşteri kitlesi start-up'lardan Fortune 500 şirketlerine kadar geniş bir yelpazeyi kapsar.",
+  "note": "MongoDB'nin Atlas platformu, tüketim bazlı fiyatlandırma modeliyle güçlü bir kullanım ağı etkisi yaratmakta ve veritabanı geçişlerinin maliyetli olması nedeniyle yüksek müşteri yapışkanlığı sunmaktadır. %25 gelir büyümesi ve 48'lik Rule of 40 skoru, büyüme ile nakit üretimini dengeleyen sağlıklı bir iş modeline işaret ediyor; ancak faaliyet marjının son çeyrekte tekrar negatife dönmesi, kârlılık yolculuğunun pürüzsüz olmadığını hatırlatıyor. 5 yıllık perspektiften bakıldığında, kurumsal veri altyapısındaki yapısal büyüme ve AI/vektör arama entegrasyonları tezi canlı tutuyor, fakat değerleme yeterli güvenlik marjı bırakmıyor.",
+  "counter": "Amazon Aurora/DynamoDB, Google Firestore ve Microsoft Cosmos DB gibi hiperscaler'ların kendi yerel veritabanı hizmetleri, MongoDB'nin müşterilerini platform içinde tutmaya zorlayarak fiyatlama gücünü ve büyüme hızını aşındırabilir. Ayrıca tüketim bazlı modelde makroekonomik yavaşlama dönemlerinde gelir görünürlüğü ciddi ölçüde düşebilir.",
+  "watch": [
+   "Atlas tüketim büyümesi: kurumsal müşterilerin iş yükü genişlemesi kârlılık dönüşümünün asıl tetikleyicisi olacak",
+   "Faaliyet marjının kalıcı olarak pozitife dönüp dönmediği: operasyonel kaldıracın işlemeye başladığının kanıtı kritik"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Yıllık %25 büyüme sağlıklı görünse de çeyreklik gelir serisi 0,6-0,7 milyar aralığında yavaş bir çıkışı yansıtıyor ve ivme belirgin biçimde hızlanmıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjı son çeyrekte -%3,6'ya geri döndü, ROIC negatif seyrediyor; brüt marjdaki hafif gerilemeyle birlikte kârlılık momentumu bozulmuş durumda."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "%29 FCF marjı ile 199 milyon dolarlık nakit üretimi, GAAP kârının üzerinde güçlü bir nakit dönüşümüne işaret ediyor; hisse seyrelmesi %0,6 ile sektör ortalamasına göre makul."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "1 milyar dolar net nakit pozisyonu, şirkete hem büyüme yatırımları hem de olası sektörel çalkantılara karşı güçlü bir tampon sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 42,6 ve Fiyat/FCF 42,5, negatif ROIC ve yavaşlayan marj trendi göz önüne alındığında mevcut büyüme hızını fazlasıyla fiyatlıyor; güvenlik marjı sınırlı."
+   }
+  ],
+  "concept": {
+   "title": "Tüketim Bazlı Gelir Modeli (Consumption-Based Revenue)",
+   "body": "Tüketim bazlı modelde müşteriler sabit abonelik yerine fiilen kullandıkları kaynaklar oranında ödeme yapar; bu model müşteri edinimini kolaylaştırırken gelir görünürlüğünü azaltır. MongoDB'nin Atlas platformu bu modeli benimsiyor: ekonomik yavaşlamada müşteriler iş yüklerini kısarsa gelir doğrudan ve anında düşebilir."
+  }
+ }
+}
