@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-20",
+ "slot": "upcoming",
+ "generated_at": "2026-07-20T08:30:32+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 4231485980672
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 2 gün sonra açıklanacak (22 Temmuz) — beklentileri incele"
+ },
+ "price": {
+  "last": 346.77,
+  "change_pct": 0.11
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-29",
+  "next_date": "2026-07-22",
+  "last_label": "29 Nisan",
+  "next_label": "22 Temmuz",
+  "days_to_next": 2,
+  "progress_pct": 98
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$109.9B",
+   "sub": "+%22 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$5.11",
+   "sub": "Beat · beklenti $2.63",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%62.4",
+   "sub": "+2.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$10.1B",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$109.9B",
+      "note": "+%22 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       90.23,
+       96.43,
+       102.35,
+       113.83,
+       109.9
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$62.6B",
+      "note": "+%81 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       38.3,
+       29.2,
+       34.2,
+       30.3,
+       56.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$5.11",
+      "note": "beklenti $2.63 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%62.4",
+      "note": "+2.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       59.7,
+       59.5,
+       59.6,
+       59.8,
+       62.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%36.1",
+      "note": "+2.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       33.9,
+       32.4,
+       30.5,
+       31.6,
+       36.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%28.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%38.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "37",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$10.1B",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-57.8B",
+      "note": "nakit $38.1B · borç $95.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "26.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "23.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "25.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "65.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    90.2,
+    96.4,
+    102.3,
+    113.8,
+    109.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    59.7,
+    59.5,
+    59.6,
+    59.8,
+    62.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "BMO Capital, Alphabet için Outperform notunu koruyarak hedef fiyatı 455 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-17",
+   "url": "https://www.benzinga.com/news/26/07/60534773/bmo-capital-maintains-outperform-alphabet-raises-price-target-455",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Intel, AI destekli çip tasarımı için Google Cloud ile ortaklığını genişletti; Sundar Pichai Gemini Enterprise kullanımından memnuniyetini dile getirdi.",
+   "source": "benzinga",
+   "published": "2026-07-17",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60516795/intel-google-cloud-gemini-enterprise-chip-design-partnership",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Çin'in AI hamlesi teknoloji sektöründe sert satışa yol açtı; piyasa genelinde risk iştahı zayıfladı.",
+   "source": "benzinga",
+   "published": "2026-07-17",
+   "url": "https://www.benzinga.com/markets/market-summary/26/07/60530811/chip-rout-deepens-china-ai-shock-oil-markets-friday",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Gemini 3.5 Pro'nun piyasaya çıkışı ertelendi; IBM tarihin en kötü günlerinden birini yaşadı ve sektörde AI beklentileri sorgulanıyor.",
+   "source": "benzinga",
+   "published": "2026-07-19",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60542784/consumer-tech-jul-13-17-ibm-sees-worst-day-on-record-gemini-3-5-pro-release-delayed-uber-acquires-delivery-hero-more",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Alphabet, Google arama motoru, YouTube, Google Cloud ve Android ekosistemi üzerinden reklam, abonelik ve bulut hizmetleri satarak gelir elde eder. Temel gelir kaynağı dijital reklamcılık olup kurumsal bulut ve AI hizmetleri giderek daha büyük pay almaktadır.",
+  "note": "Alphabet'in arama + YouTube + Cloud üçlüsü güçlü bir ekonomik hendek oluştursa da asıl önem taşıyan, AI altyapısına (TPU, Gemini) yaptığı yatırımın hem savunma hem taarruz niteliği taşımasıdır. %36 faaliyet marjı ve %28 ROIC kombinasyonu, şirketin sermayeyi verimli kullandığını; son çeyreğin marj genişlemesi ise maliyet disiplini ve AI monetizasyonunun ilk meyvelerini verdiğini gösteriyor. 3-5 yıllık tezde belirleyici soru, Cloud'un AWS/Azure karşısında pay kazanıp kazanmayacağı ve arama'nın AI destekli chatbot rekabetinden ne kadar korunduğudur.",
+  "counter": "OpenAI, Perplexity ve Microsoft'un AI destekli arama alternatifleri, reklam başına tıklama modelini yapısal olarak aşındırabilir; arama gelirlerinin toplam içindeki ağırlığı bu riski şirketin en büyük tek-nokta-başarısızlık noktası haline getiriyor. Antitröst davaları (özellikle ABD'deki varsayılan arama anlaşmaları kararı) dağıtım kanallarını ciddi ölçüde kısıtlayabilir.",
+  "watch": [
+   "Arama gelirlerinin AI chatbot/SGE (Search Generative Experience) geçişi karşısında büyüme hızını koruyup koruyamadığı ve reklam başına gelir (RPM) trendleri",
+   "FCF marjının %9'dan anlamlı biçimde yukarı dönüp dönmeyeceği; capex'in Cloud+AI büyümesiyle ne zaman dengeye geleceği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir trendi 90B'dan 113B'a güçlü bir yükseliş çizdi; son çeyrekte 109.9B ile hafif gerileme görülse de y/y %22 büyüme ivmenin bozulmadığına işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %62.4 ile tarihi yüksek seviyeye ulaşırken faaliyet marjı %36.1'e çıktı ve ROIC %28.4 / ROE %38.9 kombinasyonu olağanüstü sermaye verimliliğini teyit ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşüm oranı 0.40× ile oldukça düşük; net kârın büyük bölümü (muhtemelen yatırım gelirleri veya tek seferlik kalemler kaynaklı) nakde dönüşmüyor, bu muhasebe kalitesi açısından dikkatle incelenmeli. Hisse seyrelmesinin -%0.4 olması olumlu."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit -57.8B$ negatif görünse de Alphabet'in güçlü nakit üretim kapasitesi ve 100B$'ı aşan nakit+menkul kıymet stoku göz önüne alındığında borç yükü yönetilebilir düzeyde; yine de net borçlu konuma geçiş izleme gerektiriyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 23.7x, %22 büyüme ve %36 faaliyet marjı için makul görünse de Fiyat/FCF 65.7x son derece yüksek; FCF marjının %9 gibi düşük kalması çarpanı şişiriyor ve bu sapma açıklanmadan değerleme cazip sayılamaz."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (FCF Conversion)",
+   "body": "FCF dönüşüm oranı, muhasebe kârının ne kadarının gerçek nakde döndüğünü ölçer; 1x'in altındaki değerler kârın bir kısmının nakit dışı kalemlerden (amortisman, yatırım gelirleri, stok değişimi vb.) geldiğine işaret eder. Alphabet'te bu oran 0.40x ile çarpıcı biçimde düşük; bunun temel nedeni olası yüksek capex harcamaları veya tek seferlik gelir kalemleri olabilir, bilanço incelenirken bu fark mutlaka sorgulanmalıdır."
+  }
+ }
+}

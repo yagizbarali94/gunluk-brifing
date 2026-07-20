@@ -1,6 +1,6 @@
 {
- "date": "2026-07-19",
- "generated_at": "2026-07-19T07:52:24+00:00",
+ "date": "2026-07-20",
+ "generated_at": "2026-07-20T08:31:18+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 18.77,
+  "vix": 18.41,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 24.9
+  "vix_chg_5d": 7.3
  },
  "breadth": {
   "rsp_3m": 5.4,
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.8",
-    "note": "son 1 ay +%1.3",
+    "value": "100.7",
+    "note": "son 1 ay +%0.7",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$81.8",
-    "note": "son 1 ay -%12.1",
+    "value": "$81.7",
+    "note": "son 1 ay -%9.8",
     "tone": "gray"
    },
    {
@@ -182,43 +182,57 @@
   {
    "date": "2026-07-22",
    "label": "GOOGL bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-22",
    "label": "TSLA bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-29",
    "label": "MSFT bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-29",
    "label": "META bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "29 Temmuz",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-07-30",
+   "label": "AAPL bilanço",
+   "days": 10,
+   "date_label": "30 Temmuz",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-07-30",
+   "label": "AMZN bilanço",
+   "days": 10,
+   "date_label": "30 Temmuz",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend temeli sağlam ve breadth geniş, ancak teknolojiden savunmaya rotasyon belirginleşiyor ve yükselen faizler büyüme hisselerindeki zemini zorluyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamasının üzerinde kalmayı sürdürüyor ve hisse senetlerinin %82'si bu eşiğin üzerinde; bu, yükselişin dar bir grup tarafından değil tabana yayılmış biçimde taşındığına işaret ediyor. Öte yandan sektör kompozisyonu risk-kapalı bir okuma veriyor: Teknoloji -%9 gibi belirgin bir geri çekilmedeyken Finans ve Sağlık öne çıkıyor, yatırımcılar getiri kalitesi ve dayanıklılık arıyor. Altının son bir ayda -%10'u aşan sert geri çekilmesi ve petrolün -%12 erimesiyle birlikte yükselen dolar ve %4.54'e tırmanan 10 yıllık faiz, küresel likidite koşullarının sıkılaştığını gösteriyor; bu tablo risk iştahı için arka planda bir baskı unsuru olmayı sürdürüyor. Kredi piyasaları şimdilik sakin ve VIX normal bölgede, dolayısıyla ani bir stres sinyali yok; ancak koşullar 'rüzgârın arkadan değil yandan estiği' bir rejime işaret ediyor.",
+  "headline": "Geniş tabanlı yükseliş sürüyor ancak teknolojinin çöküşü ve defansiflerin liderliği piyasanın içinde temkinli bir rotasyon yaşandığına işaret ediyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrettiğinden yapısal trend bozulmamış; sektörlerin yüzde seksenini aşkın kısmının bu seviyenin üzerinde olması ve eşit ağırlıklı endeksin cap-ağırlıklıyı geçmesi breadth'in sağlıklı göründüğünü ortaya koyuyor. Öte yandan Teknoloji'nin zirveden yüzde dokuz gerilemiş olması ve Finans ile Sağlık gibi defansiflerin öne çıkması, yatırımcıların büyüme hikâyesinden korunma ve kaliteye kaydığını düşündürüyor. VIX'in sakin seyri ve kredi spreadlerinin gergin olmaması panik olmadığını teyit etse de on yıllık faizin son bir ayda yüzde 4.54'e tırmanması ve altın ile petrolün belirgin düşüşü makro ortamın sıkışmakta olduğunu ima ediyor. Kısacası zemin henüz kırılmış değil ama rüzgâr net bir yönden değil çaprazdan esiyor; en büyük bilinmeyenler bu hafta başlayacak devasa büyük teknoloji bilançolarından gelecek.",
   "watch": [
-   "GOOGL ve TSLA bilanço sonuçları (22 Temmuz): Teknoloji ve büyüme hisselerindeki geri çekilmenin kazanç beklentileriyle ne ölçüde örtüştüğünü test edecek; sektör genelinde ton belirleyici olabilir.",
-   "10 yıllık ABD Hazine faizinin %4.54 seviyesindeki seyri: Faizin bu bölgede tutunması veya yukarı kırması, büyüme-değer rotasyonunun derinliğini doğrudan etkiler.",
-   "Dolar endeksinin (DXY) 101 direnci: Güçlü dolar emtia baskısını sürdürür ve gelişmekte olan piyasalar ile çokuluslu şirketlerin kazanç görünümünü olumsuz etkiler; kırılım ya da geri çekilme rejim okumasını değiştirebilir."
+   "GOOGL ve TSLA bilançoları (22 Temmuz): Teknoloji sektörünün -yüzde dokuz gerideyken- toparlanıp toparlanamayacağını ve büyüme beklentilerinin hâlâ karşılanıp karşılanamayacağını ölçecek ilk sınav.",
+   "10 yıllık ABD Hazine faizi: Yüzde 4.54'ten yukarı kırılma hız kazanırsa değerleme baskısı yeniden gündemin üstüne çıkabilir; yatay kalması mevcut rotasyonun sürmesine zemin hazırlar.",
+   "Defansif-döngüsel farkının yönü: Finans ve Sağlık liderliğini korursa risk-kapalı rejim pekişiyor; döngüsellerin toparlanması ise 'yumuşak iniş' beklentisinin geri döndüğüne işaret eder."
   ],
   "concept": {
-   "title": "Sektör Rotasyonu (Sector Rotation)",
-   "body": "Sektör rotasyonu, piyasadaki sermayenin döngüsel veya büyüme odaklı sektörlerden defansif sektörlere — ya da tersine — sistematik biçimde kayması olgusunu tanımlar. Bugünkü tablo buna klasik bir örnek: Teknoloji ve Malzeme gibi büyüme/döngüsel alanlardan çıkan para, Finans, Sağlık ve Tüketici Temelleri gibi görece dirençli sektörlere yönelirken toplam piyasa henüz yön değiştirmeden yüzey altında ciddi bir yeniden konumlanma yaşanıyor."
+   "title": "Sektör Rotasyonu",
+   "body": "Sektör rotasyonu, sermayenin piyasa döngüsünün farklı evrelerinde bir sektörden diğerine sistematik biçimde kaymasıdır. Teknoloji gibi yüksek-büyüme alanlarından Finans ve Sağlık gibi defansif ya da değer odaklı sektörlere geçiş, genellikle yatırımcıların büyüme beklentilerini kısmen düşürdüğünü veya faiz ortamının değerleme tercihlerini değiştirdiğini yansıtır."
   }
  }
 }
