@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-21-upcoming",
+  "date": "2026-07-21",
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-21-reported",
+  "date": "2026-07-21",
+  "ticker": "QCOM",
+  "name": "QUALCOMM Incorporated",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-20-upcoming",
   "date": "2026-07-20",
   "ticker": "GOOGL",

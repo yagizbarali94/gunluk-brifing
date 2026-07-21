@@ -1,0 +1,345 @@
+{
+ "date": "2026-07-21",
+ "slot": "reported",
+ "generated_at": "2026-07-21T08:01:14+00:00",
+ "mock": false,
+ "ticker": "QCOM",
+ "company": {
+  "name": "QUALCOMM Incorporated",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 179517292544
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 170.32,
+  "change_pct": -0.66
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-29",
+  "next_date": "2026-07-29",
+  "last_label": "29 Nisan",
+  "next_label": "29 Temmuz",
+  "days_to_next": 8,
+  "progress_pct": 91
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$10.6B",
+   "sub": "-%3 y/y",
+   "tone": "neg"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.65",
+   "sub": "Beat · beklenti $2.56",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.8",
+   "sub": "-0.8 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.9B",
+   "sub": "marj %18",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$10.6B",
+      "note": "-%3 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       10.98,
+       10.37,
+       11.27,
+       12.25,
+       10.6
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$7.4B",
+      "note": "+%162 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       25.6,
+       25.7,
+       -27.7,
+       24.5,
+       69.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.65",
+      "note": "beklenti $2.56 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.8",
+      "note": "-0.8 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       55.0,
+       55.6,
+       55.3,
+       54.6,
+       53.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%21.8",
+      "note": "-6.6 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       28.4,
+       26.6,
+       26.2,
+       27.5,
+       21.8
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%17.5",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%36.1",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%12.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.26×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%3.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "25",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.9B",
+      "note": "marj %18",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-9.8B",
+      "note": "nakit $5.4B · borç $15.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "18.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "15.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "4.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "14.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "14.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    11.0,
+    10.4,
+    11.3,
+    12.3,
+    10.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    55.0,
+    55.6,
+    55.3,
+    54.6,
+    53.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Micron, Qualcomm ve Hyundai Mobis dahil Tier-1 otomotiv tedarikçileriyle stratejik müşteri anlaşmaları imzalayarak otomotiv bellek çözümlerinde derinleşiyor.",
+   "source": "benzinga",
+   "published": "2026-07-16",
+   "url": "https://www.benzinga.com/news/26/07/60495208/micron-technology-enters-strategic-customer-agreements-tier-1-suppliers-global-automotive-industry-i",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Intel'in TSMC karşısındaki öne çıkan avantajlarının tartışıldığı analizde çip üretim ekosistemindeki rekabet dinamiklerine dikkat çekiliyor.",
+   "source": "benzinga",
+   "published": "2026-07-20",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60552332/intels-most-overlooked-edge-over-tsmc-starts-with-pat-gelsingers-great-depression-warning",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Micron hissesindeki hareketlerin analiz edildiği haber, bellek çipi sektöründeki talep görünümüne ilişkin genel bir bağlam sunuyor.",
+   "source": "benzinga",
+   "published": "2026-07-17",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60518652/whats-going-on-with-micron-technology-stock-friday-3",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Qualcomm, başta akıllı telefonlar olmak üzere otomotiv ve IoT cihazlarına yönelik yüksek performanslı çipler (Snapdragon serisi) ve kablosuz bağlantı çözümleri tasarlar; lisans (QTL) ve çip satışı (QCT) olmak üzere iki ana segmentten gelir elde eder. Müşterileri arasında Samsung, Apple (modem tedarikçisi), Xiaomi ve Hyundai gibi global OEM'ler bulunmaktadır.",
+  "note": "Qualcomm'un lisans portföyü güçlü bir ekonomik hendek sunarken, Snapdragon platformunun otomotiv ve PC'ye genişlemesi uzun vadeli büyüme hikayesinin temelini oluşturuyor. Ancak bu çeyrekte hem gelirde hem de faaliyet marjında belirgin bir kötüleşme yaşandı; brüt marjın 53.8%'e gerilemesi ve faaliyet marjının 21.8%'e düşmesi maliyet baskısının veya ürün miksinin bozulduğuna işaret ediyor. Apple'ın kendi modem çipine geçiş sürecini sürdürdüğü düşünüldüğünde 5 yıllık tez, otomotiv ve AI-Edge segmentlerinin ne kadar hızlı telafi edebileceğine bağlı.",
+  "counter": "Apple'ın in-house modem çipi geliştirmesini tamamlaması, Qualcomm'un en büyük gelir kalemlerinden birini ciddi ölçüde eritme potansiyeline sahip. Bunun yanında Çin pazarındaki yerel rakiplerin (MediaTek, HiSilicon) fiyat baskısı, özellikle QCT segmentinde marjları aşağı çekmeye devam edebilir.",
+  "watch": [
+   "Otomotiv ve AI-Edge (IoT) segmentlerinin toplam gelir içindeki payının artışı — Apple kaynaklı modem kaybını telafi edip edemediğinin ana göstergesi",
+   "Brüt ve faaliyet marjı toparlanması — maliyet optimizasyonu ile ürün miksinin iyileşip iyileşmediği; özellikle premium Snapdragon 8 serisi hacim ve fiyatlaması"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "zayif",
+    "yorum": "Gelir bir önceki çeyreğin 12.2B zirvesinden 10.6B'ye geriledi ve yıllık bazda -%3 daralan büyüme, çeyreklik trendin yukarı kırılmasının kalıcı olmadığını ortaya koyuyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "ROIC %17.5 ve ROE %36.1 sektör ortalamasının üzerinde seyretse de hem brüt hem faaliyet marjının art arda gerilediği bir tabloda kalite aşınma sinyali veriyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr oranının 1.26× olması ve %3.9 oranında hisse geri alımıyla seyreltmenin tersine çevrilmesi, raporlanan kârın nakit yaratımla güçlü biçimde desteklendiğini gösteriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç 9.8B dolar ile önemli bir yük oluşturuyor; ancak güçlü FCF üretimi ($1.9B/çeyrek) bu borcu yönetilebilir kılıyor ve şirket tarihsel olarak düzenli geri alım ile temettü ödeyen bir profil taşıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 15.5 ve Fiyat/FCF 14.4, marj baskısı ve büyüme yavaşlaması göz önüne alındığında çarpanların oldukça mütevazı kaldığını ve mevcut fiyatın büyük ölçüde riskleri fiyatladığını ima ediyor."
+   }
+  ],
+  "concept": {
+   "title": "Fabsiz (Fabless) Çip Tasarımcısı Modeli",
+   "body": "Fabless model, şirketin çip üretimini TSMC gibi dış foundry'lere bırakıp yalnızca tasarım ve IP geliştirmeye odaklanmasıdır; bu yapı sabit sermaye yükünü düşürür ve yüksek ROIC sağlar. Qualcomm bu modelin en güçlü örneklerinden biridir — ancak TSMC'ye olan tedarik zinciri bağımlılığı ve foundry kapasite döngüleri, maliyet ve marj volatilitesinin temel kaynağı olmaya devam etmektedir."
+  }
+ }
+}
