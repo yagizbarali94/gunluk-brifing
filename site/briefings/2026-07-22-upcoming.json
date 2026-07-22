@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-22",
+ "slot": "upcoming",
+ "generated_at": "2026-07-22T08:00:44+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 309454471168
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 7 gün sonra açıklanacak (29 Temmuz) — beklentileri incele"
+ },
+ "price": {
+  "last": 289.73,
+  "change_pct": 7.79
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-05",
+  "next_date": "2026-07-29",
+  "last_label": "5 Mayıs",
+  "next_label": "29 Temmuz",
+  "days_to_next": 7,
+  "progress_pct": 92
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.5B",
+   "sub": "+%20 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.60",
+   "sub": "Beat · beklenti $0.58",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.9",
+   "sub": "+0.3 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$170M",
+   "sub": "marj %11",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.5B",
+      "note": "+%20 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       1.24,
+       1.05,
+       1.14,
+       1.24,
+       1.49
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$313M",
+      "note": "+%49 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       16.9,
+       12.3,
+       21.0,
+       18.0,
+       21.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.60",
+      "note": "beklenti $0.58 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.9",
+      "note": "+0.3 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       97.7,
+       97.2,
+       97.4,
+       97.6,
+       97.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%29.5",
+      "note": "-3.5 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       33.0,
+       10.8,
+       14.4,
+       15.4,
+       29.5
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%7.1",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%12.0",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.05×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.3 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "39",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$170M",
+      "note": "marj %11",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.3B",
+      "note": "nakit $2.8B · borç $457M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "311.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "94.2×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "62.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "287.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "326.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    1.2,
+    1.1,
+    1.1,
+    1.2,
+    1.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    97.7,
+    97.2,
+    97.4,
+    97.6,
+    97.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Wall Street, Temmuz bilançosu öncesinde Arm'ın aşırı gerilmiş değerlemesine dikkat çekerek uyarılarda bulunuyor.",
+   "source": "benzinga",
+   "published": "2026-07-16",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60497501/arm-stock-news-wall-street-sounds-alarm-on-stretched-valuation-ahead-of-july-earnings",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Susquehanna, ARM için 'Pozitif' notunu koruyarak hedef fiyatı 320 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-21",
+   "url": "https://www.benzinga.com/news/26/07/60576921/susquehanna-maintains-positive-arm-holdings-raises-price-target-320",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "UBS, ARM için 'Al' tavsiyesini sürdürdü ancak hedef fiyatını 360 dolara indirdi.",
+   "source": "benzinga",
+   "published": "2026-07-20",
+   "url": "https://www.benzinga.com/news/26/07/60562773/ubs-maintains-buy-arm-holdings-lowers-price-target-360",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Salı günü Arm hissesindeki hareketi ele alan genel piyasa güncelleme haberi.",
+   "source": "benzinga",
+   "published": "2026-07-21",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60579405/what-is-going-on-with-arm-stock-on-tuesday",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Arm Holdings, akıllı telefonlardan veri merkezlerine kadar geniş bir yelpazede kullanılan işlemci mimarileri (ISA) ve çip tasarım IP'leri geliştirip lisanslar. Müşterileri Apple, Qualcomm, NVIDIA ve büyük bulut şirketleri gibi çip üreticileridir; gelirini lisans ücretleri ve üretilen her çip başına alınan royalty bedelleri üzerinden elde eder.",
+  "note": "Arm'ın iş modeli, bir kez geliştirilen IP'nin defalarca lisanslanmasıyla neredeyse sıfır değişken maliyetle gelir üretmesine olanak tanıyor; %97,9'luk brüt marj bu yapının somut kanıtı. Mobilde tartışmasız egemenliğini sürdürürken, veri merkezi ve AI chip'lerinde artan royalty oranlarıyla (Armv9 geçişi) gelir kalitesi de güçleniyor. Faaliyet marjının %29,5'e yükselmesi operasyonel kaldıracın devreye girdiğini gösteriyor; ancak bu tezin realize olması için mevcut astronomik değerlemenin fiyatladığı büyümeyi gerçekten teslim etmek şart.",
+  "counter": "RISC-V mimarisi, uzun vadede Arm'ın lisans ücretlerini baskı altına alabilecek açık kaynaklı bir alternatif olarak güç kazanıyor; özellikle maliyet hassasiyeti yüksek IoT ve gömülü sistemlerde müşteri kayması riski yapısal nitelik taşıyor. Bunun yanı sıra Çin gelirlerine yönelik olası ihracat kısıtlamaları royalty tabanını aniden daraltabilir.",
+  "watch": [
+   "Armv9 mimarisine geçiş hızı ve buna bağlı royalty oranı artışının toplam royalty gelirine yansıması",
+   "Veri merkezi ve AI segmentindeki lisans anlaşmalarının gelir karışımındaki payı ile Çin gelirlerine ilişkin jeopolitik risk gelişmeleri"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 1,1 milyar dolar düzeyinde seyrederken son çeyrekte 1,5 milyar dolara sıçrayarak %20 y/y büyüme yakalandı; ivme açıkça yeniden hızlanma sinyali veriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj %97,9 ile olağanüstü seyrediyor ve faaliyet marjı da toparlanıyor, ancak ROIC %7,1 gibi düşük bir seviyede kalıyor; bu durum hâlâ yüksek olan maliyet tabanının ve SBC'nin sermaye getirisini baskıladığını gösteriyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 1,05x ile kârın nakit karşılığı olduğunu teyit ediyor; hisse seyrelmesi yalnızca %0,3 ile SBC baskısı makul sınırlarda tutuluyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2,3 milyar dolar net nakit pozisyonu, herhangi bir borç baskısı olmaksızın şirkete stratejik esneklik sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "F/K ileri 94x, FD/Satış 62x ve Fiyat/FCF 326x seviyeleri; kaliteli bir iş modeli için bile son derece agresif bir gelecek büyümesini fiyatlıyor ve güvenlik marjını neredeyse tamamen ortadan kaldırıyor."
+   }
+  ],
+  "concept": {
+   "title": "Royalty Tabanlı İş Modeli (Intellectual Property Licensing)",
+   "body": "Royalty modelinde şirket, ürününü bir kez geliştirip her kullanım ya da satış başına tekrarlayan gelir elde eder; bu yapı sabit maliyeti sınırlarken gelir ölçeklendikçe marjlar genişler. Arm'ın %97,9'luk brüt marjı tam olarak bu dinamiğin ürünüdür: her yeni Armv9 çip, Arm'a ek üretim maliyeti yaratmadan royalty geliri üretir."
+  }
+ }
+}

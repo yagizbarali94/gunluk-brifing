@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-22",
+ "slot": "reported",
+ "generated_at": "2026-07-22T08:01:25+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 4236123045888
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Bugün bilanço açıkladı (22 Temmuz)"
+ },
+ "price": {
+  "last": 347.15,
+  "change_pct": -1.78
+ },
+ "earnings_calendar": {
+  "last_date": "2026-04-29",
+  "next_date": "2026-07-22",
+  "last_label": "29 Nisan",
+  "next_label": "22 Temmuz",
+  "days_to_next": 0,
+  "progress_pct": 100
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$109.9B",
+   "sub": "+%22 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$5.11",
+   "sub": "Beat · beklenti $2.63",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%62.4",
+   "sub": "+2.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$10.1B",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Nisan",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$109.9B",
+      "note": "+%22 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       90.23,
+       96.43,
+       102.35,
+       113.83,
+       109.9
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$62.6B",
+      "note": "+%81 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       38.3,
+       29.2,
+       34.2,
+       30.3,
+       56.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$5.11",
+      "note": "beklenti $2.63 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%62.4",
+      "note": "+2.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       59.7,
+       59.5,
+       59.6,
+       59.8,
+       62.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%36.1",
+      "note": "+2.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       33.9,
+       32.4,
+       30.5,
+       31.6,
+       36.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%28.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%38.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "37",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$10.1B",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-57.8B",
+      "note": "nakit $38.1B · borç $95.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "26.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "23.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "25.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "65.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    90.2,
+    96.4,
+    102.3,
+    113.8,
+    109.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    59.7,
+    59.5,
+    59.6,
+    59.8,
+    62.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Wells Fargo, Alphabet için Overweight notunu koruyarak hedef fiyatı 438 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-21",
+   "url": "https://www.benzinga.com/news/26/07/60590204/wells-fargo-maintains-overweight-alphabet-raises-price-target-438",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "ACCC, Google ve Epic Games'in Play Store ücretleri ile alternatif ödeme seçenekleri üzerine yaptığı uzlaşmanın 2032 yılına kadar geçerliliğini onaylamaya yönelik taslak karar yayımladı.",
+   "source": "benzinga",
+   "published": "2026-07-22",
+   "url": "https://www.benzinga.com/quote/GOOGL",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Google, maliyetleri düşürmeyi hedefleyen yeni Gemini 3.6 Flash ve siber güvenlik modellerini duyurdu; hisse bu habere %1 değer kaybıyla tepki verdi.",
+   "source": "benzinga",
+   "published": "2026-07-21",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60588048/google-stock-dips-1-new-gemini-3-6-flash-cyber-models-aim-to-slash-ai-costs",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Larry Fink'in AI için daha fazla elektrik gerektiği uyarısının ardından Google'ın enerji verimliliği çalışmaları öne çıktı.",
+   "source": "benzinga",
+   "published": "2026-07-21",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60589472/larry-fink-says-ai-needs-more-electricity-google-is-trying-to-need-less-of-it",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Alphabet; Google arama motoru, YouTube, Google Cloud ve Android ekosistemi aracılığıyla reklam geliri ile bulut hizmetleri satarak para kazanır. Temel müşterileri reklamverenler, kurumsal bulut kullanıcıları ve uygulama geliştiricilerdir.",
+  "note": "Bu çeyrekte hem brüt hem faaliyet marjlarındaki sert yükseliş, AI yatırımlarının operasyonel kaldıraca dönüşmeye başladığını gösteriyor; %36 faaliyet marjı Alphabet'in fiyatlama gücünün ve ölçek ekonomisinin hâlâ sağlam olduğuna işaret eder. Google Cloud'un büyüme ivmesi ve Gemini model ailesi, şirketin arama tekeline ek bir ikinci büyüme motoru kazandırma potansiyeli taşıyor. 3-5 yıllık tezde arama + bulut + AI altyapısı üçlüsü, hendek derinliğini koruyarak sürdürülebilir değer yaratmayı mümkün kılıyor.",
+  "counter": "Yapay zeka destekli arama motorları (OpenAI, Perplexity) Google'ın çekirdek reklam gelir tabanını doğrudan tehdit etmekte; kullanıcıların sorgu alışkanlıkları değiştikçe tıklama başına reklam modeli yapısal baskıyla karşılaşabilir. Ayrıca küresel antitröst baskısı (Play Store, arama monopolü davaları) uzun vadeli iş modeline ciddi düzenleyici risk oluşturuyor.",
+  "watch": [
+   "Google Search reklam gelirinin AI destekli rakiplerden kaynaklanan pay kaybına karşı direncini ölçmek için arama geliri büyümesinin piyasa ortalamasına göre seyri",
+   "FCF/net kâr dönüşüm oranının 0,40x'ten anlamlı biçimde yukarı dönüp dönmediği; AI capex döngüsünün tepe noktasını geçince serbest nakit akışı normalizasyonu"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir %22 y/y büyürken çeyreklik trend 90→114→110 milyar bandında güçlü seyrediyor; bir önceki çeyreğe göre hafif düşüş olsa da yıllık ivme hızlanıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı 30,5'ten 36,1'e çıktı, brüt marj 2,7 puan genişledi ve ROIC %28,4 ile sermaye tahsisinin son derece verimli olduğunu teyit ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü yalnızca 0,40x; net kârın %56,9'luk seviyesi muhtemelen tek seferlik kalemler veya vergi etkisi içeriyor, bu da gerçek kazanç kalitesini sorgulattırıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç pozisyonu -57,8 milyar dolar; bu rakam AI veri merkezi yatırımlarının nakit tüketimini yansıtıyor ve şirketin net nakit tamponunu erittiğine işaret ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 23,7 ve FD/Satış 9,9 büyüme kalitesine göre makul görünse de Fiyat/FCF 65,7 düzeyi zayıf nakit dönüşümüyle birleşince hisseyi prim değerleme bölgesine taşıyor."
+   }
+  ],
+  "concept": {
+   "title": "Faaliyet Kaldıracı (Operating Leverage)",
+   "body": "Gelir artışının gider artışından hızlı büyümesi durumunda faaliyet marjının orantısız biçimde genişlemesi olan faaliyet kaldıracı, ölçek ekonomisine sahip iş modellerinde belirgin şekilde ortaya çıkar. Alphabet bu çeyrekte %22 gelir büyümesine karşın faaliyet marjını 4,5 puan artırarak kaldıracın devreye girdiğini somut biçimde kanıtladı."
+  }
+ }
+}

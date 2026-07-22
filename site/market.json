@@ -1,44 +1,44 @@
 {
- "date": "2026-07-21",
- "generated_at": "2026-07-21T08:01:22+00:00",
+ "date": "2026-07-22",
+ "generated_at": "2026-07-22T08:01:34+00:00",
  "mock": false,
  "regime": {
-  "label": "Risk-açık — trend yukarı",
+  "label": "Nötr-olumlu — temkinli iyimser",
   "tone": "green",
-  "score": 3.5
+  "score": 2.5
  },
  "trend": {
   "rows": [
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7443.28,
-    "chg_1d": -0.19,
-    "above_50": false,
+    "last": 7509.2,
+    "chg_1d": 0.89,
+    "above_50": true,
     "above_200": true,
-    "from_high": -2.2,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -1.3,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 28604.23,
-    "chg_1d": 0.04,
+    "last": 29155.18,
+    "chg_1d": 1.93,
     "above_50": false,
     "above_200": true,
-    "from_high": -6.7,
+    "from_high": -4.9,
     "state": "zayıflıyor",
     "tone": "gray"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2942.43,
-    "chg_1d": -0.67,
+    "last": 2987.4,
+    "chg_1d": 1.53,
     "above_50": true,
     "above_200": true,
-    "from_high": -2.7,
+    "from_high": -1.2,
     "state": "yükseliş trendi",
     "tone": "green"
    }
@@ -47,131 +47,131 @@
   "total": 3
  },
  "fear": {
-  "vix": 17.61,
+  "vix": 17.57,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 6.7
+  "vix_chg_5d": 12.1
  },
  "breadth": {
-  "rsp_3m": 4.6,
-  "spy_3m": 5.0,
-  "spread": -0.3,
+  "rsp_3m": 5.4,
+  "spy_3m": 6.6,
+  "spread": -1.1,
   "pct_sectors_above_200": 82,
-  "verdict": "geniş — yükseliş tabana yayılmış",
-  "tone": "green"
+  "verdict": "orta — birkaç dev öne çıkıyor",
+  "tone": "gray"
  },
  "sectors": {
   "rows": [
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 7.5,
+    "chg": 8.3,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 4.5,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLI",
-    "name": "Sanayi",
-    "chg": 2.5,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": 2.4,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 2.1,
+    "chg": 5.4,
     "group": "defansif"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": 2.0,
+    "chg": 3.9,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 3.6,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLI",
+    "name": "Sanayi",
+    "chg": 3.2,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": 1.9,
     "group": "defansif"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 1.2,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": -0.0,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": -0.5,
+    "chg": 1.0,
     "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": -0.8,
+    "chg": 0.7,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": -0.3,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": -0.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": -2.4,
+    "chg": -1.7,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-kapalı — defansifler önde",
   "tone": "amber",
-  "def_avg": 2.8,
-  "cyc_avg": 1.1
+  "def_avg": 3.7,
+  "cyc_avg": 1.5
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.60",
-    "note": "son 1 ay +%1.4",
+    "value": "%4.63",
+    "note": "son 1 ay +%1.7",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.89 puan",
+    "value": "+0.90 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.9",
-    "note": "son 1 ay +%0.9",
+    "value": "101.1",
+    "note": "son 1 ay +%1.2",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$368",
-    "note": "son 1 ay -%7.2",
+    "value": "$375",
+    "note": "son 1 ay -%5.7",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$82.2",
-    "note": "son 1 ay -%9.9",
+    "value": "$87.7",
+    "note": "son 1 ay -%0.6",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.8",
+    "value": "+%0.6",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -182,57 +182,57 @@
   {
    "date": "2026-07-22",
    "label": "GOOGL bilanço",
-   "days": 1,
+   "days": 0,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-22",
    "label": "TSLA bilanço",
-   "days": 1,
+   "days": 0,
    "date_label": "22 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-29",
    "label": "MSFT bilanço",
-   "days": 8,
+   "days": 7,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-29",
    "label": "META bilanço",
-   "days": 8,
+   "days": 7,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-30",
    "label": "AAPL bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "30 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-30",
    "label": "AMZN bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "30 Temmuz",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend sağlam ve tabana yayılmış, ancak teknoloji geriliyor ve yükselen faizler büyüme hisselerinin üzerinde baskı oluşturuyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde duruyor ve sektörlerin yüzde seksen ikisi bu çizginin üstünde kalmayı başarıyor; bu da yükselişin belirli hisselere değil geniş bir tabana dayandığını gösteriyor. Eşit ağırlıklı performansın cap-ağırlıklıya yakın seyretmesi sağlıklı bir breadth işareti olmakla birlikte, sektör döngüsü risk-kapalı bir karaktere bürünmüş: Finans ve Sağlık öne çıkarken Teknoloji belirgin biçimde geriliyor. On yıllık faizin kısa sürede yüzde 4.60'a yükselmesi ve altının sert geri çekilmesi, piyasanın faiz baskısını yeniden fiyatladığına işaret ediyor; bu ortamda uzun vadeli büyüme hikâyeleri daha yüksek bir iskonto oranıyla değerleniyor. Kredi iştahının güçlü ve VIX'in sakin kalması mevcut gerilimin panik değil seçici bir yeniden konumlanma olduğunu düşündürüyor.",
+  "headline": "Altyapı sağlam, ancak teknoloji geriliyor ve faizler yükselirken defansif rotasyon dikkat çekiyor",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde seyretmesi ve sektörlerin %82'sinin bu seviyede kalması, piyasanın genel iskeletinin hâlâ ayakta olduğunu gösteriyor. Bununla birlikte Nasdaq'ın zirveden yaklaşık %5 geri çekilmesi ve Teknoloji ile İletişim sektörlerinin geride kalması, büyüme hikayesine olan güvenin test edildiğine işaret ediyor. Defansiflerin (Sağlık, Kamu hizmetleri, Finans) öne geçmesi ve altının son bir ayda yaklaşık %6 gerilemesi ilginç bir ayrışma yaratıyor: geleneksel 'güvenli liman' talebi azalmış, ancak portföyler savunmaya kaymış görünüyor. 10 yıllık faizin %4.63'e yükselmesi ve doların güçlenmesi, değerleme baskısını özellikle yüksek çarpanlı teknoloji hisselerinde hissettiriyor; yine de kredi piyasasının sakin kalması sistemik bir stres olmadığına dair olumlu bir sinyal veriyor.",
   "watch": [
-   "GOOGL ve TSLA bilanço sonuçları (22 Temmuz): Teknoloji ve tüketici talebine ilişkin tonun, Nasdaq'taki mevcut zayıflığı derinleştirip derinleştirmeyeceği ya da frenlediğini görmek için kritik.",
-   "10 yıllık faizin seyri: Yüzde 4.60 seviyesinin kalıcı bir taban mı yoksa geçici bir tırmanma mı olduğu, değerleme baskısının yönünü belirleyecek.",
-   "Defansif/döngüsel performans farkı: Sağlık ve Finans öncülüğünün sürmesi risk iştahının gerçekten daralıp daralmadığını, döngüsellerin toparlaması ise mevcut savunmacı rotasyonun abartılı olabileceğini sinyalleyecek."
+   "GOOGL ve TSLA bilançoları (22 Temmuz): Teknoloji ve tüketici tarafındaki kazanç kalitesi, Nasdaq'taki gerilemenin geçici mi yoksa yapısal mı olduğunu netleştirecek",
+   "10 yıllık ABD tahvil faizi: %4.63 seviyesinden yukarı kırılım, büyüme hisselerindeki baskıyı artırabilir ve sektör rotasyonunu derinleştirebilir",
+   "Eşit-ağırlık vs. cap-ağırlık farkı: Şu an -%1.1 olan bu boşluk açılırsa genişlik daralıyor demektir; birkaç megacap'ın indeksi taşıyıp taşımadığı kritik"
   ],
   "concept": {
-   "title": "Sektör Rotasyonu ve Piyasa Rejimi",
-   "body": "Sektör rotasyonu, yatırımcıların ekonomik veya faiz ortamı değiştikçe sermayeyi farklı sektörlere kaydırmasıdır; defansiflerin öne çıkması genellikle temkinli bir rejime geçişin erken sinyali olarak okunur. Ancak bu sinyal tek başına yeterli değildir: breadth geniş ve kredi sakin kaldığı sürece rotasyonu bir kırılma değil, olgunlaşan bir yükseliş trendinin içinde normal bir yeniden denge arayışı olarak değerlendirmek daha tutarlıdır."
+   "title": "Sektör Rotasyonu (Sector Rotation)",
+   "body": "Yatırımcıların ekonomik döngünün farklı evrelerine göre portföylerini döngüsel sektörlerden defansif sektörlere (ya da tersine) kaydırması olgusudur. Bugün Teknoloji ve Tüketici Döngüsel'in geride kalırken Finans, Sağlık ve Kamu hizmetlerinin öne çıkması, piyasa katılımcılarının büyüme beklentilerini temkinli fiyatladığını ve kalite/istikrar arayışına girdiğini yansıtıyor."
   }
  }
 }
