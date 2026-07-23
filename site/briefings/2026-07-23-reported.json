@@ -1,0 +1,363 @@
+{
+ "date": "2026-07-23",
+ "slot": "reported",
+ "generated_at": "2026-07-23T08:04:42+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 4174378172416
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (22 Temmuz)"
+ },
+ "price": {
+  "last": 342.09,
+  "change_pct": 3.43
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-22",
+  "next_date": null,
+  "last_label": "22 Temmuz",
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$109.9B",
+   "sub": "+%22 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$9.11",
+   "sub": "Beat · beklenti $2.90",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%62.4",
+   "sub": "+2.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$10.1B",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 22 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$109.9B",
+      "note": "+%22 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       90.23,
+       96.43,
+       102.35,
+       113.83,
+       109.9
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$62.6B",
+      "note": "+%81 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       38.3,
+       29.2,
+       34.2,
+       30.3,
+       56.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$9.11",
+      "note": "beklenti $2.90 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%62.4",
+      "note": "+2.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       59.7,
+       59.5,
+       59.6,
+       59.8,
+       62.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%36.1",
+      "note": "+2.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       33.9,
+       32.4,
+       30.5,
+       31.6,
+       36.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%28.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%38.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "37",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$10.1B",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-57.8B",
+      "note": "nakit $38.1B · borç $95.9B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Tam yıl 2026 CAPEX rehberliği 195-205 milyar dolara güncellendi; 2027'de CAPEX'in önemli ölçüde artmaya devam etmesi bekleniyor. Q3'te kapasite kısıtları nedeniyle üçüncü taraf altyapı kullanımının genişletileceği belirtildi.",
+      "note": "Agresif CAPEX taahhüdü yüksek talep güvenini yansıtıyor ancak yatırımcı için getiri belirsizliği yaratıyor.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "26.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "23.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "25.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "64.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    90.2,
+    96.4,
+    102.3,
+    113.8,
+    109.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    59.7,
+    59.5,
+    59.6,
+    59.8,
+    62.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Alphabet CFO, TPU satışlarından gelir kaydetmeye başladıklarını, Q3'te üçüncü taraf kapasite kullanımını artıracaklarını ve 2026 tam yıl CAPEX rehberliğini 195-205 milyar dolara güncellediklerini açıkladı.",
+   "source": "benzinga",
+   "published": "2026-07-22",
+   "url": "https://www.benzinga.com/news/26/07/60626305/alphabet-cfo-says-began-recognize-revenues-tpu-sales-q2-given-capacity-constraints-we-plan-expand-us",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Alphabet CEO'su Google Cloud backlog'unun Q2'de 514 milyar dolara ulaştığını ve şirketin arz kısıtlı olmaya devam ettiğini bildirdi.",
+   "source": "benzinga",
+   "published": "2026-07-22",
+   "url": "https://www.benzinga.com/news/26/07/60626255/alphabet-ceo-says-google-cloud-backlog-grew-514b-q2-we-continue-be-supply-constrained",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Wall Street, Alphabet'in AI altyapısına yaptığı yüksek harcamanın hem fırsat hem risk yarattığını değerlendirirken Cloud büyümesini en kritik gösterge olarak öne çıkardı.",
+   "source": "benzinga",
+   "published": "2026-07-23",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60628671/alphabet-ai-spending-cloud-growth-wall-street",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Alphabet CFO'su talebin hâlâ kapasiteyi aştığını açıkladı; bu açıklama yapay zeka altyapı hisselerinde yükselişe neden oldu.",
+   "source": "benzinga",
+   "published": "2026-07-22",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60627122/alphabet-cfo-says-demand-still-outpaces-capacity-ai-infrastructure-stocks-rise",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Alphabet, Google arama motoru, YouTube, Android ve Google Cloud aracılığıyla reklam geliri ile bulut hizmetleri sunan küresel bir teknoloji holdingdir. Gelirinin büyük çoğunluğu reklamcılıktan gelirken Google Cloud ve diğer segmentler hızla büyümektedir.",
+  "note": "Arama üzerindeki yapısal hegemonya, yapay zeka entegrasyonuyla (Gemini) pekişiyor; Google Cloud'un 514 milyar dolarlık backlog'u ve arz kısıtlı büyümesi, 3-5 yıllık bulut/AI gelir görünümünü güçlendiriyor. Bu çeyrekteki marj genişlemesi (faaliyet marjı 36,1%) ve ROIC'in yüzde 28'in üzerinde kalması, iş modelinin ölçek avantajlarını koruduğunu gösteriyor. Bununla birlikte yıllık 195-205 milyar dolarlık dev CAPEX taahhüdü, yatırım getirisinin ispatlanması açısından önümüzdeki yıllar için kritik bir test olacak.",
+  "counter": "200 milyar doları aşan yıllık CAPEX ve 2027'de daha da artacağı öngörülen sermaye harcamaları, FCF'yi baskı altında tutarak serbest nakit akışı değerlemesini zorlaştırıyor. Öte yandan AI destekli arama alternatiflerinin (OpenAI, Perplexity) reklam havuzunu aşındırma riski, uzun vadeli moat'ı tehdit eden en kritik yapısal unsur olmaya devam ediyor.",
+  "watch": [
+   "Google Cloud gelir büyümesi ve backlog tüketim hızı — arz kısıtının aşılmasıyla birlikte dönüşüm hızı, AI altyapı yatırımlarının geri dönüşünü ölçmenin en kritik göstergesi",
+   "FCF marjı ve CAPEX yoğunluğu — 195-205 milyar dolarlık 2026 CAPEX ile 2027'de artması öngörülen harcamaların serbest nakit akışını ne zaman ve ne ölçüde baskılamaktan çıkacağı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Yıllık yüzde 22 büyüme ve son çeyrekler trend dizisindeki ivme (90→113 milyar pik sonrası 109 milyar'a gerileme mevsimsel görünüyor) güçlü seyrini korurken Cloud backlog'u 514 milyar dolara ulaşarak büyüme görünürlüğü artıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marjın 62,4%'e ve faaliyet marjının 36,1%'e yükselmesi, ROIC 28,4% ve ROE 38,9% ile birleşince ölçek avantajının olgunlaştığına işaret ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr oranının yalnızca 0,40× olması ve FCF marjının yüzde 9'da kalması, dev CAPEX harcamalarının nakit dönüşümünü ciddi ölçüde baskıladığını ve net kârın gerçek nakit üretim gücünü abartıyor olabileceğini gösteriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "57,8 milyar dolarlık net borç pozisyonu, tek başına endişe verici olmasa da 200 milyar doları aşan yıllık CAPEX taahhüdüyle birlikte bilanço üzerindeki baskının artacağını işaret ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 23,3× ve FD/Satış 9,7× çarpanları yüzde 22 büyüme ve yüksek ROIC için makul görünse de Fiyat/FCF'nin 64,8× ile çok gerili olması, CAPEX baskısı normalleşmeden cazip bir giriş noktası sunmuyor."
+   }
+  ],
+  "concept": {
+   "title": "Backlog (Sipariş Birikimi) ve Gelir Görünürlüğü",
+   "body": "Backlog, müşterilerin sözleşmeyle taahhüt ettiği ancak henüz gelir olarak kaydedilmemiş tutarı ifade eder; şirketin gelecek gelir görünürlüğünü ölçen önemli bir öncü göstergedir. Google Cloud'un 514 milyar dolarlık backlog'u, mevcut çeyreklik Cloud geliriyle kıyaslandığında yıllarca sürecek organik büyüme potansiyelini somutlaştırmaktadır."
+  }
+ }
+}
