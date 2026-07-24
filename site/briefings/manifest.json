@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-24-upcoming",
+  "date": "2026-07-24",
+  "ticker": "ARM",
+  "name": "Arm Holdings plc",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-24-reported",
+  "date": "2026-07-24",
+  "ticker": "GOOGL",
+  "name": "Alphabet Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-23-upcoming",
   "date": "2026-07-23",
   "ticker": "ARM",

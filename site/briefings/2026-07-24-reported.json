@@ -1,0 +1,371 @@
+{
+ "date": "2026-07-24",
+ "slot": "reported",
+ "generated_at": "2026-07-24T08:00:32+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 3885328236544
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (22 Temmuz)"
+ },
+ "price": {
+  "last": 317.69,
+  "change_pct": -3.95
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-22",
+  "next_date": "2026-10-28",
+  "last_label": "22 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 96,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$119.8B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$9.11",
+   "sub": "Beat · beklenti $2.90",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%61.6",
+   "sub": "-0.8 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-5.9B",
+   "sub": "marj %-5",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 22 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$119.8B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       96.43,
+       102.35,
+       113.83,
+       109.9,
+       119.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$112.2B",
+      "note": "+%298 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       29.2,
+       34.2,
+       30.3,
+       56.9,
+       93.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$9.11",
+      "note": "beklenti $2.90 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%61.6",
+      "note": "-0.8 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       59.5,
+       59.6,
+       59.8,
+       62.4,
+       61.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%34.0",
+      "note": "+1.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       32.4,
+       30.5,
+       31.6,
+       36.1,
+       34.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%33.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%48.7",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%13.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.22×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "36",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-5.9B",
+      "note": "marj %-5",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-56.8B",
+      "note": "nakit $55.9B · borç $112.8B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirket 2026 yılı için capex'in yıl boyunca yüksek seyredeceğini ve yapay zeka altyapı yatırımlarının devam edeceğini belirtti; ancak somut gelir veya EPS yönlendirmesi paylaşılmadı.",
+      "note": "Capex odaklı belirsiz yönlendirme, kısa vadeli marj baskısının süreceğine işaret ediyor.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "17.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "21.8×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "72.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    96.4,
+    102.3,
+    113.8,
+    109.9,
+    119.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    59.5,
+    59.6,
+    59.8,
+    62.4,
+    61.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Alphabet'in 200 milyar dolarlık yapay zeka yatırım harcaması, hisse geri alım programını fiilen durma noktasına getirdi.",
+   "source": "benzinga",
+   "published": "2026-07-23",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60651811/alphabets-200-billion-ai-binge-has-killed-its-stock-buyback-machine",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Bank of America, capex şokuна rağmen Alphabet hissesini almak için dört temel neden sıraladı.",
+   "source": "benzinga",
+   "published": "2026-07-23",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60656208/4-reasons-buy-alphabet-stock-capex-shock-bofa",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "UBS, Alphabet için Nötr tavsiyesini korurken fiyat hedefini 379 dolara indirdi.",
+   "source": "benzinga",
+   "published": "2026-07-23",
+   "url": "https://www.benzinga.com/news/26/07/60653714/ubs-maintains-neutral-alphabet-lowers-price-target-379",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Waymo'nun güvenlik monitörü olmadan robotaksi operasyonunda Tesla'nın önünde olduğu vurgulandı.",
+   "source": "benzinga",
+   "published": "2026-07-24",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60660559/tesla-trailing-alphabets-waymo-on-robotaxis-without-safety-monitors-says-gary-black-analyst-highlights-metric-where-rubber-meets-the-road",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Alphabet, Google arama motoru, YouTube, Google Cloud ve Android ekosistemi üzerinden reklam, bulut hizmetleri ve donanım satışı yapan küresel bir teknoloji holdingdir. Gelirinin büyük çoğunluğu dijital reklamcılıktan, büyüyen payı ise Google Cloud'dan gelmektedir.",
+  "note": "Alphabet'in arama ve reklam ağındaki ekonomik hendeği hâlâ güçlü; %24 gelir büyümesi ve sürekli EPS beklenti aşımı iş modelinin direncini gösteriyor. Ancak bu çeyrekte hem brüt hem faaliyet marjının gerilemesi ve negatif FCF üretmesi, agresif yapay zeka capex'inin kısa vadede kârlılığı baskıladığına işaret ediyor. 3-5 yıllık perspektifte Google Cloud'un büyümesi ve Waymo'nun potansiyeli tezi destekliyor; fakat capex'in getiriye dönüşüm hızı belirleyici olacak.",
+  "counter": "Yapay zeka destekli arama alternatifleri (OpenAI, Perplexity vb.) Google'ın arama pazar payını yapısal olarak aşındırabilir ve reklam geliri motorunu kalıcı biçimde zedeleyebilir. Aynı anda 200 milyar dolarlık capex taahhüdü, getiri belirsizken serbest nakit akışını ve hissedar değerini uzun süre baskı altında tutma riski taşıyor.",
+  "watch": [
+   "Capex'in Google Cloud büyümesine ve FCF'ye dönüşüm hızı: yıllık capex taahhüdünün somut gelir/marj iyileşmesine ne zaman yansıyacağı",
+   "Google arama pazar payı ve yapay zeka entegrasyonunun reklam geliri üzerindeki net etkisi (AI Overview'ın RPM'e katkısı)"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 96.4B'den 119.8B'ye çıkarak belirgin bir yükseliş trendi izliyor; %24 y/y büyüme sektörün üzerinde ve ivme korunuyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "ROIC %33.8 ve ROE %48.7 ile sermaye verimliliği yüksek olmakla birlikte brüt marj (%61.6) ve faaliyet marjı (%34.0) son çeyrekte geriledi; capex baskısı marj görünümünü bulutluyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr dönüşümü 0.22× ile son derece zayıf; negatif FCF (-5.9B) ve yüksek EPS rakamının büyük bölümü tek seferlik kalemlerden (net marjın 93.7%'ye sıçraması) kaynaklanıyor, bu da kazanç kalitesini düşürüyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit pozisyonu -56.8B ile net borçlu konuma geçilmiş durumda; tarihsel nakit kalesi eriyerek devasa capex programını finanse ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "Cari F/K 17.2 görece makul görünse de negatif FCF nedeniyle Fiyat/FCF 72.9'a şişiyor ve ileri F/K 21.5, capex riskini fiyatlamayan bir iyimserliği yansıtıyor; büyüme güçlü ama FCF normalleşene kadar çarpanlar sanıldığı kadar cazip değil."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (FCF Conversion)",
+   "body": "Net kârın ne kadarının gerçek nakde dönüştüğünü ölçer; yüksek amortisman, stok veya yatırım harcamaları oranı düşürür. Alphabet'te bu çeyrek 0.22× seviyesiyle dikkat çekici biçimde düşük; yani raporlanan kârın büyük çoğunluğu kasaya girmiyor, devasa capex harcamaları nakit üretimini eritiyor."
+  }
+ }
+}
