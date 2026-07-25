@@ -1,6 +1,6 @@
 {
- "date": "2026-07-24",
- "generated_at": "2026-07-24T08:00:39+00:00",
+ "date": "2026-07-25",
+ "generated_at": "2026-07-25T07:46:24+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 18.88,
+  "vix": 18.7,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 0.6
+  "vix_chg_5d": 11.8
  },
  "breadth": {
   "rsp_3m": 5.1,
@@ -153,7 +153,7 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.3",
+    "value": "101.4",
     "note": "son 1 ay +%1.5",
     "tone": "gray"
    },
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$90.3",
-    "note": "son 1 ay +%2.9",
+    "value": "$89.3",
+    "note": "son 1 ay +%1.8",
     "tone": "gray"
    },
    {
@@ -182,43 +182,43 @@
   {
    "date": "2026-07-29",
    "label": "MSFT bilanço",
-   "days": 5,
+   "days": 4,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-29",
    "label": "META bilanço",
-   "days": 5,
+   "days": 4,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-30",
    "label": "AAPL bilanço",
-   "days": 6,
+   "days": 5,
    "date_label": "30 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-30",
    "label": "AMZN bilanço",
-   "days": 6,
+   "days": 5,
    "date_label": "30 Temmuz",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Geniş tabanlı yükseliş sürüyor; ancak teknoloji geri çekilmesi, yükselen faizler ve yaklaşan dev bilançolar ortamı karmaşıklaştırıyor.",
-  "read": "Her üç endeks 200 günlük ortalamanın üzerinde seyrediyor; bu yapısal trendin hâlâ sağlam olduğunu gösteriyor. Breadth verileri olumlu: sektörlerin yüzde sekseninin üzerindeki kısmı uzun vadeli ortalama üzerinde ve eşit-ağırlıklı endeks, büyük-cap endeksin önünde — yani kazanç küçük bir grup hissede değil, pazara yayılmış durumda. Öte yandan Nasdaq 100'ün zirveden yüzde 7'yi aşan geri çekilmesi ve 10 yıllık faizin yüzde 4.70'e tırmanması, özellikle değerlemesi uzun vadeli faize duyarlı büyüme hisselerinin maruz kaldığı başlık rüzgârını somutlaştırıyor. Kredi piyasasının sakin kalması ve VIX'in normal contango yapısında olması panik olmadığına işaret ediyor; mevcut durum bir çöküş değil, genişleme içinde sektörel rotasyon ve faiz baskısının bir arada yaşandığı karmaşık bir denge.",
+  "headline": "Trend genel olarak sağlıklı, breadth tabana yayılmış; ancak teknolojinin geri çekilmesi ve yükselen faizler rejime ihtiyat katıyor.",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamasının üzerinde seyrediyor ve sektörlerin yüzde sekseninin de aynı çizginin üstünde olması, yükselişin yalnızca birkaç hisseye bağlı kalmadığını, tabana yayıldığını gösteriyor. Bununla birlikte Nasdaq'ın zirveden yüzde yedi buçuk geride olması ve İletişim ile Tüketici (döngüsel) sektörlerinin baskı altında kalması, büyüme odaklı kesimlerde seçici bir soğuma yaşandığına işaret ediyor. Faizin yüzde 4,70 seviyesine tırmanması ve doların aylık bazda güçlenmesi, hisse değerlemeleri üzerinde hafif bir baskı unsuru oluşturuyor; ancak getiri eğrisinin pozitife dönmüş olması ve kredi spreadlerinin sakin seyretmesi, sistemik bir stres sinyali vermiyor. Liderliğin döngüsel-defansif eksende karışık seyretmesi, piyasanın bir sonraki tematik rotasyona hazırlanıyor olabileceğine dair bir belirsizlik ortamına işaret ediyor.",
   "watch": [
-   "29-30 Temmuz MSFT, META, AAPL, AMZN bilançoları: Teknoloji ve iletişim sektörünün mevcut geri çekilmesinin temelli mi yoksa geçici mi olduğunu anlamamız için yol gösterici olacak; rehberlik (guidance) rakamları fiyat dinamiklerini şekillendirebilir.",
-   "10 yıllık ABD Hazine faizi: Yüzde 4.70 seviyesi zaten sıkıştırıcı; bir ay içinde yüzde 3.5 yükselmesi ivmenin sürdüğünü gösteriyor. Yüzde 4.80-5.00 bandına yaklaşma, hisse değerlemelerine ve getiri eğrisi algısına yansıyabilir.",
-   "Sektörel liderlik: Defansif grubun döngüsellerin önüne geçmesi dikkat çekici; bu ilişkinin devam edip etmeyeceği — özellikle tüketici döngüsel ve iletişim sektörlerinin toparlanıp toparlanamayacağı — rejimin rengi hakkında ipucu verecek."
+   "29-30 Temmuz mega-teknoloji bilanço haftası: MSFT, META, AAPL ve AMZN sonuçları Nasdaq'taki geri çekilmenin bir nefes mi yoksa daha derin bir yeniden fiyatlamanın başlangıcı mı olduğunu netleştirebilir.",
+   "10 yıllık faizin yüzde 4,70 üzerinde tutunup tutunmayacağı: Faizin bu seviyede kalıcılaşması büyüme hisselerinin değerleme çerçevesini sıkıştırır, kırılma aşağı yönlü olursa teknoloji ve büyüme için göreli rahatlama sağlar.",
+   "Russell 2000'in göreli performansı: Küçük şirket hisselerinin güç kazanmaya devam edip etmediği, breadth'in sürdürülebilirliğini ve büyüme-döngüsel dengesinin nereye evrildiğini ölçmek açısından kritik bir referans noktası sunuyor."
   ],
   "concept": {
-   "title": "Breadth (Piyasa Genişliği)",
-   "body": "Piyasa genişliği, bir yükselişe kaç hisse ya da sektörün katıldığını ölçer; yalnızca büyük şirketlere değil, pazarın tamamına bakar. Geniş bir breadth, yükselişin birkaç dev hissede değil geniş bir tabanda taşındığını gösterir; bu durum genellikle trendin sağlamlığına işaret eder, ancak tek başına yeterli bir güvence değildir."
+   "title": "Piyasa Genişliği (Market Breadth)",
+   "body": "Breadth, bir endeksteki yükselişin kaç hisse tarafından paylaşıldığını ölçer; eşit ağırlıklı endeksin piyasa değeri ağırlıklı endeksten daha iyi performans göstermesi, kazancın geniş bir hisse tabanına yayıldığını ifade eder. Bugünkü tabloda bu farkın pozitif olması ve sektörlerin büyük çoğunluğunun 200 günlük ortalamasının üzerinde bulunması, mevcut yükselişin görece sağlıklı bir altyapıya oturduğuna dair bağlamsal bir veri noktası sunuyor."
   }
  }
 }

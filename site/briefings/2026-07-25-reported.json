@@ -1,0 +1,360 @@
+{
+ "date": "2026-07-25",
+ "slot": "reported",
+ "generated_at": "2026-07-25T07:46:16+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 3910399426560
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %7.1 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 319.74,
+  "change_pct": 0.16
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-22",
+  "next_date": "2026-10-28",
+  "last_label": "22 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 95,
+  "progress_pct": 3
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$119.8B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$9.11",
+   "sub": "Beat · beklenti $2.90",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%61.6",
+   "sub": "-0.8 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-5.9B",
+   "sub": "marj %-5",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 22 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$119.8B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       96.43,
+       102.35,
+       113.83,
+       109.9,
+       119.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$112.2B",
+      "note": "+%298 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       29.2,
+       34.2,
+       30.3,
+       56.9,
+       93.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$9.11",
+      "note": "beklenti $2.90 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%61.6",
+      "note": "-0.8 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       59.5,
+       59.6,
+       59.8,
+       62.4,
+       61.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%34.0",
+      "note": "+1.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       32.4,
+       30.5,
+       31.6,
+       36.1,
+       34.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%33.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%48.7",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%13.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.22×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "36",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-5.9B",
+      "note": "marj %-5",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-56.8B",
+      "note": "nakit $55.9B · borç $112.8B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "15.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "22.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "73.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    96.4,
+    102.3,
+    113.8,
+    109.9,
+    119.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    59.5,
+    59.6,
+    59.8,
+    62.4,
+    61.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Alphabet'in AI altyapı harcamalarının yüksekliği yatırımcıları ürkütürken petrolün 100 doları aşması teknoloji hisselerinde satış dalgası başlattı.",
+   "source": "benzinga",
+   "published": "2026-07-24",
+   "url": "https://www.benzinga.com/markets/equities/26/07/60681323/oil-tops-100-alphabet-tesla-capex-weekly-market-wrap",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Waymo'nun Uber ile ortaklığını sonlandırmayı değerlendirdiği bildiriliyor; bu gelişme robotaksi rekabetini kızıştırabilir.",
+   "source": "benzinga",
+   "published": "2026-07-25",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60683788/waymo-eyes-uber-exit-as-robotaxi-rivalry-heats-up-report",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Nvidia ve Meta dahil 25 şirket açık kaynaklı AI modellerini destekleyen bir mektup imzaladı; Google imzacılar arasında yer almadı.",
+   "source": "benzinga",
+   "published": "2026-07-24",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/07/60679534/nvidia-meta-and-23-others-put-their-names-on-open-weight-ai-letter-google-amazon-and-the-closed-labs-keep-theirs-off",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Google, Hava Kuvvetleri One sızıntısı soruşturması kapsamında DOJ'un basın mensuplarına yönelik celp sürecine dahil edildi.",
+   "source": "benzinga",
+   "published": "2026-07-25",
+   "url": "https://www.benzinga.com/news/legal/26/07/60683728/trump-defends-dojs-new-york-times-reporter-subpoenas-as-google-is-drawn-into-air-force-one-leak-investigation-were-after-leakers",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Alphabet, Google arama motoru, YouTube, Google Cloud ve Android ekosistemi üzerinden reklam geliri ve bulut hizmetleri satarak para kazanır. Başlıca müşterileri reklam verenler, kurumsal bulut kullanıcıları ve uygulama geliştiricileridir.",
+  "note": "Alphabet'in arama ve reklam ekosistemi hâlâ güçlü bir ekonomik hendek sunuyor; %24 büyüme ve sürekli EPS beklenti aşımı iş modelinin sağlamlığını teyit ediyor. Ancak yüksek AI yatırım harcamaları (capex baskısı) nedeniyle FCF negatife döndü ve marjlar çeyreksel bazda geriledi; bu durum 3-5 yıllık perspektifte 'yatırım dönemi mi, yapısal baskı mı?' sorusunu kritik kılıyor. Net marjdaki dramatik artış büyük olasılıkla tek seferlik kalemlerden kaynaklanıyor; FCF/net kâr oranının 0.22× gibi son derece düşük olması gerçek kazanç kalitesini sorgulatıyor.",
+  "counter": "OpenAI, Anthropic ve açık kaynaklı modellerin (Llama vb.) yükselişi, Google'ın arama üzerindeki hakimiyetini yapısal olarak aşındırabilir; arama trafiği AI asistanlara kayarsa reklam geliri tabanı uzun vadede erozyana uğrar. Aynı zamanda DOJ antitröst davaları ve regülatif baskı şirketin iş modelini bölme riskini canlı tutuyor.",
+  "watch": [
+   "Arama gelirinin AI sohbet asistanlarına (ChatGPT, Perplexity vb.) karşı pazar payı ve tıklama başına reklam geliri (CPC) trendi",
+   "Capex harcamalarının FCF'ye yansıması: AI yatırımlarının 2027'de serbest nakit akışı pozitife ne zaman dönüştüreceği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir %24 y/y büyüyerek son çeyreklerin en yüksek seviyesine ulaştı; çeyreksel trend 96.4→119.8 milyar dolar ile belirgin bir ivmelenme gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "ROIC %33.8 ve ROE %48.7 ile sermaye getirileri olağanüstü kalmaya devam ediyor, ancak brüt ve faaliyet marjları son çeyrekte sırasıyla 0.8 ve 2.1 puan geriledi; AI capex baskısı marj genişlemesini frenliyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr oranının yalnızca 0.22× olması ve TTM FCF'nin negatife (-5.9 milyar dolar) dönmesi, raporlanan kârın nakit karşılığının son derece zayıf olduğunu gösteriyor; net marjdaki sıçrama muhtemelen tek seferlik vergi veya yatırım gelirleriyle şekillendi."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç 56.8 milyar dolara ulaşmış; Alphabet'in geçmişteki net nakit pozisyonundan borçlu konuma geçişi, yoğun AI altyapı yatırımlarının bilanço üzerindeki ağırlığını yansıtıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "%24 büyüme ve %33.8 ROIC için F/K 15.9 tarihsel olarak makul görünse de FCF negatifken Fiyat/FCF 73.4× ve FD/Satış 8.5× çarpanları, serbest nakit akışı normalleşmeden değerlemenin cazip olmadığına işaret ediyor."
+   }
+  ],
+  "concept": {
+   "title": "FCF/Net Kâr Oranı (Kazanç Kalitesi Göstergesi)",
+   "body": "FCF/net kâr oranı, şirketin raporlanan kârının ne kadarının gerçek nakit olarak kasaya girdiğini ölçer; 1'e yakın veya üzerindeyse kazanç kalitesi yüksektir. Alphabet'te bu oran 0.22× seviyesine gerilemiş; yani her 1 dolarlık net kârın yalnızca 22 senti nakde dönüyor — bu, yoğun capex ve işletme sermayesi değişimlerinin yarattığı 'kâr var, nakit yok' senaryosunun klasik göstergesidir."
+  }
+ }
+}
