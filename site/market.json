@@ -1,11 +1,11 @@
 {
- "date": "2026-07-26",
- "generated_at": "2026-07-26T08:00:04+00:00",
+ "date": "2026-07-27",
+ "generated_at": "2026-07-27T09:00:50+00:00",
  "mock": false,
  "regime": {
-  "label": "Nötr-olumlu — temkinli iyimser",
+  "label": "Risk-açık — trend yukarı",
   "tone": "green",
-  "score": 2.5
+  "score": 3.5
  },
  "trend": {
   "rows": [
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 18.7,
+  "vix": 17.61,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 11.8
+  "vix_chg_5d": -5.6
  },
  "breadth": {
   "rsp_3m": 6.1,
@@ -147,14 +147,14 @@
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.88 puan",
+    "value": "+0.87 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.5",
-    "note": "son 1 ay +%1.6",
+    "value": "101.3",
+    "note": "son 1 ay +%1.5",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$89.3",
-    "note": "son 1 ay +%1.8",
+    "value": "$83.3",
+    "note": "son 1 ay -%1.9",
     "tone": "gray"
    },
    {
@@ -182,50 +182,50 @@
   {
    "date": "2026-07-29",
    "label": "MSFT bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-29",
    "label": "META bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "29 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-30",
    "label": "AAPL bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "30 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-07-30",
    "label": "AMZN bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "30 Temmuz",
    "kind": "bilanço"
   },
   {
    "date": "2026-08-05",
    "label": "LLY bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "5 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Altyapı sağlam ama teknoloji zirveden uzaklaşırken defansifler öne çıkıyor; faiz ve kredi sinyalleri temkin istiyor.",
-  "read": "Üç büyük endeks 200 günlük ortalamanın üzerinde seyrediyor ve breadth oldukça geniş; eşit ağırlıklı endeksin cap-ağırlıklıyı geçmesi yükselişin sadece birkaç dev şirkete bağlı olmadığını gösteriyor. Ancak sektör rotasyonu risk-kapalı bir tablo çiziyor: Finans, Sağlık ve Kamu Hizmetleri gibi defansif alanlar öndeyken Teknoloji, İletişim ve Döngüsel Tüketici belirgin biçimde geri kalmış durumda. Makro zemin karma mesajlar veriyor: getiri eğrisinin pozitife dönmesi ekonomik daralma korkusunu azaltıyor, ancak 10 yıllık faizin son bir ayda yaklaşık 22 baz puan yükselerek yüzde 4.68'e ulaşması hisse değerlemelerine özellikle büyüme-odaklı şirketlerde baskı yaratıyor. Yüksek getirili tahvil fiyatlarındaki zayıflık kredi piyasasında temkinli bir sinyal veriyor; önümüzdeki günlerde açıklanacak büyük teknoloji bilançoları bu tablonun seyri açısından belirleyici olacak.",
+  "headline": "Trend yapısal olarak sağlam, ancak teknoloji ağırlıklı büyük sermayeler geri çekilirken faiz baskısı ve defansif rotasyon temkin sinyali veriyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor; bu yapısal trendin henüz bozulmadığını gösteriyor. Bununla birlikte eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde geçmesi ve sektörlerin yüzde sekseninin 200 gün üzerinde olması, yükselişin geniş tabana yayıldığını işaret ediyor; bu breadth açısından sağlıklı bir görüntü. Öte yandan sektör tercihleri risk-kapalı bir atmosfere işaret ediyor: Finans, sağlık ve kamu hizmetleri öne çıkarken teknoloji, iletişim ve tüketici döngüselleri belirgin şekilde geride kalıyor. Yüzde 4.68'e ulaşan 10 yıllık faiz ve zayıflayan yüksek getirili tahvil fiyatları (HYG), likidite koşullarının kısıldığını ve kredi piyasasında ek bir stres katmanı oluştuğunu ortaya koyuyor.",
   "watch": [
-   "MSFT, META, AAPL ve AMZN bilançolarının gelir büyümesi ve yönlendirmeleri: teknoloji sektörünün zirvedeki gerilemeye yanıtı burada şekillenecek.",
-   "10 yıllık ABD Hazine faizinin seyri: yüzde 4.75-5.00 bandına yaklaşılıp yaklaşılmadığı, hisse değerlemesi için kritik bir eşik.",
-   "HYG (yüksek getirili tahvil ETF) ve kredi spreadlerindeki hareket: kredi iştahının bozulması geniş piyasaya yayılabilecek ilk uyarı sinyali olur."
+   "29-30 Temmuz'da açıklanacak Microsoft, Meta, Apple ve Amazon bilançoları: teknoloji sektörünün zirveden geri çekilmesinin kazanç gerçekleriyle örtüşüp örtüşmediğini test edecek, sonuçlar breadth ve sektör dengesini hızla yeniden şekillendirebilir.",
+   "10 yıllık ABD tahvil faizinin yüzde 4.68 seviyesindeki hareketi: aylık bazda yaklaşık yüzde 5 yükselen faizin ivme kazanması, değerleme baskısını artırır ve büyüme hisselerindeki geri çekilmeyi derinleştirebilir.",
+   "HYG (yüksek getirili tahvil ETF) fiyatının seyri: kredi piyasasındaki zayıflık hisse senedi riskine yönelik iştahın öncü göstergesidir; HYG'deki ek kötüleşme, mevcut defansif rotasyonun kalıcılaşabileceğine işaret eder."
   ],
   "concept": {
    "title": "Sektör Rotasyonu (Sector Rotation)",
-   "body": "Sektör rotasyonu, yatırımcıların sermayeyi döngüsel-büyüme ağırlıklı alanlardan defansif alanlara (ya da tersine) kaydırmasıdır; bu hareket çoğunlukla makro beklentilerin ve risk iştahının değişimini yansıtır. Bugünkü tabloda Teknoloji ve Tüketici Döngüsel'den Finans, Sağlık ve Kamu Hizmetleri'ne akan para, katılımcıların mevcut faiz ortamında büyüme primini tartmaya başladığına işaret ediyor."
+   "body": "Yatırımcıların ekonomik veya faiz döngüsünün farklı evrelerine yanıt olarak sermayelerini bir sektörden diğerine kaydırmasına sektör rotasyonu denir. Bugünkü tabloda teknoloji ve döngüsel tüketiciden finans, sağlık ve kamu hizmetlerine akan para, piyasanın yüksek faiz ortamına ve büyüme belirsizliğine karşı nasıl pozisyon aldığını yansıtıyor; bu, genel trend bozulmadan da gerçekleşebilen bir uyum mekanizmasıdır."
   }
  }
 }

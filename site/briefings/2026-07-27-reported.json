@@ -1,0 +1,344 @@
+{
+ "date": "2026-07-27",
+ "slot": "reported",
+ "generated_at": "2026-07-27T09:00:42+00:00",
+ "mock": false,
+ "ticker": "ANET",
+ "company": {
+  "name": "Arista Networks, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 219082899456
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 173.99,
+  "change_pct": 0.14
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-05",
+  "next_date": "2026-08-04",
+  "last_label": "5 Mayıs",
+  "next_label": "4 Ağustos",
+  "days_to_next": 8,
+  "progress_pct": 91
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$2.7B",
+   "sub": "+%35 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.87",
+   "sub": "Beat · beklenti $0.81",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%61.9",
+   "sub": "-1.0 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.6B",
+   "sub": "marj %61",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$2.7B",
+      "note": "+%35 y/y",
+      "tone": "green",
+      "spark": [
+       2.0,
+       2.2,
+       2.31,
+       2.49,
+       2.71
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.0B",
+      "note": "+%26 y/y",
+      "tone": "green",
+      "spark": [
+       40.6,
+       40.3,
+       37.0,
+       38.4,
+       37.8
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.87",
+      "note": "beklenti $0.81 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%61.9",
+      "note": "-1.0 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       63.7,
+       65.2,
+       64.6,
+       62.9,
+       61.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%42.7",
+      "note": "-0.1 puan y/y",
+      "tone": "gray",
+      "spark": [
+       42.8,
+       44.7,
+       42.4,
+       41.5,
+       42.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%24.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%31.5",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.42×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "89",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.6B",
+      "note": "marj %61",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.8B",
+      "note": "nakit $2.8B · borç $0",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "59.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "38.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "21.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "48.8×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "41.5×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    2.0,
+    2.2,
+    2.3,
+    2.5,
+    2.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    63.7,
+    65.2,
+    64.6,
+    62.9,
+    61.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Needham, Arista Networks için 'Al' tavsiyesini koruyarak fiyat hedefini 200 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-22",
+   "url": "https://www.benzinga.com/news/26/07/60601676/needham-maintains-buy-arista-networks-raises-price-target-200",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Super Micro'nun marjlarını ikiye katlaması, AI altyapı oyuncuları arasındaki rekabetçi dinamikleri yeniden şekillendiriyor.",
+   "source": "benzinga",
+   "published": "2026-07-23",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60634665/super-micro-just-doubled-its-margins-and-that-could-rewrite-the-ai-infrastructure-playbook",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Son 10 yılda Arista Networks hissesini elinde bulunduranların elde ettiği getiri ele alındı.",
+   "source": "benzinga",
+   "published": "2026-07-21",
+   "url": "https://www.benzinga.com/news/26/07/60586345/here-s-how-much-you-would-have-made-owning-arista-networks-stock-last-10-years",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Wall Street'in en doğru analistleri geçen haftanın öne çıkan hisseleri arasında Arista'yı değerlendirdi.",
+   "source": "benzinga",
+   "published": "2026-07-20",
+   "url": "https://www.benzinga.com/trading-ideas/dividends/26/07/60546327/5-stocks-in-the-spotlight-last-week-wall-streets-most-accurate-analysts-weigh-in-10",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Arista Networks, veri merkezi ve bulut ağ altyapısı için yüksek performanslı ethernet switch'leri ve EOS işletim sistemi yazılımını satar. Başlıca müşterileri büyük bulut sağlayıcıları (hyperscaler'lar) ve kurumsal şirketler olup gelirinin büyük bölümü donanım satışından, geri kalanı yazılım/destek aboneliklerinden gelir.",
+  "note": "Arista, AI destekli veri merkezi harcama döngüsünün tam merkezinde yer alıyor; %35 büyüme ve Rule of 40 skoru 89 ile sektörün en kaliteli büyüme profillerinden birini sunuyor. EOS'un yarattığı yazılım kilidi ve hyperscaler müşteri tabanı güçlü bir moat oluşturuyor; FCF/net kâr oranının 1.42× gibi olağandışı yüksek seyretmesi kazanç kalitesini teyit ediyor. Bununla birlikte brüt marjın beş çeyrek içinde 63.7'den 61.9'a gerilemesi, ürün karmasının veya tedarik maliyetlerinin aleyhe döndüğüne işaret ediyor ve 3-5 yıllık marj profilini izlemeye değer kılıyor.",
+  "counter": "Microsoft ve Meta gibi hyperscaler müşterilerin in-house silicon (kendi geliştirdikleri ASIC) yatırımlarını artırması, Arista'nın uzun vadeli fiyatlama gücünü ve müşteri bağımlılığını ciddi ölçüde aşındırabilir. Cisco'nun agressif fiyatlandırması ve yeni ethernet AI fabric oyuncularının (Nvidia Spectrum-X vb.) pazara girmesi rekabet yoğunluğunu artırıyor.",
+  "watch": [
+   "Brüt marjın 62-63 bandına geri dönüp dönmeyeceği — ürün karması ve hyperscaler fiyat baskısının testi",
+   "Hyperscaler capex bütçelerinde AI networking payı: Arista'nın top-5 müşteri konsantrasyonu ve in-house silicon penetrasyonunun gelir büyümesine yansıması"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 2.0B'dan 2.7B'a yükselirken çeyrekten çeyreğe tutarlı ivme korunuyor; %35 y/y büyüme bu ölçekteki bir şirket için istisnai güçte."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı yeniden yukarı dönerken ROIC %24.8 ve ROE %31.5, sermayenin son derece verimli kullanıldığını gösteriyor; tek kaygı brüt marjın kademeli sıkışmasıdır."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr oranının 1.42× seviyesinde olması muhasebe kârlarının nakit tarafından fazlasıyla karşılandığını, hisse geri alımlarıyla seyreltmenin negatife döndürülmesi ise hissedar odaklı sermaye tahsisini teyit ediyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2.8B net nakit pozisyonu ve sıfıra yakın borç yükü, olası makro şoklar veya büyük AR-GE/M&A hamleleri için güçlü bir tampon sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 38.9 ve Fiyat/FCF 41.5 büyüme kalitesini yansıtıyor ancak herhangi bir yavaşlama sinyalinde aşağı yönlü yeniden fiyatlamaya karşı güvenlik marjı oldukça dar."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "Rule of 40, yazılım ve teknoloji şirketlerinde büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ın üzerinde olması gerektiğini söyleyen bir sağlık ölçütüdür. Arista, %35 gelir büyümesi ve %61 FCF marjıyla bu skoru 89'a taşıyarak ölçütün neredeyse iki katını yakalıyor; bu durum hem büyüme hem kârlılığın eş zamanlı güçlü seyrettiğini kanıtlıyor."
+  }
+ }
+}
