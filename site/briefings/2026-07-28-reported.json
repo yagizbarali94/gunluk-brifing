@@ -1,0 +1,352 @@
+{
+ "date": "2026-07-28",
+ "slot": "reported",
+ "generated_at": "2026-07-28T08:08:47+00:00",
+ "mock": false,
+ "ticker": "PLTR",
+ "company": {
+  "name": "Palantir Technologies Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 315318435840
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %7.0 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 131.53,
+  "change_pct": 0.56
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-04",
+  "next_date": "2026-08-03",
+  "last_label": "4 Mayıs",
+  "next_label": "3 Ağustos",
+  "days_to_next": 6,
+  "progress_pct": 93
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.6B",
+   "sub": "+%85 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.33",
+   "sub": "Beat · beklenti $0.28",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%86.8",
+   "sub": "+2.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$892M",
+   "sub": "marj %55",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.6B",
+      "note": "+%85 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.88,
+       1.0,
+       1.18,
+       1.41,
+       1.63
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$871M",
+      "note": "+%307 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       24.2,
+       32.6,
+       40.3,
+       43.3,
+       53.3
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.33",
+      "note": "beklenti $0.28 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%86.8",
+      "note": "+2.1 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       80.4,
+       80.8,
+       82.4,
+       84.6,
+       86.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%46.2",
+      "note": "+26.3 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       19.9,
+       26.8,
+       33.3,
+       40.9,
+       46.2
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%23.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%32.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.18×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "136",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$892M",
+      "note": "marj %55",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.1B",
+      "note": "nakit $2.3B · borç $212M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "147.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "62.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "58.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "152.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "117.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    0.9,
+    1.0,
+    1.2,
+    1.4,
+    1.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    80.4,
+    80.8,
+    82.4,
+    84.6,
+    86.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Palantir'in değerleme skoru yalnızca 2.41 iken büyüme skoru neredeyse 98'e ulaşıyor; bu oran fiyatın ne kadar büyüme beklentisi içerdiğini özetliyor.",
+   "source": "benzinga",
+   "published": "2026-07-27",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60692292/palantirs-value-score-sits-at-just-2-41-its-growth-score-is-nearly-98",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Citigroup, Palantir için 'Al' tavsiyesini korurken hedef fiyatı 200 dolara indirdi.",
+   "source": "benzinga",
+   "published": "2026-07-24",
+   "url": "https://www.benzinga.com/news/26/07/60679136/citigroup-maintains-buy-palantir-technologies-lowers-price-target-200",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Palantir, Meta, Microsoft ve Nvidia ile birlikte açık ağırlıklı (open-weight) yapay zeka modellerini destekleyen mektuba imza attı.",
+   "source": "benzinga",
+   "published": "2026-07-24",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60673099/meta-microsoft-palantir-nvidia-and-21-others-sign-letter-backing-open-weight-ai-models",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Büyük yatırımcıların (whale) bilişim teknolojileri hisselerindeki aktivitesi arasında Palantir öne çıktı.",
+   "source": "benzinga",
+   "published": "2026-07-27",
+   "url": "https://www.benzinga.com/markets/options/26/07/60705477/7-information-technology-stocks-whale-activity-today-s-session",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Palantir, hükümet kurumları ve büyük şirketlere veri analitiği ve yapay zeka platformları (Gotham, Foundry, AIP) sunan bir yazılım şirketidir. Gelirini abonelik/lisans modeli ile hem kamu hem de özel sektör müşterilerinden elde eder.",
+  "note": "Palantir'in AIP (Yapay Zeka Platformu) ürünü, ticari segmentteki büyümeyi hızlandırarak şirketin yalnızca savunma/istihbarat bağımlısı olmaktan çıkmasını sağlıyor; bu durum moat'ı güçlendiriyor. %86.8 brüt marj ve %55 FCF marjı ile birleşen %85 büyüme, yazılım sektöründe nadiren görülen bir kalite-büyüme kombinasyonu sunuyor. Önümüzdeki 3-5 yılda kurumsal AI benimsemesinin ivmelenmesi bu tezi destekler, ancak mevcut değerleme çarpanları mükemmel bir yürütme performansını zaten fiyatlıyor.",
+  "counter": "F/K 147x ve FD/Satış 58.9x gibi astronomik çarpanlar, şirkete yönelik herhangi bir büyüme yavaşlaması veya rekabet baskısında ciddi değer kaybı riskini barındırıyor. Microsoft, Google ve Salesforce gibi devlerin kendi AI veri platformlarını güçlendirmesi, uzun vadede Palantir'in fiyatlama gücünü ve müşteri kilit etme avantajını aşındırabilir.",
+  "watch": [
+   "Ticari (commercial) segmentin toplam gelir içindeki payı ve AIP müşteri sayısındaki büyüme hızı",
+   "Faaliyet marjının %40 eşiğinin altına düşüp düşmediği — ölçek ekonomisinin sürdürülebilirliğinin kanıtı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 0.9B'den 1.6B'ye tırmanan bir ivmeyle büyüyor; %85 y/y büyüme bu ölçekte bir yazılım şirketi için son derece güçlü ve hızlanma eğilimi devam ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı %46.2, net marj %53.3 ve ROIC %23.3 ile kârlılık hem yüksek hem de net marj trendi yukarı yönlü seyrediyor; trend ibaresi 'down' görünse de mutlak seviyeler hâlâ olağanüstü."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr oranı 1.18x, yani kârların nakit karşılığı muhasebe kârını aşıyor; hisse seyrelmesi %0.9 gibi düşük bir seviyede kalarak stok bazlı tazminatın dilüsyon etkisi sınırlanmış durumda."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2.1 milyar dolar net nakit pozisyonu ile borçsuz ve güçlü bir bilançoya sahip; bu durum hem kriz anında tampon hem de stratejik büyüme için fırsat penceresi sunuyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 62.8x, Fiyat/FCF 117x ve FD/Satış 58.9x ile hisse, mükemmel bir büyüme senaryosunu çoktan fiyatlamış durumdadır; herhangi bir hayal kırıklığında aşağı yönlü risk çok yüksek."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "Rule of 40, bir SaaS şirketinin büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ı geçmesi gerektiğini öngören bir sağlık kriteridir. Palantir'in 136 skoru — %85 büyüme + %55 FCF marjı — bu eşiğin yaklaşık 3.4 katı olup şirketin hem hızlı büyüdüğünü hem de yüksek kârlılıkla çalıştığını gösteriyor."
+  }
+ }
+}
