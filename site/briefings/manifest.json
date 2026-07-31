@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-07-31-upcoming",
+  "date": "2026-07-31",
+  "ticker": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-07-31-reported",
+  "date": "2026-07-31",
+  "ticker": "ARM",
+  "name": "Arm Holdings plc",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-30-upcoming",
   "date": "2026-07-30",
   "ticker": "PLTR",

@@ -1,0 +1,363 @@
+{
+ "date": "2026-07-31",
+ "slot": "reported",
+ "generated_at": "2026-07-31T08:23:25+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 257964376064
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (29 Temmuz)"
+ },
+ "price": {
+  "last": 241.54,
+  "change_pct": -2.8
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-11-04",
+  "last_label": "29 Temmuz",
+  "next_label": "4 Kasım",
+  "days_to_next": 96,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.3B",
+   "sub": "+%22 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.45",
+   "sub": "Beat · beklenti $0.40",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.2",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$694M",
+   "sub": "marj %54",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.3B",
+      "note": "+%22 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       1.05,
+       1.14,
+       1.24,
+       1.49,
+       1.29
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$270M",
+      "note": "+%108 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       12.3,
+       21.0,
+       18.0,
+       21.0,
+       20.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.45",
+      "note": "beklenti $0.40 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.2",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       97.2,
+       97.4,
+       97.6,
+       97.9,
+       97.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%7.6",
+      "note": "-3.2 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       10.8,
+       14.4,
+       15.4,
+       29.5,
+       7.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%12.0",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.41×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "51",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$694M",
+      "note": "marj %54",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.6B",
+      "note": "nakit $3.1B · borç $464M",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirket Q2 2027 için gelir beklentisini yaklaşık 1,35-1,45 milyar dolar bandında açıkladı; AGI CPU gelirlerinin yıllık 1 milyar doları aşacağı öngörülüyor.",
+      "note": "Guidance orta vadede büyümeyi destekliyor ancak marj toparlanmasına ilişkin net bir taahhüt görülmüyor; yatırımcı için belirsizlik devam ediyor.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "227.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "78.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "48.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "222.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "175.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    1.1,
+    1.1,
+    1.2,
+    1.5,
+    1.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    97.2,
+    97.4,
+    97.6,
+    97.9,
+    97.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Veri merkezi royaltisi ikinci kez üst üste 2 kat büyüdü; AGI CPU gelirleri 1 milyar doları geçmeye yakın — AI altyapısına geçiş hızlanıyor.",
+   "source": "benzinga",
+   "published": "2026-07-30",
+   "url": "https://www.benzinga.com/markets/tech/26/07/60818016/arm-holdings-data-center-royalty-grows-2x-again-agi-cpu-revenues-to-cross-1-billion",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "ARM, rekor Q1 finansalları açıkladı; hem gelir hem de kazanç beklentileri geçildi.",
+   "source": "benzinga",
+   "published": "2026-07-29",
+   "url": "https://www.benzinga.com/markets/earnings/26/07/60782135/arm-delivers-a-record-q1-earnings-revenues-beat-estimates",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Morgan Stanley 'Eşit Ağırlık' notunu korurken fiyat hedefini 212 dolara yükseltti — değerleme konusundaki temkinli tutum süruyor.",
+   "source": "benzinga",
+   "published": "2026-07-30",
+   "url": "https://www.benzinga.com/news/26/07/60812730/morgan-stanley-maintains-equal-weight-arm-holdings-raises-price-target-212",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "UBS 'Al' notunu korusa da fiyat hedefini 320 dolara düşürdü — güçlü sonuçlara rağmen değerleme baskısı hissediliyor.",
+   "source": "benzinga",
+   "published": "2026-07-30",
+   "url": "https://www.benzinga.com/news/26/07/60819350/ubs-maintains-buy-arm-holdings-lowers-price-target-320",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Arm Holdings, işlemci mimarisi lisansları (ISA) ve hazır çekirdek tasarımları (IP) satarak gelir elde eder; Qualcomm, Apple, NVIDIA, Samsung ve veri merkezi oyuncuları başta olmak üzere neredeyse tüm yarı iletken üreticileri müşterisidir. Para modeli iki katmanlıdır: lisans (upfront) + çip başına royalti (hacme bağlı tekrar eden gelir).",
+  "note": "ARM'ın ekonomik hendeki, milyarlarca cihazda kodlanmış 30+ yıllık ekosistem bağımlılığı ve yazılım uyumluluğudur; geçiş maliyeti son derece yüksektir. Bu çeyrekte veri merkezi royaltisinin 2 kat büyümesi ve AGI CPU gelirlerinin 1 milyar dolara yaklaşması, şirketin PC/mobil bağımlılığından yapay zeka altyapısına geçişini somutlaştırıyor; bu, 5 yıllık tezi güçlendiren kalıcı bir mix-shift sinyalidir. Bununla birlikte, brüt marjdaki küçük düşüş ve faaliyet marjının %29,5'ten %7,6'ya çakılması, dönemsel harcama artışının yarattığı geçici bir baskı mı yoksa yapısal bir maliyet şişmesi mi sorusunu gündemde tutuyor.",
+  "counter": "RISC-V açık mimarisinin veri merkezi ve gömülü segmentte hız kazanması, lisans gelirlerine yapısal baskı yaratabilir ve royalti büyümesinin tavanını aşağı çekebilir. Ayrıca tek bir müşterinin (Apple/Qualcomm gibi) iç çip tasarımına ağırlık vermesi, hem geliri hem de fiyatlama gücünü erozyon riskine sokar.",
+  "watch": [
+   "Veri merkezi ve AGI CPU royalti büyümesinin hızını ve toplam gelir içindeki payını izle; mobil'den AI altyapısına mix-shift'in sürdürülebilirliği tezin kilit değişkeni.",
+   "Faaliyet marjının toparlanıp toparlanmadığını ve ROIC'in %10 eşiğine yaklaşıp yaklaşmadığını takip et; harcama artışının geçici mi yoksa yapısal mı olduğu burada netleşecek."
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "%22 y/y büyüme sağlam görünse de çeyreklik seri (1,1 → 1,5 → 1,3 milyar dolar) bir zirve sonrası geri çekilmeye işaret ediyor; büyüme var ama ivme tartışmalı."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjının %29,5'ten %7,6'ya düşmesi ve ROIC'in yalnızca %6,2 olması, yüksek gelir büyümesine rağmen sermaye üretkenliğinin henüz olgunlaşmadığını gösteriyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr oranı 1,41× ile nakit dönüşümü güçlü; hisse seyrelmesi %1,2 ile makul düzeyde kontrollü."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2,6 milyar dolar net nakit pozisyonu, şirkete hem yatırım esnekliği hem de makroekonomik türbülanslara karşı tampon sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "F/K 227,9×, FD/Satış 48,2×, Fiyat/FCF 175,2× seviyeleri Rule of 40 skoru 51 olan bir şirket için dahi son derece iddialı; mükemmel bir icraat fiyata zaten yansımış durumda."
+   }
+  ],
+  "concept": {
+   "title": "Royalti Kaldıracı (Royalty Leverage)",
+   "body": "Royalti kaldıracı, sabit maliyet tabanına sahip bir IP şirketinin satış hacmi büyüdükçe operasyonel kârının gelirden çok daha hızlı artması ilkesidir. ARM için her ek çip başına royalti, neredeyse sıfır ek maliyetle gelire dönüşür; veri merkezi gibi yüksek değerli segmentlere geçiş bu kaldıracı daha da büyütür — ancak mevcut çeyrekte artan Ar-Ge ve satış giderlerinin bu kaldıracı geçici olarak bastırdığı görülüyor."
+  }
+ }
+}
