@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-01-upcoming",
+  "date": "2026-08-01",
+  "ticker": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-01-reported",
+  "date": "2026-08-01",
+  "ticker": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-07-31-upcoming",
   "date": "2026-07-31",
   "ticker": "PLTR",

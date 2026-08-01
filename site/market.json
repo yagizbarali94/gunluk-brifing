@@ -1,6 +1,6 @@
 {
- "date": "2026-07-31",
- "generated_at": "2026-07-31T08:23:31+00:00",
+ "date": "2026-08-01",
+ "generated_at": "2026-08-01T07:54:06+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,80 +12,80 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7437.63,
-    "chg_1d": 1.66,
-    "above_50": false,
+    "last": 7489.72,
+    "chg_1d": 0.7,
+    "above_50": true,
     "above_200": true,
-    "from_high": -2.3,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -1.6,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 28106.35,
-    "chg_1d": 3.36,
+    "last": 28274.2,
+    "chg_1d": 0.6,
     "above_50": false,
     "above_200": true,
-    "from_high": -8.3,
+    "from_high": -7.8,
     "state": "zayıflıyor",
     "tone": "gray"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2946.1,
-    "chg_1d": 1.37,
-    "above_50": true,
+    "last": 2931.34,
+    "chg_1d": -0.5,
+    "above_50": false,
     "above_200": true,
-    "from_high": -2.6,
-    "state": "yükseliş trendi",
-    "tone": "green"
+    "from_high": -3.1,
+    "state": "zayıflıyor",
+    "tone": "gray"
    }
   ],
   "above_200_count": 3,
   "total": 3
  },
  "fear": {
-  "vix": 16.85,
+  "vix": 15.99,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -9.3
+  "vix_chg_5d": -13.9
  },
  "breadth": {
-  "rsp_3m": 6.3,
-  "spy_3m": 3.5,
-  "spread": 2.8,
-  "pct_sectors_above_200": 82,
+  "rsp_3m": 6.4,
+  "spy_3m": 3.9,
+  "spread": 2.5,
+  "pct_sectors_above_200": 73,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
  },
  "sectors": {
   "rows": [
    {
-    "ticker": "XLV",
-    "name": "Sağlık",
-    "chg": 9.0,
-    "group": "defansif"
-   },
-   {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 8.6,
+    "chg": 11.5,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLV",
+    "name": "Sağlık",
+    "chg": 9.3,
+    "group": "defansif"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 5.8,
+    "chg": 6.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": 3.9,
+    "chg": 3.7,
     "group": "defansif"
    },
    {
@@ -95,85 +95,85 @@
     "group": "defansif"
    },
    {
-    "ticker": "XLU",
-    "name": "Kamu hizmetleri",
-    "chg": 1.1,
-    "group": "defansif"
-   },
-   {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -0.4,
+    "chg": -0.3,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": -0.4,
+    "ticker": "XLU",
+    "name": "Kamu hizmetleri",
+    "chg": -0.3,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": -0.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": -2.1,
+    "chg": -0.8,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": -2.5,
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": -2.3,
     "group": "döngüsel"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": -5.3,
+    "chg": -8.3,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-kapalı — defansifler önde",
   "tone": "amber",
-  "def_avg": 4.2,
-  "cyc_avg": 0.5
+  "def_avg": 3.9,
+  "cyc_avg": 0.8
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.66",
-    "note": "son 1 ay +%4.5",
+    "value": "%4.74",
+    "note": "son 1 ay +%6.6",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.99 puan",
+    "value": "+1.06 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.2",
-    "note": "son 1 ay -%0.6",
+    "value": "99.8",
+    "note": "son 1 ay -%1.0",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$377",
-    "note": "son 1 ay -%2.9",
+    "value": "$372",
+    "note": "son 1 ay -%4.0",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$82.2",
-    "note": "son 1 ay +%7.3",
+    "value": "$84.7",
+    "note": "son 1 ay +%10.5",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.1",
-    "note": "yüksek getirili tahvil güçlü — kredi sakin",
-    "tone": "green"
+    "value": "-%0.2",
+    "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
+    "tone": "amber"
    }
   ],
   "curve_inverted": false
@@ -182,22 +182,22 @@
   {
    "date": "2026-08-05",
    "label": "LLY bilanço",
-   "days": 5,
+   "days": 4,
    "date_label": "5 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend yukarı ve tabana yayılmış, ancak teknoloji geride kalıyor, faizler yükseliyor ve sektör rotasyonu defansife kayıyor.",
-  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde seyretmesi ve eşit ağırlıklı breadth'in cap ağırlıklıyı belirgin biçimde geride bırakması, yükselişin yalnızca birkaç mega-cap hissede değil geniş bir tabanda ilerlediğine işaret ediyor. Bununla birlikte teknoloji ve iletişim sektörlerinin geride kalması ile Nasdaq 100'ün zirveden yüzde sekizi aşkın geri çekilmesi, son dönemin büyüme lokomotiflerinde seçici bir soğumaya dikkat çekiyor. On yıllık faizin yüzde 4,66 seviyesine tırmanması ve son bir ayda yaklaşık yarım puan artması, hisse senedi değerlemeleri üzerinde potansiyel bir baskı unsuru oluşturuyor; özellikle uzun vadeli nakit akışına dayalı fiyatlanan büyüme hisseleri bu ortamda daha kırılgan konumda. VIX'in normal bölgede olması ve kredi piyasasının sakin seyretmesi sistematik bir stres olmadığını gösterse de sektör eğiliminin risk-kapalı tarafa kayması, zımni bir savunmacı refleksin piyasada belirmeye başladığına dair bir koşul sinyali veriyor.",
+  "headline": "Trend yukarı ve tabana yayılmış, ancak teknolojinin sürüklendiği yerde faiz baskısı ve savunmacı rotasyon dikkat çekiyor",
+  "read": "Tüm ana endeksler 200 günlük ortalamanın üzerinde ve eşit ağırlıklı endeksin cap ağırlıklıyı geride bırakması, yükselişin yalnızca büyük teknoloji hisselerine değil, piyasanın geniş bir kesimine dayandığına işaret ediyor; bu yapısal olarak sağlıklı bir breadth görünümü. Öte yandan Nasdaq 100'ün zirveden yaklaşık %8 geri çekilmesi ve Teknoloji sektörünün yılın en geride kalan sektörü konumuna düşmesi, risk iştahının rotasyon yaptığını gösteriyor: Enerji, Sağlık ve Finans'ın öne çıkması sektörel dengenin savunmacı tarafa kaydığına işaret ediyor. 10 yıllık faizin %4.74'e yükselmesi ve son bir ayda belirgin ivme kazanması, özellikle uzun vadeli büyüme hikâyesi güçlü hisseler için iskonto oranı baskısını artırıyor. VIX'in 16 civarında sakin seyretmesi ve getiri eğrisinin pozitife dönerek normal bir yapı sergilemesi, kaos değil belirsizlik içinde denge arayan bir piyasa rejimini tarif ediyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin yüzde 4,75-5,00 bandına yaklaşıp yaklaşmadığı — bu seviyeler tarihsel olarak hisse değerlemeleri üzerindeki baskıyı artırmış",
-   "5 Ağustos LLY bilançosu: sağlık sektörü öndeki liderlerden biri, sonuç ve rehberlik sektör momentumunun sürdürülebilirliği hakkında ipucu verecek",
-   "Russell 2000'in görece gücünün korunup korunmadığı — küçük şirket liderliği devam ederse breadth sağlığı teyit edilmiş olur, tersine dönerse rotasyonun kalitesi sorgulanır"
+   "10 yıllık ABD faizinin %4.74 seviyesinde direnci kırıp kırmayacağı; yeni bir yukarı hamle teknoloji ve büyüme hisselerindeki baskıyı derinleştirebilir",
+   "5 Ağustos LLY bilançosu: sağlık sektörünün liderliğini sürdürüp sürdüremeyeceğine dair önemli bir referans noktası olacak",
+   "HYG'deki zayıflığın devam edip etmeyeceği; yüksek getirili tahvil piyasasındaki bozulma genişlerse kredi koşulları hisse senedi zeminine yansıyabilir"
   ],
   "concept": {
    "title": "Sektör Rotasyonu (Sector Rotation)",
-   "body": "Sektör rotasyonu, yatırımcıların ekonomik veya faiz döngüsünün farklı evrelerine uyum sağlamak için sermayeyi bir sektörden diğerine kaydırması sürecidir. Şu anki tabloda teknoloji ve döngüsel tüketimden sağlık ve enerjiye doğru gözlemlenen kayma, piyasanın büyüme beklentilerini törpüleyebilecek yüksek faiz ortamına karşı kendiliğinden denge arayışına girdiğini yansıtıyor."
+   "body": "Sektör rotasyonu, sermayenin ekonomik döngünün farklı evrelerine duyarlı sektörler arasında sistematik biçimde yer değiştirmesidir; örneğin büyüme yavaşlarken veya faizler yükselirken yatırımcılar sıklıkla döngüsel sektörlerden Sağlık ve Enerji gibi savunmacı alanlara geçiş yapar. Bu hareket, genel endeks seviyesinden bağımsız olarak piyasanın hangi riski fiyatladığını anlamak için önemli bir bağlamsal ipucu sunar."
   }
  }
 }
