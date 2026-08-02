@@ -1,0 +1,352 @@
+{
+ "date": "2026-08-02",
+ "slot": "reported",
+ "generated_at": "2026-08-02T07:55:16+00:00",
+ "mock": false,
+ "ticker": "AMZN",
+ "company": {
+  "name": "Amazon.com, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "market_cap": 2921415835648
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %15.3 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 271.58,
+  "change_pct": 5.28
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-30",
+  "next_date": "2026-10-29",
+  "last_label": "30 Temmuz",
+  "next_label": "29 Ekim",
+  "days_to_next": 88,
+  "progress_pct": 3
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "veri yok",
+   "sub": "y/y veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "EPS",
+   "value": "$5.75",
+   "sub": "Beat · beklenti $1.83",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "veri yok",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-18.2B",
+   "sub": "marj veri yok",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 30 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       155.67,
+       167.7,
+       180.17,
+       213.39,
+       181.52,
+       null
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       11.0,
+       10.8,
+       11.8,
+       9.9,
+       16.7,
+       null
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$5.75",
+      "note": "beklenti $1.83 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "veri yok",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       50.6,
+       51.8,
+       50.8,
+       48.5,
+       51.8,
+       null
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       11.8,
+       11.4,
+       9.7,
+       11.7,
+       13.1,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%30.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%6.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-18.2B",
+      "note": "marj veri yok",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-108.1B",
+      "note": "nakit $101.8B · borç $209.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "21.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "26.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    155.7,
+    167.7,
+    180.2,
+    213.4,
+    181.5,
+    null
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    50.6,
+    51.8,
+    50.8,
+    48.5,
+    51.8,
+    null
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "UBS, Amazon için 'Al' tavsiyesini sürdürerek fiyat hedefini 318 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-07-31",
+   "url": "https://www.benzinga.com/news/26/07/60857911/ubs-maintains-buy-amazon-com-raises-price-target-318",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Benzinga'nın haftalık 'Boğalar ve Ayılar' analizinde Amazon ön plana çıkan şirketler arasında yer aldı.",
+   "source": "benzinga",
+   "published": "2026-08-01",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/60859854/benzinga-bulls-and-bears-amazon-microsoft-spacex",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "S&P 500 şirketlerinin kazanç büyümesi 2021'den bu yana en yüksek seviyesi olan %47.4'e ulaştı; Amazon da bu tablonun önemli bir parçası.",
+   "source": "benzinga",
+   "published": "2026-08-01",
+   "url": "https://www.benzinga.com/markets/equities/26/08/60860297/sp-500-earnings-growth-hits-47-4-best-since-2021-as-tech-leads-charge",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Amazon'un 'Doğal Avlanan' ve 'Sürdürülebilir' deniz ürünleri etiketlerinin yanıltıcı olduğu iddiasıyla dava açıldı.",
+   "source": "benzinga",
+   "published": "2026-08-01",
+   "url": "https://www.benzinga.com/news/legal/26/08/60859586/amazons-wild-caught-and-sustainable-seafood-labels-are-just-greenwashing-new-lawsuit-claims",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Amazon; e-ticaret, bulut bilişim (AWS), dijital reklamcılık ve lojistik hizmetleri sunarak tüketicilere, işletmelere ve geliştiricilere ulaşan çok katmanlı bir platform şirketidir. Gelirinin büyük bölümünü AWS ve reklam segmentlerinden, kârlılığının ise ağırlıklı olarak AWS'den elde eder.",
+  "note": "Amazon'un uzun vadeli yatırım tezi, AWS'nin yapay zeka altyapısındaki konumu ve reklam segmentinin yüksek marjlı büyümesiyle güçlenmeye devam etmektedir. Bu çeyrekte faaliyet marjının %13.1'e yükselmesi ve EPS'in beklentiyi (1.83$'a karşı 5.75$) büyük ölçüde aşması, kârlılık dönüşümünün hızlandığını teyit ediyor. 5 yıllık perspektiften bakıldığında AWS + reklam ekseninin şirketi daha değerli kılma potansiyeli sürmektedir; ancak ağır sermaye harcamaları bu dönüşümün hızını ve kalitesini belirleyecek kritik değişken olmaya devam edecek.",
+  "counter": "Yapay zeka altyapısına yönelik devasa sermaye harcamaları negatif serbest nakit akışı (-18.2 milyar $) ve yüksek net borç yüküne (-108.1 milyar $) yol açmakta; bu durum faiz ortamı değişirse veya yatırımların geri dönüşü beklentilerin altında kalırsa ciddi bir risk oluşturmaktadır. Bunun yanı sıra e-ticarette artan rekabet ve regülasyon baskısı, çekirdek segmentlerdeki büyüme hızını yapısal olarak sınırlayabilir.",
+  "watch": [
+   "AWS gelir büyümesi ve faaliyet marjının yapay zeka yatırımlarına rağmen genişleyip genişlemediği",
+   "Serbest nakit akışının pozitife dönüş hızı ve net borç dinamiğinin seyri"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Çeyreklik gelir trendi 213.4 milyar $'dan 181.5 milyar $'a gerilemiş, ancak bu büyük ölçüde mevsimsellikten (Q4 etkisi) kaynaklanabilir; yıllık büyüme verisi olmadan net bir ivme yargısına ulaşmak güçtür."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %51.8 ile son dönem zirvesine geri dönmüş, faaliyet marjı %13.1'e ulaşmış ve ROE %30.6 ile sağlıklı bir sermaye verimliliğine işaret etmektedir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "Net marj %16.7 ile güçlü görünse de serbest nakit akışının -18.2 milyar $ olması, kârın nakit yaratımına dönüşmediğini ve ağır yatırım döngüsünün kazanç kalitesini baskıladığını göstermektedir."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç pozisyonu -108.1 milyar $ ile oldukça yüksek; yapay zeka ve lojistik altyapısına yönelik süregelen yatırımlar bu yükü kısa vadede azaltmayacaktır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "F/K 21.8 (cari) ve 26.4 (ileri) çarpanları, AWS ve reklam büyümesi göz önüne alındığında aşırı pahalı sayılmaz; ancak %15'lik tek günlük yükseliş sonrası marj of safety daralmiş olup kısa vadede değerleme baskısı artmıştır."
+   }
+  ],
+  "concept": {
+   "title": "Serbest Nakit Akışı ile Net Kâr Arasındaki Makas (FCF-Earnings Divergence)",
+   "body": "Bir şirketin muhasebe kârı yüksek olsa dahi, ağır sermaye harcamaları nedeniyle serbest nakit akışı negatife dönebilir; bu durum kârın gerçekte ne kadar 'nakit' ürettiğini sorgulatır. Amazon'da bu çeyrekte net kâr güçlü görünürken FCF -18.2 milyar $ olması, AWS ve veri merkezi yatırımlarının nakit döngüsünü ne denli yoğun tükettiğini açıkça ortaya koymaktadır."
+  }
+ }
+}

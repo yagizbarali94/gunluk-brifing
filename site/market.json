@@ -1,6 +1,6 @@
 {
- "date": "2026-08-01",
- "generated_at": "2026-08-01T07:54:06+00:00",
+ "date": "2026-08-02",
+ "generated_at": "2026-08-02T07:55:23+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -182,22 +182,22 @@
   {
    "date": "2026-08-05",
    "label": "LLY bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "5 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend yukarı ve tabana yayılmış, ancak teknolojinin sürüklendiği yerde faiz baskısı ve savunmacı rotasyon dikkat çekiyor",
-  "read": "Tüm ana endeksler 200 günlük ortalamanın üzerinde ve eşit ağırlıklı endeksin cap ağırlıklıyı geride bırakması, yükselişin yalnızca büyük teknoloji hisselerine değil, piyasanın geniş bir kesimine dayandığına işaret ediyor; bu yapısal olarak sağlıklı bir breadth görünümü. Öte yandan Nasdaq 100'ün zirveden yaklaşık %8 geri çekilmesi ve Teknoloji sektörünün yılın en geride kalan sektörü konumuna düşmesi, risk iştahının rotasyon yaptığını gösteriyor: Enerji, Sağlık ve Finans'ın öne çıkması sektörel dengenin savunmacı tarafa kaydığına işaret ediyor. 10 yıllık faizin %4.74'e yükselmesi ve son bir ayda belirgin ivme kazanması, özellikle uzun vadeli büyüme hikâyesi güçlü hisseler için iskonto oranı baskısını artırıyor. VIX'in 16 civarında sakin seyretmesi ve getiri eğrisinin pozitife dönerek normal bir yapı sergilemesi, kaos değil belirsizlik içinde denge arayan bir piyasa rejimini tarif ediyor.",
+  "headline": "Piyasa trend içinde kalmaya devam ediyor; ancak teknolojinin sürükten düşmesi ve hızlı yükselen faizler zemini karmaşıklaştırıyor.",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrettiğinden teknik trend bozulmamış görünüyor; buna karşın Nasdaq 100 zirveden yaklaşık %8 geride kalarak büyüme hisselerindeki iştahın köreldiğini gösteriyor. Breadth tablosu ilginç bir kontrast sunuyor: eşit ağırlıklı endeks cap ağırlıklıyı geçiyor, sektörlerin üçte ikisi 200 günlük ortalamanın üstünde; yani geri çekilme büyük teknoloji ağırlıklarına özgü, piyasanın geneliyle sınırlı değil. Sektör rotasyonu defansiflere —enerji, sağlık, finans— yığılmış durumda; bu tablo katılımcıların büyümeden çok değer ve nakit akışı istikrarını tercih ettiğine işaret ediyor. Makro zeminde ise 10 yıllık faizin bir ayda yaklaşık 30 baz puan fırlayarak %4,74'e ulaşması ve yüksek getirili tahvil (HYG) fiyatının hafifçe ekside olması, risk primlerinin yeniden fiyatlandığını ve kredi koşullarının sessizce gerildiğini hatırlatıyor.",
   "watch": [
-   "10 yıllık ABD faizinin %4.74 seviyesinde direnci kırıp kırmayacağı; yeni bir yukarı hamle teknoloji ve büyüme hisselerindeki baskıyı derinleştirebilir",
-   "5 Ağustos LLY bilançosu: sağlık sektörünün liderliğini sürdürüp sürdüremeyeceğine dair önemli bir referans noktası olacak",
-   "HYG'deki zayıflığın devam edip etmeyeceği; yüksek getirili tahvil piyasasındaki bozulma genişlerse kredi koşulları hisse senedi zeminine yansıyabilir"
+   "10 yıllık ABD Hazine faizinin %4,74 üzerinde tutunup tutunmadığı — devam eden yükseliş, borçlanma maliyeti hassasiyetinin yüksek olduğu büyüme hisseleri üzerindeki baskıyı artırabilir",
+   "HYG (yüksek getirili tahvil ETF) hareketleri — kredi spreadlerinin açılmaya devam edip etmeyeceği, piyasanın altında biriken stresin sinyali olabilir",
+   "5 Ağustos LLY bilançosu ve sağlık sektörünün bu açıklamaya verdiği tepki — son bir ayın en güçlü defansif sektörünün momentumunu koruyup koruyamayacağı test edilecek"
   ],
   "concept": {
    "title": "Sektör Rotasyonu (Sector Rotation)",
-   "body": "Sektör rotasyonu, sermayenin ekonomik döngünün farklı evrelerine duyarlı sektörler arasında sistematik biçimde yer değiştirmesidir; örneğin büyüme yavaşlarken veya faizler yükselirken yatırımcılar sıklıkla döngüsel sektörlerden Sağlık ve Enerji gibi savunmacı alanlara geçiş yapar. Bu hareket, genel endeks seviyesinden bağımsız olarak piyasanın hangi riski fiyatladığını anlamak için önemli bir bağlamsal ipucu sunar."
+   "body": "Sektör rotasyonu, yatırımcıların ekonomik ya da faiz ortamının değiştiğine dair beklentileriyle sermayeyi döngüsel sektörlerden defansiflere (ya da tersine) kaydırma sürecidir. Bugünkü tabloda döngüsellerin geride kalıp enerji, sağlık ve finansın öne çıkması, geniş piyasa trendi bozulmadan içeride önemli bir varlık yeniden konumlanmasının yaşandığına işaret ediyor."
   }
  }
 }
