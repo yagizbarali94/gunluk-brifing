@@ -1,0 +1,363 @@
+{
+ "date": "2026-08-03",
+ "slot": "upcoming",
+ "generated_at": "2026-08-03T08:53:10+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": null
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (4 Ağustos) — beklentileri incele"
+ },
+ "price": {
+  "last": 476.15,
+  "change_pct": 0.85
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-05",
+  "next_date": "2026-08-04",
+  "last_label": "5 Mayıs",
+  "next_label": "4 Ağustos",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$10.3B",
+   "sub": "+%38 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.37",
+   "sub": "Beat · beklenti $1.29",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%52.8",
+   "sub": "-1.5 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$2.6B",
+   "sub": "marj %25",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$10.3B",
+      "note": "+%38 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       7.44,
+       7.68,
+       9.25,
+       10.27,
+       10.25
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.4B",
+      "note": "+%95 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       9.5,
+       11.3,
+       13.4,
+       14.7,
+       13.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.37",
+      "note": "beklenti $1.29 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%52.8",
+      "note": "-1.5 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       50.2,
+       39.8,
+       51.7,
+       54.3,
+       52.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%14.4",
+      "note": "+3.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       10.8,
+       -1.7,
+       13.7,
+       17.1,
+       14.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%8.1",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%3.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.71×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.5 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$2.6B",
+      "note": "marj %25",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$1.7B",
+      "note": "nakit $5.6B · borç $3.9B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Piyasa, Q2 2026 bilançosu öncesinde veri merkezi gelirinin 6.5 milyar doları aşmasını bekliyor; AMD'nin resmi guidance açıklaması yarınki bilançoyla netleşecek.",
+      "note": "Tahmin piyasaları ve opsiyon volatilitesi (%12 fiyat hareketi beklentisi) yüksek belirsizliğe işaret ediyor; guidance tonu ve marj öngörüsü yarınki en kritik veri noktaları olacak.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "158.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "34.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "20.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "103.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "inline",
+  "inline",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    7.4,
+    7.7,
+    9.2,
+    10.3,
+    10.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    50.2,
+    39.8,
+    51.7,
+    54.3,
+    52.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Tahmin piyasaları AMD'nin veri merkezi gelirinin 6.5 milyar doları aşıp aşmayacağına odaklanıyor; bu eşik yarınki bilanço için en kritik kriter olarak öne çıkıyor.",
+   "source": "benzinga",
+   "published": "2026-08-03",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60864465/amd-earnings-prediction-market-data-center-revenue",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "AMD hissesi bilanço öncesinde rallisini yitirdi; opsiyon piyasası %12 fiyat hareketi bekliyor ve belirsizlik yüksek.",
+   "source": "benzinga",
+   "published": "2026-08-02",
+   "url": "https://www.benzinga.com/markets/equities/26/08/60862387/amd-stock-rally-stalls-ahead-of-earnings-as-options-predict-a-12-move",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Michael Burry, Nvidia ve SOXX ETF'lerine karşı pozisyon aldı; bu gelişme yapay zeka çip sektörüne yönelik kısa vadeli risk iştahını olumsuz etkileyebilir.",
+   "source": "benzinga",
+   "published": "2026-07-31",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60855638/michael-burry-bearish-on-nvidia-micron-soxx-qqq-etfs-in-focus",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Wall Street'in yapay zeka şüpheciliğine rağmen kazançlar beklentileri karşılıyor; AI temalı ETF'lere ilgi artıyor.",
+   "source": "benzinga",
+   "published": "2026-08-03",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60863456/ai-spending-pays-off-as-big-tech-delivers-historic-earnings-beats-etfs-to-watch",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "AMD, veri merkezi ve yapay zeka iş yüklerine yönelik GPU'lar (Instinct serisi), PC/laptop işlemcileri (Ryzen) ve sunucu CPU'ları (EPYC) tasarlayıp satan bir yarı iletken şirketidir. Gelirini ağırlıklı olarak lisans ve çip satışlarından elde eder; üretimi TSMC gibi dış foundry'lere yaptırır (fabless model).",
+  "note": "AMD, veri merkezi segmentinde MI300X/MI350 serisiyle Nvidia'ya karşı anlamlı pazar payı kazanmaya devam ediyor; %38 y/y büyüme bu tezin güçlendiğine işaret ediyor. Ancak brüt ve faaliyet marjlarındaki 1-2 çeyreklik gerileme, veri merkezi GPU'larının fiyatlama dinamiklerini veya ürün karmasını sorgulatıyor. Uzun vadeli yatırım tezi, EPYC'nin sunucu CPU'sunda Intel'den pay almaya devam etmesi ve MI serisiyle yapay zeka altyapısında kalıcı bir yer edinmesine dayanıyor; bu tez henüz kırılmamış ancak marj baskısı dikkatle izlenmeli.",
+  "counter": "Nvidia'nın CUDA ekosistemi ve yazılım/developer kilidi rakipsiz bir hendek oluşturmaya devam etmekte; AMD'nin ROCm platformu hâlâ olgunlaşmamış olup büyük kurumsal müşterilerin Nvidia'dan geçiş maliyeti yüksek kalmaktadır. Bunun yanı sıra TSMC'ye olan bağımlılık ve Çin ihracat kısıtlamalarının tırmanması, arz güvenliğini tehdit eden yapısal riskler olarak öne çıkmaktadır.",
+  "watch": [
+   "Veri merkezi GPU gelirinin ($6.5B eşiğini aşıp aşmadığı) ve MI serisi ürün karmasının brüt marj üzerindeki etkisi",
+   "ROCm/yazılım ekosisteminin olgunlaşma hızı ve büyük bulut sağlayıcılarının (Hyperscaler) AMD GPU alım taahhütlerindeki değişim"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir son çeyrekte 7.4→10.3 milyar dolar trendinde zirveye yakın seyrediyor; 10.2 milyar dolara hafif gerileme başlasa da %38 y/y büyüme veri merkezi talebinin güçlü olduğunu gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj %54.3'ten %52.8'e, faaliyet marjı %17.1'den %14.4'e geriledi; ROIC %6.4 ve ROE %8.1 sermaye yoğun büyüme döneminde kabul edilebilir ancak premium değerlemeyi tek başına meşrulaştırmak için yetersiz."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 1.71× ile kazançların nakit yaratma kalitesi yüksek; fabless model düşük sermaye harcaması gerektiriyor ve serbest nakit akışı marjı %25 ile güçlü seyrediyor, ancak %1.5 y/y hisse seyrelmesi dikkat gerektiriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "1.7 milyar dolar net nakit pozisyonuyla bilanço temiz; borç baskısı yok ve şirkete operasyonel esneklik sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 34.3 hızlı büyüme için ödenen makul bir prim gibi görünse de cari F/K 158.7 ve FD/Satış 20.5 mevcut marj seviyeleriyle yüksek; büyümenin yavaşlaması veya marjların baskı altında kalması durumunda değerleme savunulamaz hale gelebilir."
+   }
+  ],
+  "concept": {
+   "title": "Fabless Yarı İletken Modeli ve Kaldıraç Etkisi",
+   "body": "Fabless model, çip tasarımını üretimden ayırarak şirketin fabrika yatırımı olmaksızın ölçeklenmesini sağlar; bu yapı AMD'nin FCF marjını yüksek tutmasının temel nedenidir. Ancak TSMC gibi tek bir üreticiye bağımlılık, arz şoklarında veya jeopolitik krizlerde ciddi bir kırılganlık yaratır."
+  }
+ }
+}

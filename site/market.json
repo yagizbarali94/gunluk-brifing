@@ -1,6 +1,6 @@
 {
- "date": "2026-08-02",
- "generated_at": "2026-08-02T07:55:23+00:00",
+ "date": "2026-08-03",
+ "generated_at": "2026-08-03T08:54:03+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.99,
+  "vix": 16.12,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -13.9
+  "vix_chg_5d": -13.7
  },
  "breadth": {
   "rsp_3m": 6.4,
@@ -154,7 +154,7 @@
    {
     "metric": "Dolar endeksi (DXY)",
     "value": "99.8",
-    "note": "son 1 ay -%1.0",
+    "note": "son 1 ay -%1.2",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$84.7",
-    "note": "son 1 ay +%10.5",
+    "value": "$80.4",
+    "note": "son 1 ay +%7.4",
     "tone": "gray"
    },
    {
@@ -182,22 +182,22 @@
   {
    "date": "2026-08-05",
    "label": "LLY bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "5 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Piyasa trend içinde kalmaya devam ediyor; ancak teknolojinin sürükten düşmesi ve hızlı yükselen faizler zemini karmaşıklaştırıyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrettiğinden teknik trend bozulmamış görünüyor; buna karşın Nasdaq 100 zirveden yaklaşık %8 geride kalarak büyüme hisselerindeki iştahın köreldiğini gösteriyor. Breadth tablosu ilginç bir kontrast sunuyor: eşit ağırlıklı endeks cap ağırlıklıyı geçiyor, sektörlerin üçte ikisi 200 günlük ortalamanın üstünde; yani geri çekilme büyük teknoloji ağırlıklarına özgü, piyasanın geneliyle sınırlı değil. Sektör rotasyonu defansiflere —enerji, sağlık, finans— yığılmış durumda; bu tablo katılımcıların büyümeden çok değer ve nakit akışı istikrarını tercih ettiğine işaret ediyor. Makro zeminde ise 10 yıllık faizin bir ayda yaklaşık 30 baz puan fırlayarak %4,74'e ulaşması ve yüksek getirili tahvil (HYG) fiyatının hafifçe ekside olması, risk primlerinin yeniden fiyatlandığını ve kredi koşullarının sessizce gerildiğini hatırlatıyor.",
+  "headline": "Trend genel olarak sağlam ve tabana yayılmış, ancak teknolojide belirgin soğuma, yükselen faizler ve savunmacı rotasyon karışık bir rejime işaret ediyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde ve eşit ağırlıklı endeksin cap ağırlıklıyı geride bırakması yükselişin geniş bir tabana oturduğunu gösteriyor; bu olumlu bir breadth sinyali. Öte yandan Nasdaq 100'ün zirveden yaklaşık %8 geri çekilmesi ve Teknoloji sektörünün en geride kalan grup olması, kurumsal paranın büyük ölçekli büyüme hisselerinden uzaklaştığını düşündürüyor. 10 yıllık faizin son bir ayda belirgin biçimde yükselmesi ve Enerji, Sağlık, Finans gibi defansif-değer ağırlıklı sektörlerin öne çıkması, piyasanın 'faiz daha uzun süre yüksek kalabilir' senaryosunu fiyatlamaya başladığına işaret ediyor. Yüksek getirili tahvil tarafında hafif bir zayıflık gözlemleniyor; bu, şimdilik alarm vermese de kredi koşullarının sıkılaşıp sıkılaşmadığını takip etmek gerektirir.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %4,74 üzerinde tutunup tutunmadığı — devam eden yükseliş, borçlanma maliyeti hassasiyetinin yüksek olduğu büyüme hisseleri üzerindeki baskıyı artırabilir",
-   "HYG (yüksek getirili tahvil ETF) hareketleri — kredi spreadlerinin açılmaya devam edip etmeyeceği, piyasanın altında biriken stresin sinyali olabilir",
-   "5 Ağustos LLY bilançosu ve sağlık sektörünün bu açıklamaya verdiği tepki — son bir ayın en güçlü defansif sektörünün momentumunu koruyup koruyamayacağı test edilecek"
+   "10 yıllık ABD Hazine faizinin %4.74 seviyesindeki seyrini izle: devam eden bir yükseliş değerleme baskısını artırabilir ve sektör rotasyonunu derinleştirebilir.",
+   "HYG (yüksek getirili tahvil ETF) performansını izle: kredi spreadlerinin genişlemesi risk iştahının gerçekten bozulduğunun erken habercisi olur.",
+   "5 Ağustos'ta açıklanacak LLY bilançosunu izle: Sağlık sektörünün en güçlü isimlerinden birinin sonuçları defansif rotasyonun sürdürülebilirliği hakkında ipucu verecek."
   ],
   "concept": {
    "title": "Sektör Rotasyonu (Sector Rotation)",
-   "body": "Sektör rotasyonu, yatırımcıların ekonomik ya da faiz ortamının değiştiğine dair beklentileriyle sermayeyi döngüsel sektörlerden defansiflere (ya da tersine) kaydırma sürecidir. Bugünkü tabloda döngüsellerin geride kalıp enerji, sağlık ve finansın öne çıkması, geniş piyasa trendi bozulmadan içeride önemli bir varlık yeniden konumlanmasının yaşandığına işaret ediyor."
+   "body": "Sektör rotasyonu, yatırımcıların ekonomik ya da faiz ortamındaki değişime tepki olarak portföylerini bir sektörden diğerine kaydırmasıdır. Bugünkü tablo buna klasik bir örnektir: yükselen faiz ortamında büyüme odaklı Teknoloji gerilerken, nakit akışı güçlü ve temettü ağırlıklı Enerji, Sağlık ve Finans öne çıkmaktadır."
   }
  }
 }
