@@ -1,64 +1,64 @@
 {
- "date": "2026-08-04",
- "generated_at": "2026-08-04T08:11:59+00:00",
+ "date": "2026-08-05",
+ "generated_at": "2026-08-05T08:10:57+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
   "tone": "green",
-  "score": 3.5
+  "score": 5.5
  },
  "trend": {
   "rows": [
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7489.72,
-    "chg_1d": 0.7,
+    "last": 7736.52,
+    "chg_1d": 1.79,
     "above_50": true,
     "above_200": true,
-    "from_high": -1.6,
+    "from_high": 0.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 28274.2,
-    "chg_1d": 0.6,
-    "above_50": false,
+    "last": 29733.16,
+    "chg_1d": 3.32,
+    "above_50": true,
     "above_200": true,
-    "from_high": -7.8,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -3.0,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2931.34,
-    "chg_1d": -0.5,
-    "above_50": false,
+    "last": 3036.98,
+    "chg_1d": 1.85,
+    "above_50": true,
     "above_200": true,
-    "from_high": -3.1,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": 0.0,
+    "state": "yükseliş trendi",
+    "tone": "green"
    }
   ],
   "above_200_count": 3,
   "total": 3
  },
  "fear": {
-  "vix": 15.71,
+  "vix": 15.93,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -15.9
+  "vix_chg_5d": -22.9
  },
  "breadth": {
-  "rsp_3m": 6.4,
-  "spy_3m": 3.9,
-  "spread": 2.5,
-  "pct_sectors_above_200": 73,
+  "rsp_3m": 8.8,
+  "spy_3m": 6.8,
+  "spread": 1.9,
+  "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
  },
@@ -67,113 +67,113 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 11.5,
+    "chg": 7.5,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 7.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 9.3,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": 6.7,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 3.7,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": 2.8,
+    "chg": 6.5,
     "group": "defansif"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -0.3,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLU",
-    "name": "Kamu hizmetleri",
-    "chg": -0.3,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": -0.7,
+    "chg": 4.6,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": -0.8,
+    "chg": 4.4,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": 4.0,
     "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": -2.3,
+    "chg": 2.2,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": 2.0,
+    "group": "defansif"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": -8.3,
+    "chg": 1.5,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 1.2,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLU",
+    "name": "Kamu hizmetleri",
+    "chg": -2.1,
+    "group": "defansif"
    }
   ],
   "lookback_days": 30,
-  "tilt": "risk-kapalı — defansifler önde",
-  "tone": "amber",
-  "def_avg": 3.9,
-  "cyc_avg": 0.8
+  "tilt": "risk-açık — döngüseller önde",
+  "tone": "green",
+  "def_avg": 1.9,
+  "cyc_avg": 4.5
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.74",
-    "note": "son 1 ay +%6.6",
+    "value": "%4.63",
+    "note": "son 1 ay +%3.0",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+1.06 puan",
+    "value": "+0.90 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.0",
-    "note": "son 1 ay -%1.0",
+    "value": "99.8",
+    "note": "son 1 ay -%1.8",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$372",
-    "note": "son 1 ay -%4.0",
+    "value": "$374",
+    "note": "son 1 ay -%0.8",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$80.7",
-    "note": "son 1 ay +%7.8",
+    "value": "$76.0",
+    "note": "son 1 ay +%8.0",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%0.2",
-    "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
-    "tone": "amber"
+    "value": "+%0.5",
+    "note": "yüksek getirili tahvil güçlü — kredi sakin",
+    "tone": "green"
    }
   ],
   "curve_inverted": false
@@ -182,22 +182,22 @@
   {
    "date": "2026-08-05",
    "label": "LLY bilanço",
-   "days": 1,
+   "days": 0,
    "date_label": "5 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yükseliş trendi geniş tabanlı ve sakin seyrediyor; ancak teknolojinin geride kalması ve yükselen faizler rejimin altında kırılganlık sinyali veriyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde duruyor ve VIX'in 16 altında, contango yapısında olması piyasada panik olmadığını gösteriyor. Breadth olumlu: eşit ağırlıklı endeksin cap ağırlıklıyı 2,5 puan geride bırakması ve sektörlerin yüzde 73'ünün 200g üzerinde yer alması, yükselişin yalnızca büyük isimlere değil tabana yayıldığına işaret ediyor. Bununla birlikte sektör rotasyonu dikkat çekici bir şekilde defansife kaymış durumda; Enerji ve Sağlık öndeyken Teknoloji zirveden yüzde 8'in üzerinde geri çekilmiş, bu da kurumsal para akışının büyüme hikayesinden değerleme riskinden uzaklaşmaya başladığını düşündürüyor. Makro zeminde 10 yıllık faizin bir ayda yüzde 6,6 artması iskonto oranlarını sıkıştırıyor; yüksek getirili tahvil piyasasındaki (HYG) zayıflık ise kredi tarafında erken aşamada da olsa bir temkin sinyali olarak not edilmeli.",
+  "headline": "Trend sağlam, breadth geniş ve döngüseller önde; yükselen faiz ve petrol maliyetleri denkleme giriyor",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde, S&P 500 ve Russell 2000 zirve seviyelerinde; bu, trendin kırılmadığını gösteriyor. VIX 16 civarında ve vade yapısı contango'da olduğundan piyasada belirgin bir korku yok. Breadth özellikle dikkat çekici: eşit ağırlıklı endeksin cap-ağırlıklı endeksi geride bırakması ve sektörlerin yüzde sekseninin 200 günlük ortalama üstünde kalması, yükselişin birkaç mega-cap'e değil tabana yayıldığını ortaya koyuyor. Öte yandan 10 yıllık faizin son bir ayda 3 puan yukarı gitmesi ve petrolün yüzde sekiz değer kazanması, özellikle değerleme hassasiyeti yüksek teknoloji hisseleri ile sabit gelir ikamesi olan gayrimenkul sektörü üzerinde baskı oluşturan bir zemin yaratıyor.",
   "watch": [
-   "10 yıllık ABD faizinin %4.74 seviyesinde tutunup tutunmadığı: daha sert bir yükseliş, değerleme baskısını artırabilir",
-   "HYG'nin yön bulup bulmadığı: kredi piyasasındaki zayıflığın derinleşmesi geniş tabanlı breadth görünümünü bozabilir",
-   "5 Ağustos LLY bilançosu: Sağlık sektörünün öncü konumunu koruyup koruyamayacağına dair önemli bir veri noktası sunacak"
+   "10 yıllık ABD tahvil faizinin yüzde 4.75-5.00 bandına yaklaşıp yaklaşmayacağı — bu seviyeler hisse değerleme modellerinde eşik işlevi görüyor",
+   "Petrol fiyatının yüzde sekizlik aylık artışını koruyup koruyamayacağı ve bunun enflasyon beklentilerine yansıması",
+   "LLY bilançosunun (5 Ağustos) sağlık sektörünün breadth'e katkısını sürdürüp sürdüremeyeceğini teyit edip etmeyeceği"
   ],
   "concept": {
-   "title": "Sektör Rotasyonu (Sector Rotation)",
-   "body": "Sektör rotasyonu, kurumsal paranın ekonomik döngünün farklı evrelerine göre büyüme odaklı sektörlerden defansif sektörlere ya da tersine kaymasını ifade eder. Teknolojinin geride kalıp Enerji ve Sağlık'ın öne çıkması, mevcut ortamda yatırımcıların büyüme beklentisini hafifletip değer ve nakit akışı kalitesine ağırlık verdiğinin davranışsal bir yansımasıdır."
+   "title": "Breadth Teyidi (Breadth Confirmation)",
+   "body": "Piyasada yükseliş yalnızca birkaç büyük şirket tarafından sürüklendiğinde, endeks yükselse bile temeldeki sağlık zayıf olabilir; breadth teyidi, artışın geniş bir tabana yayıldığını ve tek nokta riskinin düşük olduğunu gösterir. Bugünkü verilerde eşit ağırlıklı endeksin cap-ağırlıklıyı geçmesi ve sektörlerin büyük çoğunluğunun trend üstünde olması, klasik breadth teyidi görünümüne işaret ediyor."
   }
  }
 }
