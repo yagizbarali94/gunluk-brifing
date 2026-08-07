@@ -1,6 +1,6 @@
 {
- "date": "2026-08-06",
- "generated_at": "2026-08-06T08:09:44+00:00",
+ "date": "2026-08-07",
+ "generated_at": "2026-08-07T06:56:01+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7723.55,
-    "chg_1d": -0.17,
+    "last": 7709.96,
+    "chg_1d": -0.18,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.2,
+    "from_high": -0.3,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29487.79,
-    "chg_1d": -0.83,
-    "above_50": true,
+    "last": 29373.33,
+    "chg_1d": -0.39,
+    "above_50": false,
     "above_200": true,
-    "from_high": -3.8,
-    "state": "yükseliş trendi",
-    "tone": "green"
+    "from_high": -4.2,
+    "state": "zayıflıyor",
+    "tone": "gray"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3019.19,
-    "chg_1d": -0.59,
+    "last": 3001.55,
+    "chg_1d": -0.58,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.6,
+    "from_high": -1.2,
     "state": "yükseliş trendi",
     "tone": "green"
    }
@@ -47,16 +47,16 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.88,
+  "vix": 15.15,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -7.1
+  "vix_chg_5d": -11.4
  },
  "breadth": {
-  "rsp_3m": 7.7,
-  "spy_3m": 5.2,
+  "rsp_3m": 7.8,
+  "spy_3m": 5.3,
   "spread": 2.5,
   "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
@@ -67,111 +67,111 @@
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 8.0,
+    "chg": 8.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 7.0,
+    "chg": 7.5,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 7.0,
+    "chg": 5.7,
     "group": "defansif"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 4.1,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLI",
-    "name": "Sanayi",
-    "chg": 3.4,
+    "chg": 5.3,
     "group": "döngüsel"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 3.1,
+    "chg": 4.2,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": 1.4,
+    "group": "defansif"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 2.9,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 1.6,
+    "chg": 0.6,
     "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": 1.6,
+    "chg": 0.5,
     "group": "defansif"
    },
    {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": 1.1,
-    "group": "defansif"
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": 0.4,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLI",
+    "name": "Sanayi",
+    "chg": 0.3,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -4.1,
+    "chg": -5.4,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 1.4,
-  "cyc_avg": 4.3
+  "def_avg": 0.5,
+  "cyc_avg": 3.8
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.62",
-    "note": "son 1 ay +%4.9",
+    "value": "%4.67",
+    "note": "son 1 ay +%6.3",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.89 puan",
+    "value": "+0.94 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.7",
-    "note": "son 1 ay -%1.7",
+    "value": "99.9",
+    "note": "son 1 ay -%1.4",
     "tone": "gray"
    },
    {
     "metric": "Altın",
     "value": "$390",
-    "note": "son 1 ay +%6.5",
+    "note": "son 1 ay +%5.5",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$75.4",
-    "note": "son 1 ay +%4.9",
+    "value": "$78.1",
+    "note": "son 1 ay +%12.7",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.5",
+    "value": "+%0.4",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Yükseliş geniş tabanlı ve risk iştahlı, ancak hızlanan faiz artışı ve altının güçlü sinyali makro zeminde bir gerilimi işaret ediyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve breadth verisi yükselişin dar bir teknoloji grubuna değil, piyasanın geneline yayıldığını gösteriyor; eşit ağırlıklı endeksin cap ağırlıklıyı geçmesi bu sağlığın somut kanıtı. VIX'in 16 altında kalması ve kredi spreadlerinin sakin seyretmesi ani bir korku veya stres sinyali vermemekte, piyasa mevcut koşulları olağan buluyor. Öte yandan 10 yıllık faizin son bir ayda yaklaşık 22 baz puan yükselmesi borçlanma maliyetlerini yukarı çekerken, altının aynı dönemde yüzde 6,5 artması ve doların zayıflaması enflasyon ya da küresel risk algısına dair birbiriyle çelişen sinyaller üretiyor. Döngüsel sektörlerin savunmacıların belirgin önünde olması mevcut rejimin risk-açık karakterini teyit ediyor; ancak faiz zeminindeki bu hızlanmanın değerleme hesaplarına yansıması zaman alabilir.",
+  "headline": "Trend sağlam ve tabana yayılmış, ancak yükselen faizler ile teknolojinin zayıflaması ortamın rengini karmaşıklaştırıyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve sektörlerin yüzde sekseninin üzeri bu eşiğin üstünde; bu durum yükselişin dar bir grup hissede değil, piyasanın genelinde taşındığına işaret ediyor. Eşit ağırlıklı endeksin piyasa değeri ağırlıklıyı geçmesi de aynı mesajı güçlendiriyor: küçük ve orta ölçekli şirketler liderliği paylaşıyor. Öte yandan on yıllık faizin yüzde 4.67'ye yükselmesi ve geçen ay altı puanı aşan ivmesi, özellikle değerleme açısından duyarlı büyüme hisselerini baskı altında tutuyor; Nasdaq'ın zirveden yüzde dörtten fazla geride kalması bu baskının yansıması. Petrolün güçlü seyri ve altındaki yükseliş ise hem enflasyonist beklentilerin hem de jeopolitik belirsizliğin piyasada arka planda canlı tutulduğunu gösteriyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin yüzde 4,75 eşiğine yaklaşıp yaklaşmadığı — bu seviye hisse senedi değerleme baskısını artırabilecek psikolojik bir eşik",
-   "Altın ve doların birlikte sinyal vermeye devam edip etmediği — ikisinin aynı yönde hareket etmesi enflasyon veya jeopolitik gerilim algısının güçlendiğine işaret eder",
-   "Russell 2000'in zirvesiyle arasındaki mesafenin korunup korunmadığı — küçük şirketler faiz hassasiyeti yüksek olduğundan breadth'in sürdürülebilirliğini test ediyor"
+   "10 yıllık ABD Hazine faizinin yüzde 4.80 direnç bölgesine yaklaşıp yaklaşmadığı — bu seviyenin aşılması değerleme baskısını genele yayabilir",
+   "Teknoloji sektörünün kapsamlı breadth iyiliğine katılım gösterip göstermeyeceği — toparlanma olmadan büyük endekslerin ivme kazanması güçleşir",
+   "Petrol fiyatının yüzde on ikili artışının tüketici fiyatları ve Fed beklentilerine nasıl yansıyacağı — bu geçişkenlik faiz senaryosunu şekillendirebilir"
   ],
   "concept": {
-   "title": "Breadth Genişliği (Market Breadth)",
-   "body": "Breadth, yükselişe ya da düşüşe katılan hisse sayısını ölçerek rallinin ne kadar geniş tabanlı olduğunu gösterir; az sayıda büyük hissenin taşıdığı bir yükseliş kırılgan kabul edilirken sektörlerin yüzde sekseninin 200 günlük ortalamanın üzerinde olması bugünkü gibi tablolarda yapısal güç işareti olarak okunur. Eşit ağırlıklı endeksin cap ağırlıklıyı geçmesi ise bu genişliğin pratik bir yansımasıdır: piyasayı yalnızca dev şirketler değil, orta ve küçük oyuncular da taşıyor demektir."
+   "title": "Breadth (Piyasa Genişliği)",
+   "body": "Breadth, yükselişe katılan hisse sayısını ve ağırlığını ölçerek trendin sağlamlığını sorgular; az sayıda dev hisse endeksi taşıyorsa tablo aldatıcı görünebilir. Bugün eşit ağırlıklı performansın piyasa değeri ağırlıklıyı geride bırakması, mevcut trendin geniş tabanlı ve dolayısıyla daha dayanıklı bir zemine oturduğuna dair bir sinyal olarak okunur."
   }
  }
 }
