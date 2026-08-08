@@ -1,0 +1,363 @@
+{
+ "date": "2026-08-08",
+ "slot": "reported",
+ "generated_at": "2026-08-08T06:27:18+00:00",
+ "mock": false,
+ "ticker": "DDOG",
+ "company": {
+  "name": "Datadog, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 83998416896
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (6 Ağustos)"
+ },
+ "price": {
+  "last": 233.93,
+  "change_pct": 0.94
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-06",
+  "next_date": "2026-11-05",
+  "last_label": "6 Ağustos",
+  "next_label": "5 Kasım",
+  "days_to_next": 89,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.1B",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.65",
+   "sub": "Beat · beklenti $0.58",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%78.6",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$279M",
+   "sub": "marj %25",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 6 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.1B",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.83,
+       0.89,
+       0.95,
+       1.01,
+       1.12
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$45M",
+      "note": "+%1583 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.3,
+       3.8,
+       4.9,
+       5.2,
+       4.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.65",
+      "note": "beklenti $0.58 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%78.6",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       79.9,
+       80.1,
+       80.4,
+       79.2,
+       78.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%0.7",
+      "note": "+4.8 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -4.1,
+       -0.7,
+       0.8,
+       0.7,
+       0.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%3.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%4.7",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%0.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "6.04×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%3.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "63",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$279M",
+      "note": "marj %25",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-843M",
+      "note": "nakit $435M · borç $1.3B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirket bilançoyla birlikte yönlendirmesini yukarı revize etti; analistlerin beklentilerini aşan bir rehberlik açıklandı.",
+      "note": "Yükseltilmiş rehberlik pozitif olsa da yatırımcıların reaksiyonu, büyüme kalitesinin (müşteri konsantrasyonu) nicelikten daha önemli hale geldiğini gösteriyor.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "467.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "79.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "20.1×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "976.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "78.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    0.8,
+    0.9,
+    1.0,
+    1.0,
+    1.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    79.9,
+    80.1,
+    80.4,
+    79.2,
+    78.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Datadog beklentileri aştı ve rehberliğini yükseltti; ancak hisse %19 düştü çünkü büyümenin büyük ölçüde tek bir müşteriye dayandığı endişesi ön plana çıktı.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61033569/datadog-beat-earnings-raised-guidance-but-ddog-stock-still-plunged-19-as-wall-street-says-it-all-comes-down-to-one-customer",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Datadog, AI momentumu ve nine-figure büyüklüğündeki yenileme anlaşmasıyla ralliye öncülük etti; analistler olumlu yorumlar yaptı.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61045695/datadog-rallies-as-ai-momentum-nine-figure-renewal-win-over-analysts",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Citigroup, Datadog için Satın Al tavsiyesini koruyarak hedef fiyatı 305 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/news/26/08/61055272/citigroup-maintains-buy-datadog-raises-price-target-305",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "UBS, Satın Al tavsiyesini sürdürürken hedef fiyatı 280 dolara indirdi; muhtemelen konsantrasyon riskini fiyatlamaya başladı.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/news/26/08/61060127/ubs-maintains-buy-datadog-lowers-price-target-280",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Datadog, bulut altyapısı, uygulama performansı ve güvenliğini izlemek için gözlemlenebilirlik (observability) platformu sunar. Abonelik tabanlı SaaS modeliyle kurumsal müşterilere hizmet verir; müşteriler kullandıkları veri hacmi ve modül sayısına göre ödeme yapar.",
+  "note": "Datadog'un çok ürünlü platformu (16+ modül) güçlü çapraz satış fırsatı yaratıyor ve müşteri başına geliri artırıyor; bu da yüksek bırakma maliyetiyle desteklenen derin bir ekonomik hendek oluşturuyor. %36 büyüme ve 63 Rule of 40 skoru iş modelinin sağlıklı olduğunu teyit ederken, brüt marjdaki kademeli gerileme ve 'tek müşteri' yoğunlaşması riski 3-5 yıllık tezin gözlemlenmesi gereken kırılma noktalarıdır. AI workload'larının bulut izleme talebini artırması Datadog'u yapısal büyüme fırsatının merkezine konumlandırıyor, ancak bu potansiyelin fiyata büyük ölçüde yansıdığı unutulmamalı.",
+  "counter": "Gelirin tek bir büyük müşteriye bağımlılığı, o müşterinin harcama kararlarını önemli ölçüde dalgalanmaya açık kılıyor; bu durum yatırımcı güvenini ve yenileme döngülerini olumsuz etkiliyor. Uzun vadede Grafana, New Relic ve hiperscaler'ların (AWS CloudWatch, Azure Monitor) yerleşik gözlemlenebilirlik araçları fiyatlama gücünü ve brüt marjı sıkıştırabilir.",
+  "watch": [
+   "Müşteri konsantrasyonu: tek büyük müşterinin yenileme ve harcama eğilimi, gelir görünürlüğü açısından kritik izleme göstergesi",
+   "Brüt marj: AI/GPU altyapı maliyetlerinin artmasıyla %78 altına sürüklenip sürüklenmeyeceği ve çok ürünlü platformun fiyatlama gücünü koruyup koruyamayacağı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir son beş çeyrekte 0,8B'den 1,1B'ye yükseldi; %36 y/y büyüme bu büyüklükteki bir SaaS şirketi için güçlü seyrini koruyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Faaliyet marjı artı bölgeye geçmiş olsa da %0,7'de oldukça ince kalıyor; ROIC %3,4 ve ROE %4,7, yüksek stok bazlı tazminat nedeniyle sermaye getirileri henüz cazip seviyelerde değil."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr çarpanı 6,04x ve FCF marjı %25 ile muhasebe kârının çok üzerinde nakit üretiliyor; ancak yıllık %3,4 hisse seyrelmesi uzun vadeli pay sahipliğini aşındırıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit -843M$ ile şirket net borç pozisyonunda; yüksek FCF üretimi borcun servisini desteklese de bu durum bilançoyu savunmasız kılıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 79,3, FD/Satış 20,1 ve Fiyat/FCF 78,3 çarpanları mükemmel bir büyüme senaryosunu tam fiyatlıyor; herhangi bir yavaşlama veya marj baskısında ciddi aşağı yönlü risk var."
+   }
+  ],
+  "concept": {
+   "title": "Müşteri Konsantrasyon Riski",
+   "body": "Tek bir müşterinin toplam gelir içindeki payının orantısız büyümesi, şirketin gelir öngörülebilirliğini ve pazarlık gücünü zayıflatır. Datadog'da bu çeyrek yaşanan %19'luk hisse düşüşü, 'nine-figure' yenilemenin tek bir müşteriye bağlı olmasının yatırımcılarda yarattığı konsantrasyon kaygısının somut bir örneğidir."
+  }
+ }
+}

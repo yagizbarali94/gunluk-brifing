@@ -1,6 +1,6 @@
 {
- "date": "2026-08-07",
- "generated_at": "2026-08-07T06:56:01+00:00",
+ "date": "2026-08-08",
+ "generated_at": "2026-08-08T06:27:29+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7709.96,
-    "chg_1d": -0.18,
+    "last": 7757.64,
+    "chg_1d": 0.62,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.3,
+    "from_high": 0.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29373.33,
-    "chg_1d": -0.39,
-    "above_50": false,
+    "last": 29722.3,
+    "chg_1d": 1.19,
+    "above_50": true,
     "above_200": true,
-    "from_high": -4.2,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -3.1,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3001.55,
-    "chg_1d": -0.58,
+    "last": 3034.49,
+    "chg_1d": 1.1,
     "above_50": true,
     "above_200": true,
-    "from_high": -1.2,
+    "from_high": -0.1,
     "state": "yükseliş trendi",
     "tone": "green"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.15,
+  "vix": 14.9,
   "vix3m": 20.54,
-  "zone": "normal",
+  "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -11.4
+  "vix_chg_5d": -6.8
  },
  "breadth": {
-  "rsp_3m": 7.8,
-  "spy_3m": 5.3,
-  "spread": 2.5,
+  "rsp_3m": 8.3,
+  "spy_3m": 5.1,
+  "spread": 3.2,
   "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -67,111 +67,111 @@
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 8.2,
+    "chg": 7.5,
     "group": "döngüsel"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 7.5,
+    "chg": 6.8,
     "group": "döngüsel"
-   },
-   {
-    "ticker": "XLV",
-    "name": "Sağlık",
-    "chg": 5.7,
-    "group": "defansif"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 5.3,
+    "chg": 4.8,
     "group": "döngüsel"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 4.2,
+    "chg": 4.8,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": 1.4,
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": 3.8,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLV",
+    "name": "Sağlık",
+    "chg": 3.3,
     "group": "defansif"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 0.6,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 0.5,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 0.4,
+    "chg": 2.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": 0.3,
+    "chg": 2.2,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": 0.5,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": -0.6,
+    "group": "defansif"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -5.4,
+    "chg": -5.6,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 0.5,
-  "cyc_avg": 3.8
+  "def_avg": -0.6,
+  "cyc_avg": 4.6
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.67",
-    "note": "son 1 ay +%6.3",
+    "value": "%4.66",
+    "note": "son 1 ay +%6.6",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.94 puan",
+    "value": "+0.95 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.9",
-    "note": "son 1 ay -%1.4",
+    "value": "99.6",
+    "note": "son 1 ay -%1.7",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$390",
-    "note": "son 1 ay +%5.5",
+    "value": "$398",
+    "note": "son 1 ay +%6.6",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$78.1",
-    "note": "son 1 ay +%12.7",
+    "value": "$78.2",
+    "note": "son 1 ay +%12.9",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.4",
+    "value": "+%0.7",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend sağlam ve tabana yayılmış, ancak yükselen faizler ile teknolojinin zayıflaması ortamın rengini karmaşıklaştırıyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve sektörlerin yüzde sekseninin üzeri bu eşiğin üstünde; bu durum yükselişin dar bir grup hissede değil, piyasanın genelinde taşındığına işaret ediyor. Eşit ağırlıklı endeksin piyasa değeri ağırlıklıyı geçmesi de aynı mesajı güçlendiriyor: küçük ve orta ölçekli şirketler liderliği paylaşıyor. Öte yandan on yıllık faizin yüzde 4.67'ye yükselmesi ve geçen ay altı puanı aşan ivmesi, özellikle değerleme açısından duyarlı büyüme hisselerini baskı altında tutuyor; Nasdaq'ın zirveden yüzde dörtten fazla geride kalması bu baskının yansıması. Petrolün güçlü seyri ve altındaki yükseliş ise hem enflasyonist beklentilerin hem de jeopolitik belirsizliğin piyasada arka planda canlı tutulduğunu gösteriyor.",
+  "headline": "Yükseliş tabana yayılmış ve risk iştahı açık, ancak hızla yükselen faizler ve altın ile petrolün eş zamanlı güçlenmesi arka planda bir gerilim birikmekte olduğuna işaret ediyor.",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor; eşit ağırlıklı endeksin cap ağırlıklıyı 3,2 puan geride bırakması ve sektörlerin yüzde sekseninin trend üstünde olması yükselişin yalnızca birkaç büyük hisseye yaslanmadığını, tabanın sağlıklı olduğunu gösteriyor. VIX'in 15 altında kalması ve kredi piyasasının sakin seyretmesi kısa vadeli korku barometresinin düşük olduğuna işaret ediyor. Öte yandan 10 yıllık faizin son bir ayda 66 baz puan sıçrayarak yüzde 4,66'ya ulaşması ve buna eşlik eden altın ile petroldeki sert yükseliş, piyasanın enflasyon ve jeopolitik risk primini yeniden fiyatlamaya başladığına dair önemli bir uyarı işareti. Döngüsellerin önde olması risk iştahını teyit ediyor; ancak faiz yükselişinin devam etmesi halinde bu tablonun ne kadar sürdürülebileceği test edilecek.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 4.80 direnç bölgesine yaklaşıp yaklaşmadığı — bu seviyenin aşılması değerleme baskısını genele yayabilir",
-   "Teknoloji sektörünün kapsamlı breadth iyiliğine katılım gösterip göstermeyeceği — toparlanma olmadan büyük endekslerin ivme kazanması güçleşir",
-   "Petrol fiyatının yüzde on ikili artışının tüketici fiyatları ve Fed beklentilerine nasıl yansıyacağı — bu geçişkenlik faiz senaryosunu şekillendirebilir"
+   "10 yıllık ABD Hazine faizinin yüzde 4,75-5,00 eşiğine yaklaşması: bu seviyeler hisse değerlemelerinde baskı yaratabilecek kritik bir teknik bölge.",
+   "Altın ve petrolün eş zamanlı yükselişinin sürmesi: bu ikili genellikle enflasyon beklentilerindeki yeniden fiyatlamayı ya da jeopolitik belirsizliği yansıtır, yönü netleşirse makro anlatıyı değiştirebilir.",
+   "Breadth'in korunup korunmadığı: eşit-ağırlık/cap-ağırlık farkının daralmaya başlaması, yükselişin yeniden birkaç büyük isme geri döndüğünün erken sinyali olur."
   ],
   "concept": {
-   "title": "Breadth (Piyasa Genişliği)",
-   "body": "Breadth, yükselişe katılan hisse sayısını ve ağırlığını ölçerek trendin sağlamlığını sorgular; az sayıda dev hisse endeksi taşıyorsa tablo aldatıcı görünebilir. Bugün eşit ağırlıklı performansın piyasa değeri ağırlıklıyı geride bırakması, mevcut trendin geniş tabanlı ve dolayısıyla daha dayanıklı bir zemine oturduğuna dair bir sinyal olarak okunur."
+   "title": "Faiz-Hisse Rekabeti (Fed Model Gerilimi)",
+   "body": "Risksiz faiz oranı yükseldiğinde hisse senetlerinin gelecekteki kazançlarını iskonto etmek için kullanılan oran da artar; bu, teorik olarak hisse değerlemelerini aşağı çeker ve tahvillerle rekabeti kızıştırır. Mevcut ortamda faizlerin hızla yükselmesi, hisse breadth'inin güçlü kalmasına rağmen uzun vadeli yatırımcının iskonto oranı üzerindeki baskıyı göz ardı etmemesi gerektiğini hatırlatır."
   }
  }
 }
