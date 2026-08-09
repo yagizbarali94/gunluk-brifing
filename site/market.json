@@ -1,6 +1,6 @@
 {
- "date": "2026-08-08",
- "generated_at": "2026-08-08T06:27:29+00:00",
+ "date": "2026-08-09",
+ "generated_at": "2026-08-09T06:31:43+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Yükseliş tabana yayılmış ve risk iştahı açık, ancak hızla yükselen faizler ve altın ile petrolün eş zamanlı güçlenmesi arka planda bir gerilim birikmekte olduğuna işaret ediyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor; eşit ağırlıklı endeksin cap ağırlıklıyı 3,2 puan geride bırakması ve sektörlerin yüzde sekseninin trend üstünde olması yükselişin yalnızca birkaç büyük hisseye yaslanmadığını, tabanın sağlıklı olduğunu gösteriyor. VIX'in 15 altında kalması ve kredi piyasasının sakin seyretmesi kısa vadeli korku barometresinin düşük olduğuna işaret ediyor. Öte yandan 10 yıllık faizin son bir ayda 66 baz puan sıçrayarak yüzde 4,66'ya ulaşması ve buna eşlik eden altın ile petroldeki sert yükseliş, piyasanın enflasyon ve jeopolitik risk primini yeniden fiyatlamaya başladığına dair önemli bir uyarı işareti. Döngüsellerin önde olması risk iştahını teyit ediyor; ancak faiz yükselişinin devam etmesi halinde bu tablonun ne kadar sürdürülebileceği test edilecek.",
+  "headline": "Geniş tabanlı yükseliş sürüyor; döngüseller öne çıkıyor, ancak yükselen faizler ve petrol fiyatları makro zemini karmaşıklaştırıyor.",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor ve eşit ağırlıklı endeksin cap ağırlıklıyı belirgin şekilde geride bırakması, rallinin dar bir teknoloji grubuyla değil, piyasanın geneline yayılmış şekilde ilerlediğine işaret ediyor. VIX'in 15'in altında kalması ve vade yapısının contango'da olması, opsiyon piyasasının yakın vadeli bir şok fiyatlamadığını gösteriyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 29 baz puan yükselmesi ve petrolün %13 değer kazanması, hem reel maliyetleri hem de enflasyon beklentilerini baskı altına alabilecek unsurlar olarak öne çıkıyor. Kredi piyasalarının sakin seyretmesi ve dolar endeksinin gerilemesi ise şimdilik sistemik bir stres sinyali vermiyor; rüzgâr arkadan esiyor, ama ilerleyen dönemde faiz ve enerji maliyetleri bu tablonun değişkenlerini oluşturuyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 4,75-5,00 eşiğine yaklaşması: bu seviyeler hisse değerlemelerinde baskı yaratabilecek kritik bir teknik bölge.",
-   "Altın ve petrolün eş zamanlı yükselişinin sürmesi: bu ikili genellikle enflasyon beklentilerindeki yeniden fiyatlamayı ya da jeopolitik belirsizliği yansıtır, yönü netleşirse makro anlatıyı değiştirebilir.",
-   "Breadth'in korunup korunmadığı: eşit-ağırlık/cap-ağırlık farkının daralmaya başlaması, yükselişin yeniden birkaç büyük isme geri döndüğünün erken sinyali olur."
+   "10 yıllık ABD Hazine faizinin %4.75-5.00 bandına yaklaşması: hisse senedi değerlemelerine yönelik baskıyı yeniden gündeme getirebilir",
+   "WTI petrolün $80 üzerinde kalıcılığı: hem enflasyon hem de tüketici harcamaları üzerindeki yansımaları izlenmelidir",
+   "Russell 2000'in zirveye olan yakınlığı: küçük şirketlerin faiz hassasiyeti göz önünde bulundurulduğunda, breadth'in korunup korunmadığı kritik bir sağlık göstergesi olacak"
   ],
   "concept": {
-   "title": "Faiz-Hisse Rekabeti (Fed Model Gerilimi)",
-   "body": "Risksiz faiz oranı yükseldiğinde hisse senetlerinin gelecekteki kazançlarını iskonto etmek için kullanılan oran da artar; bu, teorik olarak hisse değerlemelerini aşağı çeker ve tahvillerle rekabeti kızıştırır. Mevcut ortamda faizlerin hızla yükselmesi, hisse breadth'inin güçlü kalmasına rağmen uzun vadeli yatırımcının iskonto oranı üzerindeki baskıyı göz ardı etmemesi gerektiğini hatırlatır."
+   "title": "Breadth (Genişlik) ve Piyasa Sağlığı",
+   "body": "Piyasa genişliği, ralliye katılan hisse ya da sektör sayısını ölçer; yükseliş yalnızca birkaç büyük şirkete dar kalıyorsa taban zayıf sayılır. Eşit ağırlıklı endeksin cap ağırlıklıyı geride bırakması ve sektörlerin %82'sinin 200 gün ortalaması üzerinde bulunması, mevcut rallinin nispeten sağlıklı ve tabana yayılmış bir yapıda olduğuna işaret ediyor."
   }
  }
 }

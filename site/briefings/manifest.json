@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-09-upcoming",
+  "date": "2026-08-09",
+  "ticker": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-09-reported",
+  "date": "2026-08-09",
+  "ticker": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-08-upcoming",
   "date": "2026-08-08",
   "ticker": "SMCI",
