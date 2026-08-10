@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-10-upcoming",
+  "date": "2026-08-10",
+  "ticker": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-10-reported",
+  "date": "2026-08-10",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-09-upcoming",
   "date": "2026-08-09",
   "ticker": "SMCI",

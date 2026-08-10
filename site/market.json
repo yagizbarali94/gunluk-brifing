@@ -1,6 +1,6 @@
 {
- "date": "2026-08-09",
- "generated_at": "2026-08-09T06:31:43+00:00",
+ "date": "2026-08-10",
+ "generated_at": "2026-08-10T06:59:42+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.6",
-    "note": "son 1 ay -%1.7",
+    "value": "99.7",
+    "note": "son 1 ay -%1.4",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$78.2",
-    "note": "son 1 ay +%12.9",
+    "value": "$78.0",
+    "note": "son 1 ay +%10.2",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Geniş tabanlı yükseliş sürüyor; döngüseller öne çıkıyor, ancak yükselen faizler ve petrol fiyatları makro zemini karmaşıklaştırıyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor ve eşit ağırlıklı endeksin cap ağırlıklıyı belirgin şekilde geride bırakması, rallinin dar bir teknoloji grubuyla değil, piyasanın geneline yayılmış şekilde ilerlediğine işaret ediyor. VIX'in 15'in altında kalması ve vade yapısının contango'da olması, opsiyon piyasasının yakın vadeli bir şok fiyatlamadığını gösteriyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 29 baz puan yükselmesi ve petrolün %13 değer kazanması, hem reel maliyetleri hem de enflasyon beklentilerini baskı altına alabilecek unsurlar olarak öne çıkıyor. Kredi piyasalarının sakin seyretmesi ve dolar endeksinin gerilemesi ise şimdilik sistemik bir stres sinyali vermiyor; rüzgâr arkadan esiyor, ama ilerleyen dönemde faiz ve enerji maliyetleri bu tablonun değişkenlerini oluşturuyor.",
+  "headline": "Yükseliş geniş tabana yayılmış ve döngüseller öncü konumda, ancak hızlı yükselen faizler ve güçlenen altın zeminde gerilimlere işaret ediyor.",
+  "read": "Üç ana endeksin de 200 günlük ortalamanın üzerinde olması ve sektörlerin yüzde sekseninin bu eşiği koruması, yükselişin dar bir teknoloji kupüründen değil, piyasanın genelinden beslendiğini gösteriyor. VIX 15 altında ve vade yapısı contangoda olduğundan kısa vadeli panik okuması yok; yatırımcılar opsiyon piyasasında belirgin bir tedbir almıyor. Bununla birlikte, on yıllık faizin bir ayda yüzde 4.66'ya fırlaması ve aynı dönemde altının yüzde 6.6 değer kazanması alışılmadık bir bileşim; bu durum piyasanın hem büyüme hem de enflasyon/likidite riskini aynı anda fiyatlamaya çalıştığına işaret ediyor. Dolar endeksinin geri çekilmesi ve petrolün güçlü seyri enerji ile emtia ağırlıklı sektörlere rüzgârı arkadan estirirken, gayrimenkul ve kamu hizmetlerinin faiz baskısı altında kaldığını teyit ediyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %4.75-5.00 bandına yaklaşması: hisse senedi değerlemelerine yönelik baskıyı yeniden gündeme getirebilir",
-   "WTI petrolün $80 üzerinde kalıcılığı: hem enflasyon hem de tüketici harcamaları üzerindeki yansımaları izlenmelidir",
-   "Russell 2000'in zirveye olan yakınlığı: küçük şirketlerin faiz hassasiyeti göz önünde bulundurulduğunda, breadth'in korunup korunmadığı kritik bir sağlık göstergesi olacak"
+   "10 yıllık ABD Hazine faizinin yüzde 4.80 eşiğini test edip etmeyeceği — bu seviyede hisse değerlemeleri üzerindeki baskı somutlaşabilir",
+   "Eşit ağırlıklı ile piyasa değeri ağırlıklı endeks arasındaki farkın korunup korunmayacağı — daralmaya başlarsa breadth bozulmasının erken sinyali olur",
+   "Altın ve petrolün eş anlı yükselişinin sürmesi — emtia enflasyonu beklentilerini yeniden fiyatlatırsa Fed politikası beklentileri sarsılabilir"
   ],
   "concept": {
-   "title": "Breadth (Genişlik) ve Piyasa Sağlığı",
-   "body": "Piyasa genişliği, ralliye katılan hisse ya da sektör sayısını ölçer; yükseliş yalnızca birkaç büyük şirkete dar kalıyorsa taban zayıf sayılır. Eşit ağırlıklı endeksin cap ağırlıklıyı geride bırakması ve sektörlerin %82'sinin 200 gün ortalaması üzerinde bulunması, mevcut rallinin nispeten sağlıklı ve tabana yayılmış bir yapıda olduğuna işaret ediyor."
+   "title": "Breadth Teyidi (Genişlik Onayı)",
+   "body": "Piyasa yükselişinin sağlıklı kabul edilebilmesi için kazancın yalnızca birkaç büyük hissede değil, geniş bir hisse evreninde görülmesi beklenir; buna 'breadth teyidi' denir. Eşit ağırlıklı endeksin piyasa değeri ağırlıklı endeksi belirgin biçimde geride bırakması, bugün bu teyidin mevcut olduğunu gösteriyor ve yükselişin yapısal dayanağını güçlendiriyor."
   }
  }
 }
