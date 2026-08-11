@@ -1,6 +1,6 @@
 {
- "date": "2026-08-10",
- "generated_at": "2026-08-10T06:59:42+00:00",
+ "date": "2026-08-11",
+ "generated_at": "2026-08-11T06:40:31+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7757.64,
-    "chg_1d": 0.62,
+    "last": 7753.11,
+    "chg_1d": -0.06,
     "above_50": true,
     "above_200": true,
-    "from_high": 0.0,
+    "from_high": -0.1,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29722.3,
-    "chg_1d": 1.19,
+    "last": 29621.8,
+    "chg_1d": -0.34,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.1,
+    "from_high": -3.4,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3034.49,
-    "chg_1d": 1.1,
+    "last": 3017.4,
+    "chg_1d": -0.56,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.1,
+    "from_high": -0.6,
     "state": "yükseliş trendi",
     "tone": "green"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 14.9,
+  "vix": 15.46,
   "vix3m": 20.54,
-  "zone": "sakin",
+  "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -6.8
+  "vix_chg_5d": -2.5
  },
  "breadth": {
-  "rsp_3m": 8.3,
-  "spy_3m": 5.1,
-  "spread": 3.2,
+  "rsp_3m": 8.4,
+  "spy_3m": 4.8,
+  "spread": 3.5,
   "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -65,113 +65,113 @@
  "sectors": {
   "rows": [
    {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": 7.5,
-    "group": "döngüsel"
-   },
-   {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 6.8,
+    "chg": 12.3,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": 4.8,
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 7.6,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": 4.8,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 3.8,
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": 5.0,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 3.3,
+    "chg": 4.8,
     "group": "defansif"
    },
    {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": 2.4,
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": 3.7,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": 2.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": 2.2,
+    "chg": 1.0,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": 0.5,
+    "chg": 0.7,
     "group": "defansif"
+   },
+   {
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": 0.5,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -0.6,
+    "chg": -1.2,
     "group": "defansif"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -5.6,
+    "chg": -6.3,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": -0.6,
+  "def_avg": -0.5,
   "cyc_avg": 4.6
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.66",
-    "note": "son 1 ay +%6.6",
+    "value": "%4.70",
+    "note": "son 1 ay +%7.4",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.95 puan",
+    "value": "+0.98 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.7",
-    "note": "son 1 ay -%1.4",
+    "value": "99.8",
+    "note": "son 1 ay -%1.3",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$398",
-    "note": "son 1 ay +%6.6",
+    "value": "$403",
+    "note": "son 1 ay +%9.2",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$78.0",
-    "note": "son 1 ay +%10.2",
+    "value": "$82.8",
+    "note": "son 1 ay +%19.1",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.7",
+    "value": "+%0.3",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Yükseliş geniş tabana yayılmış ve döngüseller öncü konumda, ancak hızlı yükselen faizler ve güçlenen altın zeminde gerilimlere işaret ediyor.",
-  "read": "Üç ana endeksin de 200 günlük ortalamanın üzerinde olması ve sektörlerin yüzde sekseninin bu eşiği koruması, yükselişin dar bir teknoloji kupüründen değil, piyasanın genelinden beslendiğini gösteriyor. VIX 15 altında ve vade yapısı contangoda olduğundan kısa vadeli panik okuması yok; yatırımcılar opsiyon piyasasında belirgin bir tedbir almıyor. Bununla birlikte, on yıllık faizin bir ayda yüzde 4.66'ya fırlaması ve aynı dönemde altının yüzde 6.6 değer kazanması alışılmadık bir bileşim; bu durum piyasanın hem büyüme hem de enflasyon/likidite riskini aynı anda fiyatlamaya çalıştığına işaret ediyor. Dolar endeksinin geri çekilmesi ve petrolün güçlü seyri enerji ile emtia ağırlıklı sektörlere rüzgârı arkadan estirirken, gayrimenkul ve kamu hizmetlerinin faiz baskısı altında kaldığını teyit ediyor.",
+  "headline": "Yükseliş geniş tabana yayılmış, döngüseller öne çıkmış; ancak petrol ve altındaki sert hareket ile faiz baskısı makro gerilimi işaret ediyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde, breadth sağlıklı ve eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin şekilde geride bırakması yükselişin dar bir teknoloji grubuna bağımlı olmadığını gösteriyor. VIX 15 civarında sakin seyrederken kredi piyasası da stres sinyali vermiyor; bu iki unsur mevcut ortamda panik ya da aşırı risk kaçışı olmadığına işaret ediyor. Öte yandan 10 yıllık faizin bir ayda yüzde 4,70'e ulaşması ve petrolün yüzde 19 ile altının yüzde 9 değer kazanması, piyasanın arka planında enflasyon ve makro belirsizlik konularının hâlâ canlı olduğunu gösteriyor. Zayıflayan dolar bu tabloya hem küresel risk iştahını destekleyen hem de reel faiz baskısına ilişkin soru işareti taşıyan çift yönlü bir renk katıyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 4.80 eşiğini test edip etmeyeceği — bu seviyede hisse değerlemeleri üzerindeki baskı somutlaşabilir",
-   "Eşit ağırlıklı ile piyasa değeri ağırlıklı endeks arasındaki farkın korunup korunmayacağı — daralmaya başlarsa breadth bozulmasının erken sinyali olur",
-   "Altın ve petrolün eş anlı yükselişinin sürmesi — emtia enflasyonu beklentilerini yeniden fiyatlatırsa Fed politikası beklentileri sarsılabilir"
+   "10 yıllık ABD tahvil faizinin yüzde 4,70 üzerinde tutunup tutunmadığı — hisse değerlemeleri üzerindeki baskı açısından kritik eşik",
+   "Petrol fiyatındaki momentumun devam edip etmediği ve buna bağlı olarak enerji sektörü liderliğinin sürdürülebilirliği",
+   "Teknoloji sektörünün toparlanıp breadth'e katılıp katılmayacağı ya da geride kalmaya devam edip etmeyeceği — yükselişin kalitesi açısından belirleyici"
   ],
   "concept": {
-   "title": "Breadth Teyidi (Genişlik Onayı)",
-   "body": "Piyasa yükselişinin sağlıklı kabul edilebilmesi için kazancın yalnızca birkaç büyük hissede değil, geniş bir hisse evreninde görülmesi beklenir; buna 'breadth teyidi' denir. Eşit ağırlıklı endeksin piyasa değeri ağırlıklı endeksi belirgin biçimde geride bırakması, bugün bu teyidin mevcut olduğunu gösteriyor ve yükselişin yapısal dayanağını güçlendiriyor."
+   "title": "Sektör Rotasyonu ve Rejim Sinyali",
+   "body": "Sektör rotasyonu, sermayenin döngüsel gruplar (enerji, finans, malzeme) ile defansif gruplar (kamu hizmetleri, sağlık) arasındaki ağırlık değişimini ifade eder ve yatırımcıların makro beklentileri hakkında ipucu taşır. Döngüsellerin önde olması genel olarak büyüme ve talep beklentisinin canlı olduğuna işaret ederken, bu rotasyonun faiz ve emtia hareketleriyle eş zamanlı gerçekleşmesi rejimi daha karmaşık bir okumaya açık hale getirir."
   }
  }
 }

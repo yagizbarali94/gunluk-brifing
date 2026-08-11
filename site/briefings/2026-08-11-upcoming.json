@@ -1,0 +1,363 @@
+{
+ "date": "2026-08-11",
+ "slot": "upcoming",
+ "generated_at": "2026-08-11T06:39:35+00:00",
+ "mock": false,
+ "ticker": "DDOG",
+ "company": {
+  "name": "Datadog, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 93639581696
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %11.5 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 260.78,
+  "change_pct": 10.73
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-06",
+  "next_date": "2026-11-05",
+  "last_label": "6 Ağustos",
+  "next_label": "5 Kasım",
+  "days_to_next": 86,
+  "progress_pct": 5
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.1B",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.65",
+   "sub": "Beat · beklenti $0.58",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%78.6",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$279M",
+   "sub": "marj %25",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 6 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.1B",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.83,
+       0.89,
+       0.95,
+       1.01,
+       1.12
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$45M",
+      "note": "+%1583 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.3,
+       3.8,
+       4.9,
+       5.2,
+       4.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.65",
+      "note": "beklenti $0.58 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%78.6",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       79.9,
+       80.1,
+       80.4,
+       79.2,
+       78.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%0.7",
+      "note": "+4.8 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -4.1,
+       -0.7,
+       0.8,
+       0.7,
+       0.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%3.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%4.7",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%0.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "6.04×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%3.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "63",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$279M",
+      "note": "marj %25",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-843M",
+      "note": "nakit $435M · borç $1.3B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirket kazanç açıklamasının ardından rehberliğini yukarı yönlü revize etti; analistlerin çoğunluğu fiyat hedeflerini 260-327 dolar bandına taşıdı.",
+      "note": "Yükseltilen rehberlik pozitif, ancak yalnızca tek büyük müşteri yenileme haberiyle gelen %11.5 sıçraması ardından hisse fiyatı bu iyimserliği hızla sindirdi.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "474.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "87.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "22.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "1084.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "87.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    0.8,
+    0.9,
+    1.0,
+    1.0,
+    1.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    79.9,
+    80.1,
+    80.4,
+    79.2,
+    78.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Datadog beklenti üzerinde kazanç açıkladı ve rehberliğini yükseltti; ancak Wall Street 'her şeyin tek bir müştereye bağlı olduğunu' söyleyerek hisseyi %19 düşürdü.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61033569/datadog-beat-earnings-raised-guidance-but-ddog-stock-still-plunged-19-as-wall-street-says-it-all-comes-down-to-one-customer",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Datadog, AI momentum ve 9 haneli müşteri yenileme haberiyle ralliye geçerek analistleri geride bıraktı.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/61045695/datadog-rallies-as-ai-momentum-nine-figure-renewal-win-over-analysts",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Citigroup Datadog'daki Al derecelendirmesini koruyarak fiyat hedefini 305 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-08-07",
+   "url": "https://www.benzinga.com/news/26/08/61055272/citigroup-maintains-buy-datadog-raises-price-target-305",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Scotiabank, Datadog için Sektör Üstü Getiri tavsiyesini sürdürerek fiyat hedefini 285 dolara çıkardı.",
+   "source": "benzinga",
+   "published": "2026-08-08",
+   "url": "https://www.benzinga.com/news/26/08/61060983/scotiabank-maintains-sector-outperform-datadog-raises-price-target-285",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Datadog, bulut altyapısı, uygulama performansı ve güvenlik izleme alanında SaaS tabanlı gözlemlenebilirlik platformu sunar. Başta teknoloji ve finans sektörü olmak üzere kurumsal müşterilere kullanım bazlı abonelik modeliyle hizmet verir.",
+  "note": "Datadog'un 36'lık gelir büyümesi ve Rule of 40 skoru 63, iş modelinin kalitesini tescil ediyor; platform genişliği ve müşteri kilitleme etkisi güçlü bir ekonomik hendek oluşturuyor. Ancak %78.6'ya gerileyen brüt marj ve tek bir büyük müşteriye bağımlılık vurgusunun yeniden gündeme gelmesi, 3-5 yıllık tezin iki kritik kırılganlığını işaret ediyor. AI gözlemlenebilirlik fırsatı gerçek bir büyüme katalizörü olmaya devam ediyor, bununla birlikte mevcut değerleme seviyeleri bu hikâyeyi büyük ölçüde fiyatlamış durumda.",
+  "counter": "Gelirin belirli büyük müşterilere aşırı konsantrasyonu (haber başlıklarında 'tek müşteri' riski), harcama daraltmaları veya platform değişikliğinde ciddi gelir şoku yaratabilir. Bunun yanında hyperscaler'ların (AWS, Azure, GCP) kendi yerel gözlemlenebilirlik araçlarını güçlendirmesi uzun vadede fiyatlama gücünü baskılayabilir.",
+  "watch": [
+   "Brüt marjın %79 eşiğini geri kazanıp kazanamayacağı — AI iş yükü maliyetlerinin platform ekonomisini ne ölçüde baskıladığını gösterir",
+   "Müşteri konsantrasyonu ve 9 haneli yenileme büyüklüğündeki gelirin toplam gelire oranı — tek müşteri riskinin sistematik mi yoksa geçici mi olduğunu netleştirir"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 0.8'den 1.1 milyar dolara çıkarak hızlanma sergiledi; %36 y/y büyüme bu ölçekte dikkat çekici bir tempo."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Faaliyet marjı negatiften %0.7'ye yükselse de brüt marj 80'in altına indi ve ROIC %3.4 ile sermaye maliyetini henüz anlamlı biçimde aşamıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 6.04x ve FCF marjı %25 ile muhasebe kârının çok üzerinde nakit üretimi gerçek kazanç kalitesine işaret ediyor; ancak %3.4 hisse seyrelmesi dikkate alınmalı."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç pozisyonu -843 milyon dolar ile hafif baskılı; güçlü FCF üretimiyle yönetilebilir düzeyde ancak net nakit pozisyonuna geçiş henüz gerçekleşmedi."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 87.9, Fiyat/FCF 87.3 ve FD/Satış 22.7 seviyeleri, mükemmel icraatın uzun yıllar sürmesini fiyatlıyor; tek müşteri riski gibi bir sürpriz bu katları hızla eritebilir."
+   }
+  ],
+  "concept": {
+   "title": "Net Gelir Saklama Oranı (Net Revenue Retention — NRR)",
+   "body": "NRR, mevcut müşteri tabanının bir önceki yıla kıyasla ne kadar harcadığını ölçer; yüksek NRR yeni müşteri kazanmadan da büyümeyi mümkün kılar. Datadog gibi kullanım bazlı modellerde NRR'nin %120 üzerinde kalması, mevcut müşterilerin platform genişledikçe daha fazla modül ve kullanım eklediğini, yani 'land and expand' stratejisinin işlediğini doğrular."
+  }
+ }
+}

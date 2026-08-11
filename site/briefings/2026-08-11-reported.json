@@ -1,0 +1,352 @@
+{
+ "date": "2026-08-11",
+ "slot": "reported",
+ "generated_at": "2026-08-11T06:40:22+00:00",
+ "mock": false,
+ "ticker": "SMCI",
+ "company": {
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 20350623744
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Bugün bilanço açıkladı (11 Ağustos)"
+ },
+ "price": {
+  "last": 31.46,
+  "change_pct": 0.25
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-05",
+  "next_date": "2026-08-11",
+  "last_label": "5 Mayıs",
+  "next_label": "11 Ağustos",
+  "days_to_next": 0,
+  "progress_pct": 100
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$10.2B",
+   "sub": "+%123 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.84",
+   "sub": "Beat · beklenti $0.62",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%9.9",
+   "sub": "+3.6 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-6.7B",
+   "sub": "marj %-65",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$10.2B",
+      "note": "+%123 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       4.6,
+       5.76,
+       5.02,
+       12.68,
+       10.24
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$483M",
+      "note": "+%344 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.4,
+       3.4,
+       3.4,
+       3.2,
+       4.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.84",
+      "note": "beklenti $0.62 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%9.9",
+      "note": "+3.6 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       9.6,
+       9.5,
+       9.3,
+       6.3,
+       9.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%6.1",
+      "note": "+2.9 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.2,
+       4.0,
+       3.6,
+       3.7,
+       6.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%8.1",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%17.9",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-5.49×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%11.3 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "102",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-6.7B",
+      "note": "marj %-65",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-7.5B",
+      "note": "nakit $1.3B · borç $8.8B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "16.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "9.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "0.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "miss",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    4.6,
+    5.8,
+    5.0,
+    12.7,
+    10.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    9.6,
+    9.5,
+    9.3,
+    6.3,
+    9.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "SMCI hissesi Pazartesi günü belirgin bir yükselişle işlem gördü; bilançoya ilişkin pozitif beklentiler öne çıktı.",
+   "source": "benzinga",
+   "published": "2026-08-10",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61072949/why-is-super-micro-computer-stock-surging-on-monday",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Analistler, kazanç açıklaması öncesinde SMCI'nin tarihsel değerleme ortalamalarına göre iskontolu işlem gördüğüne dikkat çekti.",
+   "source": "benzinga",
+   "published": "2026-08-09",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61064178/super-micro-computer-stock-trades-at-bargain-price-ahead-of-earnings",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "SMCI, bu hafta çift haneli fiyat hareketi beklenen yüksek volatiliteli hisseler arasında gösterildi.",
+   "source": "benzinga",
+   "published": "2026-08-09",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61063656/earnings-volatility-watch-applied-materials-implied-moves-august-2026",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "SMCI hissesinde Çarşamba günü yaşanan sert harekete ilişkin piyasa dinamikleri sorgulandı; kısa vadeli oynaklık ön plana çıktı.",
+   "source": "benzinga",
+   "published": "2026-08-05",
+   "url": "https://www.benzinga.com/markets/tech/26/08/60961512/whats-going-on-with-super-micro-computer-stock-wednesday-3",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Super Micro Computer (SMCI), yapay zeka ve veri merkezi iş yüklerine yönelik yüksek performanslı sunucular, depolama sistemleri ve raf çözümleri üretir. Başlıca müşterileri büyük bulut sağlayıcıları ve kurumsal veri merkezleridir; gelirini donanım satışı ve entegrasyon hizmetleriyle elde eder.",
+  "note": "SMCI, AI altyapısı patlamasının en doğrudan yararlanıcılarından biri olarak %123 büyüme yakaladı ve brüt marjı 3.6 puan artışla %9.9'a iyileşti; bu, yüksek hacimli sipariş baskısının hafiflediğine ve fiyatlandırma gücünün kısmen döndüğüne işaret ediyor. Bununla birlikte şirketin ekonomik hendeği kısıtlı: özgün IP'den çok hız ve özelleştirme kabiliyetine dayanan iş modeli, Dell ve HPE gibi rakiplerin agresif kapasiteyle girdiği bir pazarda sürdürülebilir marj avantajı oluşturmayı güçleştiriyor. 5 yıllık perspektiften bakıldığında, AI sunucu talebi yapısal kalıcılık taşısa da SMCI'nin bu büyümeden pay alma kapasitesi, sermaye yönetimi disiplini ve muhasebe güvenilirliği (geçmişteki SEC soruşturması) konularındaki belirsizliklere bağlı olmaya devam ediyor.",
+  "counter": "FCF'nin -6.7 milyar dolar (marj %-65) olması ve nakit dönüşümünün -5.49x seviyesinde seyretmesi, büyümenin büyük ölçüde işletme sermayesi ve stok birikimiyle finanse edildiğini gösteriyor; AI talep döngüsü yavaşlarsa bu negatif nakit yapısı ciddi likidite baskısına dönüşebilir. Üstüne bir de %11.3'lük hisse seyrelmesi eklenince hissedar değeri yaratma kapasitesi sorgulanır hale geliyor.",
+  "watch": [
+   "FCF'nin pozitife dönme hızı ve işletme sermayesi normalizasyonu: stok ve alacak yönetimi kâr kalitesinin gerçek göstergesi olacak",
+   "Brüt marjın %10 üzerinde kalıcılığı: Dell/HPE rekabeti ve NVIDIA ürün geçişleri (Blackwell→sonraki nesil) marj baskısı yaratabilir"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 12.7B zirvesinden 10.2B'ye gerilese de yıllık bazda %123 artış son 5 çeyreğin en güçlü büyüme oranına işaret ediyor ve trend yapısal taleple destekleniyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Marj trendi olumlu yönde kırılım yaşıyor (faaliyet marjı %6.1'e ulaştı) ancak ROIC %8.1 ile sermaye maliyetini ancak karşılayan seviyelerde kalıyor, bu da gerçek ekonomik katma değer yaratımını sınırlıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr oranının -5.49x olması ve %11.3 hisse seyrelmesiyle birleşince raporlanan kârların nakit karşılığı son derece zayıf; büyüme çoğunlukla agresif stok yüklemesi ve alacak birikimi ile finanse ediliyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç pozisyonunun -7.5 milyar dolara ulaşması ve negatif serbest nakit akışı, şirketin dış finansmana bağımlılığını artırıyor ve faiz/yeniden finansman riskini yükseltiyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 9.5 ve FD/Satış 0.8, AI altyapı büyüme hikayesi göz önüne alındığında oldukça cazip görünüyor; ancak kazanç kalitesi düşüklüğü ve bilanço riskleri bu ucuzluğun bir kısmını haklı kılıyor."
+   }
+  ],
+  "concept": {
+   "title": "Negatif Nakit Dönüşüm Döngüsü (Cash Conversion Risk)",
+   "body": "Nakit dönüşüm oranı (FCF/net kâr), raporlanan kârın ne kadarının gerçek nakde dönüştüğünü ölçer; SMCI'de bu oran -5.49x olup her 1 dolarlık net kâr için 5.49 dolar nakit çıkışı yaşandığını gösteriyor. Bu durum genellikle hızlı büyüyen şirketlerde stok ve alacak birikiminden kaynaklanır; ancak talep döngüsü tersine dönerse bu birikmiş stok nakit krizine dönüşebilir."
+  }
+ }
+}

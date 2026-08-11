@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-11-upcoming",
+  "date": "2026-08-11",
+  "ticker": "DDOG",
+  "name": "Datadog, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-11-reported",
+  "date": "2026-08-11",
+  "ticker": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-10-upcoming",
   "date": "2026-08-10",
   "ticker": "SMCI",
