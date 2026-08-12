@@ -1,0 +1,323 @@
+{
+ "date": "2026-08-12",
+ "slot": "upcoming",
+ "generated_at": "2026-08-12T06:59:51+00:00",
+ "mock": false,
+ "ticker": "MDB",
+ "company": {
+  "name": "MongoDB, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 35322486784
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.4 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 439.16,
+  "change_pct": 5.57
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-28",
+  "next_date": "2026-09-01",
+  "last_label": "28 Mayıs",
+  "next_label": "1 Eylül",
+  "days_to_next": 20,
+  "progress_pct": 79
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$688M",
+   "sub": "+%25 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.32",
+   "sub": "Beat · beklenti $1.18",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%72.2",
+   "sub": "-0.9 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$199M",
+   "sub": "marj %29",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$688M",
+      "note": "+%25 y/y",
+      "tone": "green",
+      "spark": [
+       0.55,
+       0.59,
+       0.63,
+       0.7,
+       0.69
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$4M",
+      "note": "-%112 y/y",
+      "tone": "amber",
+      "spark": [
+       -6.9,
+       -8.0,
+       -0.3,
+       2.2,
+       0.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.32",
+      "note": "beklenti $1.18 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%72.2",
+      "note": "-0.9 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       71.2,
+       71.0,
+       71.5,
+       73.0,
+       72.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-3.6",
+      "note": "+6.1 puan y/y",
+      "tone": "green",
+      "spark": [
+       -9.8,
+       -11.0,
+       -2.9,
+       0.0,
+       -3.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-0.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-1.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-1.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.6 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "48",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$199M",
+      "note": "marj %29",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$1.0B",
+      "note": "nakit $1.0B · borç $30M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "59.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "12.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-411.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "59.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    0.5,
+    0.6,
+    0.6,
+    0.7,
+    0.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    71.2,
+    71.0,
+    71.5,
+    73.0,
+    72.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Citigroup, MongoDB için Alım tavsiyesini koruyarak hedef fiyatı 545 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-08-11",
+   "url": "https://www.benzinga.com/news/26/08/61125315/citigroup-maintains-buy-mongodb-raises-price-target-545",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "MongoDB, doküman tabanlı NoSQL veritabanı platformu sunan bir bulut yazılım şirketidir. Gelirinin büyük bölümü Atlas (yönetilen bulut veritabanı) aboneliklerinden, geri kalanı kurumsal lisans ve destek hizmetlerinden gelir; binlerce uygulama geliştiricisi ve kurumsal müşteri temel hedef kitlesini oluşturur.",
+  "note": "MongoDB'nin Atlas platformu, geliştirici dostu yapısı ve çoklu bulut esnekliğiyle güçlü bir ağ etkisi (network effect) ve geçiş maliyeti (switching cost) hendeki oluşturmaktadır. %25 gelir büyümesi ve %29 FCF marjı ile Rule of 40 skoru 48'e ulaşması, iş modelinin nakit yaratma kalitesini teyit etmektedir. Bununla birlikte faaliyet ve net marj trendinin son iki çeyrekte bozulması, 3-5 yıllık tezin kilit ölçütü olan kârlılığa geçiş hikâyesinin henüz pekişmediğini göstermekte ve yakın izlem gerektirmektedir.",
+  "counter": "AWS DynamoDB, Google Firestore ve açık kaynak alternatifleri MongoDB'nin fiyatlama gücünü sınırlarken, büyük bulut sağlayıcılarının kendi yerel veritabanı hizmetlerini paket olarak sunması müşteri kazanım maliyetini artırabilir ve uzun vadeli pazar payı baskısı yaratabilir.",
+  "watch": [
+   "Atlas net yeni müşteri sayısı ve Atlas gelirinin toplam gelir içindeki payı (büyüme motorunun sağlığı)",
+   "Faaliyet marjının pozitife kalıcı olarak dönüp dönmeyeceği (kârlılığa geçiş hikâyesinin doğrulanması)"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Gelir %25 y/y büyürken çeyreklik gelir trendi 0,6–0,7 milyar dolar bandında yataylaşmış; büyüme sürmekte ancak hızlanma işareti görülmemektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Brüt marj %72 civarında makul seyretse de faaliyet marjı son iki çeyrekte negatife döndü, ROIC %-0,2 ile sermaye getirisi anlamlı değil."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "%29 FCF marjı ve 8 çeyrek üst üste beklenti aşımı, muhasebe kârının ötesinde gerçek nakit yaratan güçlü bir iş modeline işaret etmekte; %0,6 seyrelmesi ise makul düzeyde kalmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "1 milyar dolar net nakit pozisyonu, şirkete hem olası resesyon tamponunu hem de stratejik yatırım esnekliğini sağlamaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 59,9 ve Fiyat/FCF 59,7 çarpanları, kârlılık ivmesi henüz netleşmemişken yüksek büyüme primini tam fiyatlamakta; marjlarda kalıcı iyileşme olmadan mevcut değerleme savunulması güç."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "SaaS şirketlerinin sağlıklı büyüme-kârlılık dengesini ölçen bu kural, gelir büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ı geçmesini hedefler. MongoDB bu çeyrekte 25+23≈48 ile eşiğin üzerinde yer almakta; ancak büyüme yavaşlarken marjların da bozulması ilerleyen dönemlerde skoru aşağı çekebilir."
+  }
+ }
+}

@@ -1,0 +1,363 @@
+{
+ "date": "2026-08-12",
+ "slot": "reported",
+ "generated_at": "2026-08-12T07:00:35+00:00",
+ "mock": false,
+ "ticker": "SMCI",
+ "company": {
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 20441188352
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (11 Ağustos)"
+ },
+ "price": {
+  "last": 31.6,
+  "change_pct": -0.64
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-11",
+  "next_date": null,
+  "last_label": "11 Ağustos",
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$10.2B",
+   "sub": "+%123 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.70",
+   "sub": "Beat · beklenti $0.96",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%9.9",
+   "sub": "+3.6 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-6.7B",
+   "sub": "marj %-65",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 11 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$10.2B",
+      "note": "+%123 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       4.6,
+       5.76,
+       5.02,
+       12.68,
+       10.24
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$483M",
+      "note": "+%344 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.4,
+       3.4,
+       3.4,
+       3.2,
+       4.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.70",
+      "note": "beklenti $0.96 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%9.9",
+      "note": "+3.6 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       9.6,
+       9.5,
+       9.3,
+       6.3,
+       9.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%6.1",
+      "note": "+2.9 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.2,
+       4.0,
+       3.6,
+       3.7,
+       6.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%8.1",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%17.9",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-5.49×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%11.3 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "102",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-6.7B",
+      "note": "marj %-65",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-7.5B",
+      "note": "nakit $1.3B · borç $8.8B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Q1 FY27: Gelir $14.5-15.5B (konsensüs $12.0B), Adj. EPS $1.01-1.10 (konsensüs $0.72). FY2027 tam yıl gelir rehberi: $65-72B (konsensüs $53.1B).",
+      "note": "Hem çeyreklik hem yıllık rehber konsensüsü belirgin biçimde aştı; yönetim görünürlüğünün güçlendiğine işaret ediyor.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "16.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "7.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "0.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "miss",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    4.6,
+    5.8,
+    5.0,
+    12.7,
+    10.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26"
+   ],
+   "values": [
+    null,
+    9.6,
+    9.5,
+    9.3,
+    6.3,
+    9.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "SMCI, FY2027 için $65-72B gelir rehberi açıkladı; bu rakam $53.1B olan piyasa beklentisini yaklaşık %30 aşıyor.",
+   "source": "benzinga",
+   "published": "2026-08-11",
+   "url": "https://www.benzinga.com/news/26/08/61125840/super-micro-computer-sees-fy2027-sales-65-000b-72-000b-vs-53-111b-est",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Q1 FY27 satış rehberi $14.5-15.5B ile $12B olan konsensüsü ve EPS rehberi ise $0.72 beklentiye karşı $1.01-1.10 ile belirgin biçimde geçti.",
+   "source": "benzinga",
+   "published": "2026-08-11",
+   "url": "https://www.benzinga.com/news/26/08/61126064/super-micro-computer-sees-q1-adj-eps-1-01-1-10-vs-0-72-est-sees-sales-14-500b-15-500b-vs-12-016b-est",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "SMCI rekor AI sipariş rezervine sahip ancak CFO, GPU nesil geçişlerinde yanlış envanter tutmanın ciddi risk oluşturduğunu açıkça vurguladı.",
+   "source": "benzinga",
+   "published": "2026-08-12",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61132617/super-micro-record-ai-backlog-gpu-transitions-inventory",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "FY26'da $1B üzerinde gelir sağlanan müşteri sayısı dörtten dokuza yükseldi; kurumsal ve kanal müşterilerinde de talep ivmelendi.",
+   "source": "benzinga",
+   "published": "2026-08-11",
+   "url": "https://www.benzinga.com/news/26/08/61130180/super-micro-computer-cfo-says-had-9-customers-revenues-greater-1b-each-fy26-versus-4-such-customers-",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Super Micro Computer, yüksek performanslı sunucu ve depolama sistemleri tasarlayıp üretir; başta AI/HPC iş yüklerine yönelik GPU entegre rack çözümleri sunar. Gelirini donanım satışı ve ölçekli veri merkezi müşterilerine (hyperscaler, bulut ve kurumsal) yapılan sistem teslimatlarından elde eder.",
+  "note": "SMCI, AI altyapı harcama dalgasının tam merkezinde konumlanmış bir sistem entegratörüdür; record backlog ve FY27 için $65-72B gelir rehberi uzun vadeli talebin sağlam olduğuna işaret etmektedir. Ancak şirketin 'moat'u sınırlı: GPU geçişlerinde envanter riski, müşteri yoğunlaşması (FY26'da 9 müşteri >$1B) ve düşük tek haneli brüt marjlar, rekabetçi baskının ne denli yüksek olduğunu gösteriyor. 5 yıllık perspektiften bakıldığında tez, SMCI'ın AI altyapı büyümesini yakalayıp yakalayamayacağından çok marj yapısını ve nakit üretimini iyileştirip iyileştiremeyeceğine bağlıdır.",
+  "counter": "Şirketin brüt marjı kalıcı olarak düşük tek hanelerde seyretmekte ve FCF ciddi ölçüde negatif; GPU nesil geçişlerinde yanlış envanter pozisyonlaması hem marjı hem bilançoyu hızla bozabilir. Nvidia'ya bağımlılık ve büyük donanım OEM'leriyle (Dell, HPE) artan rekabet, fiyatlama gücünü kalıcı olarak kısıtlayabilir.",
+  "watch": [
+   "Brüt marjın GPU nesil geçişleri ve yeni sözleşme karışımı altında %9+ seviyesinde sürdürülebilirliği",
+   "FCF'nin pozitife dönüş hızı ve işletme sermayesi döngüsünün normalleşip normalleşmediği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir y/y %123 artmış, Q1 FY27 rehberi $14.5-15.5B ile konsensüsü belirgin biçimde aşıyor; büyüme momentumu güçlü seyretmektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj %9.9 ile çeyreklik en yüksek seviyeye ulaşmış ve faaliyet marjı %6.1'e çıkmış olsa da mutlak marj seviyeleri düşük kalmakta; ROIC %8.1 ise sermaye maliyetini yüzde olarak zar zor karşılamaktadır."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr çarpanı -5.49x ile kârların nakde dönüşmediğini açıkça ortaya koymakta; üstelik %11.3 hisse seyrelmesi hissedar değerini aşındırmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç pozisyonu -$7.5B ve TTM FCF -$6.7B; agresif büyüme harcamaları bilançoyu zorlamakta ve ek finansman ihtiyacı riski taşımaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 7.8 ve FD/Satış 0.8, %123 büyüme ve güçlü FY27 rehberi göz önüne alındığında son derece düşük görünmekte; baskılanmış değerleme cazip bir giriş fırsatı sunmakta ancak bilanço riskleri iskontoyu haklı kılıyor."
+   }
+  ],
+  "concept": {
+   "title": "İşletme Sermayesi Tuzağı (Working Capital Trap)",
+   "body": "Hızlı büyüyen donanım şirketlerinde gelir artışı kârdan önce nakit çıkışına yol açabilir: stok birikimi, alıcı kredileri ve uzun tedarik zincirleri FCF'yi kârın çok altında tutar. SMCI'da tam olarak bu durum yaşanmakta; EPS rekor kırarken TTM FCF -$6.7B ile şirket büyümesini dışarıdan finanse etmek zorunda kalmaktadır."
+  }
+ }
+}
