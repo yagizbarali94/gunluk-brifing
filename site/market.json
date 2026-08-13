@@ -1,6 +1,6 @@
 {
- "date": "2026-08-12",
- "generated_at": "2026-08-12T07:00:43+00:00",
+ "date": "2026-08-13",
+ "generated_at": "2026-08-13T07:05:13+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7728.2,
-    "chg_1d": -0.32,
+    "last": 7748.5,
+    "chg_1d": 0.26,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.4,
+    "from_high": -0.1,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29525.48,
-    "chg_1d": -0.33,
+    "last": 29742.6,
+    "chg_1d": 0.74,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.7,
+    "from_high": -3.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3027.12,
-    "chg_1d": 0.32,
+    "last": 3045.48,
+    "chg_1d": 0.61,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.3,
+    "from_high": 0.0,
     "state": "yükseliş trendi",
     "tone": "green"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.28,
+  "vix": 14.55,
   "vix3m": 20.54,
-  "zone": "normal",
+  "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -7.4
+  "vix_chg_5d": -8.0
  },
  "breadth": {
-  "rsp_3m": 8.7,
-  "spy_3m": 4.7,
-  "spread": 4.0,
+  "rsp_3m": 9.4,
+  "spy_3m": 4.3,
+  "spread": 5.0,
   "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -67,111 +67,111 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 14.7,
+    "chg": 15.6,
     "group": "döngüsel"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 7.8,
+    "chg": 5.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 5.9,
+    "chg": 5.6,
     "group": "defansif"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 4.7,
+    "chg": 3.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 3.9,
+    "chg": 2.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": 2.0,
+    "chg": 2.1,
     "group": "defansif"
    },
    {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
+    "ticker": "XLK",
+    "name": "Teknoloji",
     "chg": 1.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": 0.3,
+    "chg": 1.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": 0.1,
+    "chg": 1.0,
     "group": "defansif"
    },
    {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": -2.3,
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": -0.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -3.8,
+    "chg": -2.1,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 1.1,
-  "cyc_avg": 4.4
+  "def_avg": 1.6,
+  "cyc_avg": 4.3
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
     "value": "%4.68",
-    "note": "son 1 ay +%6.0",
+    "note": "son 1 ay +%4.6",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.95 puan",
+    "value": "+0.98 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.9",
-    "note": "son 1 ay -%1.5",
+    "value": "100.0",
+    "note": "son 1 ay -%0.8",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$401",
-    "note": "son 1 ay +%8.8",
+    "value": "$405",
+    "note": "son 1 ay +%9.3",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$83.5",
-    "note": "son 1 ay +%21.8",
+    "value": "$82.9",
+    "note": "son 1 ay +%20.6",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.4",
+    "value": "+%0.5",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Yükseliş geniş tabanlı ve döngüseller öndeyken petrol, altın ve yükselen faizler arka planda makro baskıyı artırıyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde, eşit ağırlıklı endeks cap ağırlıklıyı belirgin biçimde geride bırakıyor ve sektörlerin yüzde sekseninin üstü sağlıklı görünüyor; bu tablo katılımın geniş olduğunu gösteriyor. VIX 15 civarında sakin, kredi spreadleri baskı altında değil; kısa vadeli korku zemini şu an düşük. Öte yandan 10 yıllık faizin bir ayda yüzde altı sıçraması ve petrolün yüzde yirmi ikiyi aşan yükselişi enflasyon beklentilerini yeniden fiyatlamaya açık kapı bırakıyor; bu durum özellikle değerleme çarpanları yüksek olan büyüme hisselerini kırılgan kılıyor. Teknolojinin geride kalması, döngüsel rotasyonun bir yansıması olarak okunabilir; ancak faizlerin bu hızda tırmanmaya devam etmesi halinde riski yeniden fiyatlama süreci daha geniş bir alana yayılabilir.",
+  "headline": "Piyasa geniş tabanlı bir yükselişte; ancak petrol fiyatlarının sert artışı ve yükselen faizler zemini karmaşıklaştırıyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde ve Russell 2000'in zirveye yapışık olması yükselişin yalnızca büyük teknolojiye değil, küçük ve orta ölçekli şirketlere de yayıldığını gösteriyor; bu breadth sağlığı için olumlu bir işaret. VIX 14.55'te seyredip vade yapısı contango'da kaldığı sürece piyasanın kısa vadeli bir panik senaryosunu fiyatlamadığı söylenebilir. Öte yandan 10 yıllık faizin bir ayda yaklaşık 21 baz puan yükselerek yüzde 4.68'e ulaşması ve petrolün tek ayda yüzde 20'yi aşan sıçraması, hem büyüme hem de enflasyon beklentilerini yeniden sorgulatıyor; altının da aynı dönemde yüzde 9 artması bu belirsizliği teyit ediyor. Dolar'ın biraz geri çekilmesi gelişmekte olan piyasalar için soluk aldırsa da faiz-emtia kombinasyonu uzun vadeli yatırımcı için koşulların göründüğü kadar pürüzsüz olmadığına işaret ediyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin yüzde 4.75-5.00 bant testini yapıp yapmayacağı — hisse değerlemelerine geçişkenlik açısından kritik eşik",
-   "Petrol fiyatının kalıcı mı yoksa kısa süreli mi yükseldiği — süregelen yükseliş çekirdek enflasyon beklentilerini tekrar yukarı çekebilir",
-   "Teknoloji sektörünün breadth ile arasındaki makasın kapanıp kapanmayacağı — kapanırsa rotasyon sağlıklı, kapanmazsa liderlik daralıyor anlamına gelir"
+   "10 yıllık ABD tahvil faizinin yüzde 4.75-5.00 bandına yaklaşıp yaklaşmadığı — bu eşik hisse değerlemelerinde yeniden baskı yaratabilir",
+   "Petrol fiyatının kalıcılığı ve bunun tüketici güveni ile Fed söylemine nasıl yansıyacağı",
+   "Russell 2000'in zirve bölgesini koruyup koruyamayacağı — breadth'in sağlığını test eden en önemli sinyal"
   ],
   "concept": {
-   "title": "Sektör Rotasyonu",
-   "body": "Sektör rotasyonu, paranın bir piyasa döngüsünden diğerine geçişte farklı sektörler arasında yer değiştirmesi sürecidir; enerji ve finansalın öne çıkıp teknolojinin geride kalması genellikle ekonominin genişleme ya da yeniden reflasyon aşamasında olduğuna işaret eder. Bu tablo tek başına yön tahmini yapmaya yetmez, ancak mevcut koşullarda hangi risk türlerinin fiyatlanmakta olduğunu anlamak için güçlü bir bağlam sunar."
+   "title": "Breadth (Yükseliş Genişliği)",
+   "body": "Breadth, bir piyasa yükselişine katılan hisse veya sektör sayısının ne kadar geniş olduğunu ölçer; eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde geçmesi, kazanımların yalnızca birkaç büyük şirkete değil, piyasanın geniş bir kesimine yayıldığını gösterir. Dar bir breadth ise yükselişin kırılganlığına işaret eder; çünkü lokomotif hisseler tökezlediğinde endeksi taşıyacak başka destek kalmaz."
   }
  }
 }
