@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-14-upcoming",
+  "date": "2026-08-14",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-14-reported",
+  "date": "2026-08-14",
+  "ticker": "NET",
+  "name": "Cloudflare, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-13-upcoming",
   "date": "2026-08-13",
   "ticker": "ANET",

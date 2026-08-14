@@ -1,6 +1,6 @@
 {
- "date": "2026-08-13",
- "generated_at": "2026-08-13T07:05:13+00:00",
+ "date": "2026-08-14",
+ "generated_at": "2026-08-14T07:01:39+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,30 +12,30 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7748.5,
-    "chg_1d": 0.26,
+    "last": 7798.99,
+    "chg_1d": 0.65,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.1,
+    "from_high": 0.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29742.6,
-    "chg_1d": 0.74,
+    "last": 30084.5,
+    "chg_1d": 1.15,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.0,
+    "from_high": -1.9,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3045.48,
-    "chg_1d": 0.61,
+    "last": 3052.85,
+    "chg_1d": 0.24,
     "above_50": true,
     "above_200": true,
     "from_high": 0.0,
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 14.55,
-  "vix3m": 20.54,
+  "vix": 14.63,
+  "vix3m": 18.61,
   "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -8.0
+  "vix_chg_5d": -3.4
  },
  "breadth": {
-  "rsp_3m": 9.4,
-  "spy_3m": 4.3,
-  "spread": 5.0,
+  "rsp_3m": 9.7,
+  "spy_3m": 4.2,
+  "spread": 5.5,
   "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -67,111 +67,111 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 15.6,
+    "chg": 14.7,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": 5.7,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLV",
-    "name": "Sağlık",
+    "ticker": "XLK",
+    "name": "Teknoloji",
     "chg": 5.6,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": 3.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
+    "chg": 5.1,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 4.7,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLB",
+    "name": "Malzeme",
     "chg": 2.9,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLV",
+    "name": "Sağlık",
+    "chg": 2.8,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 2.5,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLI",
+    "name": "Sanayi",
+    "chg": 1.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": 2.1,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 1.7,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLI",
-    "name": "Sanayi",
-    "chg": 1.4,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 1.0,
+    "chg": 1.2,
     "group": "defansif"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": -0.2,
+    "chg": 1.0,
     "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -2.1,
+    "chg": -3.8,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 1.6,
-  "cyc_avg": 4.3
+  "def_avg": 0.7,
+  "cyc_avg": 5.1
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.68",
-    "note": "son 1 ay +%4.6",
+    "value": "%4.64",
+    "note": "son 1 ay -%1.3",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.98 puan",
+    "value": "+0.94 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.0",
-    "note": "son 1 ay -%0.8",
+    "value": "99.8",
+    "note": "son 1 ay -%1.3",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$405",
-    "note": "son 1 ay +%9.3",
+    "value": "$399",
+    "note": "son 1 ay +%5.5",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$82.9",
-    "note": "son 1 ay +%20.6",
+    "value": "$82.1",
+    "note": "son 1 ay +%19.8",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.5",
+    "value": "+%0.7",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Piyasa geniş tabanlı bir yükselişte; ancak petrol fiyatlarının sert artışı ve yükselen faizler zemini karmaşıklaştırıyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde ve Russell 2000'in zirveye yapışık olması yükselişin yalnızca büyük teknolojiye değil, küçük ve orta ölçekli şirketlere de yayıldığını gösteriyor; bu breadth sağlığı için olumlu bir işaret. VIX 14.55'te seyredip vade yapısı contango'da kaldığı sürece piyasanın kısa vadeli bir panik senaryosunu fiyatlamadığı söylenebilir. Öte yandan 10 yıllık faizin bir ayda yaklaşık 21 baz puan yükselerek yüzde 4.68'e ulaşması ve petrolün tek ayda yüzde 20'yi aşan sıçraması, hem büyüme hem de enflasyon beklentilerini yeniden sorgulatıyor; altının da aynı dönemde yüzde 9 artması bu belirsizliği teyit ediyor. Dolar'ın biraz geri çekilmesi gelişmekte olan piyasalar için soluk aldırsa da faiz-emtia kombinasyonu uzun vadeli yatırımcı için koşulların göründüğü kadar pürüzsüz olmadığına işaret ediyor.",
+  "headline": "Trend sağlam ve tabana yayılmış; petrol sürprizi ile dolar zayıflığı altında makro tablo karmaşıklaşıyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor ve eşit ağırlıklı endeksin cap ağırlıklıyı belirgin biçimde geride bırakması yükselişin yalnızca birkaç büyük hisseye değil, geniş bir tabana dayandığını gösteriyor. VIX'in 14-15 bandında contango yapısıyla seyretmesi piyasanın kısa vadeli risk algısının düşük olduğuna işaret ediyor; kredi piyasasındaki sakinlik de bu görüntüyü destekliyor. Öte yandan WTI petrolünün bir ayda yaklaşık yüzde yirmi artması ve altının güçlü seyretmesi, dolar zayıflığıyla bir arada değerlendirildiğinde enflasyon beklentilerinde ya da jeopolitik gerginlikte fiyatlanmamış bir unsur olabileceğine dair dikkat gerektiriyor. On yıllık faizin yüzde 4.64'te bulunması hisse değerlemelerine baskı yapabilecek bir zemin oluşturuyor; ancak getiri eğrisinin pozitife dönmüş olması ekonomik daralma korkusunun şimdilik gündemde olmadığını gösteriyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin yüzde 4.75-5.00 bandına yaklaşıp yaklaşmadığı — bu eşik hisse değerlemelerinde yeniden baskı yaratabilir",
-   "Petrol fiyatının kalıcılığı ve bunun tüketici güveni ile Fed söylemine nasıl yansıyacağı",
-   "Russell 2000'in zirve bölgesini koruyup koruyamayacağı — breadth'in sağlığını test eden en önemli sinyal"
+   "Petrol fiyatındaki ivmenin sürdürülebilirliği: WTI'daki sert yükselişin enflasyon beklentilerine ve Fed söylemine yansıyıp yansımadığı",
+   "10 yıllık Hazine faizinin yönü: faiz yüzde 4.8-5.0 bandına doğru hareket ederse büyüme hisselerindeki değerleme baskısı artabilir",
+   "Dolar endeksinin (DXY) 100 seviyesi altındaki seyri: zayıf dolara bağlı emtia ve uluslararası hisse avantajının devam edip etmeyeceği"
   ],
   "concept": {
-   "title": "Breadth (Yükseliş Genişliği)",
-   "body": "Breadth, bir piyasa yükselişine katılan hisse veya sektör sayısının ne kadar geniş olduğunu ölçer; eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde geçmesi, kazanımların yalnızca birkaç büyük şirkete değil, piyasanın geniş bir kesimine yayıldığını gösterir. Dar bir breadth ise yükselişin kırılganlığına işaret eder; çünkü lokomotif hisseler tökezlediğinde endeksi taşıyacak başka destek kalmaz."
+   "title": "Breadth Genişliği (Market Breadth)",
+   "body": "Piyasa genişliği, yükselişe katılan hisse veya sektör sayısını ölçerek rallinin ne kadar geniş tabanlı olduğunu anlatır. Eşit ağırlıklı endeksin cap ağırlıklıyı geçmesi gibi bugün gözlemlediğimiz tablo, yükselişin birkaç dev şirkete değil, küçük ve orta ölçekli şirketlere de yayıldığını gösterir; bu durum genellikle daha sağlıklı ve sürdürülebilir bir piyasa ortamının işareti olarak değerlendirilir."
   }
  }
 }

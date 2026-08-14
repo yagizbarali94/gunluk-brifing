@@ -1,0 +1,352 @@
+{
+ "date": "2026-08-14",
+ "slot": "reported",
+ "generated_at": "2026-08-14T07:01:29+00:00",
+ "mock": false,
+ "ticker": "NET",
+ "company": {
+  "name": "Cloudflare, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 117801844736
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %6.2 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 330.83,
+  "change_pct": 6.12
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-06",
+  "next_date": "2026-10-29",
+  "last_label": "6 Ağustos",
+  "next_label": "29 Ekim",
+  "days_to_next": 76,
+  "progress_pct": 10
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$696M",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.29",
+   "sub": "Beat · beklenti $0.27",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%71.8",
+   "sub": "+0.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$56M",
+   "sub": "marj %8",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 6 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$696M",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.51,
+       0.56,
+       0.61,
+       0.64,
+       0.7
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-170M",
+      "note": "+%237 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -9.8,
+       -0.2,
+       -2.0,
+       -3.6,
+       -24.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.29",
+      "note": "beklenti $0.27 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%71.8",
+      "note": "+0.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       74.9,
+       74.0,
+       73.6,
+       71.2,
+       71.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-7.9",
+      "note": "+5.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -13.1,
+       -6.7,
+       -8.0,
+       -9.7,
+       -7.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-2.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-14.4",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-2.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%2.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "48",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$56M",
+      "note": "marj %8",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.9B",
+      "note": "nakit $1.7B · borç $3.5B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "198.0×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "46.6×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-23215.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "374.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    0.5,
+    0.6,
+    0.6,
+    0.6,
+    0.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    74.9,
+    74.0,
+    73.6,
+    71.2,
+    71.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Cloudflare, 2031 vadeli $2.175B sıfır faizli konvertibl tahvil ihracını fiyatlandırdı; bu hamle büyüme yatırımlarını finanse etmek için tasarlanmış ancak seyreltme riski taşıyor.",
+   "source": "benzinga",
+   "published": "2026-08-13",
+   "url": "https://www.benzinga.com/markets/large-cap/26/08/61180338/cloudflare-prices-2-175b-zero-interest-convertible-notes-due-2031",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Cloudflare'in devlet platformu FedRAMP High sertifikasyonu aldı; bu gelişme kamu sektörü gelirlerini önemli ölçüde artırabilir.",
+   "source": "benzinga",
+   "published": "2026-08-10",
+   "url": "https://www.benzinga.com/news/26/08/61073742/cloudflare-government-receives-fedramp-high-certification-and-govramp-moderate-authorization",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Citigroup, Cloudflare için fiyat hedefini $400'a yükselterek Al tavsiyesini korudu.",
+   "source": "benzinga",
+   "published": "2026-08-10",
+   "url": "https://www.benzinga.com/news/26/08/61078036/citigroup-maintains-buy-cloudflare-raises-price-target-400",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Susquehanna, Cloudflare'i Nötr olarak tutarak fiyat hedefini $300'a çıkardı; analistler arasındaki değerleme ayrışması dikkat çekici.",
+   "source": "benzinga",
+   "published": "2026-08-10",
+   "url": "https://www.benzinga.com/news/26/08/61074268/susquehanna-maintains-neutral-cloudflare-raises-price-target-300",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Cloudflare, küresel bir ağ altyapısı ve siber güvenlik platformu işleterek web sitelerini, API'leri ve kurumsal ağları hızlandırır ve korur. Gelirini ağırlıklı olarak abonelik tabanlı SaaS modeliyle işletme, KOBİ ve devlet kurumu müşterilerinden elde eder.",
+  "note": "Cloudflare'in 36 yıllık büyüme hızı ve Rule of 40 skoru 48 ile iş modeli gücünü koruyor; ağ efektine dayalı platformu her yeni ürünle güçlenen bir moat yaratıyor. FedRAMP High sertifikasyonu devlet segmentine ciddi bir kapı açarken, $2.175B sıfır faizli konvertibl tahvil ihracı şirketin ileriye dönük büyük yatırım kapasitesini işaret ediyor. Ancak brüt marjın son 5 çeyrekte ~3 puan gerilemesi ve negatif ROIC, ölçek ekonomisinin henüz tam anlamıyla teslim edilemediğini gösteriyor; 3-5 yıllık tez geçerliliğini korusa da marj disiplini kritik olmaya devam edecek.",
+  "counter": "Büyük bulut sağlayıcıları (AWS, Google, Azure) kendi güvenlik ve CDN çözümlerini giderek entegre ederek Cloudflare'in adreslenebilir pazarını daraltabilir. Ayrıca konvertibl tahvil ihraçlarının yarattığı seyreltme baskısı ve negatif serbest nakit akışı marjı (sadece %8) yüksek değerlemeyi savunmasız kılıyor.",
+  "watch": [
+   "Brüt marjın %73+ bandına geri dönüp dönemeyeceği — ölçek ekonomisinin gerçekten devreye girip girmediğinin en net göstergesi",
+   "Devlet ve büyük kurumsal müşteri (büyük yıllık sözleşme) büyümesi — FedRAMP sertifikasyonu sonrası kamu gelirlerinin toplam gelir içindeki payı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Yıllık %36 gelir artışı ve çeyrekten çeyreğe $0.5B'dan $0.7B'a yükselen gelir trendi, büyüme ivmesinin güçlü seyrettiğini gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Brüt marj son 5 çeyrekte 3 puan gerilemiş olsa da son çeyrekte toparlanma var; ancak ROIC -%2.3 ve faaliyet marjının hâlâ negatif olması sermaye verimliliğinin yetersiz kaldığını gösteriyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF marjı yalnızca %8 ve yıllık %2 hisse seyrelmesi sürerken, art arda EPS beat'leri olumlu ancak net marjın -24.4'e düşmesi (muhtemelen tek seferlik kalem) kazanç kalitesini sorgulatıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "$2.175B yeni konvertibl tahvil ihracıyla birlikte net borç pozisyonu $-1.9B'a ulaşmış durumda; nakit tampon olsa da artan kaldıraç risk profilini yükseltiyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 198x, FD/Satış 46.6x ve Fiyat/FCF 374x seviyeleri mükemmel senaryoyu fiyatlıyor; yüksek büyüme sürmezse ya da marjlar beklenenden yavaş genişlerse değerleme savunulamaz hale gelir."
+   }
+  ],
+  "concept": {
+   "title": "Sıfır Faizli Konvertibl Tahvil (Zero-Coupon Convertible Note)",
+   "body": "Şirketin nakit faiz ödemeksizin borçlanmasına imkân tanıyan bu enstrüman, yatırımcıya faiz yerine hisseye dönüşüm hakkı sunar. Cloudflare, $2.175B'ı sıfır faizle ve %60 prim üzerinden dönüşüm fiyatıyla ihraç ederek bugünkü yüksek hisse fiyatından yararlanıyor; ancak ileride hisse fiyatı yüksek kalırsa dönüşüm gerçekleşip seyreltme yaratacak."
+  }
+ }
+}
