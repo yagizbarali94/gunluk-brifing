@@ -1,0 +1,352 @@
+{
+ "date": "2026-08-15",
+ "slot": "upcoming",
+ "generated_at": "2026-08-15T06:02:26+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 839728824320
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %6.5 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 514.39,
+  "change_pct": 5.66
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-04",
+  "next_date": "2026-11-03",
+  "last_label": "4 Ağustos",
+  "next_label": "3 Kasım",
+  "days_to_next": 80,
+  "progress_pct": 12
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.5B",
+   "sub": "+%50 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.66",
+   "sub": "Beat · beklenti $1.61",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.8",
+   "sub": "+0.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.6B",
+   "sub": "marj %14",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.5B",
+      "note": "+%50 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       7.68,
+       9.25,
+       10.27,
+       10.25,
+       11.54
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.3B",
+      "note": "+%163 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       11.3,
+       13.4,
+       14.7,
+       13.5,
+       19.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.66",
+      "note": "beklenti $1.61 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.8",
+      "note": "+0.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       39.8,
+       51.7,
+       54.3,
+       52.8,
+       53.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%17.3",
+      "note": "+19.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -1.7,
+       13.7,
+       17.1,
+       14.4,
+       17.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%9.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%10.2",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.31×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.6B",
+      "note": "marj %14",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$810M",
+      "note": "nakit $5.1B · borç $4.3B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "123.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "33.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "20.1×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "86.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "99.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "inline",
+  "inline",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    7.7,
+    9.2,
+    10.3,
+    10.3,
+    11.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    39.8,
+    51.7,
+    54.3,
+    52.8,
+    53.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "AMD, yapay zeka altyapısını finanse etmek için rekor düzeyde 5 milyar dolarlık tahvil ihracına hazırlanıyor.",
+   "source": "benzinga",
+   "published": "2026-08-13",
+   "url": "https://www.benzinga.com/markets/offerings/26/08/61186347/amd-prepares-record-5b-bond-sale-to-fuel-massive-ai-expansion",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "AMD'nin 2027 sunucu gelir beklentisi, tüm 2025 pazar büyüklüğünün %20 üzerinde seyretmeye başladı.",
+   "source": "benzinga",
+   "published": "2026-08-13",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61172863/amds-2027-server-revenue-outlook-is-already-20-bigger-than-the-entire-2025-market",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "BofA Securities, CPU pazarında 210 milyar dolarlık büyüme öngörüyor ve AMD bu tablodan pay alacak şirketler arasında gösteriliyor.",
+   "source": "benzinga",
+   "published": "2026-08-13",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61181681/bofa-210-billion-cpu-boom-amd-intel-arm",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Appaloosa Management, AMD'deki hisse pozisyonunu %11 azaltarak 197.500 hisseye indirdi.",
+   "source": "benzinga",
+   "published": "2026-08-14",
+   "url": "https://www.benzinga.com/quote/AMD",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "AMD, veri merkezi GPU'ları (Instinct serisi), sunucu CPU'ları (EPYC), PC işlemcileri (Ryzen) ve gömülü çipler tasarlayıp pazarlayan bir yarı iletken şirketidir. Üretimi TSMC gibi üçüncü taraflara devreder; gelirini donanım satışı ve lisans anlaşmalarıyla elde eder.",
+  "note": "AMD, yapay zeka hızlandırıcı pazarında Nvidia'nın tek gerçekçi alternatifi konumuna yerleşmekte; %50 y/y büyüme ve Rule of 40 skoru 70 ile bu geçiş döneminde güçlü bir ivme yakalamıştır. EPYC'nin sunucu pazarındaki pay artışı ve MI serisi GPU'ların bulut müşterileri nezdinde kabul görmesi, 3-5 yıllık tezi destekliyor. Bununla birlikte 5 milyar dolarlık borç ihracı, büyüme için gereken sermaye yoğunluğunun arttığına işaret ederek ROIC üzerinde baskı yaratabilir.",
+  "counter": "Nvidia'nın CUDA ekosistemi müşteri tarafında derin bir bağımlılık yaratmış olup AMD'nin ROCm platformu bu hendeki aşmakta zorlanıyor; yazılım farklılaşması sağlanamadığı takdirde GPU pazar payı kazanımı yapısal değil döngüsel kalabilir.",
+  "watch": [
+   "MI serisi GPU'ların hiperölçekli bulut müşterileri (Microsoft, Meta, Google) arasındaki penetrasyonu ve ROCm yazılım olgunlaşması",
+   "5 milyar dolarlık borç ihracının ROIC ve serbest nakit akışı marjına etkisi; sermaye tahsisinin verimliliği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir önceki çeyrekteki 10.2 milyar dolardan 11.5 milyar dolara sıçrayarak y/y bazda %50 büyüdü; kısa bir duraklamanın ardından ivme yeniden hızlanıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt ve faaliyet marjları yükseliş trendinde olsa da ROIC %9.8 ve ROE %10.2, büyüme hızına kıyasla sermaye verimliliğinin henüz olgunlaşmadığını gösteriyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 1.31× ile kazançların nakde güçlü biçimde döndüğü görülüyor; ancak %1.8 hisse seyrelmesi takip edilmesi gereken bir maliyet unsuru."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "810 milyon dolarlık net nakit pozisyonu görünürde sağlıklı, ancak 5 milyar dolarlık planlanan borç ihracı bu dengeyi önemli ölçüde değiştirecek."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "Cari F/K 123× ve Fiyat/FCF 100× seviyeleri aşırı iyimserliği fiyatlarken, ileri F/K 33× büyümenin büyük ölçüde iskonto edildiğine işaret ediyor ve hata payı oldukça dar."
+   }
+  ],
+  "concept": {
+   "title": "Borç Finansmanlı Büyüme (Leveraged Growth) ve ROIC Seyrelmesi",
+   "body": "Bir şirket büyümek için borçlanma yoluna gittiğinde, bu sermaye maliyetini artırır ve yatırılan sermaye üzerindeki getiriyi (ROIC) aşağı çekebilir. AMD'nin 5 milyar dolarlık tahvil ihracı, AI altyapısına yapılan yatırımın hızını artıracak ama aynı zamanda bu sermayenin yeterince yüksek getiri üretip üretmediği—yani ROIC'in ağırlıklı ortalama sermaye maliyetini (WACC) ne kadar aştığı—kritik bir soru haline gelecek."
+  }
+ }
+}
