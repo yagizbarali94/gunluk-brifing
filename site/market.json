@@ -1,6 +1,6 @@
 {
- "date": "2026-08-15",
- "generated_at": "2026-08-15T06:03:14+00:00",
+ "date": "2026-08-16",
+ "generated_at": "2026-08-16T06:05:00+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -89,16 +89,16 @@
     "group": "defansif"
    },
    {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": 3.0,
-    "group": "döngüsel"
-   },
-   {
     "ticker": "XLC",
     "name": "İletişim",
     "chg": 2.9,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 2.5,
+    "group": "defansif"
    },
    {
     "ticker": "XLP",
@@ -107,10 +107,10 @@
     "group": "defansif"
    },
    {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 2.2,
-    "group": "defansif"
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": 1.1,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLI",
@@ -121,7 +121,7 @@
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 0.1,
+    "chg": 0.2,
     "group": "döngüsel"
    },
    {
@@ -134,8 +134,8 @@
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 1.4,
-  "cyc_avg": 4.3
+  "def_avg": 1.5,
+  "cyc_avg": 4.1
  },
  "macro": {
   "rows": [
@@ -154,7 +154,7 @@
    {
     "metric": "Dolar endeksi (DXY)",
     "value": "99.7",
-    "note": "son 1 ay -%1.5",
+    "note": "son 1 ay -%1.2",
     "tone": "gray"
    },
    {
@@ -178,18 +178,26 @@
   ],
   "curve_inverted": false
  },
- "calendar": [],
+ "calendar": [
+  {
+   "date": "2026-08-26",
+   "label": "NVDA bilanço",
+   "days": 10,
+   "date_label": "26 Ağustos",
+   "kind": "bilanço"
+  }
+ ],
  "ai": {
-  "headline": "Geniş tabanlı yükseliş trendi sürüyor; enerji ve dolar zayıflığı zeminde dikkat çekici koşullar oluşturuyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde ve Russell 2000 tarihî zirvesinde seyrediyor; bu durum yükselişin yalnızca büyük şirketlere değil, küçük ve orta ölçekli işletmelere de yayıldığına işaret ediyor. Eşit ağırlıklı endeksin cap-ağırlıklıyı 3 ayda yaklaşık 5 puan geçmesi ve sektörlerin yüzde sekseninin 200 gün ortalaması üzerinde olması breadth'in sağlıklı göründüğünü doğruluyor. VIX 14 seviyesinde sakin, kredi piyasaları gergin değil; ancak altının tek ayda yüzde beş artması ve petrolün yüzde yirmi sıçraması arka planda enflasyon ya da jeopolitik gerginliğe dair bir sinyali barındırabileceğinden bu iki varlık dikkatle izlenmeyi hak ediyor. Dolar endeksinin yüzde 1.5 gerilemesi uluslararası varlıklar ve emtialar için kuyruk rüzgârı yaratırken, 4.70 düzeyindeki 10 yıllık faiz hisse senedi değerlemelerine karşı baskısını sürdürüyor.",
+  "headline": "Trend güçlü ve taban geniş, ancak yüksek faiz ortamında petrol fiyatlarındaki sert yükseliş makro dengeleri sınıyor.",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde, Russell 2000 zirvedeyken S&P ve Nasdaq da yüksek seviyelerde; bu, trendin yalnızca büyük şirketlere değil, piyasanın geneline yayıldığına işaret ediyor. VIX'in 14 seviyesinde sakin kalması ve yüksek getirili tahvil piyasasının güçlü seyretmesi, yatırımcıların şu an belirgin bir korku ya da kredi stresi yaşamadığını gösteriyor. Öte yandan petrolün bir ayda yüzde yirmi artması ve altının güçlenmesi, arka planda enflasyon baskısına dair sinyaller taşıyor; faizin yüzde 4.70'te sabit kalması bu bağlamda dikkat çekici. Döngüsel sektörlerin, özellikle enerjinin önde olması risk iştahının açık olduğunu doğruluyor; ancak kamu hizmetlerinin geride kalması, faiz hassasiyetli varlıklara olan ilginin sınırlı olduğunu ortaya koyuyor.",
   "watch": [
-   "Petrol fiyatlarındaki sert yükselişin tüketici enflasyonuna ve Fed beklentilerine yansıyıp yansımadığı",
-   "Altın ve petrolün aynı anda güçlenmesinin arkasındaki jeopolitik ya da para politikası sürücüsünün netleşmesi",
-   "Russell 2000'in zirve bölgesinde tutunma kapasitesi — breadth'in kalıcılığını sınayan kritik bir test noktası"
+   "26 Ağustos NVDA bilançosu: teknoloji sektörünün momentum'unu ve yapay zeka hikayesinin fiyatlamadaki ağırlığını test edecek kritik bir veri noktası",
+   "Petrol fiyatlarının seyri: aylık yüzde 20'lik yükseliş enflasyon beklentilerini yeniden şekillendirebilir; Fed'in bant genişliği üzerindeki baskıyı izlemek gerekiyor",
+   "Dolar endeksinin (DXY) 100 seviyesine yakın seyri: son bir aydaki yüzde 1.2'lik gerilemenin devam edip etmediği, emtia ve gelişmekte olan piyasalar üzerindeki etkisi açısından önemli"
   ],
   "concept": {
    "title": "Breadth (Piyasa Genişliği)",
-   "body": "Piyasa genişliği, yükselişe katılan hisse ya da sektörlerin sayısını ölçerek rallinin ne kadar tabana yayıldığını gösterir. Az sayıda büyük hissenin sürüklediği bir yükseliş kırılgan kabul edilirken, küçük şirketler de dahil geniş katılım daha sağlam bir zemine işaret eder."
+   "body": "Breadth, yükselişin yalnızca birkaç büyük şirkete mi yoksa piyasanın tamamına mı yayıldığını ölçer; eşit ağırlıklı endeksin cap-ağırlıklıya göre belirgin biçimde iyi performans göstermesi, sağlıklı ve tabana yayılmış bir yükseliş ortamının klasik göstergesidir. Tersine, dar breadth — yani yükselişin yalnızca birkaç dev hisse tarafından taşınması — trendin kırılganlığına işaret edebilir."
   }
  }
 }

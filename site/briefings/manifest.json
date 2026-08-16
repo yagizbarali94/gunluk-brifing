@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-16-upcoming",
+  "date": "2026-08-16",
+  "ticker": "SMCI",
+  "name": "Super Micro Computer, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-16-reported",
+  "date": "2026-08-16",
+  "ticker": "MSFT",
+  "name": "Microsoft Corporation",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-15-upcoming",
   "date": "2026-08-15",
   "ticker": "AMD",
