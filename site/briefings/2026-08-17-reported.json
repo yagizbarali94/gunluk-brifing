@@ -1,0 +1,360 @@
+{
+ "date": "2026-08-17",
+ "slot": "reported",
+ "generated_at": "2026-08-17T06:22:55+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1502646501376
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 589.85,
+  "change_pct": -0.7
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 72,
+  "progress_pct": 21
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$60.8B",
+   "sub": "+%28 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$6.18",
+   "sub": "Miss · beklenti $7.22",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.4",
+   "sub": "-0.5 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.7B",
+   "sub": "marj %3",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$60.8B",
+      "note": "+%28 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       47.52,
+       51.24,
+       59.89,
+       56.31,
+       60.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$15.8B",
+      "note": "-%14 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       38.6,
+       5.3,
+       38.0,
+       47.5,
+       26.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$6.18",
+      "note": "beklenti $7.22 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.4",
+      "note": "-0.5 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       82.1,
+       82.0,
+       81.8,
+       81.9,
+       81.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%30.9",
+      "note": "-12.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       43.0,
+       40.1,
+       41.3,
+       40.6,
+       30.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%21.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%29.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.60×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "46",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.7B",
+      "note": "marj %3",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-96.9B",
+      "note": "nakit $15.5B · borç $112.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "22.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "16.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "6.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "13.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "36.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    47.5,
+    51.2,
+    59.9,
+    56.3,
+    60.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    82.1,
+    82.0,
+    81.8,
+    81.9,
+    81.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Meta aleyhine açılan sosyal medya bağımlılığı davasında tazminatın 1,4 trilyon dolara ulaşabileceği öne sürülüyor; bu durum hem hukuki risk hem de regülasyon baskısı açısından şirketin en kritik yapısal tehdidini oluşturuyor.",
+   "source": "benzinga",
+   "published": "2026-08-16",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61237271/damages-could-reach-1-4-trillion-in-landmark-meta-social-media-addiction-trial",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Bill Ackman, Alphabet pozisyonunu kapatarak Microsoft ve Meta'daki payını artırdı; büyük bir kurumsal yatırımcının uzun vadeli güvenini yansıtıyor.",
+   "source": "benzinga",
+   "published": "2026-08-14",
+   "url": "https://www.benzinga.com/markets/hedge-funds/26/08/61232824/bill-ackman-exits-alphabet-raises-bets-on-microsoft-meta",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Alibaba'nın AI model indirmeleri Meta ve Google'ı geçti; açık kaynak AI ekosisteminde rekabetin hızla yoğunlaştığını gösteriyor.",
+   "source": "benzinga",
+   "published": "2026-08-16",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61237070/alibaba-earnings-preview-as-ai-model-downloads-surge-passing-meta-google",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Bernie Sanders AI gelişiminin durdurulmasını talep etti; artan siyasi baskı AI şirketleri için regülatif risk ortamını kötüleştiriyor.",
+   "source": "benzinga",
+   "published": "2026-08-16",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61236085/bernie-sanders-says-we-want-human-beings-to-be-able-to-control-ai-demands-pause-amid-fears-of-catastrophic-risks",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları üzerinden yaklaşık 3,3 milyar günlük aktif kullanıcıya ulaşır. Gelirinin %98'i dijital reklamcılıktan, kalanı ise Reality Labs (VR/AR) donanım ve hizmetlerinden gelir.",
+  "note": "Meta'nın reklam teknolojisi altyapısı ve AI destekli içerik önerileri, rakiplerine karşı güçlü bir ağ etkisi hedeği (moat) oluşturuyor; %28 gelir büyümesi iş modelinin hâlâ sağlıklı çalıştığını gösteriyor. Ancak bu çeyrekte faaliyet marjının 10 puan daralması ve EPS miss, AI/metaverse yatırımlarının kısa vadeli kârlılık üzerinde ciddi baskı yarattığına işaret ediyor. 3-5 yıl perspektifinde AI altyapısına yapılan bu harcamaların reklam geliri verimliliğine ve yeni gelir hatlarına dönüşüp dönüşmeyeceği tezin kilit sorusudur.",
+  "counter": "1,4 trilyon dolara ulaşabilecek sosyal medya bağımlılığı davası hem hukuki maliyetleri hem de regülatif kısıtlamaları dramatik biçimde artırabilir. Bunun ötesinde, AB/ABD'nin gençlere yönelik platform kısıtlamaları kullanıcı büyümesini ve reklam gelirini yapısal olarak sınırlayabilir.",
+  "watch": [
+   "AI altyapı harcamaları (CapEx) ile reklam geliri verimliliği arasındaki ilişki: yatırımların marj iyileşmesine ne zaman dönüşeceği",
+   "Sosyal medya bağımlılığı davasının seyri ve AB/ABD'den gelebilecek platform kısıtlama kararları"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Yıllık %28 gelir artışı ve son beş çeyreğin genel yükseliş trendi büyümenin güçlü kaldığını gösteriyor; önceki çeyrekteki küçük geri çekilme geçici görünüyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjının %41'den %31'e gerilemesi ve net marjın %47'den %26'ya düşmesi endişe verici; ROIC %21,8 ile makul ancak marj baskısı yapısal AI/CapEx yatırımlarından kaynaklanıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr dönüşümünün yalnızca 0,60× olması ve FCF marjının %3'e inmesi kâr rakamlarının nakit üretimi tarafından yeterince desteklenmediğini gösteriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borcun -96,9 milyar dolara ulaşması, agresif CapEx ve hisse geri alımlarının bilançoyu belirgin biçimde zayıflattığına işaret ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 16,9 ve Rule of 40'ın 46 olması göz önüne alındığında değerleme mutlak olarak makul görünse de Fiyat/FCF 36,7 ve yüksek borç, mevcut marj baskısıyla birlikte iskonto marjini daralttığı için nötr kalıyoruz."
+   }
+  ],
+  "concept": {
+   "title": "FCF Marjı ile Net Marj Makası",
+   "body": "Bir şirketin net kârı yüksek görünse bile serbest nakit akışı (FCF) bunun çok gerisinde kalıyorsa, kâr rakamlarının ne kadarının gerçek nakde dönüştüğünü sorgulamak gerekir. Meta'da bu makas şu anda tarihen geniş; yoğun veri merkezi ve AI CapEx'i muhasebesel kârı nakde çevirmeden önce tüketiyor."
+  }
+ }
+}

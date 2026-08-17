@@ -1,6 +1,6 @@
 {
- "date": "2026-08-16",
- "generated_at": "2026-08-16T06:05:00+00:00",
+ "date": "2026-08-17",
+ "generated_at": "2026-08-17T06:23:03+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -48,16 +48,16 @@
  },
  "fear": {
   "vix": 14.25,
-  "vix3m": 18.46,
+  "vix3m": 20.54,
   "zone": "sakin",
   "term": "contango",
   "tone": "green",
   "vix_chg_5d": -4.4
  },
  "breadth": {
-  "rsp_3m": 10.2,
+  "rsp_3m": 11.0,
   "spy_3m": 5.3,
-  "spread": 4.9,
+  "spread": 5.7,
   "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -91,19 +91,19 @@
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 2.9,
+    "chg": 3.1,
     "group": "döngüsel"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 2.5,
-    "group": "defansif"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
     "chg": 2.4,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 1.3,
     "group": "defansif"
    },
    {
@@ -115,7 +115,7 @@
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": 0.7,
+    "chg": 0.5,
     "group": "döngüsel"
    },
    {
@@ -134,7 +134,7 @@
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 1.5,
+  "def_avg": 1.2,
   "cyc_avg": 4.1
  },
  "macro": {
@@ -142,7 +142,7 @@
    {
     "metric": "10 yıllık faiz",
     "value": "%4.70",
-    "note": "son 1 ay -%0.1",
+    "note": "son 1 ay +%4.8",
     "tone": "gray"
    },
    {
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.7",
-    "note": "son 1 ay -%1.2",
+    "value": "99.5",
+    "note": "son 1 ay -%1.6",
     "tone": "gray"
    },
    {
@@ -165,13 +165,13 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$82.4",
-    "note": "son 1 ay +%20.2",
+    "value": "$81.8",
+    "note": "son 1 ay +%16.2",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.6",
+    "value": "+%0.3",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -182,22 +182,22 @@
   {
    "date": "2026-08-26",
    "label": "NVDA bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "26 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend güçlü ve taban geniş, ancak yüksek faiz ortamında petrol fiyatlarındaki sert yükseliş makro dengeleri sınıyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde, Russell 2000 zirvedeyken S&P ve Nasdaq da yüksek seviyelerde; bu, trendin yalnızca büyük şirketlere değil, piyasanın geneline yayıldığına işaret ediyor. VIX'in 14 seviyesinde sakin kalması ve yüksek getirili tahvil piyasasının güçlü seyretmesi, yatırımcıların şu an belirgin bir korku ya da kredi stresi yaşamadığını gösteriyor. Öte yandan petrolün bir ayda yüzde yirmi artması ve altının güçlenmesi, arka planda enflasyon baskısına dair sinyaller taşıyor; faizin yüzde 4.70'te sabit kalması bu bağlamda dikkat çekici. Döngüsel sektörlerin, özellikle enerjinin önde olması risk iştahının açık olduğunu doğruluyor; ancak kamu hizmetlerinin geride kalması, faiz hassasiyetli varlıklara olan ilginin sınırlı olduğunu ortaya koyuyor.",
+  "headline": "Yükseliş tabana yayılmış, döngüseller önde ve kredi sakin; ancak petrol-altın-faiz üçlüsü makro zeminde yeni bir baskı katmanı oluşturuyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde, Russell 2000 zirvede ve eşit ağırlıklı breadth cap-ağırlıklıyı belirgin biçimde geride bırakıyor; bu, yükselişin yalnızca birkaç mega-cap'e değil, piyasanın geniş bir kesimine yayıldığına işaret ediyor. VIX 14 bandında tutunurken vadeli yapının contango'da kalması, yakın vadeli panik beklentisinin olmadığını gösteriyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 22 baz puan yükselmesi ve petrolün aynı dönemde yüzde 16 artması, enflasyonun düşme hikayesini yeniden sorgulatır hâle gelmiş; bu ortamda faiz-duyarlı sektörler (kamu hizmetlerinin ekside olması bunun somut yansıması) zorlanmaya devam ediyor. Dolar'ın zayıflaması emtia fiyatlarını desteklerken ihracat ağırlıklı şirketler için olumlu bir arka plan sunuyor; ancak altın ve petrolün aynı anda güçlenmesi, piyasanın hem büyüme hem de enflasyon riskini eş anlı fiyatladığını akla getiriyor.",
   "watch": [
-   "26 Ağustos NVDA bilançosu: teknoloji sektörünün momentum'unu ve yapay zeka hikayesinin fiyatlamadaki ağırlığını test edecek kritik bir veri noktası",
-   "Petrol fiyatlarının seyri: aylık yüzde 20'lik yükseliş enflasyon beklentilerini yeniden şekillendirebilir; Fed'in bant genişliği üzerindeki baskıyı izlemek gerekiyor",
-   "Dolar endeksinin (DXY) 100 seviyesine yakın seyri: son bir aydaki yüzde 1.2'lik gerilemenin devam edip etmediği, emtia ve gelişmekte olan piyasalar üzerindeki etkisi açısından önemli"
+   "26 Ağustos NVDA bilançosu: yapay zeka yatırım döngüsüne ilişkin yönetim yorumları, teknoloji sektörünün momentum teyidi için kritik.",
+   "10 yıllık ABD Hazine faizinin %4.70 üzerinde tutunup tutunmadığı: faizin daha da yükselmesi değerleme baskısını artırabilir.",
+   "Petrol fiyatı ve altının seyri: bu ikisinin birlikte yükselmeye devam etmesi durumunda Fed'in faiz yoluna dair beklentiler yeniden şekillenebilir."
   ],
   "concept": {
-   "title": "Breadth (Piyasa Genişliği)",
-   "body": "Breadth, yükselişin yalnızca birkaç büyük şirkete mi yoksa piyasanın tamamına mı yayıldığını ölçer; eşit ağırlıklı endeksin cap-ağırlıklıya göre belirgin biçimde iyi performans göstermesi, sağlıklı ve tabana yayılmış bir yükseliş ortamının klasik göstergesidir. Tersine, dar breadth — yani yükselişin yalnızca birkaç dev hisse tarafından taşınması — trendin kırılganlığına işaret edebilir."
+   "title": "Breadth Teyidi (Market Breadth Confirmation)",
+   "body": "Breadth teyidi, bir endeksin hareketinin yalnızca birkaç büyük hisse tarafından mı yoksa geniş bir katılımla mı desteklendiğini ölçer; eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde aşması, yükselişin tabanının sağlam olduğuna işaret eden pozitif bir teyit sinyali olarak değerlendirilir. Tersine, cap-ağırlıklı endeks yükselirken eşit ağırlıklı geri kalıyorsa yükselişin dar ve kırılgan bir temele dayandığı yorumu yapılır."
   }
  }
 }
