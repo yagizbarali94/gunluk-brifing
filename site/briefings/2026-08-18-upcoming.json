@@ -1,0 +1,352 @@
+{
+ "date": "2026-08-18",
+ "slot": "upcoming",
+ "generated_at": "2026-08-18T06:05:04+00:00",
+ "mock": false,
+ "ticker": "AMZN",
+ "company": {
+  "name": "Amazon.com, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "market_cap": 2818571501568
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 261.31,
+  "change_pct": -0.71
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-30",
+  "next_date": "2026-10-29",
+  "last_label": "30 Temmuz",
+  "next_label": "29 Ekim",
+  "days_to_next": 72,
+  "progress_pct": 21
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "veri yok",
+   "sub": "y/y veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "EPS",
+   "value": "$5.75",
+   "sub": "Beat · beklenti $1.83",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "veri yok",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-18.2B",
+   "sub": "marj veri yok",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 30 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       155.67,
+       167.7,
+       180.17,
+       213.39,
+       181.52,
+       null
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       11.0,
+       10.8,
+       11.8,
+       9.9,
+       16.7,
+       null
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$5.75",
+      "note": "beklenti $1.83 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "veri yok",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       50.6,
+       51.8,
+       50.8,
+       48.5,
+       51.8,
+       null
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       11.8,
+       11.4,
+       9.7,
+       11.7,
+       13.1,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%30.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%6.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-18.2B",
+      "note": "marj veri yok",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-108.1B",
+      "note": "nakit $101.8B · borç $209.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "21.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "25.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    155.7,
+    167.7,
+    180.2,
+    213.4,
+    181.5,
+    null
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    50.6,
+    51.8,
+    50.8,
+    48.5,
+    51.8,
+    null
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Anthropic'in yıllık gelir koşusu 65 milyar doları aştı; bu durum Amazon'un şirkete yaptığı milyar dolarlık yatırımın değerini önemli ölçüde artırıyor.",
+   "source": "benzinga",
+   "published": "2026-08-17",
+   "url": "https://www.benzinga.com/news/26/08/61259752/anthropic-revenue-run-rate-surpasses-65-billion-ahead-ipo-bloomberg",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Anthropic geliri 14 kat büyürken Çinli yapay zeka oyuncuları Nvidia'nın hakimiyetine meydan okuyor; AWS altyapısını destekleyen bu ekosistemin rekabet dinamikleri değişiyor.",
+   "source": "benzinga",
+   "published": "2026-08-17",
+   "url": "https://www.benzinga.com/Opinion/26/08/61256549/anthropic-revenue-jumps-14x-chinese-ai-targets-nvidias-moat",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Pazartesi günü Amazon hissesinde yaşanan hareketi ele alan analiz, genel piyasa rotasyonu ve tüketici döngüsel sektör dinamiklerini ön plana çıkardı.",
+   "source": "benzinga",
+   "published": "2026-08-17",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61257598/whats-going-on-with-amazon-stock-monday-4",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Tüketici döngüsel sektöründe büyük yatırımcı (whale) pozisyon hareketleri gözlemlendi; Amazon bu sektörün en ağır bileşeni olduğundan kurumsal ilgi dikkat çekici.",
+   "source": "benzinga",
+   "published": "2026-08-17",
+   "url": "https://www.benzinga.com/markets/options/26/08/61256449/2-consumer-discretionary-stocks-whale-alerts-today-s-session",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Amazon; e-ticaret, bulut bilişim (AWS), dijital reklamcılık ve lojistik altyapısıyla küresel ölçekte faaliyet gösteren çok katmanlı bir platform şirketidir. Gelirini perakende satışlar, üçüncü taraf satıcı komisyonları, AWS abonelikleri ve reklam hizmetleri üzerinden elde eder.",
+  "note": "AWS'nin yüksek marjlı büyümesi ve reklam segmentinin olgunlaşması, Amazon'un 3-5 yıllık kârlılık yolculuğunu güçlü bir şekilde desteklemektedir; faaliyet marjının %11-13 bandına yerleşmesi bu tezi doğrular niteliktedir. Anthropic'in 65 milyar dolar gelir koşusuna ulaşması, Amazon'un bu şirkete yaptığı stratejik yatırımın değerini artırırken generatif yapay zeka altyapısında AWS'nin rekabet konumunu pekiştirmektedir. Bununla birlikte negatif FCF (-18,2 milyar dolar) ve yüksek borç yükü, agresif sermaye harcamalarının kısa vadede nakit üretimini bastırdığına işaret etmektedir.",
+  "counter": "Yapay zeka altyapısına yapılan devasa capex harcamaları (veri merkezleri, çipler) yıllarca negatif FCF'ye yol açabilir; eğer AWS büyümesi yavaşlarsa ya da rekabet şiddetlenirse bu yatırımların geri dönüşü beklentilerin altında kalabilir. Ayrıca Avrupa ve ABD'deki düzenleyici baskılar (antitröst, dijital piyasalar mevzuatı) platfor gelir modelini yapısal olarak kısıtlayabilir.",
+  "watch": [
+   "AWS gelir büyümesi ve faaliyet marjı: yapay zeka altyapı harcamalarının ne zaman pozitif FCF'ye dönüşeceğinin en kritik göstergesi",
+   "Reklam segmenti büyüme hızı: yüksek marjlı bu segmentin konsolide marjları yukarı çekme kapasitesi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Gelir trendi 213,4 milyar dolar zirvesinden 181,5 milyar dolara gerilemiş görünse de bu muhtemelen mevsimsellikten kaynaklanıyor; yıllık karşılaştırmalı büyüme verisi olmadan net hızlanma/yavaşlama tespiti yapmak güçtür."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %51,8'e yükselmesi, net marjın %16,7'ye ulaşması ve ROE'nin %30,6 seviyesinde olması AWS ve reklam segmentlerinin yarattığı yüksek kaliteli kârlılığa işaret ediyor; faaliyet marjındaki son çeyrek gerileme trend değil dönemsel görünüyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "EPS 5,75 dolar ile beklentiyi büyük ölçüde aşmasına karşın negatif FCF (-18,2 milyar dolar) ve %0,9 hisse seyrelmesi, muhasebe kârının nakit gerçekliğiyle örtüşmediğine ve yoğun yatırım döneminde kazanç kalitesinin baskılandığına işaret ediyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net nakit pozisyonunun -108,1 milyar dolar olması ve negatif FCF ile birleşmesi, kısa vadede finansal esnekliği kısıtlıyor; ancak Amazon'un borç çevirme kapasitesi ve AWS nakit üretimi uzun vadede durumu sürdürülebilir kılıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 25,1 ve FD/Satış 3,8, yüksek büyüme ve AWS/reklam karmasının marj potansiyeli göz önüne alındığında makul sayılabilir; ancak negatif FCF döneminde bu çarpanların doğrulanması için kârlılık ivmesinin sürmesi şart."
+   }
+  ],
+  "concept": {
+   "title": "Segment Karması Etkisi (Revenue Mix Shift)",
+   "body": "Bir şirketin toplam geliri içinde yüksek marjlı segmentlerin payı arttıkça, gelir büyümesi sabit kalsa bile konsolide kârlılık orantısız biçimde yükselir. Amazon'da AWS ve reklamcılığın toplam gelirdeki payının artması, perakende segmentinin düşük marjını dengeleyerek net marjı %16,7'ye taşıyan temel mekanizmadır."
+  }
+ }
+}

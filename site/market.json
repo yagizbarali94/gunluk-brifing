@@ -1,6 +1,6 @@
 {
- "date": "2026-08-17",
- "generated_at": "2026-08-17T06:23:03+00:00",
+ "date": "2026-08-18",
+ "generated_at": "2026-08-18T06:05:49+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -91,19 +91,19 @@
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 3.1,
+    "chg": 2.5,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": 2.5,
+    "group": "defansif"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
     "chg": 2.4,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": 1.3,
     "group": "defansif"
    },
    {
@@ -121,7 +121,7 @@
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 0.2,
+    "chg": 0.1,
     "group": "döngüsel"
    },
    {
@@ -134,8 +134,8 @@
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 1.2,
-  "cyc_avg": 4.1
+  "def_avg": 1.5,
+  "cyc_avg": 4.0
  },
  "macro": {
   "rows": [
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.5",
-    "note": "son 1 ay -%1.6",
+    "value": "99.6",
+    "note": "son 1 ay -%1.5",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$81.8",
-    "note": "son 1 ay +%16.2",
+    "value": "$85.1",
+    "note": "son 1 ay +%15.7",
     "tone": "gray"
    },
    {
@@ -182,22 +182,22 @@
   {
    "date": "2026-08-26",
    "label": "NVDA bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "26 Ağustos",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yükseliş tabana yayılmış, döngüseller önde ve kredi sakin; ancak petrol-altın-faiz üçlüsü makro zeminde yeni bir baskı katmanı oluşturuyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde, Russell 2000 zirvede ve eşit ağırlıklı breadth cap-ağırlıklıyı belirgin biçimde geride bırakıyor; bu, yükselişin yalnızca birkaç mega-cap'e değil, piyasanın geniş bir kesimine yayıldığına işaret ediyor. VIX 14 bandında tutunurken vadeli yapının contango'da kalması, yakın vadeli panik beklentisinin olmadığını gösteriyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 22 baz puan yükselmesi ve petrolün aynı dönemde yüzde 16 artması, enflasyonun düşme hikayesini yeniden sorgulatır hâle gelmiş; bu ortamda faiz-duyarlı sektörler (kamu hizmetlerinin ekside olması bunun somut yansıması) zorlanmaya devam ediyor. Dolar'ın zayıflaması emtia fiyatlarını desteklerken ihracat ağırlıklı şirketler için olumlu bir arka plan sunuyor; ancak altın ve petrolün aynı anda güçlenmesi, piyasanın hem büyüme hem de enflasyon riskini eş anlı fiyatladığını akla getiriyor.",
+  "headline": "Yükseliş geniş tabana yayılmış, petrol ve faiz baskısı makro zemini karmaşıklaştırıyor.",
+  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor ve breadth göstergeleri yükselişin dar bir teknoloji grubuna mahkum olmadığını, geniş bir katılımla ilerlediğini ortaya koyuyor; Russell 2000'in tarihi zirvede olması bu tabloyu destekliyor. VIX 14 seviyesinde sakin, kredi spreadi ise sıkı; piyasanın içindeki stres göstergeleri şu an alarm vermiyor. Ancak 10 yıllık faizin tek ayda yaklaşık 22 baz puan sıçraması ve petrolün aynı sürede yüzde on altı artması hem şirket maliyetleri hem de tüketici cephesinde sessiz bir baskı oluşturuyor. Zayıflayan dolar ve güçlenen altın ise piyasanın bir köşesinde enflasyon ve küresel rezerv endişelerinin tamamen sönmediğine işaret eden bir arka plan çizgisi sunuyor.",
   "watch": [
-   "26 Ağustos NVDA bilançosu: yapay zeka yatırım döngüsüne ilişkin yönetim yorumları, teknoloji sektörünün momentum teyidi için kritik.",
-   "10 yıllık ABD Hazine faizinin %4.70 üzerinde tutunup tutunmadığı: faizin daha da yükselmesi değerleme baskısını artırabilir.",
-   "Petrol fiyatı ve altının seyri: bu ikisinin birlikte yükselmeye devam etmesi durumunda Fed'in faiz yoluna dair beklentiler yeniden şekillenebilir."
+   "10 yıllık ABD tahvil faizinin %4.70 üzerinde tutunup tutunmadığı — yükselişin devam etmesi büyüme/değerleme dengesini yeniden sorgulatır",
+   "26 Ağustos NVDA bilançosu: yapay zeka harcama ivmesine dair vereceği sinyal, teknoloji sektörünün öncü konumunu ve geniş piyasa momentumunu doğrudan etkiler",
+   "Petrol fiyatının $85 üzerinde kalıcılaşıp kalıcılaşmadığı — enerji enflasyonunun Fed faiz beklentilerine yansıması ve kredi spreadlerinin sakinliğini koruyup korumadığı"
   ],
   "concept": {
-   "title": "Breadth Teyidi (Market Breadth Confirmation)",
-   "body": "Breadth teyidi, bir endeksin hareketinin yalnızca birkaç büyük hisse tarafından mı yoksa geniş bir katılımla mı desteklendiğini ölçer; eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde aşması, yükselişin tabanının sağlam olduğuna işaret eden pozitif bir teyit sinyali olarak değerlendirilir. Tersine, cap-ağırlıklı endeks yükselirken eşit ağırlıklı geri kalıyorsa yükselişin dar ve kırılgan bir temele dayandığı yorumu yapılır."
+   "title": "Breadth (Piyasa Genişliği)",
+   "body": "Breadth, yükselişe katılan hisse veya sektör sayısını ölçerek rallinin ne kadar sağlam bir zemine oturduğunu gösterir; eşit ağırlıklı endeksin cap ağırlıklıyı belirgin biçimde geçmesi, kazancın birkaç dev şirketin omuzlarında değil geniş bir tabanda taşındığının somut göstergesidir. Breadth'in zayıflamaya başladığı dönemler — büyük endeksler yeni zirvedeyken katılım daralıyorsa — trendin içinin boşalmakta olduğuna dair erken uyarı niteliği taşır."
   }
  }
 }
