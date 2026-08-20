@@ -1,0 +1,344 @@
+{
+ "date": "2026-08-20",
+ "slot": "reported",
+ "generated_at": "2026-08-20T06:18:23+00:00",
+ "mock": false,
+ "ticker": "NOW",
+ "company": {
+  "name": "ServiceNow, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 131507249152
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %6.5 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 127.2,
+  "change_pct": 7.22
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-22",
+  "next_date": "2026-10-28",
+  "last_label": "22 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 69,
+  "progress_pct": 30
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$4.0B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.90",
+   "sub": "Beat · beklenti $0.86",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%70.7",
+   "sub": "-4.4 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$473M",
+   "sub": "marj %12",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 22 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$4.0B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       3.21,
+       3.41,
+       3.57,
+       3.77,
+       3.99
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$298M",
+      "note": "-%23 y/y",
+      "tone": "amber",
+      "spark": [
+       12.0,
+       14.7,
+       11.2,
+       12.4,
+       7.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.90",
+      "note": "beklenti $0.86 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%70.7",
+      "note": "-4.4 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       77.5,
+       77.3,
+       76.6,
+       75.1,
+       70.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%4.1",
+      "note": "-7.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       11.1,
+       16.8,
+       12.4,
+       13.3,
+       4.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%8.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%14.2",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%4.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "2.74×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%1.1 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "55",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$473M",
+      "note": "marj %12",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-6.0B",
+      "note": "nakit $2.5B · borç $8.5B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "74.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "25.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "46.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "28.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    3.2,
+    3.4,
+    3.6,
+    3.8,
+    4.0
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    77.5,
+    77.3,
+    76.6,
+    75.1,
+    70.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Bir uzman, AI'ın geleneksel iş akışı yazılımlarını tehdit ettiğini öne sürerek Salesforce ve ServiceNow'un iş modellerinin tehlikede olduğu uyarısında bulundu.",
+   "source": "benzinga",
+   "published": "2026-08-18",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61279331/salesforce-servicenow-business-model-danger",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Tiger Global, ServiceNow hisselerinin %42'sini satarak pozisyonunu 873 bin paya indirdi; büyük kurumsal çıkış dikkat çekici.",
+   "source": "benzinga",
+   "published": "2026-08-14",
+   "url": "https://www.benzinga.com/quote/NOW",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Bir analist, AI'ın yazılım sektörünü yok etmeyeceğini savunarak 'yazılım kıyameti' senaryosunu reddetti.",
+   "source": "benzinga",
+   "published": "2026-08-14",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61203396/ai-killing-software-analyst-says-i-dont-see-a-software-apocalypse",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Silver Lake'in Workday'i satın almak için görüşmelerde olduğu bildirildi; bu gelişme SaaS sektöründe özel sermayenin değerleme fırsatı gördüğüne işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-08-13",
+   "url": "https://www.benzinga.com/news/26/08/61189131/silver-lake-in-talks-to-buy-workday-sources-say-reuters",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "ServiceNow, kurumsal iş süreçlerini otomatikleştiren bulut tabanlı bir platform (Now Platform) satmaktadır. Büyük işletmeler ve kamu kurumları başta olmak üzere müşterilerine ITSM, HRSD ve müşteri iş akışı çözümleri abonelik modeliyle sunmaktadır.",
+  "note": "ServiceNow'un yapay zeka entegrasyonu ve geniş kurumsal müşteri tabanı güçlü bir hendek oluşturmaya devam etmektedir; ancak bu çeyrekte brüt marjın 4.4 puan düşüşü ve faaliyet marjının %4.1'e gerilemesi iş modelinin ölçeklenebilirlik hikayesine ciddi soru işareti getirmektedir. Rule of 40 skoru 55 ile hâlâ sağlıklı görünse de marj sıkışması yapısal bir maliyet sorununa işaret edebilir; 5 yıllık tezin geçerliliği marjların ne zaman toparlanacağına bağlıdır. Tiger Global'ın hisselerinin %42'sini satması da kurumsal güven açısından dikkat çekicidir.",
+  "counter": "Yapay zekanın iş akışı otomasyon yazılımlarını bypass etmesi veya büyük bulut sağlayıcılarının (Microsoft, Google) benzer yetenekleri entegre platform olarak sunması, ServiceNow'un fiyatlama gücünü ve müşteri yapışkanlığını aşındırabilir. Brüt marjdaki hızlı bozulma, AI altyapı maliyetlerinin gelirden çok daha hızlı büyüdüğüne işaret ediyorsa bu risk bugünden daha yakındır.",
+  "watch": [
+   "Brüt marj toparlanması: AI altyapı maliyetlerinin gelire oranı iyileşiyor mu, yoksa yapısal sıkışma mı derinleşiyor?",
+   "Rakip platform entegrasyonu: Microsoft Copilot/Google Workspace'in ITSM ve iş akışı alanında pazar payı alıp almadığı ve müşteri churn verisi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir çeyrekten çeyreğe düzenli biçimde artmakta olup yıllık %24 büyüme bu büyüklükteki bir platform için güçlü kalmaya devam etmektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Brüt marj son beş çeyrekte 6.8 puan erirken faaliyet marjı %4.1'e düşmüş, ROIC %8.2 ile ağırlıklı sermaye maliyetinin sınırında gezinmektedir; marj baskısı yapısal görünüyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 2.74× ile kazançların gerçek nakit yaratımını önemli ölçüde aştığını göstermekte, üstelik hisse sayısı %1.1 azalmaktadır; muhasebe kalitesi yüksek."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "6 milyar dolarlık net borç pozisyonu rahatsız edici olmakla birlikte güçlü FCF üretimi bu yükü yönetilebilir kılmaktadır; ancak faiz ortamı risk faktörü olmaya devam etmektedir."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 25.4 ve Fiyat/FCF 28.8 tek başına makul görünse de marjlar hızla bozulurken FD/Satış 9.2 katı 'kaliteli büyüme primi' için giderek daha az güvenli bir zemin sunmaktadır."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (Cash Conversion)",
+   "body": "FCF dönüşüm oranı, net kârın ne kadarının gerçek nakde çevrildiğini gösterir; 1'in üzerindeki değerler muhasebe kârından daha fazla nakit üretildiğine işaret eder. ServiceNow'da bu oran 2.74× ile son derece yüksektir, çünkü abonelik modelinin stok ertelemesi ve düşük sermaye yoğunluğu GAAP kârını çok aşan bir nakit akışı yaratmaktadır."
+  }
+ }
+}
