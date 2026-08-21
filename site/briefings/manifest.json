@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-21-upcoming",
+  "date": "2026-08-21",
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-21-reported",
+  "date": "2026-08-21",
+  "ticker": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-20-upcoming",
   "date": "2026-08-20",
   "ticker": "NVDA",

@@ -1,0 +1,344 @@
+{
+ "date": "2026-08-21",
+ "slot": "upcoming",
+ "generated_at": "2026-08-21T06:18:53+00:00",
+ "mock": false,
+ "ticker": "NVDA",
+ "company": {
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 5252323999744
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 5 gün sonra açıklanacak (26 Ağustos) — beklentileri incele"
+ },
+ "price": {
+  "last": 216.85,
+  "change_pct": -0.9
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-20",
+  "next_date": "2026-08-26",
+  "last_label": "20 Mayıs",
+  "next_label": "26 Ağustos",
+  "days_to_next": 5,
+  "progress_pct": 95
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$81.6B",
+   "sub": "+%85 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.87",
+   "sub": "Beat · beklenti $1.77",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%74.9",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$48.6B",
+   "sub": "marj %60",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 20 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$81.6B",
+      "note": "+%85 y/y",
+      "tone": "green",
+      "spark": [
+       44.06,
+       46.74,
+       57.01,
+       68.13,
+       81.61
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$58.3B",
+      "note": "+%211 y/y",
+      "tone": "green",
+      "spark": [
+       42.6,
+       56.5,
+       56.0,
+       63.1,
+       71.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.87",
+      "note": "beklenti $1.77 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%74.9",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       60.5,
+       72.4,
+       73.4,
+       75.0,
+       74.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%65.6",
+      "note": "+16.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       49.1,
+       60.8,
+       63.2,
+       65.0,
+       65.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%77.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%114.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%52.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.75×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "132",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$48.6B",
+      "note": "marj %60",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$889M",
+      "note": "nakit $13.2B · borç $12.3B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "33.3×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "16.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "20.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "31.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "44.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    44.1,
+    46.7,
+    57.0,
+    68.1,
+    81.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    60.5,
+    72.4,
+    73.4,
+    75.0,
+    74.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "NVIDIA'nın Çin ihracat kısıtlamalarını aşmak için yeni bir uyumlu AI çipi geliştirdiği bildiriliyor; bu gelişme kritik bir gelir havzasına yeniden erişim kapısı açabilir.",
+   "source": "benzinga",
+   "published": "2026-08-20",
+   "url": "https://www.benzinga.com/news/26/08/61337934/nvidia-plots-china-comeback-new-ai-chip-information",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "CoreWeave, milyar dolarlık Hudson River anlaşmasını kazandı; bu, NVIDIA çipine olan kurumsal talebin bilanço öncesinde güçlü kalmaya devam ettiğini gösteriyor.",
+   "source": "benzinga",
+   "published": "2026-08-20",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61329962/coreweave-hudson-river-ai-deal",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Alibaba'nın eski nesil NVIDIA çiplerini tercih etmesi, Çin'deki alternatif talep kanallarının varlığını ve mevcut ihracat kısıtlamalarına rağmen ekosistem çekiminin sürdüğünü ortaya koyuyor.",
+   "source": "benzinga",
+   "published": "2026-08-20",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61343688/alibaba-nvidia-v100-gpus",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "NVIDIA ortakları Tesla ve Waymo'nun fiziksel AI pazarını büyüttüğünü, birbirleriyle değil NVIDIA ekosistemiyle iş birliği yaptığını vurguluyor; bu tablo uzun vadeli robotik/otonom talep tezini destekliyor.",
+   "source": "benzinga",
+   "published": "2026-08-20",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61336524/tesla-waymo-physical-ai",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "NVIDIA, veri merkezi GPU'ları, yapay zeka hızlandırıcıları ve yazılım platformları (CUDA ekosistemi) tasarlayıp satan bir yarı iletken şirketidir. Başlıca müşterileri büyük bulut sağlayıcıları, teknoloji devleri ve kurumsal AI altyapısı kuranlar olup gelirini ağırlıklı olarak donanım satışı ve yazılım/lisans ücretleriyle elde eder.",
+  "note": "NVIDIA'nın CUDA ekosistemi ve donanım-yazılım entegrasyonu, rakiplerin kopyalaması yıllar alacak derin bir ekonomik hendek oluşturuyor; 8 çeyrek üst üste beklenti aşması ve %77.6 ROIC bu kaliteyi sayısal olarak doğruluyor. Fiziksel AI (robotik, otonom sistemler) ve veri merkezi talebinin yapısal büyüme motoru olması, 5 yıllık tezi güçlü tutuyor. Bununla birlikte brüt ve faaliyet marjlarındaki hafif gerileme ile Çin kısıtlarının gelir tavanı oluşturma riski, tezin gözetilmesi gereken kırılma noktaları.",
+  "counter": "ABD ihracat kısıtlamalarının genişlemesi ve AMD/Intel'in özel müşteri çiplerine kaybedilen pazar payı, uzun vadeli gelir konsantrasyonunu tehdit eden en kritik yapısal risk. Büyük bulut müşterilerinin (Google TPU, Amazon Trainium, Microsoft Maia) kendi silikon yatırımlarını artırması, NVIDIA'nın fiyatlama gücünü orta vadede aşındırabilir.",
+  "watch": [
+   "Brüt marjın Blackwell/sonrası ürün miksinde 75% üzerinde tutulup tutulamayacağı — tedarik maliyeti baskısı vs. fiyatlama gücü",
+   "Çin pazarına yönelik yeni nesil uyumlu çipin onay süreci ve bu pazardan gelen gelirin toplam içindeki payı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 44.1 milyar dolardan 81.6 milyar dolara yükselerek yıllık %85 büyümeyle hızlanmaya devam ediyor, ancak baz etkisi büyüdükçe bu tempo sürdürülemez."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "ROIC %77.6 ve ROE %114.3 sektörde eşsiz seviyede; brüt marjda son iki çeyrekte hafif gerileme (75.0→74.9) izlenmeli olsa da mutlak seviyeler olağanüstü kalmaya devam ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr oranı 0.75× makul olmakla birlikte bu kadar yüksek kârlılıkta daha güçlü nakit dönüşümü beklenebilir; hisse seyrelmesinin negatif (%−0.9) olması hissedarlara değer iade açısından olumlu."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit yalnızca 889 milyon dolar; bu kadar büyük ölçekte ve yoğun sermaye harcaması ortamında tampon görece sınırlı, ancak yüksek FCF üretimi ani likidite riskini bertaraf ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 16.7 büyüme ve kaliteyle orantılı görünse de FD/Satış 20.5× ve Fiyat/FCF 44.1× çarpanları herhangi bir büyüme yavaşlamasına karşı hata payı bırakmıyor."
+   }
+  ],
+  "concept": {
+   "title": "Ekonomik Hendek (Economic Moat) — Ağ ve Ekosistem Kilidi",
+   "body": "Ekonomik hendek, bir şirketin rakiplerine karşı sürdürülebilir rekabet avantajını ifade eder; NVIDIA'da bu hendek, milyonlarca geliştiricinin on yılda yazdığı CUDA tabanlı kod birikimi ve bu koda bağlı araç-kütüphane ekosistemidir. Kullanıcılar rakip donanıma geçmek istediklerinde tüm yazılım yığınını yeniden yazmak zorunda kaldıklarından geçiş maliyeti son derece yüksek olup bu durum NVIDIA'nın fiyatlama gücünü ve marjlarını yapısal olarak desteklemektedir."
+  }
+ }
+}
