@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-23-upcoming",
+  "date": "2026-08-23",
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-23-reported",
+  "date": "2026-08-23",
+  "ticker": "NOW",
+  "name": "ServiceNow, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-22-upcoming",
   "date": "2026-08-22",
   "ticker": "NVDA",
