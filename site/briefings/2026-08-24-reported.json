@@ -1,0 +1,344 @@
+{
+ "date": "2026-08-24",
+ "slot": "reported",
+ "generated_at": "2026-08-24T06:27:06+00:00",
+ "mock": false,
+ "ticker": "CRM",
+ "company": {
+  "name": "Salesforce, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 171310235648
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 209.17,
+  "change_pct": 1.76
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-27",
+  "next_date": "2026-08-26",
+  "last_label": "27 Mayıs",
+  "next_label": "26 Ağustos",
+  "days_to_next": 2,
+  "progress_pct": 98
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.1B",
+   "sub": "+%13 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$3.88",
+   "sub": "Beat · beklenti $3.13",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%76.9",
+   "sub": "-0.7 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$6.6B",
+   "sub": "marj %59",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 27 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.1B",
+      "note": "+%13 y/y",
+      "tone": "gray",
+      "spark": [
+       9.83,
+       10.24,
+       10.26,
+       11.2,
+       11.13
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.1B",
+      "note": "+%37 y/y",
+      "tone": "green",
+      "spark": [
+       15.7,
+       18.4,
+       20.3,
+       17.3,
+       18.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$3.88",
+      "note": "beklenti $3.13 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%76.9",
+      "note": "-0.7 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       77.0,
+       78.1,
+       78.0,
+       77.6,
+       76.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%21.8",
+      "note": "+1.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       20.1,
+       22.8,
+       23.9,
+       19.2,
+       21.8
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%10.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%16.9",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.83×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%10.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "47",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$6.6B",
+      "note": "marj %59",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-32.9B",
+      "note": "nakit $8.9B · borç $41.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "24.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "13.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "4.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "15.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "11.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    9.8,
+    10.2,
+    10.3,
+    11.2,
+    11.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    77.0,
+    78.1,
+    78.0,
+    77.6,
+    76.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Bir uzman, yapay zekanın Salesforce ve ServiceNow'un geleneksel SaaS iş modellerini yapısal olarak tehdit edebileceği konusunda uyardı.",
+   "source": "benzinga",
+   "published": "2026-08-18",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/08/61279331/salesforce-servicenow-business-model-danger",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Salesforce kazanç öncesi analistler rallinin sürdürülebilirliğini sorguluyor, beklentiler karışık.",
+   "source": "benzinga",
+   "published": "2026-08-23",
+   "url": "https://www.benzinga.com/markets/equities/26/08/61373153/salesforce-earnings-preview-will-the-stock-rally-continue",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "BMO Capital, Salesforce'u Outperform notu ile tutarak fiyat hedefini 230 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-08-20",
+   "url": "https://www.benzinga.com/news/26/08/61338752/bmo-capital-maintains-outperform-salesforce-raises-price-target-230",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Citigroup Neutral notunu korurken fiyat hedefini 204 dolara çıkardı, görece temkinli duruş sürdürüyor.",
+   "source": "benzinga",
+   "published": "2026-08-18",
+   "url": "https://www.benzinga.com/news/26/08/61279592/citigroup-maintains-neutral-salesforce-raises-price-target-204",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Salesforce, işletmelere yönelik bulut tabanlı CRM (müşteri ilişkileri yönetimi) yazılımları sunar; satış, pazarlama, müşteri hizmetleri ve yapay zeka destekli analitik platformlarıyla abonelik geliri elde eder. Başlıca müşterileri kurumsal ve orta ölçekli şirketler olup gelirinin büyük bölümü çok yıllık SaaS aboneliklerinden gelir.",
+  "note": "Salesforce'un geniş kurumsal müşteri tabanı, yüksek geçiş maliyetleri ve çapraz satış ekosistemi (Sales, Service, Marketing, Data Cloud) sağlam bir ekonomik hendek oluşturmaya devam ediyor; %59 FCF marjı ve 1.83× nakit dönüşümü iş modelinin yapısal kalitesini teyit ediyor. Bu çeyrek EPS'de güçlü bir beklenti aşımı kaydedildi ve Rule of 40 = 47 seviyesi büyüme-karlılık dengesinin sektör ortalamasının üzerinde olduğunu gösteriyor. Bununla birlikte AI ajanlarının geleneksel SaaS iş akışlarını aşındırma riski ve brüt marjdaki aşağı yönlü baskı, 3-5 yıllık tezin en kritik izleme noktaları olarak öne çıkıyor.",
+  "counter": "Yapay zeka ajanları ve düşük maliyetli LLM entegrasyonları, geleneksel CRM yazılımının katmanlı abonelik yapısını yapısal olarak tehdit edebilir; ServiceNow ile birlikte anılan 'iş modeli tehlikede' uyarısı bu riski somutlaştırıyor. Brüt marjın 0.7 puanlık çeyreklik gerilemesi, AI altyapısına yapılan artan yatırımın maliyet baskısına dönüştüğüne işaret ediyor.",
+  "watch": [
+   "Brüt marj trendi: AI altyapı maliyetlerinin marj üzerindeki baskısının kalıcı olup olmadığı",
+   "Agentforce / AI ürünlerinin net yeni ARR katkısı: geleneksel CRM yerine geçme mi yoksa tamamlayıcı satış mı?"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Gelir trendi 9.8→11.2 milyar dolara kadar hızlanmış olsa da son çeyrekte 11.2→11.1 milyar dolara hafif geri çekilme yaşandı, %13 y/y büyüme sürdürülebilir ama ivme kaybı dikkat çekiyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Faaliyet ve net marj trendleri yukarı yönlü seyrederken brüt marj 77→%76.9 ile baskı altında; ROIC %10.4 kurumsal yazılım şirketi için kabul edilebilir ancak mükemmel değil."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr 1.83× ile nakit dönüşümü olağanüstü güçlü; %10.2 hisse geri alımı seyrelmesiz büyüme sağlayarak hissedar değerini olumlu destekliyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç pozisyonu -32.9 milyar dolar ile ciddi ölçüde negatif; güçlü FCF kaldıraçı yönetilebilir kılsa da yüksek borç yükü faiz ortamına karşı kırılganlık yaratıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 13.5 ve Fiyat/FCF 11.7, %59 FCF marjı ve Rule of 40 = 47 kalitesiyle kıyaslandığında önemli ölçüde cazip; mevcut çarpanlar 3-5 yıllık ufukta güvenlik marjı sunuyor."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "Rule of 40, bir SaaS şirketinin büyüme hızı ile FCF (veya faaliyet) marjının toplamının 40'ı geçip geçmediğini ölçen bir kalite filtresidir; 40 üzeri dengeli büyüme-karlılık karmasını, 40 altı ise sürdürülebilirlik sorununu işaret eder. Salesforce bu çeyrekte 47 skoruyla (13% büyüme + ~34% FCF marjı) eşiğin belirgin üzerinde seyrediyor, bu da şirketin hem büyüdüğünü hem nakit ürettiğini gösteriyor."
+  }
+ }
+}

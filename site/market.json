@@ -1,6 +1,6 @@
 {
- "date": "2026-08-23",
- "generated_at": "2026-08-23T06:05:42+00:00",
+ "date": "2026-08-24",
+ "generated_at": "2026-08-24T06:27:14+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "98.8",
-    "note": "son 1 ay -%2.4",
+    "value": "98.9",
+    "note": "son 1 ay -%2.1",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$87.1",
-    "note": "son 1 ay +%11.4",
+    "value": "$85.3",
+    "note": "son 1 ay +%7.5",
     "tone": "gray"
    },
    {
@@ -182,29 +182,29 @@
   {
    "date": "2026-08-26",
    "label": "NVDA bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "26 Ağustos",
    "kind": "bilanço"
   },
   {
    "date": "2026-09-02",
    "label": "AVGO bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "2 Eylül",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yükseliş tabana yayılmış ve döngüseller önde; ancak hızlı yükselen faizler, altının güçlü sinyali ve Nasdaq'taki göreceli zayıflık zemine karmaşıklık katıyor.",
-  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde ve eşit ağırlıklı endeksin cap ağırlıklıyı belirgin biçimde geride bırakması, yükselişin yalnızca birkaç büyük isme dayanmadığını gösteriyor; bu, sağlıklı bir katılım işareti. VIX 15 civarında seyredip vade yapısı contango'da kalmaya devam ederken kredi piyasası da sakin; korku ve stres sinyalleri şu an düşük. Bununla birlikte 10 yıllık faizin son bir ayda yaklaşık 13 baz puan sıçraması ve altının aynı dönemde yüzde onbeşi aşan hamlesi birlikte değerlendirildiğinde piyasanın bir yerde enflasyon ya da fiskal risk primini yeniden fiyatladığına dair bir işaret okunabilir. Döngüsellerin öncülüğü ve zayıf dolar makro açıdan büyüme beklentisini desteklese de yüksek faiz ortamında değerleme tamponunun inceldiğini akılda tutmak gerekiyor.",
+  "headline": "Yükseliş tabana yayılmış ve kredi sakin, ancak yükselen faizler ile altındaki güçlü hareket zeminde gizli gerilimi işaret ediyor.",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamasının üzerinde, eşit ağırlıklı breadth cap-ağırlıklıyı belirgin biçimde geride bırakmış; bu tablo yükselişin yalnızca birkaç dev hissede değil, piyasanın genelinde taşındığını gösteriyor. VIX 15 civarında ve vadeli yapı contango'da olduğu için kısa vadeli panik sinyali yok, kredi piyasası da sakin. Bununla birlikte 10 yıllık faizin son bir ayda yaklaşık 28 baz puan yükselmesi ve altının aynı dönemde yüzde 15 artması bir arada okunduğunda, piyasanın enflasyon veya risk baskısına karşı sessizce korunma aradığına dair ipuçları çıkıyor. Nasdaq'ın zirveden yüzde 4,4 geri çekilmesi ve Sanayi ile İletişim sektörlerinin hafif eksi bölgede bulunması, döngüsel öncülüğün homojen olmadığını hatırlatıyor; rüzgâr arkadan esiyor ama belirli kesimlerde türbülans var.",
   "watch": [
-   "26 Ağustos NVDA bilançosu: sonuç ve yönetim rehberliği, yapay zeka harcama döngüsüne ilişkin beklentiyi ve Nasdaq'ın göreceli zayıflığının süreceğini mi yoksa kapanacağını mı şekillendirecek.",
-   "10 yıllık ABD tahvil faizi: yükseliş momentumu devam ederse hisse değerlemelerine ve büyüme-değer rotasyonuna baskı artabilir; faizin yön değiştirip değiştirmediği kritik.",
-   "Altın ve dolar ilişkisi: güçlü altın + zayıf dolar kombinasyonunun sürmesi, arka planda fiskal kaygı veya dolar güven sorunu olup olmadığına dair sinyali netleştirebilir."
+   "26 Ağustos NVDA bilançosu: yapay zeka harcama rehberliği, Nasdaq breadth'ini ve teknoloji sektörünün toparlanma kapasitesini doğrudan etkileyebilir.",
+   "10 yıllık ABD tahvil faizi: yüzde 4,74 seviyesindeyken devam eden yükseliş, değerleme baskısını artırarak hisse senedi riskini yeniden fiyatlatabilir.",
+   "Altın ve petrol momentumu: her ikisindeki güçlü hareket sürdürülebilir mi; emtia ivmesinin ivme kaybetmesi risk iştahı okumalarını değiştirebilir."
   ],
   "concept": {
-   "title": "Breadth (Piyasa Genişliği)",
-   "body": "Breadth, yükselişe ya da düşüşe katılan hisse veya sektör sayısının genişliğini ölçer; endeks seviyesi yüksek olsa bile katılım daralıyorsa yükselişin kırılgan olduğuna işaret eder. Bugün eşit ağırlıklı endeksin cap ağırlıklıyı belirgin geride bırakması ve sektörlerin yüzde sekseninin üzerinde bir bölümünün 200 günlük ortalamanın üzerinde bulunması, mevcut yükselişin geniş tabanlı olduğunu ve birkaç büyük hissenin optik yanılsaması olmadığını gösteriyor."
+   "title": "Breadth Divergence (Genişlik Ayrışması)",
+   "body": "Eşit ağırlıklı endeksin cap-ağırlıklı endeksten belirgin biçimde iyi performans göstermesi, yükselişin az sayıda büyük şirkete mahkûm olmadığını ve tabanın sağlıklı olduğunu işaret eden bir breadth genişlemesidir. Tarihsel olarak bu tür genişleme, piyasa düzeltmelerinde 'ilk kırılan' büyük cap savunucuları yerine genel zeminin daha dirençli kalabileceğine dair bağlamsal bir güven sinyali olarak yorumlanır."
   }
  }
 }
