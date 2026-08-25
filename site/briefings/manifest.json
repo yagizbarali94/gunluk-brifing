@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-25-upcoming",
+  "date": "2026-08-25",
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-25-reported",
+  "date": "2026-08-25",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-24-upcoming",
   "date": "2026-08-24",
   "ticker": "NVDA",

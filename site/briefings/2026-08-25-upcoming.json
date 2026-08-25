@@ -1,0 +1,355 @@
+{
+ "date": "2026-08-25",
+ "slot": "upcoming",
+ "generated_at": "2026-08-25T06:18:19+00:00",
+ "mock": false,
+ "ticker": "NVDA",
+ "company": {
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 5049593888768
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (26 Ağustos) — beklentileri incele"
+ },
+ "price": {
+  "last": 208.48,
+  "change_pct": -3.2
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-20",
+  "next_date": "2026-08-26",
+  "last_label": "20 Mayıs",
+  "next_label": "26 Ağustos",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$81.6B",
+   "sub": "+%85 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.87",
+   "sub": "Beat · beklenti $1.77",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%74.9",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$48.6B",
+   "sub": "marj %60",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 20 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$81.6B",
+      "note": "+%85 y/y",
+      "tone": "green",
+      "spark": [
+       44.06,
+       46.74,
+       57.01,
+       68.13,
+       81.61
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$58.3B",
+      "note": "+%211 y/y",
+      "tone": "green",
+      "spark": [
+       42.6,
+       56.5,
+       56.0,
+       63.1,
+       71.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.87",
+      "note": "beklenti $1.77 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%74.9",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       60.5,
+       72.4,
+       73.4,
+       75.0,
+       74.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%65.6",
+      "note": "+16.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       49.1,
+       60.8,
+       63.2,
+       65.0,
+       65.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%77.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%114.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%52.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.75×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "132",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$48.6B",
+      "note": "marj %60",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$889M",
+      "note": "nakit $13.2B · borç $12.3B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Wall Street, Q2 2026 için büyümenin yavaşlamasını beklerken Dan Niles hyperscaler harcamalarının rekor seviyede sürdüğünü belirtiyor; resmi şirket guidance'ı yarınki bilanço ile açıklanacak.",
+      "note": "Bilanço öncesi beklentiler temkinli pozitif; büyüme yavaşlama fiyatlanmış, sürpriz upside guidance hisse için kritik katalizör olacak.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "32.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "16.0×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "19.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "30.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "42.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    44.1,
+    46.7,
+    57.0,
+    68.1,
+    81.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    60.5,
+    72.4,
+    73.4,
+    75.0,
+    74.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Wall Street Q2'de büyüme yavaşlaması beklerken Dan Niles, hyperscaler'ların rekor harcama yaptığını söyleyerek olumlu karşı tez sunuyor.",
+   "source": "benzinga",
+   "published": "2026-08-24",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61393921/nvidia-earnings-preview-hyperscaler-spending-accelerates-wall-street-estimates-slowdown",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "SpaceX, NVIDIA destekli yapay zeka sistemini 2027 Q4'te fırlatmayı hedefliyor; Musk daha hafif ve düşük maliyetli tasarımı övdü.",
+   "source": "benzinga",
+   "published": "2026-08-25",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61400018/elon-musk-says-spacex-targeting-q4-2027-launch-for-nvidia-powered-ai-system-touts-lower-cost-denser-and-lighter-design",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Senatör Warren, Jensen Huang'ı NVIDIA teknolojisinin Rus insansız hava araçlarında kullanılmasını açıklamak üzere Kongre'de ifade vermeye çağırdı.",
+   "source": "benzinga",
+   "published": "2026-08-25",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61400006/elizabeth-warren-jensen-huang-one-million-mar-a-lago-nvidia-russian-drones",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "'Munificent Seven' olarak adlandırılan yeni enerji/altyapı şirketleri grubu, yapay zeka patlamasını güçlendirme iddiasıyla yatırımcı ilgisi çekiyor.",
+   "source": "benzinga",
+   "published": "2026-08-24",
+   "url": "https://www.benzinga.com/etfs/new-etfs/26/08/61394783/magnificent-7-built-the-ai-boom-munificent-seven-wants-to-power-it",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "NVIDIA, veri merkezi GPU'ları ve yapay zeka hızlandırıcıları üretir; başlıca müşterileri Microsoft, Google, Meta, Amazon gibi büyük bulut sağlayıcıları ile yapay zeka şirketleridir. Gelirinin büyük çoğunluğu veri merkezi segmentinden, ikincil olarak oyun GPU'larından gelir.",
+  "note": "NVIDIA'nın ekonomik hendeği son derece sağlam: CUDA yazılım ekosistemi, NVLink ara bağlantı mimarisi ve sürekli güncellenen Blackwell mimarisi, rakiplerin kolayca kopyalayamayacağı yapısal avantajlar oluşturuyor. %85 y/y gelir büyümesi ve %77.6 ROIC bu hendeğin somut yansıması; ancak brüt marjın tepe noktadan gerilemeye başlaması ve yüksek değerleme çarpanları, uzun vadeli tezin 'gerçeği fiyatlanmış mı?' sorusunu gündeme taşıyor. 3-5 yıllık perspektifte hyperscaler capex döngüsü sürdüğü sürece şirket değer kazanmaya devam edebilir, fakat büyümenin yavaşladığı ilk çeyrekte çarpanlar acımasız bir yeniden fiyatlamaya zemin hazırlayabilir.",
+  "counter": "AMD ve özel ASIC çözümleri (Google TPU, Amazon Trainium, Microsoft Maia) GPU bağımlılığını azaltmaya devam ettikçe, NVIDIA'nın fiyatlama gücü ve pazar payı orta vadede baskı altına girebilir. Ayrıca ABD ihracat kısıtlamalarının genişlemesi ve jeopolitik gerilimler (Rus insansız hava araçlarında NVIDIA çipi iddiaları, Kongre baskısı), hem gelir hem de düzenleyici risk açısından ciddi bir tehdit oluşturuyor.",
+  "watch": [
+   "Blackwell GPU tedarik zinciri ve teslimat hızı: üretim darboğazları giderilebiliyor mu, hyperscaler siparişleri karşılanabiliyor mu?",
+   "Brüt marj eğilimi: özel ASIC rekabeti ve fiyat baskısı altında %73+ seviyesi korunabilecek mi?"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 44.1B → 81.6B çeyreklik zinciriyle güçlü ivme sürerken %85 y/y büyüme hâlâ sektörün çok üzerinde; ancak baz etkisi büyüdükçe önümüzdeki çeyreklerde yavaşlama kaçınılmaz görünüyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %74.9 ve faaliyet marjı %65.6 tarihsel zirveye yakın seyrederken ROIC %77.6 ve ROE %114.3, sermayenin olağanüstü verimli kullanıldığını gösteriyor; brüt marjda küçük aşağı yönlü baskı izlenmeye değer."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşüm oranı 0.75× tatmin edici olmakla birlikte net kârın altında kalması (büyük ölçüde stok bazlı ödeme ve capex) dikkat gerektiriyor; hisse seyrelmesindeki -%0.9 geri alım disiplini ise olumlu."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit yalnızca 889M dolar ile bu ölçekteki bir şirket için oldukça düşük; güçlü FCF üretimi kısa vadede riski sınırlasa da agresif geri alım/temettü politikası bilançoyu kısıtlı tutuyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 16× görece makul görünse de FD/Satış 19.7× ve Fiyat/FCF 42.4× ile şirket 'her şeyin yolunda gideceği' senaryoyu fiyatlıyor; büyümede herhangi bir hayal kırıklığı çarpanlarda sert bir baskıya yol açabilir."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40 (40 Kuralı)",
+   "body": "Yazılım ve teknoloji şirketleri için gelir büyüme oranı ile FCF (ya da FAVÖK) marjının toplamının 40'ı aşması sağlıklı büyüme-kârlılık dengesine işaret eder. NVIDIA bu metriği 132 ile çok üst düzeyde geçiyor; bu, hem büyümenin hem kârlılığın aynı anda güçlü olduğunu gösterir ve nadiren görülen bir kalitedir."
+  }
+ }
+}
