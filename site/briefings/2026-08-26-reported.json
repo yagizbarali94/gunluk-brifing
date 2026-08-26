@@ -1,0 +1,355 @@
+{
+ "date": "2026-08-26",
+ "slot": "reported",
+ "generated_at": "2026-08-26T06:21:39+00:00",
+ "mock": false,
+ "ticker": "NVDA",
+ "company": {
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 5160284192768
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Bugün bilanço açıkladı (26 Ağustos)"
+ },
+ "price": {
+  "last": 213.05,
+  "change_pct": 2.04
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-20",
+  "next_date": "2026-08-26",
+  "last_label": "20 Mayıs",
+  "next_label": "26 Ağustos",
+  "days_to_next": 0,
+  "progress_pct": 100
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$81.6B",
+   "sub": "+%85 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.87",
+   "sub": "Beat · beklenti $1.77",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%74.9",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$48.6B",
+   "sub": "marj %60",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 20 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$81.6B",
+      "note": "+%85 y/y",
+      "tone": "green",
+      "spark": [
+       44.06,
+       46.74,
+       57.01,
+       68.13,
+       81.61
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$58.3B",
+      "note": "+%211 y/y",
+      "tone": "green",
+      "spark": [
+       42.6,
+       56.5,
+       56.0,
+       63.1,
+       71.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.87",
+      "note": "beklenti $1.77 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%74.9",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       60.5,
+       72.4,
+       73.4,
+       75.0,
+       74.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%65.6",
+      "note": "+16.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       49.1,
+       60.8,
+       63.2,
+       65.0,
+       65.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%77.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%114.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%52.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.75×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "132",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$48.6B",
+      "note": "marj %60",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$889M",
+      "note": "nakit $13.2B · borç $12.3B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirketin Q3 2027 gelir yönlendirmesi haber başlıklarında net olarak yer almıyor; bilanço sonrası detay açıklaması bekleniyor.",
+      "note": "Earnings swing tahminlerinin ($257-286B) yüksekliği, piyasanın guidance'a duyarlılığının ne denli şiddetli olduğunu gösteriyor.",
+      "tone": "gray"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "31.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "16.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "20.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "30.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "43.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    44.1,
+    46.7,
+    57.0,
+    68.1,
+    81.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    60.5,
+    72.4,
+    73.4,
+    75.0,
+    74.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Analist Shay Boloor, NVDA'nın CPU liderliğine yürürken mevcut değerleme iskontosunun mantıksız olduğunu savunuyor.",
+   "source": "benzinga",
+   "published": "2026-08-26",
+   "url": "https://www.benzinga.com/markets/earnings/26/08/61426144/shay-boloor-highlights-nvidias-fundamentally-illogical-valuation-discount-as-nvda-eyes-world-leader-status-in-cpus",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Jim Cramer NVIDIA'nın gerçek rakibinin olmadığını vurgularken OpenAI'nın kendi geliştirdiği çipin hızına dikkat çekiyor.",
+   "source": "benzinga",
+   "published": "2026-08-26",
+   "url": "https://www.benzinga.com/markets/tech/26/08/61425789/jim-cramer-nvidia-no-real-competitors-sam-altman-openai-ai-chip",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bilanço sonrasında NVDA piyasa değerinin 286 milyar dolar oynayabileceği tahmin ediliyor.",
+   "source": "benzinga",
+   "published": "2026-08-25",
+   "url": "https://www.benzinga.com/markets/options/26/08/61420395/nvidia-could-swing-by-286-billion-after-earnings",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "NVDA'ya yönelik kaldıraçlı tek-hisse ETF sayısı bir yılda 3'ten 63'e çıktı; perakende spekülatif ilginin tehlikeli boyutlara ulaştığına işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-08-25",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/08/61419951/leveraged-single-stock-etf-closures-went-from-3-to-63-in-a-year-as-money-piles-into-nvidia-bets",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "NVIDIA, veri merkezi GPU'ları, AI hızlandırıcıları (H100/B200 serisi) ve yazılım ekosistemi (CUDA) aracılığıyla yapay zeka altyapısı sağlar. Başlıca müşterileri hyperscaler bulut şirketleri, kurumsal AI laboratuvarları ve savunma/otomotiv sektörüdür; para kazanma modeli yüksek marjlı donanım satışı + yazılım/hizmet katmanı üzerine kuruludur.",
+  "note": "NVIDIA'nın CUDA ekosistemi ve veri merkezi ürün ailesi, rakiplerin kolayca aşamayacağı derin bir yazılım-donanım entegrasyon hendeki oluşturuyor; 5 yıllık ufukta AI altyapı talebinin sürmesi bu hendeki güçlendiriyor. %60 FCF marjı ve ROIC %77.6 gibi rakamlar, sermayenin olağanüstü verimli kullanıldığını ve iş modelinin gerçek anlamda yüksek kalite taşıdığını teyit ediyor. Bu çeyrek, büyüme ivmesinin 44B'dan 81.6B'a taşınan yolculukla hâlâ sağlıklı olduğunu, dolayısıyla uzun vadeli tezi zayıflatmak yerine desteklediğini gösteriyor.",
+  "counter": "Müşteri konsantrasyonu yüksek: Microsoft, Google, Meta ve Amazon gelirin büyük bölümünü oluşturuyor; bu şirketlerin kendi AI çiplerini ölçeklendirmesi (TPU, Trainium, Meta MTIA) ve OpenAI'nın kendi çip geliştirme sinyalleri, orta vadede birim başına talep baskısı ve fiyatlama gücü erozyonu riski yaratıyor.",
+  "watch": [
+   "Brüt marjın %73 altına inip inmeyeceği: Blackwell geçiş maliyetleri ve müşteri pazarlık gücü artışı marjı baskılayabilir",
+   "Hyperscaler'ların kendi AI çip harcamalarının NVDA bütçesine oranı: müşteri içselleştirmesi pay kaybına erken uyarı sinyalidir"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 44.1B'dan 81.6B'a çıkarak beş çeyrekte neredeyse iki katlandı; y/y %85 büyüme oranı mutlak büyüklük göz önüne alındığında olağanüstü güçlü, ancak kademeli yavaşlama kaçınılmaz bir matematik olacak."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marjda 0.1 puanlık minimal çeyreklik gerilme ve faaliyet marjında 'down' trend işareti dikkat çekse de %74.9 brüt marj ve ROIC %77.6 sektörün çok üzerinde; net marj trendi ise ayrışarak yukarı yönde."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr 0.75× düzeyi, net kârın büyük çoğunluğunun gerçek nakde dönüştüğünü; -%0.9'luk hisse geri alım kökenli seyreltme tersine çevirme ise hissedarlara net değer iade edildiğini gösteriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit 889M ile fiilen nötr bir bilanço mevcut; bu büyüklükteki şirket için borçsuz olması olumlu, ancak dev FCF'e karşın kasa dengesi düşük kalıyor — agresif yatırım ve geri alım harcamasının yansıması."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 16.3 büyüme ve kaliteyle kıyaslandığında makul görünüyor, ancak FD/Satış 20.2 ve Fiyat/FCF 43.3 mükemmel bir yürütmeyi fiyatlıyor; herhangi bir talep yumuşaması çarpanları sert aşağı çekebilir."
+   }
+  ],
+  "concept": {
+   "title": "Yazılım Hendeki Olarak CUDA Kilidi (Platform Lock-in)",
+   "body": "Platform lock-in, müşterilerin alternatife geçiş maliyetinin o kadar yüksek olmasıdır ki rakip ürün teknik olarak eşdeğer bile olsa tercih edilmez. NVIDIA'nın CUDA ekosistemi, milyonlarca optimize kütüphane, eğitim altyapısı ve mühendis alışkanlığıyla bu kilidi o denli derin oluşturmuştur ki AMD veya özel çiplere geçiş, donanım fiyatından çok yeniden yazılım geliştirme maliyetiyle caydırıcıdır."
+  }
+ }
+}
