@@ -1,0 +1,355 @@
+{
+ "date": "2026-08-27",
+ "slot": "reported",
+ "generated_at": "2026-08-27T16:51:40+00:00",
+ "mock": false,
+ "ticker": "NVDA",
+ "company": {
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 5544186740736
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (26 Ağustos)"
+ },
+ "price": {
+  "last": 228.9,
+  "change_pct": 4.27
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-26",
+  "next_date": "2026-11-17",
+  "last_label": "26 Ağustos",
+  "next_label": "17 Kasım",
+  "days_to_next": 82,
+  "progress_pct": 1
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$81.6B",
+   "sub": "+%85 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.22",
+   "sub": "Beat · beklenti $2.09",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%74.9",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$48.6B",
+   "sub": "marj %60",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 26 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$81.6B",
+      "note": "+%85 y/y",
+      "tone": "green",
+      "spark": [
+       44.06,
+       46.74,
+       57.01,
+       68.13,
+       81.61
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$58.3B",
+      "note": "+%211 y/y",
+      "tone": "green",
+      "spark": [
+       42.6,
+       56.5,
+       56.0,
+       63.1,
+       71.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.22",
+      "note": "beklenti $2.09 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%74.9",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       60.5,
+       72.4,
+       73.4,
+       75.0,
+       74.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%65.6",
+      "note": "+16.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       49.1,
+       60.8,
+       63.2,
+       65.0,
+       65.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%77.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%114.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%52.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.75×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "132",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$48.6B",
+      "note": "marj %60",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$889M",
+      "note": "nakit $13.2B · borç $12.3B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Haberler bağlamında Jensen Huang'ın frontier AI laboratuvarlarının NVIDIA müşterisi kalmaya devam edeceğine '100% güvendiği' aktarılıyor; resmi sayısal guidance verisi mevcut haberlerde yer almıyor.",
+      "note": "Yönetim sinyali talep görünürlüğünün güçlü olduğuna işaret ediyor, ancak somut gelir/marj yönlendirmesi teyit edilemedi.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "35.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "15.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "19.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "30.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "46.6×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    44.1,
+    46.7,
+    57.0,
+    68.1,
+    81.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    60.5,
+    72.4,
+    73.4,
+    75.0,
+    74.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Meta, Google ve Amazon'un kendi AI çiplerini geliştirme çabalarına rağmen NVIDIA'nın AI çip pazarındaki hakimiyetini sürdürdüğü vurgulanıyor; bu durum hem moat'ı teyit hem de uzun vadeli konsantrasyon riskini öne çıkarıyor.",
+   "source": "benzinga",
+   "published": "2026-08-27",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/08/61468134/nvidia-ai-chip-race",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Jensen Huang, frontier AI laboratuvarlarının NVIDIA'nın müşterisi olmayı sürdüreceğinden %100 emin olduğunu açıkladı.",
+   "source": "benzinga",
+   "published": "2026-08-27",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/08/61470458/jensen-huang-nvidia-customers",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bernstein, bilançonun ardından NVIDIA için hedef fiyatını 400 dolara yükselterek Outperform notunu korudu.",
+   "source": "benzinga",
+   "published": "2026-08-27",
+   "url": "https://www.benzinga.com/news/26/08/61468273/bernstein-maintains-outperform-nvidia-raises-price-target-400",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "NVIDIA'nın Washington'da lobi faaliyetleri için bir PAC kurduğu ortaya çıktı; bu hamle, şirketin artan düzenleyici ve jeopolitik baskılara karşı siyasi nüfuzunu güçlendirme çabası olarak değerlendiriliyor.",
+   "source": "benzinga",
+   "published": "2026-08-27",
+   "url": "https://www.benzinga.com/news/26/08/61469932/nvidia-starts-pac-ai-chip-maker-builds-influence-force-dc-bloomberg-law-exclusive",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "NVIDIA, veri merkezi GPU'ları, AI hızlandırıcıları (H100/B200 serisi) ve yazılım ekosistemi (CUDA) ile yapay zeka altyapısının omurgasını oluşturuyor. Başlıca müşterileri hiperscaler bulut şirketleri (Meta, Google, Amazon, Microsoft) ve öne çıkan frontier AI laboratuvarları; gelirinin büyük çoğunluğu Veri Merkezi segmentinden geliyor.",
+  "note": "NVIDIA'nın ekonomik hendeği yalnızca donanımda değil, CUDA ekosisteminin yarattığı geliştirici kilidi ve yazılım-donanım entegrasyonunda yatıyor; bu yapısal avantaj kısa vadede kırılması güç bir geçiş maliyeti oluşturuyor. Çeyreklik %85 y/y büyüme ve %60 FCF marjıyla şirket, Rule of 40'ı 132'de tutarken sermaye getirisini (ROIC %77.6) sektörün çok üzerinde sürdürüyor. Ancak brüt ve faaliyet marjı trendinin hafif aşağı döndüğü, büyük müşterilerin kendi AI çiplerini geliştirdiği ve ABD'de artan lobi baskısı olduğu bir ortamda 3-5 yıllık tez güçlü ama risksiz değil.",
+  "counter": "Meta, Google ve Amazon'un kendi AI çiplerinde hızla ilerlediği haberleri, NVIDIA'nın en büyük müşterilerinin zamanla harici GPU bağımlılığını azaltabileceğine işaret ediyor. Hypescaler müşteri konsantrasyonu devam ettiği sürece bu gruplardan herhangi birinin iç üretimi ölçeklendirmesi hem geliri hem fiyatlama gücünü yapısal olarak baskıya alabilir.",
+  "watch": [
+   "Hyperscaler müşterilerin (Meta, Google, Amazon) iç çip projelerinin NVIDIA GPU alım büyüme hızına etkisi — yani dış GPU talebinin yıllık artışı yavaşlamaya başlıyor mu?",
+   "Brüt marjın %74 eşiğinin altına kalıcı geçip geçmediği — rekabet artışı ve ürün karması (Blackwell→Rubin geçişi) baskısının ne kadar derinleştiği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir serisi (44.1→81.6 milyar dolar) ardışık hızlanma gösteriyor ve %85 y/y büyüme, bu ölçekteki bir şirket için olağanüstü yüksek kalmayı sürdürüyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Net marj %71.5'e yükselirken brüt ve faaliyet marjındaki çeyreksel kırılma henüz endişe boyutunda değil; ROIC %77.6 ve ROE %114.3, sermayenin son derece verimli kullanıldığını kanıtlıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşüm oranı 0.75x makul olmakla birlikte saf net kârın altında kalıyor; hisse seyrelmesinin eksi %0.9 y/y olması geri alım disiplinini olumlu yönde teyit ediyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit pozisyonu yalnızca 889 milyon dolar — 81.6 milyar dolarlık çeyreklik gelire kıyasla son derece sınırlı; bu ölçekteki şirket için bilanço tampon kapasitesi dikkat çekici biçimde düşük."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 15.8 büyüme hızına göre görece makul görünse de FD/Satış 19.9 ve Fiyat/FCF 46.6, mevcut büyümenin sürmesine dair yüksek bir beklentiyi fiyatlıyor; yavaşlama senaryosunda çarpanlar sert darılabilir."
+   }
+  ],
+  "concept": {
+   "title": "Geliştirici Kilidi (Developer Lock-in) ve Platform Moat",
+   "body": "Bir platformun değeri, yalnızca donanımından değil üzerinde birikim yapan yazılım ekosisteminden gelir; NVIDIA'nın CUDA platformu, milyonlarca araştırmacı ve mühendis tarafından yıllardır kullanılan kütüphaneler ve araçlarla bu kilit etkisini somutlaştırıyor. Rakip bir çipin teknik olarak daha hızlı olması bile CUDA'dan geçiş maliyetini aşmak için yeterli olmadığından, NVIDIA'nın gerçek hendeği silikon değil yazılım ekosistemidir."
+  }
+ }
+}
