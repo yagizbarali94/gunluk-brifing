@@ -1,6 +1,6 @@
 {
- "date": "2026-08-27",
- "generated_at": "2026-08-27T16:51:51+00:00",
+ "date": "2026-08-28",
+ "generated_at": "2026-08-28T17:45:27+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,53 +12,53 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7735.04,
-    "chg_1d": 0.77,
+    "last": 7708.1,
+    "chg_1d": -0.3,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.8,
+    "from_high": -1.2,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29576.6,
-    "chg_1d": 1.2,
+    "last": 29425.91,
+    "chg_1d": -0.73,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.5,
+    "from_high": -4.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3016.1,
-    "chg_1d": 0.34,
-    "above_50": true,
+    "last": 2979.4,
+    "chg_1d": -1.16,
+    "above_50": false,
     "above_200": true,
-    "from_high": -1.7,
-    "state": "yükseliş trendi",
-    "tone": "green"
+    "from_high": -2.9,
+    "state": "zayıflıyor",
+    "tone": "gray"
    }
   ],
   "above_200_count": 3,
   "total": 3
  },
  "fear": {
-  "vix": 14.43,
-  "vix3m": 17.54,
+  "vix": 14.67,
+  "vix3m": 17.62,
   "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -9.9
+  "vix_chg_5d": -3.0
  },
  "breadth": {
-  "rsp_3m": 6.7,
-  "spy_3m": 2.3,
-  "spread": 4.4,
-  "pct_sectors_above_200": 73,
+  "rsp_3m": 5.8,
+  "spy_3m": 1.6,
+  "spread": 4.1,
+  "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
  },
@@ -67,111 +67,111 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 7.8,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 7.1,
+    "chg": 7.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 7.1,
+    "chg": 7.3,
     "group": "defansif"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 5.6,
+    "chg": 6.0,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": 5.8,
     "group": "döngüsel"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 3.2,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": 1.0,
+    "chg": 3.6,
     "group": "döngüsel"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 0.7,
+    "chg": 1.8,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": 1.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": 0.4,
+    "chg": 0.7,
     "group": "defansif"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -0.2,
+    "chg": -0.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -1.3,
+    "chg": -1.6,
     "group": "defansif"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -4.3,
+    "chg": -5.1,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 0.5,
-  "cyc_avg": 3.6
+  "def_avg": 0.3,
+  "cyc_avg": 3.7
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.66",
-    "note": "son 1 ay +%2.6",
+    "value": "%4.73",
+    "note": "son 1 ay +%2.8",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.98 puan",
+    "value": "+1.00 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.1",
-    "note": "son 1 ay -%1.6",
+    "value": "99.7",
+    "note": "son 1 ay -%1.3",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$423",
-    "note": "son 1 ay +%14.8",
+    "value": "$410",
+    "note": "son 1 ay +%11.4",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$82.7",
-    "note": "son 1 ay +%0.3",
+    "value": "$83.3",
+    "note": "son 1 ay +%0.1",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.8",
+    "value": "+%0.5",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -182,22 +182,22 @@
   {
    "date": "2026-09-02",
    "label": "AVGO bilanço",
-   "days": 6,
+   "days": 5,
    "date_label": "2 Eylül",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend sağlam ve tabana yayılmış, ancak yükselen faizler ile altının güçlü sinyali makro gerginliği işaret ediyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve breadth verisine göre yükseliş yalnızca büyük şirketlere değil, piyasanın geniş kesimine yayılmış durumda — bu sağlıklı bir trendin karakteristiği. VIX 14 seviyesinde ve contango yapısında olduğundan kısa vadeli korku neredeyse yok, kredi piyasaları da baskı altında değil. Öte yandan 10 yıllık faizin bir ayda 26 baz puan yükselmesi ve altının aynı dönemde yaklaşık yüzde 15 değer kazanması dikkat çekici bir ayrışma; bu tablo hem enflasyon beklentilerindeki yeniden fiyatlamayı hem de belirsizliğe karşı güvenli liman talebini yansıtıyor olabilir. Dolar endeksinin zayıflaması döngüsel sektörleri ve emtiayı desteklerken, mevcut faiz seviyesi uzun vadeli iskonto oranlarını sıkıştırmaya devam ediyor.",
+  "headline": "Yükseliş tabana yayılmış, breadth güçlü; ancak altının sert hareketi ve faiz artışı makro sürtünmeye işaret ediyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamasının üzerinde seyrediyor ve sektörlerin yüzde sekseninin bu seviyede tutunması yükselişin dar bir liderliğe mahkûm olmadığını gösteriyor; eşit ağırlıklı getirinin cap-ağırlıklıyı belirgin biçimde geride bırakması bu tabloyu teyit ediyor. VIX'in 14-15 bandında seyredip vadeli yapının contango'da kalması, profesyonel yatırımcıların şimdilik ciddi bir koruma talebi duymadığına işaret ediyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 13 baz puan yükselmesi ve altının aynı dönemde yüzde on biri aşan kazanımı birlikte değerlendirildiğinde, piyasanın enflasyon veya jeopolitik bir belirsizliği sessizce fiyatlamaya çalıştığı ihtimali göz ardı edilemez. Zayıflayan dolar ise ihracat ağırlıklı şirketler ve emtia için rüzgârı arkaya alırken, faiz hassasiyeti yüksek Gayrimenkul ve Kamu Hizmetleri gibi sektörleri baskı altında tutuyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin yükseliş momentumunu koruyup korumadığı — yüzde 4.80 civarı eşik değer olarak izlenebilir",
-   "2 Eylül AVGO (Broadcom) bilançosu: teknoloji sektörünün son bir ayda öne çıkması göz önünde bulundurulduğunda, yapay zeka harcama güncelleri tüm sektör için ton belirleyici olabilir",
-   "Altın ve faiz aynı anda yükselmeye devam ederse bu 'stagflasyon kaygısı mı, likidite mi?' sorusunu öne çıkarır — bu ayrımı netleştirecek enflasyon ve büyüme verilerine dikkat"
+   "10 yıllık ABD Hazine faizinin yüzde 4.80-5.00 eşiğine yaklaşıp yaklaşmayacağı — bu seviye hisse değerlemelerinde yeniden bir sürtünme noktası oluşturabilir",
+   "Altındaki ivmenin sürdürülüp sürdürülmediği ve bunun arkasındaki anlatının (enflasyon mu, jeopolitik mi, dolar kaçışı mı) netleşmesi",
+   "2 Eylül AVGO bilançosu — Nasdaq 100'ün zirvedeki görece zayıflığını onaylayıp onaylamayacağı ve yapay zeka harcama görünümüne dair şirket yönetiminin söylemi"
   ],
   "concept": {
    "title": "Breadth Genişliği (Market Breadth)",
-   "body": "Breadth, yalnızca birkaç büyük hissenin değil, piyasanın ne kadar geniş bir kesiminin aynı yönde hareket ettiğini ölçer. Eşit ağırlıklı endeksin cap-ağırlıklıyı belirgin şekilde geride bırakması, rallinin 'mega-cap bağımlısı' değil, tabana yayılmış olduğuna işaret eder — bu durum genellikle trendin sürdürülebilirliği açısından olumlu bir koşul olarak değerlendirilir."
+   "body": "Breadth, yükselişe katılan hisse ya da sektör sayısının toplam piyasaya oranını ölçer; dar bir liderlik (örneğin yalnızca birkaç mega-cap) trendi kırılgan yaparken, geniş bir katılım trendin daha sağlam bir zemine oturduğuna işaret eder. Bugün sektörlerin yüzde sekseninin 200 günlük ortalamasının üzerinde olması ve eşit ağırlıklı getirinin öne çıkması, mevcut yükselişin 'birkaç büyük ismin sırtında taşınan' değil, daha geniş tabanlı bir rejim içinde olduğunu gösteriyor."
   }
  }
 }

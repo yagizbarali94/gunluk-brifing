@@ -1,0 +1,344 @@
+{
+ "date": "2026-08-28",
+ "slot": "upcoming",
+ "generated_at": "2026-08-28T17:44:28+00:00",
+ "mock": false,
+ "ticker": "MDB",
+ "company": {
+  "name": "MongoDB, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 36058435584
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 4 gün sonra açıklanacak (1 Eylül) — beklentileri incele"
+ },
+ "price": {
+  "last": 448.31,
+  "change_pct": 1.75
+ },
+ "earnings_calendar": {
+  "last_date": "2026-05-28",
+  "next_date": "2026-09-01",
+  "last_label": "28 Mayıs",
+  "next_label": "1 Eylül",
+  "days_to_next": 4,
+  "progress_pct": 96
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$688M",
+   "sub": "+%25 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.32",
+   "sub": "Beat · beklenti $1.18",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%72.2",
+   "sub": "-0.9 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$199M",
+   "sub": "marj %29",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Mayıs",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$688M",
+      "note": "+%25 y/y",
+      "tone": "green",
+      "spark": [
+       0.55,
+       0.59,
+       0.63,
+       0.7,
+       0.69
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$4M",
+      "note": "-%112 y/y",
+      "tone": "amber",
+      "spark": [
+       -6.9,
+       -8.0,
+       -0.3,
+       2.2,
+       0.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.32",
+      "note": "beklenti $1.18 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%72.2",
+      "note": "-0.9 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       71.2,
+       71.0,
+       71.5,
+       73.0,
+       72.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-3.6",
+      "note": "+6.1 puan y/y",
+      "tone": "green",
+      "spark": [
+       -9.8,
+       -11.0,
+       -2.9,
+       0.0,
+       -3.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-0.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-1.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-1.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.6 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "48",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$199M",
+      "note": "marj %29",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$1.0B",
+      "note": "nakit $1.0B · borç $30M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "61.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "12.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-412.8×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "61.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    0.5,
+    0.6,
+    0.6,
+    0.7,
+    0.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    71.2,
+    71.0,
+    71.5,
+    73.0,
+    72.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Barclays, MongoDB için Overweight notunu koruyarak fiyat hedefini 460 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-08-26",
+   "url": "https://www.benzinga.com/news/26/08/61432831/barclays-maintains-overweight-mongodb-raises-price-target-460",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Wells Fargo, Overweight notunu sürdürerek fiyat hedefini 475 dolara çıkardı.",
+   "source": "benzinga",
+   "published": "2026-08-25",
+   "url": "https://www.benzinga.com/news/26/08/61405931/wells-fargo-maintains-overweight-mongodb-raises-price-target-475",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Baird, Neutral notunu koruyarak fiyat hedefini 400 dolara revize etti; iyimser konsensüsün altında kalmaya devam ediyor.",
+   "source": "benzinga",
+   "published": "2026-08-25",
+   "url": "https://www.benzinga.com/news/26/08/61402846/baird-maintains-neutral-mongodb-raises-price-target-400",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Trump'ın Kanada'ya yönelik yeni gümrük tehditleri bellek hisselerini sürüklerken geniş piyasada teknoloji sektörüne yönelik makro endişeler tırmandı.",
+   "source": "benzinga",
+   "published": "2026-08-24",
+   "url": "https://www.benzinga.com/markets/market-summary/26/08/61390668/memory-stocks-crater-trump-50-percent-canada-tariffs-markets-monday",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "MongoDB, NoSQL belge tabanlı veritabanı yazılımı geliştirip bulut üzerinden (Atlas) ve lisans modeliyle kurumsal müşterilere sunar. Gelirinin büyük bölümü tüketim bazlı Atlas platformundan gelir; uygulama geliştiricilerini ve kurumsal veri yönetimi ekiplerini hedefler.",
+  "note": "MongoDB'nin Atlas platformu, tüketim bazlı gelir modeliyle müşteri bağımlılığı (switching cost) yaratan güçlü bir moat oluşturuyor; sekiz çeyrek üst üste beklenti aşması ve %29 FCF marjı iş modelinin gerçek nakit üretme kapasitesini teyit ediyor. Ancak faaliyet marjının yeniden negatife dönmesi ve sermaye getirilerinin (ROIC %-0.2) sıfır civarında seyretmesi, büyümenin henüz hissedar değerine verimli biçimde dönüştürülemediğini gösteriyor; 3-5 yıllık tezin canlılığı marj disiplinine bağlı. AI/vektör arama entegrasyonu uzun vadeli büyüme hikayesini desteklese de rekabet yoğunlaşması bu potansiyeli kısmen baskılayabilir.",
+  "counter": "AWS DocumentDB, Google Firestore ve yeni nesil AI-native veritabanlarının fiyat rekabeti, Atlas'ın tüketim birim fiyatlarını aşağı çekebilir ve brüt marjın kalıcı olarak erimesine yol açabilir. Ayrıca büyük bulut sağlayıcılarının kendi veritabanı ekosistemlerini güçlendirmesi müşteri kazanım maliyetlerini artırabilir.",
+  "watch": [
+   "Atlas tüketim büyümesinin ivmesi ve brüt marjın %72 üzerinde tutunup tutunmadığı",
+   "Faaliyet marjının kalıcı olarak pozitife geçip geçmediği ve ROIC'in sıfırın üzerine çıkma hızı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Gelir %25 y/y büyümeyle sağlıklı görünse de çeyreklik seride 0.6→0.7 milyar dolar bandında ivme kaybı gözlemleniyor; büyüme sürdürülebilir ama hızlanmıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjı dört çeyrek önceki %-9.8'den %-2.9 kurtarılmış görünse de son çeyrekte %-3.6'ya geriledi ve ROIC %-0.2 ile sermaye geri dönüşü hâlâ negatif."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "%29 FCF marjı ve Rule of 40 skoru 48 ile nakit dönüşümü güçlüdür; %0.6 hisse seyrelmesi ise bu ölçekteki bir büyüme şirketi için kabul edilebilir düzeyde düşük."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "1 milyar dolarlık net nakit pozisyonu şirkete hem kriz tamponu hem yatırım esnekliği sağlıyor; borç yükü risk oluşturmuyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 61x, Fiyat/FCF 61x ve FD/Satış 12.7x çarpanları %25 büyüme ve negatif faaliyet marjı kombinasyonuyla örtüşmüyor; mükemmel bir icra ve marj genişlemesi fiyata zaten büyük ölçüde yansımış durumda."
+   }
+  ],
+  "concept": {
+   "title": "Tüketim Bazlı Gelir Modeli (Consumption-Based Revenue)",
+   "body": "Tüketim bazlı modelde müşteri sabit lisans yerine kullandığı kaynak miktarına göre ödeme yapar; bu model üst satış fırsatı yaratırken geliri müşteri aktivitesine doğrudan bağlar. MongoDB Atlas bu modeli uygular: müşteri büyüdükçe gelir otomatik artar, ancak ekonomik yavaşlamalarda tüketim düşerek gelir tahmini zorlaşır."
+  }
+ }
+}
