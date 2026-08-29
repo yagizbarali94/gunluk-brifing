@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-08-29-upcoming",
+  "date": "2026-08-29",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-08-29-reported",
+  "date": "2026-08-29",
+  "ticker": "CRM",
+  "name": "Salesforce, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-28-upcoming",
   "date": "2026-08-28",
   "ticker": "MDB",
