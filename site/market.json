@@ -1,6 +1,6 @@
 {
- "date": "2026-08-29",
- "generated_at": "2026-08-29T11:49:47+00:00",
+ "date": "2026-08-30",
+ "generated_at": "2026-08-30T10:44:03+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,53 +12,53 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7730.99,
-    "chg_1d": 0.72,
+    "last": 7711.76,
+    "chg_1d": -0.25,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.9,
+    "from_high": -1.1,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29641.56,
-    "chg_1d": 1.43,
+    "last": 29433.43,
+    "chg_1d": -0.7,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.3,
+    "from_high": -4.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 3014.34,
-    "chg_1d": 0.28,
-    "above_50": true,
+    "last": 2972.37,
+    "chg_1d": -1.39,
+    "above_50": false,
     "above_200": true,
-    "from_high": -1.8,
-    "state": "yükseliş trendi",
-    "tone": "green"
+    "from_high": -3.1,
+    "state": "zayıflıyor",
+    "tone": "gray"
    }
   ],
   "above_200_count": 3,
   "total": 3
  },
  "fear": {
-  "vix": 14.51,
+  "vix": 14.43,
   "vix3m": 17.48,
   "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -9.4
+  "vix_chg_5d": -4.6
  },
  "breadth": {
-  "rsp_3m": 6.5,
-  "spy_3m": 2.2,
-  "spread": 4.3,
-  "pct_sectors_above_200": 73,
+  "rsp_3m": 5.9,
+  "spy_3m": 1.7,
+  "spread": 4.2,
+  "pct_sectors_above_200": 82,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
  },
@@ -67,55 +67,55 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 8.0,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 7.4,
+    "chg": 8.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 6.5,
+    "chg": 7.5,
     "group": "defansif"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 5.3,
+    "chg": 6.3,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": 5.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 2.9,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": 0.7,
+    "chg": 3.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 0.4,
+    "chg": 2.3,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": 2.0,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": -0.1,
+    "chg": 0.7,
     "group": "defansif"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -0.3,
+    "chg": -0.6,
     "group": "döngüsel"
    },
    {
@@ -127,22 +127,22 @@
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -4.4,
+    "chg": -4.9,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": 0.1,
-  "cyc_avg": 3.5
+  "def_avg": 0.4,
+  "cyc_avg": 3.9
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.67",
-    "note": "son 1 ay +%2.9",
+    "value": "%4.72",
+    "note": "son 1 ay +%2.7",
     "tone": "gray"
    },
    {
@@ -153,25 +153,25 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.2",
-    "note": "son 1 ay -%1.6",
+    "value": "99.7",
+    "note": "son 1 ay -%1.3",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$423",
-    "note": "son 1 ay +%14.7",
+    "value": "$409",
+    "note": "son 1 ay +%11.2",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$83.5",
-    "note": "son 1 ay +%1.3",
+    "value": "$83.4",
+    "note": "son 1 ay +%0.2",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.8",
+    "value": "+%0.6",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -182,22 +182,22 @@
   {
    "date": "2026-09-02",
    "label": "AVGO bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "2 Eylül",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yükseliş tabana yayılmış ve risk iştahı açık, ancak hızla yükselen faizler ve altının sert hareketi zeminde bir gerilimi işaret ediyor.",
-  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde, VIX 14-15 bandında sakin ve eşit-ağırlıklı breadth cap-ağırlıklı getirinin belirgin üzerinde: bu üç sinyal, yükselişin dar bir liderlik grubuyla değil geniş bir tabanla sürdüğünü gösteriyor. Döngüsel sektörlerin defansiflerin önünde olması ve kredi spreadlerinin sakin kalması risk-açık rejimi teyit ediyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 13 baz puan yükselmesi ve altının aynı sürede %14'ü aşan sert değer kazanımı, piyasanın arka planında enflasyon ya da jeopolitik kaynaklı bir belirsizliğin fiyatlandığına işaret ediyor; bu iki sinyal birlikte ortaya çıktığında genellikle 'kaliteli büyüme' ile 'güvenli liman' talebinin eş zamanlı arttığı karma bir atmosferi yansıtır. DXY'nin zayıflaması da dolar bazlı varlık alternatiflerine ilgiyi besliyor.",
+  "headline": "Yükseliş tabana yayılmış, breadth sağlıklı; ancak hızla yükselen faizler ve altındaki sert çıkış genel konfor ortamını gölgeliyor.",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor ve sektörlerin yüzde sekseninden fazlası bu çizginin üstünde kalmayı başarıyor; bu, yükselişin dar bir grup hissede değil, piyasanın genelinde taşındığını gösteriyor. VIX'in 14 düzeyinde tutunması ve kredi spreadlerinin sakin kalması, şimdilik belirgin bir panik ya da risk kaçışı olmadığına işaret ediyor. Öte yandan 10 yıllık ABD faizinin son bir ayda 27 baz puan yükselmiş olması ve altının yüzde on birden fazla değer kazanması, piyasanın arka planında enflasyon ya da mali sürdürülebilirlik kaygılarının sessizce fiyatlandığını düşündürüyor. Dolar endeksinin gerilemesi döngüsel varlıklara ve emtia grubuna rölatif destek verirken, getiri eğrisinin pozitife dönmüş olması makro zemin açısından daha sağlıklı bir görünüme işaret ediyor.",
   "watch": [
-   "10 yıllık ABD faizinin %4.67 seviyesinden yukarı kırılıp kırılmayacağı — %5 eşiği hisse değerlemelerine baskı yapabilecek psikolojik bir seviye",
-   "2 Eylül AVGO bilançosu: yarı iletken ve yapay zeka harcama görünümü teknoloji sektörünün liderliğinin sürüp sürmeyeceğine dair bir turnusol işlevi görecek",
-   "Altındaki momentum — ani geri çekilme mi yoksa konsolidasyon mu? Gerçek faizler ile altın arasındaki ilişkinin normal dışı seyrini sürdürüp sürdürmediği makro rejim için kritik"
+   "10 yıllık ABD faizinin %4.72 seviyesinin üzerinde tutunup tutunmadığı — yükseliş sürdüğünde büyüme hisselerindeki değerleme baskısı artabilir",
+   "Altının kısa sürede %11 yükselmesinin ardından bu hareketi besleyen kaygının (enflasyon mu, jeopolitik mi, fiskal risk mi) netleşip netleşmeyeceği",
+   "2 Eylül AVGO bilançosu — yapay zeka altyapı talebine ilişkin yönetim yorumları teknoloji sektörünün tonunu etkileyebilir"
   ],
   "concept": {
-   "title": "Breadth Genişliği (Market Breadth)",
-   "body": "Piyasa breadth'i, bir yükselişe katılan hisse veya sektör sayısını ölçer; eşit-ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde geride bırakması, büyük şirket ağırlığının gizleyebileceği zayıflıkları açığa çıkaran en sağlıklı işaretlerden biridir. Bugünkü +%4.3'lük fark, yükselişin yalnızca büyük teknoloji hisselerine değil orta ve küçük ölçekli şirketlere de yayıldığını göstererek rallinin yapısal temelini güçlendiriyor."
+   "title": "Getiri Eğrisi Normalleşmesi (Yeniden Dikeyleşme)",
+   "body": "Getiri eğrisi, kısa vadeli faizlerin uzun vadeli faizlerin üzerine çıktığı tersine dönük yapıdan uzaklaşıp bugünkü gibi pozitif bir eğime kavuştuğunda 'yeniden dikeyleşme' yaşanır; bu durum tarihsel olarak ekonomik genişleme beklentisinin güçlendiğine işaret eder. Ancak dikeyleşmenin uzun vadeli faizlerin yükselmesiyle mi (büyüme/enflasyon fiyatlaması) yoksa kısa vadeli faizlerin düşmesiyle mi (Fed gevşemesi beklentisi) gerçekleştiği, piyasa için çok farklı anlamlar taşıdığından ayrımın yakından takip edilmesi gerekir."
   }
  }
 }
