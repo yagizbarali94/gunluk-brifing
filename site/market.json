@@ -1,6 +1,6 @@
 {
- "date": "2026-08-30",
- "generated_at": "2026-08-30T10:44:03+00:00",
+ "date": "2026-08-31",
+ "generated_at": "2026-08-31T11:53:15+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 14.43,
+  "vix": 15.25,
   "vix3m": 17.48,
-  "zone": "sakin",
+  "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -4.6
+  "vix_chg_5d": -3.8
  },
  "breadth": {
   "rsp_3m": 5.9,
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.7",
-    "note": "son 1 ay -%1.3",
+    "value": "99.5",
+    "note": "son 1 ay -%1.6",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$83.4",
-    "note": "son 1 ay +%0.2",
+    "value": "$86.6",
+    "note": "son 1 ay +%2.0",
     "tone": "gray"
    },
    {
@@ -182,22 +182,22 @@
   {
    "date": "2026-09-02",
    "label": "AVGO bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "2 Eylül",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yükseliş tabana yayılmış, breadth sağlıklı; ancak hızla yükselen faizler ve altındaki sert çıkış genel konfor ortamını gölgeliyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor ve sektörlerin yüzde sekseninden fazlası bu çizginin üstünde kalmayı başarıyor; bu, yükselişin dar bir grup hissede değil, piyasanın genelinde taşındığını gösteriyor. VIX'in 14 düzeyinde tutunması ve kredi spreadlerinin sakin kalması, şimdilik belirgin bir panik ya da risk kaçışı olmadığına işaret ediyor. Öte yandan 10 yıllık ABD faizinin son bir ayda 27 baz puan yükselmiş olması ve altının yüzde on birden fazla değer kazanması, piyasanın arka planında enflasyon ya da mali sürdürülebilirlik kaygılarının sessizce fiyatlandığını düşündürüyor. Dolar endeksinin gerilemesi döngüsel varlıklara ve emtia grubuna rölatif destek verirken, getiri eğrisinin pozitife dönmüş olması makro zemin açısından daha sağlıklı bir görünüme işaret ediyor.",
+  "headline": "Yükseliş tabana yayılmış, breadth sağlıklı; ancak hızla artan faizler ve güçlü altın zeminde gerginlik sinyali veriyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve sektörlerin yüzde sekseninin üstü bu seviyenin üstünde; dahası eşit-ağırlıklı endeks cap-ağırlıklıyı belirgin biçimde geride bırakıyor — bu, yükselişin yalnızca dev şirketlere değil geniş bir tabana yayıldığını gösteriyor. Döngüsel sektörlerin öne çıkması ve kredi piyasasının sakin kalması risk iştahının hâlâ açık olduğuna işaret ediyor. Öte yandan 10 yıllık faizin bir ayda 27 baz puan yükselmesi ve altının aynı dönemde yüzde onbirden fazla değer kazanması, piyasanın enflasyon veya jeopolitik bir stres faktörünü fiyatlamaya başladığına dair uyarı lambası yakıyor. Zayıflayan dolar bu tabloya güç katıyor; rejim genel itibarıyla risk-açık görünse de faiz baskısı ve altın hareketi göz ardı edilemez bir arka plan gerginliği oluşturuyor.",
   "watch": [
-   "10 yıllık ABD faizinin %4.72 seviyesinin üzerinde tutunup tutunmadığı — yükseliş sürdüğünde büyüme hisselerindeki değerleme baskısı artabilir",
-   "Altının kısa sürede %11 yükselmesinin ardından bu hareketi besleyen kaygının (enflasyon mu, jeopolitik mi, fiskal risk mi) netleşip netleşmeyeceği",
-   "2 Eylül AVGO bilançosu — yapay zeka altyapı talebine ilişkin yönetim yorumları teknoloji sektörünün tonunu etkileyebilir"
+   "10 yıllık ABD Hazine faizinin yükselişini sürdürüp sürdürmediği — yüzde 4.80-5.00 bandına yaklaşma hisse değerlemelerinde baskı yaratabilir",
+   "2 Eylül AVGO bilançosu — teknoloji sektörünün zirveden uzaklaşmasının şirket bazında temel bir gerekçeye mi dayandığını netleştirecek",
+   "Altın fiyatının momentum kazanmaya devam edip etmediği — kalıcı bir yükseliş enflasyon beklentilerinin ya da jeopolitik riskin yeniden fiyatlandığını teyit edebilir"
   ],
   "concept": {
-   "title": "Getiri Eğrisi Normalleşmesi (Yeniden Dikeyleşme)",
-   "body": "Getiri eğrisi, kısa vadeli faizlerin uzun vadeli faizlerin üzerine çıktığı tersine dönük yapıdan uzaklaşıp bugünkü gibi pozitif bir eğime kavuştuğunda 'yeniden dikeyleşme' yaşanır; bu durum tarihsel olarak ekonomik genişleme beklentisinin güçlendiğine işaret eder. Ancak dikeyleşmenin uzun vadeli faizlerin yükselmesiyle mi (büyüme/enflasyon fiyatlaması) yoksa kısa vadeli faizlerin düşmesiyle mi (Fed gevşemesi beklentisi) gerçekleştiği, piyasa için çok farklı anlamlar taşıdığından ayrımın yakından takip edilmesi gerekir."
+   "title": "Breadth (Piyasa Genişliği)",
+   "body": "Breadth, yükselişin ya da düşüşün kaç hisse senedini veya sektörü kapsadığını ölçer; yalnızca birkaç büyük şirketin değil geniş bir tabanın hareket etmesi, trendin daha sağlam zemine oturduğuna işaret eder. Eşit-ağırlıklı endeksin cap-ağırlıklıyı belirgin biçimde aşması da tam olarak bu sağlıklı breadth tablosunu yansıtır."
   }
  }
 }
