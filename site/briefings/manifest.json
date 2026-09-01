@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-01-upcoming",
+  "date": "2026-09-01",
+  "ticker": "AVGO",
+  "name": "Broadcom Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-01-reported",
+  "date": "2026-09-01",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-08-31-upcoming",
   "date": "2026-08-31",
   "ticker": "MDB",
