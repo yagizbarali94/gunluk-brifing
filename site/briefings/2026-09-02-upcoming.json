@@ -1,0 +1,344 @@
+{
+ "date": "2026-09-02",
+ "slot": "upcoming",
+ "generated_at": "2026-09-02T09:56:55+00:00",
+ "mock": false,
+ "ticker": "CRWD",
+ "company": {
+  "name": "CrowdStrike Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 220217671680
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %6.9 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 215.07,
+  "change_pct": 0.41
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-26",
+  "next_date": "2026-12-01",
+  "last_label": "26 Ağustos",
+  "next_label": "1 Aralık",
+  "days_to_next": 90,
+  "progress_pct": 7
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.4B",
+   "sub": "+%26 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.31",
+   "sub": "Beat · beklenti $0.29",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%75.3",
+   "sub": "-0.8 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$471M",
+   "sub": "marj %34",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 26 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.4B",
+      "note": "+%26 y/y",
+      "tone": "green",
+      "spark": [
+       1.1,
+       1.17,
+       1.23,
+       1.31,
+       1.39
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28M",
+      "note": "-%127 y/y",
+      "tone": "amber",
+      "spark": [
+       -9.4,
+       -6.6,
+       -2.8,
+       4.5,
+       2.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.31",
+      "note": "beklenti $0.29 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%75.3",
+      "note": "-0.8 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       73.9,
+       73.5,
+       75.1,
+       76.1,
+       75.3
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-2.2",
+      "note": "+8.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       -10.8,
+       -9.7,
+       -5.6,
+       1.1,
+       -2.2
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%0.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%1.5",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-0.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%3.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "54",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$471M",
+      "note": "marj %34",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$3.7B",
+      "note": "nakit $4.6B · borç $821M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "5376.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "134.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "40.0×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "2021.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "153.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "inline",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    1.1,
+    1.2,
+    1.2,
+    1.3,
+    1.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26"
+   ],
+   "values": [
+    73.9,
+    73.5,
+    75.1,
+    76.1,
+    75.3
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Ernst & Young, CrowdStrike Falcon platformunu kendi yapay zeka dönüşüm çerçevesine entegre ederek stratejik ortaklık kurdu.",
+   "source": "benzinga",
+   "published": "2026-09-01",
+   "url": "https://www.benzinga.com/news/26/09/61556486/ernst-young-selects-crowdstrike-accelerator-trust-layer-ey-ai-value-blueprints-integrating-falcon-pl",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "CrowdStrike ve Optiv iş ortaklığı kümülatif 2 milyar dolar sözleşme değerini aştı.",
+   "source": "benzinga",
+   "published": "2026-09-01",
+   "url": "https://www.benzinga.com/news/26/09/61552438/crowdstrike-and-optiv-surpass-2b-lifetime-contract-value",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Küresel tahvil satışı ve yükselen faizler Nasdaq'ta teknoloji hisselerini sert vurdu; CRWD %5'ten fazla değer kaybeden beş hisse arasında yer aldı.",
+   "source": "benzinga",
+   "published": "2026-09-01",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/09/61552573/global-bond-rout-tech-selloff-stocks-drop-5-percent",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Truist Securities CRWD için 'Al' tavsiyesini koruyarak hedef fiyatı 300 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-09-01",
+   "url": "https://www.benzinga.com/news/26/09/61553825/truist-securities-maintains-buy-crowdstrike-holdings-raises-price-target-300",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "CrowdStrike, bulut tabanlı Falcon platformu üzerinden uç nokta güvenliği, tehdit istihbaratı ve siber saldırı önleme hizmetleri sunar. Kurumsal müşterilere abonelik modeliyle hizmet verir; gelirinin büyük bölümü tekrarlayan yıllık sözleşmelerden (ARR) gelir.",
+  "note": "CrowdStrike'ın tek platform/çoklu modül yapısı güçlü bir ağ etkisi ve yüksek müşteri yapışkanlığı yaratıyor; bu da ekonomik hendeği sağlam tutuyor. %34 FCF marjı ve Rule of 40 skoru 54 ile iş modelinin nakit üretme kalitesi kanıtlanmış durumda. Ancak son iki çeyrekteki faaliyet marjı gerilmesi ve brüt marjdaki bozulma, ölçek avantajının beklenen hızda kâra yansımadığına işaret ediyor; 3-5 yıllık tezin özü sağlam olsa da marj yolculuğunu yakından izlemek gerekiyor.",
+  "counter": "Palo Alto Networks ve Microsoft gibi rakiplerin platform konsolidasyonu stratejisi, CrowdStrike'ın yeni modül satışını ve müşteri genişlemesini baskı altına alabilir. Ayrıca 2024 Temmuz'undaki küresel kesinti olayının yarattığı güven erozyonu, büyük kurumsal müşterilerin çeşitlendirme kararlarını hızlandırabilir.",
+  "watch": [
+   "Faaliyet marjının pozitife dönüş sürdürülebilirliği: ölçek kaldıracının devreye girip girmediği",
+   "Net yeni ARR büyümesi ve platform modül genişlemesi (müşteri başına modül sayısı)"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Gelir %26 y/y büyümeyle güçlü görünse de çeyreklik trend (1.1→1.4B) pozitif olmakla birlikte büyüme hızı kademeli yavaşlıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjı son çeyrekte tekrar negatife dönerek -%2.2'ye geriledi; ROIC %0.3 ve ROA -%0.8 ile sermaye verimliliği oldukça düşük."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "%34 FCF marjı güçlü nakit dönüşümüne işaret etse de yıllık %3.8 hisse seyrelmesi hissedar değerini aşındırıyor ve EPS büyümesini yapay olarak sınırlıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "3.7 milyar dolar net nakit pozisyonu, şirkete hem yatırım hem de olası kriz dönemlerinde güçlü bir tampon sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "FD/Satış 40x, ileri F/K 134.7x ve Fiyat/FCF 154x seviyeleri, %26 büyüme ve henüz oluşmakta olan kârlılık profili için son derece agresif; hata payı çok dar."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "SaaS şirketleri için popüler bir sağlık göstergesi olan Rule of 40, gelir büyüme oranı ile FCF (ya da FAVÖK) marjının toplamının 40'ın üzerinde olmasını başarı eşiği olarak kabul eder. CrowdStrike bu metrikte 54 skoru ile sektörün üst diliminde yer alıyor; ancak bu skor yüksek FCF marjıyla taşındığından faaliyet kârlılığının ayrıca sorgulanması gerekiyor."
+  }
+ }
+}
