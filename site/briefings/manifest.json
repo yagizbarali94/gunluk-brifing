@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-04-upcoming",
+  "date": "2026-09-04",
+  "ticker": "ORCL",
+  "name": "Oracle Corporation",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-04-reported",
+  "date": "2026-09-04",
+  "ticker": "AVGO",
+  "name": "Broadcom Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-09-03-upcoming",
   "date": "2026-09-03",
   "ticker": "ORCL",

@@ -1,6 +1,6 @@
 {
- "date": "2026-09-03",
- "generated_at": "2026-09-03T10:08:34+00:00",
+ "date": "2026-09-04",
+ "generated_at": "2026-09-04T09:59:46+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7666.6,
-    "chg_1d": 0.46,
+    "last": 7747.71,
+    "chg_1d": 1.06,
     "above_50": true,
     "above_200": true,
-    "from_high": -1.7,
+    "from_high": -0.7,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29143.33,
-    "chg_1d": 0.23,
-    "above_50": false,
+    "last": 29482.32,
+    "chg_1d": 1.16,
+    "above_50": true,
     "above_200": true,
-    "from_high": -4.9,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -3.8,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2953.17,
-    "chg_1d": 1.13,
+    "last": 2968.27,
+    "chg_1d": 0.51,
     "above_50": false,
     "above_200": true,
-    "from_high": -3.8,
+    "from_high": -3.3,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.31,
-  "vix3m": 20.54,
-  "zone": "normal",
+  "vix": 14.24,
+  "vix3m": 17.42,
+  "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 5.5
+  "vix_chg_5d": -1.3
  },
  "breadth": {
-  "rsp_3m": 4.1,
-  "spy_3m": 1.3,
-  "spread": 2.8,
+  "rsp_3m": 6.3,
+  "spy_3m": 5.1,
+  "spread": 1.2,
   "pct_sectors_above_200": 73,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -67,14 +67,8 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 9.6,
+    "chg": 8.4,
     "group": "döngüsel"
-   },
-   {
-    "ticker": "XLV",
-    "name": "Sağlık",
-    "chg": 7.1,
-    "group": "defansif"
    },
    {
     "ticker": "XLC",
@@ -83,66 +77,72 @@
     "group": "döngüsel"
    },
    {
+    "ticker": "XLV",
+    "name": "Sağlık",
+    "chg": 6.6,
+    "group": "defansif"
+   },
+   {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 5.6,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": 5.3,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": 3.3,
+    "chg": 6.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": 2.9,
+    "chg": 5.7,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 4.0,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": 2.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": 2.8,
+    "chg": 1.3,
     "group": "defansif"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -2.7,
+    "chg": -3.7,
     "group": "defansif"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -5.0,
+    "chg": -4.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -7.6,
+    "chg": -7.0,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": -0.1,
-  "cyc_avg": 4.1
+  "def_avg": -0.7,
+  "cyc_avg": 4.2
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.80",
-    "note": "son 1 ay +%2.0",
+    "value": "%4.76",
+    "note": "son 1 ay +%1.8",
     "tone": "gray"
    },
    {
@@ -153,25 +153,25 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.2",
-    "note": "son 1 ay -%2.2",
+    "value": "99.1",
+    "note": "son 1 ay -%2.4",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$403",
-    "note": "son 1 ay +%8.4",
+    "value": "$410",
+    "note": "son 1 ay +%10.3",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$92.4",
-    "note": "son 1 ay +%3.4",
+    "value": "$90.8",
+    "note": "son 1 ay +%10.0",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.9",
+    "value": "+%1.0",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend sağlam ve tabana yayılmış, ancak yükselen faizler ile altın ve petrolün aynı anda güçlenmesi enflasyon endişesinin geri döndüğüne işaret ediyor.",
-  "read": "Üç ana endeksin tamamı 200 günlük ortalamanın üzerinde ve eşit ağırlıklı endeksin cap ağırlıklıyı belirgin biçimde geride bırakması, yükselişin dar bir teknoloji grubuna değil geniş bir tabana dayandığını gösteriyor; bu yapısal olarak sağlıklı bir görünüm. Bununla birlikte Nasdaq 100 ve Russell 2000'in zirveden belirgin uzaklaşması ile Sanayi ve Kamu Hizmetleri'nin baskı altında olması, riskin homojen dağılmadığına işaret ediyor. 10 yıllık faizin bir ayda 20 baz puan yükselmesi ve aynı dönemde altının yüzde sekizin üzerinde değer kazanması; piyasanın hem büyüme hem enflasyon senaryosunu aynı anda fiyatladığını, yani bir belirsizlik ortamında olunduğunu gösteriyor. Dolar endeksinin zayıflaması ise emtia fiyatlarını desteklerken şirket karlılıkları ve küresel sermaye akışları açısından çelişkili sinyaller üretiyor.",
+  "headline": "Trend sağlam ve breadth geniş, ancak hızlanan faiz artışı ile altın ve petroldeki sert yükseliş makro zeminde gerginlik sinyali veriyor.",
+  "read": "Üç büyük endeksin de 200 günlük ortalamanın üzerinde olması ve sektörlerin yüzde yetmişüçünün bu seviyeyi koruması, yükselişin tabanını geniş tutuyor; eşit ağırlıklı endeksin cap-ağırlıklıyı geride bırakması da momentumun birkaç büyük hisseye hapsolmadığını gösteriyor. Öte yandan 10 yıllık faizin bir ayda yaklaşık 18 baz puan yükselerek yüzde 4.76'ya ulaşması ve altın ile petrolün eş zamanlı çift haneli artışı, piyasanın bir yanda risk iştahını korurken öte yanda enflasyon ya da jeopolitik belirsizliği fiyatlamaya başladığına işaret ediyor. Dolar endeksinin aynı dönemde yüzde 2.4 gerilemesi bu tabloya ilginç bir ek bağlam katıyor: güçlü emtia fiyatları dolar zayıflığıyla örtüşünce ortaya bir 'stagflasyon korkusu' mı yoksa salt emtia döngüsü mü sorusu çıkıyor, bu henüz netleşmedi. Kredi piyasasının sakin kalması ve VIX'in 14 seviyesinde seyretmesi şimdilik ciddi bir stres olmadığını teyit ediyor; rejim risk-açık olmayı sürdürüyor, ancak faiz-emtia-dolar üçgenindeki hareket arka plandaki gerginliği artırıyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 5 eşiğine yaklaşıp yaklaşmadığı — bu seviye hisse değerlemelerine doğrudan baskı yapabilir",
-   "Altın ve petrolün eş zamanlı yükselişinin sürüp sürmediği — enflasyon beklentilerinin yeniden fiyatlanma hızının göstergesi",
-   "Breadth'in korunup korunmadığı; özellikle sektörlerin 200 günlük ortalama üzerinde kalma oranının yüzde 73 seviyesini tutturması"
+   "10 yıllık ABD tahvil faizinin yüzde 4.75-4.80 bandını kırıp kırmayacağı — kırılma halinde değerleme baskısı özellikle büyüme hisselerinde hissedilir",
+   "Altın ve petrol yükselişinin süreceği mi yoksa emtia momentumunun yavaşlayacağı mı — bu iki varlığın birlikte seyri enflasyon/jeopolitik okumasını şekillendirir",
+   "Russell 2000'in zirveye göre yüzde 3.3 geride kalması ve Sanayi ile Kamu hizmetlerinin belirgin zayıflığı — küçük kapak ve iç piyasa ağırlıklı sektörlerin breadth'i ne kadar daha destekleyeceği sorgulanmalı"
   ],
   "concept": {
-   "title": "Stagflasyon Korkusu ve Çapraz Varlık Sinyalleri",
-   "body": "Altın, petrol ve faizin aynı anda yükselmesi; büyüme beklentisi ile enflasyon endişesinin iç içe geçtiği dönemlerde ortaya çıkan klasik bir çapraz varlık sinyalidir. Bu tablo, yatırımcıların tek bir senaryoya değil birden fazla olası makro ortama aynı anda korunmaya çalıştığını gösterir ve portföy çeşitlendirmesinin ne ölçüde gerçek koruma sağladığını sınamaya başlar."
+   "title": "Emtia-Faiz-Dolar Üçgeni (Commodity-Rate-Dollar Nexus)",
+   "body": "Normalde güçlü dolar emtia fiyatlarını baskılar; ancak dolar zayıflarken hem faizler hem emtialar aynı anda yükseliyorsa, bu hareket salt büyüme beklentisinden değil enflasyon veya jeopolitik risk priminden beslendiğine işaret edebilir. Uzun vadeli yatırımcı için bu üçgenin hangi ayağının sürücü olduğunu anlamak, portföydeki emtia, TIPS ve uzun vadeli tahvil dengesi üzerine düşünmek için önemli bir bağlam sunar."
   }
  }
 }
