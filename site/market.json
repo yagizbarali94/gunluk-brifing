@@ -1,6 +1,6 @@
 {
- "date": "2026-09-05",
- "generated_at": "2026-09-05T09:27:54+00:00",
+ "date": "2026-09-06",
+ "generated_at": "2026-09-06T09:42:45+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend sağlam ve breadth geniş, ancak hızla yükselen faizler ile güçlenen emtia fiyatları zemine eklenen maliyeti artırıyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve eşit ağırlıklı endeksin cap ağırlıklıyı geride bırakması, yükselişin yalnızca büyük şirketlere özgü olmadığını gösteriyor; tabana yayılmış bir katılım var. VIX 14 civarında ve vadeli yapı contango'da; bu da piyasanın yakın vadeli bir şok beklentisi taşımadığına işaret ediyor. Öte yandan 10 yıllık faizin bir ayda yüzde 4.78'e yükselmesi ve petrolün aynı sürede yüzde 10'u aşan artışı, finansman maliyetlerini ve girdi fiyatlarını yukarı çekiyor; altının sert yükselmesi ise bir kesimin enflasyon ya da kur riskine karşı korunma aradığını yansıtıyor. Döngüsel sektörlerin önde, defansiflerin geride olması 'risk-açık' bir ruh halini teyit ederken, zayıflayan dolar ihracatçılar için rahatlama yaratmakla birlikte emtia fiyatı baskısını da besliyor.",
+  "headline": "Trend sağlam ve tabana yayılmış, ancak yükselen faizler ile emtia baskısı makro zemini karmaşıklaştırıyor.",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamasının üzerinde seyretmesi ve sektörlerin %73'inin bu çizginin üstünde tutunması, yükselişin dar bir teknoloji grubuna kalmadığını, tabana yayıldığını gösteriyor; eşit ağırlıklı endeksin cap-ağırlıklıyı geride bırakması bu tabloyu destekliyor. VIX'in 14.5 seviyesinde contango yapısıyla seyretmesi ve kredi spreadlerinin sakin kalması, piyasanın şu an için anlamlı bir panik ya da stres işareti taşımadığına işaret ediyor. Öte yandan 10 yıllık faizin %4.78'e tırmanması ve son bir ayda petrolün yaklaşık %11 artması, hem şirket değerleme modellerini hem de tüketici cebini zorlayan arka plan koşulları oluşturuyor; altının aynı dönemde %8.6 yükselmesi ise bir köşede de belirsizlik priminin biriktiğini hatırlatıyor. Dolar endeksinin yaklaşık %2.3 gerilemesi uluslararası kazançlar açısından avantaj yaratırken, döngüsel sektörlerin öne çıkması piyasanın büyüme beklentisini henüz terk etmediğini ortaya koyuyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %4.78 seviyesinden yukarı kırılıp kırılmadığı — hisse değerlemelerine doğrudan baskı yapar",
-   "Petrol ve altındaki emtia ivmesinin sürdürülüp sürdürülmediği — enflasyon beklentilerini ve Fed söylemini etkileyebilir",
-   "Russell 2000'in zirveye yakın seyretmesine karşın görece zayıflamasının derinleşip derinleşmediği — küçük şirketler yüksek faize daha duyarlı olduğundan breadth sağlığı için kritik"
+   "10 yıllık ABD Hazine faizinin %4.78 seviyesinde tutunup tutunmadığı — daha fazla yükseliş hisse değerlemelerini ve gayrimenkul gibi faize duyarlı sektörleri ek baskı altına alabilir",
+   "Enerji ve petrol momentumunun devam edip etmediği — WTI'daki güçlü yükseliş stagflasyon kaygısını yeniden gündemin üst sıralarına taşıyabilir",
+   "Russell 2000'in göreceli zayıflığının derinleşip derinleşmediği — küçük şirketler faiz yüküne daha duyarlı olduğundan bu tablo breadth sağlığının ilk erken uyarı noktası niteliği taşıyor"
   ],
   "concept": {
-   "title": "Emtia-Faiz Sıkışması (Commodity-Rate Squeeze)",
-   "body": "Hem emtia fiyatları hem de uzun vadeli faizler aynı anda yükseldiğinde şirketler çift taraflı bir maliyet baskısıyla karşılaşır: girdi maliyetleri artar, borçlanma maliyeti de yükselir. Bu ortamda marjlarını fiyat artışıyla koruyabilen sektörler (örneğin Enerji) öne çıkarken, sabit maliyetli ya da borçlu yapıdaki sektörler (Gayrimenkul, Kamu Hizmetleri) geriye düşme eğilimi gösterir."
+   "title": "Emtia-Faiz Makası (Stagflasyon Zemini)",
+   "body": "Petrol ve altın gibi emtiaların hızlı yükselişi ile uzun vadeli faizlerin aynı anda artması, büyümenin yavaşladığı ortamda enflasyon baskısının sürdüğü 'stagflasyon zemini' riskine işaret eder. Bu rejimde hem tahvil hem de büyüme hisseleri çift taraflı baskıyla karşılaşabilirken, reel varlıklar ve enerji gibi enflasyona duyarlı segmentler görece avantajlı konuma geçebilir."
   }
  }
 }
