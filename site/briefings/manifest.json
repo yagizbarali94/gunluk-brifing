@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-07-upcoming",
+  "date": "2026-09-07",
+  "ticker": "ORCL",
+  "name": "Oracle Corporation",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-07-reported",
+  "date": "2026-09-07",
+  "ticker": "DDOG",
+  "name": "Datadog, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-09-06-upcoming",
   "date": "2026-09-06",
   "ticker": "ORCL",
