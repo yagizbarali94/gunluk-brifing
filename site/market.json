@@ -1,6 +1,6 @@
 {
- "date": "2026-09-07",
- "generated_at": "2026-09-07T10:46:57+00:00",
+ "date": "2026-09-08",
+ "generated_at": "2026-09-08T10:08:09+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.03,
+  "vix": 15.54,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 0.7
+  "vix_chg_5d": -4.9
  },
  "breadth": {
   "rsp_3m": 5.9,
@@ -153,7 +153,7 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.0",
+    "value": "98.9",
     "note": "son 1 ay -%2.4",
     "tone": "gray"
    },
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$91.5",
-    "note": "son 1 ay +%15.4",
+    "value": "$93.8",
+    "note": "son 1 ay +%18.3",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend sağlam ve tabana yayılmış, ancak yükselen faizler ile emtia baskısı makro zemini karmaşıklaştırıyor.",
-  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyrediyor ve eşit ağırlıklı breadth, yükselişin geniş bir katılımla sürdüğünü teyit ediyor; bu bir güç işareti. VIX 15 civarında sakin, kredi piyasası stresin uzağında, döngüsel sektörler öndeyken defansifler geride kalıyor — bunların tamamı risk iştahının açık olduğuna işaret eden tutarlı bir tablo. Öte yandan 10 yıllık faizin bir ayda 30 baz puan yükselerek yüzde 4.78'e ulaşması, eş zamanlı petrolün yüzde 15'in üzerinde değer kazanması ve altının sert yükselmesi enflasyon kaygılarının veya risk priminin yeniden fiyatlandığının sinyalini veriyor. Dolar'ın zayıflaması uluslararası varlıklar için rölatif bir destek sağlarken, yüksek faiz ortamı değerleme çıtasını özellikle uzun vadeli büyüme hisseleri için yüksek tutmaya devam ediyor.",
+  "headline": "Trend sağlam ve taban geniş, ancak yükselen faizler ile petrol fiyatı ortamın maliyetini artırıyor",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde ve yükseliş hem büyük hem küçük hisselere yayılmış durumda; eşit ağırlıklı endeksin piyasa değeri ağırlıklı endeksi geride bırakması, ralli'nin dar bir teknoloji grubuna bağımlı olmadığını gösteriyor. VIX'in 15.5 civarında seyretmesi ve kredi piyasasının sakin kalması, yatırımcıların ani bir panik içinde olmadığına işaret ediyor. Öte yandan 10 yıllık faizin %4.78'e ulaşması ve bir ayda yaklaşık 15 baz puan yükselmesi borçlanma maliyetlerini ve değerleme çıpasını zorlarken, petrolün tek ayda %18 artması hem enflasyon hem de tüketici bütçesi açısından dikkat edilmesi gereken bir baskı unsuru oluşturuyor. Altının aynı dönemde %8.6 değer kazanması ise en azından bir bölümünün olası enflasyon ya da kur riskine karşı korunma güdüsüyle hareket ettiğini düşündürüyor.",
   "watch": [
-   "10 yıllık faizin yüzde 5 eşiğine yaklaşıp yaklaşmadığı — bu seviye geçmişte hisse değerlemelerinde yeniden fiyatlama baskısı yaratmıştı",
-   "Petrol fiyatındaki ivmenin sürmesi ve bunun tüketici enflasyonu beklentilerine yansıyıp yansımadığı",
-   "Russell 2000'in zirveye yakın seviyelerde bant içinde kalıp kalmadığı — küçük şirketler faize duyarlı borç yapılarıyla yüksek faiz ortamında kırılganlık barometresi işlevi görüyor"
+   "10 yıllık ABD Hazine faizinin %4.78 seviyesinin üzerinde yerleşip yerleşmeyeceği — hız ve kalıcılık değerlemeleri etkiler",
+   "Petrol fiyatının $93-95 bandını aşıp aşmayacağı ve bunun enflasyon beklentilerine yansıması",
+   "Russell 2000'in zirveden -%3 geride seyreden görünümünün derinleşip derinleşmeyeceği — küçük şirketler yüksek faize daha duyarlıdır"
   ],
   "concept": {
-   "title": "Emtia-Faiz Sıkışması (Commodity-Rate Squeeze)",
-   "body": "Hem enerji fiyatları hem de uzun vadeli faizler aynı anda yükseldiğinde, hisse piyasası çift taraflı bir baskıyla karşılaşır: artan maliyetler kâr marjlarını sıkarken yüksek faiz, gelecekteki kazançların bugünkü değerini aşağı çeker. Bu konjonktür, endeks seviyelerinde sessiz görünse de sektörel ve şirket bazında ayrışmayı derinleştirir."
+   "title": "Breadth (Piyasa Genişliği)",
+   "body": "Piyasa genişliği, bir endeksteki yükselişin ne kadar çok hisseye yayıldığını ölçen bir kavramdır; yalnızca birkaç büyük hisse değil, sektörlerin büyük çoğunluğu ve küçük şirketler de yükseliyorsa taban 'geniş' kabul edilir. Geniş bir taban, ralli'nin tek bir temaya değil daha sağlıklı bir genel talebe dayandığına işaret eder, ancak genişliğin tek başına faiz veya makro baskılara karşı tam bir güvence sağlamadığını da göz önünde bulundurmak gerekir."
   }
  }
 }
