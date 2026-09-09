@@ -1,0 +1,363 @@
+{
+ "date": "2026-09-09",
+ "slot": "upcoming",
+ "generated_at": "2026-09-09T10:09:44+00:00",
+ "mock": false,
+ "ticker": "ORCL",
+ "company": {
+  "name": "Oracle Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 468134166528
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (10 Eylül) — beklentileri incele"
+ },
+ "price": {
+  "last": 162.52,
+  "change_pct": -0.68
+ },
+ "earnings_calendar": {
+  "last_date": "2026-06-10",
+  "next_date": "2026-09-10",
+  "last_label": "10 Haziran",
+  "next_label": "10 Eylül",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$19.2B",
+   "sub": "+%21 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.11",
+   "sub": "Beat · beklenti $1.96",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%65.2",
+   "sub": "+0.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-1.9B",
+   "sub": "marj %-10",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 10 Haziran",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$19.2B",
+      "note": "+%21 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       15.9,
+       14.93,
+       16.06,
+       17.19,
+       19.18
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$4.3B",
+      "note": "+%26 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       21.5,
+       19.6,
+       38.2,
+       21.6,
+       22.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.11",
+      "note": "beklenti $1.96 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%65.2",
+      "note": "+0.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       70.2,
+       67.3,
+       66.5,
+       64.6,
+       65.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%36.3",
+      "note": "+3.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       32.6,
+       31.4,
+       32.1,
+       32.8,
+       36.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%11.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%53.4",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%6.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-1.39×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "veri yok",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "-15",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-1.9B",
+      "note": "marj %-10",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-124.9B",
+      "note": "nakit $31.3B · borç $156.2B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirketin resmi guidance verisi mevcut haberlerde geçmemekte; bilanço açıklamasıyla birlikte yeni yönlendirme bekleniyor.",
+      "note": "Piyasa fiyatında yüzde 47,8 milyar dolarlık olası hareket beklentisi yüksek volatiliteye işaret ediyor.",
+      "tone": "gray"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "27.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "14.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.0×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "20.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "miss",
+  "miss",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Feb'25",
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    null,
+    15.9,
+    14.9,
+    16.1,
+    17.2,
+    19.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Feb'25",
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    null,
+    70.2,
+    67.3,
+    66.5,
+    64.6,
+    65.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "OpenAI'nin AGI iddiasının ardından Oracle hissesinin bu gelişmeden en çok faydalanacak isimler arasında gösterildiği analiz haberi.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61668272/why-oracle-stock-is-the-trade-to-watch-after-openais-agi-claim",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Guggenheim, Oracle için 400 dolar hedef fiyatını koruyarak Al tavsiyesini yineledi.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/news/26/09/61659046/guggenheim-reiterates-buy-oracle-maintains-400-price-target",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bilanço sonrasında Oracle hissesinde 47,8 milyar dolara kadar piyasa değeri hareketi öngörülüyor.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/markets/options/26/09/61654660/oracle-could-swing-by-47-8-billion-after-earnings",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Oracle'ın en büyük yapay zeka riskinin artık harcama tarafında değil farklı bir yapısal alanda olduğuna dair analiz.",
+   "source": "benzinga",
+   "published": "2026-09-07",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61648418/oracle-ai-risk",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Oracle, kurumsal veritabanı yazılımları, ERP/CRM bulut uygulamaları ve bulut altyapısı (OCI) aracılığıyla büyük şirketlere ve kamu kurumlarına hizmet verir. Abonelik lisansları ve bulut gelirleri temel para kazanma modelini oluşturur.",
+  "note": "Oracle'ın OCI'ye yaptığı yatırımlar ve AI iş yüklerine yönelik veri merkezi kapasitesi artışı, şirketi hiperölçekli bulut oyuncularının yanında konumlandırmaktadır; yüksek müşteri geçiş maliyetleri ve otonom veritabanı hakimiyeti güçlü bir moat sağlamaktadır. Faaliyet marjının 36,3'e yükselmesi operasyonel kaldıracın işlemeye başladığını gösterse de negatif FCF ve aşırı borç yükü, yatırım tezinin önündeki en kritik kırılganlık olarak öne çıkmaktadır. Önümüzdeki 3-5 yılda OCI'nin hızlı büyümesi sürdürülür ve FCF pozitife dönerise uzun vadeli tez güçlenir.",
+  "counter": "124,9 milyar dolarlık net borç yükü, faiz ortamının yüksek kaldığı bir senaryoda finansal esnekliği ciddi ölçüde kısıtlamakta ve agresif sermaye harcamalarının negatif FCF üretmeye devam etmesi yatırımcıları baskı altında tutmaktadır. Azure/AWS gibi derin cepli rakiplerin OCI'ye karşı fiyat savaşı açması büyüme ivmesini kırabilir.",
+  "watch": [
+   "OCI gelir büyümesi ve kapasite artışının FCF'yi pozitife çevirip çevirmeyeceği",
+   "Net borç dinamiğinin iyileşip iyileşmediği ve faiz yük oranının faaliyet kârına oranı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 15,9 milyardan 19,2 milyara istikrarlı biçimde tırmanmış, yıllık yüzde 21 büyüme ivmenin güçlü şekilde devam ettiğine işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı 36,3 ile çok çeyreklik zirvesine ulaşmış ve ROE yüzde 53,4 olmasına rağmen yüksek kaldıraçtan kaynaklandığından ROIC'in yüzde 11,6 ile ılımlı seyrettiğine dikkat edilmelidir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr oranının -1,39x seviyesinde olması, net kârın nakit karşılığı bulunmadığını ortaya koyuyor; bu durum kazanç kalitesini ciddi ölçüde sorgulatmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "124,9 milyar dolarlık net borç pozisyonu son derece yüksek olup şirketin yoğun sermaye harcamaları finansal kırılganlığı artırmaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 14,8 seviyesi hızlı büyüme ve marj genişlemesi göz önüne alındığında makul görünse de FD/Satış 9,0 ve negatif FCF marjı (-yüzde 10) birlikte değerlendirildiğinde primli fiyatlama risk içermektedir."
+   }
+  ],
+  "concept": {
+   "title": "FCF/Net Kâr Oranı (Kazanç Kalitesi Göstergesi)",
+   "body": "FCF/net kâr oranı, şirketin raporladığı kârın gerçek nakit yaratıp yaratmadığını ölçer; 1x altı değerler kârın nakit destekten yoksun olduğuna işaret eder. Oracle'da bu oran -1,39x olup agresif veri merkezi yatırımları kârı nakit akışına dönüştürmeyi engellemektedir."
+  }
+ }
+}

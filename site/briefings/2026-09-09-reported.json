@@ -1,0 +1,352 @@
+{
+ "date": "2026-09-09",
+ "slot": "reported",
+ "generated_at": "2026-09-09T10:10:37+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 825607913472
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.9 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 505.74,
+  "change_pct": 0.0
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-04",
+  "next_date": "2026-11-03",
+  "last_label": "4 Ağustos",
+  "next_label": "3 Kasım",
+  "days_to_next": 55,
+  "progress_pct": 40
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.5B",
+   "sub": "+%50 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.66",
+   "sub": "Beat · beklenti $1.61",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.8",
+   "sub": "+0.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.6B",
+   "sub": "marj %14",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.5B",
+      "note": "+%50 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       7.68,
+       9.25,
+       10.27,
+       10.25,
+       11.54
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.3B",
+      "note": "+%163 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       11.3,
+       13.4,
+       14.7,
+       13.5,
+       19.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.66",
+      "note": "beklenti $1.61 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.8",
+      "note": "+0.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       39.8,
+       51.7,
+       54.3,
+       52.8,
+       53.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%17.3",
+      "note": "+19.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -1.7,
+       13.7,
+       17.1,
+       14.4,
+       17.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%9.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%10.2",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.31×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.6B",
+      "note": "marj %14",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$810M",
+      "note": "nakit $5.1B · borç $4.3B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "129.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "32.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "19.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "85.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "98.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "inline",
+  "inline",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    7.7,
+    9.2,
+    10.3,
+    10.3,
+    11.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    39.8,
+    51.7,
+    54.3,
+    52.8,
+    53.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Cathie Wood, ARK fonları adına AMD hisselerini satarken Robinhood ve Cerebras'a yöneldi; bu hareket AMD'nin kısa vadeli momentum yatırımcıları için daha az cazip hale geldiğine işaret edebilir.",
+   "source": "benzinga",
+   "published": "2026-09-09",
+   "url": "https://www.benzinga.com/etfs/broad-u-s-equity-etfs/26/09/61676486/cathie-wood-sells-palantir-and-amd-buys-robinhood-and-cerebras-stock-heres-what-else-ark-traded",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "TSMC'nin yapay zeka talebi karşısında kapasitesini hızla artırmaya çalıştığı bildiriliyor; bu durum AMD'nin üretim erişimi açısından hem fırsat hem risk barındırıyor.",
+   "source": "benzinga",
+   "published": "2026-09-04",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61623740/taiwan-semiconductor-scrambles-to-feed-the-ai-boom",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Nvidia'nın 12.9 milyar dolarlık Hugging Face anlaşması, AI ekosisteminde Nvidia'nın yazılım tarafındaki moatını genişletiyor ve AMD için rekabet baskısını artırıyor.",
+   "source": "benzinga",
+   "published": "2026-09-03",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61610151/nvidia-hugging-face-12-9-billion-deal",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Jensen Huang'ın AI'ı 'beş katlı pasta' olarak tanımlaması ve Nvidia'nın yalnızca bir dilim olduğunu vurgulaması, AMD dahil diğer oyuncular için alan açıldığına dair olumlu bir çerçeve sunuyor.",
+   "source": "benzinga",
+   "published": "2026-09-03",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61605791/jensen-huang-ai-five-layers",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "AMD, veri merkezi GPU'ları (Instinct serisi), masaüstü/dizüstü işlemciler (Ryzen) ve gömülü çipler tasarlayarak TSMC'ye üretim yaptırır. Gelirini ağırlıklı olarak veri merkezi müşterilerine (Microsoft, Meta, Oracle) ve tüketici PC pazarına GPU/CPU satarak elde eder.",
+  "note": "AMD'nin %50 y/y gelir büyümesi ve yükselen marj trendi, MI300/MI350 serisi veri merkezi GPU'larının yapay zeka altyapısına hızla entegre edildiğini gösteriyor; bu çeyrek uzun vadeli tezi teyit ediyor. CUDA ekosisteminin dışında bir alternatif olarak konumlanmak AMD'ye yapısal bir fırsat sunuyor; ancak Nvidia'nın yazılım moatı aşılmadan bu fırsatın tam potansiyeline ulaşması zor. Rule of 40 skorunun 70 olması iş modelinin olgunlaşmaya başladığını ve büyüme ile kârlılığın aynı anda ilerleyebildiğini gösteriyor.",
+  "counter": "Nvidia'nın CUDA ekosistemi, yazılım geliştirici bağlılığı ve H200/B100 serisi ürünlerdeki performans üstünlüğü AMD'nin veri merkezi GPU pazarındaki pay kazanımını yapısal olarak sınırlıyor. AMD ayrıca TSMC kapasitesine tam bağımlı olduğundan tedarik zinciri şokları veya jeopolitik gerilimler ciddi üretim riski yaratıyor.",
+  "watch": [
+   "MI350/MI400 GPU serisi veri merkezi sipariş hacmi ve hiperscaler müşteri (Microsoft, Meta, Oracle) bütçe payı: Nvidia alternatifi tezinin asıl kanıtı buradan gelecek",
+   "Brüt marjın %55 eşiğini aşıp aşamayacağı: yazılım/hizmet gelirlerinin (ROCm ekosistemi) donanım satışlarına oranla büyümesi marj yapısını kalıcı olarak iyileştirebilir"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 7.7B'den 11.5B'e ulaşarak güçlü bir ivme sergiledi; çeyreksel bazda küçük bir yavaşlamanın ardından 10.2'den 11.5'e sıçrama büyüme momentumunun yeniden hız kazandığına işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj %53.8 ve faaliyet marjı %17.3 ile trend yukarı yönlü ancak ROIC %9.8 ve ROE %10.2, bu büyüklükteki bir fabrikasız çip şirketi için hâlâ mütevazı kalmakta; sermaye verimliliği iyileşiyor fakat henüz üst düzey değil."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşüm oranı 1.31× ile kazançların nakit tarafından güçlü biçimde desteklendiğini gösteriyor; ancak %1.8 hisse seyrelmesi küçük olumsuz bir etken olarak not edilmeli."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "Net nakit pozisyonu 810M$ ile bilanço temiz; borç baskısı yok ve olası yatırım/temettü/geri alım esnekliği korunuyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "Cari F/K 129×, Fiyat/FCF 98× ve FD/Satış 19.8× seviyeleri büyüme hikayesinin fazlasıyla fiyatlandığına işaret ediyor; ileri F/K 32.6× makul görünse de büyüme beklentilerinin tutturulamaması halinde ciddi yeniden fiyatlama riski taşıyor."
+   }
+  ],
+  "concept": {
+   "title": "Fabrikasız (Fabless) Çip Tasarım Modeli ve ROIC Dinamiği",
+   "body": "Fabless model, üretimi TSMC gibi üçüncülere devrederek sabit varlık yatırımını düşürür ve teorik olarak yüksek ROIC sağlamalıdır. AMD örneğinde büyük Xilinx satın alımının yarattığı şerefiye yükü ve yoğun Ar-Ge harcamaları ROIC'i %9.8 gibi mütevazı bir düzeyde tutmakta; bu oran marj büyürken nasıl seyredeceği önümüzdeki 2-3 yıl için kritik bir gösterge olacak."
+  }
+ }
+}
