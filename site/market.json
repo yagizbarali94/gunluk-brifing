@@ -1,44 +1,44 @@
 {
- "date": "2026-09-09",
- "generated_at": "2026-09-09T10:10:44+00:00",
+ "date": "2026-09-10",
+ "generated_at": "2026-09-10T10:05:17+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
   "tone": "green",
-  "score": 5.5
+  "score": 4.5
  },
  "trend": {
   "rows": [
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7673.52,
-    "chg_1d": -0.58,
+    "last": 7636.36,
+    "chg_1d": -0.48,
     "above_50": true,
     "above_200": true,
-    "from_high": -1.6,
+    "from_high": -2.1,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29507.7,
-    "chg_1d": -0.12,
+    "last": 29421.55,
+    "chg_1d": -0.29,
     "above_50": true,
     "above_200": true,
-    "from_high": -3.8,
+    "from_high": -4.0,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2960.2,
-    "chg_1d": -0.52,
+    "last": 2921.24,
+    "chg_1d": -1.32,
     "above_50": false,
     "above_200": true,
-    "from_high": -3.5,
+    "from_high": -4.8,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,102 +47,102 @@
   "total": 3
  },
  "fear": {
-  "vix": 16.15,
+  "vix": 16.49,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 6.2
+  "vix_chg_5d": 15.2
  },
  "breadth": {
-  "rsp_3m": 4.0,
-  "spy_3m": 4.2,
-  "spread": -0.2,
+  "rsp_3m": 4.3,
+  "spy_3m": 5.4,
+  "spread": -1.0,
   "pct_sectors_above_200": 73,
-  "verdict": "geniş — yükseliş tabana yayılmış",
-  "tone": "green"
+  "verdict": "orta — birkaç dev öne çıkıyor",
+  "tone": "gray"
  },
  "sectors": {
   "rows": [
    {
-    "ticker": "XLE",
-    "name": "Enerji",
-    "chg": 12.5,
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": 12.8,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 9.8,
+    "ticker": "XLE",
+    "name": "Enerji",
+    "chg": 11.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 1.7,
+    "chg": 1.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": 1.3,
+    "chg": 0.8,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 0.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": -0.1,
+    "chg": 0.2,
     "group": "defansif"
-   },
-   {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": -0.5,
-    "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": -0.8,
+    "chg": -0.7,
     "group": "döngüsel"
-   },
-   {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": -3.5,
-    "group": "defansif"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -4.4,
+    "chg": -2.8,
     "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -4.5,
+    "chg": -4.4,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": -4.9,
     "group": "defansif"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -4.6,
+    "chg": -5.5,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": -3.2,
-  "cyc_avg": 2.8
+  "def_avg": -3.7,
+  "cyc_avg": 3.3
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.81",
-    "note": "son 1 ay +%4.4",
+    "value": "%4.84",
+    "note": "son 1 ay +%4.7",
     "tone": "gray"
    },
    {
@@ -154,19 +154,19 @@
    {
     "metric": "Dolar endeksi (DXY)",
     "value": "98.8",
-    "note": "son 1 ay -%1.9",
+    "note": "son 1 ay -%1.2",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$400",
-    "note": "son 1 ay +%8.2",
+    "value": "$403",
+    "note": "son 1 ay +%8.7",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$95.4",
-    "note": "son 1 ay +%13.0",
+    "value": "$97.6",
+    "note": "son 1 ay +%16.8",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend sağlam ve taban geniş, ancak hızla yükselen faizler ile enerjinin öncülük ettiği emtia baskısı makro zemini karmaşıklaştırıyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamasının üzerinde seyrediyor ve sektörlerin %73'inin bu çizginin üstünde kalması yükselişin dar bir gruba sıkışmadığını gösteriyor; eşit-ağırlıklı ile piyasa değeri ağırlıklı performans arasındaki fark yalnızca -0.2 puan, bu da tablonun sağlıklı göründüğüne işaret ediyor. VIX 16 civarında olup vadeli yapı contango'da; korku değil, olağan bir belirsizlik ortamı var. Öte yandan 10 yıllık faizin bir ayda 20 baz puana yakın sıçrayarak %4.81'e ulaşması ve aynı dönemde petrolün %13 artması, hisse değerlemesi ve tüketici gücü üzerindeki baskının yoğunlaştığını ortaya koyuyor. Dolar endeksinin gerilemesi ve altının güçlü yükselmesi ise küresel ölçekte enflasyon ve güvenli liman talebine dair kaygıların arka planda canlı kaldığını hatırlatıyor.",
+  "headline": "Trend yapısal olarak yukarıda, ancak petrol ve faiz baskısı altında döngüsel risk-açık rejim devam ediyor",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde seyrediyor; bu, uzun vadeli trendin hâlâ sağlam olduğunu gösteriyor. VIX'in 16-17 bandında olması ve kredi piyasasının sakin seyri, sistemik bir korku olmadığına işaret ediyor. Breadth orta düzeyde; sektörlerin %73'ü teknik olarak sağlıklı görünse de eşit-ağırlıklı performansın cap-ağırlıklının hafifçe gerisinde kalması, yükselişin tamamıyla geniş tabanlı olmadığını, birkaç büyük teknoloji ve enerji ağırlığının tabloyu taşıdığını ortaya koyuyor. Öte yandan 10 yıllık faizin %4.84'e çıkması ve petrolün bir ayda yaklaşık %17 değer kazanması, enflasyon beklentilerini yeniden gündeme getiren ve özellikle değerleme hassasiyeti yüksek varlıklar için zemini sertleştiren bir makro baskı oluşturuyor; altının aynı dönemde sert yükselmesi bu belirsizliği teyit eder nitelikte.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5 eşiğine yaklaşıp yaklaşmadığı — bu seviye hisse değerlemeleri için psikolojik bir baskı noktası olarak işlev görebilir",
-   "Russell 2000'in zirveden uzaklaşma eğilimi — küçük sermayeli şirketler yüksek faize daha duyarlı olduğundan breadth'in gerçekten geniş kalıp kalmadığının teyidi açısından kritik",
-   "Enerji fiyatlarındaki yükselişin çekirdek enflasyon beklentilerine yansıyıp yansımadığı — bu gelişme Fed iletişimini ve faiz beklentilerini yeniden şekillendirebilir"
+   "10 yıllık ABD Hazine faizinin %5 eşiğine yaklaşıp yaklaşmayacağı — bu seviye, hisse değerlemeleri üzerindeki baskıyı artırabilecek psikolojik bir eşik",
+   "Russell 2000'in görece zayıflığının derinleşip derinleşmeyeceği — küçük şirketler faiz yüküne daha duyarlı olduğundan genişlik bozulmasının öncü göstergesi olabilir",
+   "Ham petrol fiyatının $100 üzerinde kalıcı hale gelip gelmeyeceği — bu durum hem enflasyon beklentilerini hem de Fed politika algısını yeniden şekillendirebilir"
   ],
   "concept": {
-   "title": "Reel Faiz Baskısı (Real Rate Squeeze)",
-   "body": "Nominal faizlerin yükselmesi tek başına hisse senetleri için her zaman olumsuz değildir; asıl belirleyici olan, enflasyon beklentileri düşüldükten sonra kalan reel faiz düzeyidir. Reel faizler yükseldiğinde gelecekteki nakit akışlarının bugünkü değeri düşer ve özellikle yüksek değerlemeyle işlem gören büyüme hisseleri bu etkiye daha duyarlı hale gelir."
+   "title": "Faiz-Hisse Rekabeti (Equity Risk Premium Sıkışması)",
+   "body": "Hisse senedi risk primi, yatırımcıların 'risksiz' hazine faizi yerine hisse tutmak için talep ettiği ek getiriyi ifade eder; faizler yükseldiğinde bu prim daralır ve hisseler görece cazibesini yitirir. %4.84 gibi yüksek bir 10 yıllık faiz ortamında, özellikle büyüme hikâyesiyle fiyatlanan şirketlerin gelecekteki kârları daha ağır bir iskonto oranıyla hesaplanır — bu da değerleme tamponlarını inceltir."
   }
  }
 }
