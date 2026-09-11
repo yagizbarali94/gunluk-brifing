@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-11-upcoming",
+  "date": "2026-09-11",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-11-reported",
+  "date": "2026-09-11",
+  "ticker": "ORCL",
+  "name": "Oracle Corporation",
+  "slot": "reported"
+ },
+ {
   "id": "2026-09-10-upcoming",
   "date": "2026-09-10",
   "ticker": "NET",

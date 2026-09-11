@@ -1,0 +1,363 @@
+{
+ "date": "2026-09-11",
+ "slot": "reported",
+ "generated_at": "2026-09-11T10:03:13+00:00",
+ "mock": false,
+ "ticker": "ORCL",
+ "company": {
+  "name": "Oracle Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 440539250688
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (10 Eylül)"
+ },
+ "price": {
+  "last": 152.94,
+  "change_pct": -3.97
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-10",
+  "next_date": null,
+  "last_label": "10 Eylül",
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$19.2B",
+   "sub": "+%21 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.92",
+   "sub": "Beat · beklenti $1.74",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%65.2",
+   "sub": "+0.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-1.9B",
+   "sub": "marj %-10",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 10 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$19.2B",
+      "note": "+%21 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       15.9,
+       14.93,
+       16.06,
+       17.19,
+       19.18
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$4.3B",
+      "note": "+%26 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       21.5,
+       19.6,
+       38.2,
+       21.6,
+       22.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.92",
+      "note": "beklenti $1.74 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%65.2",
+      "note": "+0.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       70.2,
+       67.3,
+       66.5,
+       64.6,
+       65.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%36.3",
+      "note": "+3.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       32.6,
+       31.4,
+       32.1,
+       32.8,
+       36.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%11.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%53.4",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%6.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-1.39×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "veri yok",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "-15",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-1.9B",
+      "note": "marj %-10",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-124.9B",
+      "note": "nakit $31.3B · borç $156.2B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Yönetim Q2 2027 için güçlü bulut talebi ve OCI büyümesinin devamını işaret etti; Co-CEO veri merkezi inşaat gecikmelerini kabul etti ancak uzun vadeli talep görünümünden emin olduklarını belirtti.",
+      "note": "Gecikme itirafı dürüstlük açısından olumlu, ancak gelir tanıma zamanlamasını riske atabilir.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "24.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "13.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.6×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "19.1×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "miss",
+  "miss",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Feb'25",
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    null,
+    15.9,
+    14.9,
+    16.1,
+    17.2,
+    19.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Feb'25",
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    null,
+    70.2,
+    67.3,
+    66.5,
+    64.6,
+    65.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Oracle, Q1 sonuçlarının ardından hisse senedi yükseldi; bulut geliri %62 büyüdü.",
+   "source": "benzinga",
+   "published": "2026-09-10",
+   "url": "https://www.benzinga.com/markets/earnings/26/09/61728003/oracle-stock-pops-after-q1-earnings-print-cloud-revenue-jumps-62",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Co-CEO, AI veri merkezi inşaatlarında gecikmelerin kaçınılmaz olduğunu açıkladı ve her şeyin zamanında gitmesine güvenmenin hatalı bir plan olduğunu söyledi.",
+   "source": "benzinga",
+   "published": "2026-09-11",
+   "url": "https://www.benzinga.com/markets/earnings/26/09/61732762/oracle-ceo-clay-magouyrk-data-center-delays-bad-plan",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Oracle CEO'su, 4 yaşındaki Nvidia GPU'larının %20 prim getirdiğine dikkat çekerek altyapı değerini ve talep yoğunluğunu vurguladı.",
+   "source": "benzinga",
+   "published": "2026-09-11",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61732096/nvidia-jensen-huang-compute-fungible-durable-rentable-oracle",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Oracle, Q1 2027 kazanç çağrısının tam dökümü yayımlandı.",
+   "source": "benzinga",
+   "published": "2026-09-10",
+   "url": "https://www.benzinga.com/news/26/09/61729962/oracle-reports-q1-2027-results-full-earnings-call-transcript",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Oracle, kurumsal veritabanı yazılımları, bulut altyapısı (OCI) ve SaaS uygulamaları satarak büyük şirketlere ve kamu kurumlarına hizmet verir. Lisans, abonelik ve bulut hizmet gelirleri üzerinden yinelemeli bir gelir modeli işletir.",
+  "note": "Oracle'ın OCI'si %62 büyümeyle hızlanıyor ve AI iş yükü talebinin arkasına yapışmış durumda; 4 yaşındaki GPU'ların %20 prim getirmesi, kapasite kıtlığında bile fiyatlama gücünün korunduğunu gösteriyor. Faaliyet marjının 36,3'e sıçraması, ölçek ekonomisinin işlemeye başladığının sinyali olarak 3-5 yıllık tezi güçlendirir. Ancak negatif FCF ve rekor borç yükü, bu büyüme hikayesinin henüz özkaynaklardan değil, agresif borçlanmadan beslendiğini hatırlatıyor.",
+  "counter": "124,9 milyar dolar net borç ve negatif FCF, faiz oranlarının yüksek kaldığı bir ortamda yatırım kapasitesini kısıtlayabilir ve veri merkezi gecikmelerine karşı tampon bırakmaz. AWS ve Azure'un OCI karşısındaki ölçek avantajı, fiyat savaşını Oracle'ın aleyhine çevirme potansiyeli taşır.",
+  "watch": [
+   "OCI gelir büyümesinin %60 üzerinde sürdürülüp sürdürülemeyeceği ve veri merkezi gecikmelerinin müşteri kazanım hızına etkisi",
+   "FCF'nin pozitife dönüş zamanlaması ve net borç/FAVÖK oranının seyri"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 15,9B'den 19,2B'ye çıkarak son 5 çeyrekte net bir ivmelenme sergiledi; %21 y/y büyüme Oracle ölçeğinde istisnai bir hız."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı 32,6'dan 36,3'e yükseldi ve ROE %53 ile sektörde öne çıkıyor; ancak yüksek kaldıraç ROE'yi yapay olarak şişiriyor, ROIC %11,6 ile daha temkinli bir tablo sunuyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr çarpanı -1,39x ve FCF marjı %-10 olması, bildirilen kârın nakde dönüşmediğini ve yoğun capex döngüsünün kazanç kalitesini baskıladığını gösteriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç 124,9 milyar dolarla tarihi zirveye yakın seyrediyor; AI veri merkezi yatırımlarının devam etmesi durumunda borç yükünün kısa vadede azalması beklenmiyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 13,9x büyüme hızına göre görece makul görünse de FD/Satış 8,6x ve negatif FCF göz önüne alındığında değerleme tam anlamıyla cazip değil, büyümenin sürmesi fiyatlanmış durumda."
+   }
+  ],
+  "concept": {
+   "title": "Kazanç Kalitesi (Earnings Quality) ve FCF Dönüşüm Oranı",
+   "body": "Bir şirketin net kârı ne kadar nakde dönüştürebildiği, bilançodaki 'gerçek' kazancın göstergesidir; FCF/net kâr oranı 1x'in altındaysa tahakkuk esaslı gelirler nakitten hızlı büyüyor demektir. Oracle'da bu oran -1,39x olup ağır capex harcamaları kârın çok ötesinde nakit tüketimine yol açıyor; bu durum büyüme cazip olsa da temettü/geri alım kapasitesini ve finansal esnekliği kısıtlar."
+  }
+ }
+}

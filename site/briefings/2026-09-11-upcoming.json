@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-11",
+ "slot": "upcoming",
+ "generated_at": "2026-09-11T10:02:24+00:00",
+ "mock": false,
+ "ticker": "VRT",
+ "company": {
+  "name": "Vertiv Holdings, LLC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap": 95527116800
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.6 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 248.13,
+  "change_pct": -0.08
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-21",
+  "last_label": "29 Temmuz",
+  "next_label": "21 Ekim",
+  "days_to_next": 40,
+  "progress_pct": 52
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.3B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.52",
+   "sub": "Beat · beklenti $1.43",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%37.7",
+   "sub": "-0.0 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$925M",
+   "sub": "marj %28",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.3B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       2.64,
+       2.68,
+       2.88,
+       2.65,
+       3.27
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$498M",
+      "note": "+%54 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       12.3,
+       14.9,
+       15.5,
+       14.7,
+       15.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.52",
+      "note": "beklenti $1.43 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%37.7",
+      "note": "-0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       null,
+       34.0,
+       37.8,
+       38.9,
+       37.7,
+       37.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%19.5",
+      "note": "+2.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       16.9,
+       20.5,
+       21.1,
+       16.4,
+       19.5
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%22.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%43.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%10.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.69×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.7 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "50",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$925M",
+      "note": "marj %28",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-528M",
+      "note": "nakit $2.8B · borç $3.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "59.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "27.2×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "35.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "32.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    2.6,
+    2.7,
+    2.9,
+    2.6,
+    3.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    34.0,
+    37.8,
+    38.9,
+    37.7,
+    37.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Vertiv hissesine 5 yıl önce yatırılan 100 dolar bugün çok daha yüksek bir değere ulaştı — güçlü uzun vadeli getiriyi vurgulayan retrospektif analiz.",
+   "source": "benzinga",
+   "published": "2026-09-09",
+   "url": "https://www.benzinga.com/news/26/09/61690446/100-invested-vertiv-holdings-5-years-ago-would-be-worth-much-today",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Vertiv de dahil olmak üzere 9 sanayi hissesinde büyük kurumsal yatırımcı (whale) hareketleri tespit edildi.",
+   "source": "benzinga",
+   "published": "2026-09-09",
+   "url": "https://www.benzinga.com/markets/options/26/09/61695721/9-industrials-stocks-whale-activity-today-s-session",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Sanayi sektöründe 10 hissede yine whale uyarısı görüldü; Vertiv bu listelerde yer almaya devam ediyor.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/markets/options/26/09/61667864/10-industrials-stocks-whale-alerts-today-s-session",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "AI atılımları Meta ve Cloudflare'i yukarı taşırken petrolün 100 doları aşması genel piyasa dinamiklerini karmaşık hale getirdi.",
+   "source": "benzinga",
+   "published": "2026-09-09",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61694601/oil-tops-100-meta-cloudflare-jump-ai-breakthroughs-markets-wednesday",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Vertiv, veri merkezleri ve telekomünikasyon altyapısı için kritik güç, soğutma ve yönetim sistemleri üretir. Hyperscaler bulut şirketleri, telko operatörleri ve kurumsal müşterilere donanım ve servis satarak yinelenen gelir modeli oluşturur.",
+  "note": "AI veri merkezi yatırım dalgası Vertiv'in sipariş defterini şişiriyor; %24 gelir büyümesi ve 8 çeyrektir süren beklenti aşımları iş modelinin konjonktürel değil yapısal bir dönüşümden beslendiğine işaret ediyor. ROIC %22.6 ve FCF/net kâr 1.69× kombinasyonu, yüksek kaliteli bir ekonomik hendek varlığına güçlü kanıt sunar — soğutma ve güç yönetiminde geçiş maliyetleri ve mühendislik know-how'ı rakiplerin içeri girmesini zorlaştırıyor. 3-5 yıllık tezde şirket, AI altyapı harcamalarının olgunlaşmasıyla servis ve yazılım gelirleri sayesinde daha istikrarlı bir nakit akışı profiline geçiş yapabilir.",
+  "counter": "Hyperscaler yatırım döngüsünün yavaşlaması veya büyük müşterilerin soğutma teknolojisini içselleştirmesi (in-house R&D) sipariş ivmesini ani biçimde kırabilir. Bunun yanı sıra mevcut F/K ileri 27.2 çarpanı yüksek büyüme beklentisini tam fiyatlıyor; herhangi bir rehberlik indirimi sert çoklu sıkışmaya (multiple compression) yol açabilir.",
+  "watch": [
+   "Hyperscaler sipariş backlog'u ve book-to-bill oranı — büyüme hikayesinin sürdürülebilirliğinin en erken sinyali",
+   "Faaliyet marjının %20 eşiğini kalıcı olarak geçip geçemeyeceği — ölçek ve fiyatlama gücünün gerçek testi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir bir önceki çeyrekteki 2.6 milyar dolar düzeyinden 3.3 milyar dolara sıçrayarak yıllık %24 büyümeyle ivmelendi; trend geçici yavaşlamanın ardından yeniden hızlandığını gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Faaliyet marjı %19.5 ile toparlanma trendinde, ROIC %22.6 ve ROE %43.9 sermayenin son derece verimli kullanıldığını kanıtlıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr oranı 1.69× seviyesiyle nakit dönüşümü kârın çok üzerinde seyrediyor; hisse seyrelmesi ise yalnızca %0.7 ile yönetilebilir düzeyde."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç pozisyonu -528 milyon dolar; güçlü FCF üretimi göz önüne alındığında borç yönetilebilir olmakla birlikte net nakit tampon sağlamıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 27.2 ve Fiyat/FCF 32.7 çarpanları yüksek büyüme iskontolu kaliteli bir şirkete işaret etse de cari F/K 59.5 ve FD/Satış 8.3, mükemmeli fiyatlayarak hata payını daraltıyor."
+   }
+  ],
+  "concept": {
+   "title": "Nakit Dönüşüm Kalitesi (FCF/Net Kâr)",
+   "body": "Bu oran, muhasebe kârının ne kadarının gerçek nakde döndüğünü ölçer; 1'in üzeri kârın 'gerçek' olduğunun, hatta muhasebe kârından daha güçlü bir nakit üretimi olduğunun göstergesidir. Vertiv'in 1.69× oranı, agresif tahakkuk veya stok birikmesi olmaksızın her 1 dolarlık net kâra karşılık 1.69 dolar nakit üretildiğini göstererek kazanç kalitesini tescilliyor."
+  }
+ }
+}
