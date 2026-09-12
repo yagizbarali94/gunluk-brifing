@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-12",
+ "slot": "upcoming",
+ "generated_at": "2026-09-12T09:38:11+00:00",
+ "mock": false,
+ "ticker": "SMCI",
+ "company": {
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 25939607552
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %7.3 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 40.1,
+  "change_pct": 7.65
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-11",
+  "next_date": "2026-11-03",
+  "last_label": "11 Ağustos",
+  "next_label": "3 Kasım",
+  "days_to_next": 52,
+  "progress_pct": 38
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.1B",
+   "sub": "+%93 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.70",
+   "sub": "Beat · beklenti $0.96",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%17.5",
+   "sub": "+7.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$719M",
+   "sub": "marj %6",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 11 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.1B",
+      "note": "+%93 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       5.76,
+       5.02,
+       12.68,
+       10.24,
+       11.12
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.2B",
+      "note": "+%504 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       3.4,
+       3.4,
+       3.2,
+       4.7,
+       10.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.70",
+      "note": "beklenti $0.96 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%17.5",
+      "note": "+7.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       9.5,
+       9.3,
+       6.3,
+       9.9,
+       17.5
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%13.4",
+      "note": "+9.4 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       4.0,
+       3.6,
+       3.7,
+       6.1,
+       13.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%12.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%21.5",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%7.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-3.13×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "veri yok",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "75",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$719M",
+      "note": "marj %6",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.2B",
+      "note": "nakit $7.5B · borç $8.8B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "11.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "7.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "0.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "11.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "miss",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    5.8,
+    5.0,
+    12.7,
+    10.2,
+    11.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    9.5,
+    9.3,
+    6.3,
+    9.9,
+    17.5
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "SMCI hissesi Cuma günü belirgin bir yükselişle dikkat çekti; yatırımcılar hareketi yorumlamaya çalıştı.",
+   "source": "benzinga",
+   "published": "2026-09-11",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61743641/what-is-going-on-with-smci-stock-on-friday",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "S&P 500 dört günlük düşüşü kırdı; Dell %11 yükselirken teknoloji hisselerine risk iştahı geri döndü.",
+   "source": "benzinga",
+   "published": "2026-09-11",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61745848/stocks-snap-four-day-slide-oil-cools-fed-hike-odds-90-percent-markets-friday",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "NVIDIA CEO'su Jensen Huang şirketi 'dünyanın ilk ve tek büyüme-değer hissesi' olarak tanımladı; bu söylem AI altyapı talebine olan güveni pekiştiriyor.",
+   "source": "benzinga",
+   "published": "2026-09-11",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61743332/jensen-huang-calls-nvidia-the-worlds-first-and-only-growth-value-stock",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Kurumsal yatırımcıların (whale) bilgi teknolojisi hisselerinde büyük işlemler gerçekleştirdiği görüldü; SMCI bu ilgiden pay aldı.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/markets/options/26/09/61667863/10-information-technology-stocks-whale-activity-today-s-session",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Super Micro Computer, yüksek performanslı sunucu ve depolama sistemleri tasarlayıp üretir; yapay zeka, bulut ve kurumsal veri merkezi müşterilerine doğrudan ve kanal ortakları aracılığıyla satar. NVIDIA GPU'larını entegre eden AI sunucu rafları başlıca gelir kaynağıdır.",
+  "note": "SMCI'nin %93 büyüme ve son çeyrekte brüt marjın %17.5'e sıçraması, şirketin AI altyapı talebinin merkezi konumunda olduğunu teyit ediyor; ancak bu marj seviyesi, düşük maliyetli özelleştirme modelinin gerçek bir fiyatlama gücüne mü yoksa geçici bir ürün karmasına mı dayandığını netleştirmeye ihtiyaç duyuyor. Uzun vadeli tez, SMCI'nin hızlı 'liquid cooling' ve modüler raf tasarımında öne geçmesine ve hiper-ölçekli veri merkezi müşterilerini elinde tutmasına bağlı. Muhasebe sorunlarından kaynaklanan geçmiş güven hasarı ve yoğun rekabet, 3-5 yıllık sürdürülebilir marj konusunda temkinli olmayı gerektiriyor.",
+  "counter": "SMCI'nin hendeki, NVIDIA donanımını entegre eden ama giderek kendi tasarım kapasitelerini artıran Dell, HPE ve doğrudan ODM rakipleriyle ciddi baskı altında; marjlar normalleşirse mevcut değerleme iskontosu yetersiz kalabilir. Ek olarak geçmişteki denetim/muhasebe krizleri kurumsal müşteri güvenini zedeledi ve olası yeni bir düzenleyici olay tüm tezi sıfırdan sorgulattırabilir.",
+  "watch": [
+   "Brüt marjın %15-18 bandında kalıcı olup olmadığı — ürün karması ve rekabet baskısının marjı aşındırıp aşındırmadığı",
+   "FCF dönüşümünün pozitife dönmesi — stok ve alacak yönetiminin normalleşip normalleşmediği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir y/y %93 artmış olsa da çeyreklik bazda 12.7B zirvesinden 10.2B'ye düşüp 11.1B'ye toparlanması, büyüme ivmesinin hâlâ güçlü ama zirve seviyesinin altında bir platoya doğru ilerlediğine işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marjın tek çeyrekte 7.5 puan artarak %17.5'e, faaliyet marjının %13.4'e yükselmesi ve ROIC'in %12.6 olması, kârlılık ivmesinin anlamlı biçimde iyileştiğini gösteriyor; ancak historik ortalamaların üzerinde kalıp kalmayacağı test edilmeli."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/Net kâr oranının -3.13× olması, muhasebe kârının büyük ölçüde nakit yaratmadığını ve işletme sermayesine yoğun bağlandığını ortaya koyuyor; bu durum kazanç kalitesini ciddi ölçüde zayıflatıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç 1.2 milyar dolar olup büyüme hızıyla kıyaslandığında yönetilebilir görünüyor, ancak negatif serbest nakit akışı sürdükçe borç yükü artma riski taşıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 7.5 ve FD/Satış 0.8 seviyeleri, %93 büyüme ve Rule of 40 skoru 75 olan bir şirket için son derece cazip görünüyor; ancak muhasebe riski ve FCF kalitesi bu iskontonu bir kısmını haklı kılıyor."
+   }
+  ],
+  "concept": {
+   "title": "Nakit Dönüşüm Döngüsü (Cash Conversion Cycle)",
+   "body": "Nakit dönüşüm döngüsü, bir şirketin hammadde alımından müşteriden nakit tahsilatına kadar geçen süreyi ölçer; bu süre uzadıkça şirket işletme sermayesine daha fazla nakit bağlamak zorunda kalır. SMCI'de FCF/Net kâr oranının -3.13× olması, şirketin muhasebe kârı üretmesine rağmen hızlı büyüme nedeniyle stok ve alacaklara büyük nakit yatırdığını, dolayısıyla kasasına gerçek nakit giremediğini gösteriyor."
+  }
+ }
+}
