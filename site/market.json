@@ -1,6 +1,6 @@
 {
- "date": "2026-09-12",
- "generated_at": "2026-09-12T09:38:54+00:00",
+ "date": "2026-09-13",
+ "generated_at": "2026-09-13T10:40:00+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend yukarı ve döngüseller önde ancak petrol-altın fırtınası, yükselen faizler ve kredi sessizliği zeminde önemli gerilimler yaratıyor.",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor; VIX 16 altında ve vade yapısı contango'da — bunlar panik değil, olağan bir risk ortamına işaret ediyor. Öte yandan petrolün tek ayda yüzde on sekiz, altının yüzde yedi üç artması ve 10 yıllık faizin yüzde beşe dayanması, arka planda enflasyon veya jeopolitik bir baskının varlığını düşündürüyor; bu üç sinyal aynı anda yükseldiğinde dikkat eşiği yükseltilmeli. Breadth orta düzeyde: cap-ağırlıklı endeks eşit-ağırlıklıyı geride bırakıyor, Russell 2000 zirveden yüzde beş dört zayıflamış ve kredi tarafında yüksek getirili tahviller sessiz — genişlik tam anlamıyla sağlıklı değil, yükselişi birkaç büyük isim taşıyor. Sonuç olarak görünür tablo risk-açık olmakla birlikte, faiz-emtia-kredi üçgenindeki bu eş zamanlı baskı zemini düşündürücü bir belirsizlik katmanı ekliyor.",
+  "headline": "Trend yukarı ve risk iştahı açık, ancak yükselen faizler ile petrol fiyatları zemini karmaşıklaştırıyor",
+  "read": "Üç büyük endeks 200 günlük ortalamanın üzerinde seyrediyor ve sektör eğilimi döngüseller lehine belirgin biçimde risk-açık bir tablo çiziyor; VIX'in 16 altında tutunması ve vade yapısının contango'da kalması piyasanın henüz ciddi bir korku eşiğine girmediğine işaret ediyor. Öte yandan breadth tam anlamıyla sağlıklı değil: eşit ağırlıklı getirinin cap ağırlıklının gerisinde kalması ve Russell 2000'in zirveden yaklaşık yüzde beş buçuk aşağıda olması, yükselişin geniş tabana değil birkaç büyük isme yaslandığını gösteriyor. Makro zeminde ise 10 yıllık faizin yüzde 4.97'ye taşınması ve petrolün bir ayda yüzde 18'in üzerinde sıçraması hem maliyet hem de enflasyon baskısı açısından şirket kârlarına ve tüketici harcamalarına yönelik yeni bir soru işareti yaratıyor. Altının sert yükselmesi ve HYG'nin zayıf seyri ise fırsatçı risk iştahının altında gizlenen temkinli bir alt akıntıya dikkat çekiyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde beş eşiğini kalıcı olarak aşıp aşmadığı — bu düzey hisse değerlemelerini yeniden sorgulatabilir",
-   "Petrol fiyatının 100 dolar üzerinde kalıcılaşması ve buna karşın HYG'nin toparlanıp toparlanamadığı — kredi piyasasının sessizliği genişleyebilir",
-   "Russell 2000 ile S&P 500 arasındaki makas: küçük şirketlerin direnç gösterip göstermediği, breadth'in gerçekten daralıp daralmadığının en iyi testi"
+   "10 yıllık ABD Hazine faizinin yüzde 5 eşiğini kırıp kırmayacağı — bu seviye hem hisse değerlemelerini hem kredi piyasasını doğrudan etkiler",
+   "HYG ve kredi spreadlerinin genişleyip genişlemediği — yüksek getirili tahvildeki zayıflık derinleşirse risk iştahının gerçek sınavı başlar",
+   "Russell 2000'in göreceli performansı — küçük şirketler faiz yükünü daha yoğun hisseder; breadth bozulmasının sürdürülüp sürdürülmediği burada okunabilir"
   ],
   "concept": {
-   "title": "Emtia-Faiz-Kredi Üçgeni (Macro Squeeze)",
-   "body": "Petrol, altın ve uzun vadeli faizlerin aynı anda yükselmesi, ekonomik büyüme beklentisi değil; maliyet baskısı veya jeopolitik risk priminin arttığına işaret edebilir. Bu ortamda kredi spreadlerinin genişlemesi (HYG zayıflığı) eşlik ederse, risk iştahının yüzeysel göründüğü ama temelin inceldiği bir 'sessiz stres' rejimi oluştuğunu söylemek mümkün."
+   "title": "Breadth Ayrışması (Market Breadth Divergence)",
+   "body": "Piyasa endeksi yükselirken eşit ağırlıklı versiyonunun veya küçük şirket endekslerinin geride kalması, yükselişin dar bir liderlik grubuna kilitlendiğine işaret eder. Bu ayrışma tek başına bir dönüş sinyali değildir; ancak rallinin tabana ne ölçüde yayıldığını ölçen bir sağlık göstergesi olarak uzun vadeli yatırımcıya önemli bir bağlam sunar."
   }
  }
 }

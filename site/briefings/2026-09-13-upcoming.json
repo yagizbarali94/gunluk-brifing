@@ -1,0 +1,352 @@
+{
+ "date": "2026-09-13",
+ "slot": "upcoming",
+ "generated_at": "2026-09-13T10:39:16+00:00",
+ "mock": false,
+ "ticker": "NET",
+ "company": {
+  "name": "Cloudflare, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 109149110272
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 306.53,
+  "change_pct": -1.44
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-06",
+  "next_date": "2026-10-29",
+  "last_label": "6 Ağustos",
+  "next_label": "29 Ekim",
+  "days_to_next": 46,
+  "progress_pct": 45
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$696M",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.29",
+   "sub": "Beat · beklenti $0.27",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%71.8",
+   "sub": "+0.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$56M",
+   "sub": "marj %8",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 6 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$696M",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.51,
+       0.56,
+       0.61,
+       0.64,
+       0.7
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-170M",
+      "note": "+%237 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -9.8,
+       -0.2,
+       -2.0,
+       -3.6,
+       -24.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.29",
+      "note": "beklenti $0.27 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%71.8",
+      "note": "+0.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       74.9,
+       74.0,
+       73.6,
+       71.2,
+       71.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-7.9",
+      "note": "+5.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -13.1,
+       -6.7,
+       -8.0,
+       -9.7,
+       -7.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-2.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-14.4",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-2.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%2.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "48",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$56M",
+      "note": "marj %8",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.9B",
+      "note": "nakit $1.7B · borç $3.5B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "182.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "43.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-30059.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "346.6×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    0.5,
+    0.6,
+    0.6,
+    0.6,
+    0.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    74.9,
+    74.0,
+    73.6,
+    71.2,
+    71.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Petrolün 100 doları aşmasının gölgesinde Meta ve Cloudflare, AI alanındaki gelişmelere dayalı yükselişleriyle piyasada öne çıkan hisseler arasında yer aldı.",
+   "source": "benzinga",
+   "published": "2026-09-09",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61694601/oil-tops-100-meta-cloudflare-jump-ai-breakthroughs-markets-wednesday",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Cloudflare hissesi seans sonrasında gündem oldu; haberde yükselişin arkasındaki tetikleyici faktörler sorgulandı.",
+   "source": "benzinga",
+   "published": "2026-09-10",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61704312/cloudflare-shares-after-hours-move",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Cloudflare hissesinde Salı günü yaşanan harekete ilişkin piyasa yorumları ve olası katalizörler ele alındı.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61659541/whats-going-on-with-cloudflare-stock-tuesday",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Beş yıl önce Cloudflare'e yatırılan 100 doların bugünkü değeri hesaplandı; hissenin uzun vadeli getiri performansı vurgulandı.",
+   "source": "benzinga",
+   "published": "2026-09-09",
+   "url": "https://www.benzinga.com/news/26/09/61692993/100-invested-cloudflare-5-years-ago-would-be-worth-much-today",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Cloudflare, küresel ağ altyapısı üzerinde güvenlik, performans ve geliştirici hizmetleri sunan bir bulut platformudur. Abonelik tabanlı SaaS modeliyle kurumsal ve KOBİ müşterilerine DDoS koruması, Zero Trust güvenliği, CDN ve AI Gateway gibi ürünler satar.",
+  "note": "Cloudflare'in ağ efekti ve geniş ürün platformu (SASE, Workers, AI Gateway) güçlü bir ekonomik hendek inşa etmeye devam ediyor; %36 büyüme ve Rule of 40 skoru 48, iş modelinin cazibesini koruyor. Brüt marjın 71,8'e toparlaması ve faaliyet marjının iyileşme trendine girmesi, ölçek ekonomisinin işlemeye başladığını işaret eder. Ancak net marjın -24,4'e sert düşmesi (muhtemelen tek seferlik kalemlerden) ve henüz negatif ROIC, yatırım tezinin 'vaat' aşamasında kaldığını hatırlatır — kalıcı kârlılığa geçiş 3-5 yılın kritik sınavı olacak.",
+  "counter": "Büyük bulut sağlayıcıları (AWS, Google, Microsoft) ağ güvenliği ve edge computing alanlarını kendi ekosistemlerine çekerek Cloudflare'in fiyatlama gücünü ve müşteri tutma oranını baskı altına alabilir. Şirketin henüz negatif ROIC üretmesi, rekabet yoğunlaşırsa operasyonel kaldıracın istenen hızda gelmeyebileceği riskini barındırıyor.",
+  "watch": [
+   "Brüt ve faaliyet marjının kalıcı iyileşme trendi: ölçek ekonomisinin gerçekten işlediğini kanıtlamak için marjların 75%+ brüt ve pozitif faaliyet marjına yaklaşması kritik",
+   "Büyük müşteri (>100K ABD$ ARR) büyümesi ve net gelir tutma oranı (NRR): platform genişliğinin fiyatlama gücüne ve müşteri derinleşmesine dönüşüp dönüşmediğini gösterir"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 0,5B'den 0,7B'ye çeyrekten çeyreğe istikrarlı biçimde yükselmiş ve yıllık %36 büyüme, sektör ortalamasının belirgin üzerinde seyrini sürdürüyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj toparlanıyor ve faaliyet marjı iyileşme trendinde olsa da ROIC -2,3 ve ROE -14,4 ile sermaye henüz değer üretmiyor; kârlılık dönüşümü yavaş seyrediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF marjı %8 ile mütevazı pozitif seyrediyor ve EPS beklentiyi geçti; ancak %2 hisse seyrelmesi ve net marjın -24,4'e çökmesi (tek seferlik kalemler şüphesiyle) nakit dönüşümünün kalitesini sorgulatıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç pozisyonu -1,9 milyar dolara ulaşmış; büyüyen bir teknoloji şirketi için yönetilebilir ancak faiz ortamında kaldıraç baskısı göz ardı edilemez."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 182,9, Fiyat/FCF 346,6 ve FD/Satış 43,2 gibi çarpanlar mükemmel bir yürütme senaryosunu fiyatlıyor; büyümede herhangi bir yavaşlama ciddi çoklu sıkışmasına yol açabilir."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "SaaS şirketlerini değerlendirmek için kullanılan Rule of 40, gelir büyüme oranı ile FCF (veya kâr) marjının toplamının 40'ı aşması gerektiğini söyler. Cloudflare bu çeyrekte %36 büyüme + %8 FCF marjı = 44 ile eşiği aşıyor; ancak kârdan çok büyümeye dayalı olması, marj ivmesinin kritikliğini artırıyor."
+  }
+ }
+}

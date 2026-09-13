@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-13-upcoming",
+  "date": "2026-09-13",
+  "ticker": "NET",
+  "name": "Cloudflare, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-13-reported",
+  "date": "2026-09-13",
+  "ticker": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-09-12-upcoming",
   "date": "2026-09-12",
   "ticker": "SMCI",
