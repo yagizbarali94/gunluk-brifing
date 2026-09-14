@@ -1,6 +1,6 @@
 {
- "date": "2026-09-13",
- "generated_at": "2026-09-13T10:40:00+00:00",
+ "date": "2026-09-14",
+ "generated_at": "2026-09-14T11:01:16+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.84,
+  "vix": 17.68,
   "vix3m": 20.54,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 9.0
+  "vix_chg_5d": 15.6
  },
  "breadth": {
   "rsp_3m": 1.9,
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.1",
-    "note": "son 1 ay -%0.7",
+    "value": "99.6",
+    "note": "son 1 ay -%0.4",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$100.1",
-    "note": "son 1 ay +%18.2",
+    "value": "$102.3",
+    "note": "son 1 ay +%27.4",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend yukarı ve risk iştahı açık, ancak yükselen faizler ile petrol fiyatları zemini karmaşıklaştırıyor",
-  "read": "Üç büyük endeks 200 günlük ortalamanın üzerinde seyrediyor ve sektör eğilimi döngüseller lehine belirgin biçimde risk-açık bir tablo çiziyor; VIX'in 16 altında tutunması ve vade yapısının contango'da kalması piyasanın henüz ciddi bir korku eşiğine girmediğine işaret ediyor. Öte yandan breadth tam anlamıyla sağlıklı değil: eşit ağırlıklı getirinin cap ağırlıklının gerisinde kalması ve Russell 2000'in zirveden yaklaşık yüzde beş buçuk aşağıda olması, yükselişin geniş tabana değil birkaç büyük isme yaslandığını gösteriyor. Makro zeminde ise 10 yıllık faizin yüzde 4.97'ye taşınması ve petrolün bir ayda yüzde 18'in üzerinde sıçraması hem maliyet hem de enflasyon baskısı açısından şirket kârlarına ve tüketici harcamalarına yönelik yeni bir soru işareti yaratıyor. Altının sert yükselmesi ve HYG'nin zayıf seyri ise fırsatçı risk iştahının altında gizlenen temkinli bir alt akıntıya dikkat çekiyor.",
+  "headline": "Trend yapısal olarak sağlam görünse de petrol şoku, yükselen faizler ve kredi piyasasındaki gerginlik rejimi karmaşıklaştırıyor.",
+  "read": "Üç ana endeksin tamamı 200 günlük ortalamanın üzerinde seyretmesi genel trendin henüz kırılmadığına işaret ediyor; VIX'in 18 altında kalması ve vade yapısının contango'da olması panik değil, ihtiyatlı bir 'bekleme' ortamını yansıtıyor. Ancak breadth tablosu tam sağlıklı değil: eşit ağırlıklı endeksin cap-ağırlıklıya göre geride kalması ve Russell 2000'in zirveden yaklaşık %5,4 uzaklaşması yükselişin geniş tabanlı olmadığını, birkaç büyük ismin endeksi taşıdığını gösteriyor. Makro zeminde ise tablo daha zorlu: 10 yıllık faizin %5'e dayanan seviyelere tırmanması varlık fiyatlamasını sıkıştırırken, petrolün bir ayda %27 yükselmesi hem enflasyon beklentilerini hem de tüketici üzerindeki baskıyı artırıyor. Altındaki güçlü performans ve yüksek getirili tahvil piyasasının zayıflaması bir arada değerlendirildiğinde, yatırımcıların hâlâ büyüme varlıklarına yöneldiği ama aynı zamanda kuyruk riskine karşı hedj aradığı karma bir rejim söz konusu.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 5 eşiğini kırıp kırmayacağı — bu seviye hem hisse değerlemelerini hem kredi piyasasını doğrudan etkiler",
-   "HYG ve kredi spreadlerinin genişleyip genişlemediği — yüksek getirili tahvildeki zayıflık derinleşirse risk iştahının gerçek sınavı başlar",
-   "Russell 2000'in göreceli performansı — küçük şirketler faiz yükünü daha yoğun hisseder; breadth bozulmasının sürdürülüp sürdürülmediği burada okunabilir"
+   "10 yıllık ABD Hazine faizinin %5 eşiğini kalıcı olarak aşıp aşmadığı — bu seviye hem hisse değerlemelerinde hem kredi piyasasında önemli bir referans noktası",
+   "HYG (yüksek getirili tahvil ETF) hareketleri — kredi spreadlerinin genişlemesi risk iştahının gerçekten kırılıp kırılmadığının erken sinyali olabilir",
+   "Petrol fiyatının $100-105 bandında tutunup tutunmayacağı ve bunun Fed'in faiz söylemine nasıl yansıyacağı"
   ],
   "concept": {
-   "title": "Breadth Ayrışması (Market Breadth Divergence)",
-   "body": "Piyasa endeksi yükselirken eşit ağırlıklı versiyonunun veya küçük şirket endekslerinin geride kalması, yükselişin dar bir liderlik grubuna kilitlendiğine işaret eder. Bu ayrışma tek başına bir dönüş sinyali değildir; ancak rallinin tabana ne ölçüde yayıldığını ölçen bir sağlık göstergesi olarak uzun vadeli yatırımcıya önemli bir bağlam sunar."
+   "title": "Breadth Daralması (Narrowing Market Breadth)",
+   "body": "Piyasa yükselişinin yalnızca küçük bir hisse grubuna yaslandığı durumu tanımlar; endeks pozitif görünse de altındaki katılım azaldığında trendin tabanı incelmiş demektir. Tarihsel olarak breadth daralması tek başına bir satış sinyali değildir, ancak büyük hisselerde herhangi bir sarsıntının etkisini orantısız büyütebileceğine dair yapısal bir kırılganlığa dikkat çeker."
   }
  }
 }

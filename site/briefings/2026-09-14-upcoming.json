@@ -1,0 +1,339 @@
+{
+ "date": "2026-09-14",
+ "slot": "upcoming",
+ "generated_at": "2026-09-14T11:00:30+00:00",
+ "mock": false,
+ "ticker": "PANW",
+ "company": {
+  "name": "Palo Alto Networks, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 270471692288
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 330.65,
+  "change_pct": -0.06
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-01",
+  "next_date": "2026-11-19",
+  "last_label": "1 Eylül",
+  "next_label": "19 Kasım",
+  "days_to_next": 66,
+  "progress_pct": 16
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.4B",
+   "sub": "+%34 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.02",
+   "sub": "Beat · beklenti $0.98",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.6",
+   "sub": "+0.0 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.3B",
+   "sub": "marj %37",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 1 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.4B",
+      "note": "+%34 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       2.54,
+       2.47,
+       2.59,
+       3.0,
+       3.41
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-282M",
+      "note": "-%211 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       10.0,
+       13.5,
+       16.7,
+       -5.9,
+       -8.3
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.02",
+      "note": "beklenti $0.98 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.6",
+      "note": "+0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       null,
+       73.2,
+       74.2,
+       73.6,
+       67.6,
+       67.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%5.0",
+      "note": "-14.6 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       19.6,
+       12.5,
+       15.3,
+       -6.1,
+       5.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%1.1",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%1.7",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%1.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "13.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%15.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.3B",
+      "note": "marj %37",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$14M",
+      "note": "nakit $2.5B · borç $2.5B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "826.6×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "67.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "23.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "173.1×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "65.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    null,
+    2.5,
+    2.5,
+    2.6,
+    3.0,
+    3.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    null,
+    73.2,
+    74.2,
+    73.6,
+    67.6,
+    67.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "1000 dolarlık 10 yıllık PANW yatırımının bugünkü değerini hesaplayan geriye dönük performans analizi yayımlandı.",
+   "source": "benzinga",
+   "published": "2026-09-08",
+   "url": "https://www.benzinga.com/news/26/09/61660743/here-s-how-much-1000-invested-palo-alto-networks-10-years-ago-would-be-worth-today",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Palo Alto Networks, kurumsal ve kamu sektörü müşterilerine yönelik bulut tabanlı siber güvenlik platformları (Prisma Cloud, Cortex, Strata) sunar. Abonelik ve hizmet gelirleriyle tekrarlayan gelir modeli işleterek ağ güvenliği, uç nokta koruması ve bulut güvenliği alanlarında entegre çözümler satar.",
+  "note": "Platformlaşma stratejisi (platformization) müşterileri tek çatı altında konsolide ederek yüksek geçiş maliyeti yaratıyor ve yıllık yinelenen geliri büyütüyor; bu durum hendeki güçlendiren temel unsur. %34 gelir büyümesi ve 70 Rule of 40 skoru iş modelinin verimliliğini teyit ediyor; ancak brüt marjın %73'ten %67'ye gerilemesi ve faaliyet marjının henüz tek haneli kalması, platformlaşmanın maliyet yapısını baskıladığını gösteriyor. 5 yıllık tezin özü sağlam olmaya devam ediyor, fakat marj normalleşmesinin ne zaman gerçekleşeceği kritik değişken.",
+  "counter": "CrowdStrike, Microsoft ve Google'ın siber güvenlik yatırımlarını artırması, fiyatlandırma baskısını ve müşteri kazanım maliyetlerini yükseltebilir. Aynı zamanda %15.2'lik hisse seyrelmesi hissedar değerini aşındırarak yüksek büyümenin olumlu etkisini kısmen nötralize edebilir.",
+  "watch": [
+   "Brüt marjın %67 tabanında kalıcı mı toparlanacağı yoksa platformlaşma indirimleriyle daha da gerileyip gerilemeyeceği",
+   "Hisse bazlı ödeme nedeniyle devam eden seyrelmeni yönetimi ve serbest nakit akışının net kâra transferi (FCF marj sürdürülebilirliği)"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 2.5B'dan 3.4B'a yükselirken son çeyrekte %34 y/y büyüme belirgin hızlanmaya işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Brüt marj %73'ten %67.6'ya geriledi, faaliyet marjı yalnızca %5, ROIC %1.1 ile sermaye getirileri henüz son derece düşük."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr 13.4x ile nakit üretimi muhasebe kârının çok üzerinde ve güçlü; ancak %15.2 hisse seyrelmesi hissedar getirisini ciddi ölçüde aşındırıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit yalnızca 14M$ ile neredeyse sıfır; güçlü FCF üretimi olumlu ancak bilanço tampon sağlamıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 67.8, Fiyat/FCF 65.8 ve FD/Satış 23.5 büyüme ve kalite için ödenecek fiyatı yüksek tutan çarpanlar; mükemmel senaryo tamamen fiyatlanmış görünüyor."
+   }
+  ],
+  "concept": {
+   "title": "Platformlaşma (Platformization) ve Çapraz Satış Kaldıracı",
+   "body": "Platformlaşma, müşterilerin birden fazla güvenlik ürününü tek bir tedarikçiden satın almasını ifade eder ve geçiş maliyetlerini artırarak müşteri ömür boyu değerini yükseltir. Palo Alto, bu strateji kapsamında müşterilere başlangıçta indirimli fiyat sunup zamanla ek modüller satarak LTV/CAC oranını iyileştirmeyi hedefliyor; bu durum kısa vadede brüt marjı baskılarken uzun vadede güçlü yinelenen gelir yaratması bekleniyor."
+  }
+ }
+}
