@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-15",
+ "slot": "reported",
+ "generated_at": "2026-09-15T10:30:18+00:00",
+ "mock": false,
+ "ticker": "PANW",
+ "company": {
+  "name": "Palo Alto Networks, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 305882923008
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %13.1 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 373.94,
+  "change_pct": 0.13
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-01",
+  "next_date": "2026-11-19",
+  "last_label": "1 Eylül",
+  "next_label": "19 Kasım",
+  "days_to_next": 65,
+  "progress_pct": 18
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.4B",
+   "sub": "+%34 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.02",
+   "sub": "Beat · beklenti $0.98",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.6",
+   "sub": "+0.0 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.3B",
+   "sub": "marj %37",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 1 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.4B",
+      "note": "+%34 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       2.54,
+       2.47,
+       2.59,
+       3.0,
+       3.41
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-282M",
+      "note": "-%211 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       10.0,
+       13.5,
+       16.7,
+       -5.9,
+       -8.3
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.02",
+      "note": "beklenti $0.98 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.6",
+      "note": "+0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       null,
+       73.2,
+       74.2,
+       73.6,
+       67.6,
+       67.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%5.0",
+      "note": "-14.6 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       19.6,
+       12.5,
+       15.3,
+       -6.1,
+       5.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%1.1",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%1.7",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%1.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "13.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%15.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.3B",
+      "note": "marj %37",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$14M",
+      "note": "nakit $2.5B · borç $2.5B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "912.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "76.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "26.6×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "195.8×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "74.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    null,
+    2.5,
+    2.5,
+    2.6,
+    3.0,
+    3.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    null,
+    73.2,
+    74.2,
+    73.6,
+    67.6,
+    67.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "OpenAI ve Anthropic'in yapay zeka yavaşlatma çağrısı çip hisselerini düşürürken siber güvenlik hisselerini yukarı taşıdı.",
+   "source": "benzinga",
+   "published": "2026-09-14",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61765308/openai-anthropic-ai-slowdown-cybersecurity-stocks-chips",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Microsoft'un yeni yapay zeka güvenlik kuralları, PANW dahil üç siber güvenlik hissesinde sert yükselişe neden oldu.",
+   "source": "benzinga",
+   "published": "2026-09-14",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61771074/microsoft-ai-safety-cyber-stocks",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Yapay zeka güvenlik tartışmasının kızışmasıyla siber güvenlik sektörü genelinde güçlü bir ralli yaşandı.",
+   "source": "benzinga",
+   "published": "2026-09-14",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61763825/cybersecurity-stocks-rally-as-ai-safety-debate-heats-up",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Rakip SentinelOne %16 yükselerek tarihin en iyi günlerinden birini yaşadı; sektörel talep ivmesinin güçlü olduğuna işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-09-14",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61775941/sentinelone-stock-rallies-16-percent-second-biggest-day-on-record",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Palo Alto Networks, kurumsal müşterilere yönelik ağ güvenliği, bulut güvenliği ve uç nokta koruması sunan siber güvenlik platformu şirketidir. Gelirini ağırlıklı olarak abonelik ve destek hizmetleri (tekrarlayan gelir) üzerinden elde eder; 'platformlaşma' stratejisiyle müşterileri tek çatı altında toplamayı hedefler.",
+  "note": "PANW'nin 'platformlaşma' tezi, müşterilerin çoklu nokta çözümlerini konsolide etmesini teşvik ederek hem churn'ü düşürmekte hem de çapraz satış fırsatı yaratmaktadır; bu yapı güçlü bir switching cost moat'ı oluşturur. %34 gelir büyümesi ve %37 FCF marjıyla Rule of 40 skoru 70'e ulaşmış olması, iş modelinin nakit üretim kapasitesinin sağlam olduğunu teyit eder. Ancak brüt marjın ~%73'ten %67,6'ya gerilemesi ve faaliyet marjının oynaklığı, platformlaşma indirimlerinin kısa vadede kârlılık kalitesini baskıladığını göstermektedir.",
+  "counter": "Platformlaşma stratejisi müşterilere geçiş döneminde agresif fiyat indirimleri sunmayı gerektirdiğinden brüt marj üzerinde yapısal baskı yaratabilir. Crowdstrike, Microsoft ve yeni nesil yapay zeka destekli güvenlik oyuncularının rekabeti, PANW'nin fiyatlama gücünü uzun vadede aşındırabilir.",
+  "watch": [
+   "Brüt marjın platformlaşma indirimlerinin normalizasyonuyla birlikte %70+ seviyesine dönüp dönemeyeceği",
+   "Hisse bazlı ödeme kaynaklı seyrelmesinin büyümeyle orantılı olarak azalıp azalmadığı ve ROIC'in anlamlı şekilde yükselip yükselmediği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 2,5 milyar dolardan 3,4 milyar dolara yükselmiş; son çeyrekteki %34 y/y büyüme hız kazanmaya devam ettiğine işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Faaliyet marjı dip noktasından toparlanıyor ancak %5 seviyesi hâlâ zayıf; ROIC %1,1 ve ROE %1,7 ile sermaye getirisi değerlemeyle kıyaslandığında son derece düşük kalıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr çarpanının 13,4x olması muhasebe kârının çok üzerinde nakit üretildiğini kanıtlıyor; ne var ki %15,2 hisse seyrelmesi hissedar değerini önemli ölçüde sulandırıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit yalnızca 14 milyon dolar ile pratikte nötr bir bilanço yapısı var; yüksek hisse bazlı ödeme ve seyrelmesi göz önüne alındığında belirgin bir nakit tampon bulunmuyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "Cari F/K 912x, ileri F/K 76,6x ve FD/Satış 26,6x çarpanları güçlü büyümeyi fiyatlıyor olsa da marj toparlanmasının yavaş seyri ve yüksek seyrelmesiyle birlikte hata payı son derece dar."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (FCF/Net Kâr)",
+   "body": "FCF dönüşüm oranı, muhasebe kârının ne kadarının gerçek nakde dönüştüğünü ölçer; 1x'in üzeri nakit kalitesinin yüksek olduğunu gösterir. PANW'de bu oran 13,4x'e ulaşmış durumda; bunun temel nedeni ertelenmiş gelir yapısı ve hisse bazlı giderlerin nakit çıkışı gerektirmemesi, dolayısıyla FCF'nin net kârı büyük ölçüde aşmasıdır."
+  }
+ }
+}

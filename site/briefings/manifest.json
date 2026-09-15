@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-15-upcoming",
+  "date": "2026-09-15",
+  "ticker": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-15-reported",
+  "date": "2026-09-15",
+  "ticker": "PANW",
+  "name": "Palo Alto Networks, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-09-14-upcoming",
   "date": "2026-09-14",
   "ticker": "PANW",
