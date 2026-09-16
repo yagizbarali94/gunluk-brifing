@@ -1,6 +1,6 @@
 {
- "date": "2026-09-15",
- "generated_at": "2026-09-15T10:30:25+00:00",
+ "date": "2026-09-16",
+ "generated_at": "2026-09-16T10:20:51+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7619.98,
-    "chg_1d": -0.48,
-    "above_50": true,
+    "last": 7585.73,
+    "chg_1d": -0.45,
+    "above_50": false,
     "above_200": true,
-    "from_high": -2.3,
-    "state": "yükseliş trendi",
-    "tone": "green"
+    "from_high": -2.7,
+    "state": "zayıflıyor",
+    "tone": "gray"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29127.16,
-    "chg_1d": -0.82,
+    "last": 28937.84,
+    "chg_1d": -0.65,
     "above_50": false,
     "above_200": true,
-    "from_high": -5.0,
+    "from_high": -5.6,
     "state": "zayıflıyor",
     "tone": "gray"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2892.24,
-    "chg_1d": -0.4,
+    "last": 2870.29,
+    "chg_1d": -0.76,
     "above_50": false,
     "above_200": true,
-    "from_high": -5.7,
+    "from_high": -6.5,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 17.44,
-  "vix3m": 20.54,
+  "vix": 17.0,
+  "vix3m": 19.36,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 10.9
+  "vix_chg_5d": 3.3
  },
  "breadth": {
-  "rsp_3m": 1.4,
-  "spy_3m": 1.1,
-  "spread": 0.3,
+  "rsp_3m": 1.2,
+  "spy_3m": 1.2,
+  "spread": 0.0,
   "pct_sectors_above_200": 73,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -67,19 +67,7 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 9.8,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLK",
-    "name": "Teknoloji",
-    "chg": 3.5,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": 3.4,
+    "chg": 12.7,
     "group": "döngüsel"
    },
    {
@@ -89,27 +77,33 @@
     "group": "defansif"
    },
    {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": -0.5,
-    "group": "defansif"
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": 1.8,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLK",
+    "name": "Teknoloji",
+    "chg": -1.7,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": -0.6,
+    "chg": -1.8,
     "group": "döngüsel"
+   },
+   {
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": -1.9,
+    "group": "defansif"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": -1.0,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": -4.5,
+    "chg": -2.4,
     "group": "döngüsel"
    },
    {
@@ -119,59 +113,65 @@
     "group": "defansif"
    },
    {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": -6.3,
+    "group": "döngüsel"
+   },
+   {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -5.7,
+    "chg": -6.3,
     "group": "defansif"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -7.2,
+    "chg": -9.4,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": -1.9,
-  "cyc_avg": 0.5
+  "def_avg": -2.3,
+  "cyc_avg": -1.0
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.96",
-    "note": "son 1 ay +%5.9",
+    "value": "%5.00",
+    "note": "son 1 ay +%8.0",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+1.03 puan",
+    "value": "+1.04 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "99.6",
-    "note": "son 1 ay -%0.3",
+    "value": "99.7",
+    "note": "son 1 ay -%0.0",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$393",
-    "note": "son 1 ay +%5.7",
+    "value": "$394",
+    "note": "son 1 ay +%5.3",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$103.6",
-    "note": "son 1 ay +%36.7",
+    "value": "$103.9",
+    "note": "son 1 ay +%38.1",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%0.4",
+    "value": "-%0.9",
     "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
     "tone": "amber"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend genel olarak yukarı ve taban geniş; ancak petrol kaynaklı enflasyon baskısı, yükselen faizler ve kredi piyasasındaki zayıflık konforlu bir zemin olmadığını hatırlatıyor.",
-  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde seyrediyor ve sektörlerin yüzde yetmiş üçü bu çizginin üstünde kaldığı için yükseliş tabanı görece sağlam. Eşit ağırlıklı endeksin cap ağırlıklıyı geçmesi, hareketin yalnızca büyük şirketlerin sırtında taşınmadığına işaret ediyor. Öte yandan WTI petrolün tek ayda yüzde otuz yedi artması ve on yıllık ABD tahvil faizinin yüzde beşe yaklaşması maliyet ve iskonto hesaplarını zorlaştırıyor; Gayrimenkul ile Kamu Hizmetleri'nin belirgin geri kalması bu baskının yüksek değerlemeye duyarlı sektörlere nasıl yansıdığını gösteriyor. Yüksek getirili tahvil fiyatlarının hafifçe de olsa geri çekilmesi, kredi piyasasının henüz alarm vermediğini ama iştahın kenarında gerilim oluştuğunu ima ediyor; bu, tablo bütünüyle risk-açık görünse de zeminin türdeş olmadığını ortaya koyuyor.",
+  "headline": "Trend genel olarak yukarı ve breadth sağlıklı, ancak petrolün sert yükselişi, %5 faiz seviyesi ve kredi piyasasındaki kırılganlık temkinli bir arka plan oluşturuyor.",
+  "read": "Üç ana endeks de 200 günlük ortalamanın üzerinde seyretmekte ve sektörlerin yüzde yetmişüçü bu çizginin üstünde yer almaktadır; bu durum tabanda görece sağlıklı bir katılımın sürdüğüne işaret ediyor. Öte yandan Nasdaq ve Russell zirveden belirgin biçimde gerilemiş, küçük ve büyüme ağırlıklı şirketler baskı altında; bu da rüzgârın artık eşit esmediğini gösteriyor. On yıllık faizin son bir ayda yüzde beşe yükselmesi ve petrolün yüzde otuz sekizi aşan artışı maliyet ve iskonto oranı cephesinde ciddi bir ağırlık yaratmakta; yüksek getirili tahvil piyasasındaki zayıflık ise kredi kanalından gelen bir temkin sinyali olarak okunmalı. Sonuç itibarıyla rejim teknik olarak risk-açık görünse de makro zemin —yüksek faiz, pahalı enerji, kredi sıkışması— uzun vadeli yatırımcının maruziyetini gözden geçirmesini haklı kılan bir gerilim tablosu sunuyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin yüzde beş eşiğini kalıcı olarak aşıp aşmadığı — bu seviye tarihsel olarak hisse senedi değerleme baskısını hızlandırabilen psikolojik bir eşik.",
-   "HYG (yüksek getirili tahvil ETF) hareketleri — kredi iştahının daha fazla bozulması, risk alma kapasitesinin daralabileceğinin erken sinyali olabilir.",
-   "Petrol fiyatının bu seviyelerde tutunup tutunmadığı ve buna paralel olarak enflasyon beklentilerindeki değişim — emtia fiyatları Fed söylemini ve uzun vadeli faiz beklentilerini doğrudan etkileyebilir."
+   "10 yıllık ABD Hazine faizinin %5 seviyesinde tutunup tutunmadığı ya da daha da yukarı kırıp kırmadığı — bu seviye hisse değerlemeleri için kritik bir eşik niteliği taşıyor",
+   "Yüksek getirili tahvil fiyatlarının (HYG) istikrar kazanıp kazanmadığı — kredi iştahının daha da bozulması risk iştahını hızla daraltabilir",
+   "Petrol fiyatlarının bu yüksek seviyelerde kalıcı olup olmadığı — enerji maliyetlerinin sürmesi hem enflasyon beklentilerini hem de Fed politikası algısını yeniden şekillendirebilir"
   ],
   "concept": {
-   "title": "Kredi Spreadi ve Hisse Senedi Uyumu",
-   "body": "Kredi spreadleri (yüksek getirili tahvillerle devlet tahvilleri arasındaki fark) şirketlerin borçlanma riskine piyasanın biçtiği bedeli yansıtır; spreadler genişlediğinde hisse senedi piyasaları tarihsel olarak daha kırılgan bir zemine girer. Bugün HYG'deki küçük zayıflama tek başına alarm işareti değildir, ancak trend ve breadth güçlü görünürken kredi tarafının ayrışmaya başlaması, iki piyasanın henüz 'aynı hikâyeyi' anlatmadığını gösterir ve bu uyumsuzluk izlenmeye değer bir sinyal olarak kalır."
+   "title": "Stagflasyon Riski Primi",
+   "body": "Stagflasyon, yüksek enflasyon ile zayıf büyümenin eş zamanlı yaşandığı bir ekonomik rejimi tanımlar ve bu ortamda geleneksel portföy dengeleme araçları (hisse-tahvil) her ikisi de aynı anda baskı altına girebilir. Yükselen petrol ile yüksek faizin birlikte seyrettiği mevcut tabloda piyasaların bu riski fiyatlayıp fiyatlamadığı, varlık sınıfları arasındaki korelasyon değişikliklerinden okunabilir."
   }
  }
 }
