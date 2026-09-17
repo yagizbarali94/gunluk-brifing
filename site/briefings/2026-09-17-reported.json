@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-17",
+ "slot": "reported",
+ "generated_at": "2026-09-17T10:29:33+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 2166493937664
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 417.72,
+  "change_pct": -0.81
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-16",
+  "next_date": "2026-10-15",
+  "last_label": "16 Temmuz",
+  "next_label": "15 Ekim",
+  "days_to_next": 28,
+  "progress_pct": 69
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.27T",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.31",
+   "sub": "Beat · beklenti $3.89",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.7",
+   "sub": "+1.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$275.0B",
+   "sub": "marj %22",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 16 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.27T",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       933.79,
+       989.92,
+       1046.09,
+       1134.1,
+       1270.38
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$706.6B",
+      "note": "+%77 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       42.7,
+       45.7,
+       46.4,
+       50.5,
+       55.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.31",
+      "note": "beklenti $3.89 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.7",
+      "note": "+1.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       58.6,
+       59.5,
+       62.3,
+       66.2,
+       67.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%60.3",
+      "note": "+10.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       49.6,
+       50.6,
+       54.0,
+       58.1,
+       60.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%29.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%40.0",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%19.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.51×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$275.0B",
+      "note": "marj %22",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.07T",
+      "note": "nakit $3.13T · borç $1.06T",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "31.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "19.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.4×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "4.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "1.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    933.8,
+    989.9,
+    1046.1,
+    1134.1,
+    1270.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    58.6,
+    59.5,
+    62.3,
+    66.2,
+    67.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "TSMC yöneticisi yapay zekayı 'güçlere sahip bir yürümeye yeni başlayan çocuk' olarak nitelendirerek AI talebinin erken aşamada olduğuna dikkat çekti.",
+   "source": "benzinga",
+   "published": "2026-09-16",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61811209/taiwan-semiconductor-executive-calls-ai-toddler-with-superpowers",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Elon Musk, Tayvan'ın AI zincirindeki en zayıf halka olduğunu öne sürdü; bu açıklama TSMC'nin jeopolitik riskini yeniden gündeme taşıdı.",
+   "source": "benzinga",
+   "published": "2026-09-15",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/09/61804104/elon-musk-flags-taiwan-as-ais-weak-link-these-semiconductor-etfs-could-offer-a-hedge",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Meta, yapay zeka maliyetlerini düşürmek için kendi özel silikon geliştirme stratejisini hızlandırıyor; bu gelişme müşteri çeşitlendirmesine hem olumlu hem tehdit içeriyor.",
+   "source": "benzinga",
+   "published": "2026-09-15",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61799604/meta-looks-to-slash-its-ai-bill-with-homegrown-silicon",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "ASML, 110'dan fazla EUV makinesi sevkiyatı hedeflediğini açıkladı; JPMorgan ise AI talebinin güçlü kalmaya devam ettiğini vurguladı — bu durum TSMC'nin N2/A16 kapasitesi için olumlu.",
+   "source": "benzinga",
+   "published": "2026-09-14",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61775072/asml-euv-2028-ai-demand",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "TSMC, dünyanın en büyük sözleşmeli çip üreticisidir; Apple, Nvidia, AMD gibi fabrikasız çip tasarımcılarının tasarımlarını kendi gelişmiş üretim tesislerinde üretir. Gelirini üretim hizmeti karşılığında aldığı işlem ücretlerinden elde eder, ölçek ve teknoloji liderliği iş modelinin çekirdeğidir.",
+  "note": "TSMC'nin ekonomik hendeği son derece derin: 2nm ve altındaki süreç teknolojilerinde tek gerçek rakip konumunu korurken, yapay zeka hızlandırıcı talebi (CoWoS, N3/N2) hem hacmi hem fiyatlamayı yukarı çekiyor. Sekiz çeyrek üst üste beklenti aşımı ve marjların %67-68 bandına yerleşmesi, fiyatlama gücünün yapısal olduğunu doğruluyor; AI capex döngüsü 3-5 yıllık talep görünürlüğü sağlıyor. Bununla birlikte, FCF/net kâr oranının 0.51× gibi düşük seyretmesi — yoğun sermaye yatırımı döneminin bir yansıması — yatırımcıların dikkat etmesi gereken bir sinyaldir.",
+  "counter": "Tayvan'a yönelik jeopolitik risk (Çin gerilimi, üretim coğrafi yoğunluğu) hâlâ varoluşsal düzeyde bir risk olmayı sürdürüyor; Arizona/Japonya fab çeşitlendirmesi maliyet artırıcı ve geç tamamlanacak. Meta ve diğer hyperscaler'ların kendi silikon tasarımlarına yönelmesi orta vadede müşteri konsantrasyon riskini azaltabilir, ancak hacmi aşındırabilir.",
+  "watch": [
+   "CoWoS ve N2/A16 kapasitesinin doluluk oranı ile ASP (ortalama satış fiyatı) trendi — AI talebi yumuşarsa ilk görünen gösterge bu olacak",
+   "Arizona/Japonya fab'larının devreye giriş takvimi ve birim maliyete etkisi — jeopolitik riske karşı çeşitlendirme ilerlemesi ve marj seyreltme riski"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 933→1270 milyar TWD eğrisiyle güçlü ivmelenme sürerken yıllık %36 büyüme, AI çip talebinin sektörün genelinden belirgin biçimde ayrıştığını gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %67.7, faaliyet marjı %60.3 ile sektör ortalamasının çok üzerinde; ROIC %29.4 ve ROE %40.0, yüksek sermaye yoğunluğuna rağmen olağanüstü verimlilik sergiliyor — ancak brüt/faaliyet marjı trendinin 'ivme: down' olarak işaretlenmesi, tepe marjlara yaklaşıldığının erken sinyali olabilir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr 0.51× ile kârın yarısından fazlası nakde dönüşemiyor; bu, agresif fab yatırımlarının geçici baskısını yansıtsa da nakit kalitesi izlenmeye değer; hisse seyrelmesi %0 olumlu bir veri."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "Net nakit 2.07 trilyon TWD ile güçlü bir bilanço tampon bölgesi oluşturuyor; bu durum hem büyük sermaye harcamalarını hem olası jeopolitik belirsizlikleri karşılama kapasitesi sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 19.1 ve Fiyat/FCF 1.9× — %36 büyüme, %67+ brüt marj ve ROIC %29 kombinasyonu göz önüne alındığında çarpanlar görece mütevazı kalıyor ve marj-of-safety sunuyor."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (FCF Conversion)",
+   "body": "FCF dönüşüm oranı, net kârın ne kadarının gerçek serbest nakde çevrildiğini ölçer; yüksek sermaye yoğunluklu şirketlerde kâr makyajını ayıklamanın kritik aracıdır. TSMC'de bu oran 0.51× — görünürde rekor kâr açıklanırken şirketin yoğun fab yatırımları nedeniyle nakdin yarısını capex'e gömduğunu, dolayısıyla hissedar için 'gerçek' para üretiminin muhasebe kârından önemli ölçüde geride kaldığını gösterir."
+  }
+ }
+}
