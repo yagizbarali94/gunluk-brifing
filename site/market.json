@@ -1,6 +1,6 @@
 {
- "date": "2026-09-17",
- "generated_at": "2026-09-17T10:29:39+00:00",
+ "date": "2026-09-18",
+ "generated_at": "2026-09-18T10:05:25+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7551.81,
-    "chg_1d": -0.45,
-    "above_50": false,
+    "last": 7637.76,
+    "chg_1d": 1.14,
+    "above_50": true,
     "above_200": true,
-    "from_high": -3.2,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -2.1,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 28945.06,
-    "chg_1d": 0.02,
-    "above_50": false,
+    "last": 29446.98,
+    "chg_1d": 1.73,
+    "above_50": true,
     "above_200": true,
-    "from_high": -5.6,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "from_high": -4.0,
+    "state": "yükseliş trendi",
+    "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2858.81,
-    "chg_1d": -0.4,
+    "last": 2874.63,
+    "chg_1d": 0.55,
     "above_50": false,
     "above_200": true,
-    "from_high": -6.8,
+    "from_high": -6.3,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,16 +47,16 @@
   "total": 3
  },
  "fear": {
-  "vix": 16.0,
-  "vix3m": 19.73,
+  "vix": 15.35,
+  "vix3m": 18.55,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -10.3
+  "vix_chg_5d": -3.1
  },
  "breadth": {
   "rsp_3m": 2.0,
-  "spy_3m": 2.0,
+  "spy_3m": 2.1,
   "spread": -0.1,
   "pct_sectors_above_200": 64,
   "verdict": "geniş — yükseliş tabana yayılmış",
@@ -67,111 +67,111 @@
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 11.7,
+    "chg": 10.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 2.2,
+    "chg": 2.7,
     "group": "defansif"
-   },
-   {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": 1.9,
-    "group": "döngüsel"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": -1.1,
+    "chg": 1.5,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": 1.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": -2.3,
+    "chg": -1.9,
     "group": "defansif"
-   },
-   {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": -3.6,
-    "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": -4.3,
+    "chg": -2.8,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": -5.3,
-    "group": "defansif"
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": -3.3,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -5.4,
+    "chg": -3.9,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": -4.2,
     "group": "defansif"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": -7.1,
+    "chg": -5.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -9.5,
+    "chg": -8.5,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "karışık — net liderlik yok",
   "tone": "gray",
-  "def_avg": -2.7,
-  "cyc_avg": -1.7
+  "def_avg": -1.8,
+  "cyc_avg": -1.0
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%5.01",
-    "note": "son 1 ay +%8.4",
+    "value": "%4.95",
+    "note": "son 1 ay +%5.9",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+1.04 puan",
+    "value": "+0.98 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.2",
-    "note": "son 1 ay +%0.2",
+    "value": "100.3",
+    "note": "son 1 ay +%0.7",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$392",
-    "note": "son 1 ay +%0.5",
+    "value": "$398",
+    "note": "son 1 ay +%2.2",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$101.2",
-    "note": "son 1 ay +%30.9",
+    "value": "$96.2",
+    "note": "son 1 ay +%23.1",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%0.8",
+    "value": "-%0.4",
     "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
     "tone": "amber"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend hâlâ yukarıda ancak petrol kaynaklı faiz baskısı ve kredi stresinin ilk sinyalleri rejimi karmaşıklaştırıyor",
-  "read": "Üç ana endeks 200 günlük ortalamanın üzerinde seyrediyor; bu yapısal açıdan sağlıklı bir zemin olmayı sürdürüyor. Bununla birlikte her üç endeks de zirvelerinden belirgin biçimde çekilmiş durumda ve küçük şirket hisselerinin (Russell 2000) büyüklerden daha fazla geri çekilmesi, risk iştahının kenarlardan daraldığına işaret ediyor. 10 yıllık faizin %5'i aşması ve petrolün aylık bazda %31 değer kazanması enflasyonist baskının yeniden gündemde olduğunu gösteriyor; bu kombinasyon değerleme çarpanları üzerinde ek bir ağırlık oluşturuyor. Yüksek getirili tahvil (HYG) cephesinde beliren zayıflık henüz alarm düzeyinde değil, fakat kredi piyasasının hisse senedi piyasasından daha temkinli bir sinyal verdiğini not etmek gerekiyor.",
+  "headline": "Trend genel olarak yukarı ancak yükselen faizler, petrol baskısı ve kredi piyasasındaki temkinlilik mevcut koşullara ihtiyatla yaklaşmayı gerektiriyor",
+  "read": "Üç ana endeksin tamamı 200 günlük ortalamanın üzerinde seyretmesi teknik açıdan yapının bozulmadığını gösterse de Russell 2000'in zirveden %6'yı aşan geri çekilmesi küçük şirketler özelinde zayıflamaya işaret ediyor. Breadth göstergesi şimdilik sağlıklı; eşit ağırlıklı ile piyasa değeri ağırlıklı endeks arasındaki farkın neredeyse sıfır olması yükselişin dar bir grup hisseye değil, tabana yayılmış olduğunu ortaya koyuyor. Öte yandan 10 yıllık faizin tek ayda yaklaşık %5,9 artarak %4,95'e ulaşması ve buna eşlik eden petrol fiyatlarının %23'lük sert yükselişi, hem tüketici hem de şirket maliyetleri üzerinde gerçek bir baskı oluşturmakta. Yüksek getirili tahvil fonundaki zayıflık ise risk iştahının yüzeyin hemen altında ne kadar kırılgan olabileceğini hatırlatıyor; sektörel tablo da net bir liderlik olmaksızın karışık seyrediyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5 üzerinde kalıcı hale gelip gelmediği — faizin yerleşmesi hisse değerlemelerini doğrudan etkiler",
-   "HYG ve kredi spreadlerinin genişleyip genişlemediği — kredi stresinin derinleşmesi risk iştahında daha geniş çaplı bir geri çekilmeye öncülük edebilir",
-   "Petrol fiyatının momentum kazanmaya devam edip etmeyeceği ve bunun enflasyon beklentilerine nasıl yansıdığı — enerji liderliğinin sürüp sürmeyeceğini belirleyen kritik değişken"
+   "10 yıllık ABD Hazine faizinin %5,0 eşiğini kalıcı olarak aşıp aşmadığı — bu seviye hisse değerlemelerinde yeniden fiyatlama baskısı yaratabilir",
+   "HYG (yüksek getirili tahvil) hareketleri — kredi spreadlerindeki genişleme risk iştahının daha hızlı bozulduğuna erken sinyal verir",
+   "Sanayi sektörünün toparlanıp toparlanamayacağı — zirveden %8,5 gerileyen bu sektör, döngüsel iyimserliğin gerçek sınavı niteliğinde"
   ],
   "concept": {
-   "title": "Faiz-Değerleme Kıskacı (Rate-Valuation Squeeze)",
-   "body": "Uzun vadeli faizler yükseldiğinde, gelecekteki kârları bugüne iskonto etmek için kullanılan oran artar ve bu durum özellikle büyüme hisselerinin teorik değerini aşağı çeker. %5 üzerindeki 10 yıllık faiz, yatırımcıların 'risksiz' getiriyle hisse senedi getirisi arasındaki farkı (equity risk premium) yeniden sorgulamasına yol açar ve genellikle yüksek çarpanlı sektörlerde daha belirgin bir baskı yaratır."
+   "title": "Petrol-Faiz-Kredi Üçgeni (Makro Kırılganlık Testi)",
+   "body": "Enerji fiyatlarının hızlı yükselişi hem enflasyon beklentilerini hem de faizleri yukarı çekebilir; artan borçlanma maliyeti ise özellikle yüksek kaldıraçlı şirketlerin kredi riskini büyütür. Bu üç etken aynı anda ve aynı yönde hareket ettiğinde piyasanın yüzey görüntüsü sakin kalsa bile alt yapıda kırılganlık birikebilir."
   }
  }
 }
