@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-19",
+ "slot": "upcoming",
+ "generated_at": "2026-09-19T09:45:04+00:00",
+ "mock": false,
+ "ticker": "QCOM",
+ "company": {
+  "name": "QUALCOMM Incorporated",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 189815717888
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.8 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 177.72,
+  "change_pct": -5.5
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-29",
+  "last_label": "29 Temmuz",
+  "next_label": "29 Ekim",
+  "days_to_next": 40,
+  "progress_pct": 57
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$9.9B",
+   "sub": "-%4 y/y",
+   "tone": "neg"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.21",
+   "sub": "Miss · beklenti $2.22",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.1",
+   "sub": "-0.7 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$495M",
+   "sub": "marj %5",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$9.9B",
+      "note": "-%4 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       10.37,
+       11.27,
+       12.25,
+       10.6,
+       9.95
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.0B",
+      "note": "-%25 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       25.7,
+       -27.7,
+       24.5,
+       69.5,
+       20.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.21",
+      "note": "beklenti $2.22 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.1",
+      "note": "-0.7 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       55.6,
+       55.3,
+       54.6,
+       53.8,
+       53.1
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%16.3",
+      "note": "-10.3 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       26.6,
+       26.2,
+       27.5,
+       21.8,
+       16.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%22.5",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%33.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%11.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.12×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%2.7 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "20",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$495M",
+      "note": "marj %5",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-10.7B",
+      "note": "nakit $4.5B · borç $15.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "21.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "17.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "4.4×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "16.1×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "18.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    10.4,
+    11.3,
+    12.3,
+    10.6,
+    9.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    55.6,
+    55.3,
+    54.6,
+    53.8,
+    53.1
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "MediaTek, üst segment akıllı telefon çip pazarında Qualcomm'a doğrudan rakip olacak yeni nesil bir işlemci tanıttı.",
+   "source": "benzinga",
+   "published": "2026-09-15",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61784865/mediatek-cranks-up-pressure-on-qualcomm-with-cutting-edge-smartphone-chip",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "10 yıllık ABD tahvil faizi %5'i aştı, petrol 105 doları geçti; yüksek faiz ortamı borçlu ve değerleme baskısı altındaki teknoloji hisseleri için olumsuz.",
+   "source": "benzinga",
+   "published": "2026-09-15",
+   "url": "https://www.benzinga.com/markets/market-summary/26/09/61799304/10-year-treasury-yield-tops-5-percent-oil-105-fed-hike-markets-tuesday",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Bir fon yöneticisi OpenAI ve Anthropic'in yavaşlama çağrısına rağmen yapay zeka altyapı harcamalarının durmayacağını savundu; Qualcomm'un AI çip talebine potansiyel olumlu etki.",
+   "source": "benzinga",
+   "published": "2026-09-16",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61808976/openai-anthropic-slowdown-call-wont-derail-ai-infrastructure-demand-why-one-fund-manager-sees-no-spending-pause-in-sight",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bitcoin 80.000 doları aştı ancak S&P 500 yükselen faizler nedeniyle geriledi; genel risk iştahı baskı altında.",
+   "source": "benzinga",
+   "published": "2026-09-18",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61875543/bitcoin-tops-80000-crypto-stocks-soar-yields-reclaim-5-percent-markets-friday",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Qualcomm, akıllı telefonlar başta olmak üzere otomotiv, IoT ve PC segmentlerine yönelik kablosuz iletişim çipleri (Snapdragon serisi) ve modem tasarlar; gelirinin büyük bölümünü çip satışları (QCT) ve lisans bedelleri (QTL) oluşturur. Başlıca müşterileri Samsung, Xiaomi ve Apple gibi küresel OEM'lerdir.",
+  "note": "Qualcomm'un lisans (QTL) temelli gelir modeli güçlü bir hendek sağlasa da bu çeyrekteki gelir daralması (%−4 y/y) ve faaliyet marjındaki sert düşüş (%27.5'ten %16.3'e) baskının yapısal mı yoksa döngüsel mi olduğunu sorgulatıyor. Otomotiv ve PC çeşitlendirmesi uzun vadeli tezi destekliyor; ancak bu geçişin hızı ve Apple'ın modem bağımsızlaşma riski 3-5 yıllık kazanç görünürlüğünü sınırlayan en kritik değişken olmaya devam ediyor. MediaTek'in artan rekabeti ve brüt marjdaki kademeli erozyon (%55.6'dan %53.1'e) fiyatlama gücünün test edildiğine işaret ediyor.",
+  "counter": "Apple'ın kendi modem çipini hayata geçirmesi, Qualcomm'un gelirinin önemli bir bölümünü oluşturan hem çip satışları hem de lisans gelirlerini kalıcı olarak zedeleyebilir. MediaTek'in üst segment yarışması bu riski kuvvetlendiriyor.",
+  "watch": [
+   "Apple modem geçişinin takvimi ve Qualcomm QTL/QCT gelir kaybı büyüklüğü",
+   "Otomotiv ve PC segmentlerinin toplam gelir içindeki payının artış hızı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "zayif",
+    "yorum": "Gelir 12.2 milyar dolar zirvesinden 9.9 milyar dolara geriledi; y/y bazda %−4 ile trend belirgin biçimde yavaşlıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt marj trendi 'up' notuna karşın mutlak seviye gerilemiş; faaliyet marjı %16.3 ile son dönemin en düşüğünde, buna rağmen ROIC %22.5 ile sermaye verimliliği makul düzeyde seyrediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr 1.12× ile kâr nakit karşılıklıdır ve %−2.7 geri alım temelli hisse azalması hissedar değerini destekliyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç 10.7 milyar dolar negatif; FCF marjının yalnızca %5 olduğu bu dönemde borç yükü bilanço esnekliğini kısıtlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 17.4 ve Fiyat/FCF 18.2, yavaşlayan büyüme ve Rule of 40 skoru 20 göz önünde bulundurulduğunda ne ucuz ne de pahalı; %5.8'lik düşüş sonrası sınırda makul dengeyi temsil ediyor."
+   }
+  ],
+  "concept": {
+   "title": "Lisans Geliri (Royalty) Hendeki",
+   "body": "Bir şirketin ürün satmasa bile patent portföyü üzerinden rakiplerinden ve müşterilerinden sürekli gelir elde etmesi, zaman içinde birikmiş fikri mülkiyet avantajından kaynaklanan güçlü bir hendektir. Qualcomm, akıllı telefon temel patentleri sayesinde rakipleri dahil pek çok üreticiden lisans bedeli tahsil ederek marj erozyonuna karşı bir tampon oluşturmuştur; ancak bu modelin sürdürülebilirliği düzenleyici baskı ve Apple gibi kendi çözümlerine yönelen müşterilerle sınanmaktadır."
+  }
+ }
+}

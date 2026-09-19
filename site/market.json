@@ -1,6 +1,6 @@
 {
- "date": "2026-09-18",
- "generated_at": "2026-09-18T10:05:25+00:00",
+ "date": "2026-09-19",
+ "generated_at": "2026-09-19T09:45:51+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7637.76,
-    "chg_1d": 1.14,
+    "last": 7650.5,
+    "chg_1d": 0.17,
     "above_50": true,
     "above_200": true,
-    "from_high": -2.1,
+    "from_high": -1.9,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 29446.98,
-    "chg_1d": 1.73,
+    "last": 29644.17,
+    "chg_1d": 0.67,
     "above_50": true,
     "above_200": true,
-    "from_high": -4.0,
+    "from_high": -3.3,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2874.63,
-    "chg_1d": 0.55,
+    "last": 2860.4,
+    "chg_1d": -0.5,
     "above_50": false,
     "above_200": true,
-    "from_high": -6.3,
+    "from_high": -6.8,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,131 +47,131 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.35,
-  "vix3m": 18.55,
-  "zone": "normal",
+  "vix": 14.81,
+  "vix3m": 18.24,
+  "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -3.1
+  "vix_chg_5d": -6.5
  },
  "breadth": {
-  "rsp_3m": 2.0,
-  "spy_3m": 2.1,
-  "spread": -0.1,
-  "pct_sectors_above_200": 64,
-  "verdict": "geniş — yükseliş tabana yayılmış",
-  "tone": "green"
+  "rsp_3m": 1.3,
+  "spy_3m": 2.6,
+  "spread": -1.3,
+  "pct_sectors_above_200": 36,
+  "verdict": "orta — birkaç dev öne çıkıyor",
+  "tone": "gray"
  },
  "sectors": {
   "rows": [
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 10.9,
+    "chg": 11.8,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 2.7,
+    "chg": 1.6,
     "group": "defansif"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": 1.5,
+    "chg": 0.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": 1.1,
+    "chg": -0.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": -1.9,
+    "chg": -2.7,
     "group": "defansif"
-   },
-   {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": -2.8,
-    "group": "döngüsel"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": -3.3,
+    "chg": -3.0,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLU",
-    "name": "Kamu hizmetleri",
-    "chg": -3.9,
-    "group": "defansif"
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": -5.4,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -4.2,
+    "chg": -5.4,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLU",
+    "name": "Kamu hizmetleri",
+    "chg": -5.8,
     "group": "defansif"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": -5.7,
+    "chg": -7.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -8.5,
+    "chg": -8.3,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
-  "tilt": "karışık — net liderlik yok",
-  "tone": "gray",
-  "def_avg": -1.8,
-  "cyc_avg": -1.0
+  "tilt": "risk-açık — döngüseller önde",
+  "tone": "green",
+  "def_avg": -3.1,
+  "cyc_avg": -1.7
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.95",
-    "note": "son 1 ay +%5.9",
+    "value": "%5.00",
+    "note": "son 1 ay +%7.3",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.98 puan",
+    "value": "+1.02 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.3",
-    "note": "son 1 ay +%0.7",
+    "value": "100.2",
+    "note": "son 1 ay +%0.6",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$398",
-    "note": "son 1 ay +%2.2",
+    "value": "$401",
+    "note": "son 1 ay +%0.7",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$96.2",
-    "note": "son 1 ay +%23.1",
+    "value": "$100.3",
+    "note": "son 1 ay +%28.3",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%0.4",
+    "value": "-%0.8",
     "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
     "tone": "amber"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend genel olarak yukarı ancak yükselen faizler, petrol baskısı ve kredi piyasasındaki temkinlilik mevcut koşullara ihtiyatla yaklaşmayı gerektiriyor",
-  "read": "Üç ana endeksin tamamı 200 günlük ortalamanın üzerinde seyretmesi teknik açıdan yapının bozulmadığını gösterse de Russell 2000'in zirveden %6'yı aşan geri çekilmesi küçük şirketler özelinde zayıflamaya işaret ediyor. Breadth göstergesi şimdilik sağlıklı; eşit ağırlıklı ile piyasa değeri ağırlıklı endeks arasındaki farkın neredeyse sıfır olması yükselişin dar bir grup hisseye değil, tabana yayılmış olduğunu ortaya koyuyor. Öte yandan 10 yıllık faizin tek ayda yaklaşık %5,9 artarak %4,95'e ulaşması ve buna eşlik eden petrol fiyatlarının %23'lük sert yükselişi, hem tüketici hem de şirket maliyetleri üzerinde gerçek bir baskı oluşturmakta. Yüksek getirili tahvil fonundaki zayıflık ise risk iştahının yüzeyin hemen altında ne kadar kırılgan olabileceğini hatırlatıyor; sektörel tablo da net bir liderlik olmaksızın karışık seyrediyor.",
+  "headline": "Büyük endeksler trend üstünde ve volatilite sakin, ancak petrolün sert yükselişi, %5 faiz seviyesi ve daralan breadth zeminde gerginliği artırıyor.",
+  "read": "Yüzey görüntüsü görece sakin: üç ana endeks 200 günlük ortalamanın üstünde, VIX 15 altında ve getiri eğrisi pozitif eğimli. Ancak altını kazıdığında tablo daha karmaşık: sektörlerin yalnızca %36'sı 200 günlük ortalamanın üstünde, Russell 2000 zirveden yaklaşık %7 geride ve eşit ağırlıklı endeks cap ağırlıklının gerisinde kalıyor; yani yükseliş birkaç büyük isim üzerinde taşınıyor. Petrolün tek ayda %28 artması hem enflasyon beklentilerini hem de merkez bankası duruşuna ilişkin belirsizliği beslerken, 10 yıllık faizin %5'e yaklaşması hisse değerlemeleri için iskonto oranı baskısı yaratıyor. Yüksek getirili tahvil tarafında HYG'nin zayıf seyri, kredi piyasasının henüz tam anlamıyla rahatlamamış olduğuna işaret eden küçük ama dikkat edilmesi gereken bir sinyal.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5,0 eşiğini kalıcı olarak aşıp aşmadığı — bu seviye hisse değerlemelerinde yeniden fiyatlama baskısı yaratabilir",
-   "HYG (yüksek getirili tahvil) hareketleri — kredi spreadlerindeki genişleme risk iştahının daha hızlı bozulduğuna erken sinyal verir",
-   "Sanayi sektörünün toparlanıp toparlanamayacağı — zirveden %8,5 gerileyen bu sektör, döngüsel iyimserliğin gerçek sınavı niteliğinde"
+   "10 yıllık ABD Hazine faizinin %5 seviyesini kalıcı olarak aşıp aşmayacağı — bu eşik hisse-tahvil rekabeti açısından sembolik bir dönüm noktası",
+   "Russell 2000 ile S&P 500 arasındaki performans farkının kapanıp kapanmadığı — küçük şirketlerin toparlaması breadth sağlığının geri döndüğünün sinyali olur",
+   "HYG ve kredi spread hareketleri — petrol şokunun şirket bilançolarına yansıyıp yansımadığını erken okumanın en pratik yolu"
   ],
   "concept": {
-   "title": "Petrol-Faiz-Kredi Üçgeni (Makro Kırılganlık Testi)",
-   "body": "Enerji fiyatlarının hızlı yükselişi hem enflasyon beklentilerini hem de faizleri yukarı çekebilir; artan borçlanma maliyeti ise özellikle yüksek kaldıraçlı şirketlerin kredi riskini büyütür. Bu üç etken aynı anda ve aynı yönde hareket ettiğinde piyasanın yüzey görüntüsü sakin kalsa bile alt yapıda kırılganlık birikebilir."
+   "title": "Breadth Daralması (Narrow Leadership)",
+   "body": "Piyasa endeksinin yükselmesi, içindeki hisselerin çoğunun yükseldiği anlamına gelmez; az sayıda büyük piyasa değerli şirket endeksi taşırken geri kalanlar geride kalabilir. Bu durum 'dar liderlik' olarak adlandırılır ve rallinin ne kadar geniş tabanlı — dolayısıyla ne kadar sağlıklı — olduğunu sorgulatır."
   }
  }
 }
