@@ -1,6 +1,6 @@
 {
- "date": "2026-09-19",
- "generated_at": "2026-09-19T09:45:51+00:00",
+ "date": "2026-09-20",
+ "generated_at": "2026-09-20T10:09:38+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$100.3",
-    "note": "son 1 ay +%28.3",
+    "value": "$96.1",
+    "note": "son 1 ay +%22.9",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Büyük endeksler trend üstünde ve volatilite sakin, ancak petrolün sert yükselişi, %5 faiz seviyesi ve daralan breadth zeminde gerginliği artırıyor.",
-  "read": "Yüzey görüntüsü görece sakin: üç ana endeks 200 günlük ortalamanın üstünde, VIX 15 altında ve getiri eğrisi pozitif eğimli. Ancak altını kazıdığında tablo daha karmaşık: sektörlerin yalnızca %36'sı 200 günlük ortalamanın üstünde, Russell 2000 zirveden yaklaşık %7 geride ve eşit ağırlıklı endeks cap ağırlıklının gerisinde kalıyor; yani yükseliş birkaç büyük isim üzerinde taşınıyor. Petrolün tek ayda %28 artması hem enflasyon beklentilerini hem de merkez bankası duruşuna ilişkin belirsizliği beslerken, 10 yıllık faizin %5'e yaklaşması hisse değerlemeleri için iskonto oranı baskısı yaratıyor. Yüksek getirili tahvil tarafında HYG'nin zayıf seyri, kredi piyasasının henüz tam anlamıyla rahatlamamış olduğuna işaret eden küçük ama dikkat edilmesi gereken bir sinyal.",
+  "headline": "Büyük endeksler trend içinde ama petrol şoku, yüksek faiz ve daralan breadth zemini karmaşıklaştırıyor",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyretmekte; VIX 15 altında ve vade yapısı contango'da olduğundan kısa vadeli panik sinyali yok. Ancak sektörlerin yalnızca yüzde 36'sı 200 gün üzerinde ve eşit ağırlıklı endeks cap-ağırlıklıya göre geride kalıyor; bu durum ralliyi taşıyan lokomotifin dar bir kalabalıktan ibaret olduğuna işaret ediyor. Russell 2000'in zirveden yüzde 6.8 geri çekilmesi ve sanayi ile tüketici döngüsellerinin belirgin baskı altında olması breadth'in ikna edici olmadığını gösteriyor. Öte yandan petrolün tek ayda yüzde 23 yükselmesi ve 10 yıllık faizin yüzde 5'e dayanması, hem tüketici hem şirket bilançoları için ek maliyet baskısı oluşturuyor; yüksek getirili tahvil tarafındaki zayıflık da kredi ortamının bu faiz seviyesine tepkisini izlemeyi zorunlu kılıyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5 seviyesini kalıcı olarak aşıp aşmayacağı — bu eşik hisse-tahvil rekabeti açısından sembolik bir dönüm noktası",
-   "Russell 2000 ile S&P 500 arasındaki performans farkının kapanıp kapanmadığı — küçük şirketlerin toparlaması breadth sağlığının geri döndüğünün sinyali olur",
-   "HYG ve kredi spread hareketleri — petrol şokunun şirket bilançolarına yansıyıp yansımadığını erken okumanın en pratik yolu"
+   "10 yıllık ABD Hazine faizinin yüzde 5 üzerinde tutunup tutunmadığı ve bunun hisse değerlemelerine yansıması",
+   "HYG ve kredi spreadlerinin genişleyip genişlemediği — yüksek getirili tahvillerdeki baskının sistematik bir strese dönüşüp dönüşmediği",
+   "Petrol fiyatının sürdürülebilirliği ve enerji dışı sektörlerin bu maliyet artışını absorbe edip edemeyeceği"
   ],
   "concept": {
-   "title": "Breadth Daralması (Narrow Leadership)",
-   "body": "Piyasa endeksinin yükselmesi, içindeki hisselerin çoğunun yükseldiği anlamına gelmez; az sayıda büyük piyasa değerli şirket endeksi taşırken geri kalanlar geride kalabilir. Bu durum 'dar liderlik' olarak adlandırılır ve rallinin ne kadar geniş tabanlı — dolayısıyla ne kadar sağlıklı — olduğunu sorgulatır."
+   "title": "Breadth Daralması (Narrow Market Leadership)",
+   "body": "Bir rallide az sayıda büyük şirket endeksi yukarı taşırken çoğunluk geride kalıyorsa 'dar liderlik' söz konusudur; bu durum güçlü görünen endeks performansının altında kırılgan bir taban bulunduğuna işaret eder. Sektörlerin yalnızca üçte birinin 200 gün ortalaması üzerinde seyretmesi ve eşit ağırlıklı endeksin cap-ağırlıklıya göre ayrışması, bugünkü tabloyu bu kavramın tipik örneği hâline getirmektedir."
   }
  }
 }
