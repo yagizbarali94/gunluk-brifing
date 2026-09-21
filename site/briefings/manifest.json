@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-09-21-upcoming",
+  "date": "2026-09-21",
+  "ticker": "QCOM",
+  "name": "QUALCOMM Incorporated",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-09-21-reported",
+  "date": "2026-09-21",
+  "ticker": "ANET",
+  "name": "Arista Networks, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-09-20-upcoming",
   "date": "2026-09-20",
   "ticker": "MU",

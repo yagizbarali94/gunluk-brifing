@@ -1,6 +1,6 @@
 {
- "date": "2026-09-20",
- "generated_at": "2026-09-20T10:09:38+00:00",
+ "date": "2026-09-21",
+ "generated_at": "2026-09-21T11:10:01+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -35,7 +35,7 @@
     "ticker": "^RUT",
     "name": "Russell 2000",
     "last": 2860.4,
-    "chg_1d": -0.5,
+    "chg_1d": -0.0,
     "above_50": false,
     "above_200": true,
     "from_high": -6.8,
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 14.81,
+  "vix": 14.89,
   "vix3m": 18.24,
   "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -6.5
+  "vix_chg_5d": -12.9
  },
  "breadth": {
   "rsp_3m": 1.3,
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.2",
-    "note": "son 1 ay +%0.6",
+    "value": "100.3",
+    "note": "son 1 ay +%0.5",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$96.1",
-    "note": "son 1 ay +%22.9",
+    "value": "$93.3",
+    "note": "son 1 ay +%13.6",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Büyük endeksler trend içinde ama petrol şoku, yüksek faiz ve daralan breadth zemini karmaşıklaştırıyor",
-  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyretmekte; VIX 15 altında ve vade yapısı contango'da olduğundan kısa vadeli panik sinyali yok. Ancak sektörlerin yalnızca yüzde 36'sı 200 gün üzerinde ve eşit ağırlıklı endeks cap-ağırlıklıya göre geride kalıyor; bu durum ralliyi taşıyan lokomotifin dar bir kalabalıktan ibaret olduğuna işaret ediyor. Russell 2000'in zirveden yüzde 6.8 geri çekilmesi ve sanayi ile tüketici döngüsellerinin belirgin baskı altında olması breadth'in ikna edici olmadığını gösteriyor. Öte yandan petrolün tek ayda yüzde 23 yükselmesi ve 10 yıllık faizin yüzde 5'e dayanması, hem tüketici hem şirket bilançoları için ek maliyet baskısı oluşturuyor; yüksek getirili tahvil tarafındaki zayıflık da kredi ortamının bu faiz seviyesine tepkisini izlemeyi zorunlu kılıyor.",
+  "headline": "Büyük endeksler trend üstünde ve volatilite düşük, ancak yükselen faizler, petrol şoku ve daralan breadth zemini karmaşıklaştırıyor",
+  "read": "S&P 500 ve Nasdaq 100 200 günlük ortalamalarının üzerinde seyrediyor; VIX 15 altında ve vadeli yapı contango'da olduğundan panik atmosferi yok. Ancak sektörlerin yalnızca %36'sı 200 günlük ortalamanın üzerinde: yüzeydeki sağlıklı görünümün altında katılım oldukça sınırlı. Eş ağırlıklı endeksin cap ağırlıklı endeksin gerisinde kalması, kazanımların birkaç büyük isim etrafında yoğunlaştığına işaret ediyor. 10 yıllık faizin %5 eşiğine dayanması ve petrolün bir ayda %13,6 artması, hem büyüme hem değerleme hesaplarına baskı yapan iki ayrı makro fay hattı oluşturuyor; kredi piyasasında HYG'nin zayıf seyri bu baskının tahvil cephesinde de hissedildiğini doğruluyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 5 üzerinde tutunup tutunmadığı ve bunun hisse değerlemelerine yansıması",
-   "HYG ve kredi spreadlerinin genişleyip genişlemediği — yüksek getirili tahvillerdeki baskının sistematik bir strese dönüşüp dönüşmediği",
-   "Petrol fiyatının sürdürülebilirliği ve enerji dışı sektörlerin bu maliyet artışını absorbe edip edemeyeceği"
+   "10 yıllık ABD Hazine faizinin %5 seviyesini kalıcı olarak kırıp kırmayacağı — bu eşiğin üzerinde tutunma hisse değerlemelerine ek sürtünme yaratır",
+   "HYG ve kredi spreadlerinin genişleyip genişlemediği — yüksek getirili tahvil zayıflığı hisse senetlerine öncü bir stres sinyali olarak çalışabilir",
+   "Russell 2000'in zirveden -%6,8 ile ayrışan performansının devam edip etmediği — küçük şirketlerin toparlanması ya da daha derin gerilemesi, breadth konusundaki tabloyu netleştirir"
   ],
   "concept": {
-   "title": "Breadth Daralması (Narrow Market Leadership)",
-   "body": "Bir rallide az sayıda büyük şirket endeksi yukarı taşırken çoğunluk geride kalıyorsa 'dar liderlik' söz konusudur; bu durum güçlü görünen endeks performansının altında kırılgan bir taban bulunduğuna işaret eder. Sektörlerin yalnızca üçte birinin 200 gün ortalaması üzerinde seyretmesi ve eşit ağırlıklı endeksin cap-ağırlıklıya göre ayrışması, bugünkü tabloyu bu kavramın tipik örneği hâline getirmektedir."
+   "title": "Breadth Daralması (Participation Narrowing)",
+   "body": "Piyasa geneli yükselirken katılımcı hisse sayısının azalması, rallinin geniş tabanlı bir alıcı kitlesi yerine birkaç büyük ağırlıklı hisse tarafından taşındığına işaret eder. Bu durum trend'in gücünü sorgulatmaz ama sürdürülebilirliği hakkında bağlam sunar; sağlıklı yükselişlerde genellikle sektörlerin ve hisselerin büyük çoğunluğu ortak yönde hareket eder."
   }
  }
 }
