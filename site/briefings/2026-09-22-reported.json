@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-22",
+ "slot": "reported",
+ "generated_at": "2026-09-22T10:23:39+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1888326254592
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %11.4 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 741.25,
+  "change_pct": 0.17
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 36,
+  "progress_pct": 60
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$60.8B",
+   "sub": "+%28 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$6.18",
+   "sub": "Miss · beklenti $7.22",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.4",
+   "sub": "-0.5 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.7B",
+   "sub": "marj %3",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$60.8B",
+      "note": "+%28 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       47.52,
+       51.24,
+       59.89,
+       56.31,
+       60.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$15.8B",
+      "note": "-%14 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       38.6,
+       5.3,
+       38.0,
+       47.5,
+       26.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$6.18",
+      "note": "beklenti $7.22 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.4",
+      "note": "-0.5 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       82.1,
+       82.0,
+       81.8,
+       81.9,
+       81.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%30.9",
+      "note": "-12.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       43.0,
+       40.1,
+       41.3,
+       40.6,
+       30.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%21.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%29.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.60×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "46",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.7B",
+      "note": "marj %3",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-96.9B",
+      "note": "nakit $15.5B · borç $112.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "27.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.4×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "46.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    47.5,
+    51.2,
+    59.9,
+    56.3,
+    60.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    82.1,
+    82.0,
+    81.8,
+    81.9,
+    81.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Zuckerberg, Meta'nın Shopify ile iş birliği yaparak AI destekli alışveriş asistanı Muse'u e-ticaret ödemelerine entegre ettiğini ve daha fazla ortaklığın geleceğini açıkladı.",
+   "source": "benzinga",
+   "published": "2026-09-22",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61911829/meta-shopify-ai-shopping-partnership-zuckerberg",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Amazon, Meta'nın Muse AI alışveriş asistanının kendi platformuna erişimini engelledi; bu gelişme e-ticaret AI entegrasyonunda büyük bir rekabet savaşının fitilini ateşliyor.",
+   "source": "benzinga",
+   "published": "2026-09-22",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61913428/amazon-blocks-metas-muse-ai-shopping-assistant-raising-stakes-in-battle-over-the-future-of-e-commerce-bigger-battle-than-anyone-anticipates",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Meta'nın Muse uygulaması uygulama mağazasında bir numaraya yükseldi ve bu başarı AMD'nin 1 trilyon dolar kulübe girişini de beraberinde getirdi.",
+   "source": "benzinga",
+   "published": "2026-09-21",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61908373/meta-muse-app-store-amd-stock-trillion-ai-agents",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Meta hissesi Muse AI ortaklık haberleri ve piyasadaki genel risk iştahı artışıyla birlikte bugün belirgin kazanç sağladı.",
+   "source": "benzinga",
+   "published": "2026-09-22",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61913313/why-is-meta-platforms-stock-gaining-monday",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işleterek dijital reklamcılıktan gelir elde eder. Ayrıca Reality Labs segmentiyle VR/AR donanım ve yazılımlarına yatırım yapar; son dönemde AI asistanları ve e-ticaret entegrasyonunu gelir modelinin yeni katmanı olarak konumlandırmaktadır.",
+  "note": "Meta'nın reklam ekosistemine dayalı çekirdek iş modeli hâlâ güçlü bir moat sunuyor; 3 milyarı aşan günlük aktif kullanıcı tabanı ve gelişen AI hedefleme altyapısı reklamveren bağımlılığını artırıyor. Ancak bu çeyrekte faaliyet marjının dramatik biçimde 30,9'a gerilemesi ve EPS'in beklentiyi belirgin şekilde ıskalalaması, yoğunlaşan AI/altyapı harcamalarının kısa-orta vadede kârlılığı baskılamaya devam edeceğine işaret ediyor. Muse AI'ın Shopify ortaklığıyla e-ticaret arayüzüne girmesi 5 yıllık büyüme hikâyesini desteklese de Amazon'un erişimi engellemesi bu geçişin rakipsel dirençle dolu olacağını gösteriyor.",
+  "counter": "Devam eden masif AI ve metaverse altyapı harcamaları marjları yapısal olarak aşağı çekebilir ve serbest nakit akışını baskı altında tutabilir; üstelik reklamcılık gelirinin ekonomik yavaşlamalara olan döngüsel duyarlılığı, değerleme çarpanlarını hızla bozabilecek ciddi bir kırılganlık olmaya devam ediyor.",
+  "watch": [
+   "AI altyapı harcamalarının (capex) faaliyet marjı üzerindeki etkisi ve marjın 35%+ bandına dönüp dönmeyeceği",
+   "Muse AI/Shopify ortaklığının reklam dışı gelire somut katkısı ve Amazon gibi platformların erişim engellerinin genişleyip genişlemeyeceği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Yıllık %28 gelir artışı ve son çeyrek $60,8B ile trend genel olarak yükseliş yönünde seyrediyor, bir önceki çeyreğe göre de toparlanma görülüyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjı bu çeyrekte 30,9'a sert gerilerken brüt marj da hafif aşındı; ROIC %21,8 tarihsel ortalamanın altına sürükleniyor ve masrafların geçici olmayabileceği endişesi artıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr çarpanının 0,60x ile zayıf kalması ve FCF marjının yalnızca %3 olması, muhasebe kârının nakit gerçekliğini tam yansıtmadığına işaret ediyor; hisse geri alımının seyreltmeyi hafifletmesi tek olumlu faktör."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net nakit pozisyonunun eksi $96,9 milyar gibi belirgin bir net borç pozisyonuna dönüşmesi, hem artan capex hem de geri alım/yatırım baskısını gösteriyor ve finansal esnekliği sınırlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 21,3x ve Rule of 40 skorunun 46 olması büyüme-kalite dengesi açısından makul görünse de Fiyat/FCF 46,1x ile zayıf nakit dönüşümü göz önüne alındığında hisse cazip değil, nötr bir değerleme sunuyor."
+   }
+  ],
+  "concept": {
+   "title": "FCF Marjı ile Net Marj Ayrışması",
+   "body": "Bir şirketin net kârı yüksek görünse de gerçek nakit üretimi çok daha düşük olabilir; bu fark stok bazlı tazminat, yüksek capex veya çalışma sermayesi değişimlerinden kaynaklanır. Meta'da bu çeyrekte net marj %26,1 iken FCF marjının yalnızca %3 kalması, muhasebe kârının büyük kısmının gerçek nakde dönüşmediğini ve yatırımcıların 'kârlılık' yorumlarında dikkatli olması gerektiğini gösteriyor."
+  }
+ }
+}
