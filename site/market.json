@@ -1,6 +1,6 @@
 {
- "date": "2026-09-22",
- "generated_at": "2026-09-22T10:23:48+00:00",
+ "date": "2026-09-23",
+ "generated_at": "2026-09-23T10:19:42+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 14.8,
+  "vix": 14.17,
   "vix3m": 18.08,
   "zone": "sakin",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -14.0
+  "vix_chg_5d": -17.6
  },
  "breadth": {
   "rsp_3m": 2.2,
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "100.4",
-    "note": "son 1 ay +%0.6",
+    "value": "100.8",
+    "note": "son 1 ay +%1.0",
     "tone": "gray"
    },
    {
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend bütünü koruyor ancak faiz baskısı, daralan breadth ve sektörel ayrışma zeminin kırılganlığını artırıyor.",
-  "read": "Üç büyük endeks 200 günlük ortalamanın üzerinde ve VIX 14.8'de sakin seyretmesiyle genel çerçeve teknik olarak sağlıklı görünüyor; ancak tablonun altı homojen değil. Breadth anlamlı biçimde ayrışmış durumda: eşit ağırlıklı getiri, cap ağırlıklının 3.5 puan gerisinde kalıyor, küçük şirketleri temsil eden Russell 2000 ise zirveden yüzde altı küçülmüş — bu, ralli genişlemek yerine birkaç büyük isme yaslanıyor demek. Bir aylık dönemde yüzde 5.6 sıçrayan 10 yıllık faiz şu an neredeyse yüzde 5 eşiğinde; bu seviye tarihsel olarak değerleme baskısı yaratır, özellikle büyüme hisseleri için çarpan sıkışmasına zemin hazırlar. Sektör tarafında Teknoloji ve Enerji öne çıkarken Sanayi ve Malzeme belirgin biçimde geride kalıyor, yüksek getirili tahvil tarafındaki zayıflık ise kredi kanalında henüz büyük bir kırılma olmasa da erken bir temkinlilik sinyali olarak okunabilir.",
+  "headline": "Büyük endeksler trend içinde kalsa da yükselen faizler, zayıf breadth ve kredi gerginliği zemini karmaşıklaştırıyor.",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde ve VIX 14 civarında seyretmesiyle yüzey görünümü sakin; ancak altında önemli kırılganlıklar birikmiş durumda. Breadth tablosu ikiye bölünmüş: eşit ağırlıklı endeks cap ağırlıklının belirgin gerisinde kalıyor, sektörlerin yalnızca %55'i 200 gün ortalamasının üzerinde ve Russell 2000 zirveden yaklaşık %6 geride; bu da güçlü görüntünün birkaç büyük şirketin sırtında taşındığına işaret ediyor. Makro zeminde 10 yıllık faizin %5'e dayandığı ve son bir ayda petrolün %8 değer kazandığı bir ortamda maliyet baskısı hem tüketim hem kâr marjı cephesinde hissedilmeye başlanabilir; üstelik yüksek getirili tahvil piyasasındaki (HYG) hafif bozulma, kredi iştahının temkinli bir seyir izlediğini gösteriyor. Teknoloji ve enerji öncülüğündeki sektör rotasyonu risk iştahını canlı tutsa da sanayi, malzeme ve döngüsel tüketim gibi geniş ekonomiye dokunan alanların belirgin biçimde geride kalması, büyüme beklentilerinin ne ölçüde fiyatlandığı konusunda soru işareti bırakıyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5.00 eşiğini geçip geçmeyeceği — bu seviye hem reel hem de psikolojik olarak önemli bir direnç noktası.",
-   "Yüksek getirili tahvil fonlarında (HYG) kredi spreadlerinin genişleyip genişlemediği — şu anki zayıflık derinleşirse risk iştahı hikayesi daha çabuk bozulabilir.",
-   "Russell 2000'in daha fazla ayrışıp ayrışmayacağı; küçük şirketler hem faize duyarlı hem de ekonomik döngüye yakın olduğundan breadth'in gerçekten daralıp daralmadiğini ölçmek için iyi bir turnusol."
+   "10 yıllık ABD Hazine faizinin %5 eşiğini kalıcı olarak aşıp aşmadığı — bu seviye hisse değerlemeleri ve kredi koşulları için psikolojik bir direnç noktası.",
+   "HYG ve kredi spread'lerinin genişlemeye devam edip etmediği — yüzey sakinliğinin altındaki stresin erken göstergesi olarak izlenmeli.",
+   "Russell 2000'in ve sektör breadth'inin toparlanıp toparlanamadığı — rallinin tabana yayılması ya da daralması, rejimin sürdürülebilirliği hakkında önemli bir sinyal verecek."
   ],
   "concept": {
-   "title": "Breadth Daralması (Narrowing Market Breadth)",
-   "body": "Piyasa rallisi yalnızca küçük bir grup büyük hissenin öncülüğüyle sürdüğünde endeks fiyatı yükselmeye devam etse bile katılımın azaldığı bu duruma breadth daralması denir. Geniş tabanlı bir ralli yerine birkaç devi taşıyan böyle bir yapı, endeksin kırılganlığını artırır; zira o birkaç hisse senedi tökezlediğinde tampon görevi görecek geniş bir taban bulunmaz."
+   "title": "Breadth Ayrışması (Narrow Market Leadership)",
+   "body": "Piyasa rallisi yalnızca az sayıda büyük şirket tarafından taşındığında, endeks seviyeleri sağlıklı görünse de bu durum 'dar liderlik' olarak adlandırılır ve altındaki katılımın zayıflığına işaret eder. Katılım genişlemeden endeks yükselişi sürdüğünde, büyük şirketlerde yaşanacak bir satış dalgasının tüm endeksi orantısız etkileme riski artar."
   }
  }
 }
