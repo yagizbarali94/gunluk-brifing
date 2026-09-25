@@ -1,0 +1,352 @@
+{
+ "date": "2026-09-25",
+ "slot": "reported",
+ "generated_at": "2026-09-25T10:36:59+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 327170686976
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %7.9 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 306.34,
+  "change_pct": -0.89
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-11-04",
+  "last_label": "29 Temmuz",
+  "next_label": "4 Kasım",
+  "days_to_next": 40,
+  "progress_pct": 59
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.3B",
+   "sub": "+%22 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.45",
+   "sub": "Beat · beklenti $0.40",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.2",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$694M",
+   "sub": "marj %54",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.3B",
+      "note": "+%22 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       1.05,
+       1.14,
+       1.24,
+       1.49,
+       1.29
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$270M",
+      "note": "+%108 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       12.3,
+       21.0,
+       18.0,
+       21.0,
+       20.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.45",
+      "note": "beklenti $0.40 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.2",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       97.2,
+       97.4,
+       97.6,
+       97.9,
+       97.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%7.6",
+      "note": "-3.2 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       10.8,
+       14.4,
+       15.4,
+       29.5,
+       7.6
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%13.4",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.41×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "51",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$694M",
+      "note": "marj %54",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.6B",
+      "note": "nakit $3.1B · borç $464M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "344.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "100.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "62.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "304.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "222.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    1.1,
+    1.1,
+    1.2,
+    1.5,
+    1.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    97.2,
+    97.4,
+    97.6,
+    97.9,
+    97.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Oracle'ın 'force majeure' ilanı Arm hissesini vurdu; büyük bir veri merkezi müşterisinin sipariş/anlaşma taahhütlerini askıya alması royalty geliri için risk oluşturuyor.",
+   "source": "benzinga",
+   "published": "2026-09-24",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61981150/arm-stock-dips-amid-oracles-force-majeure-reports",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Meta'nın Muse CPU platformu AMD'yi 1 trilyon dolar kulübüne taşıdı; Arm mimarisi merkezli CPU rekabeti kızışıyor ve bu Arm'a hem fırsat hem tehdit içeriyor.",
+   "source": "benzinga",
+   "published": "2026-09-21",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61908373/meta-muse-app-store-amd-stock-trillion-ai-agents",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "SoftBank, OpenAI yatırımını finanse etmek için 11,1 milyar dolarlık tahvil satışı başlattı; Arm'ın ana hissedarının artan borç yükü hisse üzerinde seyreltici baskı riski taşıyor.",
+   "source": "benzinga",
+   "published": "2026-09-24",
+   "url": "https://www.benzinga.com/markets/private-markets/26/09/61964584/softbank-launches-11-1-billion-bond-sale-to-fund-final-10-billion-openai-investment-tranche",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Nasdaq 100, 1999'dan bu yana en iyi 4 yıllık rallisine doğru ilerliyor; genel teknoloji coşkusu Arm gibi yüksek değerlemeli hisselerin riskini artırıyor.",
+   "source": "benzinga",
+   "published": "2026-09-22",
+   "url": "https://www.benzinga.com/news/26/09/61931324/nasdaq-100-best-four-year-rally-since-1999-memory-chips-lead",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Arm Holdings, çip mimarisi lisansları (ISA) ve hazır işlemci tasarımları (IP çekirdekleri) satarak gelir elde eder; Apple, Qualcomm, NVIDIA, Samsung gibi dünyanın en büyük yarı iletken şirketleri müşterileridir. Para kazanma modeli lisans ücretleri ve her satılan çipe göre alınan telif (royalty) ödemelerinden oluşur.",
+  "note": "Arm'ın ekonomik hendeği, on yıllardır oluşturulmuş ekosistem kilidi ve yazılım uyumluluğu sayesinde rakiplerin kolayca ikame edemeyeceği kadar derindir; mobil pazardaki %99 paya ek olarak veri merkezi ve yapay zeka hızlandırıcı pazarlarına yönelik royalty büyümesi 3-5 yıllık tezi beslemektedir. Ancak bu çeyrekte faaliyet marjının %29,5'ten %7,6'ya dramatik gerilemesi ve gelirin $1,5B'den $1,3B'ye düşmesi, büyümenin ne kadar döngüsel/düzensiz olduğunu gösteriyor; Oracle'ın 'force majeure' haberleri gibi büyük müşteri belirsizlikleri de kısa vadede royalty gelirlerini baskılayabilir. Uzun vadeli tez bozulmamış olsa da şu an aşırı fiyatlanmış bir kaliteli varlık söz konusu.",
+  "counter": "RISC-V'nin açık kaynak mimarisi olarak giderek olgunlaşması ve büyük teknoloji şirketlerinin (Google, Alibaba) kendi çip tasarımlarına yönelmesi, uzun vadede Arm'ın lisans ve royalty gelir tabanını aşındırabilir. Tek bir mimariye dayanan yoğunlaşmış iş modeli, bu tehdidin gerçekleşmesi halinde gelir kaybını telafi edecek çeşitliliğe sahip değil.",
+  "watch": [
+   "Royalty gelir büyümesi: v8/v9 mimariye geçiş hızı ve yapay zeka/veri merkezi uygulamalarındaki royalty oranlarının yükselmesi uzun vadeli tezin en kritik göstergesi",
+   "RISC-V benimseme hızı: Büyük OEM ve bulut oyuncularının Arm yerine RISC-V tabanlı tasarımlara geçiş ilanları, moat'ın ne hızda aşındığını ölçer"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "notr",
+    "yorum": "Yıllık bazda %22 büyüme güçlü görünse de çeyreklik seyir $1,5B'den $1,3B'ye gerilemiş; büyüme temposu dalgalı ve son çeyrekte belirgin biçimde yavaşlamıştır."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjının tek çeyrekte %29,5'ten %7,6'ya çökmesi yapısal değil döngüsel görünse de ROIC %6,2 gibi düşük bir seviyeyle birleşince sermaye verimliliği yetersiz kalmaktadır."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 1,41× ile kârın nakit karşılığı güçlü olup ardı ardına gelen EPS beat serisi kazanç kalitesini desteklemektedir; %1,2 hisse seyrelmesi kabul edilebilir düzeyde."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "$2,6B net nakit pozisyonu, borcun nakitten düşük olduğunu ve şirketin finansal esnekliğini koruduğunu göstermektedir."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "F/K ileri 100,3, Fiyat/FCF 222,3 ve FD/Satış 62,8 gibi çarpanlar %22 büyüme ve mevcut marj seviyeleriyle hiçbir şekilde desteklenemiyor; hisse mükemmel bir iş modelini çok önceden fiyatlamış durumda."
+   }
+  ],
+  "concept": {
+   "title": "Royalty Kaldıracı (Royalty Leverage)",
+   "body": "Royalty kaldıracı, bir IP sahipinin sabit maliyetlerini neredeyse artırmadan her ek satış biriminden orantısız biçimde daha fazla gelir elde etmesi anlamına gelir. Arm, her Arm tabanlı çip satışından küçük bir telif alır; bu nedenle brüt marjı %97 civarında seyreder ve satış hacmi arttıkça kârlılık teorik olarak hızla yükselir — fakat faaliyet giderlerindeki oynaklık bu kaldıracı çeyrekten çeyreğe gizleyebilir."
+  }
+ }
+}

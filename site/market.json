@@ -1,6 +1,6 @@
 {
- "date": "2026-09-24",
- "generated_at": "2026-09-24T10:33:52+00:00",
+ "date": "2026-09-25",
+ "generated_at": "2026-09-25T10:37:05+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,8 +12,8 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7706.03,
-    "chg_1d": -0.76,
+    "last": 7704.13,
+    "chg_1d": -0.02,
     "above_50": true,
     "above_200": true,
     "from_high": -1.2,
@@ -23,8 +23,8 @@
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 30470.29,
-    "chg_1d": -0.04,
+    "last": 30478.86,
+    "chg_1d": 0.03,
     "above_50": true,
     "above_200": true,
     "from_high": -0.6,
@@ -34,11 +34,11 @@
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2838.66,
-    "chg_1d": -1.28,
+    "last": 2835.57,
+    "chg_1d": -0.11,
     "above_50": false,
     "above_200": true,
-    "from_high": -7.5,
+    "from_high": -7.6,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 16.29,
-  "vix3m": 18.11,
+  "vix": 15.32,
+  "vix3m": 18.43,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -8.0
+  "vix_chg_5d": -0.8
  },
  "breadth": {
-  "rsp_3m": 0.8,
-  "spy_3m": 4.8,
-  "spread": -4.0,
+  "rsp_3m": -0.3,
+  "spy_3m": 5.5,
+  "spread": -5.8,
   "pct_sectors_above_200": 45,
   "verdict": "dar — piyasayı birkaç mega-cap taşıyor",
   "tone": "amber"
@@ -65,39 +65,33 @@
  "sectors": {
   "rows": [
    {
+    "ticker": "XLC",
+    "name": "İletişim",
+    "chg": 3.7,
+    "group": "döngüsel"
+   },
+   {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": 5.1,
+    "chg": 3.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 2.8,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLC",
-    "name": "İletişim",
-    "chg": 1.5,
+    "chg": 3.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 0.9,
+    "chg": 1.2,
     "group": "defansif"
    },
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": -2.0,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLRE",
-    "name": "Gayrimenkul",
-    "chg": -4.3,
+    "chg": -3.3,
     "group": "defansif"
    },
    {
@@ -107,42 +101,48 @@
     "group": "döngüsel"
    },
    {
+    "ticker": "XLRE",
+    "name": "Gayrimenkul",
+    "chg": -5.6,
+    "group": "defansif"
+   },
+   {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": -5.5,
+    "chg": -6.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": -7.0,
+    "chg": -6.2,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -8.2,
+    "chg": -8.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -8.2,
+    "chg": -9.6,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": -3.4,
+  "def_avg": -4.3,
   "cyc_avg": -2.3
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%5.11",
-    "note": "son 1 ay +%9.2",
+    "value": "%5.16",
+    "note": "son 1 ay +%10.3",
     "tone": "gray"
    },
    {
@@ -153,25 +153,25 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.3",
-    "note": "son 1 ay +%1.3",
+    "value": "101.0",
+    "note": "son 1 ay +%1.1",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$393",
-    "note": "son 1 ay -%3.0",
+    "value": "$392",
+    "note": "son 1 ay -%1.8",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$93.2",
-    "note": "son 1 ay +%14.7",
+    "value": "$92.8",
+    "note": "son 1 ay +%12.6",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%1.2",
+    "value": "-%1.6",
     "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
     "tone": "amber"
    }
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Trend yüzeyde sağlam görünse de dar breadth, sert yükselen faizler ve kredi piyasasındaki zayıflık yapının kırılganlığına işaret ediyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde ve VIX contango'da seyrettiğinden panik sinyali henüz yok; ancak piyasayı taşıyan yük birkaç mega-cap'te yoğunlaşmış durumda — sektörlerin yalnızca %45'i 200 gün üzerinde olup eşit ağırlıklı endeks cap ağırlıklıdan dört puanlık iskontoda. 10 yıllık faizin son bir ayda %9'un üzerinde artarak %5.11'e ulaşması, değerleme hesaplarını yeniden zorluyor ve sermaye maliyetini yükseltiyor. Petrolün %14.7 sıçraması enflasyon beklentilerini canlı tutarken güçlenen dolar gelişmekte olan piyasalara ve ihracata dayalı şirketlere ek baskı uyguluyor. Yüksek getirili tahvillerin zayıf seyri kredi piyasasının henüz hisse senedi piyasasının iyimserliğine katılmadığını gösteriyor; bu ayrışma rejim değerlendirmesinde dikkat gerektiren bir sinyal.",
+  "headline": "Yüzey sakin görünse de dar bir liderlik ve hızla yükselen faizler zeminin kırılganlığını artırıyor.",
+  "read": "Üç ana endeks teknik olarak yükseliş trendini koruyor; VIX 15 civarında seyrediyor ve vade yapısının contango'da olması piyasanın yakın vadede panik beklentisi taşımadığına işaret ediyor. Ancak breadth tablosu endişe verici: eşit ağırlıklı endeks cap ağırlıklıdan yaklaşık 5.8 puan geride kalıyor, sektörlerin yalnızca yüzde kırkbeşi 200 günlük ortalamasının üstünde ve küçük şirketleri temsil eden Russell 2000 zirveden yüzde 7.6 gerilemiş durumda; yükselişi gerçek anlamda geniş bir katılım değil, birkaç büyük isim taşıyor. Makro zeminde ise 10 yıllık faizin son bir ayda yüzde 5.16'ya çıkması ve kredi piyasasında HYG'nin zayıflaması, değerleme baskısını ve fonlama maliyetini artıran iki önemli sürtünme noktası oluşturuyor. Petrolün aylık yüzde 12.6 yükselmesi enflasyon beklentilerini canlı tutarken altının geri çekilmesi ve doların güçlenmesi, küresel risk iştahının gerçek anlamda geniş tabanlı olmadığını teyit ediyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin %5.25 direnci üzerinde tutunup tutunmayacağı — kırılması halinde değerleme baskısı hız kazanabilir",
-   "HYG (yüksek getirili tahvil ETF) ile hisse senedi endeksleri arasındaki ayrışmanın kapanıp kapanmayacağı — kredi onay vermezse rallinin temeli zayıf kalır",
-   "Russell 2000'in zirveden -%7.5 geriye çekilmesinin derinleşip derinleşmeyeceği — küçük şirketler faiz yüküne daha duyarlı olduğundan öncü gösterge işlevi görebilir"
+   "10 yıllık ABD Hazine faizinin yüzde 5.25-5.30 eşiğini test edip etmeyeceği — bu seviye hisse değerlemelerine ve kredi spreadlerine doğrudan baskı yapabilir",
+   "HYG ve yüksek getirili kredi spreadlerinin genişlemeye devam edip etmeyeceği — breadth zayıflığının kredi piyasasına sıçraması daha geniş bir baskıya işaret eder",
+   "Liderlik konsantrasyonunun kırılıp kırılmayacağı: İletişim ve Teknoloji'nin momentumu sürerken Sanayi ve Küçük Şirketler'in toparlanmaya başlayıp başlamadığı, rejimin sağlıklılaşıp sağlıklılaşmadığının en net göstergesi olacak"
   ],
   "concept": {
-   "title": "Breadth Daralması (Narrow Market Breadth)",
-   "body": "Endeks yükselirken katılımcı hisse sayısı azalıyorsa rallinin 'genişliği' daralmış demektir; bu durum ağırlığı yüksek birkaç hissenin endeksi yukarı taşıdığına, çoğunluğun ise geride kaldığına işaret eder. Dar breadth tek başına bir düşüş sinyali değildir, ancak taşıyıcı hisselerde yaşanacak bir sallanmanın tüm endekse orantısız yansıyabileceği anlamına gelir."
+   "title": "Breadth Ayrışması (Narrow Leadership)",
+   "body": "Piyasa yükselişinin yalnızca az sayıda büyük şirkette yoğunlaşması ve geniş kitlenin bu yükselişe katılamaması durumuna 'dar liderlik' denir; bu tablo, endeks seviyesinin olduğundan sağlıklı görünmesine yol açar. Tarihsel olarak dar liderlik dönemleri çoğunlukla kırılganlık sinyali olarak değerlendirilir; zira birkaç lokomotif şirketin ivmesini yitirmesi ya da rotasyon başlaması halinde endeks desteğini geniş tabanlı bir zeminden değil, son derece küçük bir gruptan alıyor olur."
   }
  }
 }
