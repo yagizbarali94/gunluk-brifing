@@ -1,0 +1,344 @@
+{
+ "date": "2026-09-26",
+ "slot": "upcoming",
+ "generated_at": "2026-09-26T10:19:09+00:00",
+ "mock": false,
+ "ticker": "MU",
+ "company": {
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1222319669248
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 4 gün sonra açıklanacak (30 Eylül) — beklentileri incele"
+ },
+ "price": {
+  "last": 1082.28,
+  "change_pct": 0.61
+ },
+ "earnings_calendar": {
+  "last_date": "2026-06-24",
+  "next_date": "2026-09-30",
+  "last_label": "24 Haziran",
+  "next_label": "30 Eylül",
+  "days_to_next": 4,
+  "progress_pct": 96
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$41.5B",
+   "sub": "+%346 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$25.11",
+   "sub": "Beat · beklenti $20.69",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%84.6",
+   "sub": "+10.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$17.6B",
+   "sub": "marj %42",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 24 Haziran",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$41.5B",
+      "note": "+%346 y/y",
+      "tone": "green",
+      "spark": [
+       9.3,
+       11.31,
+       13.64,
+       23.86,
+       41.46
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28.2B",
+      "note": "+%1398 y/y",
+      "tone": "green",
+      "spark": [
+       20.3,
+       28.3,
+       38.4,
+       57.8,
+       68.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$25.11",
+      "note": "beklenti $20.69 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%84.6",
+      "note": "+10.1 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       37.7,
+       44.7,
+       56.0,
+       74.4,
+       84.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%80.4",
+      "note": "+57.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       23.3,
+       32.6,
+       45.0,
+       67.6,
+       80.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%48.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%66.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%34.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.52×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "375",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$17.6B",
+      "note": "marj %42",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$18.6B",
+      "note": "nakit $25.0B · borç $6.4B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "24.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "6.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "13.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.6×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "46.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    9.3,
+    11.3,
+    13.6,
+    23.9,
+    41.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    37.7,
+    44.7,
+    56.0,
+    74.4,
+    84.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Micron'un düşük F/K çarpanının yatırımcıları yanıltabileceği uyarısı yapıldı; döngüsel zirve kârları üzerine kurulu değerlemenin risklerine dikkat çekildi.",
+   "source": "benzinga",
+   "published": "2026-09-24",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61979848/micron-low-pe-trap",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "UBS analisti, Micron hissesinin yapay zeka ivmesi ile uzun vadeli talep endişesi arasında 'cephe hattına' döndüğünü ve uzun vadeli anlaşmaların gelir potansiyelini sınırlayabileceğini belirtti.",
+   "source": "benzinga",
+   "published": "2026-09-24",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61969066/micron-stock-is-now-a-battleground-between-ai-momentum-and-long-term-demand-ubs-analyst-warns-long-term-deals-mute-revenue-upside",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "PurePlay ETF CEO'su, Micron'un yapay zeka odaklı gelirlerinin eski bellek döngüsünü kırarak yapısal bir değişimi temsil ettiğini savundu.",
+   "source": "benzinga",
+   "published": "2026-09-24",
+   "url": "https://www.benzinga.com/markets/tech/26/09/61982882/micron-earnings-break-memory-cycle-pureplay-etfs-nvps",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bir analitik model, Micron'un 30 Eylül bilançosunda tüm analistleri geçme olasılığını %80 olarak hesapladı.",
+   "source": "benzinga",
+   "published": "2026-09-25",
+   "url": "https://www.benzinga.com/markets/equities/26/09/61997060/micron-earnings-80-odds-beat-every-analyst-estimate",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Micron Technology, DRAM ve NAND flash bellek çipleri üreten dünyanın önde gelen bellek yarı iletken şirketlerinden biridir. Başlıca müşterileri veri merkezi operatörleri, yapay zeka altyapı şirketleri, PC/mobil üreticileri ve otomotiv sektörüdür; gelirini bellek yoğunluklu ürünlerin (HBM, DDR5, LPDDR) satışından elde eder.",
+  "note": "Micron, HBM3E ve yüksek bant genişlikli bellek segmentinde rakipleri Samsung ve SK Hynix karşısında hızla pazar payı kazanmakta; yapay zeka altyapısının bellek talebini yapısal olarak yukarı çekmesi şirketin uzun vadeli büyüme tezini güçlendirmektedir. Ancak bellek sektörü tarihsel olarak derin döngüsel yapısını korumakta olup mevcut %84.6 brüt marj seviyesinin sürdürülebilirliği kritik bir soru işaretidir. Önümüzdeki 3-5 yılda yapay zeka altyapı yatırımları devam ederse Micron'un değer zincirindeki konumu kalıcı biçimde güçlenmiş olabilir; fakat marjların tepe noktasında olduğu sinyalleri yatırımcıları temkinli tutmalıdır.",
+  "counter": "Bellek sektörü tarihsel olarak arz fazlasına son derece duyarlıdır; Samsung'un agresif kapasite artışı ya da yapay zeka yatırımlarında ani bir yavaşlama, fiyatları hızla geriletip Micron'un marjlarını çöküş döngüsüne sokabilir. Uzun vadeli müzakere edilen anlaşmaların gelir esnekliğini kısıtladığına dair UBS uyarısı da yukarı potansiyeli sınırlayan yapısal bir risk olarak öne çıkmaktadır.",
+  "watch": [
+   "HBM (Yüksek Bant Genişlikli Bellek) fiyatları ve pazar payı — Samsung ile SK Hynix'in kapasite artışı karşısında Micron'un fiyatlama gücünü koruması",
+   "Brüt marj seyri — %84.6 tepe seviyesinden düşüş hızı ve bunun EPS tahminlerine yansıması, döngüsel dönüşün erken sinyali olarak izlenmeli"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 9.3 milyar dolardan 41.5 milyar dolara çıkarak son beş çeyrekte üstel bir hızlanma sergiledi; ancak bu hızın sürdürülmesi giderek daha zorlu bir baz etkisiyle karşılaşacaktır."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %84.6 ve ROIC %48.6 ile istisnai seviyelerde olmakla birlikte marj trendindeki 'down' işareti, kârlılığın tepe bölgesine yaklaştığına işaret etmektedir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü 0.52× ile kârın yaklaşık yarısı nakde dönüşebilmekte; yüksek sermaye harcamaları ve %1.8 hisse seyrelmesi nakit üretiminin kalitesini bir miktar gölgelemektedir."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "18.6 milyar dolar net nakit pozisyonu, şirkete hem döngüsel gerileme dönemlerinde tampon hem de stratejik yatırımlar için güçlü bir esneklik sunmaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 6.8× son derece cazip görünse de FD/Satış 13.3× ve Fiyat/FCF 46.7× döngüsel zirve kârları üzerine kurulu olduğundan 'ucuzluk' yanıltıcı olabilir; marj gerilemesi beklentileri hızla yeniden fiyatlayabilir."
+   }
+  ],
+  "concept": {
+   "title": "Bellek Döngüsü (Memory Cycle) ve Marj Tuzağı",
+   "body": "Bellek yarı iletken sektörü, arz-talep dengesine son derece duyarlı fiyatlarla derin kazanç döngülerine sahiptir; fiyatlar zirvedeyken kapasite yatırımları hızlanır ve arz fazlası fiyatları çöküşe sürükler. Micron'un %84.6 brüt marjı tarihsel olarak olağanüstü bir seviye olup bu oran genellikle döngünün tepe noktasına yakın gerçekleşir ve yatırımcıların 'ileri kâr' tahminlerine aşırı güvenmemesi gerektiğini hatırlatır."
+  }
+ }
+}

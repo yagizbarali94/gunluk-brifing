@@ -1,0 +1,352 @@
+{
+ "date": "2026-09-26",
+ "slot": "reported",
+ "generated_at": "2026-09-26T10:19:49+00:00",
+ "mock": false,
+ "ticker": "DDOG",
+ "company": {
+  "name": "Datadog, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 96278781952
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %4.4 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 268.13,
+  "change_pct": 3.99
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-06",
+  "next_date": "2026-11-05",
+  "last_label": "6 Ağustos",
+  "next_label": "5 Kasım",
+  "days_to_next": 40,
+  "progress_pct": 56
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.1B",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.65",
+   "sub": "Beat · beklenti $0.58",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%78.6",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$279M",
+   "sub": "marj %25",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 6 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.1B",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.83,
+       0.89,
+       0.95,
+       1.01,
+       1.12
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$45M",
+      "note": "+%1583 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.3,
+       3.8,
+       4.9,
+       5.2,
+       4.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.65",
+      "note": "beklenti $0.58 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%78.6",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       79.9,
+       80.1,
+       80.4,
+       79.2,
+       78.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%0.7",
+      "note": "+4.8 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -4.1,
+       -0.7,
+       0.8,
+       0.7,
+       0.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%3.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%4.7",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%0.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "6.04×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%3.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "63",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$279M",
+      "note": "marj %25",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-843M",
+      "note": "nakit $435M · borç $1.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "547.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "90.2×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "23.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "1116.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "89.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    0.8,
+    0.9,
+    1.0,
+    1.0,
+    1.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    79.9,
+    80.1,
+    80.4,
+    79.2,
+    78.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Datadog ve diğer büyük hisseler Cuma günü belirgin yükselişler kaydetti.",
+   "source": "benzinga",
+   "published": "2026-09-25",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61999274/akamai-atlas-energy-solutions-people-and-other-big-stocks-moving-higher-on-friday",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "CNBC 'Final Trades' programında Datadog, Uber ve Micron ile birlikte önerilen hisseler arasında yer aldı.",
+   "source": "benzinga",
+   "published": "2026-09-22",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61917211/uber-micron-datadog-and-a-health-care-stock-cnbcs-final-trades",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Benzinga'nın 'Hisse Fısıltısı' endeksinde Datadog, yatırımcıların sessizce takip ettiği ancak kamuoyunda henüz konuşulmayan hisseler listesine girdi.",
+   "source": "benzinga",
+   "published": "2026-09-20",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61885385/benzingas-stock-whisper-index-5-stocks-investors-secretly-monitor-but-dont-talk-about-yet-127",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "ShinyHunters hacker grubunun FBI'ı ihlal ettiğine dair doğrulanmamış iddialar siber güvenlik endişelerini gündeme taşıdı; Datadog gibi gözlemlenebilirlik/güvenlik şirketleri için dolaylı talep katalizörü olabilir.",
+   "source": "benzinga",
+   "published": "2026-09-22",
+   "url": "https://www.benzinga.com/quote/SPY",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Datadog, bulut altyapısı, uygulama performansı ve güvenlik süreçlerini tek platformda izleyen bir SaaS gözlemlenebilirlik (observability) şirketidir. Başta DevOps ekipleri ve bulut-native kurumsal müşteriler olmak üzere abonelik/kullanım bazlı gelir modeli ile para kazanır.",
+  "note": "Datadog'un çoklu ürün platformu (APM, log yönetimi, güvenlik, AI izleme) çapraz satış ve net gelir elde tutma oranı yüksekliği sayesinde güçlü bir ekonomik hendek oluşturmuştur. %36'lık büyüme hızı ve Rule of 40 skoru 63 ile iş modeli kalitesi kanıtlanmış durumda; yapay zeka iş yüklerinin bulut harcamalarını artırması DDOG'a yapısal rüzgar sağlamaktadır. Ancak brüt marjdaki kademeli gerileme ve hâlâ düşük seyreden ROIC, ölçek ekonomisinin henüz tam anlamıyla kazanca dönüşmediğini gösteriyor.",
+  "counter": "Büyük bulut sağlayıcıları (AWS CloudWatch, Azure Monitor, Google Cloud Operations) yerel izleme araçlarını sürekli genişleterek Datadog'un fiyatlama gücünü ve pazar payını tehdit etmektedir. Ayrıca yüksek kullanım bazlı fiyatlandırma, müşteri harcama kısıtlamalarına karşı gelir görünürlüğünü sınırlı tutar.",
+  "watch": [
+   "Brüt marj trendi: platform genişlemesi ve AI altyapı maliyetlerinin baskısı altında %80 eşiğine dönüş gerçekleşebilecek mi?",
+   "Net gelir elde tutma (NRR) oranı: mevcut müşterilerin harcama büyümesi, yeni müşteri ediniminden bağımsız iş modeli gücünü teyit eden en kritik gösterge."
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 0,8B'den 1,1B'ye istikrarlı biçimde yükselerek %36 y/y büyüme sürmekte; hızlanma daha çok AI altyapısı izleme talebi tarafından destekleniyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Faaliyet marjı negatiften %0,7'ye iyileşmiş olsa da ROIC %3,4 ve ROE %4,7 ile sermaye getirileri hâlâ düşük kalıyor; brüt marjdaki 0,6 puanlık çeyreklik gerileme ise dikkat gerektiriyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 6,04x ve FCF marjı %25 ile nakit üretimi muhasebe kârının çok üzerinde; ancak %3,4'lük y/y hisse seyrelmesi uzun vadeli pay sahiplerini hafifçe zayıflatmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net nakit pozisyonu -843M$ ile negatif bölgede; güçlü FCF bu borç yükünü yönetilebilir kılsa da net nakit şirketi olmaktan uzak."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 90, Fiyat/FCF 90 ve FD/Satış 23 gibi çarpanlar, yüksek büyüme ve Rule of 40 kalitesine rağmen olası hata payını neredeyse sıfıra indiriyor; her türlü büyüme yavaşlaması sert yeniden fiyatlamaya zemin hazırlar."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "Rule of 40, bir SaaS şirketinin büyüme hızı ile kâr marjının toplamının 40'ı geçip geçmediğini ölçen pratik bir sağlık testidir; bu eşiğin üzeri büyüme ile kârlılığı dengeli yönettiğine işaret eder. Datadog, %36 gelir büyümesi ve %25 FCF marjıyla toplamda 63 skoru elde ederek sektörün en güçlü örneklerinden biri konumundadır."
+  }
+ }
+}
