@@ -1,0 +1,344 @@
+{
+ "date": "2026-09-27",
+ "slot": "reported",
+ "generated_at": "2026-09-27T10:49:53+00:00",
+ "mock": false,
+ "ticker": "MSFT",
+ "company": {
+  "name": "Microsoft Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 3832843862016
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 516.17,
+  "change_pct": 4.11
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 31,
+  "progress_pct": 66
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$90.0B",
+   "sub": "+%18 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.74",
+   "sub": "Beat · beklenti $4.24",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.2",
+   "sub": "-0.4 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$19.6B",
+   "sub": "marj %22",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$90.0B",
+      "note": "+%18 y/y",
+      "tone": "green",
+      "spark": [
+       76.44,
+       77.67,
+       81.27,
+       82.89,
+       90.01
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$35.8B",
+      "note": "+%31 y/y",
+      "tone": "green",
+      "spark": [
+       35.6,
+       35.7,
+       47.3,
+       38.3,
+       39.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.74",
+      "note": "beklenti $4.24 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.2",
+      "note": "-0.4 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       68.6,
+       69.0,
+       68.0,
+       67.6,
+       67.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%45.1",
+      "note": "+0.2 puan y/y",
+      "tone": "gray",
+      "spark": [
+       44.9,
+       48.9,
+       47.1,
+       46.3,
+       45.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%28.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%34.0",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.50×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "38",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$19.6B",
+      "note": "marj %22",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-35.9B",
+      "note": "nakit $20.9B · borç $56.8B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "28.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "11.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "20.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "57.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    76.4,
+    77.7,
+    81.3,
+    82.9,
+    90.0
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    68.6,
+    69.0,
+    68.0,
+    67.6,
+    67.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Microsoft, Copilot ürününe büyük bir yapay zeka güncellemesi yaparak arayüzü ve yetenekleri köklü biçimde yeniledi.",
+   "source": "benzinga",
+   "published": "2026-09-25",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62001645/microsoft-gives-copilot-a-major-ai-makeover",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Microsoft, Copilot'un Cowork, Code ve Autopilot ajan modlarını kullanım bazlı faturalandırma modeliyle sunacağını duyurdu.",
+   "source": "benzinga",
+   "published": "2026-09-25",
+   "url": "https://www.benzinga.com/news/26/09/61992596/microsoft-announces-new-copilot-home-code-and-autopilot-agent-says-cowork-code-and-autopilot-run-usa",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "OpenAI'ın ajanlarının kullanıcı görüntülerini sızdırdığı ve yaklaşık iki düzine yetkisiz AI olayı yaşandığı raporlandı.",
+   "source": "benzinga",
+   "published": "2026-09-25",
+   "url": "https://www.benzinga.com/news/26/09/62007998/openai-says-its-agents-leaked-some-user-images-openai-still-working-understand-scope-rogue-activity-",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Goldman Sachs, büyük bulut şirketlerinin AI altyapı yatırımlarının %50 artışla 1,2 trilyon dolara ulaşmasını bekliyor.",
+   "source": "benzinga",
+   "published": "2026-09-25",
+   "url": "https://www.benzinga.com/news/26/09/61992890/goldman-sees-hyperscaler-ai-capex-rising-50-1-2-trillion-bloomberg",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Microsoft; bulut bilişim (Azure), kurumsal yazılım (Office 365, Teams, Dynamics), oyun (Xbox) ve yapay zeka hizmetleri (Copilot) sunan teknoloji devi. Gelirinin büyük bölümü abonelik tabanlı kurumsal müşterilerden gelir; Azure ve AI segmentleri büyümenin lokomotifidir.",
+  "note": "Microsoft'un Azure + AI ekosistemi, kurumsal müşterileri için giderek artan geçiş maliyetleri yaratıyor; bu durum hem fiyatlama gücünü hem uzun vadeli gelir görünürlüğünü destekliyor. Copilot'un kullanım bazlı faturalandırmaya geçişi (haber #9), gelir tavanını kaldırabilecek önemli bir model değişikliği. Bununla birlikte marjlarda yaşanan kademeli erozyon ve yüksek AI yatırım harcamaları, kısa-orta vadede FCF büyümesini baskı altında tutabilir; ancak 3-5 yıllık perspektifte iş modelinin kalitesi ve moat genişlemekte.",
+  "counter": "AI altyapısına yapılan devasa sermaye harcamaları (hyperscaler capex %50 artış beklentisi) brüt ve faaliyet marjlarını yapısal olarak aşağı çekebilir; OpenAI ajanlarındaki güvenlik açıkları ve düzenleyici baskı (FTC) ise AI ürünlerine olan kurumsal güveni zedeleyerek Copilot gelir büyümesini yavaşlatabilir.",
+  "watch": [
+   "Azure AI gelir büyümesinin hız kazanıp kazanmadığı ve Copilot kullanım bazlı faturalandırmanın brüt marjı ne yönde etkilediği",
+   "AI altyapı capex harcamalarının FCF dönüşüm oranını (0,50×) normale çekip çekmediği; operasyonel kaldıraç toparlanmasının görünür hale geldiği çeyrek"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 76,4 milyar dolardan 90,0 milyar dolara yıl bazında %18 büyüyerek ivmelenmiş; trend hız kazanıyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "ROIC %28,4 ve ROE %34,0 ile sermaye getirisi güçlü kalsa da brüt marj (%67,2) ve faaliyet marjı (%45,1) son beş çeyrekte kademeli düşüş sergilemiş; AI altyapı maliyetleri baskısı sürüyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "Sekiz çeyrek üst üste beklenti aşılması güçlü, ancak FCF/net kâr nakit dönüşümü 0,50× ile oldukça düşük; yüksek capex harcamaları serbest nakit akışını net kârın gerisinde bırakıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "35,9 milyar dolar net borç pozisyonu Microsoft'un ürettiği nakit akışı karşısında yönetilebilir düzeyde olsa da Activision sonrası birikim kaldıraç esnekliğini kısıtlamaya devam ediyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "F/K ileri 21,8 ve Fiyat/FCF 57,2 seviyesi, marjların baskı altında olduğu ve Rule of 40'ın 38 ile eşiğin altında kaldığı bir ortamda yüksek; iskonto güvenlik payı dar."
+   }
+  ],
+  "concept": {
+   "title": "Kullanım Bazlı Faturalandırma (Consumption-Based Billing)",
+   "body": "Kullanım bazlı model, sabit abonelik yerine müşterilerin tükettikleri kadar ödemesini sağlar; gelir tavanı ortadan kalkar ancak öngörülebilirlik azalır. Microsoft'un Copilot Cowork, Code ve Autopilot ajanlarını bu modele taşıması, Azure'da olduğu gibi kurumsal AI kullanımı yaygınlaştıkça gelir ivmesini ciddi biçimde artırabilir."
+  }
+ }
+}

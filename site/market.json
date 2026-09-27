@@ -1,6 +1,6 @@
 {
- "date": "2026-09-26",
- "generated_at": "2026-09-26T10:19:55+00:00",
+ "date": "2026-09-27",
+ "generated_at": "2026-09-27T10:49:59+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -180,16 +180,16 @@
  },
  "calendar": [],
  "ai": {
-  "headline": "Yüzey sakin görünse de mega-cap kaldıracıyla yükselen dar bir piyasada faiz baskısı ve kredi gerginliği zemini karmaşıklaştırıyor.",
-  "read": "Üç ana endeks 200 günlük ortalamanın üzerinde ve VIX 15 altında seyrettiğinden teknik tablo temiz görünüyor; ancak hisse senetlerinin yalnızca %36'sı bu eşiğin üzerinde olduğundan yükselişi taşıyan ağırlıklı olarak birkaç büyük teknoloji şirketi. Eşit ağırlıklı endeks ile piyasa değeri ağırlıklı arasındaki yaklaşık 5 puanlık makas, tabandaki genişliğin oldukça sınırlı olduğuna işaret ediyor. 10 yıllık faizin %5.18'e tırmanması ve son ay yüksek getirili tahvillerin (HYG) zayıflaması, sermaye maliyetinin yükseldiğini ve kredi piyasasının öz sermayeye kıyasla daha temkinli bir sinyal verdiğini gösteriyor. Petrol fiyatının bir ayda %12 artması ve güçlenen dolar ise makro zeminine hem enflasyonist hem de küresel büyüme açısından karmaşık bir katman ekliyor.",
+  "headline": "Yüzey sakin görünse de dar liderlik, sert yükselen faizler ve kredi piyasasındaki kırılganlık zeminin düşündüğünden daha karmaşık olduğuna işaret ediyor.",
+  "read": "Üç büyük endeksin de 200 günlük ortalamasının üzerinde seyretmesi ve VIX'in 15 altında kalması teknik açıdan hâlâ yapıcı bir tablo çiziyor; ancak bu tablo birkaç mega-cap teknoloji hissesinin omuzlarında taşınıyor. Sektörlerin yalnızca %36'sının 200 günlük ortalamasının üzerinde olması ve eşit ağırlıklı endeksin cap-ağırlıklı endeksin yaklaşık 5 puan gerisinde kalması, genişliğin (breadth) son derece dar olduğunu ortaya koyuyor; bu, rallinin tabanda ne kadar sağlıklı olduğu konusunda ciddi bir soru işareti bırakıyor. Öte yandan 10 yıllık faizin %5.18'e yükselmesi ve bir ayda %10'un üzerinde sıçraması, değerleme baskısını artıran önemli bir makro ağırlık oluşturuyor; yüksek getirili tahvil (HYG) tarafındaki zayıflık ise kredi piyasasının bu faiz ortamına henüz tam adapte olmadığına dair erken bir uyarı niteliği taşıyor. Petrolün güçlü seyri ve dolardaki toparlanma enflasyon beklentilerini canlı tutarken, altındaki geri çekilme şimdilik sistemik bir kaygı alarmı vermediğine işaret ediyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5.25 eşiğini test edip etmediği — bu seviye hisse değerlemelerinde yeniden fiyatlama baskısı yaratabilir",
-   "HYG ve kredi spreadlerinin genişlemeye devam edip etmediği — öz sermaye ile kredi arasındaki ayrışma sürdürülebilir değil",
-   "Russell 2000'in zirveden -%7.5'lik geri çekilmesinin derinleşip derinleşmediği — küçük şirketler yüksek faize daha duyarlı olduğundan breadth için erken uyarı niteliği taşıyor"
+   "10 yıllık ABD Hazine faizinin %5.25-5.50 band direncini test edip etmeyeceği — bu seviyeler hisse değerlemelerine ve kredi spreadlerine doğrudan baskı yapabilir",
+   "HYG ve yüksek getirili tahvil spreadlerinin genişleyip genişlemediği — kredi stresinin hisse piyasasına yayılmasında öncü gösterge işlevi görür",
+   "Russell 2000'in zirveden -%7.5 seviyesinde tutunup tutunamayacağı — küçük şirketlerin davranışı breadth iyileşmesinin ya da daha geniş bir satışın habercisi olabilir"
   ],
   "concept": {
-   "title": "Piyasa Genişliği (Market Breadth)",
-   "body": "Piyasa genişliği, bir yükselişe katılan hisse senedi sayısını ölçer; endeks yukarı giderken çok az hisse bu harekete eşlik ediyorsa yükseliş 'dar' kabul edilir ve sürdürülebilirliği sorgulanır. Bugünkü tabloda olduğu gibi, dar bir piyasa mutlaka yakın vadeli bir düzeltmenin habercisi değildir; ancak uzun vadeli yatırımcıya 'trendin ne kadar paylaşıldığını' anlatarak risk dağılımı konusunda önemli bir bağlam sunar."
+   "title": "Breadth Daralması (Narrow Market Leadership)",
+   "body": "Piyasa rallisinin yalnızca az sayıda büyük şirketin fiyat artışıyla sürdürüldüğü, geri kalan hisselerin bu harekete katılamadığı durumu tanımlar. Tarihsel olarak dar breadth, mevcut trendin sürdürülebilirliğine ilişkin temkin sinyali olarak değerlendirilir; zira taşıyıcı sütunlardan birinde kırılma yaşandığında endeks seviyesini destekleyecek yeterli alternatif güç bulunmayabilir."
   }
  }
 }
