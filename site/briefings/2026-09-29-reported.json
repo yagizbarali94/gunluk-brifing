@@ -1,0 +1,355 @@
+{
+ "date": "2026-09-29",
+ "slot": "reported",
+ "generated_at": "2026-09-29T11:37:32+00:00",
+ "mock": false,
+ "ticker": "MDB",
+ "company": {
+  "name": "MongoDB, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 26918957056
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %18.5 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 334.68,
+  "change_pct": -0.8
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-01",
+  "next_date": "2026-12-01",
+  "last_label": "1 Eylül",
+  "next_label": "1 Aralık",
+  "days_to_next": 63,
+  "progress_pct": 31
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$772M",
+   "sub": "+%30 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.90",
+   "sub": "Beat · beklenti $1.61",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%73.8",
+   "sub": "+1.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$139M",
+   "sub": "marj %18",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 1 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$772M",
+      "note": "+%30 y/y",
+      "tone": "green",
+      "spark": [
+       0.59,
+       0.63,
+       0.7,
+       0.69,
+       0.77
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$41M",
+      "note": "-%187 y/y",
+      "tone": "amber",
+      "spark": [
+       -8.0,
+       -0.3,
+       2.2,
+       0.6,
+       5.3
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.90",
+      "note": "beklenti $1.61 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%73.8",
+      "note": "+1.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       71.0,
+       71.5,
+       73.0,
+       72.2,
+       73.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%3.7",
+      "note": "+14.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       -11.0,
+       -2.9,
+       0.0,
+       -3.6,
+       3.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%2.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%2.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-0.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "11.19×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.1 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "54",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$139M",
+      "note": "marj %18",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$974M",
+      "note": "nakit $1.0B · borç $29M",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "FY2027 düzeltilmiş EPS: 6.39–6.58 dolar (beklenti 6.13$); FY2027 satış: 2.99–3.03 milyar dolar (beklenti 2.954 milyar$). Q3 düzeltilmiş EPS: 1.57–1.61 dolar; Q3 satış: 756–761 milyon dolar.",
+      "note": "Şirket, 1 Eylül 2026'da verilen rehberi aynen teyit etmiş; CEO değişikliğine rağmen beklentilerin üzerinde kalan tahminler piyasaya güven mesajı vermiştir.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "587.2×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "42.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "1776.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "40.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    0.6,
+    0.6,
+    0.7,
+    0.7,
+    0.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    71.0,
+    71.5,
+    73.0,
+    72.2,
+    73.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "MongoDB, CEO Chirantan Desai'nin görevden ayrılmasıyla birlikte Dev Ittycheria'yı geçici CEO olarak atadı — bu ani liderlik değişikliği dünkü sert satışın tetikleyicisi oldu.",
+   "source": "benzinga",
+   "published": "2026-09-28",
+   "url": "https://www.benzinga.com/news/26/09/62019300/mongodb-appoints-dev-ittycheria-interim-president-ceo-effective-immediately-succeeding-chirantan-desai",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "MongoDB, FY2027 düzeltilmiş EPS ve satış rehberini piyasa beklentilerinin üzerinde teyit ederek yönetim değişikliğine rağmen operasyonel sürekliliğini vurguladı.",
+   "source": "benzinga",
+   "published": "2026-09-28",
+   "url": "https://www.benzinga.com/news/26/09/62019730/mongodb-affirms-fy2027-adj-eps-guidance-6-39-6-58-vs-6-13-est-affirms-fy2027-sales-guidance-2-990b-3",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "MongoDB, 1 Eylül'de açıkladığı Q3 ve FY27 rehberini değiştirmeksizin onayladı; rehberin korunması analistler tarafından olumlu karşılandı.",
+   "source": "benzinga",
+   "published": "2026-09-28",
+   "url": "https://www.benzinga.com/quote/MDB",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "MongoDB hissesi gün içinde sert düştü; CEO değişikliği ve genel piyasa baskısı satışı derinleştirdi.",
+   "source": "benzinga",
+   "published": "2026-09-28",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/09/62023394/mongodb-stock-tumbles-whats-happening-today",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "MongoDB, belge tabanlı (NoSQL) veritabanı yazılımı sunan bir teknoloji şirketidir; başta yazılım geliştiriciler ve kurumsal müşteriler olmak üzere bulut tabanlı Atlas platformu ve kurumsal lisans abonelikleri üzerinden gelir elde eder.",
+  "note": "MongoDB'nin Atlas bulut platformu, geliştiricilerin standart veri tabanı altyapısına olan bağımlılığını azaltarak güçlü bir geçiş maliyeti hendeki (switching cost moat) oluşturmaktadır. %73.8 brüt marj ve Rule of 40 skorunun 54 olması, iş modelinin hem büyüme hem de kârlılık boyutunda olgunlaştığını göstermektedir. CEO değişikliğinin yarattığı belirsizliğe karşın rehberliğin teyit edilmesi, temel iş tezinin sağlamlığını korumaktadır.",
+  "counter": "AWS DocumentDB, Google Firestore ve Microsoft CosmosDB gibi hiperölçekli bulut sağlayıcılarının rakip veritabanı hizmetleri, MongoDB'nin fiyatlama gücünü ve müşteri tutundurma oranını orta-uzun vadede baskı altına alabilir. Ayrıca yeni CEO'nun strateji değişikliği veya inovasyon hızının yavaşlaması kritik bir risk oluşturmaktadır.",
+  "watch": [
+   "Atlas platformunun gelir büyümesi ve toplam gelir içindeki payı — bulut geçişinin hız kazanıp kazanmadığını gösterir",
+   "Yeni CEO Dev Ittycheria'nın ürün yol haritası ve müşteri tutundurma (net retention rate) politikasındaki değişiklikler"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir serisi 0.6'dan 0.8'e tutarlı biçimde yükselmiş olup %30 yıllık büyüme, bu ölçekteki bir şirket için güçlü ivmeyi koruduğunu göstermektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt ve faaliyet marjı trendleri olumlu yönde seyretmekte ve şirket kârlılığa geçiş sürecindedir; ancak ROIC %2.3 ve ROA negatif seyrederek sermaye getirilerinin henüz olgunlaşmadığına işaret etmektedir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşüm oranının 11.19x olması kârların nakit karşılığının çok üzerinde gerçekleştiğini ve kazanç kalitesinin yüksek olduğunu gösterirken hisse seyrelmesi (%1.1) kontrol altındadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "974 milyon dolarlık net nakit pozisyonu, şirkete hem organik yatırım hem de olası aksaklıklara karşı güçlü bir tampon sağlamaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 42.9 ve Fiyat/FCF 40.8, %18'lik düşüm sonrasında makul seviyelere gerilemiş olsa da mevcut büyüme beklentilerinin sürmesi koşuluyla kabul edilebilir; büyümenin yavaşlaması halinde çarpanlar yeniden baskıya girebilir."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "Yazılım şirketlerini değerlendirmede kullanılan bu kural, gelir büyüme oranı ile FCF (veya FAVÖK) marjının toplamının 40'ın üzerinde olmasını sağlıklı bir iş modeli göstergesi olarak kabul eder. MongoDB'nin 54 skoruyla bu eşiği belirgin biçimde aşması, hem yüksek büyümesini hem de artan kârlılığını aynı anda sürdürebildiğini ortaya koymaktadır."
+  }
+ }
+}

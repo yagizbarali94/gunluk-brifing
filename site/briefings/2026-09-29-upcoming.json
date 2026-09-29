@@ -1,0 +1,355 @@
+{
+ "date": "2026-09-29",
+ "slot": "upcoming",
+ "generated_at": "2026-09-29T11:36:52+00:00",
+ "mock": false,
+ "ticker": "MU",
+ "company": {
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1190357762048
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (30 Eylül) — beklentileri incele"
+ },
+ "price": {
+  "last": 1053.98,
+  "change_pct": -0.13
+ },
+ "earnings_calendar": {
+  "last_date": "2026-06-24",
+  "next_date": "2026-09-30",
+  "last_label": "24 Haziran",
+  "next_label": "30 Eylül",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$41.5B",
+   "sub": "+%346 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$25.11",
+   "sub": "Beat · beklenti $20.69",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%84.6",
+   "sub": "+10.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$17.6B",
+   "sub": "marj %42",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 24 Haziran",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$41.5B",
+      "note": "+%346 y/y",
+      "tone": "green",
+      "spark": [
+       9.3,
+       11.31,
+       13.64,
+       23.86,
+       41.46
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28.2B",
+      "note": "+%1398 y/y",
+      "tone": "green",
+      "spark": [
+       20.3,
+       28.3,
+       38.4,
+       57.8,
+       68.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$25.11",
+      "note": "beklenti $20.69 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%84.6",
+      "note": "+10.1 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       37.7,
+       44.7,
+       56.0,
+       74.4,
+       84.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%80.4",
+      "note": "+57.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       23.3,
+       32.6,
+       45.0,
+       67.6,
+       80.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%48.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%66.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%34.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.52×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "375",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$17.6B",
+      "note": "marj %42",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$18.6B",
+      "note": "nakit $25.0B · borç $6.4B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Bilanço henüz açıklanmadı; analistler (Baird, Wedbush, JPMorgan) beat-and-raise beklentisini dile getiriyor ve 1.400–1.520 dolar hedef fiyat aralığı koruluyor.",
+      "note": "Resmi yönetim guidance'ı 30 Eylül bilançosuyla birlikte gelecek; piyasa beklentisi güçlü yönlendirme yönünde.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "24.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "6.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "13.0×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "45.5×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    9.3,
+    11.3,
+    13.6,
+    23.9,
+    41.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    37.7,
+    44.7,
+    56.0,
+    74.4,
+    84.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Analistler, yapay zeka bellek kıtlığı ortamında Micron'un güçlü bir bilanço açıklayıp yönlendirmesini de yukarı çekeceğini öngörüyor.",
+   "source": "benzinga",
+   "published": "2026-09-29",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62043304/microns-big-earnings-test-is-here-analyst-sees-a-beat-and-raise-as-ai-memory-stays-scarce",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "JPMorgan, HBM arzının 2028'e kadar yetersiz kalmaya devam edeceğini öngörerek Micron'un fiyatlama gücünün döngünün ötesine taşınabileceğini vurguluyor.",
+   "source": "benzinga",
+   "published": "2026-09-28",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62031127/micron-shortages-persist-2028-jpmorgan-multi-year-pricing-power",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bir analist Micron hissesinin balonun içinde olduğunu söylese de en iyi bellek döngüsünün boğaları da besleyebileceğini belirtiyor.",
+   "source": "benzinga",
+   "published": "2026-09-29",
+   "url": "https://www.benzinga.com/markets/equities/26/09/62043659/micron-is-in-the-best-cycle-anyone-has-ever-seen-mu-stock-is-in-a-bubble-but-bulls-can-still-profit-says-analyst",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Baird, hedef fiyatı 1.520 dolara yükselterek Outperform notunu korurken yükselen bellek fiyatları ve kısıtlı arzı öne çıkarıyor.",
+   "source": "benzinga",
+   "published": "2026-09-28",
+   "url": "https://www.benzinga.com/news/26/09/62017896/baird-maintains-outperform-micron-technology-raises-price-target-1520",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Micron Technology, DRAM ve NAND flash bellek çipleri üreten dünyanın önde gelen bellek yarı iletken şirketlerinden biridir. Başlıca müşterileri veri merkezi operatörleri, akıllı telefon üreticileri ve PC/sunucu OEM'leridir; gelirini bellek çiplerini spot ve sözleşmeli fiyatlarla satarak elde eder.",
+  "note": "Micron, HBM (High Bandwidth Memory) alanında yapay zeka ivmesinin yarattığı talep patlamasından doğrudan yararlanmakta; %84,6 brüt marj ve ROIC %48,6 döngünün zirvesinde güçlü bir fiyatlama gücüne işaret etmektedir. HBM arzının 2028'e kadar kıt kalacağına dair analist konsensüsü, bu döngünün tarihsel muadillerinden yapısal olarak daha uzun sürebileceğini düşündürmektedir. Bununla birlikte, bellek sektörünün emtia döngüsüne olan köklü hassasiyeti göz önünde bulundurulduğunda 3-5 yıllık tezin sağlamlığı, HBM pazar payı koruması ve sermaye yatırım disiplinine bağlıdır.",
+  "counter": "Bellek fiyatları emtia niteliğini tam olarak kaybetmemiştir; Samsung ve SK Hynix'in agresif kapasite yatırımları ile TSMC gibi aktörlerin bellek-mantık entegrasyonuna yönelmesi, HBM'deki fiyat primini beklenenden hızlı aşındırabilir. Üstüne üstlük FCF/net kâr dönüşümünün sadece 0,52× olması, yüksek marjlara karşın yoğun sermaye harcamalarının serbest nakit akışını baskıladığını göstermektedir.",
+  "watch": [
+   "HBM birim fiyatı ve pazar payı: Samsung/SK Hynix kapasite artışının HBM fiyatlarını ne zaman ve ne kadar baskılayacağı, Micron'un döngü sonrası marj seviyesini belirleyecek en kritik yapısal göstergedir.",
+   "Sermaye harcaması disiplini ve FCF dönüşümü: Yeni fab yatırımlarının büyüklüğü ve FCF/net kâr oranının 0,52×'in üzerine çıkıp çıkamayacağı, uzun vadeli hissedar değer yaratımı açısından izlenmelidir."
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 9,3 milyar dolardan 41,5 milyar dolara ulaşarak yıllık %346 büyümüş olsa da çeyreklik ivmenin zirveye yaklaştığı ve baz etkisinin önümüzdeki dönem büyüme oranını baskılayacağı not edilmelidir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "%84,6 brüt marj ve %80,4 faaliyet marjı tarihsel zirvelere yakın olmakla birlikte 'ivme: down' notu marjların tepe aşamasına girdiğine işaret edebilir; ROIC %48,6 ve ROE %66,6 ise mevcut konjonktürde olağanüstü sermaye verimliliğini yansıtır."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü 0,52× ile açıklanan net kârın neredeyse yarısının yoğun sermaye harcamalarına gittiğini göstermekte; sürekli EPS beat serisi olumlu ancak seyreltme %1,8 ile sınırlı düzeyde kalmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "18,6 milyar dolar net nakit pozisyonu şirkete döngüsel riskler karşısında güçlü bir tampon ve sermaye yatırımı esnekliği sağlamaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 6,5 ile hisse görünürde ucuz, ancak Fiyat/FCF 45,5× ve FD/Satış 13,0× döngünün zirvesinde gerçekleşen sayılara karşı fiyatlanmanın riskini barındırdığından değerleme 'baloncuk mu döngü zirvesi mi' tartışmasını sürdürmektedir."
+   }
+  ],
+  "concept": {
+   "title": "Bellek Döngüsü (Memory Cycle) ve Yapısal HBM Dinamiği",
+   "body": "Geleneksel bellek döngüsünde arz fazlası fiyatları hızla eritirken HBM, tasarım karmaşıklığı ve üretim süresi nedeniyle çok daha uzun teslim sürelerine sahip olmakta; bu durum arz tepkisini yavaşlatarak döngü genişliğini artırmaktadır. Micron, JPMorgan'ın 2028'e kadar kıtlık öngördüğü bu yapısal geçiş döneminde HBM kapasitesini hızla artırarak geleneksel emtia bellek döngüsünden kısmen ayrışmaya çalışmaktadır."
+  }
+ }
+}
