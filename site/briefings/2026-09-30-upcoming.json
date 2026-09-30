@@ -1,0 +1,360 @@
+{
+ "date": "2026-09-30",
+ "slot": "upcoming",
+ "generated_at": "2026-09-30T11:24:16+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1882072023040
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 738.79,
+  "change_pct": -0.62
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 28,
+  "progress_pct": 69
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$60.8B",
+   "sub": "+%28 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$6.18",
+   "sub": "Miss · beklenti $7.22",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.4",
+   "sub": "-0.5 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.7B",
+   "sub": "marj %3",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$60.8B",
+      "note": "+%28 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       47.52,
+       51.24,
+       59.89,
+       56.31,
+       60.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$15.8B",
+      "note": "-%14 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       38.6,
+       5.3,
+       38.0,
+       47.5,
+       26.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$6.18",
+      "note": "beklenti $7.22 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.4",
+      "note": "-0.5 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       82.1,
+       82.0,
+       81.8,
+       81.9,
+       81.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%30.9",
+      "note": "-12.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       43.0,
+       40.1,
+       41.3,
+       40.6,
+       30.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%21.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%29.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.60×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "46",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.7B",
+      "note": "marj %3",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-96.9B",
+      "note": "nakit $15.5B · borç $112.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "27.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "45.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    47.5,
+    51.2,
+    59.9,
+    56.3,
+    60.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Dec'24",
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    null,
+    82.1,
+    82.0,
+    81.8,
+    81.9,
+    81.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Meta'nın yapay zeka ajanlığı Muse'un, kullanıcıların yaptığı tasarruflara komisyon talep edebileceği yeni bir monetizasyon modeli ortaya çıkmaktadır.",
+   "source": "benzinga",
+   "published": "2026-09-30",
+   "url": "https://www.benzinga.com/markets/equities/26/09/62073591/mark-zuckerbergs-muse-could-charge-you-for-saving-you-money-meta-president-reveals-ai-agents-potential-monetization-model",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bir analist, Meta'nın Muse AI ajanının Apple'ın ödeme ekosistemini devre dışı bırakma potansiyeline sahip olduğunu öne sürmektedir.",
+   "source": "benzinga",
+   "published": "2026-09-30",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62072492/could-ai-agents-cut-apple-out-of-the-checkout-analyst-flags-metas-muse-threat",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Kongre üyesi Jamie Raskin, Meta dahil büyük teknoloji şirketlerinin gizli AI veri merkezi anlaşmalarına ilişkin bilgi talep etmiştir.",
+   "source": "benzinga",
+   "published": "2026-09-30",
+   "url": "https://www.benzinga.com/news/26/09/62073378/reported-earlier-tech-giants-face-questions-over-secret-ai-data-center-deals-democratic-rep-jamie-ra",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Zuckerberg, Trump'ın önde gelen teknoloji CEO'larıyla imzaladığı yeni yapay zeka güvenlik anlaşmasını 'önemli bir olumlu adım' olarak nitelendirmiştir.",
+   "source": "benzinga",
+   "published": "2026-09-30",
+   "url": "https://www.benzinga.com/markets/tech/26/09/62069379/trump-ai-safety-deal-zuckerberg-musk-top-ceos",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işletmekte, gelirinin büyük bölümünü dijital reklamcılıktan elde etmektedir. Şirket aynı zamanda Oculus VR donanımı ve metaverse altyapısına (Reality Labs) yatırım yapmakta, son dönemde ise yapay zeka ajanlığı (Muse) ile monetizasyon modelini genişletmeye çalışmaktadır.",
+  "note": "Meta'nın reklam motoru güçlü kalmaya devam ediyor; %28 y/y gelir büyümesi ve Rule of 40 skoru 46, iş modelinin temel sağlamlığını koruduğunu gösteriyor. Ancak bu çeyrekte faaliyet marjının %30.9'a gerilemesi ve EPS'in beklentinin yaklaşık %14 altında kalması, büyük ölçekli yapay zeka/veri merkezi harcamalarının kârlılığı baskıladığını ortaya koyuyor; bu harcamaların 3-5 yılda reklam getirisini artıracağına dair inancın test edildiği bir dönemdeyiz. Muse AI ajanı gibi yeni monetizasyon katmanları uzun vadeli tezi desteklese de yatırım döngüsünün ne zaman kazanca dönüşeceği belirsizliğini korumaktadır.",
+  "counter": "Regülasyon baskısı ve veri gizliliği kısıtlamaları reklam hedefleme kalitesini aşındırabilirken, AI ajanlarına yönelik gizli veri merkezi anlaşmalarına ilişkin kongre soruşturmaları operasyonel ve itibar riski yaratmaktadır. Bunun yanı sıra -$96.9B net borç pozisyonu, süregelen yüksek capex ortamında finansal esnekliği ciddi ölçüde daraltmaktadır.",
+  "watch": [
+   "Capex ve yapay zeka altyapı harcamalarının FCF marjına etkisi: Muse ve AI ajanlarından gelir katkısı başlayana kadar bu harcamaların kârlılığı ne ölçüde baskılayacağı izlenmelidir.",
+   "Faaliyet marjı toparlanması: %30.9'a gerileyen marjın önümüzdeki 2-3 çeyrekte yeniden %38-40 bandına dönüp dönemeyeceği, uzun vadeli tezin sınavı olacaktır."
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir çeyreklik bazda 47.5B'den 60.8B'ye yükselmiş, %28 y/y büyüme güçlü seyretmekte; ancak bir önceki çeyrekteki 59.9B zirvesine kıyasla hafif bir ivme kaybı dikkat çekmektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjı %43'ten %30.9'a belirgin biçimde gerilemiş; ROIC %21.8 ve ROE %29.8 sağlıklı görünse de artan capex baskısı marj trendini aşağı çekmektedir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr 0.60× düzeyinde zayıf nakit dönüşümüne işaret ediyor; FCF marjının yalnızca %3 olması ve $1.7B gibi düşük FCF rakamı, bu çeyreğin kârlılığının büyük bölümünün nakit karşılığı olmadığını göstermektedir."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç -$96.9B ile oldukça yüksek; yoğun veri merkezi yatırım döngüsünde bu borç yükü faiz giderlerini artırarak finansal esnekliği kısıtlamaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 21.1 ve FD/Satış 8.3, %28 büyüme ve güçlü moat için makul görünse de FCF marjının %3'e gerilemesi nedeniyle Fiyat/FCF 45.9 ile hisse, nakit akışı bazında zorlanmış görünmektedir."
+   }
+  ],
+  "concept": {
+   "title": "FCF Marjı ile Net Kâr Marjının Ayrışması",
+   "body": "Bir şirketin muhasebe kârı yüksek görünürken serbest nakit akışı (FCF) zayıf kalıyorsa, bu genellikle yoğun sermaye harcamaları veya işletme sermayesi baskısından kaynaklanır. Meta'da bu çeyrek net marj %26 iken FCF marjının yalnızca %3 olması, veri merkezi yatırımlarının nakit üretimini geçici ya da kalıcı olarak baskıladığını ve değerleme için F/K yerine Fiyat/FCF çarpanının daha açıklayıcı olduğunu göstermektedir."
+  }
+ }
+}
