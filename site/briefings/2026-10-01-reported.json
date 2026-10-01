@@ -1,0 +1,355 @@
+{
+ "date": "2026-10-01",
+ "slot": "reported",
+ "generated_at": "2026-10-01T11:52:01+00:00",
+ "mock": false,
+ "ticker": "MU",
+ "company": {
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1202927960064
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (30 Eylül)"
+ },
+ "price": {
+  "last": 1065.11,
+  "change_pct": -0.36
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-30",
+  "next_date": "2026-12-23",
+  "last_label": "30 Eylül",
+  "next_label": "23 Aralık",
+  "days_to_next": 83,
+  "progress_pct": 1
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$41.5B",
+   "sub": "+%346 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$33.42",
+   "sub": "Beat · beklenti $31.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%84.6",
+   "sub": "+10.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$17.6B",
+   "sub": "marj %42",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 30 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$41.5B",
+      "note": "+%346 y/y",
+      "tone": "green",
+      "spark": [
+       9.3,
+       11.31,
+       13.64,
+       23.86,
+       41.46
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28.2B",
+      "note": "+%1398 y/y",
+      "tone": "green",
+      "spark": [
+       20.3,
+       28.3,
+       38.4,
+       57.8,
+       68.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$33.42",
+      "note": "beklenti $31.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%84.6",
+      "note": "+10.1 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       37.7,
+       44.7,
+       56.0,
+       74.4,
+       84.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%80.4",
+      "note": "+57.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       23.3,
+       32.6,
+       45.0,
+       67.6,
+       80.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%48.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%66.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%34.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.52×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "375",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$17.6B",
+      "note": "marj %42",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$18.6B",
+      "note": "nakit $25.0B · borç $6.4B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirket, bir sonraki yıl üretiminin %75'inin önceden taahhüt altına alındığını açıkladı; CFO, güçlü geri alım kapasitesine sahip olduklarını ve bunu kullanma niyetinde olduklarını belirtti.",
+      "note": "Görünürlük yüksek ve yönetim güveni yerinde; ancak margin ivmesinin 'down' seyretmesi, rehberliğin ne kadar iyimser olduğunu sorgulatıyor.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "14.3×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "5.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "13.1×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "46.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    9.3,
+    11.3,
+    13.6,
+    23.9,
+    41.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    37.7,
+    44.7,
+    56.0,
+    74.4,
+    84.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Micron, gelecek yıl üretiminin yüzde 75'inin zaten taahhüt altında olduğunu açıkladı; analistler bu güçlü ön talebe rağmen hisse fiyatının neden tepki vermediğini tartışıyor.",
+   "source": "benzinga",
+   "published": "2026-10-01",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62098162/micron-75-percent-output-committed-mu-stock-analyst-explains",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "CFO, şirketin 73 milyar dolarlık nakit dağını harekete geçirme kapasitesine ve niyetine sahip olduğunu belirterek daha büyük hisse geri alımlarına işaret etti.",
+   "source": "benzinga",
+   "published": "2026-10-01",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62098102/microns-73-billion-cash-mountain-is-about-to-move-cfo-signals-bigger-buybacks-we-have-the-ability-and-the-intent",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Micron, insansı robotların sunucu düzeyinde bellek çiplerine ihtiyaç duyacağını öngörerek bu segmenti uzun vadeli büyüme katalizörü olarak konumlandırdı.",
+   "source": "benzinga",
+   "published": "2026-10-01",
+   "url": "https://www.benzinga.com/markets/earnings/26/09/62096820/micron-humanoid-robots-memory-driver-server-level-chips",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Analistler, tarihi yükselişin ardından MU hissesinde 'bundan sonra ne var?' sorusunu soruyor; yukarı potansiyelin sınırlandığına dair artan temkinlilik dikkat çekiyor.",
+   "source": "benzinga",
+   "published": "2026-10-01",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62099191/micron-stock-has-made-historic-run-traders-are-now-asking-whats-left",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Micron Technology, DRAM ve NAND flash bellek çipleri üreten dünya genelinde önde gelen bir yarı iletken şirketidir. Veri merkezi operatörleri, yapay zeka altyapısı kurucuları, mobil cihaz üreticileri ve otomotiv sektörüne bellek çözümleri satar; gelirini büyük ölçüde bu bileşenlerin toplu satışından elde eder.",
+  "note": "Micron, HBM (High Bandwidth Memory) ve yapay zeka odaklı veri merkezi talebiyle son dört çeyrekte gelirini yaklaşık 4,5 katına çıkardı; %84,6 brüt marj ve %48,6 ROIC, iş modelinin döngüsellikten yapısal bir güce doğru evrildiğine işaret ediyor. Üretimin %75'inin önceden taahhüt altına alınmış olması, talep görünürlüğünü artırıyor ve fiyatlama gücünü destekliyor. Ancak bellek sektörünün tarihsel döngüselliği, kapasitedeki olası bir aşırı yatırım dalgasıyla birlikte 3-5 yıllık tezi en büyük kırılganlık noktası olmaya devam ediyor.",
+  "counter": "Bellek sektörü, talep yumuşadığında veya rakipler (Samsung, SK Hynix) kapasite artırdığında fiyatların hızla çöktüğü derin bir döngüsellik tarihine sahiptir; mevcut rekor marjlar bir tepe noktasını işaret ediyor olabilir. Yapay zeka harcamalarının yavaşlaması ya da müşteri stoklarının birikimi, 2024-25 döngüsünün tersine dönmesi kadar sert bir marj baskısı yaratabilir.",
+  "watch": [
+   "HBM ve veri merkezi DRAM fiyat trendleri: rakip kapasite artışıyla birlikte fiyat baskısı ve marj sıkışması erken döngü sinyali verir",
+   "Sermaye harcaması/gelir oranı: 73 milyar dolarlık nakit dağının yatırıma mı yoksa geri alıma mı yönleneceği, uzun vadeli FCF dönüşümünü belirleyecek"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 9,3 milyar dolardan 41,5 milyar dolara yükselerek güçlü bir hızlanma sergiledi, ancak bu yüksek bazın önümüzdeki dönemde büyüme oranını doğal olarak baskılayacağı unutulmamalıdır."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "%84,6 brüt marj ve %48,6 ROIC, şirketin döngünün zirvesinde olağanüstü bir kârlılık seviyesine ulaştığını gösteriyor; marj trendinin 'down' işaretli olması ise bu zirvenin geride kaldığına dair erken bir uyarı sinyalidir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşüm oranının 0,52x düzeyinde kalması, yüksek sermaye harcamalarının serbest nakit akışını baskıladığını ve muhasebe kârlarının tamamının nakde dönüşmediğini ortaya koyuyor; %1,8 seyrelmesi makul ama göz ardı edilmemeli."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "18,6 milyar dolarlık net nakit pozisyonu ve CFO'nun daha büyük geri alım sinyali vermesi, bilanço esnekliğinin yüksek olduğunu ve sermayenin hissedarlara iade edilmeye başlandığını gösteriyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 5,3x son derece cazip görünse de bu çarpan, piyasanın döngüsel bir zirve yaklaştığına fiyat biçtiğine işaret eder; FD/Satış 13,1x ve Fiyat/FCF 46x ise marjların kalıcı olup olmadığı konusundaki şüpheciliği yansıtıyor."
+   }
+  ],
+  "concept": {
+   "title": "Döngüsel Zirve Tuzağı (Peak Cycle Trap)",
+   "body": "Bellek çipleri gibi emtia-benzeri ürünlerde kârlılık, arz-talep dengesi bozulduğunda çok hızlı bozulabilir; en yüksek marjlar çoğunlukla döngünün tepe noktasını işaret eder. Micron'un %84,6 brüt marjı tarihsel olarak eşsiz olsa da, aynı ölçütün 2022 tepe döneminde de benzer seviyelerde görülüp ardından dramatik biçimde çöktüğü hatırlanmalıdır."
+  }
+ }
+}
