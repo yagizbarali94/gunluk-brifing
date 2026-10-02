@@ -1,0 +1,355 @@
+{
+ "date": "2026-10-02",
+ "slot": "reported",
+ "generated_at": "2026-10-02T11:24:06+00:00",
+ "mock": false,
+ "ticker": "MU",
+ "company": {
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1239384719360
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (30 Eylül)"
+ },
+ "price": {
+  "last": 1097.39,
+  "change_pct": 0.66
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-30",
+  "next_date": "2026-12-23",
+  "last_label": "30 Eylül",
+  "next_label": "23 Aralık",
+  "days_to_next": 82,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$41.5B",
+   "sub": "+%346 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$33.42",
+   "sub": "Beat · beklenti $31.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%84.6",
+   "sub": "+10.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$17.6B",
+   "sub": "marj %42",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 30 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$41.5B",
+      "note": "+%346 y/y",
+      "tone": "green",
+      "spark": [
+       9.3,
+       11.31,
+       13.64,
+       23.86,
+       41.46
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$28.2B",
+      "note": "+%1398 y/y",
+      "tone": "green",
+      "spark": [
+       20.3,
+       28.3,
+       38.4,
+       57.8,
+       68.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$33.42",
+      "note": "beklenti $31.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%84.6",
+      "note": "+10.1 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       37.7,
+       44.7,
+       56.0,
+       74.4,
+       84.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%80.4",
+      "note": "+57.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       23.3,
+       32.6,
+       45.0,
+       67.6,
+       80.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%48.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%88.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%44.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.52×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "375",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$17.6B",
+      "note": "marj %42",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$18.6B",
+      "note": "nakit $25.0B · borç $6.4B",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Micron'un 150 milyar dolarlık sözleşme kitabı haberlerde öne çıktı; şirket yönetimi AI bellek talebinin derinleştiğini ve arzın kıt kalmaya devam ettiğini vurguladı.",
+      "note": "Sözleşme kitabı gelirin 3.6 katı büyüklüğünde olup görünürlük güçlü; ancak resmi çeyrek yönlendirmesi bu veride yer almıyor.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "14.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "5.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.0×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "11.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "47.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    9.3,
+    11.3,
+    13.6,
+    23.9,
+    41.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "May'25",
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26"
+   ],
+   "values": [
+    37.7,
+    44.7,
+    56.0,
+    74.4,
+    84.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Micron'un 150 milyar dolarlık sözleşme kitabı, şirketin yıllık gelirinin çok üzerinde olup uzun vadeli talep görünürlüğünü güçlü biçimde destekliyor.",
+   "source": "benzinga",
+   "published": "2026-10-01",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/10/62115548/micron-150-billion-contract-book",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Samsung'un 2027'de HBM fiyatlarını üç katına çıkaracağı iddiası, sektör genelinde fiyatlama gücünün süreceğine işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-10-02",
+   "url": "https://www.benzinga.com/news/26/10/62129274/reported-earlier-samsung-triple-hbm-prices-next-year-mk-exclusive",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bir analist, AI bellek kıtlığının derinleştiğini öne sürerek arz fazlası korkularını reddetti.",
+   "source": "benzinga",
+   "published": "2026-10-02",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62128369/micron-analyst-dismisses-supply-glut-fears-as-ai-memory-crunch-deepens",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Elon Musk'ın Tesla Optimus'ta bellek kıstığını açıklaması, Micron'un insansı robotların 200 GB+ bellek gerektirdiği savıyla çelişiyor ve yeni bir talep cephesini gündeme taşıyor.",
+   "source": "benzinga",
+   "published": "2026-10-02",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62125996/elon-musk-tesla-optimus-memory-micron-humanoid-robots",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Micron Technology, DRAM ve NAND flash bellek çipleri üretip veri merkezi, mobil, otomotiv ve tüketici elektroniği müşterilerine satan bir yarı iletken şirketidir. Gelirinin büyük bölümü yüksek bant genişlikli bellek (HBM) ve sunucu DRAM satışlarından gelmektedir.",
+  "note": "Micron, yapay zeka altyapısına yönelik HBM talebiyle bellek sektöründe tarihsel eşi görülmemiş bir marj yapısına ulaştı; ROIC %48.6 ve 150 milyar dolarlık sözleşme kitabı, görünürlüğü yüksek bir büyüme zemini oluşturuyor. Bellek sektörünün döngüselliği göz önüne alındığında, bu marj seviyeleri zirveyi işaret ediyor olabilir; ancak HBM'nin AI GPU'larına yapısal bağımlılığı, geleneksel bellek döngülerinden farklı bir talep tabanı yaratıyor. 3-5 yıllık tezde belirleyici soru, HBM'deki teknoloji liderliğinin ve fiyatlama gücünün Samsung/SK Hynix rekabetine rağmen korunup korunamayacağıdır.",
+  "counter": "Bellek sektörü tarihsel olarak aşırı kapasite yatırımlarıyla fiyat çöküşlerine sahne olmaktadır; Samsung'un HBM kapasitesini agresif artırması ve potansiyel fiyat savaşı, mevcut %84 brüt marjın hızla erimesine yol açabilir. Müşteri yoğunlaşması (birkaç büyük AI çip tasarımcısına bağımlılık) da uzun vadeli bir sözleşme riskidir.",
+  "watch": [
+   "HBM birim fiyatları ve Samsung'un 2027 fiyat stratejisi: Marj sürdürülebilirliğinin en kritik göstergesi",
+   "FCF/net kâr dönüşüm oranı: Sermaye harcamalarının azalıp nakit üretimine dönüştüğü nokta, gerçek değerleme tezini doğrulayacak"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 9.3 milyar dolardan 41.5 milyar dolara çıkarak son çeyrekte yıllık %346 büyüme kaydetti; ivme trend olarak hâlâ yukarı, ancak bu taban etkisi artık çok yüksek olduğundan önümüzdeki çeyreklerde büyüme hızının normalleşmesi kaçınılmaz."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %84.6, faaliyet marjı %80.4 ile tarihi zirvedeyken ROIC %48.6 ve ROE %88.3, sermayenin istisnai ölçüde verimli kullanıldığını gösteriyor; marj trendi 'down' işaretlenmesi bir sonraki çeyrekte baskı başlayabileceğine işaret ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümü 0.52× ile kârın ancak yarısı nakde dönüşüyor; yoğun sermaye harcamaları (yeni HBM kapasitesi) bu makasın temel sebebi olup fiyat/FCF çarpanı 47.4× ile değerlemeyi zorlaştırıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "18.6 milyar dolar net nakit pozisyonu, şirkete agresif yatırım veya olası döngüsel düşüşlere karşı güçlü bir tampon sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 5.3× olağanüstü cazip görünüyor; ancak bu çarpan, mevcut zirve marjlarının sürdürülebileceğini varsayıyor; marjlar normalleşirse gerçek ileri kazanç tahmini hızla aşağı revize edilebilir, bu yüzden iskontoya temkinli yaklaşmak gerekiyor."
+   }
+  ],
+  "concept": {
+   "title": "Döngüsel Zirve Tuzağı (Peak Cycle Trap)",
+   "body": "Döngüsel sektörlerde şirketler en yüksek kârı raporladığında F/K oranları paradoks biçimde en düşük görünür; çünkü payda (kazanç) zirvededir ve piyasa sürdürülemez olduğunu fiyatlar. Micron'un F/K 14.8× ile tarihsel ortalamasının altında görünmesi tam olarak bu fenomeni yansıtıyor: %84 brüt marjın kalıcı mı, geçici mi olduğuna verilen yanıt, hisse fiyatını belirleyecek."
+  }
+ }
+}
