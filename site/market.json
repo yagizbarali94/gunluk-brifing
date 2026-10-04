@@ -1,6 +1,6 @@
 {
- "date": "2026-10-03",
- "generated_at": "2026-10-03T10:41:33+00:00",
+ "date": "2026-10-04",
+ "generated_at": "2026-10-04T11:21:07+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -182,22 +182,22 @@
   {
    "date": "2026-10-13",
    "label": "JPM bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "13 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend yüzeyde sağlam görünüyor; ancak daralan breadth, sert yükselen faizler ve zayıflayan kredi iştahı zeminin kırılganlığına işaret ediyor.",
-  "read": "Üç büyük endeks teknik olarak 200 günlük ortalamanın üzerinde kalsa da yükselişi fiilen Teknoloji sektörü taşıyor; sektörlerin yalnızca üçte biri 200 gün üstünde ve küçük şirketleri temsil eden Russell 2000 zirveden yaklaşık %8 geride. Bu tablo, geniş tabanlı bir yükselişten çok birkaç mega-cap'in tüm ağırlığı sırtladığı 'dar piyasa' rejimine işaret eder. 10 yıllık faizin bir ayda %5.28'e fırlaması ve doların güçlenmesi hem büyüme hem de değerleme baskısı yaratırken yüksek getirili tahvillerdeki -%2.4'lük gerileme kredi piyasasının bu koşullara daha ihtiyatlı baktığını gösteriyor. VIX'in 15 civarında sakin seyretmesi ve vade yapısının contango'da olması anlık bir panik olmadığını söylüyor; ancak bu sakinlik zemindeki kırılganlıkların fiyatlandığı anlamına gelmiyor.",
+  "headline": "Trend teknik olarak yukarıda ancak dar breadth, sert yükselen faizler ve kredi zayıflığı zeminin kırılganlığına işaret ediyor.",
+  "read": "Üç büyük endeksin de 200 günlük ortalamanın üzerinde olması trendi teknik açıdan sağlam gösterse de tablonun altı oldukça çatlak: sektörlerin yalnızca %36'sı bu ortalamanın üzerinde ve eşit-ağırlıklı endeks son üç ayda cap-ağırlıklıdan 5 puan geride kalıyor; yükselişi birkaç mega-cap taşıyor. 10 yıllık faizin bir ayda 50 baz puana yakın sıçrayarak %5.28'e ulaşması, yüksek değerlemeli varlıklar için iskonto oranı baskısı anlamına geliyor; bu hareketle eş zamanlı altının belirgin düşmesi ve doların sertçe değer kazanması, küresel risk iştahında seçici bir daralmanın sinyali olarak okunabilir. Yüksek getirili tahvil fiyatlarının %2.4 gerilemesi kredi cephesinde stres işaretleri taşıdığından, hisse senedi fiyatlamasının kredi piyasasından ayrışması dikkat gerektiriyor. Kısaca rüzgâr teknik olarak arkadan esmeye devam etse de zemindeki koşullar, yalnızca birkaç sektörün taşıdığı dar bir yükseliş için oldukça zorlu bir makro ortam oluşturuyor.",
   "watch": [
-   "10 yıllık ABD Hazine faizinin %5.28 seviyesinde tutunup tutunmadığı — daha fazla yükseliş hisse değerlemelerini ve kredi koşullarını doğrudan etkiler",
-   "13 Ekim JPMorgan bilançosu: banka kârlılığı ve kredi kalitesi verileri, finans sektörünün neden bu kadar geride kaldığına ışık tutacak",
-   "Breadth göstergesinin genişleyip genişlemediği — eşit ağırlıklı endeksin cap-ağırlıklıya yakınlaşması veya daha da ayrışması rejimin sağlığı için kritik sinyal"
+   "10 yıllık ABD tahvil faizinin %5.28 seviyesinin üzerinde kalıcılaşıp kalıcılaşmayacağı — yükselme devam ederse değerleme baskısı genişleyebilir",
+   "13 Ekim JPMorgan bilançosu: kredi karşılıkları ve yönetimin faiz ortamına ilişkin yorumları, finansal sektördeki zayıflığın geçici mi yapısal mı olduğuna dair ipucu verecek",
+   "HYG (yüksek getirili tahvil ETF) fiyat hareketi: kredi ile hisse senedi arasındaki ayrışmanın kapanıp kapanmadığı, genel risk iştahının seyri için öncü gösterge işlevi görüyor"
   ],
   "concept": {
-   "title": "Dar Piyasa (Narrow Market Breadth)",
-   "body": "Dar piyasa, endeks yükselirken bu harekete katılan hisse veya sektör sayısının azalması durumunu tanımlar; yükselişin birkaç büyük isim üzerinde yoğunlaşması, tabanın genişlemediğine ve trendin kırılganlığının arttığına işaret eder. Tarihsel olarak breadth'in endeks performansından uzun süre sapması, olası bir konsolidasyon veya rotasyon dönemine zemin hazırlayan bir uyarı sinyali olarak değerlendirilir."
+   "title": "Breadth Daralması (Narrow Market Breadth)",
+   "body": "Breadth daralması, endeks yükselmeye devam ederken bu yükselişe katılan hisse ya da sektör sayısının azalması durumunu tanımlar; bu durumda endeks performansı gerçek piyasa sağlığını olduğundan iyi gösterebilir. Tarihsel olarak sürdürülebilir yükselişler geniş tabanlı katılımla gelir; dar breadth tek başına bir sinyal değil, mevcut rallinin kalitesini sorgulatması gereken bir bağlam unsurudur."
   }
  }
 }

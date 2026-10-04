@@ -1,0 +1,344 @@
+{
+ "date": "2026-10-04",
+ "slot": "upcoming",
+ "generated_at": "2026-10-04T11:20:20+00:00",
+ "mock": false,
+ "ticker": "NOW",
+ "company": {
+  "name": "ServiceNow, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 138930388992
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 134.38,
+  "change_pct": -2.27
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-22",
+  "next_date": "2026-10-28",
+  "last_label": "22 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 24,
+  "progress_pct": 76
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$4.0B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.90",
+   "sub": "Beat · beklenti $0.86",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%70.7",
+   "sub": "-4.4 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$473M",
+   "sub": "marj %12",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 22 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$4.0B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       3.21,
+       3.41,
+       3.57,
+       3.77,
+       3.99
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$298M",
+      "note": "-%23 y/y",
+      "tone": "amber",
+      "spark": [
+       12.0,
+       14.7,
+       11.2,
+       12.4,
+       7.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.90",
+      "note": "beklenti $0.86 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%70.7",
+      "note": "-4.4 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       77.5,
+       77.3,
+       76.6,
+       75.1,
+       70.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%4.1",
+      "note": "-7.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       11.1,
+       16.8,
+       12.4,
+       13.3,
+       4.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%8.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%14.2",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%4.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "2.74×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%1.1 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "55",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$473M",
+      "note": "marj %12",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-6.0B",
+      "note": "nakit $2.5B · borç $8.5B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "84.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "26.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "9.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "49.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "30.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    3.2,
+    3.4,
+    3.6,
+    3.8,
+    4.0
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    77.5,
+    77.3,
+    76.6,
+    75.1,
+    70.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Accenture'ın güçlü bilançosu yazılım hisselerini yukarı çekti, ServiceNow bu yükselişten pay aldı.",
+   "source": "benzinga",
+   "published": "2026-10-01",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62117340/servicenow-rallies-as-accenture-earnings-lift-software-stocks",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "ServiceNow CEO'su, Elon Musk ve diğer teknoloji liderlerinin katıldığı Beyaz Saray AI toplantısına davet edildi.",
+   "source": "benzinga",
+   "published": "2026-09-29",
+   "url": "https://www.benzinga.com/news/26/09/62050039/elon-musk-ceos-palantir-amazon-service-now-altimeter-attend-white-house-meeting-ai-microsoft-ceo-sat",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Trump, AI şirket liderlerinin kendi kendini denetlediğini ve yapay zeka üzerine ahlaki bağlayıcı nitelikte bir belge imzalandığını açıkladı.",
+   "source": "benzinga",
+   "published": "2026-09-29",
+   "url": "https://www.benzinga.com/economics/macro-economic-events/26/09/62064747/president-trump-meeting-ai-leaders-says-signed-ai-document-form-protection-i-think-document-morally-",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "ABD Temsilciler Meclisi Başkanı Johnson, AI güvenliği ve standartları konusunda şirketlerle uzlaşı sağlandığını duyurdu.",
+   "source": "benzinga",
+   "published": "2026-09-29",
+   "url": "https://www.benzinga.com/news/26/09/62064377/u-s-house-speaker-johnson-on-meeting-with-ai-leaders-says-we-discussed-striking-right-balance-discussed-ai-companies-ensuring-safety-ai-providers-committed-to-building-trust-we-just-signed-accord-2",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "ServiceNow, kurumsal süreç otomasyonu ve iş akışı yönetimi platformu sunan bir SaaS şirketidir. Büyük ölçekli şirketlere IT, HR, müşteri hizmetleri ve güvenlik operasyonlarını tek platformda dijitalleştirme imkânı tanır; abonelik bazlı gelir modeliyle çalışır.",
+  "note": "ServiceNow'un platform yapışkanlığı ve çoklu iş akışı entegrasyonu güçlü bir hendek oluşturmaya devam etmektedir; ancak bu çeyrekte brüt marjın 77,5%'ten 70,7%'ye gerilemesi ve faaliyet marjının 4,1%'e düşmesi ciddi bir yapısal soru işareti doğurmaktadır. Yapay zeka yeteneklerinin platforma entegrasyonu uzun vadeli büyüme hikayesini destekliyor olsa da bu yatırımların marj üzerindeki baskısı 3-5 yıllık tezin sağlamlığı açısından yakından izlenmelidir. FCF dönüşümünün güçlü kalması (2,74×) tezin tamamen bozulmadığına işaret eder, ancak kârlılık toparlanması görülmeden prim değerleme savunulabilir değil.",
+  "counter": "Microsoft Copilot ve Salesforce gibi platformların iş akışı otomasyonu alanına agresif biçimde girmesi, ServiceNow'un fiyatlama gücünü ve net yeni logo kazanımını orta vadede baskı altına alabilir. Bunun yanı sıra AI yatırımlarının marj üzerindeki yükü öngörüldüğünden uzun süre devam ederse yüksek değerleme sürdürülemez hale gelir.",
+  "watch": [
+   "Brüt marjın toparlanıp toparlanamayacağı — AI altyapı yatırımlarının ne zaman verimlilik kazancına dönüşeceği",
+   "Net yeni ACV (yıllık sözleşme değeri) büyümesi ve rekabetçi baskı altında fiyatlama gücünün korunup korunmadığı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir çeyrekten çeyreğe 3,2 milyardan 4,0 milyara istikrarlı biçimde tırmanıyor; yıllık %24 büyüme, ölçek göz önüne alındığında sektörde güçlü bir pozisyonu korumaktadır."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Brüt marj son beş çeyrekte 6,8 puan gerilemiş, faaliyet marjı %4,1'e düşmüş; ROIC %8,2 ağırlıklı sermaye maliyetinin yalnızca hafif üzerinde kalarak değer yaratma kapasitesini sorgulatır hale gelmiştir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 2,74× ile muhasebe kârının çok üzerinde nakit üretimi gerçekleşiyor; hisse geri alımları sayesinde seyreltme -%1,1 ile kontrol altında tutulmaktadır."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç 6,0 milyar dolar seviyesinde; güçlü FCF üretimi bu yükü yönetilebilir kılıyor ancak faiz ortamı ve AI yatırım harcamaları göz önünde bulundurulduğunda kaldıraç dikkat gerektirir."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "Cari F/K 84×, FD/Satış 9,7× ve Fiyat/FCF 30,4× gibi çarpanlar; marjların bu denli hızlı gerilediği bir ortamda mükemmeli fiyatlıyor ve hata payı son derece dar bırakıyor."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "SaaS şirketleri için büyüme oranı ile kâr marjının toplamının 40'ı aşması, sağlıklı bir ölçek-kârlılık dengesini ifade eder. ServiceNow 55 puanla bu eşiğin belirgin üzerinde; ancak faaliyet marjının dramatik düşüşü FCF marjının bu skoru tek başına taşıdığına işaret ediyor, bu durum kalitenin sorgulanmasını gerektiriyor."
+  }
+ }
+}
