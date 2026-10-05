@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-05-upcoming",
+  "date": "2026-10-05",
+  "ticker": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-05-reported",
+  "date": "2026-10-05",
+  "ticker": "SNOW",
+  "name": "Snowflake Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-04-upcoming",
   "date": "2026-10-04",
   "ticker": "NOW",

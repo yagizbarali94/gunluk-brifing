@@ -1,6 +1,6 @@
 {
- "date": "2026-10-04",
- "generated_at": "2026-10-04T11:21:07+00:00",
+ "date": "2026-10-05",
+ "generated_at": "2026-10-05T12:43:21+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.31,
+  "vix": 16.13,
   "vix3m": 18.01,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 3.0
+  "vix_chg_5d": 0.4
  },
  "breadth": {
   "rsp_3m": -2.0,
@@ -141,8 +141,8 @@
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%5.28",
-    "note": "son 1 ay +%11.4",
+    "value": "%5.27",
+    "note": "son 1 ay +%12.0",
     "tone": "gray"
    },
    {
@@ -153,7 +153,7 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.9",
+    "value": "102.2",
     "note": "son 1 ay +%3.2",
     "tone": "gray"
    },
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$91.1",
-    "note": "son 1 ay +%4.7",
+    "value": "$90.3",
+    "note": "son 1 ay +%6.3",
     "tone": "gray"
    },
    {
@@ -182,22 +182,22 @@
   {
    "date": "2026-10-13",
    "label": "JPM bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "13 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend teknik olarak yukarıda ancak dar breadth, sert yükselen faizler ve kredi zayıflığı zeminin kırılganlığına işaret ediyor.",
-  "read": "Üç büyük endeksin de 200 günlük ortalamanın üzerinde olması trendi teknik açıdan sağlam gösterse de tablonun altı oldukça çatlak: sektörlerin yalnızca %36'sı bu ortalamanın üzerinde ve eşit-ağırlıklı endeks son üç ayda cap-ağırlıklıdan 5 puan geride kalıyor; yükselişi birkaç mega-cap taşıyor. 10 yıllık faizin bir ayda 50 baz puana yakın sıçrayarak %5.28'e ulaşması, yüksek değerlemeli varlıklar için iskonto oranı baskısı anlamına geliyor; bu hareketle eş zamanlı altının belirgin düşmesi ve doların sertçe değer kazanması, küresel risk iştahında seçici bir daralmanın sinyali olarak okunabilir. Yüksek getirili tahvil fiyatlarının %2.4 gerilemesi kredi cephesinde stres işaretleri taşıdığından, hisse senedi fiyatlamasının kredi piyasasından ayrışması dikkat gerektiriyor. Kısaca rüzgâr teknik olarak arkadan esmeye devam etse de zemindeki koşullar, yalnızca birkaç sektörün taşıdığı dar bir yükseliş için oldukça zorlu bir makro ortam oluşturuyor.",
+  "headline": "Yüzey sakin görünse de dar breadth, yükselen faizler ve kredi stresi rejimin kırılganlığını artırıyor.",
+  "read": "Üç büyük endeksin tamamı 200 günlük ortalamanın üzerinde seyretmekte; bu teknik açıdan yukarı yönlü bir zemin olduğunu gösteriyor. Ancak kazanımlar son derece dar bir tabana yaslanmış durumda: sektörlerin yalnızca %36'sı 200 günlük ortalama üzerinde ve eşit ağırlıklı endeks, cap ağırlıklıya kıyasla 3 ayda 5,1 puan geride kalıyor; yükselişi fiilen Teknoloji taşıyor. Öte yandan 10 yıllık faizin bir ayda %5,27'ye yükselmesi, dolardaki sert güçlenme ve yüksek getirili tahvil piyasasındaki zayıflık (HYG -%2,4) birlikte değerlendirildiğinde finansman koşullarının sıkılaştığı ve risk iştahının arka kapıdan çekildiği görülüyor. VIX'in 16 civarında sakin kalması ve vade yapısının contango olması anlık bir panik olmadığına işaret ediyor; fakat bu görece sükûnet, altında biriken baskıları değil yüzey görünümünü yansıtıyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin %5.28 seviyesinin üzerinde kalıcılaşıp kalıcılaşmayacağı — yükselme devam ederse değerleme baskısı genişleyebilir",
-   "13 Ekim JPMorgan bilançosu: kredi karşılıkları ve yönetimin faiz ortamına ilişkin yorumları, finansal sektördeki zayıflığın geçici mi yapısal mı olduğuna dair ipucu verecek",
-   "HYG (yüksek getirili tahvil ETF) fiyat hareketi: kredi ile hisse senedi arasındaki ayrışmanın kapanıp kapanmadığı, genel risk iştahının seyri için öncü gösterge işlevi görüyor"
+   "10 yıllık ABD Hazine faizinin %5,27 seviyesinin üzerinde kalıcılaşıp kalıcılaşmayacağı — bu eşiğin aşılması değerleme baskısını artırabilir",
+   "13 Ekim JPM bilançosu: kredi kalitesi, net faiz marjı ve yönetim yorum tonu, hem finans sektörünün hem de genel kredi ortamının nabzını verecek",
+   "Breadth'in toparlanıp toparlanmayacağı — sektör genelinde 200g üzerindeki hisse oranının %36'dan yukarı çıkması rejimin sağlıklılaştığının, daha da daralması ise kırılganlığın derinleştiğinin işareti olur"
   ],
   "concept": {
-   "title": "Breadth Daralması (Narrow Market Breadth)",
-   "body": "Breadth daralması, endeks yükselmeye devam ederken bu yükselişe katılan hisse ya da sektör sayısının azalması durumunu tanımlar; bu durumda endeks performansı gerçek piyasa sağlığını olduğundan iyi gösterebilir. Tarihsel olarak sürdürülebilir yükselişler geniş tabanlı katılımla gelir; dar breadth tek başına bir sinyal değil, mevcut rallinin kalitesini sorgulatması gereken bir bağlam unsurudur."
+   "title": "Dar Breadth (Piyasa Genişliği Daralması)",
+   "body": "Piyasa genişliği, bir yükselişe katılan hisse veya sektör sayısını ölçer; endeks yukarı giderken katılım azalıyorsa yükseliş, giderek küçülen bir omuz üzerinde taşınıyor demektir. Bu durum tek başına bir sinyal değil bir bağlamdır: geniş tabanlı ralliler genellikle daha sürdürülebilir kabul edilirken, dar tabanlı yükselişler kırılganlık algısını artırır çünkü lider hisseler tökezlediğinde tamponu olacak ikinci bir katman bulunmaz."
   }
  }
 }
