@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-07-upcoming",
+  "date": "2026-10-07",
+  "ticker": "ANET",
+  "name": "Arista Networks, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-07-reported",
+  "date": "2026-10-07",
+  "ticker": "NET",
+  "name": "Cloudflare, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-06-upcoming",
   "date": "2026-10-06",
   "ticker": "DDOG",
