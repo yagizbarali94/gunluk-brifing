@@ -1,6 +1,6 @@
 {
- "date": "2026-10-07",
- "generated_at": "2026-10-07T12:04:16+00:00",
+ "date": "2026-10-08",
+ "generated_at": "2026-10-08T12:17:05+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7818.93,
-    "chg_1d": 0.58,
+    "last": 7801.77,
+    "chg_1d": -0.22,
     "above_50": true,
     "above_200": true,
-    "from_high": 0.0,
+    "from_high": -0.2,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 31224.47,
-    "chg_1d": 0.48,
+    "last": 31160.08,
+    "chg_1d": -0.21,
     "above_50": true,
     "above_200": true,
-    "from_high": 0.0,
+    "from_high": -0.2,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2830.3,
-    "chg_1d": -0.59,
+    "last": 2793.2,
+    "chg_1d": -1.31,
     "above_50": false,
     "above_200": true,
-    "from_high": -7.8,
+    "from_high": -9.0,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.99,
-  "vix3m": 17.64,
+  "vix": 15.77,
+  "vix3m": 17.72,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -2.1
+  "vix_chg_5d": -3.8
  },
  "breadth": {
-  "rsp_3m": -0.2,
-  "spy_3m": 3.9,
-  "spread": -4.1,
+  "rsp_3m": -1.4,
+  "spy_3m": 3.2,
+  "spread": -4.6,
   "pct_sectors_above_200": 36,
   "verdict": "dar — piyasayı birkaç mega-cap taşıyor",
   "tone": "amber"
@@ -67,106 +67,106 @@
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": 11.3,
+    "chg": 10.3,
     "group": "döngüsel"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 3.3,
+    "chg": 2.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": -1.0,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLI",
-    "name": "Sanayi",
-    "chg": -3.6,
+    "chg": -0.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": -4.3,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLU",
-    "name": "Kamu hizmetleri",
-    "chg": -4.3,
-    "group": "defansif"
-   },
-   {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": -4.8,
+    "chg": -2.4,
     "group": "defansif"
    },
    {
     "ticker": "XLY",
     "name": "Tüketici (döngüsel)",
-    "chg": -5.1,
+    "chg": -4.7,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLB",
-    "name": "Malzeme",
-    "chg": -6.8,
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": -4.7,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLU",
+    "name": "Kamu hizmetleri",
+    "chg": -4.7,
+    "group": "defansif"
+   },
+   {
+    "ticker": "XLI",
+    "name": "Sanayi",
+    "chg": -6.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": -7.0,
+    "chg": -7.4,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLB",
+    "name": "Malzeme",
+    "chg": -8.3,
     "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -8.6,
+    "chg": -9.3,
     "group": "defansif"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-açık — döngüseller önde",
   "tone": "green",
-  "def_avg": -5.5,
-  "cyc_avg": -1.3
+  "def_avg": -5.3,
+  "cyc_avg": -2.2
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%5.27",
-    "note": "son 1 ay +%13.6",
+    "value": "%5.28",
+    "note": "son 1 ay +%13.1",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+1.23 puan",
+    "value": "+1.24 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
     "value": "102.4",
-    "note": "son 1 ay +%3.3",
+    "note": "son 1 ay +%3.2",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$382",
-    "note": "son 1 ay -%10.7",
+    "value": "$376",
+    "note": "son 1 ay -%10.8",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$90.1",
-    "note": "son 1 ay +%9.5",
+    "value": "$92.3",
+    "note": "son 1 ay +%10.5",
     "tone": "gray"
    },
    {
@@ -182,22 +182,22 @@
   {
    "date": "2026-10-13",
    "label": "JPM bilanço",
-   "days": 6,
+   "days": 5,
    "date_label": "13 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yüzey sakin görünse de mega-cap konsantrasyonu, yükselen faizler ve kredi piyasasındaki stres sinyalleri zeminin kırılganlığını artırıyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyretmesi teknik açıdan olumlu bir tablo çizse de bu gücü taşıyan motor son derece dar: eşit ağırlıklı endeks cap ağırlıklıya göre 3 ayda yaklaşık 4 puan geride, sektörlerin yalnızca üçte biri 200 gün üzerinde. 10 yıllık ABD tahvil faizinin %5.27'ye ve bir ayda %13.6 fırlayarak ulaşması, hisse senedi değerlemelerinin üzerindeki faiz baskısını hissettiriyor; küçük şirketler bu yükü zaten fiyatlıyor — Russell 2000 zirveden yaklaşık %8 geride. Yüksek getirili tahvil fonunun (HYG) zayıflaması ve altının sert geri çekilmesi bir arada değerlendirildiğinde, kredi piyasasının iştahının hisse senedi piyasasının 'risk-açık' mesajıyla tam örtüşmediği görülüyor. VIX'in 16 civarında ve contango yapısında olması şimdilik panik olmadığına işaret ediyor; ancak bu sakinlik, konsantrasyonu yüksek bir tabloda kırılganlığı gizleyebilir.",
+  "headline": "Yüzey sakin görünse de dar breadth, hızlanan faiz yükselişi ve kredi piyasasındaki stres rejimin altında kırılganlık birikiyor olduğuna işaret ediyor.",
+  "read": "Üç ana endeksin de 200 günlük ortalamanın üzerinde olması teknik olarak yükseliş rejimini koruyor; ancak bu resmin arkasında birkaç mega-cap hissesinin yarattığı optik bir sağlık var. Sektörlerin yalnızca %36'sının 200 gün üzerinde olması ve eşit ağırlıklı endeksin cap ağırlıklının yaklaşık 4,6 puan gerisinde kalması, taşıyıcı gücün son derece sınırlı ellerde toplandığını gösteriyor. 10 yıllık faizin %5,28'e ulaşması ve son bir ayda %13 hızla yükselmesi değerleme baskısını artırırken, yüksek getirili tahvil piyasasının (HYG) %2,4 gerilemiş olması kredi koşullarının sessiz sedasız sıkıştığına dair erken bir sinyal. Altının sert geri çekilmesi ve petrolün güçlenmesi küresel likidite ortamında değişen bir denge anlatıyor; bu tablo yatırımcı için arka rüzgârın zayıfladığı ama henüz karşı rüzgâra dönmediği bir geçiş zemini sunuyor.",
   "watch": [
-   "13 Ekim JPMorgan bilançosu: banka kredi koşulları ve tahsilat yorumları, kredi stresinin derinliği hakkında erken bir lens sunacak",
-   "10 yıllık faizin %5.50 eşiğine yaklaşması: bu seviye hem büyüme hem de değerleme hassasiyetini hızla artırabilecek kritik bir referans noktası",
-   "HYG ve kredi spreadlerindeki hareket: yüksek getirili tahvil zayıflığının genişleyip genişlemediği, risk iştahının gerçek yönünü teyit edecek gösterge"
+   "10 yıllık ABD tahvil faizinin %5,50 eşiğine yaklaşıp yaklaşmadığı — bu seviye tarihsel olarak hisse senedi değerleme modellerinde kritik bir kırılma noktası",
+   "13 Ekim JPMorgan bilançosu: kredi karşılıkları ve net faiz marjı açıklamaları bankacılık sektörünün sinyali olduğu kadar genel kredi ortamını da fiyatlayacak",
+   "Russell 2000'in zirveden -%9 geriye çekilmesi: küçük ölçekli şirketler yüksek faize daha duyarlı olduğundan bu baskının derinleşip derinleşmediği breadth'in daha da daralıp daralmaması konusunda önemli bir gösterge"
   ],
   "concept": {
-   "title": "Piyasa Genişliği (Market Breadth)",
-   "body": "Breadth, bir rallinin kaç hisse veya sektör tarafından desteklendiğini ölçer; geniş katılım sağlıklı bir yükselişe, dar katılım ise birkaç öncünün taşıdığı kırılgan bir yapıya işaret eder. Bugün olduğu gibi cap ağırlıklı endeks zirveye yakınken eşit ağırlıklı endeksin belirgin biçimde geride kalması, rallinin tüm piyasayı değil yalnızca ağır topları yansıttığını gösterir."
+   "title": "Breadth Daralması (Narrow Market Breadth)",
+   "body": "Breadth daralması, endeks seviyesi yükselirken bu yükselişe katılan hisse sayısının azalması durumunu ifade eder; yani piyasanın 'genişliği' zayıflar. Tarihsel olarak bu tablo, yükselişin sürdürülebilirliği konusunda soru işareti yaratır çünkü birkaç büyük şirketin ağırlığı endeksi yukarıda tutarken altındaki yapısal çözülme gizli kalabilir."
   }
  }
 }
