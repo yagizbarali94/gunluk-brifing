@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-09",
+ "slot": "upcoming",
+ "generated_at": "2026-10-09T12:08:06+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 2375353106432
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 6 gün sonra açıklanacak (15 Ekim) — beklentileri incele"
+ },
+ "price": {
+  "last": 457.99,
+  "change_pct": -0.26
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-16",
+  "next_date": "2026-10-15",
+  "last_label": "16 Temmuz",
+  "next_label": "15 Ekim",
+  "days_to_next": 6,
+  "progress_pct": 93
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.27T",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.31",
+   "sub": "Beat · beklenti $3.89",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.7",
+   "sub": "+1.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$275.0B",
+   "sub": "marj %22",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 16 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.27T",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       933.79,
+       989.92,
+       1046.09,
+       1134.1,
+       1270.38
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$706.6B",
+      "note": "+%77 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       42.7,
+       45.7,
+       46.4,
+       50.5,
+       55.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.31",
+      "note": "beklenti $3.89 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.7",
+      "note": "+1.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       58.6,
+       59.5,
+       62.3,
+       66.2,
+       67.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%60.3",
+      "note": "+10.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       49.6,
+       50.6,
+       54.0,
+       58.1,
+       60.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%29.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%40.0",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%19.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.51×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$275.0B",
+      "note": "marj %22",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.07T",
+      "note": "nakit $3.13T · borç $1.06T",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Şirket, 2026 yılı toplam capex'ini 64 milyar dolara kadar çıkarmayı planladığını açıklamış; Applied Materials eski yöneticilerinin yorumuna göre bu yatırım bile mevcut talebi karşılamak için yeterli bulunmuyor.",
+      "note": "Yönetimin kapasiteye olan talebi 'karşılanamaz' olarak nitelendirmesi, yakın vadeli gelir büyümesi için güçlü bir ileriye dönük sinyal; ancak capex yoğunluğu FCF baskısını sürdürecektir.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "33.3×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "20.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "5.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "2.1×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    933.8,
+    989.9,
+    1046.1,
+    1134.1,
+    1270.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    58.6,
+    59.5,
+    62.3,
+    66.2,
+    67.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "TSMC, Eylül 2026 aylık gelirinin yıllık bazda %54.6 artarak 511.86 milyar NT$ olduğunu açıkladı; Ocak-Eylül kümülatif büyüme %41.1 ile güçlü seyrediyor.",
+   "source": "benzinga",
+   "published": "2026-10-08",
+   "url": "https://www.benzinga.com/quote/TSM",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "TSMC'nin 2026 yılı için 64 milyar dolara ulaşan sermaye harcaması planladığı ve bu rakamın bile mevcut talebi karşılamak için yeterli olmadığı belirtiliyor.",
+   "source": "benzinga",
+   "published": "2026-10-08",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62254694/tsmc-capex-64-billion-building-enough",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "GlobalFoundries, TSMC'nin CoWoS gelişmiş paketleme ekosistemi için ABD'de silikon interposer tedariki oluşturmak amacıyla TSMC ile anlaşma imzaladı.",
+   "source": "benzinga",
+   "published": "2026-10-08",
+   "url": "https://www.benzinga.com/news/26/10/62243104/globalfoundries-reaches-deal-with-tsmc-to-create-u-s-based-supply-of-silicon-interposers-for-tsmcs-cowos-advanced-packaging-ecosystem",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "'Değerleme Dekanı' Damodaran, yapay zeka yatırımlarının büyük nakit tüketeceği konusunda uyarıda bulunarak farklı oyun stratejileri sunuyor.",
+   "source": "benzinga",
+   "published": "2026-10-09",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62268160/dean-of-valuation-warns-of-ai-cash-drain-4-ways-to-play-the-shift",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "TSMC, dünyanın en büyük sözleşmeli çip üreticisidir; kendi tasarımı olmayan, Apple, NVIDIA, AMD, Qualcomm gibi fabrikasız (fabless) şirketlerin tasarladığı çipleri üretir. Gelirini üretim hizmeti karşılığında aldığı işlem ücretlerinden elde eder, bu da onu küresel yapay zeka ve yarı iletken talebinin merkezi konumuna taşır.",
+  "note": "TSMC, güçlü teknoloji önderliği ve müşteri kilitleme etkisiyle sektördeki en geniş ekonomik hendeği korumaktadır; 3nm ve 2nm süreçlerde rakiplerin en az 2-3 yıl gerisinde olması bu hendeği pekiştiriyor. Eylül 2026 aylık gelirinin yıllık bazda %54.6 artması ve ardışık 8 çeyrek beklenti aşması, yapay zeka altyapı harcamalarının somut bir yansımasıdır. Brüt ve faaliyet marjı trendlerinde görülen ivme yavaşlaması izlenmeli olsa da 2nm geçişiyle ve CoWoS gelişmiş paketleme ekosistemiyle marjların orta vadede destekleneceği değerlendirilmektedir.",
+  "counter": "Coğrafi konsantrasyon riski (üretimin büyük bölümü hâlâ Tayvan'da) jeopolitik bir kırılganlık olarak kalıcı biçimde değerlemede iskonto yaratmaktadır. Ayrıca yıllık 64 milyar dolara ulaşan agresif sermaye harcaması planı, FCF/net kâr dönüşümünü (0.51×) baskılamaya devam edecek ve bir talep yumuşaması durumunda serbest nakit akışı kırılganlığa açık hale gelecektir.",
+  "watch": [
+   "2nm (N2) sürecine geçişin zamanlaması ve erken müşteri (Apple, NVIDIA) benimseme hızı ile bunun brüt marj üzerindeki etkisi",
+   "Capex/Gelir oranının seyri: 64 milyar dolar capex planının FCF dönüşüm oranını (0.51×) ne zaman ve hangi gelir seviyesinde iyileştireceği"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 933.8 milyardan 1270.4 milyara çıkarak güçlü bir hızlanma sergilemiş; Eylül ayı aylık verisi de yıllık %54.6 artışla momentum'un devam ettiğini teyit etmektedir."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %67.7, faaliyet marjı %60.3 seviyesiyle sektör ortalamasının çok üzerinde; ROIC %29.4 ve ROE %40.0, sermayenin son derece verimli kullanıldığını göstermektedir; ancak brüt ve faaliyet marjı trendlerindeki ivme yavaşlaması yakın vadede dikkat gerektirmektedir."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümünün 0.51× ile nispeten düşük kalması, yoğun sermaye harcamalarının nakit üretimine yansıdığını göstermekte; hisse seyrelmesinin sıfır olması olumlu ancak FCF kalitesi iyileşme beklemektedir."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2.07 trilyon dolar net nakit pozisyonu, agresif yatırım döngüsü ve olası makroekonomik stresin üstesinden rahatlıkla gelebilecek sağlam bir tampon sunmaktadır."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 20.9, Fiyat/FCF 2.1 ve FD/Satış 3.7 seviyeleri, %36 büyüme ve %60+ faaliyet marjıyla birlikte değerlendirildiğinde, bu kalitedeki bir işletme için makul hatta cazip bir giriş noktasına işaret etmektedir."
+   }
+  ],
+  "concept": {
+   "title": "CoWoS (Chip on Wafer on Substrate) — Gelişmiş Çip Paketleme",
+   "body": "CoWoS, birden fazla çipin tek bir substrat üzerinde yüksek bant genişliğiyle birbirine bağlandığı ileri paketleme teknolojisidir; bu sayede geleneksel tek çip çözümlerine kıyasla çok daha yüksek hesaplama yoğunluğu ve bellek bant genişliği elde edilir. TSMC, NVIDIA H100/B100 ve benzeri yapay zeka hızlandırıcıları için CoWoS kapasitesini hızla artırmakta olup GlobalFoundries ile yapılan 2 milyar dolarlık silikon interposer anlaşması bu ekosistemin ABD'de de çoğaltılması anlamına gelmektedir."
+  }
+ }
+}
