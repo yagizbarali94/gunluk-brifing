@@ -1,0 +1,343 @@
+{
+ "date": "2026-10-10",
+ "slot": "reported",
+ "generated_at": "2026-10-10T11:25:28+00:00",
+ "mock": false,
+ "ticker": "SNOW",
+ "company": {
+  "name": "Snowflake Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 130144395264
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %7.4 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 368.89,
+  "change_pct": 7.42
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-02",
+  "next_date": "2026-12-02",
+  "last_label": "2 Eylül",
+  "next_label": "2 Aralık",
+  "days_to_next": 53,
+  "progress_pct": 42
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.5B",
+   "sub": "+%35 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "—",
+   "sub": "veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.0",
+   "sub": "+0.4 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$84M",
+   "sub": "marj %5",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 2 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.5B",
+      "note": "+%35 y/y",
+      "tone": "green",
+      "spark": [
+       1.14,
+       1.21,
+       1.28,
+       1.39,
+       1.55
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-192M",
+      "note": "-%36 y/y",
+      "tone": "amber",
+      "spark": [
+       -26.0,
+       -24.2,
+       -24.1,
+       -21.2,
+       -12.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "veri yok",
+      "note": "veri yok",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.0",
+      "note": "+0.4 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       67.5,
+       67.8,
+       66.8,
+       66.6,
+       67.0
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-17.0",
+      "note": "+12.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       -29.7,
+       -27.2,
+       -24.8,
+       -23.4,
+       -17.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-14.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-48.1",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-9.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%4.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "57",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$84M",
+      "note": "marj %5",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.1B",
+      "note": "nakit $1.7B · borç $2.8B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "122.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "24.0×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-125.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "109.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    67.5,
+    67.8,
+    66.8,
+    66.6,
+    67.0
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Investor Business Daily SwingTrader'ın Snowflake hissesini sattığı duyuldu; kısa vadeli momentum satıcılarının pozisyon kapattığına işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-10-09",
+   "url": "https://www.benzinga.com/quote/SNOW",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Investor Business Daily SwingTrader'ın Snowflake hissesi aldığı haberi, dünkü %7.4'lük yükselişin arkasındaki momentum alımlarını kısmen açıklıyor.",
+   "source": "benzinga",
+   "published": "2026-10-09",
+   "url": "https://www.benzinga.com/quote/SNOW",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "ABD siber güvenlik ajansları, Çin merkezli bir siber güvenlik şirketinin küresel kritik altyapıları hedef alan tehdit aktörlerine zemin hazırladığı konusunda uyardı.",
+   "source": "benzinga",
+   "published": "2026-10-08",
+   "url": "https://www.benzinga.com/content/62256501/u-s-cybersecurity-agencies-warn-china-based-cybersecurity-company-enabling-threat-actors-target-mult",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Anthropic'in halka arza hazırlandığı ve Trump'ın yapay zeka sektöründeki yatırım pozisyonlarını değerlendirdiği raporlandı; bulut veri altyapısı talebi açısından izlenmesi gereken gelişmeler.",
+   "source": "benzinga",
+   "published": "2026-10-04",
+   "url": "https://www.benzinga.com/markets/large-cap/26/10/62152378/consumer-tech-sep-28-oct-2-anthropic-preparing-for-ipo-trump-weighs-ai-stakes-more",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Snowflake, kurumsal müşterilere bulut tabanlı veri depolama, analiz ve paylaşım platformu sunar. Tüketim bazlı (consumption-based) abonelik modeliyle gelir elde eder; müşteriler kullandıkları hesaplama ve depolama kapasitesi oranında ücret öder.",
+  "note": "Snowflake'in tüketim bazlı modeli, müşteri bütçe disiplini dönemlerinde gelir öngörülebilirliğini zorlaştırsa da %35'lik büyüme ve Rule of 40 skorunun 57'ye ulaşması, veri bulut platformunun olgunlaşırken hem hızını hem de nakit verimliliğini artırdığını gösteriyor. Faaliyet marjının 5 çeyrekten bu yana sistematik biçimde iyileşmesi (-29.7'den -17.0'a), şirketin operasyonel kaldıraç hikayesini destekliyor ve 3-5 yıllık tezin temel taşıdır. Bununla birlikte, brüt marjın %67 bandında takılı kalması ve negatif ROIC, gerçek anlamda sermaye üretkenliğine geçişin henüz tamamlanmadığını ortaya koyuyor.",
+  "counter": "Databricks, Google BigQuery ve AWS Redshift gibi rakiplerin agresif fiyat ve entegrasyon rekabeti, Snowflake'in tüketim birim fiyatını aşağı çekerek brüt marj tavanını kalıcı olarak sınırlayabilir. Aynı zamanda yapay zeka iş yüklerinin büyük ölçüde Snowflake dışındaki platformlara kayması, uzun vadeli pazar payı tezini zayıflatabilir.",
+  "watch": [
+   "FCF marjının %10'un üzerine kalıcı olarak çıkması ve serbest nakit akışının hisse seyrelmesini karşılar hale gelmesi",
+   "Brüt marjın %68-70 bandına kırılması ya da tüketim fiyatlamasındaki baskı altında aşağı kırılması"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir trendi 1.1'den 1.6 milyar dolara istikrarlı biçimde yükseliyor ve yıllık %35 büyüme, bu ölçekte faaliyet gösteren bir şirket için güçlü ivmeye işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Faaliyet marjı hızla iyileşiyor ancak ROIC %-14.4 ve ROE %-48.1 ile şirket hâlâ sermaye maliyetinin belirgin altında getiri üretiyor; kârlılığa geçiş süreci devam ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF marjının yalnızca %5 olması ve yıllık %4.2 hisse seyrelmesi, yüksek muhasebe zararlarının yanı sıra hissedar değeri yaratımını kısıtlayan iki yapısal sürtünme noktası oluşturuyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç pozisyonu 1.1 milyar dolar negatif; bu durum kritik bir kırılganlık yaratmıyor ancak sınırsız finansal esneklik de sunmuyor, nakit akışı yaratımı kritik önem taşıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "İleri F/K 122.8, FD/Satış 24.0 ve Fiyat/FCF 109.0 çarpanları, güçlü büyümeyi çoktan fiyatlıyor ve hata payını son derece daraltıyor; yatırımcı mükemmel senaryo bedelini ödüyor."
+   }
+  ],
+  "concept": {
+   "title": "Tüketim Bazlı Gelir Modeli (Consumption-Based Revenue)",
+   "body": "Tüketim bazlı modelde müşteriler sabit abonelik yerine fiilen kullandıkları kaynak miktarı üzerinden ücretlendirilir; bu durum ekonomik yavaşlamalarda gelir öngörülebilirliğini düşürür ama ekonomik toparlanmalarda doğal bir kaldıraç yaratır. Snowflake'te bu model, müşterilerin veri iş yüklerini artırdıkça gelirin otomatik ölçeklenmesi anlamına gelir; ancak bütçe kısıtlanan dönemlerde müşteriler kullanımı kolayca kısabildiğinden tahminlerin üstünde volatilite gözlenebilir."
+  }
+ }
+}
