@@ -1,6 +1,6 @@
 {
- "date": "2026-10-10",
- "generated_at": "2026-10-10T11:25:34+00:00",
+ "date": "2026-10-11",
+ "generated_at": "2026-10-11T11:38:57+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -182,22 +182,29 @@
   {
    "date": "2026-10-13",
    "label": "JPM bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "13 Ekim",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-10-21",
+   "label": "TSLA bilanço",
+   "days": 10,
+   "date_label": "21 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Yüzey sakin görünse de dar tabanlı yükseliş, yükselen faiz ve kredi stresi altında kırılganlık birikiyyor",
-  "read": "Üç büyük endeks 200 günlük ortalamanın üzerinde tutunuyor; VIX'in 15 altında ve vadeli yapının contango'da olması kısa vadeli paniğin uzakta olduğuna işaret ediyor. Ancak kazanımların büyük bölümü Teknoloji ve birkaç mega-cap'te yoğunlaşmış; eşit ağırlıklı endeks neredeyse yerinde sayrken Russell 2000 zirveden yüzde sekiz buçuk geride kalarak küçük şirketlerin bu rüzgârı hissedemediğini gösteriyor. On yıllık faizin yüzde beş yirmi dörde fırlaması ve son bir ayda yüzde on bir artması değerleme baskısını artırırken yüksek getirili tahvil fonunun (HYG) eksi yüzde iki iki ile zayıflaması kredi piyasasının temkinli bir mesaj verdiğine işaret ediyor. Dolara paralel yükselen petrol ve altının geri çekilmesi, makro zeminin stagflasyonist bir sıkışmaya mı yoksa büyüme beklentisiyle mi şekillendiğini belirsiz bırakıyor; bu iki okuma uzun vadeli yatırımcı için farklı bağlamlar yaratıyor.",
+  "headline": "Büyük endeksler zirvede ama genişlik zayıf, faizler yüksek ve kredi piyasası gergin — yüzey sakin görünse de altı karmaşık.",
+  "read": "S&P 500 ve Nasdaq 200 günlük ortalamanın üzerinde seyrediyor; ancak Russell 2000'in zirveden %8.5 geride kalması ve sektörlerin yalnızca %45'inin 200 günlük ortalamasının üstünde olması genişliğin kırılgan olduğunu gösteriyor. Birkaç büyük teknoloji şirketi endeks performansını yukarı taşırken geride bırakılan Finans, Gayrimenkul ve Malzeme sektörleri tablonun ne kadar seçici olduğuna işaret ediyor. 10 yıllık faizin bir ayda %5.24 seviyesine fırlayıp getiri eğrisinin normalleşmesi, uzun vadeli sermaye maliyetinin yükseldiğini ve değerleme baskısının artabileceğini ortaya koyuyor. Buna ek olarak yüksek getirili tahvil piyasasının (HYG) zayıflaması kredi iştahının gerilediğine dair erken bir uyarı; VIX düşük ve vade yapısı contango olsa da bu sessizlik mevcut koşulların sürdürülebilir olduğu anlamına gelmiyor.",
   "watch": [
-   "13 Ekim JPMorgan bilançosu: kredi kalitesi, net faiz marjı ve yönetimin faiz ortamına ilişkin yorumu finansal sektörün -%5.5 geriliğini teyit ya da tersine çevirebilir",
-   "10 yıllık ABD tahvil faizi: %5.24'ten olası bir kırılma ya da geri çekilme, değerleme çarpanları ve sektör rotasyonu üzerinde belirleyici olacak",
-   "HYG ve kredi spread hareketi: yüksek getirili tahvilin zayıflığı derinleşirse bu 'risk-açık' okumasını sorgulatır; stabilizasyon ise breadth'in toparlanmasına zemin hazırlayabilir"
+   "13 Ekim JPM bilançosu: Finans sektörünün yüksek faiz ortamında ne söyleyeceği, kredi kalitesi ve net faiz marjı açıklamaları kredi ortamının tonu için belirleyici olacak.",
+   "10 yıllık ABD tahvil faizi: %5.24 seviyesi tarihsel açıdan kritik bir eşik; bu seviyenin üzerinde tutunması hisse değerlemelerini ve faize duyarlı sektörleri ek baskı altına alabilir.",
+   "Russell 2000 ve HYG arasındaki ilişki: Küçük şirket hisselerindeki zayıflıkla kredi spreadlerindeki genişleme birlikte devam ederse genişlik sorunun derinleştiğine işaret eder."
   ],
   "concept": {
-   "title": "Breadth Daralması (Narrow Market Breadth)",
-   "body": "Piyasa yükselse bile bu hareketi taşıyan hisse sayısı azaldığında 'breadth daralması' söz konusudur; endeks seviyesi sağlıklı görünürken altındaki katılımın zayıf olduğu anlamına gelir. Bugün sektörlerin yalnızca %45'inin 200 günlük ortalamanın üzerinde bulunması ve eşit ağırlıklı endeksin cap-ağırlıklıdan 3.6 puan geride kalması bu durumun somut yansımasıdır."
+   "title": "Breadth Ayrışması (Breadth Divergence)",
+   "body": "Endeksin yükselmesine karşın bunu sürükleyen hisse ya da sektör sayısının giderek azalması 'breadth ayrışması' olarak adlandırılır. Bu durum rallinin geniş tabanlı değil, birkaç büyük ismin omuzlarında taşındığını gösterir ve temelin ne kadar sağlam olduğu konusunda soru işareti doğurur."
   }
  }
 }
