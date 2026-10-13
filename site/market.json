@@ -1,6 +1,6 @@
 {
- "date": "2026-10-12",
- "generated_at": "2026-10-12T13:35:33+00:00",
+ "date": "2026-10-13",
+ "generated_at": "2026-10-13T13:00:07+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-açık — trend yukarı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7815.68,
-    "chg_1d": 0.05,
+    "last": 7807.24,
+    "chg_1d": -0.06,
     "above_50": true,
     "above_200": true,
-    "from_high": -0.0,
+    "from_high": -0.1,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 30745.11,
-    "chg_1d": -0.45,
+    "last": 30664.7,
+    "chg_1d": -0.71,
     "above_50": true,
     "above_200": true,
-    "from_high": -1.5,
+    "from_high": -1.8,
     "state": "yükseliş trendi",
     "tone": "green"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2806.98,
-    "chg_1d": 0.46,
+    "last": 2794.48,
+    "chg_1d": -0.45,
     "above_50": false,
     "above_200": true,
-    "from_high": -8.5,
+    "from_high": -8.9,
     "state": "zayıflıyor",
     "tone": "gray"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 15.41,
-  "vix3m": 17.77,
+  "vix": 15.3,
+  "vix3m": 17.93,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -0.7
+  "vix_chg_5d": 1.9
  },
  "breadth": {
   "rsp_3m": 0.5,
-  "spy_3m": 3.4,
-  "spread": -3.0,
+  "spy_3m": 3.3,
+  "spread": -2.9,
   "pct_sectors_above_200": 45,
   "verdict": "orta — birkaç dev öne çıkıyor",
   "tone": "gray"
@@ -67,19 +67,19 @@
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": 6.0,
+    "chg": 5.4,
     "group": "döngüsel"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": 4.0,
+    "chg": 3.8,
     "group": "döngüsel"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 0.7,
+    "chg": 1.2,
     "group": "defansif"
    },
    {
@@ -91,70 +91,70 @@
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": -0.9,
+    "chg": -0.0,
     "group": "defansif"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": -1.5,
+    "chg": -0.7,
     "group": "defansif"
-   },
-   {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": -3.1,
-    "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -3.1,
+    "chg": -3.2,
     "group": "döngüsel"
    },
    {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": -4.2,
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": -3.5,
     "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": -5.1,
+    "chg": -4.2,
     "group": "defansif"
+   },
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": -4.3,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": -5.9,
+    "chg": -5.7,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "karışık — net liderlik yok",
   "tone": "gray",
-  "def_avg": -1.7,
-  "cyc_avg": -0.9
+  "def_avg": -0.9,
+  "cyc_avg": -1.0
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%5.24",
-    "note": "son 1 ay +%10.1",
+    "value": "%5.19",
+    "note": "son 1 ay +%8.2",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+1.19 puan",
+    "value": "+1.14 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "102.4",
-    "note": "son 1 ay +%3.0",
+    "value": "102.2",
+    "note": "son 1 ay +%2.6",
     "tone": "gray"
    },
    {
@@ -165,13 +165,13 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$93.4",
-    "note": "son 1 ay +%8.9",
+    "value": "$92.6",
+    "note": "son 1 ay +%2.6",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%2.3",
+    "value": "-%2.2",
     "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
     "tone": "amber"
    }
@@ -180,31 +180,31 @@
  },
  "calendar": [
   {
-   "date": "2026-10-13",
-   "label": "JPM bilanço",
-   "days": 1,
-   "date_label": "13 Ekim",
+   "date": "2026-10-21",
+   "label": "META bilanço",
+   "days": 8,
+   "date_label": "21 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-21",
    "label": "TSLA bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "21 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Trend yüzeyde sağlam görünüyor, ancak yükselen faizler, daralan breadth ve kredi baskısı zemini karmaşıklaştırıyor.",
-  "read": "Her üç ana endeks 200 günlük ortalamanın üzerinde seyretse de tablo homojen değil: S&P 500 zirveye yakınken Russell 2000 zirveden yüzde sekiz buçuk geride kalarak küçük şirketlerin zorlandığını gösteriyor. Breadth verisi de benzer bir ayrışmayı doğruluyor; eşit ağırlıklı endeksin cap ağırlıklının belirgin biçimde gerisinde kalması, yükselişin geniş tabanlı olmadığını, ağırlıklı olarak birkaç büyük teknoloji şirketi tarafından taşındığını ortaya koyuyor. Makro zeminde ise on yıllık faizin yüzde 5.24'e tırmanması ve yüksek getirili tahvil piyasasındaki (HYG) zayıflama, risk iştahının gerçekten güçlü olup olmadığını sorgulatıyor; faizin yükselmesi borçlanma maliyetlerini artırarak özellikle Gayrimenkul, Finans ve küçük şirketler üzerinde baskı yaratıyor. Petrol ve doların aynı anda yükselmesi ise hem enflasyon beklentilerini hem de şirket maliyetlerini canlı tutacak bir arka plan oluşturuyor.",
+  "headline": "Büyük endeksler trend üzerinde ama yüksek faiz, kredi stresi ve dar breadth zemini kırılgan kılıyor.",
+  "read": "Üç büyük endeks de 200 günlük ortalamanın üzerinde seyrediyor; bu teknik açıdan yapının hâlâ bozulmadığını gösteriyor. Ancak breadth zayıf: sektörlerin yalnızca yarısı sağlıklı trend içinde, küçük şirketler zirveden neredeyse %9 geride ve yükselişin ağırlıklı olarak Teknoloji gibi birkaç büyük isim üzerinden gerçekleştiği görülüyor. Makro zemin ek baskı yaratıyor: 10 yıllık faizin %5.19'a ulaşması ve son bir ayda sert yükselmesi sermaye maliyetini artırırken yüksek getirili tahvil piyasasındaki (HYG) zayıflama kurumsal kredi iştahının gerilediğine işaret ediyor. Altının sert düşmesi ve doların güçlenmesi de likiditenin daraldığı, riskin yeniden fiyatlandığı bir ortamı teyit ediyor.",
   "watch": [
-   "13 Ekim JPM bilançosu: Bankacılık sektörünün yüksek faiz ortamındaki net faiz marjı ve kredi kalitesi, finansal zeminin ne kadar sağlam olduğunu gösterecek.",
-   "10 yıllık ABD faizinin yüzde 5.24 seviyesindeki seyri: Faizin bu bölgede kalıcılaşması ya da yeni bir atağa geçmesi, değerleme baskısını ve sektör rotasyonunu doğrudan etkiler.",
-   "HYG (yüksek getirili tahvil ETF) hareketi: Kredi piyasasındaki stresin genişleyip genişlemediği, risk iştahının gerçek sağlığı için önemli bir sinyal olmayı sürdürüyor."
+   "10 yıllık ABD faizinin %5.2-5.3 direncini aşıp aşmayacağı — bu seviyenin kalıcı olarak kırılması değerleme baskısını artırabilir",
+   "21 Ekim META ve TSLA bilançoları — büyüme hisselerine olan güvenin sınandığı, mevcut dar breadth ortamında belirleyici olabilecek katalizörler",
+   "HYG (yüksek getirili tahvil ETF) hareketleri — kredi stresinin derinleşip derinleşmediğini anlamak için öncü bir gösterge işlevi görüyor"
   ],
   "concept": {
-   "title": "Breadth Ayrışması (Narrow Leadership)",
-   "body": "Piyasada 'dar liderlik', endeks seviyesinin yükselmesine karşın bu yükselişi sağlayan hisse sayısının azlığını ifade eder; birkaç büyük şirket endeksi yukarı çekerken çoğunluk geride kalır. Bu durum yükselişin temelden ne kadar destek gördüğünü sorgulatır; ancak tek başına bir dönüş sinyali değil, takip edilmesi gereken bir kırılganlık göstergesidir."
+   "title": "Breadth Daralması (Narrow Market Leadership)",
+   "body": "Breadth daralması, endeks yükselirken bu yükselişe katılan hisse sayısının giderek azalması durumunu tanımlar; yani birkaç büyük şirket tüm indeksi taşırken geri kalanlar geride kalır. Bu tablo, görünürdeki 'sağlıklı' endeks seviyesinin altında yapısal bir kırılganlığa işaret edebilir; zira lider hisseler baskı altına girdiğinde endeksi dengede tutacak geniş bir taban mevcut değildir."
   }
  }
 }
