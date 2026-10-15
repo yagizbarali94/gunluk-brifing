@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-15",
+ "slot": "reported",
+ "generated_at": "2026-10-15T10:22:59+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 2230183788544
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Bugün bilanço açıkladı (15 Ekim)"
+ },
+ "price": {
+  "last": 430.0,
+  "change_pct": 1.76
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-16",
+  "next_date": "2026-10-15",
+  "last_label": "16 Temmuz",
+  "next_label": "15 Ekim",
+  "days_to_next": 0,
+  "progress_pct": 100
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.27T",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.31",
+   "sub": "Beat · beklenti $3.89",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.7",
+   "sub": "+1.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$275.0B",
+   "sub": "marj %22",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 16 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.27T",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       933.79,
+       989.92,
+       1046.09,
+       1134.1,
+       1270.38
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$706.6B",
+      "note": "+%77 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       42.7,
+       45.7,
+       46.4,
+       50.5,
+       55.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.31",
+      "note": "beklenti $3.89 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.7",
+      "note": "+1.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       58.6,
+       59.5,
+       62.3,
+       66.2,
+       67.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%60.3",
+      "note": "+10.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       49.6,
+       50.6,
+       54.0,
+       58.1,
+       60.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%29.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%40.0",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%19.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.51×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$275.0B",
+      "note": "marj %22",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.07T",
+      "note": "nakit $3.13T · borç $1.06T",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Q4 2026 gelir yönlendirmesi: 52.3–54.3 milyar dolar (konsensüs beklentisi 48.78 milyar dolardı).",
+      "note": "Güçlü Q4 yönlendirmesi piyasa beklentisini yaklaşık %10 aştı; AI chip talebi ivmesinin yılın son çeyreğinde de sürdüğünü teyit ediyor.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "32.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "19.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "4.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "2.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    933.8,
+    989.9,
+    1046.1,
+    1134.1,
+    1270.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    58.6,
+    59.5,
+    62.3,
+    66.2,
+    67.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "TSMC, AI çip talebi sayesinde Q3 2026'da %41 satış artışı kaydederek hem gelir hem EPS beklentilerini geride bıraktı.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62373268/tsmc-beats-q3-earnings-and-revenue-estimates-as-ai-chip-demand-drives-41-sales-growth",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "TSMC'nin Q4 gelir yönlendirmesi 52.3–54.3 milyar dolar olarak açıklandı; bu rakam 48.78 milyar dolarlık piyasa tahminini belirgin biçimde aştı.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/news/26/10/62373534/taiwan-semiconductor-sees-q4-sales-52-300b-54-300b-vs-48-780b-est",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "2nm teknolojisi wafer gelirinin %8'ine ulaştı; gelişmiş teknolojiler (3nm, 5nm dahil) toplam wafer gelirinin %79'unu oluşturuyor.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/news/26/10/62372746/tsmc-2-nanometer-shipments-contribute-8-q3-wafer-revenue-advanced-technologies-total-79-led-3-nanome",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bilanço açıklamasına rağmen chip hisselerinde geniş çaplı satış dalgası yaşandı; TSM de bu eğilimden etkilendi.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62374362/stock-market-today-sp-500-nasdaq-100-futures-fall-as-chip-stock-sell-off-intensifies-skhy-tsm-rklb-in-focus",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "TSMC, dünyanın en büyük bağımsız çip üreticisidir; Apple, NVIDIA, AMD ve Qualcomm gibi fabrikasız şirketlerin tasarladığı yarı iletkenleri en ileri teknolojilerle (2nm, 3nm, 5nm) üretir. Gelirini wafer satışı ve paketleme hizmetleri üzerinden; müşteri başına yüksek hacimli uzun dönemli sözleşmelerle elde eder.",
+  "note": "TSMC'nin teknolojik liderliği (2nm yükselen pay, gelişmiş teknolojilerin wafer gelirinin %79'unu oluşturması) ve AI odaklı talep patlaması hem büyümeyi hem marjları yukarı taşıyor; ROIC %29.4 ile sektörün açık ara üstünde seyrediyor. FCF/net kâr dönüşümünün 0.51× ile düşük kalması, ağır capex döngüsünün kaçınılmaz bir yansıması olmakla birlikte net nakit pozisyonunun 2.07T TWD/USD düzeyine ulaşması bilanço kalitesinin üstünlüğünü tescilliyor. 5 yıllık perspektiften bakıldığında AI donanım talebinin sürdüğü, jeopolitik risklerin yönetilebildiği ve 2nm/1.6nm geçişinin sorunsuz ilerlediği senaryoda şirketin bugünkü ileri F/K'sı makul görünmektedir.",
+  "counter": "Tayvan-Çin jeopolitik gerilimi, üretimin tek coğrafyada yoğunlaşmasından kaynaklanan varoluşsal bir tehdittir ve hiçbir capex planı ya da rekor kâr bunu tam olarak fiyatlayamaz. Arizona/Japonya/Avrupa fabrikalarının maliyet yapısı ana fabrikaların çok üzerinde olduğundan küresel çeşitlendirme marj baskısı yaratacak ve yüksek rekabetçi marjların kalıcılığını test edecektir.",
+  "watch": [
+   "2nm wafer gelir payının artış hızı ve 1.6nm (A16) geçişinin zaman çizelgesi — teknoloji liderliğinin sürdürülebilirliğinin en net göstergesi",
+   "Arizona/Japonya tesislerinin maliyet yapısı ve konsolide brüt marja etkisi — coğrafi çeşitlendirmenin marj üzerindeki bedelini ölçmek için kritik"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir 933.8→1270.4 seyriyle hızlanarak büyüyor; yıllık %36 artış ve Q4 için verilen yönlendirme beklentilerin çok üzerinde, ivme güçlü."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %67.7 ve faaliyet marjı %60.3 ile tarihi zirvelere yakın; ç/ç ivme yavaşlıyor olsa da ROIC %29.4 / ROE %40.0 olağanüstü sermaye verimliliğine işaret ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "Sekiz çeyrek üst üste beklenti aşımı ve sıfır hisse seyrelmesi olumlu; ancak FCF/net kâr dönüşümünün 0.51× ile düşük seyretmesi, ağır capex harcamalarının kazancı nakite çevirmede kısıtlayıcı olduğunu gösteriyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2.07T net nakit pozisyonu, yoğun yatırım döneminde bile güçlü finansal esneklik ve olası krizlere karşı önemli bir tampon sağlıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 19.3 ve Fiyat/FCF 2.0 gibi çarpanlar, %36 büyüme ve %67+ brüt marj kalitesiyle kıyaslandığında cazip görünse de cari F/K 32.4 ve FD/Satış 3.5 jeopolitik risk primiyle birlikte değerlendirince tam iskontolu değil, makul bölgede."
+   }
+  ],
+  "concept": {
+   "title": "Wafer Gelir Karması (Revenue Mix by Node)",
+   "body": "Yarı iletken foundry'lerde gelir, hangi teknoloji neslinin (node) üretildiğine göre ağırlıklı olarak değişir; daha küçük ve gelişmiş node'lar hem daha yüksek fiyatlandırma gücü hem de daha yüksek talep yoğunluğu sunar. TSMC'de 3nm+2nm birleşik payın wafer gelirinin %41'ine ulaşması, şirketin fiyatlama gücünün ve marj artışının yapısal zeminini oluşturuyor."
+  }
+ }
+}
