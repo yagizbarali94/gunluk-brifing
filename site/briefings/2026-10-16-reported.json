@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-16",
+ "slot": "reported",
+ "generated_at": "2026-10-16T10:09:53+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 2189988593664
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (15 Ekim)"
+ },
+ "price": {
+  "last": 422.25,
+  "change_pct": -0.14
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-15",
+  "next_date": null,
+  "last_label": "15 Ekim",
+  "next_label": null,
+  "days_to_next": null,
+  "progress_pct": null
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.27T",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.60",
+   "sub": "Beat · beklenti $4.52",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.7",
+   "sub": "+1.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$275.0B",
+   "sub": "marj %22",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 15 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.27T",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       933.79,
+       989.92,
+       1046.09,
+       1134.1,
+       1270.38
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$706.6B",
+      "note": "+%77 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       42.7,
+       45.7,
+       46.4,
+       50.5,
+       55.6
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.60",
+      "note": "beklenti $4.52 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.7",
+      "note": "+1.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       58.6,
+       59.5,
+       62.3,
+       66.2,
+       67.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%60.3",
+      "note": "+10.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       49.6,
+       50.6,
+       54.0,
+       58.1,
+       60.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%29.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%40.0",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%19.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.51×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$275.0B",
+      "note": "marj %22",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.07T",
+      "note": "nakit $3.13T · borç $1.06T",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Haberler TSMC'nin rekor kâr açıkladığını ve AI build-out talebiyle eski talep döngüsünün kırıldığını vurguluyor; spesifik rakamsal guidance verisi mevcut değil.",
+      "note": "Yönetimin AI kapasitesine yönelik güçlü talep mesajı, gelecek çeyrekler için olumlu bir zemin sunuyor.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "27.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "18.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "4.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "1.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    933.8,
+    989.9,
+    1046.1,
+    1134.1,
+    1270.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    58.6,
+    59.5,
+    62.3,
+    66.2,
+    67.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "NVIDIA, Apple ve AMD'nin sınırlı AI çip kapasitesi için yarışmasıyla TSMC, kritik teknolojik koz olma konumunu pekiştiriyor.",
+   "source": "benzinga",
+   "published": "2026-10-16",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62404541/taiwan-semiconductor-holds-the-cards-as-nvidia-apple-and-amd-battle-for-limited-ai-chip-capacity",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Bir chip sektörü veteranı, AI altyapı yatırımlarının eski talep döngüsünü kırdığını belirtirken TSMC rekor kâr açıkladı.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62386026/tsmc-ai-demand-old-chip-cycle",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Michael Burry, 'Kırmızı Ekim' uyarısıyla QQQ ve SMH ETF'lerinde ek düşüş riskine dikkat çekiyor.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62395307/michael-burry-red-october-warning-qqq-smh-pain",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Chip hisselerinde satış dalgası derinleşirken TSMC de baskı altında kalan isimler arasında öne çıkıyor.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62374362/stock-market-today-sp-500-nasdaq-100-futures-fall-as-chip-stock-sell-off-intensifies-skhy-tsm-rklb-in-focus",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "TSMC, dünya genelinde en ileri yarı iletken çip üretim tesislerini işleten sözleşmeli çip üreticisidir; NVIDIA, Apple, AMD ve Qualcomm gibi fabrikasız çip tasarımcılarının ürünlerini üretir ve gelirini kullandıkları wafer kapasitesi ve teknoloji nodu ücretleri üzerinden elde eder.",
+  "note": "TSMC'nin N3 ve N2 süreç teknolojilerindeki liderliği, AI ivmesiyle birlikte hem geliri hem marjları rekor seviyelere taşıdı; %67.7 brüt marj ve %29 üzerinde ROIC, savunulamaz görünen bir teknoloji hendeğinin varlığını doğruluyor. AI altyapısına olan yapısal talep artışı 'eski talep döngüsünü kırdığı' sürece TSMC'nin 5 yıllık gelir görünümü hem hacim hem fiyat açısından yukarı yönlü kalmaya devam eder. Marj trendindeki 'ivme düşüşü' sinyali kısa vadede dikkat çekse de mevcut mutlak seviyeler olağanüstü kalmaktadır.",
+  "counter": "Tayvan üzerindeki jeopolitik gerilim, tek fab-lokasyon riski olarak şirketin tüm değerlemesini siyasi bir sigorta primi altında tutmaya devam etmektedir. Bunun yanı sıra Intel ve Samsung'un ileri süreç teknolojilerinde yarış içinde olması ile ABD'li müşterilerin yerel üretim kapasitesini geliştirme baskısı, uzun vadeli pazar payı erimesini tetikleyebilir.",
+  "watch": [
+   "N2 ve A16 süreç nodu kapasite doluluğu ile wafer fiyat artışlarının brüt marjı savunup savunmadığı",
+   "Arizona ve Japonya fab yatırımlarının FCF dönüşümüne ve uzun vadeli ROIC'e etkisi"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Beş çeyrektir sürekli hızlanan gelir büyümesi (%36 y/y) ve 933'den 1270'e kesintisiz yükselen çeyreklik gelir serisi, AI destekli talebin yapısal olduğunu gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "%67.7 brüt marj ve %60.3 faaliyet marjı ile ROIC %29.4 / ROE %40 seviyeleri, sektörde eşi bulunmaz bir sermaye verimliliğine işaret ediyor; marj ivmesinin yavaşlaması mevcut zirve seviyesinde henüz endişe yaratmıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "notr",
+    "yorum": "FCF/net kâr dönüşümünün 0.51× ile görece düşük seyretmesi, agresif sermaye harcamalarının (CoWoS, Arizona, Japonya tesisleri) nakit üretimine yansıdığını gösteriyor; seyreltme sıfır olumlu ancak FCF kalitesi izlenmeli."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "2.07 trilyon TWD net nakit pozisyonu ile şirket, devasa capex programını kendi iç kaynaklarıyla finanse edecek tampon kapasitesine sahip ve finansal kırılganlık riski son derece düşük."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "guclu",
+    "yorum": "İleri F/K 18.3×, %36 büyüme ve %60+ faaliyet marjı kombinasyonu düşünüldüğünde PEG'in 0.5 civarında kaldığını ima ediyor; Fiyat/FCF 1.9× ise jeopolitik risk primi gözetilse dahi cazip bir giriş noktasına işaret ediyor."
+   }
+  ],
+  "concept": {
+   "title": "Fabless-Foundry Modeli ve Ölçek Ekonomisi",
+   "body": "Fabless model, NVIDIA ve Apple gibi şirketlerin çip tasarımına odaklanıp üretimi TSMC gibi foundry'lere devretmesini ifade eder; bu model TSMC'ye müşteri yoğunlaşması yaratırken aynı zamanda dev ölçek ekonomileri kazandırır. TSMC'nin tek bir notta (N3) yüzlerce müşteriye hizmet vermesi, sabit maliyetleri geniş bir gelir tabanına yayarak %67'yi aşan brüt marjları mümkün kılıyor."
+  }
+ }
+}
