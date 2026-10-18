@@ -1,6 +1,6 @@
 {
- "date": "2026-10-17",
- "generated_at": "2026-10-17T09:44:24+00:00",
+ "date": "2026-10-18",
+ "generated_at": "2026-10-18T09:57:11+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr — kararsız",
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$101.4",
-    "note": "son 1 ay +%10.9",
+    "value": "$99.0",
+    "note": "son 1 ay +%8.2",
     "tone": "gray"
    },
    {
@@ -182,29 +182,43 @@
   {
    "date": "2026-10-21",
    "label": "META bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "21 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-21",
    "label": "TSLA bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "21 Ekim",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-10-28",
+   "label": "MSFT bilanço",
+   "days": 10,
+   "date_label": "28 Ekim",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-10-28",
+   "label": "GOOGL bilanço",
+   "days": 10,
+   "date_label": "28 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Büyük endeksler teknik açıdan tutunurken küçük hisseler ve kredi piyasası baskı altında, petrol ve savunmacı sektörler öne çıkıyor.",
-  "read": "S&P 500 ve Nasdaq zirvelerinden gerilemiş olsa da 200 günlük ortalama üzerinde kalmayı sürdürüyor; ancak Russell 2000'in %11'i aşan geri çekilmesi ve yüksek getirili tahvil piyasasındaki zayıflık, alt katta stresin biriktiğine işaret ediyor. Breadth görünümü 'orta' düzeyde: sektörlerin yalnızca yarısı sağlıklı trend içinde, eşit ağırlıklı endeksin cap-ağırlıklıdan geride kalması birkaç büyük şirketin performansı taşıdığını gösteriyor. Makro zeminde 10 yıllık faizin %5,10'a ulaşması ve son aydaki hızlı yükselişi, değerleme baskısını artıran kritik bir unsur; buna ek olarak güçlenen dolar ve petrolün %10'u aşan aylık artışı şirket maliyetleri açısından olumsuz bir arka plan oluşturuyor. Sektör rotasyonu net biçimde savunmacıya dönmüş durumda: enerji, temel tüketim ve sağlık öne çıkarken finans, sanayi ve gayrimenkul belirgin şekilde geride kalıyor; bu tablo risk iştahının daraldığını teyit ediyor.",
+  "headline": "Defansif rotasyon ve yükselen faiz baskısı altında nötr bir rejim: büyük şirketler tutunuyor, geniş piyasa geriliyor.",
+  "read": "Endekslerin çoğu teknik olarak 200 günlük ortalamanın üzerinde olsa da Russell 2000'in zirveden yüzde on bir gerimesi ve küçük-orta ölçekli şirketlerin zayıf seyri, genişliğin sınırlı kaldığını gösteriyor; yükseliş birkaç büyük ismin sırtında taşınıyor. On yıllık faizin yüzde 5,1 seviyesine çıkması ve yüksek getirili tahvil piyasasındaki stres sinyalleri, risk iştahını baskı altında tutuyor; sermaye döngüsel sektörlerden Enerji, Sağlık ve Temel Tüketim gibi defansiflere kayıyor. VIX yaklaşık 20 ile henüz alarm bölgesinde değil ve getiri eğrisi pozitif seyrediyor, bu da sistemik bir kırılmanın değil seçici bir temkinin hakim olduğuna işaret ediyor. Güçlü dolar ve petrolün 99 dolara yaklaşması, enflasyon ve para politikası belirsizliğini canlı tutarak makro zemini girift hale getiriyor.",
   "watch": [
-   "10 yıllık ABD tahvil faizinin %5,10 üzerinde kalıcılaşıp kalıcılaşmadığı — bu seviye tarihsel olarak hisse değerlemeleri üzerinde baskı eşiği olarak öne çıkıyor",
-   "21 Ekim META ve TSLA bilanço açıklamaları — büyük teknoloji isimlerinin kazanç kalitesi ve yönlendirmesi, Nasdaq'ın zirveden uzaklaşma eğiliminin süreceğini mi yoksa duraksayacağını mı gösterecek",
-   "HYG (yüksek getirili tahvil ETF) fiyat hareketi — kredi piyasasındaki stresin derinleşip derinleşmediği, hisse piyasasına gecikmeli yansıyabilecek erken sinyal niteliği taşıyor"
+   "21-28 Ekim arasında açıklanacak META, TSLA, MSFT ve GOOGL bilançoları: büyük teknoloji şirketlerinin zaten baskı altındaki Nasdaq'ı destekleyip destekleyemeyeceği burada netleşecek.",
+   "10 yıllık ABD faizinin yüzde 5,1 üzerinde kalıcı bir yer edinip edinmeyeceği: bu seviyenin korunması değerleme baskısını ve kredi maliyetini artırır.",
+   "HYG (yüksek getirili tahvil ETF) hareketleri: kredi spreadlerinin genişlemeye devam etmesi, stres sinyalinin hisse piyasasına sıçrayabileceğinin erken uyarısı olur."
   ],
   "concept": {
-   "title": "Kredi Öncülü (Credit as Leading Indicator)",
-   "body": "Yüksek getirili tahvil piyasası, şirketlerin borçlanma maliyetini ve ödeme gücüne duyulan güveni yansıttığından hisse senedi piyasasına genellikle birkaç hafta önceden sinyal verir. HYG gibi kredi araçlarında görülen zayıflık, henüz hisse fiyatlarına tam yansımamış bir risk algısının erken göstergesi olarak okunabilir."
+   "title": "Breadth (Piyasa Genişliği)",
+   "body": "Piyasa genişliği, yükselişin ya da düşüşün ne kadar geniş bir taban üzerinde gerçekleştiğini ölçer; eşit ağırlıklı endeksin piyasa değeri ağırlıklı endeksin gerisinde kalması, kazançların az sayıda büyük hissede yoğunlaştığına işaret eder. Dar bir genişlik, yüzeysel tablonun altında gizli kırılganlığı görünür kılan önemli bir bağlam ölçütüdür."
   }
  }
 }
