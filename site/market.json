@@ -1,6 +1,6 @@
 {
- "date": "2026-10-18",
- "generated_at": "2026-10-18T09:57:11+00:00",
+ "date": "2026-10-19",
+ "generated_at": "2026-10-19T11:19:53+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr — kararsız",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 19.99,
+  "vix": 18.59,
   "vix3m": 20.5,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": 34.7
+  "vix_chg_5d": 22.2
  },
  "breadth": {
   "rsp_3m": 1.0,
@@ -154,7 +154,7 @@
    {
     "metric": "Dolar endeksi (DXY)",
     "value": "101.8",
-    "note": "son 1 ay +%2.7",
+    "note": "son 1 ay +%3.0",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$99.0",
-    "note": "son 1 ay +%8.2",
+    "value": "$98.5",
+    "note": "son 1 ay +%5.9",
     "tone": "gray"
    },
    {
@@ -182,43 +182,57 @@
   {
    "date": "2026-10-21",
    "label": "META bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "21 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-21",
    "label": "TSLA bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "21 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-28",
    "label": "MSFT bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "28 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-28",
    "label": "GOOGL bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "28 Ekim",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-10-29",
+   "label": "AMZN bilanço",
+   "days": 10,
+   "date_label": "29 Ekim",
+   "kind": "bilanço"
+  },
+  {
+   "date": "2026-10-29",
+   "label": "LLY bilanço",
+   "days": 10,
+   "date_label": "29 Ekim",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Defansif rotasyon ve yükselen faiz baskısı altında nötr bir rejim: büyük şirketler tutunuyor, geniş piyasa geriliyor.",
-  "read": "Endekslerin çoğu teknik olarak 200 günlük ortalamanın üzerinde olsa da Russell 2000'in zirveden yüzde on bir gerimesi ve küçük-orta ölçekli şirketlerin zayıf seyri, genişliğin sınırlı kaldığını gösteriyor; yükseliş birkaç büyük ismin sırtında taşınıyor. On yıllık faizin yüzde 5,1 seviyesine çıkması ve yüksek getirili tahvil piyasasındaki stres sinyalleri, risk iştahını baskı altında tutuyor; sermaye döngüsel sektörlerden Enerji, Sağlık ve Temel Tüketim gibi defansiflere kayıyor. VIX yaklaşık 20 ile henüz alarm bölgesinde değil ve getiri eğrisi pozitif seyrediyor, bu da sistemik bir kırılmanın değil seçici bir temkinin hakim olduğuna işaret ediyor. Güçlü dolar ve petrolün 99 dolara yaklaşması, enflasyon ve para politikası belirsizliğini canlı tutarak makro zemini girift hale getiriyor.",
+  "headline": "Büyük endeksler ayakta ama faiz baskısı, kredi stresi ve savunmaya dönüş karışık bir zemin oluşturuyor",
+  "read": "S&P 500 ve Nasdaq 200 günlük ortalamanın üzerinde kalsa da küçük şirketleri yansıtan Russell 2000'in zirveden yüzde 11'in üzerinde gerilemiş olması, rallinin tabanının daraldığına işaret ediyor. Eşit ağırlıklı endeksin cap ağırlıklıdan geri kalması ve sektörlerin yalnızca yarısının 200 günlük ortalamasının üzerinde seyretmesi breadth'in orta düzeyde kaldığını gösteriyor; yükselişi birkaç büyük isim taşıyor. Yüzde 5'i aşan 10 yıllık faiz ve güçlenen dolar, hem hisse değerlemelerine hem de risk iştahına baskı yaratırken yüksek getirili tahvillerin zayıflaması kredi piyasasında temkinli bir sinyal veriyor. Enerji ve defansiflerin öne çıkması, yatırımcıların büyüme hikâyesinden çok sermayeyi koruma refleksiyle davrandığını ortaya koyuyor.",
   "watch": [
-   "21-28 Ekim arasında açıklanacak META, TSLA, MSFT ve GOOGL bilançoları: büyük teknoloji şirketlerinin zaten baskı altındaki Nasdaq'ı destekleyip destekleyemeyeceği burada netleşecek.",
-   "10 yıllık ABD faizinin yüzde 5,1 üzerinde kalıcı bir yer edinip edinmeyeceği: bu seviyenin korunması değerleme baskısını ve kredi maliyetini artırır.",
-   "HYG (yüksek getirili tahvil ETF) hareketleri: kredi spreadlerinin genişlemeye devam etmesi, stres sinyalinin hisse piyasasına sıçrayabileceğinin erken uyarısı olur."
+   "META ve TSLA bilançoları (21 Ekim): Teknoloji ve büyüme hisselerinin kazanç kalitesi, Nasdaq'ın mevcut zayıflığının derinleşip derinleşmeyeceğini belirleyecek",
+   "10 yıllık ABD Hazine faizi: Yüzde 5,10 seviyesindeki seyir; daha fazla yükseliş hisse değerlemelerini ve kredi koşullarını ek baskı altına alabilir",
+   "HYG (yüksek getirili tahvil ETF): Kredi spreadlerinin genişlemeye devam edip etmediği, risk iştahındaki bozulmanın hisse piyasasına yayılıp yayılmadığını gösteren erken uyarı göstergesi"
   ],
   "concept": {
-   "title": "Breadth (Piyasa Genişliği)",
-   "body": "Piyasa genişliği, yükselişin ya da düşüşün ne kadar geniş bir taban üzerinde gerçekleştiğini ölçer; eşit ağırlıklı endeksin piyasa değeri ağırlıklı endeksin gerisinde kalması, kazançların az sayıda büyük hissede yoğunlaştığına işaret eder. Dar bir genişlik, yüzeysel tablonun altında gizli kırılganlığı görünür kılan önemli bir bağlam ölçütüdür."
+   "title": "Breadth Daralması (Narrowing Market Breadth)",
+   "body": "Bir rallide endeks yükselirken bunu taşıyan hisse sayısı azalıyorsa piyasa genişliği (breadth) daralıyor demektir; bu durum yükselişin kırılgan bir temele oturduğuna işaret eder. Şu an büyük ölçekli birkaç şirketin cap ağırlıklı endeksi desteklemesi, altındaki geniş tablonun daha zayıf seyrettiğini gizleyebilir."
   }
  }
 }
