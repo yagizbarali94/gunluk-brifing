@@ -1,0 +1,352 @@
+{
+ "date": "2026-10-20",
+ "slot": "upcoming",
+ "generated_at": "2026-10-20T10:27:52+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1797112725504
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (21 Ekim) — beklentileri incele"
+ },
+ "price": {
+  "last": 705.44,
+  "change_pct": -0.02
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-21",
+  "last_label": "29 Temmuz",
+  "next_label": "21 Ekim",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$60.8B",
+   "sub": "+%28 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$6.18",
+   "sub": "Miss · beklenti $7.22",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.4",
+   "sub": "-0.5 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.7B",
+   "sub": "marj %3",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$60.8B",
+      "note": "+%28 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       47.52,
+       51.24,
+       59.89,
+       56.31,
+       60.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$15.8B",
+      "note": "-%14 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       38.6,
+       5.3,
+       38.0,
+       47.5,
+       26.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$6.18",
+      "note": "beklenti $7.22 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.4",
+      "note": "-0.5 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       82.1,
+       82.0,
+       81.8,
+       81.9,
+       81.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%30.9",
+      "note": "-12.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       43.0,
+       40.1,
+       41.3,
+       40.6,
+       30.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%21.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%29.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.60×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "46",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.7B",
+      "note": "marj %3",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-96.9B",
+      "note": "nakit $15.5B · borç $112.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "26.6×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "20.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.0×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "16.6×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "43.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    47.5,
+    51.2,
+    59.9,
+    56.3,
+    60.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    82.1,
+    82.0,
+    81.8,
+    81.9,
+    81.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Zuckerberg'in AI ajanlarını Meta'nın yeni gelir motoru ilan etmesi, Q3 bilançosunda Muse'un bu iddiayı destekleyip desteklemeyeceğini gündemin merkezine taşıyor.",
+   "source": "benzinga",
+   "published": "2026-10-20",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62458367/meta-q3-earnings-muse-ai-agent-revenue",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Morgan Stanley, Meta için Overweight tavsiyesini koruyarak hedef fiyatı 820 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-10-19",
+   "url": "https://www.benzinga.com/news/26/10/62447082/morgan-stanley-maintains-overweight-meta-platforms-raises-price-target-820",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "CoreWeave'in 52 haftalık dibe inmesi, Wall Street'in AI altyapı borç yükü konusundaki endişelerinin derinleştiğini ve Meta gibi ağır capex harcayan şirketlere yönelik risk algısını artırdığını gösteriyor.",
+   "source": "benzinga",
+   "published": "2026-10-20",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62459918/coreweave-stock-sinks-to-52-week-low-as-wall-streets-ai-debt-fears-deepen",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Jim Cramer, MSFT, GOOGL ve AMZN öncesinde AI veri merkezi yatırımcılarını temkinli olmaya çağırdı; bu uyarı Meta'nın yüksek capex döngüsüne ilişkin piyasa kaygılarıyla örtüşüyor.",
+   "source": "benzinga",
+   "published": "2026-10-20",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62458647/jim-cramer-has-a-warning-for-ai-data-center-investors-ahead-of-msft-googl-and-amzn-earnings-too-early-to-say-that-the-coast-is-clear",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformlarını işleterek milyarlarca kullanıcıya ulaşır. Gelirinin büyük çoğunluğu reklamcılıktan gelir; Reality Labs segmentiyle VR/AR cihazları ve metaverse yatırımlarını sürdürür.",
+  "note": "Meta'nın reklam ekosistemi güçlü bir ağ etkisi ve birinci taraf veri avantajıyla sağlam bir hendek oluşturmaktadır; %28 büyüme bu yapının hâlâ işlediğini gösteriyor. Ancak bu çeyrekte faaliyet marjının %30.9'a gerilemesi ve EPS'in beklentiyi belirgin biçimde ıskalası, AI altyapısına yapılan masrafların getiri öncesinde kârlılığı baskıladığını tescilliyor. AI ajanları yeni bir gelir motoru olabilir; ancak 3-5 yıllık tez, bu harcamaların somut monetizasyona dönüşüp dönüşmeyeceğine bağlı.",
+  "counter": "Yüksek AI altyapı capex'i nakit akışını eritiyor; FCF marjının yalnızca %3 olması ve net borcun 97 milyar dolara yaklaşması, faiz ortamı veya reklam döngüsü kötüleşirse finansal esnekliği ciddi ölçüde kısıtlayabilir. Reality Labs'ın kronik zararları ve reklam geliri konsantrasyonu da yapısal kırılganlık olmaya devam ediyor.",
+  "watch": [
+   "AI altyapı harcamalarının (capex) gelire dönüşüm hızı: AI ajanları ve Advantage+ reklam araçlarının gelir katkısı somutlaşıyor mu?",
+   "Faaliyet marjının toparlanması: Harcama yoğunluğu azalınca %38-40 marj bandına geri dönüş mümkün mü, yoksa yüksek maliyet yapısı kalıcı mı?"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "%28 yıllık büyüme ve çeyreklik gelir serisinde genel yükseliş trendi korunuyor; bir önceki çeyreğe kıyasla toparlanma var ancak $56.3B'den $60.8B'ye geçiş ivmenin istikrarlı olmakla birlikte hızlanmadığını gösteriyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "zayif",
+    "yorum": "Faaliyet marjı son çeyrekte %40.6'dan %30.9'a sert düşerek son serideki en düşük seviyeye geriledi; ROIC %21.8 hâlâ makul görünse de artan capex baskısıyla marj erimesi devam ederse bu rakam da kötüleşecek."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr dönüşüm oranı 0.60× ile tatmin edici değil ve FCF marjı yalnızca %3; yedi çeyreklik art arda beklenti aşımının ardından gelen ilk miss, yüksek capex döneminde kazanç kalitesinin baskı altında olduğunu doğruluyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net borç pozisyonu yaklaşık 97 milyar dolara ulaşmış; güçlü reklam döngüsünde yönetilebilir görünse de AI yatırımlarının sürmesi ve FCF'nin zayıflığı göz önüne alındığında bilanço tampon alanı daralıyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 20.4 ve Rule of 40 skoru 46 ile değerleme büyümeye göre makul görünüyor; ancak %3 FCF marjı ortamında Fiyat/FCF 43.9 seviyesi ve FD/Satış 8.0 çarpanı, mevcut kârlılık baskısında potansiyel yukarı yönlü hareketi sınırlıyor."
+   }
+  ],
+  "concept": {
+   "title": "Kazanç Kalitesi (Earnings Quality) ve FCF Dönüşüm Oranı",
+   "body": "Kazanç kalitesi, raporlanan net kârın gerçek nakit üretimiyle ne ölçüde örtüştüğünü ölçer; FCF/net kâr oranı bu değerlendirmenin temel metriğidir. Meta'da bu oranın 0.60× seviyesine düşmesi, muhasebe kârının önemli bir kısmının capex ve çalışma sermayesi değişimleri nedeniyle nakit karşılığı bulamaması anlamına gelir; bu durum yüksek yatırım dönemlerinde geçici olabilir, ancak süreklilik kazanırsa şirketin gerçek değer yaratma kapasitesi sorgulanır."
+  }
+ }
+}
