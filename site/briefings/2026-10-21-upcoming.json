@@ -1,0 +1,352 @@
+{
+ "date": "2026-10-21",
+ "slot": "upcoming",
+ "generated_at": "2026-10-21T10:38:15+00:00",
+ "mock": false,
+ "ticker": "VRT",
+ "company": {
+  "name": "Vertiv Holdings, LLC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap": 78368186368
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 7 gün sonra açıklanacak (28 Ekim) — beklentileri incele"
+ },
+ "price": {
+  "last": 203.56,
+  "change_pct": -4.8
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 7,
+  "progress_pct": 92
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.3B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.52",
+   "sub": "Beat · beklenti $1.43",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%37.7",
+   "sub": "-0.0 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$925M",
+   "sub": "marj %28",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.3B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.64,
+       2.68,
+       2.88,
+       2.65,
+       3.27
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$498M",
+      "note": "+%54 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       12.3,
+       14.9,
+       15.5,
+       14.7,
+       15.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.52",
+      "note": "beklenti $1.43 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%37.7",
+      "note": "-0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       34.0,
+       37.8,
+       38.9,
+       37.7,
+       37.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%19.5",
+      "note": "+2.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       16.9,
+       20.5,
+       21.1,
+       16.4,
+       19.5
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%22.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%43.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%10.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.69×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.7 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "50",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$925M",
+      "note": "marj %28",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-528M",
+      "note": "nakit $2.8B · borç $3.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "46.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "22.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "6.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "29.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "26.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    2.6,
+    2.7,
+    2.9,
+    2.6,
+    3.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    34.0,
+    37.8,
+    38.9,
+    37.7,
+    37.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "11 günlük düşüşün ardından analistler hissede %50 yukarı potansiyel görüyor; yapay zeka soğutma altyapısının öncü ismi olarak Vertiv yeniden mercek altında.",
+   "source": "benzinga",
+   "published": "2026-10-20",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62480190/vertiv-stock-longest-losing-streak-analysts-upside",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Vertiv ve Skanska, Norveç'te yeni bir veri merkezi projesinde iş birliği yapıyor; uluslararası proje kazanımları coğrafi çeşitlendirmeyi güçlendiriyor.",
+   "source": "fiscal.ai",
+   "published": "2026-10-20",
+   "url": "https://irw-press.com/de/bitzero-gewinnt-den-fuehrenden-generalunternehmer-skanska-fuer-die-ausfuehrung-seines-vorzeige-rechenzentrums-in-norwegen/",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Mizuho, Vertiv'e 'Outperform' notunu koruyarak hedef fiyatı 280$'a indirdi; bu temkinli fiyat revizyonu kısa vadeli baskıya işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-10-15",
+   "url": "https://www.benzinga.com/news/26/10/62393944/mizuho-maintains-outperform-vertiv-holdings-lowers-price-target-280",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "RBC Capital, 'Outperform' notunu sürdürerek hedef fiyatı 323$'a çekti; birden fazla kurumun aynı anda hedef indirmesi değerleme baskısının farkındalığını yansıtıyor.",
+   "source": "benzinga",
+   "published": "2026-10-14",
+   "url": "https://www.benzinga.com/news/26/10/62355873/rbc-capital-maintains-outperform-vertiv-holdings-lowers-price-target-323",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Vertiv, veri merkezi ve kritik altyapı için güç yönetimi, soğutma ve izleme sistemleri üretir. Büyük teknoloji şirketleri, telekominikasyon sağlayıcıları ve bulut hizmeti sağlayıcılarına doğrudan satış ve proje bazlı gelir modeli ile hizmet verir.",
+  "note": "Yapay zeka altyapısına yapılan harcamaların ivmelenmesiyle Vertiv'in veri merkezi soğutma ve güç altyapısına olan talep yapısal olarak güçlü kalmaya devam ediyor; 8 ardışık beklenti aşımı ve %22.6 ROIC, iş modelinin kalitesini ve rekabetçi konumunu teyit ediyor. FCF/net kâr dönüşüm oranının 1.69x olması, kârlılığın muhasebe kâğıdında değil gerçek nakitte karşılık bulduğunu gösteriyor ve 3-5 yıllık yatırım tezini destekliyor. Bu çeyreğin en kritik mesajı, faaliyet marjının 19.5'e toparlaması; marj kalıcı bir platoya mı yoksa genişlemeye mi devam edecek, bu soru yakın dönemin belirleyicisi.",
+  "counter": "Vertiv'in gelirinin önemli bir kısmı hiperscaler ve büyük teknoloji şirketlerinin capex döngülerine bağlı; yapay zeka yatırımlarının beklentilerin altında kalması veya müşteri capex kesintisi, hem büyüme hem de fiyatlama gücünü aynı anda tehdit edebilir. Liquid cooling (sıvı soğutma) alanında Schneider Electric, Eaton ve yeni girişimcilerin rekabeti yoğunlaşırsa mevcut premium marjlar sürdürülemez hale gelebilir.",
+  "watch": [
+   "Faaliyet marjının %20 eşiğini kalıcı olarak aşıp aşamayacağı ve liquid cooling ürünlerinin mix içindeki payının marj üzerindeki etkisi",
+   "Hiperscaler müşteri capex taahhütlerinin (Microsoft, Google, Amazon, Meta) somut sipariş backlok'una dönüşme hızı ve iptal/erteleme riski"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir %24 y/y büyüyerek 3.3B$ ile serideki en yüksek çeyrek düzeyine ulaştı; çeyreklik trende bakıldığında önceki çeyrekteki gerilemenin ardından sert bir toparlanma görülüyor, ivme yeniden yukarı yönlü."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %37.7 ile stabil seyrederken faaliyet marjı %19.5'e iyileşti; ROIC %22.6 ve ROE %43.9 sermayenin son derece verimli kullanıldığını kanıtlıyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşümü 1.69x ve FCF marjı %28 ile kârlılık yüksek kaliteli nakit üretimine dönüşüyor; hisse seyrelmesi %0.7 ile kontrollü seyrediyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç pozisyonu -528M$ ile sektördeki büyüme temposuna göre makul olmakla birlikte, artan capex baskısı ve olası satın almalar göz önüne alındığında borç seviyesi yakından izlenmeli."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 22.1 ve Fiyat/FCF 26.8 büyüme kalitesiyle kısmen desteklenebilir olsa da FD/Satış 6.8x ve cari F/K 46.1x seviyesindeki çarpanlar, büyümede herhangi bir yavaşlamayı affetmez nitelikte yüksek beklenti içeriyor."
+   }
+  ],
+  "concept": {
+   "title": "FCF Dönüşüm Oranı (FCF Conversion Ratio)",
+   "body": "FCF dönüşüm oranı, net kârın ne kadarının gerçek serbest nakit akışına dönüştüğünü ölçer; 1x'in üzeri kârın muhasebe rakamından daha güçlü nakit üretimi anlamına gelir. Vertiv'in 1.69x oranı, agresif stok veya alacak yönetimiyle desteklenen yüksek kaliteli kazanç yapısına işaret ediyor ve uzun vadeli yatırımcılar için güvenilirlik sinyali verir."
+  }
+ }
+}
