@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-22",
+ "slot": "reported",
+ "generated_at": "2026-10-22T10:42:24+00:00",
+ "mock": false,
+ "ticker": "META",
+ "company": {
+  "name": "Meta Platforms, Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 1776936550400
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (21 Ekim)"
+ },
+ "price": {
+  "last": 697.52,
+  "change_pct": -2.08
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-21",
+  "next_date": "2027-01-27",
+  "last_label": "21 Ekim",
+  "next_label": "27 Ocak",
+  "days_to_next": 97,
+  "progress_pct": 1
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$60.8B",
+   "sub": "+%28 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$3.83",
+   "sub": "Miss · beklenti $5.46",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%81.4",
+   "sub": "-0.5 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.7B",
+   "sub": "marj %3",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 21 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$60.8B",
+      "note": "+%28 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       47.52,
+       51.24,
+       59.89,
+       56.31,
+       60.8
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$15.8B",
+      "note": "-%14 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       38.6,
+       5.3,
+       38.0,
+       47.5,
+       26.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$3.83",
+      "note": "beklenti $5.46 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%81.4",
+      "note": "-0.5 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       82.1,
+       82.0,
+       81.8,
+       81.9,
+       81.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%30.9",
+      "note": "-12.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       43.0,
+       40.1,
+       41.3,
+       40.6,
+       30.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%21.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%29.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.60×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "46",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.7B",
+      "note": "marj %3",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-96.9B",
+      "note": "nakit $15.5B · borç $112.3B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Zuckerberg'in açıklamalarına göre Meta, AI ve superintelligence altyapısına yönelik büyük ölçekli yatırımları sürdürmeyi planlıyor; Muse ürününün Facebook ve Instagram'ı kullanıcı başına gelirde geçebileceği öngörülüyor. Resmi çeyreklik gelir guidance'ı haber metinlerinden net olarak tespit edilemedi.",
+      "note": "Yönetim AI yatırımlarına kararlı; ancak analistler Muse'un şimdiye kadarki en büyük zarar eden Meta ürünü olduğu konusunda uyarıda bulunuyor. Bu ikilem kısa vadeli marj baskısının devam edeceğine işaret ediyor.",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "23.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "19.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "7.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "16.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "43.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    47.5,
+    51.2,
+    59.9,
+    56.3,
+    60.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    82.1,
+    82.0,
+    81.8,
+    81.9,
+    81.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Zuckerberg, Q3 sonrası 'ölçekleme yoluyla superintelligence inşa edeceklerini' açıkladı; hisse senetleri saat sonrası işlemlerde yükseldi.",
+   "source": "benzinga",
+   "published": "2026-10-22",
+   "url": "https://www.benzinga.com/markets/earnings/26/10/62517271/mark-zuckerberg-superintelligence-scaling-meta-bigger-models",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Zuckerberg, Muse ürününün Facebook ve Instagram'ı kullanıcı başına gelirde geçebileceğini söyledi; ancak bir analist Muse'un Meta'nın tarihindeki en büyük zarar eden ürün olduğu konusunda uyardı.",
+   "source": "benzinga",
+   "published": "2026-10-22",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62516175/meta-muse-ai-revenue-costs-analyst",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Meta, Zuckerberg'in kontrolünü pekiştiren C Sınıfı hisse ekledi; analistler bu hamleyle birlikte daha fazla AI capex'inin geleceğine dikkat çekti.",
+   "source": "benzinga",
+   "published": "2026-10-22",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62516100/meta-non-voting-stock-split-zuckerberg-keeps-control-ai-buildout",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Pivotal Research, Meta için Satın Al tavsiyesini koruyarak fiyat hedefini 960 dolara yükseltti.",
+   "source": "benzinga",
+   "published": "2026-10-22",
+   "url": "https://www.benzinga.com/news/26/10/62518601/pivotal-research-maintains-buy-meta-platforms-raises-price-target-960",
+   "sentiment": "pos"
+  }
+ ],
+ "ai": {
+  "about": "Meta Platforms; Facebook, Instagram, WhatsApp ve Threads gibi sosyal medya platformları aracılığıyla dijital reklamcılıktan gelir elde eder. Bunun yanı sıra Reality Labs segmentiyle VR/AR cihazları ve yapay zeka altyapısına büyük yatırımlar yapmaktadır.",
+  "note": "Meta'nın reklam motoru hâlâ güçlü büyüme üretiyor (%28 y/y) ve 'Personal Superintelligence' ile AI asistan stratejisi uzun vadede kullanıcı başına geliri artırabilecek yeni bir platform katmanı oluşturma potansiyeli taşıyor. Ancak bu çeyrekte faaliyet marjının %30.9'a gerilemesi ve EPS'nin beklentiyi önemli ölçüde ıskalalaması, artan capex yükünün kısa-orta vadede kârlılığı baskıladığını gösteriyor; bu durum AI bahsinin ne zaman ve ne ölçüde geri dönüşe dönüşeceği sorusunu kritikleştiriyor. Reklam liderliği ve ağ etkisi köklü moat'ı korurken, Reality Labs ve AI harcamalarının sermaye verimliliği üzerindeki baskısı 3-5 yıllık tezin en büyük belirsizliği olmaya devam ediyor.",
+  "counter": "Devasa AI ve capex harcamaları FCF marjını %3'e kadar sıkıştırmış durumda; bu harcamaların somut gelire dönüşmemesi halinde net borç pozisyonunun (-96.9B$) yarattığı finansal kaldıraç riski ve sermaye tahsis hatası yatırım tezini temelden sarsabilir. Ayrıca regülasyon baskısı (AB veri gizliliği, antitröst) platformun küresel ölçeğini kısıtlama potansiyeli taşımaktadır.",
+  "watch": [
+   "AI ve Reality Labs harcamalarının gelire dönüşüm hızı: capex'in faaliyet marjı üzerindeki baskının ne zaman hafiflediği ve Muse/AI asistan ürünlerinin reklam gelirine anlamlı katkı sağlayıp sağlamadığı",
+   "FCF marjının toparlanma trendi: nakit dönüşüm oranının 0.60×'ten yukarı çıkıp çıkmadığı ve serbest nakit akışının sürdürülebilir büyümeyi finanse edecek düzeye ulaşıp ulaşmadığı"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir trendi son çeyreklerde genel olarak yukarı yönlü seyrediyor; 60.8B$ ile %28 y/y büyüme, dijital reklam pazarındaki pazar payı kazanımlarının sürdüğüne işaret ediyor."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "ROIC %21.8 ve ROE %29.8 hâlâ güçlü görünse de faaliyet marjının %43'ten %30.9'a sert düşmesi, AI ve Reality Labs yatırımlarının kârlılık üzerinde belirgin baskı kurduğunu ortaya koyuyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "zayif",
+    "yorum": "FCF/net kâr dönüşüm oranının 0.60× ile zayıf kalması ve FCF marjının yalnızca %3 olması, muhasebe kârlarının gerçek nakit üretimini yansıtmadığına işaret ediyor; bu durum EPS miss ile birleşince kazanç kalitesini zayıflatıyor."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "zayif",
+    "yorum": "Net nakit pozisyonunun -96.9B$ ile derin negatif bölgede olması, agresif capex ve büyük Class C hisse sınıfı hamlesinin bilançoya yansıyan yükünü gözler önüne seriyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "notr",
+    "yorum": "İleri F/K 19.9 ve Rule of 40 skoru 46 göz önüne alındığında çarpanlar makul görünüyor; ancak FCF marjının %3'e düşmesiyle Fiyat/FCF 43.4'e yükselmesi, mevcut harcama döngüsünde gerçek nakit bazlı değerlemenin oldukça gergin olduğunu gösteriyor."
+   }
+  ],
+  "concept": {
+   "title": "Capex Yoğunluğu ve FCF Gecikme Riski",
+   "body": "Capex yoğunluğu, bir şirketin satışlarına oranla ne kadar sermaye harcadığını ölçer; yüksek capex dönemlerinde muhasebe kârları ile gerçek nakit akışı arasında belirgin bir makas oluşur. Meta'nın mevcut AI altyapı yatırımları tam olarak bu dinamiği yaratıyor: net kâr pozitif görünürken FCF marjı %3'e gerilemiş durumda ve yatırımcılar bu harcamaların gelecekte yüksek getiriye dönüşeceğine dair 'gecikme primini' fiyatlamak zorunda kalıyor."
+  }
+ }
+}

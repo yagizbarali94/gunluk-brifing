@@ -1,0 +1,363 @@
+{
+ "date": "2026-10-22",
+ "slot": "upcoming",
+ "generated_at": "2026-10-22T10:41:32+00:00",
+ "mock": false,
+ "ticker": "VRT",
+ "company": {
+  "name": "Vertiv Holdings, LLC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap": 81675239424
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 6 gün sonra açıklanacak (28 Ekim) — beklentileri incele"
+ },
+ "price": {
+  "last": 212.15,
+  "change_pct": 1.95
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 6,
+  "progress_pct": 93
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.3B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.52",
+   "sub": "Beat · beklenti $1.43",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%37.7",
+   "sub": "-0.0 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$925M",
+   "sub": "marj %28",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.3B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.64,
+       2.68,
+       2.88,
+       2.65,
+       3.27
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$498M",
+      "note": "+%54 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       12.3,
+       14.9,
+       15.5,
+       14.7,
+       15.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.52",
+      "note": "beklenti $1.43 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%37.7",
+      "note": "-0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       34.0,
+       37.8,
+       38.9,
+       37.7,
+       37.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%19.5",
+      "note": "+2.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       16.9,
+       20.5,
+       21.1,
+       16.4,
+       19.5
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%22.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%43.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%10.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.69×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.7 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "50",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$925M",
+      "note": "marj %28",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-528M",
+      "note": "nakit $2.8B · borç $3.3B",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Guidance",
+    "rows": [
+     {
+      "metric": "Guidance",
+      "value": "Haberlerden doğrudan sayısal guidance verisi çıkarılamadı; ancak NVIDIA ve Dassault iş birlikleri kapsamında AI fabrika dağıtım sürelerinde %50 kısalma hedefleniyor ve NVIDIA DSX ortaklığıyla ilk 12 ayda %30 daha fazla token çıktısı öngörülüyor.",
+      "note": "Operasyonel hedefler iddialı ancak henüz finansal guidance revizyonu olarak teyit edilmedi; 28 Ekim bilançosu netlik getirecek.",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "48.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "23.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "7.1×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "30.6×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "27.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    2.6,
+    2.7,
+    2.9,
+    2.6,
+    3.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    34.0,
+    37.8,
+    38.9,
+    37.7,
+    37.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Vertiv ve NVIDIA, AI fabrikalarında daha hızlı konfigürasyon ve sanal doğrulama yaklaşımıyla ilk 12 ayda %30 daha fazla kümülatif token çıktısı hedefleyen ortak çözümü duyurdu.",
+   "source": "benzinga",
+   "published": "2026-10-21",
+   "url": "https://www.benzinga.com/news/26/10/62491112/vertiv-and-nvidia-launch-faster-ai-factory-approach-combine-rapid-configuration-and-virtual-validati",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Dassault Systèmes ve Vertiv iş birliğiyle AI fabrika altyapısı inşaat öncesinde simüle edilecek; hedef %50 daha kısa dağıtım süresi.",
+   "source": "benzinga",
+   "published": "2026-10-22",
+   "url": "https://www.benzinga.com/news/26/10/62516503/dassault-systemes-vertiv-collaborate-configure-simulate-validate-ai-factory-infrastructure-construct",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Analistler, 11 gün üst üste düşen AI soğutma hissesinde %50 yukarı potansiyel görüyor; mevcut geri çekilme alım fırsatı olarak değerlendiriliyor.",
+   "source": "benzinga",
+   "published": "2026-10-20",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62480190/vertiv-stock-longest-losing-streak-analysts-upside",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "SpaceX haberinin etkisiyle chip hisselerindeki toparlanma Vertiv'i de etkileyen makro riskten çıkış ortamını yansıtıyor.",
+   "source": "benzinga",
+   "published": "2026-10-21",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62494484/spacex-earnings-chip-stocks-rally-super-micro-sk-hynix",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": {
+  "about": "Vertiv, veri merkezleri ve kritik altyapılar için güç, soğutma ve BT altyapı yönetimi ekipmanları üretir. Başlıca müşterileri büyük bulut sağlayıcıları, kolos veri merkezi operatörleri ve telekomünikasyon şirketleridir; ürünlerini proje bazlı satış ve uzun vadeli servis sözleşmeleriyle gelir yaratır.",
+  "note": "Vertiv, yapay zeka veri merkezi yatırım döngüsünün en doğrudan faydalanıcılarından biri olarak %24 gelir büyümesi ve güçlü marj disipliniyle uzun vadeli tezi pekiştiriyor. NVIDIA ve Dassault ile açıklanan stratejik ortaklıklar, şirketi yalnızca donanım tedarikçisi olmaktan çıkarıp 'AI fabrika altyapısı tasarım ortağı' konumuna taşıyor; bu da fiyatlama gücünü ve müşteri bağımlılığını artırır. 3-5 yıllık pencerede veri merkezi soğutma ve güç yönetimi talebi yapısal olarak sağlam görünse de mevcut F/K 48x değerlemesi, yürütme hatalarına karşı fiyat toleransını oldukça daraltmaktadır.",
+  "counter": "Veri merkezi yatırım döngüsü hız keserke ya da hiper-scaler'lar tedarik zincirini dikey entegre ederse Vertiv'in sipariş defteri ve fiyatlama gücü ciddi baskıyla karşılaşabilir. Bunun yanı sıra rekabet yoğunlaşması (Eaton, Schneider Electric) marj tavanını sınırlayabilir.",
+  "watch": [
+   "Sipariş defteri büyümesi ve kitap-fatura oranı: AI veri merkezi talebinin sürdürülebilirliğini teyit eden en kritik öncü gösterge",
+   "Faaliyet marjı 21%+ eşiğini aşabilecek mi: kapasite kullanımı ve fiyatlama gücünün birleşik çıktısı olarak yapısal marj genişlemesinin ölçüsü"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Çeyreklik gelir serisi 2.6'dan 3.3 milyar dolara çıkarak son çeyrekte belirgin ivmelenme gösterdi; yıllık %24 büyüme sektör ortalamasının çok üzerinde."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "guclu",
+    "yorum": "Brüt marj %37-38 bandında stabil tutulurken faaliyet marjı yeniden %19.5'e çıktı; ROIC %22.6 ve ROE %43.9 olağanüstü sermaye verimliliğine işaret ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr dönüşüm oranı 1.69x ile net kârın çok üzerinde nakit üretiliyor; hisse seyrelmesi %0.7 ile ihmal edilebilir düzeyde ve 8 çeyrek üst üste beklenti aşımı mevcut."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "notr",
+    "yorum": "Net borç 528 milyon dolar düzeyinde yönetilebilir, ancak agresif büyüme yatırımları sürdükçe kaldıraç izlenmeli; şu an için kritik bir risk değil."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "Cari F/K 48x mükemmel fiyatlıyor; ileri F/K 23.1x ve Fiyat/FCF 27.9x büyüme ivmesi korunursa makul sayılabilir, ancak herhangi bir yavaşlama senaryosunda çarpanlar yüksek risk taşıyor."
+   }
+  ],
+  "concept": {
+   "title": "Kitap-Fatura Oranı (Book-to-Bill Ratio)",
+   "body": "Kitap-fatura oranı, belirli bir dönemde alınan yeni siparişlerin gerçekleşen satışlara bölünmesiyle hesaplanır; 1'in üzeri gelecek talebin güçlü olduğuna işaret eder. Vertiv gibi proje bazlı uzun teslim süreleri olan ekipman üreticilerinde bu oran, önümüzdeki 2-3 çeyreğin gelirini ve marj görünümünü öngörmede piyasa konsensüsünden çok daha erken sinyal verir."
+  }
+ }
+}
