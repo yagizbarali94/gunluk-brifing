@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-23-upcoming",
+  "date": "2026-10-23",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-23-reported",
+  "date": "2026-10-23",
+  "ticker": "META",
+  "name": "Meta Platforms, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-22-upcoming",
   "date": "2026-10-22",
   "ticker": "VRT",
