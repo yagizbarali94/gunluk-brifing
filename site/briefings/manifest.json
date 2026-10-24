@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-24-upcoming",
+  "date": "2026-10-24",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-24-reported",
+  "date": "2026-10-24",
+  "ticker": "CRWD",
+  "name": "CrowdStrike Holdings, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-23-upcoming",
   "date": "2026-10-23",
   "ticker": "VRT",
