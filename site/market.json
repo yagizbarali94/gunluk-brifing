@@ -1,6 +1,6 @@
 {
- "date": "2026-10-24",
- "generated_at": "2026-10-24T09:50:45+00:00",
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25T10:12:32+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr — kararsız",
@@ -182,50 +182,50 @@
   {
    "date": "2026-10-28",
    "label": "MSFT bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "28 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-28",
    "label": "GOOGL bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "28 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-29",
    "label": "AMZN bilanço",
-   "days": 5,
+   "days": 4,
    "date_label": "29 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-29",
    "label": "LLY bilanço",
-   "days": 5,
+   "days": 4,
    "date_label": "29 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-11-02",
    "label": "AAPL bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "2 Kasım",
    "kind": "bilanço"
   }
  ],
  "ai": {
-  "headline": "Büyük endeksler teknik olarak sağlam görünse de altında döngüsel zayıflık, yüksek faiz baskısı ve daralan breadth nötr-temkinli bir rejime işaret ediyor.",
-  "read": "S&P 500 hâlâ 200 günlük ortalamasının üzerinde duruyor ancak Nasdaq 100 zirveden yüzde yedi buçuk, Russell 2000 ise yüzde dokuz buçuk gerilemiş; bu da güçün yalnızca birkaç büyük şirkette toplandığını gösteriyor. Eşit ağırlıklı endeksin cap ağırlıklıdan 3 puan geride kalması ve sektörlerin yalnızca yüzde 55'inin 200 gün ortalaması üzerinde olması breadth'in orta düzeyde kırılgan olduğunu doğruluyor. Defansiflerin (Enerji, Sağlık, Temel Tüketim) öne çıkması ve yüksek getirili tahvillerin (HYG) zayıflaması, yatırımcıların risk alma iştahını kıstığına dair tutarlı bir tablo çiziyor. 10 yıllık faizin yüzde 5 eşiğine yaklaşması ve doların güçlenmesi, özellikle değerleme duyarlı teknoloji ve döngüsel segmentler için zemini zorlaştırmaya devam ediyor.",
+  "headline": "Büyük endeksler ayakta dursa da breadth zayıflamış, faiz baskısı artmış ve piyasa savunmaya çekilmiş durumda.",
+  "read": "S&P 500 ve Nasdaq 100 teknik olarak 200 günlük ortalamanın üzerinde kalıyor; ancak Nasdaq zirveden yüzde 7'yi, küçük şirketleri temsil eden Russell 2000 ise yüzde 9'u aşkın geride bırakmış. Eşit ağırlıklı endeksin cap-ağırlıklıdan 3 puan geride kalması, sağlığın yalnızca birkaç büyük şirket sayesinde korunduğunu gösteriyor; genişlik zayıf. 10 yıllık faizin yüzde 5 eşiğine dayandığı bu ortamda sermaye maliyeti artıyor ve yüksek değerlemeli büyüme hisselerine yönelik baskı güçleniyor; yüksek getirili tahvil zayıflığı da kredi koşullarının gerildiğine işaret ediyor. Enerji, sağlık ve temel tüketim gibi defansif sektörlerin öne çıkması, piyasanın belirsizliğe karşı kalkan aradığını yansıtıyor.",
   "watch": [
-   "28-29 Ekim MSFT, GOOGL, AMZN bilançoları: Teknoloji ve iletişim sektörünün mevcut zayıflığının şirket kazançlarına yansıyıp yansımadığı ve rehberliğin breadth üzerindeki etkisi",
-   "10 yıllık ABD Hazine faizinin yüzde 5 sınırını kalıcı olarak aşıp aşmadığı: Bu seviyenin kırılması hisse değerlemeleri ve kredi maliyetleri üzerindeki baskıyı artırabilir",
-   "HYG (yüksek getirili tahvil ETF) fiyat hareketi: Kredi spreadlerinin genişlemeye devam edip etmediği, genel risk iştahının erken uyarı göstergesi olarak işlev görüyor"
+   "10 yıllık ABD Hazine faizinin yüzde 5 sınırını kırıp kırmayacağı — bu eşiğin kalıcı olarak aşılması değerleme baskısını artırır",
+   "28-29 Ekim büyük teknoloji bilançoları (MSFT, GOOGL, AMZN): Nasdaq'taki geri çekilmenin temeli kazanç mı yoksa faiz mi sorusunun yanıtı burada şekillenecek",
+   "HYG yüksek getirili tahvil ETF'inin seyri — kredi spreadi genişlemesi devam ederse risk iştahındaki bozulma teyit edilmiş olur"
   ],
   "concept": {
-   "title": "Breadth Ayrışması (Breadth Divergence)",
-   "body": "Breadth ayrışması, ana endeks yükselirken veya sakin seyrederken piyasanın içindeki hisse sayısının giderek azalması, yani yükselişin geniş tabanlı olmayıp birkaç büyük şirkete dayanması durumunu ifade eder. Bu tablo, endeksin görünürde sağlıklı görünmesine karşın altındaki katılım zayıflığı nedeniyle kırılganlığın arttığına işaret eden yapısal bir uyarı sinyali olarak değerlendirilir."
+   "title": "Breadth Ayrışması (Market Breadth Divergence)",
+   "body": "Piyasa genişliği, endeks içindeki hisse senetlerinin ne kadarının yükselişe katıldığını ölçer; dar breadth, ağırlıklı endeksin birkaç büyük hissenin sürüklediği yapay bir sağlığa işaret ettiği anlamına gelir. Şu anda cap-ağırlıklı endeksin eşit ağırlıklıyı belirgin biçimde geride bırakması, tabanın genişlemediğini ve yükselen zeminin dar bir omuz üzerinde durduğunu gösteriyor."
   }
  }
 }

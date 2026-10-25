@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-25-upcoming",
+  "date": "2026-10-25",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-25-reported",
+  "date": "2026-10-25",
+  "ticker": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-24-upcoming",
   "date": "2026-10-24",
   "ticker": "VRT",

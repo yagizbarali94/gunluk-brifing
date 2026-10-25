@@ -1,0 +1,344 @@
+{
+ "date": "2026-10-25",
+ "slot": "reported",
+ "generated_at": "2026-10-25T10:12:25+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 843646697472
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 516.79,
+  "change_pct": 2.18
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-04",
+  "next_date": "2026-11-03",
+  "last_label": "4 Ağustos",
+  "next_label": "3 Kasım",
+  "days_to_next": 9,
+  "progress_pct": 90
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.5B",
+   "sub": "+%50 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.66",
+   "sub": "Beat · beklenti $1.61",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.8",
+   "sub": "+0.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.6B",
+   "sub": "marj %14",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.5B",
+      "note": "+%50 y/y",
+      "tone": "green",
+      "spark": [
+       7.68,
+       9.25,
+       10.27,
+       10.25,
+       11.54
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.3B",
+      "note": "+%163 y/y",
+      "tone": "green",
+      "spark": [
+       11.3,
+       13.4,
+       14.7,
+       13.5,
+       19.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.66",
+      "note": "beklenti $1.61 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.8",
+      "note": "+0.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       39.8,
+       51.7,
+       54.3,
+       52.8,
+       53.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%17.3",
+      "note": "+19.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       -1.7,
+       13.7,
+       17.1,
+       14.4,
+       17.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%9.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%10.2",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.31×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.6B",
+      "note": "marj %14",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$810M",
+      "note": "nakit $5.1B · borç $4.3B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "131.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "32.8×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "20.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "87.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "100.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "inline",
+  "inline",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    7.7,
+    9.2,
+    10.3,
+    10.3,
+    11.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    39.8,
+    51.7,
+    54.3,
+    52.8,
+    53.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "AMD hissesi, chip sektöründe yaşanan satış dalgasında %7 değer kaybetti; haber genel makro ve sektör baskısına işaret ediyor.",
+   "source": "benzinga",
+   "published": "2026-10-22",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62538125/amd-stock-drops-7-in-chip-sell-off-heres-why",
+   "sentiment": "neg"
+  },
+  {
+   "headline_tr": "Nvidia'nın Çin pazarının fiilen kapandığı belirtiliyor; bu durum AMD için Çin'de kısa vadeli fırsat yaratabilecek ancak aynı zamanda Çinli rakipleri güçlendiriyor.",
+   "source": "benzinga",
+   "published": "2026-10-23",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62554065/nvidia-china-chip-curbs-domestic-rivals",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "SOAR AI, AMD Instinct hızlandırıcılarıyla GPU dağıtım sözleşmesi imzaladığını duyurdu; veri merkezi talebi açısından olumlu bir sinyal.",
+   "source": "fiscal.ai",
+   "published": "2026-10-22",
+   "url": "https://natlawreview.com/press-releases/soar-ai-releases-investor-presentation-outlining-its-planned-path-initial",
+   "sentiment": "pos"
+  },
+  {
+   "headline_tr": "Ken Griffin, yapay zeka sektörünü balon olarak nitelendirdi; bu yorum AMD gibi yüksek değerlemeli AI chip şirketleri için risk algısını artırıyor.",
+   "source": "benzinga",
+   "published": "2026-10-21",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62499736/ken-griffin-calls-ai-a-bubble-after-citadel-bought-the-dip",
+   "sentiment": "neg"
+  }
+ ],
+ "ai": {
+  "about": "AMD, veri merkezi GPU'ları (Instinct serisi), masaüstü/dizüstü CPU'ları (Ryzen) ve gömülü çipler tasarlayıp satıyor. Başlıca müşterileri büyük bulut sağlayıcıları, OEM üreticiler ve oyun şirketleri; gelirini çip lisansı ve satışından elde ediyor.",
+  "note": "AMD'nin veri merkezi segmenti MI300/MI400 serileriyle hızlı büyümeye devam ederken brüt marjın %53-54 bandına yerleşmesi iş modelinin kalitesinin arttığını gösteriyor. Nvidia'nın Çin'deki kısıtlamalarından doğan boşluk ve SOAR AI gibi yeni GPU dağıtım ortaklıkları, 3-5 yıllık AI altyapı talebinden pay alma tezini destekliyor. Ancak bu büyümenin sürdürülebilirliği büyük ölçüde yazılım ekosistemi (ROCm) olgunluğuna ve müşterilerin CUDA'dan geçiş isteğine bağlı.",
+  "counter": "Nvidia'nın CUDA ekosistemindeki derin yapışkanlığı, AMD'nin veri merkezi GPU'larında gerçek anlamda pazar payı kazanmasının önündeki en büyük yapısal engel olmaya devam ediyor. Öte yandan Intel ve özel ASIC tasarımları (Google TPU, AWS Trainium) rekabeti uzun vadede marj baskısı yaratabilir.",
+  "watch": [
+   "ROCm yazılım ekosistemi gelişimi ve CUDA'ya kıyasla müşteri benimseme hızı",
+   "Veri merkezi GPU segmentinin toplam gelir içindeki pay artışı ve bu segmentte brüt marj seyri"
+  ],
+  "diagnosis": [
+   {
+    "baslik": "Büyüme ivmesi",
+    "verdict": "guclu",
+    "yorum": "Gelir 7.7B'dan 11.5B'a çıkarak yıllık %50 büyüdü ve bir önceki çeyreğin hafif yavaşlamasının ardından ivme yeniden hızlandı."
+   },
+   {
+    "baslik": "Kârlılık ve sermaye getirisi",
+    "verdict": "notr",
+    "yorum": "Brüt ve faaliyet marjları yukarı trendde ve güçlü görünse de ROIC %9.8 ve ROE %10.2, çarpanlar göz önüne alındığında sermaye getirisinin henüz prim almayı tam hak edecek seviyeye gelmediğini işaret ediyor."
+   },
+   {
+    "baslik": "Kazanç kalitesi",
+    "verdict": "guclu",
+    "yorum": "FCF/net kâr oranı 1.31x ile kazançların nakde dönüşümü güçlü; son dört çeyrekte arka arkaya beklenti aşımı güvenilirliği artırıyor, ancak yıllık %1.8 hisse seyrelmesi takip edilmeli."
+   },
+   {
+    "baslik": "Bilanço sağlığı",
+    "verdict": "guclu",
+    "yorum": "810M dolar net nakit pozisyonu ile bilanço temiz; borç yükü endişe yaratmıyor ve şirket büyüme yatırımlarını kaldıraç kullanmadan finanse edebiliyor."
+   },
+   {
+    "baslik": "Değerleme",
+    "verdict": "zayif",
+    "yorum": "Cari F/K 131.8, Fiyat/FCF 100.4 ve FD/Satış 20.2 gibi yüksek çarpanlar, mevcut büyüme ivmesinin çok ötesinde kusursuz bir senaryo fiyatlıyor ve herhangi bir hayal kırıklığında sert aşağı potansiyel barındırıyor."
+   }
+  ],
+  "concept": {
+   "title": "Rule of 40",
+   "body": "Yazılım ve teknoloji şirketlerinde büyüme oranı ile FCF marjının toplamının 40'ı geçip geçmediğine bakılan bir kalite göstergesidir. AMD'nin Rule of 40 skoru 70 olup hem hızlı büyüyen hem de nakde dönüşüm kapasitesi güçlü bir şirket olduğunu teyit ediyor; bu eşiğin üzerinde kalmak yüksek çarpanları kısmen savunabilir kılsa da değerlemeyi tek başına meşrulaştırmaz."
+  }
+ }
+}
