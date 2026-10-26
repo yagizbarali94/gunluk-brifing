@@ -1,6 +1,6 @@
 {
- "date": "2026-10-25",
- "generated_at": "2026-10-25T10:12:32+00:00",
+ "date": "2026-10-26",
+ "generated_at": "2026-10-26T11:34:28+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr — kararsız",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 19.45,
+  "vix": 19.68,
   "vix3m": 20.48,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -2.7
+  "vix_chg_5d": 6.7
  },
  "breadth": {
   "rsp_3m": -0.2,
@@ -153,8 +153,8 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.8",
-    "note": "son 1 ay +%2.4",
+    "value": "101.9",
+    "note": "son 1 ay +%2.2",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$103.3",
-    "note": "son 1 ay +%1.9",
+    "value": "$101.0",
+    "note": "son 1 ay -%4.5",
     "tone": "gray"
    },
    {
@@ -182,50 +182,38 @@
   {
    "date": "2026-10-28",
    "label": "MSFT bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "28 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-28",
    "label": "GOOGL bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "28 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-29",
    "label": "AMZN bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "29 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-10-29",
    "label": "LLY bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "29 Ekim",
    "kind": "bilanço"
   },
   {
    "date": "2026-11-02",
    "label": "AAPL bilanço",
-   "days": 8,
+   "days": 7,
    "date_label": "2 Kasım",
    "kind": "bilanço"
   }
  ],
- "ai": {
-  "headline": "Büyük endeksler ayakta dursa da breadth zayıflamış, faiz baskısı artmış ve piyasa savunmaya çekilmiş durumda.",
-  "read": "S&P 500 ve Nasdaq 100 teknik olarak 200 günlük ortalamanın üzerinde kalıyor; ancak Nasdaq zirveden yüzde 7'yi, küçük şirketleri temsil eden Russell 2000 ise yüzde 9'u aşkın geride bırakmış. Eşit ağırlıklı endeksin cap-ağırlıklıdan 3 puan geride kalması, sağlığın yalnızca birkaç büyük şirket sayesinde korunduğunu gösteriyor; genişlik zayıf. 10 yıllık faizin yüzde 5 eşiğine dayandığı bu ortamda sermaye maliyeti artıyor ve yüksek değerlemeli büyüme hisselerine yönelik baskı güçleniyor; yüksek getirili tahvil zayıflığı da kredi koşullarının gerildiğine işaret ediyor. Enerji, sağlık ve temel tüketim gibi defansif sektörlerin öne çıkması, piyasanın belirsizliğe karşı kalkan aradığını yansıtıyor.",
-  "watch": [
-   "10 yıllık ABD Hazine faizinin yüzde 5 sınırını kırıp kırmayacağı — bu eşiğin kalıcı olarak aşılması değerleme baskısını artırır",
-   "28-29 Ekim büyük teknoloji bilançoları (MSFT, GOOGL, AMZN): Nasdaq'taki geri çekilmenin temeli kazanç mı yoksa faiz mi sorusunun yanıtı burada şekillenecek",
-   "HYG yüksek getirili tahvil ETF'inin seyri — kredi spreadi genişlemesi devam ederse risk iştahındaki bozulma teyit edilmiş olur"
-  ],
-  "concept": {
-   "title": "Breadth Ayrışması (Market Breadth Divergence)",
-   "body": "Piyasa genişliği, endeks içindeki hisse senetlerinin ne kadarının yükselişe katıldığını ölçer; dar breadth, ağırlıklı endeksin birkaç büyük hissenin sürüklediği yapay bir sağlığa işaret ettiği anlamına gelir. Şu anda cap-ağırlıklı endeksin eşit ağırlıklıyı belirgin biçimde geride bırakması, tabanın genişlemediğini ve yükselen zeminin dar bir omuz üzerinde durduğunu gösteriyor."
-  }
- }
+ "ai": null
 }

@@ -1,0 +1,320 @@
+{
+ "date": "2026-10-26",
+ "slot": "reported",
+ "generated_at": "2026-10-26T11:34:21+00:00",
+ "mock": false,
+ "ticker": "AVGO",
+ "company": {
+  "name": "Broadcom Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1535581224960
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 321.68,
+  "change_pct": -0.17
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-02",
+  "next_date": "2026-12-09",
+  "last_label": "2 Eylül",
+  "next_label": "9 Aralık",
+  "days_to_next": 44,
+  "progress_pct": 55
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$29.6B",
+   "sub": "+%86 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "—",
+   "sub": "veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%69.1",
+   "sub": "-0.3 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$13.7B",
+   "sub": "marj %46",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 2 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$29.6B",
+      "note": "+%86 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       15.95,
+       18.02,
+       19.31,
+       22.19,
+       29.59
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$13.1B",
+      "note": "+%216 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       26.0,
+       47.3,
+       38.1,
+       42.0,
+       44.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "veri yok",
+      "note": "veri yok",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%69.1",
+      "note": "-0.3 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       67.1,
+       68.0,
+       68.1,
+       69.5,
+       69.1
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%54.3",
+      "note": "+16.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       38.1,
+       42.5,
+       44.9,
+       48.9,
+       54.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%23.5",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%44.2",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%15.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.03×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.6 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "130",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$13.7B",
+      "note": "marj %46",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-35.4B",
+      "note": "nakit $24.0B · borç $59.4B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "41.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "16.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "17.6×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "30.1×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "39.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    null,
+    16.0,
+    18.0,
+    19.3,
+    22.2,
+    29.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jan'25",
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    null,
+    67.1,
+    68.0,
+    68.1,
+    69.5,
+    69.1
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Seagate Technology Advances High-Capacity Storage Deployment With Broadcom",
+   "source": "fiscal.ai",
+   "published": "2026-10-26",
+   "url": "https://www.marketscreener.com/news/seagate-technology-advances-high-capacity-storage-deployment-with-broadcom-microsoft-ce785cdcdb8bf420",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "UPDATE: Meta Announces That Nvidia, Advanced Micro Devices And Broadcom Have Each Indicated An Interest In Purchasing Up To $5B Of Shares In The Common Stock Offering",
+   "source": "benzinga",
+   "published": "2026-10-26",
+   "url": "https://www.benzinga.com/news/26/10/62585277/update-meta-announces-nvidia-advanced-micro-devices-and-broadcom-have-each-indicated-interest-purcha",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Blackstone's $2.3 Billion CoreWeave Bet Sparked a Trillion-Dollar AI Lending Boom",
+   "source": "benzinga",
+   "published": "2026-10-23",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62564739/blackstone-coreweave-ai-lending-boom",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "8 Of 11 Sectors Fall In Friday Trading As Energy Leads",
+   "source": "benzinga",
+   "published": "2026-10-23",
+   "url": "https://www.benzinga.com/etfs/sector-etfs/26/10/62563293/8-of-11-sectors-fall-in-friday-trading-as-energy-leads",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

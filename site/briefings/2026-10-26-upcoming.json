@@ -1,0 +1,313 @@
+{
+ "date": "2026-10-26",
+ "slot": "upcoming",
+ "generated_at": "2026-10-26T11:34:20+00:00",
+ "mock": false,
+ "ticker": "VRT",
+ "company": {
+  "name": "Vertiv Holdings, LLC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap": 74810900480
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 2 gün sonra açıklanacak (28 Ekim) — beklentileri incele"
+ },
+ "price": {
+  "last": 194.32,
+  "change_pct": -0.07
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-29",
+  "next_date": "2026-10-28",
+  "last_label": "29 Temmuz",
+  "next_label": "28 Ekim",
+  "days_to_next": 2,
+  "progress_pct": 98
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.3B",
+   "sub": "+%24 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.52",
+   "sub": "Beat · beklenti $1.43",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%37.7",
+   "sub": "-0.0 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$925M",
+   "sub": "marj %28",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.3B",
+      "note": "+%24 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.64,
+       2.68,
+       2.88,
+       2.65,
+       3.27
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$498M",
+      "note": "+%54 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       12.3,
+       14.9,
+       15.5,
+       14.7,
+       15.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.52",
+      "note": "beklenti $1.43 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%37.7",
+      "note": "-0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       34.0,
+       37.8,
+       38.9,
+       37.7,
+       37.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%19.5",
+      "note": "+2.6 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       16.9,
+       20.5,
+       21.1,
+       16.4,
+       19.5
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%22.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%43.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%10.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.69×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.7 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "50",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$925M",
+      "note": "marj %28",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-528M",
+      "note": "nakit $2.8B · borç $3.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "44.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "21.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "6.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "28.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "25.6×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    2.6,
+    2.7,
+    2.9,
+    2.6,
+    3.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    34.0,
+    37.8,
+    38.9,
+    37.7,
+    37.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Earnings Volatility Watch: SanDisk and 11 Other Stocks Are Priced for at Least 10% Swings This Week",
+   "source": "benzinga",
+   "published": "2026-10-25",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62579677/earnings-volatility-watch-sandisk-intel-monolithic-power-implied-moves",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Vertiv Announces Participation in Baird 2026 Global Industrial Conference",
+   "source": "fiscal.ai",
+   "published": "2026-10-23",
+   "url": "https://www.prnewswire.com/news-releases/vertiv-to-participate-in-upcoming-investor-conference-302917163.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "GE Vernova Stock Rebounds, AI Sell-Off Gives Way To Earnings Focus",
+   "source": "benzinga",
+   "published": "2026-10-23",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62557401/ge-vernova-stock-rebounds-ai-sell-off-gives-way-to-earnings-focus",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Vertiv and NVIDIA Launch New AI Factory Deployment Approach",
+   "source": "fiscal.ai",
+   "published": "2026-10-23",
+   "url": "https://datacentremagazine.com/news/how-vertiv-and-nvidia-cut-ai-factory-deployment-time-in-half",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
