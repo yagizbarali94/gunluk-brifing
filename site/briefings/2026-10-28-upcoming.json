@@ -1,0 +1,313 @@
+{
+ "date": "2026-10-28",
+ "slot": "upcoming",
+ "generated_at": "2026-10-28T11:40:25+00:00",
+ "mock": false,
+ "ticker": "AMZN",
+ "company": {
+  "name": "Amazon.com, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "market_cap": 2730015850496
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (29 Ekim) — beklentileri incele"
+ },
+ "price": {
+  "last": 253.1,
+  "change_pct": -0.26
+ },
+ "earnings_calendar": {
+  "last_date": "2026-07-30",
+  "next_date": "2026-10-29",
+  "last_label": "30 Temmuz",
+  "next_label": "29 Ekim",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "veri yok",
+   "sub": "y/y veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "EPS",
+   "value": "$5.75",
+   "sub": "Beat · beklenti $1.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "veri yok",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-18.2B",
+   "sub": "marj veri yok",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 30 Temmuz",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       155.67,
+       167.7,
+       180.17,
+       213.39,
+       181.52,
+       null
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       11.0,
+       10.8,
+       11.8,
+       9.9,
+       16.7,
+       null
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$5.75",
+      "note": "beklenti $1.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "veri yok",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       50.6,
+       51.8,
+       50.8,
+       48.5,
+       51.8,
+       null
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       11.8,
+       11.4,
+       9.7,
+       11.7,
+       13.1,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%30.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%6.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-18.2B",
+      "note": "marj veri yok",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-108.1B",
+      "note": "nakit $101.8B · borç $209.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "20.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "24.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "16.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    155.7,
+    167.7,
+    180.2,
+    213.4,
+    181.5,
+    null
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    50.6,
+    51.8,
+    50.8,
+    48.5,
+    51.8,
+    null
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "AWS Partners with Fortune for 2026-27 Cyber 60 List",
+   "source": "fiscal.ai",
+   "published": "2026-10-28",
+   "url": "https://www.prnewswire.com/news-releases/noma-named-to-fourth-annual-fortune-cyber-60-list-of-venture-backed-cybersecurity-companies-302922012.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "‘Hard to Know If We’re in an AI Bubble’ Jeff Bezos Says, But Should a Retiree Buy AI Stocks? — ‘I Would Usually Tell a Retiree to Buy the S&P 500’",
+   "source": "benzinga",
+   "published": "2026-10-28",
+   "url": "https://www.benzinga.com/news/gaming/26/10/62649082/hard-to-know-if-were-in-an-ai-bubble-jeff-bezos-says-but-should-a-retiree-buy-ai-stocks-i-would-usually-tell-a-retiree-to-buy-the-sp-500",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Bernie Sanders Slams Microsoft Over 60,000 Workers Facing Buyouts and Trump-Era Tax Breaks Amid Billions in Profits: ‘A Total Scam’",
+   "source": "benzinga",
+   "published": "2026-10-28",
+   "url": "https://www.benzinga.com/news/politics/26/10/62644909/bernie-sanders-slams-microsoft-over-60000-workers-facing-buyouts-and-trump-era-tax-breaks-amid-billions-in-profits-a-total-scam",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Jeff Bezos Just Got a New Boost in His Rivalry With Elon Musk — Amazon Wins FCC Approval for $11.5 Billion Globalstar Deal to Expand Satellite Connectivity",
+   "source": "benzinga",
+   "published": "2026-10-28",
+   "url": "https://www.benzinga.com/markets/tech/26/10/62644373/jeff-bezos-rivalry-elon-musk-amazon-fcc-approval-11-5-billion-globalstar-deal",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

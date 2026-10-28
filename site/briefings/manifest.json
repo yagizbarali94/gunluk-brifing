@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-28-upcoming",
+  "date": "2026-10-28",
+  "ticker": "AMZN",
+  "name": "Amazon.com, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-28-reported",
+  "date": "2026-10-28",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-27-upcoming",
   "date": "2026-10-27",
   "ticker": "VRT",
