@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-10-29-upcoming",
+  "date": "2026-10-29",
+  "ticker": "PLTR",
+  "name": "Palantir Technologies Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-10-29-reported",
+  "date": "2026-10-29",
+  "ticker": "VRT",
+  "name": "Vertiv Holdings, LLC",
+  "slot": "reported"
+ },
+ {
   "id": "2026-10-28-upcoming",
   "date": "2026-10-28",
   "ticker": "AMZN",

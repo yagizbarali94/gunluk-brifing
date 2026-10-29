@@ -1,0 +1,321 @@
+{
+ "date": "2026-10-29",
+ "slot": "reported",
+ "generated_at": "2026-10-29T11:47:59+00:00",
+ "mock": false,
+ "ticker": "VRT",
+ "company": {
+  "name": "Vertiv Holdings, LLC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap": 93529022464
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Dün bilanço açıkladı (28 Ekim)"
+ },
+ "price": {
+  "last": 242.94,
+  "change_pct": 2.9
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-28",
+  "next_date": "2027-02-10",
+  "last_label": "28 Ekim",
+  "next_label": "10 Şubat",
+  "days_to_next": 104,
+  "progress_pct": 1
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "veri yok",
+   "sub": "y/y veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.21",
+   "sub": "Beat · beklenti $1.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "veri yok",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$925M",
+   "sub": "marj veri yok",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       null,
+       2.64,
+       2.68,
+       2.88,
+       2.65,
+       3.27,
+       null
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       null,
+       12.3,
+       14.9,
+       15.5,
+       14.7,
+       15.2,
+       null
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.21",
+      "note": "beklenti $1.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "veri yok",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       null,
+       34.0,
+       37.8,
+       38.9,
+       37.7,
+       37.7,
+       null
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       null,
+       16.9,
+       20.5,
+       21.1,
+       16.4,
+       19.5,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%46.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%11.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$925M",
+      "note": "marj veri yok",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-528M",
+      "note": "nakit $2.8B · borç $3.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "45.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "25.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "veri yok",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "veri yok",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "32.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    2.6,
+    2.7,
+    2.9,
+    2.6,
+    3.3,
+    null
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    34.0,
+    37.8,
+    38.9,
+    37.7,
+    37.7,
+    null
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Stock Market: Will S&P 500 Open Up or Down Today?",
+   "source": "benzinga",
+   "published": "2026-10-29",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62682843/stock-market-will-sp-500-open-up-or-down-today-68",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Dow Gains For Third Session Following Fed Decision: Investor Sentiment Improves, Greed Index Remains In ‘Fear’ Zone",
+   "source": "benzinga",
+   "published": "2026-10-29",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62682622/dow-gains-for-third-session-following-fed-decision-investor-sentiment-improves-greed-index-remains-in-fear-zone",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Crude Oil Surges Over 3%; Brinker Posts Upbeat Earnings",
+   "source": "benzinga",
+   "published": "2026-10-28",
+   "url": "https://www.benzinga.com/markets/market-summary/26/10/62665522/crude-oil-surges-over-3-brinker-posts-upbeat-earnings",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "SK Hynix, Vertiv Rescue AI Trade As Oil Tops $102 Before Fed: Stock Market Today",
+   "source": "benzinga",
+   "published": "2026-10-28",
+   "url": "https://www.benzinga.com/markets/equities/26/10/62664656/stock-market-today-sk-hynix-vertiv-ai-trade-oil-fed",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
