@@ -1,0 +1,313 @@
+{
+ "date": "2026-10-30",
+ "slot": "reported",
+ "generated_at": "2026-10-30T11:40:49+00:00",
+ "mock": false,
+ "ticker": "VRT",
+ "company": {
+  "name": "Vertiv Holdings, LLC",
+  "sector": "Industrials",
+  "industry": "Electrical Equipment & Parts",
+  "market_cap": 94686052352
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (28 Ekim)"
+ },
+ "price": {
+  "last": 245.92,
+  "change_pct": 4.72
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-28",
+  "next_date": "2027-02-10",
+  "last_label": "28 Ekim",
+  "next_label": "10 Şubat",
+  "days_to_next": 103,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$4.3B",
+   "sub": "+%61 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.21",
+   "sub": "Beat · beklenti $1.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%38.1",
+   "sub": "+0.4 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$652M",
+   "sub": "marj %15",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$4.3B",
+      "note": "+%61 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.68,
+       2.88,
+       2.65,
+       3.27,
+       4.31
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$764M",
+      "note": "+%92 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       14.9,
+       15.5,
+       14.7,
+       15.2,
+       17.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.21",
+      "note": "beklenti $1.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%38.1",
+      "note": "+0.4 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       37.8,
+       38.9,
+       37.7,
+       37.7,
+       38.1
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%23.0",
+      "note": "+2.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       20.5,
+       21.1,
+       16.4,
+       19.5,
+       23.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%24.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%46.6",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%11.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.48×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "85",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$652M",
+      "note": "marj %15",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$156M",
+      "note": "nakit $3.5B · borç $3.4B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "46.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "25.2×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "7.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "30.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "30.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    2.7,
+    2.9,
+    2.6,
+    3.3,
+    4.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    37.8,
+    38.9,
+    37.7,
+    37.7,
+    38.1
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Bernstein Maintains Outperform on Vertiv Holdings, Raises Price Target to $376",
+   "source": "benzinga",
+   "published": "2026-10-29",
+   "url": "https://www.benzinga.com/news/26/10/62723860/bernstein-maintains-outperform-vertiv-holdings-raises-price-target-376",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "RBC Capital Maintains Outperform on Vertiv Holdings, Raises Price Target to $351",
+   "source": "benzinga",
+   "published": "2026-10-29",
+   "url": "https://www.benzinga.com/news/26/10/62721545/rbc-capital-maintains-outperform-vertiv-holdings-raises-price-target-351",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Citigroup Maintains Buy on Vertiv Holdings, Raises Price Target to $362",
+   "source": "benzinga",
+   "published": "2026-10-29",
+   "url": "https://www.benzinga.com/news/26/10/62714659/citigroup-maintains-buy-vertiv-holdings-raises-price-target-362",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "TD Cowen Maintains Buy on Vertiv Holdings, Raises Price Target to $357",
+   "source": "benzinga",
+   "published": "2026-10-29",
+   "url": "https://www.benzinga.com/news/26/10/62710700/td-cowen-maintains-buy-vertiv-holdings-raises-price-target-357",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
