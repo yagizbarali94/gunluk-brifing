@@ -1,6 +1,6 @@
 {
- "date": "2026-10-31",
- "generated_at": "2026-10-31T11:15:38+00:00",
+ "date": "2026-11-01",
+ "generated_at": "2026-11-01T12:03:49+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -182,7 +182,7 @@
   {
    "date": "2026-11-02",
    "label": "AAPL bilanço",
-   "days": 2,
+   "days": 1,
    "date_label": "2 Kasım",
    "kind": "bilanço"
   }
