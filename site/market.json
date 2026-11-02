@@ -1,6 +1,6 @@
 {
- "date": "2026-11-01",
- "generated_at": "2026-11-01T12:03:49+00:00",
+ "date": "2026-11-02",
+ "generated_at": "2026-11-02T13:52:35+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr-olumlu — temkinli iyimser",
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 19.42,
+  "vix": 19.22,
   "vix3m": 20.78,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -0.2
+  "vix_chg_5d": 4.5
  },
  "breadth": {
   "rsp_3m": -0.5,
@@ -141,20 +141,20 @@
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.93",
-    "note": "son 1 ay -%0.7",
+    "value": "%4.90",
+    "note": "son 1 ay -%1.3",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.96 puan",
+    "value": "+0.92 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "101.9",
-    "note": "son 1 ay +%1.4",
+    "value": "101.6",
+    "note": "son 1 ay +%0.9",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$104.1",
-    "note": "son 1 ay +%8.7",
+    "value": "$97.5",
+    "note": "son 1 ay +%3.1",
     "tone": "gray"
    },
    {
@@ -182,7 +182,7 @@
   {
    "date": "2026-11-02",
    "label": "AAPL bilanço",
-   "days": 1,
+   "days": 0,
    "date_label": "2 Kasım",
    "kind": "bilanço"
   }
