@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-03",
+ "slot": "reported",
+ "generated_at": "2026-11-03T13:01:53+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 762104643584
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "Bugün bilanço açıkladı (3 Kasım)"
+ },
+ "price": {
+  "last": 466.84,
+  "change_pct": -1.09
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-04",
+  "next_date": "2026-11-03",
+  "last_label": "4 Ağustos",
+  "next_label": "3 Kasım",
+  "days_to_next": 0,
+  "progress_pct": 100
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.5B",
+   "sub": "+%50 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.66",
+   "sub": "Beat · beklenti $1.61",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.8",
+   "sub": "+0.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.6B",
+   "sub": "marj %14",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.5B",
+      "note": "+%50 y/y",
+      "tone": "green",
+      "spark": [
+       7.68,
+       9.25,
+       10.27,
+       10.25,
+       11.54
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.3B",
+      "note": "+%163 y/y",
+      "tone": "green",
+      "spark": [
+       11.3,
+       13.4,
+       14.7,
+       13.5,
+       19.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.66",
+      "note": "beklenti $1.61 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.8",
+      "note": "+0.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       39.8,
+       51.7,
+       54.3,
+       52.8,
+       53.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%17.3",
+      "note": "+19.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       -1.7,
+       13.7,
+       17.1,
+       14.4,
+       17.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%9.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%10.2",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.31×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.6B",
+      "note": "marj %14",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$810M",
+      "note": "nakit $5.1B · borç $4.3B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "119.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "29.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "18.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "78.8×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "90.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "inline",
+  "inline",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    7.7,
+    9.2,
+    10.3,
+    10.3,
+    11.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    39.8,
+    51.7,
+    54.3,
+    52.8,
+    53.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Stock Market Today: Dow, S&P 500 Futures Mixed as Trump Touts Iran Settlement Hopes — AAPL, PLTR, AMD in Focus",
+   "source": "benzinga",
+   "published": "2026-11-03",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62808089/stock-market-today-dow-sp-500-futures-mixed-as-trump-touts-iran-settlement-hopes-aapl-pltr-amd-in-focus",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "AMD Stock Just Got Crushed 26% in a Month — Here's What Investors Need From Lisa Su on Tuesday As Q3 Earnings Loom",
+   "source": "benzinga",
+   "published": "2026-11-03",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62807873/amd-q3-earnings-preview-jean-hu-data-center-sales-accelerate",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Nasdaq Dips Over 1% as Tech Stocks Fall: Investor Sentiment Weakens, Fear & Greed Index Moves to ‘Extreme Fear’ Zone",
+   "source": "benzinga",
+   "published": "2026-11-03",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/62806764/nasdaq-dips-over-1-as-tech-stocks-fall-investor-sentiment-weakens-fear-greed-index-moves-to-extreme-fear-zone",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Pfizer, Apple and 3 Stocks to Watch Heading Into Tuesday",
+   "source": "benzinga",
+   "published": "2026-11-03",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/62806430/pfizer-apple-and-3-stocks-to-watch-heading-into-tuesday",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
