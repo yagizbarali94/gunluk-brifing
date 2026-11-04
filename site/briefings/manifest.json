@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-11-04-upcoming",
+  "date": "2026-11-04",
+  "ticker": "NET",
+  "name": "Cloudflare, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-11-04-reported",
+  "date": "2026-11-04",
+  "ticker": "AMD",
+  "name": "Advanced Micro Devices, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-11-03-upcoming",
   "date": "2026-11-03",
   "ticker": "ARM",
