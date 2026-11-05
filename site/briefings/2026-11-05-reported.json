@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-05",
+ "slot": "reported",
+ "generated_at": "2026-11-05T13:30:39+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 801641857024
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (3 Kasım)"
+ },
+ "price": {
+  "last": 488.78,
+  "change_pct": 0.72
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-03",
+  "next_date": "2027-02-02",
+  "last_label": "3 Kasım",
+  "next_label": "2 Şubat",
+  "days_to_next": 89,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$11.5B",
+   "sub": "+%50 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.09",
+   "sub": "Beat · beklenti $1.94",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.8",
+   "sub": "+0.9 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.6B",
+   "sub": "marj %14",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 3 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$11.5B",
+      "note": "+%50 y/y",
+      "tone": "green",
+      "spark": [
+       7.68,
+       9.25,
+       10.27,
+       10.25,
+       11.54
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.3B",
+      "note": "+%163 y/y",
+      "tone": "green",
+      "spark": [
+       11.3,
+       13.4,
+       14.7,
+       13.5,
+       19.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.09",
+      "note": "beklenti $1.94 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.8",
+      "note": "+0.9 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       39.8,
+       51.7,
+       54.3,
+       52.8,
+       53.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%17.3",
+      "note": "+19.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       -1.7,
+       13.7,
+       17.1,
+       14.4,
+       17.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%9.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%12.0",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.31×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.6B",
+      "note": "marj %14",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$810M",
+      "note": "nakit $5.1B · borç $4.3B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "104.4×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "30.0×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "17.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "71.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "95.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "inline",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    7.7,
+    9.2,
+    10.3,
+    10.3,
+    11.5
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    39.8,
+    51.7,
+    54.3,
+    52.8,
+    53.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "IBM, Oak Ridge National Laboratory And AMD Announce Quantum Error Correction Platform Linking IBM Quantum Computers To AMD-Powered Supercomputer",
+   "source": "benzinga",
+   "published": "2026-11-05",
+   "url": "https://www.benzinga.com/quote/AMD",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "What Is Going On With Nvidia Stock on Thursday?",
+   "source": "benzinga",
+   "published": "2026-11-05",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62915715/what-is-going-on-with-nvidia-stock-on-thursday",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "DZ Bank Adjusts Price Target on Advanced Micro Devices to $620",
+   "source": "fiscal.ai",
+   "published": "2026-11-05",
+   "url": "https://www.marketscreener.com/news/dz-bank-adjusts-price-target-on-advanced-micro-devices-to-620-from-590-ce785fdcdd80f026",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Arm CEO Acknowledges AMD's Head Start in AI Chips, But Says 'We're Very, Very Serious' About Competing",
+   "source": "benzinga",
+   "published": "2026-11-05",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/62906358/arm-holdings-rene-haas-advanced-micro-devices-data-center-chips",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

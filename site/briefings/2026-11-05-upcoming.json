@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-05",
+ "slot": "upcoming",
+ "generated_at": "2026-11-05T13:30:38+00:00",
+ "mock": false,
+ "ticker": "DDOG",
+ "company": {
+  "name": "Datadog, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 67764637696
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %14.4 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 188.72,
+  "change_pct": 0.38
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-04",
+  "next_date": "2027-02-11",
+  "last_label": "4 Kasım",
+  "next_label": "11 Şubat",
+  "days_to_next": 98,
+  "progress_pct": 1
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.1B",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.81",
+   "sub": "Beat · beklenti $0.64",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%78.6",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$279M",
+   "sub": "marj %25",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.1B",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.83,
+       0.89,
+       0.95,
+       1.01,
+       1.12
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$45M",
+      "note": "+%1583 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.3,
+       3.8,
+       4.9,
+       5.2,
+       4.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.81",
+      "note": "beklenti $0.64 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%78.6",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       79.9,
+       80.1,
+       80.4,
+       79.2,
+       78.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%0.7",
+      "note": "+4.8 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -4.1,
+       -0.7,
+       0.8,
+       0.7,
+       0.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%3.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%6.4",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%0.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "6.04×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%3.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "63",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$279M",
+      "note": "marj %25",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-843M",
+      "note": "nakit $435M · borç $1.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "262.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "63.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "14.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "379.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "63.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    0.8,
+    0.9,
+    1.0,
+    1.0,
+    1.1
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    null,
+    79.9,
+    80.1,
+    80.4,
+    79.2,
+    78.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Cantor Fitzgerald Maintains Overweight on Datadog, Lowers Price Target to $260",
+   "source": "benzinga",
+   "published": "2026-11-05",
+   "url": "https://www.benzinga.com/news/26/11/62913772/cantor-fitzgerald-maintains-overweight-datadog-lowers-price-target-260",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Citigroup Adjusts Datadog Price Target to $290",
+   "source": "fiscal.ai",
+   "published": "2026-11-05",
+   "url": "https://www.marketscreener.com/news/citigroup-adjusts-price-target-on-datadog-to-290-from-305-ce785fdcdc88fe26",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Jefferies Adjusts Datadog Price Target to $230",
+   "source": "fiscal.ai",
+   "published": "2026-11-05",
+   "url": "https://www.moomoo.com/hans/news/flash/1003629066/datadog-inc-jefferies-cuts-target-price-to-230-from-280",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Needham Reiterates Buy on Datadog, Maintains $300 Price Target",
+   "source": "benzinga",
+   "published": "2026-11-04",
+   "url": "https://www.benzinga.com/news/26/11/62879597/needham-reiterates-buy-datadog-maintains-300-price-target",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
