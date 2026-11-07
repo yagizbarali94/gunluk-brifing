@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-07",
+ "slot": "reported",
+ "generated_at": "2026-11-07T11:56:34+00:00",
+ "mock": false,
+ "ticker": "NET",
+ "company": {
+  "name": "Cloudflare, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 95696420864
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (5 Kasım)"
+ },
+ "price": {
+  "last": 268.75,
+  "change_pct": -2.63
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-05",
+  "next_date": "2027-02-09",
+  "last_label": "5 Kasım",
+  "next_label": "9 Şubat",
+  "days_to_next": 94,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$696M",
+   "sub": "+%36 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.38",
+   "sub": "Beat · beklenti $0.34",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%71.8",
+   "sub": "+0.5 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$56M",
+   "sub": "marj %8",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$696M",
+      "note": "+%36 y/y",
+      "tone": "green",
+      "spark": [
+       0.51,
+       0.56,
+       0.61,
+       0.64,
+       0.7
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-170M",
+      "note": "+%237 y/y",
+      "tone": "green",
+      "spark": [
+       -9.8,
+       -0.2,
+       -2.0,
+       -3.6,
+       -24.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.38",
+      "note": "beklenti $0.34 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%71.8",
+      "note": "+0.5 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       74.9,
+       74.0,
+       73.6,
+       71.2,
+       71.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-7.9",
+      "note": "+5.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       -13.1,
+       -6.7,
+       -8.0,
+       -9.7,
+       -7.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-2.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-17.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-2.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%2.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "48",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$56M",
+      "note": "marj %8",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.9B",
+      "note": "nakit $1.7B · borç $3.5B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "148.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "35.1×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-14879.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "303.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    0.5,
+    0.6,
+    0.6,
+    0.6,
+    0.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26"
+   ],
+   "values": [
+    74.9,
+    74.0,
+    73.6,
+    71.2,
+    71.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Netcall Announces Collaboration with Box, Inc.",
+   "source": "fiscal.ai",
+   "published": "2026-11-07",
+   "url": "https://www.netcall.com/news/netcall-and-box-collaborate-to-bring-ai-powered-digital-services/",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Jefferies Maintains Hold on Cloudflare, Lowers Price Target to $315",
+   "source": "benzinga",
+   "published": "2026-11-07",
+   "url": "https://www.benzinga.com/news/26/11/63016478/jefferies-maintains-hold-cloudflare-lowers-price-target-315",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "JP Morgan Maintains Overweight on Cloudflare, Raises Price Target to $375",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/news/26/11/63015786/jp-morgan-maintains-overweight-cloudflare-raises-price-target-375",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Cloudflare Reports Q3 2026 Financial Results and Raises Full-Year Guidance",
+   "source": "fiscal.ai",
+   "published": "2026-11-06",
+   "url": "https://www.ebc.com/forex/cloudflare-stock-q3-earnings-2026",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

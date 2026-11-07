@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-07",
+ "slot": "upcoming",
+ "generated_at": "2026-11-07T11:56:33+00:00",
+ "mock": false,
+ "ticker": "AMD",
+ "company": {
+  "name": "Advanced Micro Devices, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 736464797696
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %11.0 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 449.04,
+  "change_pct": 11.32
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-03",
+  "next_date": "2027-02-02",
+  "last_label": "3 Kasım",
+  "next_label": "2 Şubat",
+  "days_to_next": 87,
+  "progress_pct": 4
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$13.4B",
+   "sub": "+%45 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.09",
+   "sub": "Beat · beklenti $1.95",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.9",
+   "sub": "+0.1 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$554M",
+   "sub": "marj %4",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 3 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$13.4B",
+      "note": "+%45 y/y",
+      "tone": "green",
+      "spark": [
+       9.25,
+       10.27,
+       10.25,
+       11.54,
+       13.38
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$2.4B",
+      "note": "+%95 y/y",
+      "tone": "green",
+      "spark": [
+       13.4,
+       14.7,
+       13.5,
+       19.9,
+       18.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.09",
+      "note": "beklenti $1.95 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.9",
+      "note": "+0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       51.7,
+       54.3,
+       52.8,
+       53.8,
+       53.9
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%21.2",
+      "note": "+7.4 puan y/y",
+      "tone": "green",
+      "spark": [
+       13.7,
+       17.1,
+       14.4,
+       17.3,
+       21.2
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%12.0",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.93×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "60",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$554M",
+      "note": "marj %4",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.5B",
+      "note": "nakit $7.4B · borç $8.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "95.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "25.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "16.1×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "65.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "104.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "inline",
+  "beat",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    9.2,
+    10.3,
+    10.3,
+    11.5,
+    13.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    51.7,
+    54.3,
+    52.8,
+    53.8,
+    53.9
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "AI Stocks Could Fall Further Despite Surging GPU Demand, Research Firm Warns",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63001253/ai-stocks-gpu-demand",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Nasdaq 100 Rebounds 2% After Worst Day Since 2020, Payrolls Smash Estimates: Stock Market Today",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62998202/stock-market-today-nasdaq-100-rebounds-chip-stocks-payrolls-beat",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Chip Stocks Are Now Cheaper Than the S&P 500 — Something Unseen During the Entire AI Boom",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/markets/equities/26/11/62997112/chip-stocks-cheaper-than-sp-500-ai-boom-semiconductor-discount",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Moderna, JFrog, TransMedics, Ubiquiti And Other Big Stocks Moving Higher On Friday",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62988477/moderna-jfrog-transmedics-ubiquiti-and-other-big-stocks-moving-higher-on-friday",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
