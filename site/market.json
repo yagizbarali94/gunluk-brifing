@@ -1,6 +1,6 @@
 {
- "date": "2026-11-07",
- "generated_at": "2026-11-07T11:56:41+00:00",
+ "date": "2026-11-08",
+ "generated_at": "2026-11-08T12:14:14+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-kapalı — savunma modu",
@@ -171,9 +171,9 @@
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%0.4",
-    "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
-    "tone": "amber"
+    "value": "+%0.0",
+    "note": "yüksek getirili tahvil güçlü — kredi sakin",
+    "tone": "green"
    }
   ],
   "curve_inverted": false
@@ -182,7 +182,7 @@
   {
    "date": "2026-11-17",
    "label": "NVDA bilanço",
-   "days": 10,
+   "days": 9,
    "date_label": "17 Kasım",
    "kind": "bilanço"
   }

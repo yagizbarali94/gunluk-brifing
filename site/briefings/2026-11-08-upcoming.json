@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-08",
+ "slot": "upcoming",
+ "generated_at": "2026-11-08T12:14:07+00:00",
+ "mock": false,
+ "ticker": "TSM",
+ "company": {
+  "name": "Taiwan Semiconductor Manufactur",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 1947209826304
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 375.44,
+  "change_pct": 6.04
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-15",
+  "next_date": "2027-01-14",
+  "last_label": "15 Ekim",
+  "next_label": "14 Ocak",
+  "days_to_next": 67,
+  "progress_pct": 26
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.49T",
+   "sub": "+%51 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.60",
+   "sub": "Beat · beklenti $4.52",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%66.4",
+   "sub": "-1.3 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$476.6B",
+   "sub": "marj %32",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 15 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.49T",
+      "note": "+%51 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       989.92,
+       1046.09,
+       1134.1,
+       1270.38,
+       1494.24
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$763.1B",
+      "note": "+%69 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       45.7,
+       46.4,
+       50.5,
+       55.6,
+       51.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.60",
+      "note": "beklenti $4.52 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%66.4",
+      "note": "-1.3 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       59.5,
+       62.3,
+       66.2,
+       67.7,
+       66.4
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%58.7",
+      "note": "+8.1 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       50.6,
+       54.0,
+       58.1,
+       60.3,
+       58.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%31.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%41.9",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%20.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.58×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "81",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$476.6B",
+      "note": "marj %32",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.64T",
+      "note": "nakit $3.62T · borç $983.5B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "24.3×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "16.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "2.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "3.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "1.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    null,
+    989.9,
+    1046.1,
+    1134.1,
+    1270.4,
+    1494.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    null,
+    59.5,
+    62.3,
+    66.2,
+    67.7,
+    66.4
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Nvidia Is Reportedly Pouring Billions Into AI's Next Big Bottleneck: Advanced Chip Packaging",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63010319/nvidia-chip-packaging",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "'TSMC Weighs Making Advanced Memory Chips to Capture More AI Spending' - The Information",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/news/26/11/62976032/tsmc-weighs-making-advanced-memory-chips-to-capture-more-ai-spending-the-information",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Taiwan Activates Market-Stabilization Measures Amid Semiconductor Sell-Off",
+   "source": "fiscal.ai",
+   "published": "2026-11-06",
+   "url": "https://www.marketscreener.com/news/taiwan-activates-market-stabilization-measures-to-stem-ai-bleeding-ce785fddd080f320",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "TSMC Surges 7% as Taiwan Restricts Short Selling to Halt Brutal Semiconductor Crash",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62974369/tsmc-surges-7-as-taiwan-restricts-short-selling-to-halt-brutal-semiconductor-crash",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
