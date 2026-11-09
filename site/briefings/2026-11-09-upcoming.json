@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-09",
+ "slot": "upcoming",
+ "generated_at": "2026-11-09T14:23:19+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 186843398144
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 174.62,
+  "change_pct": 0.07
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-04",
+  "next_date": "2027-02-03",
+  "last_label": "4 Kasım",
+  "next_label": "3 Şubat",
+  "days_to_next": 86,
+  "progress_pct": 5
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.4B",
+   "sub": "+%27 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.52",
+   "sub": "Beat · beklenti $0.48",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.1",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$130M",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.4B",
+      "note": "+%27 y/y",
+      "tone": "green",
+      "spark": [
+       1.14,
+       1.24,
+       1.49,
+       1.29,
+       1.44
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$130M",
+      "note": "-%45 y/y",
+      "tone": "amber",
+      "spark": [
+       21.0,
+       18.0,
+       21.0,
+       20.9,
+       9.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.52",
+      "note": "beklenti $0.48 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.1",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       97.4,
+       97.6,
+       97.9,
+       97.2,
+       97.1
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%13.9",
+      "note": "-0.4 puan y/y",
+      "tone": "gray",
+      "spark": [
+       14.4,
+       15.4,
+       29.5,
+       7.6,
+       13.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%11.3",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.26×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "49",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$130M",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.8B",
+      "note": "nakit $3.3B · borç $500M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "200.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "56.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "33.6×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "162.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "159.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    1.1,
+    1.2,
+    1.5,
+    1.3,
+    1.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    97.4,
+    97.6,
+    97.9,
+    97.2,
+    97.1
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Consumer Tech (Oct 2-6): Big Earnings Dominate Headline, Meta, Google Face Political And Regulatory Pressure Over AI Expansion & More",
+   "source": "benzinga",
+   "published": "2026-11-08",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63020142/consumer-tech-oct-2-6-big-earnings-dominate-headline-meta-google-face-political-and-regulatory-pressure-over-ai-expansion-more",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Deutsche Bank Adjusts Arm Holdings Price Target",
+   "source": "fiscal.ai",
+   "published": "2026-11-06",
+   "url": "https://www.marketscreener.com/news/deutsche-bank-adjusts-arm-holdings-adr-price-target-to-170-from-205-maintains-hold-rating-ce785fd2db8cf422",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Arm Announces New Total Access Deals and CSS Licenses",
+   "source": "fiscal.ai",
+   "published": "2026-11-06",
+   "url": "https://www.tradingview.com/news/tradingview:40fab1d5765bd:0/",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "What's Going On With Marvell Technology Stock Friday?",
+   "source": "benzinga",
+   "published": "2026-11-06",
+   "url": "https://www.benzinga.com/markets/tech/26/11/62989850/whats-going-on-with-marvell-technology-stock-friday-4",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

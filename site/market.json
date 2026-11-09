@@ -1,11 +1,11 @@
 {
- "date": "2026-11-08",
- "generated_at": "2026-11-08T12:14:14+00:00",
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T14:23:26+00:00",
  "mock": false,
  "regime": {
   "label": "Risk-kapalı — savunma modu",
   "tone": "amber",
-  "score": -2.7
+  "score": -1.7
  },
  "trend": {
   "rows": [
@@ -47,12 +47,12 @@
   "total": 3
  },
  "fear": {
-  "vix": 25.64,
+  "vix": 23.24,
   "vix3m": 24.6,
   "zone": "tedbirli",
-  "term": "backwardation",
+  "term": "contango",
   "tone": "gray",
-  "vix_chg_5d": 32.0
+  "vix_chg_5d": 9.9
  },
  "breadth": {
   "rsp_3m": -1.7,
@@ -141,20 +141,20 @@
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%4.86",
-    "note": "son 1 ay -%7.3",
+    "value": "%4.84",
+    "note": "son 1 ay -%7.8",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.86 puan",
+    "value": "+0.83 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "102.3",
-    "note": "son 1 ay +%1.1",
+    "value": "101.8",
+    "note": "son 1 ay +%0.5",
     "tone": "gray"
    },
    {
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$90.8",
-    "note": "son 1 ay -%1.9",
+    "value": "$86.8",
+    "note": "son 1 ay -%2.9",
     "tone": "gray"
    },
    {
@@ -182,7 +182,7 @@
   {
    "date": "2026-11-17",
    "label": "NVDA bilanço",
-   "days": 9,
+   "days": 8,
    "date_label": "17 Kasım",
    "kind": "bilanço"
   }

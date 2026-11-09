@@ -1,0 +1,321 @@
+{
+ "date": "2026-11-09",
+ "slot": "reported",
+ "generated_at": "2026-11-09T14:23:20+00:00",
+ "mock": false,
+ "ticker": "QCOM",
+ "company": {
+  "name": "QUALCOMM Incorporated",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 176988700672
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 165.41,
+  "change_pct": -0.24
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-04",
+  "next_date": "2027-02-03",
+  "last_label": "4 Kasım",
+  "next_label": "3 Şubat",
+  "days_to_next": 86,
+  "progress_pct": 5
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$10.3B",
+   "sub": "-%8 y/y",
+   "tone": "neg"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.17",
+   "sub": "Beat · beklenti $2.16",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%50.7",
+   "sub": "-2.3 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.8B",
+   "sub": "marj %18",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$10.3B",
+      "note": "-%8 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       11.27,
+       12.25,
+       10.6,
+       9.95,
+       10.32
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.3B",
+      "note": "-%140 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       -27.7,
+       24.5,
+       69.5,
+       20.1,
+       12.1
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.17",
+      "note": "beklenti $2.16 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%50.7",
+      "note": "-2.3 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       55.3,
+       54.6,
+       53.8,
+       53.1,
+       50.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%13.1",
+      "note": "-13.1 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       26.2,
+       27.5,
+       21.8,
+       16.3,
+       13.1
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%13.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%52.8",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%10.1",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.63×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.5 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "12",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.8B",
+      "note": "marj %18",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-10.5B",
+      "note": "nakit $4.6B · borç $15.1B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "13.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "13.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "4.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "20.5×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    null,
+    11.3,
+    12.3,
+    10.6,
+    9.9,
+    10.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    null,
+    55.3,
+    54.6,
+    53.8,
+    53.1,
+    50.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Elon Musk Says He's 'Excited' About Qualcomm Deal As SpaceX Gears Up For Massive 5G Expansion",
+   "source": "benzinga",
+   "published": "2026-11-09",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63030381/elon-musk-says-hes-excited-about-qualcomm-deal-as-spacex-gears-up-for-massive-5g-expansion",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "President Trump, In CBS 60 Minutes Interview Sunday, Said AI Risks Can Be Managed, But Doesn't Mind Guardrails",
+   "source": "benzinga",
+   "published": "2026-11-09",
+   "url": "https://www.benzinga.com/quote/ANT",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Consumer Tech (Oct 2-6): Big Earnings Dominate Headline, Meta, Google Face Political And Regulatory Pressure Over AI Expansion & More",
+   "source": "benzinga",
+   "published": "2026-11-08",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63020142/consumer-tech-oct-2-6-big-earnings-dominate-headline-meta-google-face-political-and-regulatory-pressure-over-ai-expansion-more",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Analysts Question AAPL's Valuation, Apple's Margin Pressure and More:  This Week in Appleverse",
+   "source": "benzinga",
+   "published": "2026-11-08",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63020016/top-market-stories-amazon-apple-qualcomm-micron-3m",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
