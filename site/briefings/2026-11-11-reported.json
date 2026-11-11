@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-11",
+ "slot": "reported",
+ "generated_at": "2026-11-11T12:58:55+00:00",
+ "mock": false,
+ "ticker": "NET",
+ "company": {
+  "name": "Cloudflare, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 109596344320
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %4.1 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 305.8,
+  "change_pct": -1.04
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-05",
+  "next_date": "2027-02-09",
+  "last_label": "5 Kasım",
+  "next_label": "9 Şubat",
+  "days_to_next": 90,
+  "progress_pct": 6
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$783M",
+   "sub": "+%39 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.38",
+   "sub": "Beat · beklenti $0.34",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%71.2",
+   "sub": "-0.6 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$82M",
+   "sub": "marj %10",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 5 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$783M",
+      "note": "+%39 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.56,
+       0.61,
+       0.64,
+       0.7,
+       0.78
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-34M",
+      "note": "+%2541 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -0.2,
+       -2.0,
+       -3.6,
+       -24.4,
+       -4.4
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.38",
+      "note": "beklenti $0.34 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%71.2",
+      "note": "-0.6 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       74.0,
+       73.6,
+       71.2,
+       71.8,
+       71.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%-7.3",
+      "note": "-0.6 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       -6.7,
+       -8.0,
+       -9.7,
+       -7.9,
+       -7.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%-2.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%-17.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-2.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%2.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "51",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$82M",
+      "note": "marj %10",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-2.7B",
+      "note": "nakit $2.0B · borç $4.7B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "veri yok",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "165.4×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "39.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "-16939.5×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "340.4×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    0.6,
+    0.6,
+    0.6,
+    0.7,
+    0.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    74.0,
+    73.6,
+    71.2,
+    71.8,
+    71.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Regal Rexnord is 'Worth So Much More,' Don't Overlook Churchill Downs: Jim Cramer",
+   "source": "benzinga",
+   "published": "2026-11-10",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63084671/jim-cramer-regal-rexnord-churchill-downs",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "DZ Bank AG Maintains Buy Rating and Raises Price Target for Cloudflare",
+   "source": "fiscal.ai",
+   "published": "2026-11-10",
+   "url": "https://www.moomoo.com/hans/news/post/1004128835/dz-bank-ag-maintains-cloudflare-netus-with-buy-rating-raises",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Consumer Tech (Oct 2-6): Big Earnings Dominate Headline, Meta, Google Face Political And Regulatory Pressure Over AI Expansion & More",
+   "source": "benzinga",
+   "published": "2026-11-08",
+   "url": "https://www.benzinga.com/markets/large-cap/26/11/63020142/consumer-tech-oct-2-6-big-earnings-dominate-headline-meta-google-face-political-and-regulatory-pressure-over-ai-expansion-more",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Netcall Announces Collaboration with Box, Inc.",
+   "source": "fiscal.ai",
+   "published": "2026-11-07",
+   "url": "https://www.netcall.com/news/netcall-and-box-collaborate-to-bring-ai-powered-digital-services/",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
