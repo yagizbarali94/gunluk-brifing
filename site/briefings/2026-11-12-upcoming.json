@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-12",
+ "slot": "upcoming",
+ "generated_at": "2026-11-12T14:00:13+00:00",
+ "mock": false,
+ "ticker": "NVDA",
+ "company": {
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 4195058188288
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 5 gün sonra açıklanacak (17 Kasım) — beklentileri incele"
+ },
+ "price": {
+  "last": 173.73,
+  "change_pct": 9.42
+ },
+ "earnings_calendar": {
+  "last_date": "2026-08-26",
+  "next_date": "2026-11-17",
+  "last_label": "26 Ağustos",
+  "next_label": "17 Kasım",
+  "days_to_next": 5,
+  "progress_pct": 94
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$96.2B",
+   "sub": "+%106 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.22",
+   "sub": "Beat · beklenti $2.09",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%75.0",
+   "sub": "+0.0 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$21.4B",
+   "sub": "marj %22",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 26 Ağustos",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$96.2B",
+      "note": "+%106 y/y",
+      "tone": "green",
+      "spark": [
+       46.74,
+       57.01,
+       68.13,
+       81.61,
+       96.22
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$59.7B",
+      "note": "+%126 y/y",
+      "tone": "green",
+      "spark": [
+       56.5,
+       56.0,
+       63.1,
+       71.5,
+       62.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.22",
+      "note": "beklenti $2.09 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%75.0",
+      "note": "+0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       72.4,
+       73.4,
+       75.0,
+       74.9,
+       75.0
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%66.2",
+      "note": "+5.4 puan y/y",
+      "tone": "green",
+      "spark": [
+       60.8,
+       63.2,
+       65.0,
+       65.6,
+       66.2
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%73.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%117.2",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%53.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.66×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%1.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "148",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$21.4B",
+      "note": "marj %22",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-15.9B",
+      "note": "nakit $22.4B · borç $38.4B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "22.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "10.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "13.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "20.7×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "33.0×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    46.7,
+    57.0,
+    68.1,
+    81.6,
+    96.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    72.4,
+    73.4,
+    75.0,
+    74.9,
+    75.0
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "NVIDIA Says Colette Kress To Serve As Interim CEO Until Permanent Successor Named; Board Is Initiating Search For Permanent CEO And Will Consider Internal And External Candidates",
+   "source": "benzinga",
+   "published": "2026-11-12",
+   "url": "https://www.benzinga.com/news/26/11/63184586/nvidia-says-colette-kress-serve-interim-ceo-until-permanent-successor-named-board-initiating-search-",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "NVIDIA Appoints Harvey C. Jones As Its First-Ever Board Chair",
+   "source": "benzinga",
+   "published": "2026-11-12",
+   "url": "https://www.benzinga.com/news/26/11/63184507/nvidia-appoints-harvey-c-jones-its-first-ever-board-chair",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "NVIDIA Appoints Colette Kress As Interim CEO; Jensen Huang Has Resigned As President, Chief Executive Officer, And A Member Of The Board, Effective Immediately",
+   "source": "benzinga",
+   "published": "2026-11-12",
+   "url": "https://www.benzinga.com/quote/NVDA",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "U.S. Trade Rep Greer Says Want 'Crown Jewel' Chips To Remain 'Crown Jewels' In Us, Allies’ Hands",
+   "source": "benzinga",
+   "published": "2026-11-12",
+   "url": "https://www.benzinga.com/news/26/11/63184127/u-s-trade-rep-greer-says-want-crown-jewel-chips-remain-crown-jewels-us-allies-hands",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

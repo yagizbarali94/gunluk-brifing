@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-12",
+ "slot": "reported",
+ "generated_at": "2026-11-12T14:00:14+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 217595199488
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %12.1 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 203.36,
+  "change_pct": 2.22
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-04",
+  "next_date": "2027-02-03",
+  "last_label": "4 Kasım",
+  "next_label": "3 Şubat",
+  "days_to_next": 83,
+  "progress_pct": 9
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.4B",
+   "sub": "+%27 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.52",
+   "sub": "Beat · beklenti $0.48",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.1",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$130M",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.4B",
+      "note": "+%27 y/y",
+      "tone": "green",
+      "spark": [
+       1.14,
+       1.24,
+       1.49,
+       1.29,
+       1.44
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$130M",
+      "note": "-%45 y/y",
+      "tone": "amber",
+      "spark": [
+       21.0,
+       18.0,
+       21.0,
+       20.9,
+       9.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.52",
+      "note": "beklenti $0.48 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.1",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       97.4,
+       97.6,
+       97.9,
+       97.2,
+       97.1
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%13.9",
+      "note": "-0.4 puan y/y",
+      "tone": "gray",
+      "spark": [
+       14.4,
+       15.4,
+       29.5,
+       7.6,
+       13.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%11.3",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.26×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "49",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$130M",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.8B",
+      "note": "nakit $3.3B · borç $500M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "233.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "66.2×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "39.3×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "190.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "185.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    1.1,
+    1.2,
+    1.5,
+    1.3,
+    1.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    97.4,
+    97.6,
+    97.9,
+    97.2,
+    97.1
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "POET Stock Soars After CoreWeave's Strong Q3 Results and FY26 Guidance",
+   "source": "benzinga",
+   "published": "2026-11-11",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63162605/poet-stock-soars-after-coreweaves-strong-q3-results-and-fy26-guidance",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "QUICK SPARK: CoreWeave, 16 Other AI Stocks Are Up More Than 10% on Wednesday",
+   "source": "benzinga",
+   "published": "2026-11-11",
+   "url": "https://www.benzinga.com/markets/earnings/26/11/63158536/coreweave-ai-stocks-up-10-percent-wednesday",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "What Is Going on With Arm Holdings Stock on Wednesday?",
+   "source": "benzinga",
+   "published": "2026-11-11",
+   "url": "https://www.benzinga.com/markets/tech/26/11/63153896/what-is-going-on-with-arm-holdings-stock-on-wednesday",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Riskified, CoreWeave, Micron And Other Big Stocks Moving Higher On Wednesday",
+   "source": "benzinga",
+   "published": "2026-11-11",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63147086/riskified-coreweave-micron-and-other-big-stocks-moving-higher-on-wednesday",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
