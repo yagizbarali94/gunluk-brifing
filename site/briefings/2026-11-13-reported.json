@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-13",
+ "slot": "reported",
+ "generated_at": "2026-11-13T13:27:26+00:00",
+ "mock": false,
+ "ticker": "SMCI",
+ "company": {
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 17792546816
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %11.3 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 26.99,
+  "change_pct": -1.71
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-03",
+  "next_date": "2027-02-02",
+  "last_label": "3 Kasım",
+  "next_label": "2 Şubat",
+  "days_to_next": 81,
+  "progress_pct": 11
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$19.9B",
+   "sub": "+%298 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.81",
+   "sub": "Beat · beklenti $1.23",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%12.7",
+   "sub": "-4.7 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-476M",
+   "sub": "marj %-2",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 3 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$19.9B",
+      "note": "+%298 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       5.02,
+       12.68,
+       10.24,
+       11.12,
+       19.95
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.6B",
+      "note": "+%847 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.4,
+       3.2,
+       4.7,
+       10.6,
+       8.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.81",
+      "note": "beklenti $1.23 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%12.7",
+      "note": "-4.7 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       9.3,
+       6.3,
+       9.9,
+       17.5,
+       12.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%10.4",
+      "note": "+6.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.6,
+       3.7,
+       6.1,
+       13.4,
+       10.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%18.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%32.4",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%11.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-1.78×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%13.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "285",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-476M",
+      "note": "marj %-2",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.8B",
+      "note": "nakit $6.9B · borç $8.7B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "5.7×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "3.9×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "0.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "5.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "miss",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    5.0,
+    12.7,
+    10.2,
+    11.1,
+    19.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    9.3,
+    6.3,
+    9.9,
+    17.5,
+    12.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Nasdaq Down 100 Points As Nvidia Shares Fall: Investor Sentiment Improves, But Greed Index Remains In ‘Fear’ Zone",
+   "source": "benzinga",
+   "published": "2026-11-13",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/63229932/nasdaq-down-100-points-as-nvidia-shares-fall-investor-sentiment-improves-but-greed-index-remains-in-fear-zone",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Cerebras, Applied Materials, Cisco, Super Micro Computer and Nu Holdings: Why These 5 Stocks Are on Investors' Radars Today",
+   "source": "benzinga",
+   "published": "2026-11-13",
+   "url": "https://www.benzinga.com/markets/equities/26/11/63228451/cerebras-applied-materials-cisco-super-micro-computer-and-nu-holdings-why-these-5-stocks-are-on-investors-radars-today",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Supermicro Faces DOJ Investigation Over Alleged Smuggling to China",
+   "source": "fiscal.ai",
+   "published": "2026-11-12",
+   "url": "https://www.moomoo.com/hant/news/post/1004475384/super-micro-stock-falls-10-intraday-as-doj-probes-smuggling",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Super Micro Stock Plunges Amid DOJ Probe Rumors",
+   "source": "benzinga",
+   "published": "2026-11-12",
+   "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63212202/super-micro-stock-plunges-amid-doj-probe-rumors",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
