@@ -1,63 +1,63 @@
 {
- "date": "2026-11-13",
- "generated_at": "2026-11-13T13:27:33+00:00",
+ "date": "2026-11-14",
+ "generated_at": "2026-11-14T12:31:55+00:00",
  "mock": false,
  "regime": {
-  "label": "Nötr-olumlu — temkinli iyimser",
-  "tone": "green",
-  "score": 1.2
+  "label": "Nötr — kararsız",
+  "tone": "gray",
+  "score": -0.2
  },
  "trend": {
   "rows": [
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7592.4,
-    "chg_1d": -0.35,
+    "last": 7561.67,
+    "chg_1d": -0.4,
     "above_50": false,
     "above_200": true,
-    "from_high": -2.9,
+    "from_high": -3.3,
     "state": "zayıflıyor",
     "tone": "gray"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 28289.19,
-    "chg_1d": -0.3,
+    "last": 27943.74,
+    "chg_1d": -1.22,
     "above_50": false,
-    "above_200": true,
-    "from_high": -9.4,
-    "state": "zayıflıyor",
-    "tone": "gray"
+    "above_200": false,
+    "from_high": -10.5,
+    "state": "düşüş trendi",
+    "tone": "amber"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2799.06,
-    "chg_1d": -1.66,
+    "last": 2790.49,
+    "chg_1d": -0.31,
     "above_50": false,
     "above_200": false,
-    "from_high": -8.8,
+    "from_high": -9.1,
     "state": "düşüş trendi",
     "tone": "amber"
    }
   ],
-  "above_200_count": 2,
+  "above_200_count": 1,
   "total": 3
  },
  "fear": {
-  "vix": 18.25,
-  "vix3m": 20.06,
+  "vix": 19.3,
+  "vix3m": 20.62,
   "zone": "normal",
   "term": "contango",
   "tone": "green",
-  "vix_chg_5d": -28.8
+  "vix_chg_5d": -24.7
  },
  "breadth": {
-  "rsp_3m": 0.3,
-  "spy_3m": -1.8,
-  "spread": 2.1,
+  "rsp_3m": 1.0,
+  "spy_3m": -1.5,
+  "spread": 2.5,
   "pct_sectors_above_200": 73,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -67,43 +67,43 @@
    {
     "ticker": "XLP",
     "name": "Tüketici (temel)",
-    "chg": 13.1,
+    "chg": 14.0,
     "group": "defansif"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 13.0,
+    "chg": 12.8,
     "group": "defansif"
    },
    {
     "ticker": "XLU",
     "name": "Kamu hizmetleri",
-    "chg": 10.0,
+    "chg": 10.2,
     "group": "defansif"
-   },
-   {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": 9.5,
-    "group": "döngüsel"
-   },
-   {
-    "ticker": "XLF",
-    "name": "Finans",
-    "chg": 8.8,
-    "group": "döngüsel"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": 8.7,
+    "chg": 9.1,
     "group": "defansif"
+   },
+   {
+    "ticker": "XLF",
+    "name": "Finans",
+    "chg": 8.9,
+    "group": "döngüsel"
+   },
+   {
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": 8.7,
+    "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 7.1,
+    "chg": 5.5,
     "group": "döngüsel"
    },
    {
@@ -115,52 +115,52 @@
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -0.3,
+    "chg": -0.8,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": -2.5,
+    "chg": -2.6,
     "group": "döngüsel"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": -13.0,
+    "chg": -15.3,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-kapalı — defansifler önde",
   "tone": "amber",
-  "def_avg": 11.2,
-  "cyc_avg": 1.7
+  "def_avg": 11.5,
+  "cyc_avg": 1.0
  },
  "macro": {
   "rows": [
    {
     "metric": "10 yıllık faiz",
-    "value": "%5.10",
-    "note": "son 1 ay -%3.3",
+    "value": "%5.15",
+    "note": "son 1 ay -%3.0",
     "tone": "gray"
    },
    {
     "metric": "Getiri eğrisi (10Y − 3ay)",
-    "value": "+0.98 puan",
+    "value": "+1.03 puan",
     "note": "normal (pozitif)",
     "tone": "gray"
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "103.2",
-    "note": "son 1 ay +%1.0",
+    "value": "103.4",
+    "note": "son 1 ay +%1.2",
     "tone": "gray"
    },
    {
     "metric": "Altın",
     "value": "$355",
-    "note": "son 1 ay -%6.6",
+    "note": "son 1 ay -%6.3",
     "tone": "gray"
    },
    {
@@ -171,7 +171,7 @@
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "+%0.6",
+    "value": "+%0.5",
     "note": "yüksek getirili tahvil güçlü — kredi sakin",
     "tone": "green"
    }
@@ -182,7 +182,7 @@
   {
    "date": "2026-11-17",
    "label": "NVDA bilanço",
-   "days": 4,
+   "days": 3,
    "date_label": "17 Kasım",
    "kind": "bilanço"
   }
