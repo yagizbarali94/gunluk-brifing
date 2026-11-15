@@ -1,6 +1,6 @@
 {
- "date": "2026-11-14",
- "generated_at": "2026-11-14T12:31:55+00:00",
+ "date": "2026-11-15",
+ "generated_at": "2026-11-15T12:58:53+00:00",
  "mock": false,
  "regime": {
   "label": "Nötr — kararsız",
@@ -182,7 +182,7 @@
   {
    "date": "2026-11-17",
    "label": "NVDA bilanço",
-   "days": 3,
+   "days": 2,
    "date_label": "17 Kasım",
    "kind": "bilanço"
   }

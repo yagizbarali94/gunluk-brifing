@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-15",
+ "slot": "reported",
+ "generated_at": "2026-11-15T12:58:48+00:00",
+ "mock": false,
+ "ticker": "ANET",
+ "company": {
+  "name": "Arista Networks, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 249256640512
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 197.29,
+  "change_pct": -5.34
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-03",
+  "next_date": "2027-02-09",
+  "last_label": "3 Kasım",
+  "next_label": "9 Şubat",
+  "days_to_next": 86,
+  "progress_pct": 12
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.7B",
+   "sub": "+%58 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.20",
+   "sub": "Beat · beklenti $1.08",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%63.6",
+   "sub": "+0.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.1B",
+   "sub": "marj %30",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 3 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.7B",
+      "note": "+%58 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.31,
+       2.49,
+       2.71,
+       3.04,
+       3.66
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.6B",
+      "note": "+%83 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       37.0,
+       38.4,
+       37.8,
+       40.0,
+       42.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.20",
+      "note": "beklenti $1.08 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%63.6",
+      "note": "+0.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       64.6,
+       62.9,
+       61.9,
+       62.9,
+       63.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%44.9",
+      "note": "+2.5 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       42.4,
+       41.5,
+       42.7,
+       45.4,
+       44.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%25.8",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%33.5",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%15.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.06×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.1 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "101",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.1B",
+      "note": "marj %30",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.3B",
+      "note": "nakit $2.3B · borç $0",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "52.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "32.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "19.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "44.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "49.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    2.3,
+    2.5,
+    2.7,
+    3.0,
+    3.7
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    64.6,
+    62.9,
+    61.9,
+    62.9,
+    63.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Benzinga Bulls and Bears: Nvidia, Rocket Lab, Nebius",
+   "source": "benzinga",
+   "published": "2026-11-14",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/63273716/benzinga-bulls-and-bears-nvidia-rocket-lab-nebius",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Nvidia Loses Its Founder, AMD and Broadcom Take the Crown: This Week on Wall Street",
+   "source": "benzinga",
+   "published": "2026-11-13",
+   "url": "https://www.benzinga.com/markets/market-summary/26/11/63269563/this-week-on-wall-street-nvidia-huang-amd-broadcom-fed-hike",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Arista Networks Insider Executes Significant Stock Sale",
+   "source": "fiscal.ai",
+   "published": "2026-11-11",
+   "url": "https://www.marketscreener.com/news/arista-networks-insider-sold-shares-worth-43-928-304-according-to-a-recent-sec-filing-ce785edbda8df527",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Arista Networks Insider Sells Shares Worth Over $43 Million",
+   "source": "fiscal.ai",
+   "published": "2026-11-10",
+   "url": "https://www.marketscreener.com/news/arista-networks-insider-sold-shares-worth-43-016-606-according-to-a-recent-sec-filing-ce785edadb8df722",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
