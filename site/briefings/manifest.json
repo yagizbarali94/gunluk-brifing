@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-11-17-upcoming",
+  "date": "2026-11-17",
+  "ticker": "PANW",
+  "name": "Palo Alto Networks, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-11-17-reported",
+  "date": "2026-11-17",
+  "ticker": "NVDA",
+  "name": "NVIDIA Corporation",
+  "slot": "reported"
+ },
+ {
   "id": "2026-11-16-upcoming",
   "date": "2026-11-16",
   "ticker": "NVDA",

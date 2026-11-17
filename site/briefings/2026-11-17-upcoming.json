@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-17",
+ "slot": "upcoming",
+ "generated_at": "2026-11-17T14:55:53+00:00",
+ "mock": false,
+ "ticker": "PANW",
+ "company": {
+  "name": "Palo Alto Networks, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 251518468096
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço yarın açıklanacak (18 Kasım) — beklentileri incele"
+ },
+ "price": {
+  "last": 307.19,
+  "change_pct": -3.02
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-01",
+  "next_date": "2026-11-18",
+  "last_label": "1 Eylül",
+  "next_label": "18 Kasım",
+  "days_to_next": 1,
+  "progress_pct": 99
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$3.4B",
+   "sub": "+%34 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.02",
+   "sub": "Beat · beklenti $0.98",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.6",
+   "sub": "+0.0 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$1.3B",
+   "sub": "marj %37",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 1 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$3.4B",
+      "note": "+%34 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       2.54,
+       2.47,
+       2.59,
+       3.0,
+       3.41
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$-282M",
+      "note": "-%211 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       10.0,
+       13.5,
+       16.7,
+       -5.9,
+       -8.3
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.02",
+      "note": "beklenti $0.98 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.6",
+      "note": "+0.0 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       null,
+       73.2,
+       74.2,
+       73.6,
+       67.6,
+       67.6
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%5.0",
+      "note": "-14.6 puan y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       19.6,
+       12.5,
+       15.3,
+       -6.1,
+       5.0
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%1.1",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%1.7",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%1.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "13.40×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%15.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "70",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$1.3B",
+      "note": "marj %37",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$14M",
+      "note": "nakit $2.5B · borç $2.5B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "768.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "63.0×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "22.5×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "165.4×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "61.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    2.5,
+    2.5,
+    2.6,
+    3.0,
+    3.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Apr'25",
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    null,
+    73.2,
+    74.2,
+    73.6,
+    67.6,
+    67.6
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Palo Alto Networks Releases State of Cloud Security Report 2026",
+   "source": "fiscal.ai",
+   "published": "2026-11-16",
+   "url": "https://cybermagazine.com/news/palo-alto-networks-99-companies-find-ungoverned-ai",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Palo Alto Networks' Unit 42 Investigates Fireworks AI Security Breach",
+   "source": "fiscal.ai",
+   "published": "2026-11-16",
+   "url": "https://www.varindia.com/news/fireworks-ai-breach-exposes-supply-chain-risks",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Palo Alto Networks Joins Factory's Cyber Defense Network",
+   "source": "fiscal.ai",
+   "published": "2026-11-13",
+   "url": "https://ai-techpark.com/factory-announced-the-launch-of-cyber-defense-network/",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "KeyBanc Upgrades Palo Alto Networks to Overweight",
+   "source": "fiscal.ai",
+   "published": "2026-11-13",
+   "url": "https://www.marketscreener.com/news/keybanc-upgrades-palo-alto-networks-to-overweight-price-target-is-380-ce785ed9dc8cfe26",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
