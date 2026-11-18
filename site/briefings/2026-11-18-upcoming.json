@@ -1,0 +1,306 @@
+{
+ "date": "2026-11-18",
+ "slot": "upcoming",
+ "generated_at": "2026-11-18T14:35:35+00:00",
+ "mock": false,
+ "ticker": "SMCI",
+ "company": {
+  "name": "Super Micro Computer, Inc.",
+  "sector": "Technology",
+  "industry": "Computer Hardware",
+  "market_cap": 15841234944
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 24.05,
+  "change_pct": -5.1
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-03",
+  "next_date": "2027-02-02",
+  "last_label": "3 Kasım",
+  "next_label": "2 Şubat",
+  "days_to_next": 76,
+  "progress_pct": 16
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$19.9B",
+   "sub": "+%298 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.81",
+   "sub": "Beat · beklenti $1.23",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%12.7",
+   "sub": "-4.7 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-476M",
+   "sub": "marj %-2",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 3 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$19.9B",
+      "note": "+%298 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       5.02,
+       12.68,
+       10.24,
+       11.12,
+       19.95
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$1.6B",
+      "note": "+%847 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.4,
+       3.2,
+       4.7,
+       10.6,
+       8.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.81",
+      "note": "beklenti $1.23 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%12.7",
+      "note": "-4.7 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       9.3,
+       6.3,
+       9.9,
+       17.5,
+       12.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%10.4",
+      "note": "+6.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.6,
+       3.7,
+       6.1,
+       13.4,
+       10.4
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%18.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%32.4",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%11.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "-1.78×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%13.0 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "285",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-476M",
+      "note": "marj %-2",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-1.8B",
+      "note": "nakit $6.9B · borç $8.7B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "5.1×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "3.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "0.4×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "4.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "miss",
+  "miss",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    5.0,
+    12.7,
+    10.2,
+    11.1,
+    19.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    9.3,
+    6.3,
+    9.9,
+    17.5,
+    12.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Supermicro Participates in MLPerf Training v6.1 Benchmarks",
+   "source": "fiscal.ai",
+   "published": "2026-11-16",
+   "url": "https://www.globenewswire.com/news-release/2026/11/16/3403869/0/en/mlcommons-releases-mlperf-training-v6-1-results-spotlighting-recent-advances-in-ai-training.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Supermicro Faces DOJ Investigation Over Alleged Smuggling to China",
+   "source": "fiscal.ai",
+   "published": "2026-11-12",
+   "url": "https://www.moomoo.com/hant/news/post/1004475384/super-micro-stock-falls-10-intraday-as-doj-probes-smuggling",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Supermicro Launches Next-Generation Servers with 6th Gen AMD EPYC 9006 Series CPUs",
+   "source": "fiscal.ai",
+   "published": "2026-11-12",
+   "url": "https://www.prnewswire.com/news-releases/business-technology-latest-news/computer-hardware-list/",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
