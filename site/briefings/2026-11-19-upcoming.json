@@ -1,0 +1,299 @@
+{
+ "date": "2026-11-19",
+ "slot": "upcoming",
+ "generated_at": "2026-11-19T14:42:38+00:00",
+ "mock": false,
+ "ticker": "DDOG",
+ "company": {
+  "name": "Datadog, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Application",
+  "market_cap": 65201397760
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %8.1 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 180.59,
+  "change_pct": 6.42
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-04",
+  "next_date": "2027-02-11",
+  "last_label": "4 Kasım",
+  "next_label": "11 Şubat",
+  "days_to_next": 84,
+  "progress_pct": 15
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.2B",
+   "sub": "+%35 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.81",
+   "sub": "Beat · beklenti $0.64",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%80.2",
+   "sub": "+1.6 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$251M",
+   "sub": "marj %21",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.2B",
+      "note": "+%35 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       0.89,
+       0.95,
+       1.01,
+       1.12,
+       1.2
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$118M",
+      "note": "+%249 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       3.8,
+       4.9,
+       5.2,
+       4.0,
+       9.9
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.81",
+      "note": "beklenti $0.64 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%80.2",
+      "note": "+1.6 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       null,
+       80.1,
+       80.4,
+       79.2,
+       78.6,
+       80.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%6.3",
+      "note": "+7.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       -0.7,
+       0.8,
+       0.7,
+       0.7,
+       6.3
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%5.0",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%6.4",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%0.9",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "4.23×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%3.6 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "61",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$251M",
+      "note": "marj %21",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-426M",
+      "note": "nakit $881M · borç $1.3B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "250.8×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "56.7×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "13.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "331.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "58.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    0.9,
+    1.0,
+    1.0,
+    1.1,
+    1.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    80.1,
+    80.4,
+    79.2,
+    78.6,
+    80.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "MinIO and Datadog Announce Strategic Partnership for On-Premises Observability",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://ittech-pulse.com/news/minio-datadog-partnership-ai-security-observability-lakehouse/",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Datadog Named a Leader in 2026 Gartner Magic Quadrant for Observability Pipelines",
+   "source": "fiscal.ai",
+   "published": "2026-11-17",
+   "url": "https://www.globenewswire.com/news-release/2026/11/17/3405110/0/en/datadog-named-a-leader-in-the-2026-gartner-magic-quadrant-for-observability-pipelines.html",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
