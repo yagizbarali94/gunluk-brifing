@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-20",
+ "slot": "upcoming",
+ "generated_at": "2026-11-20T14:23:46+00:00",
+ "mock": false,
+ "ticker": "MSFT",
+ "company": {
+  "name": "Microsoft Corporation",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 3700472676352
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 498.3,
+  "change_pct": 0.7
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-28",
+  "next_date": "2027-01-27",
+  "last_label": "28 Ekim",
+  "next_label": "27 Ocak",
+  "days_to_next": 68,
+  "progress_pct": 25
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$92.3B",
+   "sub": "+%19 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$4.89",
+   "sub": "Beat · beklenti $4.72",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%67.8",
+   "sub": "+0.6 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$18.6B",
+   "sub": "marj %20",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$92.3B",
+      "note": "+%19 y/y",
+      "tone": "green",
+      "spark": [
+       77.67,
+       81.27,
+       82.89,
+       90.01,
+       92.28
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$36.6B",
+      "note": "+%32 y/y",
+      "tone": "green",
+      "spark": [
+       35.7,
+       47.3,
+       38.3,
+       39.7,
+       39.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$4.89",
+      "note": "beklenti $4.72 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%67.8",
+      "note": "+0.6 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       69.0,
+       68.0,
+       67.6,
+       67.2,
+       67.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%49.8",
+      "note": "+0.9 puan y/y",
+      "tone": "green",
+      "spark": [
+       48.9,
+       47.1,
+       46.3,
+       45.1,
+       49.8
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%28.6",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%34.2",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%14.4",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.42×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%0.3 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "36",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$18.6B",
+      "note": "marj %20",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-36.9B",
+      "note": "nakit $20.3B · borç $57.2B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "26.0×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "20.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "10.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "18.3×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "61.7×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    77.7,
+    81.3,
+    82.9,
+    90.0,
+    92.3
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    69.0,
+    68.0,
+    67.6,
+    67.2,
+    67.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Profound Launches Integrations for Microsoft Teams and Microsoft 365",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://www.globenewswire.com/news-release/2026/11/19/3406573/0/en/profound-brings-your-ai-marketer-into-microsoft-teams-and-microsoft-365.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Microsoft Integrates IDEMIA Mobile Driver's License Verification into Entra",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://www.prnewswire.com/news-releases/idemia-public-security-to-bring-mobile-drivers-license-verification-to-the-microsoft-entra-verified-id-ecosystem-302945574.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Microsoft Announces AI Innovations and Salesforce Partnership at Ignite",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://aimagazine.com/news/microsoft-unveils-copilot-workspaces-and-salesforce-deal",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Splashtop Joins Microsoft Virus Initiative",
+   "source": "fiscal.ai",
+   "published": "2026-11-18",
+   "url": "https://www.globenewswire.com/news-release/2026/11/18/3406049/0/en/splashtop-joins-microsoft-virus-initiative-strengthening-protection-for-microsoft-environments.html",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-11-20-upcoming",
+  "date": "2026-11-20",
+  "ticker": "MSFT",
+  "name": "Microsoft Corporation",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-11-20-reported",
+  "date": "2026-11-20",
+  "ticker": "PANW",
+  "name": "Palo Alto Networks, Inc.",
+  "slot": "reported"
+ },
+ {
   "id": "2026-11-19-upcoming",
   "date": "2026-11-19",
   "ticker": "DDOG",
