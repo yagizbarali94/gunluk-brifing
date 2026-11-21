@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-21",
+ "slot": "upcoming",
+ "generated_at": "2026-11-21T13:44:06+00:00",
+ "mock": false,
+ "ticker": "ARM",
+ "company": {
+  "name": "Arm Holdings plc",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 162853994496
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %14.1 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 152.2,
+  "change_pct": -12.48
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-04",
+  "next_date": "2027-02-03",
+  "last_label": "4 Kasım",
+  "next_label": "3 Şubat",
+  "days_to_next": 74,
+  "progress_pct": 19
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$1.4B",
+   "sub": "+%27 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.52",
+   "sub": "Beat · beklenti $0.48",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%97.1",
+   "sub": "-0.1 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$130M",
+   "sub": "marj %9",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 4 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$1.4B",
+      "note": "+%27 y/y",
+      "tone": "green",
+      "spark": [
+       1.14,
+       1.24,
+       1.49,
+       1.29,
+       1.44
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$130M",
+      "note": "-%45 y/y",
+      "tone": "amber",
+      "spark": [
+       21.0,
+       18.0,
+       21.0,
+       20.9,
+       9.0
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.52",
+      "note": "beklenti $0.48 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%97.1",
+      "note": "-0.1 puan ç/ç",
+      "tone": "gray",
+      "spark": [
+       97.4,
+       97.6,
+       97.9,
+       97.2,
+       97.1
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%13.9",
+      "note": "-0.4 puan y/y",
+      "tone": "gray",
+      "spark": [
+       14.4,
+       15.4,
+       29.5,
+       7.6,
+       13.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%6.4",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%11.3",
+      "note": "net kâr / özkaynak",
+      "tone": "gray"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%5.5",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "1.26×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.9 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "49",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$130M",
+      "note": "marj %9",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$2.8B",
+      "note": "nakit $3.3B · borç $500M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "174.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "49.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "29.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "141.6×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "138.6×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    1.1,
+    1.2,
+    1.5,
+    1.3,
+    1.4
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    97.4,
+    97.6,
+    97.9,
+    97.2,
+    97.1
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Arm Holdings Chief Architect Reports Insider Share Sale",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://www.moomoo.com/stock/ARM-US?chain_id=Name1K9-3FXPhg.1lftp60&global_content=%7B%22promote_id%22%3A%22%22%2C%22sub_promote_id%22%3A64%2C%22subpromote_id%22%3A%22%22%2C%22f%22%3A%22www.moomoo.com%2Fcommunity%2Fprofile%2Fkheldarx-103578968%22%7D",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Arm Names ByteDance and Oracle as Customers for AI Data Centre Chips",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://stockanalysis.com/private/bytedance/",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Morgan Stanley Maintains Hold Rating and $212 Price Target for Arm Holdings",
+   "source": "fiscal.ai",
+   "published": "2026-11-17",
+   "url": "https://www.moomoo.com/news/post/1004900071/morgan-stanley-maintains-arm-holdings-armus-with-hold-rating-maintains",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Mubadala Investment Co. Pjsc Reduces Stake in Arm Holdings PLC",
+   "source": "fiscal.ai",
+   "published": "2026-11-16",
+   "url": "https://www.moomoo.com/news/flash/1004769207/mubadala-investment-co-pjsc-cuts-share-stake-in-arm-holdings",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}

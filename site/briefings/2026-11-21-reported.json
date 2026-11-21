@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-21",
+ "slot": "reported",
+ "generated_at": "2026-11-21T13:44:07+00:00",
+ "mock": false,
+ "ticker": "NVDA",
+ "company": {
+  "name": "NVIDIA Corporation",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 3031172907008
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %14.0 düştü — büyük hareket"
+ },
+ "price": {
+  "last": 125.53,
+  "change_pct": -13.93
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-17",
+  "next_date": "2027-02-24",
+  "last_label": "17 Kasım",
+  "next_label": "24 Şubat",
+  "days_to_next": 95,
+  "progress_pct": 4
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "veri yok",
+   "sub": "y/y veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.68",
+   "sub": "Beat · beklenti $2.47",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "veri yok",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$21.4B",
+   "sub": "marj veri yok",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 17 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       46.74,
+       57.01,
+       68.13,
+       81.61,
+       96.22,
+       null
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       56.5,
+       56.0,
+       63.1,
+       71.5,
+       62.0,
+       null
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.68",
+      "note": "beklenti $2.47 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "veri yok",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       72.4,
+       73.4,
+       75.0,
+       74.9,
+       75.0,
+       null
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       60.8,
+       63.2,
+       65.0,
+       65.6,
+       66.2,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%117.4",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%56.0",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "-%1.2 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$21.4B",
+      "note": "marj veri yok",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-15.9B",
+      "note": "nakit $22.4B · borç $38.4B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "13.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "7.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "12.2×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "23.9×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26",
+    "Oct'26"
+   ],
+   "values": [
+    46.7,
+    57.0,
+    68.1,
+    81.6,
+    96.2,
+    null
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26",
+    "Oct'26"
+   ],
+   "values": [
+    72.4,
+    73.4,
+    75.0,
+    74.9,
+    75.0,
+    null
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Compute Exchange Announces Live GPU Capacity Auction at NVIDIA GTC DC",
+   "source": "fiscal.ai",
+   "published": "2026-11-20",
+   "url": "https://www.einnews.com/pr_news/957765130/compute-exchange-announces-live-gpu-capacity-auction-at-nvidia-gtc-dc",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "NVIDIA Subject to Congressional Probe Regarding China Sales",
+   "source": "fiscal.ai",
+   "published": "2026-11-20",
+   "url": "https://www.marketscreener.com/news/nvidia-subject-to-congressional-probe-over-ties-to-commerce-department-possible-china-sales-ce785ed3d888f620",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "California Attorney General Launches Investigation into NVIDIA",
+   "source": "fiscal.ai",
+   "published": "2026-11-20",
+   "url": "https://www.manilatimes.net/2026/11/21/business/foreign-business/california-probes-nvidia-over-china-chips-access/2475093",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "5C Group Joins NVIDIA Partner Network as Data Center Partner",
+   "source": "fiscal.ai",
+   "published": "2026-11-20",
+   "url": "https://www.prnewswire.com/news-releases/5c-announces-data-center-partner-designation-within-the-nvidia-partner-network-in-new-blog-302946572.html",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
