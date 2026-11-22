@@ -1,6 +1,6 @@
 {
- "date": "2026-11-21",
- "generated_at": "2026-11-21T13:44:12+00:00",
+ "date": "2026-11-22",
+ "generated_at": "2026-11-22T13:38:06+00:00",
  "mock": false,
  "regime": {
   "label": "Stres — belirgin baskı",
@@ -165,8 +165,8 @@
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$84.0",
-    "note": "son 1 ay -%10.4",
+    "value": "$83.4",
+    "note": "son 1 ay -%11.0",
     "tone": "gray"
    },
    {

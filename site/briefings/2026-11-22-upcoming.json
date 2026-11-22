@@ -1,0 +1,292 @@
+{
+ "date": "2026-11-22",
+ "slot": "upcoming",
+ "generated_at": "2026-11-22T13:37:59+00:00",
+ "mock": false,
+ "ticker": "GOOGL",
+ "company": {
+  "name": "Alphabet Inc.",
+  "sector": "Communication Services",
+  "industry": "Internet Content & Information",
+  "market_cap": 3261475323904
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 265.29,
+  "change_pct": -3.08
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-28",
+  "next_date": "2027-02-03",
+  "last_label": "28 Ekim",
+  "next_label": "3 Şubat",
+  "days_to_next": 73,
+  "progress_pct": 26
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$127.6B",
+   "sub": "+%25 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$2.12",
+   "sub": "Miss · beklenti $3.01",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%59.7",
+   "sub": "-2.0 puan ç/ç",
+   "tone": "neg"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-9.1B",
+   "sub": "marj %-7",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 28 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$127.6B",
+      "note": "+%25 y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       102.35,
+       113.83,
+       109.9,
+       119.8,
+       127.58
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$26.5B",
+      "note": "-%24 y/y",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       34.2,
+       30.3,
+       56.9,
+       93.7,
+       20.7
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$2.12",
+      "note": "beklenti $3.01 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%59.7",
+      "note": "-2.0 puan ç/ç",
+      "tone": "amber",
+      "spark": [
+       null,
+       null,
+       59.6,
+       59.8,
+       62.4,
+       61.6,
+       59.7
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%31.8",
+      "note": "+1.3 puan y/y",
+      "tone": "green",
+      "spark": [
+       null,
+       null,
+       30.5,
+       31.6,
+       36.1,
+       34.0,
+       31.8
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%30.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%44.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%12.7",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.08×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "29",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-9.1B",
+      "note": "marj %-7",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-85.6B",
+      "note": "nakit $56.3B · borç $141.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "13.9×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "17.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "6.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "17.1×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "165.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    null,
+    102.3,
+    113.8,
+    109.9,
+    119.8,
+    127.6
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Mar'25",
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    null,
+    null,
+    59.6,
+    59.8,
+    62.4,
+    61.6,
+    59.7
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [],
+ "ai": null
+}
