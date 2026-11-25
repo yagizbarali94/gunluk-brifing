@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-25",
+ "slot": "reported",
+ "generated_at": "2026-11-25T16:08:50+00:00",
+ "mock": false,
+ "ticker": "CRWD",
+ "company": {
+  "name": "CrowdStrike Holdings, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 203764383744
+ },
+ "why_today": {
+  "reason_code": "earnings",
+  "text": "2 gün önce bilanço açıkladı (23 Kasım)"
+ },
+ "price": {
+  "last": 197.71,
+  "change_pct": -5.77
+ },
+ "earnings_calendar": {
+  "last_date": "2026-11-23",
+  "next_date": "2027-03-02",
+  "last_label": "23 Kasım",
+  "next_label": "2 Mart",
+  "days_to_next": 97,
+  "progress_pct": 2
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "veri yok",
+   "sub": "y/y veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "EPS",
+   "value": "$0.34",
+   "sub": "Beat · beklenti $0.31",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "veri yok",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$376M",
+   "sub": "marj veri yok",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 23 Kasım",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       1.17,
+       1.23,
+       1.31,
+       1.39,
+       1.47,
+       null
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       -6.0,
+       -2.8,
+       4.5,
+       2.0,
+       0.4,
+       null
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$0.34",
+      "note": "beklenti $0.31 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "veri yok",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       73.6,
+       75.1,
+       76.1,
+       75.3,
+       74.6,
+       null
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "veri yok",
+      "note": "y/y veri yok",
+      "tone": "gray",
+      "spark": [
+       -9.0,
+       -5.6,
+       1.1,
+       -2.2,
+       -2.3,
+       null
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%2.3",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-0.8",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%4.7 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "amber"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$376M",
+      "note": "marj veri yok",
+      "tone": "gray"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$4.2B",
+      "note": "nakit $5.0B · borç $820M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "1647.6×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "119.6×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "36.9×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "1570.6×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "133.8×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "inline",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26",
+    "Oct'26"
+   ],
+   "values": [
+    1.2,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    null
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26",
+    "Oct'26"
+   ],
+   "values": [
+    73.6,
+    75.1,
+    76.1,
+    75.3,
+    74.6,
+    null
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "CrowdStrike Announces Participation in Upcoming Investor Conferences",
+   "source": "fiscal.ai",
+   "published": "2026-11-25",
+   "url": "https://www.businesswire.com/newsroom/industry/technology/security",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "BMO Capital Adjusts CrowdStrike Price Target to $247 From $295",
+   "source": "fiscal.ai",
+   "published": "2026-11-25",
+   "url": "https://www.marketscreener.com/news/bmo-capital-adjusts-crowdstrike-price-target-to-247-from-295-ce7851d8d98cf127",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Multiple Analysts Adjust Price Targets for CrowdStrike Holdings",
+   "source": "fiscal.ai",
+   "published": "2026-11-24",
+   "url": "https://www.marketscreener.com/news/baird-adjusts-price-target-on-crowdstrike-to-245-from-235-ce7851dbdb81f721",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Guggenheim Upgrades CrowdStrike to Buy with $280 Price Target",
+   "source": "fiscal.ai",
+   "published": "2026-11-24",
+   "url": "https://www.marketscreener.com/news/guggenheim-upgrades-crowdstrike-to-buy-price-target-is-280-ce7851dbd98df323",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
