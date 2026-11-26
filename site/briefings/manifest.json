@@ -1,5 +1,19 @@
 [
  {
+  "id": "2026-11-26-upcoming",
+  "date": "2026-11-26",
+  "ticker": "MDB",
+  "name": "MongoDB, Inc.",
+  "slot": "upcoming"
+ },
+ {
+  "id": "2026-11-26-reported",
+  "date": "2026-11-26",
+  "ticker": "ORCL",
+  "name": "Oracle Corporation",
+  "slot": "reported"
+ },
+ {
   "id": "2026-11-25-upcoming",
   "date": "2026-11-25",
   "ticker": "MDB",

@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-26",
+ "slot": "upcoming",
+ "generated_at": "2026-11-26T15:49:43+00:00",
+ "mock": false,
+ "ticker": "MDB",
+ "company": {
+  "name": "MongoDB, Inc.",
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "market_cap": 25217822720
+ },
+ "why_today": {
+  "reason_code": "upcoming_earnings",
+  "text": "Bilanço 5 gün sonra açıklanacak (1 Aralık) — beklentileri incele"
+ },
+ "price": {
+  "last": 313.53,
+  "change_pct": 1.77
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-01",
+  "next_date": "2026-12-01",
+  "last_label": "1 Eylül",
+  "next_label": "1 Aralık",
+  "days_to_next": 5,
+  "progress_pct": 95
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$772M",
+   "sub": "+%30 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.90",
+   "sub": "Beat · beklenti $1.61",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%73.8",
+   "sub": "+1.7 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$139M",
+   "sub": "marj %18",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 1 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$772M",
+      "note": "+%30 y/y",
+      "tone": "green",
+      "spark": [
+       0.59,
+       0.63,
+       0.7,
+       0.69,
+       0.77
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$41M",
+      "note": "-%187 y/y",
+      "tone": "amber",
+      "spark": [
+       -8.0,
+       -0.3,
+       2.2,
+       0.6,
+       5.3
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.90",
+      "note": "beklenti $1.61 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%73.8",
+      "note": "+1.7 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       71.0,
+       71.5,
+       73.0,
+       72.2,
+       73.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%3.7",
+      "note": "+14.7 puan y/y",
+      "tone": "green",
+      "spark": [
+       -11.0,
+       -2.9,
+       0.0,
+       -3.6,
+       3.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%2.3",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "amber"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%2.0",
+      "note": "net kâr / özkaynak",
+      "tone": "amber"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%-0.2",
+      "note": "net kâr / toplam varlık",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "11.19×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "green"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.1 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "54",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$139M",
+      "note": "marj %18",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$974M",
+      "note": "nakit $1.0B · borç $29M",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "435.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "39.5×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "8.2×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "1653.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "38.3×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    0.6,
+    0.6,
+    0.7,
+    0.7,
+    0.8
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jul'25",
+    "Oct'25",
+    "Jan'26",
+    "Apr'26",
+    "Jul'26"
+   ],
+   "values": [
+    71.0,
+    71.5,
+    73.0,
+    72.2,
+    73.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Citi Maintains Buy Rating on MongoDB, Adjusts Price Target",
+   "source": "fiscal.ai",
+   "published": "2026-11-25",
+   "url": "https://www.moomoo.com/stock/MDB-US?chain_id=Name1K9-3FXPhg.1lgd5c0&global_content=%7B%22promote_id%22%3A13764%2C%22sub_promote_id%22%3A57%2C%22f%22%3A%22www.moomoo.com%2Fstock%2FMDB-US%22%7D",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "MongoDB Atlas for Government Achieves FedRAMP Class D (High) Certification",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://www.prnewswire.com/news-releases/mongodb-atlas-for-government-achieves-fedramp-class-d-high-certification-adds-support-for-microsoft-azure-government-302944495.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "UBS Upgrades MongoDB to Buy, Raises Price Target",
+   "source": "fiscal.ai",
+   "published": "2026-11-19",
+   "url": "https://www.moomoo.com/news/post/1005195999/ubs-upgrades-mongodb-to-buy-from-neutral-adjusts-price-target",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
