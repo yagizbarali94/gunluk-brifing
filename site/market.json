@@ -1,6 +1,6 @@
 {
- "date": "2026-11-26",
- "generated_at": "2026-11-26T15:49:51+00:00",
+ "date": "2026-11-27",
+ "generated_at": "2026-11-27T15:38:04+00:00",
  "mock": false,
  "regime": {
   "label": "Stres — belirgin baskı",
@@ -12,33 +12,33 @@
    {
     "ticker": "^GSPC",
     "name": "S&P 500",
-    "last": 7182.78,
-    "chg_1d": -0.25,
+    "last": 7265.12,
+    "chg_1d": 1.15,
     "above_50": false,
     "above_200": false,
-    "from_high": -8.1,
+    "from_high": -7.1,
     "state": "düşüş trendi",
     "tone": "amber"
    },
    {
     "ticker": "^NDX",
     "name": "Nasdaq 100",
-    "last": 26046.9,
-    "chg_1d": -0.64,
+    "last": 26498.45,
+    "chg_1d": 1.73,
     "above_50": false,
     "above_200": false,
-    "from_high": -16.6,
+    "from_high": -15.1,
     "state": "düşüş trendi",
     "tone": "amber"
    },
    {
     "ticker": "^RUT",
     "name": "Russell 2000",
-    "last": 2704.06,
-    "chg_1d": 0.71,
+    "last": 2726.91,
+    "chg_1d": 0.85,
     "above_50": false,
     "above_200": false,
-    "from_high": -11.9,
+    "from_high": -11.1,
     "state": "düşüş trendi",
     "tone": "amber"
    }
@@ -47,17 +47,17 @@
   "total": 3
  },
  "fear": {
-  "vix": 26.76,
-  "vix3m": 26.29,
+  "vix": 26.47,
+  "vix3m": 25.46,
   "zone": "tedbirli",
   "term": "backwardation",
   "tone": "gray",
-  "vix_chg_5d": -5.9
+  "vix_chg_5d": -26.2
  },
  "breadth": {
-  "rsp_3m": -1.9,
-  "spy_3m": -6.6,
-  "spread": 4.7,
+  "rsp_3m": -0.4,
+  "spy_3m": -5.2,
+  "spread": 4.9,
   "pct_sectors_above_200": 64,
   "verdict": "geniş — yükseliş tabana yayılmış",
   "tone": "green"
@@ -65,77 +65,77 @@
  "sectors": {
   "rows": [
    {
-    "ticker": "XLP",
-    "name": "Tüketici (temel)",
-    "chg": 6.5,
-    "group": "defansif"
+    "ticker": "XLY",
+    "name": "Tüketici (döngüsel)",
+    "chg": 6.3,
+    "group": "döngüsel"
    },
    {
-    "ticker": "XLU",
-    "name": "Kamu hizmetleri",
-    "chg": 4.7,
+    "ticker": "XLP",
+    "name": "Tüketici (temel)",
+    "chg": 5.6,
     "group": "defansif"
    },
    {
     "ticker": "XLRE",
     "name": "Gayrimenkul",
-    "chg": 4.5,
+    "chg": 4.6,
     "group": "defansif"
    },
    {
     "ticker": "XLV",
     "name": "Sağlık",
-    "chg": 3.7,
+    "chg": 3.8,
     "group": "defansif"
    },
    {
-    "ticker": "XLY",
-    "name": "Tüketici (döngüsel)",
-    "chg": 3.6,
-    "group": "döngüsel"
+    "ticker": "XLU",
+    "name": "Kamu hizmetleri",
+    "chg": 3.5,
+    "group": "defansif"
    },
    {
     "ticker": "XLF",
     "name": "Finans",
-    "chg": 2.2,
+    "chg": 2.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLB",
     "name": "Malzeme",
-    "chg": 1.3,
+    "chg": 1.9,
     "group": "döngüsel"
    },
    {
     "ticker": "XLI",
     "name": "Sanayi",
-    "chg": -2.9,
+    "chg": -1.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLC",
     "name": "İletişim",
-    "chg": -6.3,
+    "chg": -2.7,
     "group": "döngüsel"
    },
    {
     "ticker": "XLE",
     "name": "Enerji",
-    "chg": -8.5,
+    "chg": -9.1,
     "group": "döngüsel"
    },
    {
     "ticker": "XLK",
     "name": "Teknoloji",
-    "chg": -17.7,
+    "chg": -13.7,
     "group": "döngüsel"
    }
   ],
   "lookback_days": 30,
   "tilt": "risk-kapalı — defansifler önde",
   "tone": "amber",
-  "def_avg": 4.8,
-  "cyc_avg": -4.0
+  "def_avg": 4.4,
+  "cyc_avg": -2.3
  },
  "macro": {
   "rows": [
@@ -153,27 +153,27 @@
    },
    {
     "metric": "Dolar endeksi (DXY)",
-    "value": "103.8",
-    "note": "son 1 ay +%1.9",
+    "value": "104.0",
+    "note": "son 1 ay +%2.1",
     "tone": "gray"
    },
    {
     "metric": "Altın",
-    "value": "$327",
-    "note": "son 1 ay -%14.4",
+    "value": "$333",
+    "note": "son 1 ay -%12.9",
     "tone": "gray"
    },
    {
     "metric": "Petrol (WTI)",
-    "value": "$84.9",
-    "note": "son 1 ay -%16.3",
+    "value": "$83.9",
+    "note": "son 1 ay -%17.2",
     "tone": "gray"
    },
    {
     "metric": "Kredi iştahı (HYG)",
-    "value": "-%0.3",
-    "note": "yüksek getirili tahvil zayıf — kredi stresine dikkat",
-    "tone": "amber"
+    "value": "+%0.2",
+    "note": "yüksek getirili tahvil güçlü — kredi sakin",
+    "tone": "green"
    }
   ],
   "curve_inverted": false

@@ -1,0 +1,305 @@
+{
+ "date": "2026-11-27",
+ "slot": "reported",
+ "generated_at": "2026-11-27T15:37:57+00:00",
+ "mock": false,
+ "ticker": "MU",
+ "company": {
+  "name": "Micron Technology, Inc.",
+  "sector": "Technology",
+  "industry": "Semiconductors",
+  "market_cap": 721267785728
+ },
+ "why_today": {
+  "reason_code": "mover",
+  "text": "Dün %5.7 yükseldi — büyük hareket"
+ },
+ "price": {
+  "last": 635.52,
+  "change_pct": 4.98
+ },
+ "earnings_calendar": {
+  "last_date": "2026-09-30",
+  "next_date": "2026-12-17",
+  "last_label": "30 Eylül",
+  "next_label": "17 Aralık",
+  "days_to_next": 20,
+  "progress_pct": 74
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$54.2B",
+   "sub": "+%379 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$33.42",
+   "sub": "Beat · beklenti $31.82",
+   "tone": "pos"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%86.8",
+   "sub": "+2.2 puan ç/ç",
+   "tone": "pos"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$32.9B",
+   "sub": "marj %61",
+   "tone": "pos"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 30 Eylül",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$54.2B",
+      "note": "+%379 y/y",
+      "tone": "green",
+      "spark": [
+       11.31,
+       13.64,
+       23.86,
+       41.46,
+       54.23
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$37.7B",
+      "note": "+%1078 y/y",
+      "tone": "green",
+      "spark": [
+       28.3,
+       38.4,
+       57.8,
+       68.1,
+       69.5
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$33.42",
+      "note": "beklenti $31.82 — üstünde",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%86.8",
+      "note": "+2.2 puan ç/ç",
+      "tone": "green",
+      "spark": [
+       44.7,
+       56.0,
+       74.4,
+       84.6,
+       86.8
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%80.7",
+      "note": "+48.0 puan y/y",
+      "tone": "green",
+      "spark": [
+       32.6,
+       45.0,
+       67.6,
+       80.4,
+       80.7
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "%60.2",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "green"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%88.3",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%44.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "0.69×",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%1.4 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "424",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "green"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$32.9B",
+      "note": "marj %61",
+      "tone": "green"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$33.2B",
+      "note": "nakit $38.4B · borç $5.2B",
+      "tone": "green"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "8.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "3.1×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "4.8×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "5.9×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "12.2×",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "beat"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26",
+    "Aug'26"
+   ],
+   "values": [
+    11.3,
+    13.6,
+    23.9,
+    41.5,
+    54.2
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Aug'25",
+    "Nov'25",
+    "Feb'26",
+    "May'26",
+    "Aug'26"
+   ],
+   "values": [
+    44.7,
+    56.0,
+    74.4,
+    84.6,
+    86.8
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Micron Reports High Bandwidth Memory (HBM) Capacity Largely Booked for Upcoming Year",
+   "source": "fiscal.ai",
+   "published": "2026-11-27",
+   "url": "https://www.moomoo.com/news/post/1005986341/where-is-the-memory-market-headed-analysts-debate-whether-dram",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Tradr ETFs Announces Upcoming Launch of Leveraged ETF Featuring Micron Technology, Inc.",
+   "source": "fiscal.ai",
+   "published": "2026-11-25",
+   "url": "https://www.prnewswire.com/news-releases/tradr-to-launch-six-new-leveraged-etfs-302949924.html",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Micron Discloses Increased Executive Security Expenses",
+   "source": "fiscal.ai",
+   "published": "2026-11-25",
+   "url": "https://www.morningstar.com/news/marketwatch/20261124417/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2000-new-filing-shows",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "BNP Paribas Downgrades Micron Technology to Neutral",
+   "source": "fiscal.ai",
+   "published": "2026-11-24",
+   "url": "https://www.marketscreener.com/news/bnp-paribas-downgrades-micron-technology-to-neutral-price-target-is-775-ce7851dbd98aff20",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
