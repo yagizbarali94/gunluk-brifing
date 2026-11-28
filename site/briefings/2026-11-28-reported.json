@@ -1,0 +1,313 @@
+{
+ "date": "2026-11-28",
+ "slot": "reported",
+ "generated_at": "2026-11-28T14:33:43+00:00",
+ "mock": false,
+ "ticker": "AMZN",
+ "company": {
+  "name": "Amazon.com, Inc.",
+  "sector": "Consumer Cyclical",
+  "industry": "Internet Retail",
+  "market_cap": 2747834564608
+ },
+ "why_today": {
+  "reason_code": "rotation",
+  "text": "Sıralı rotasyon — düzenli check-up"
+ },
+ "price": {
+  "last": 254.12,
+  "change_pct": 3.34
+ },
+ "earnings_calendar": {
+  "last_date": "2026-10-29",
+  "next_date": "2027-02-04",
+  "last_label": "29 Ekim",
+  "next_label": "4 Şubat",
+  "days_to_next": 68,
+  "progress_pct": 31
+ },
+ "kpi": [
+  {
+   "label": "Gelir (çeyrek)",
+   "value": "$201.9B",
+   "sub": "+%12 y/y",
+   "tone": "pos"
+  },
+  {
+   "label": "EPS",
+   "value": "$1.89",
+   "sub": "Miss · beklenti $1.96",
+   "tone": "neg"
+  },
+  {
+   "label": "Brüt marj",
+   "value": "%53.2",
+   "sub": "ç/ç veri yok",
+   "tone": "neutral"
+  },
+  {
+   "label": "Serbest nakit akışı",
+   "value": "$-34.8B",
+   "sub": "marj %-17",
+   "tone": "neg"
+  }
+ ],
+ "karne": {
+  "template": "derin şablon v2",
+  "period_label": "Son bilanço: 29 Ekim",
+  "groups": [
+   {
+    "name": "Büyüme",
+    "rows": [
+     {
+      "metric": "Gelir",
+      "value": "$201.9B",
+      "note": "+%12 y/y",
+      "tone": "gray",
+      "spark": [
+       167.7,
+       180.17,
+       213.39,
+       181.52,
+       null,
+       201.94
+      ],
+      "spark_unit": "$B gelir"
+     },
+     {
+      "metric": "Net kâr",
+      "value": "$20.7B",
+      "note": "-%2 y/y",
+      "tone": "amber",
+      "spark": [
+       10.8,
+       11.8,
+       9.9,
+       16.7,
+       null,
+       10.2
+      ],
+      "spark_unit": "% net marj"
+     },
+     {
+      "metric": "EPS",
+      "value": "$1.89",
+      "note": "beklenti $1.96 — altında",
+      "tone": "amber"
+     }
+    ]
+   },
+   {
+    "name": "Kârlılık",
+    "rows": [
+     {
+      "metric": "Brüt marj",
+      "value": "%53.2",
+      "note": "ç/ç veri yok",
+      "tone": "gray",
+      "spark": [
+       51.8,
+       50.8,
+       48.5,
+       51.8,
+       null,
+       53.2
+      ],
+      "spark_unit": "%"
+     },
+     {
+      "metric": "Faaliyet marjı",
+      "value": "%13.9",
+      "note": "+4.2 puan y/y",
+      "tone": "green",
+      "spark": [
+       11.4,
+       9.7,
+       11.7,
+       13.1,
+       null,
+       13.9
+      ],
+      "spark_unit": "%"
+     }
+    ]
+   },
+   {
+    "name": "Sermaye getirisi",
+    "rows": [
+     {
+      "metric": "ROIC",
+      "value": "veri yok",
+      "note": "yatırılan sermaye getirisi (NOPAT)",
+      "tone": "gray"
+     },
+     {
+      "metric": "Özkaynak getirisi (ROE)",
+      "value": "%27.4",
+      "note": "net kâr / özkaynak",
+      "tone": "green"
+     },
+     {
+      "metric": "Aktif getirisi (ROA)",
+      "value": "%6.6",
+      "note": "net kâr / toplam varlık",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Kazanç kalitesi",
+    "rows": [
+     {
+      "metric": "Nakit dönüşümü",
+      "value": "veri yok",
+      "note": "FCF / net kâr (TTM) — 1'e yakın iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Hisse seyrelmesi",
+      "value": "+%0.8 y/y",
+      "note": "seyreltilmiş hisse sayısı — düşük/negatif iyi",
+      "tone": "gray"
+     },
+     {
+      "metric": "Rule of 40",
+      "value": "veri yok",
+      "note": "büyüme % + FCF marjı — ≥40 kaliteli",
+      "tone": "gray"
+     }
+    ]
+   },
+   {
+    "name": "Bilanço",
+    "rows": [
+     {
+      "metric": "Serbest nakit akışı",
+      "value": "$-34.8B",
+      "note": "marj %-17",
+      "tone": "amber"
+     },
+     {
+      "metric": "Net nakit (nakit − borç)",
+      "value": "$-216.2B",
+      "note": "nakit $55.8B · borç $271.9B",
+      "tone": "amber"
+     }
+    ]
+   }
+  ]
+ },
+ "valuation": [
+  {
+   "metric": "F/K (cari)",
+   "value": "20.5×",
+   "note": "son 12 ay kazancına göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "F/K (ileri)",
+   "value": "23.3×",
+   "note": "gelecek 12 ay tahminine göre",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/Satış",
+   "value": "3.7×",
+   "note": "firma değeri / yıllık satış",
+   "tone": "gray"
+  },
+  {
+   "metric": "FD/FAVÖK",
+   "value": "16.0×",
+   "note": "firma değeri / FAVÖK",
+   "tone": "gray"
+  },
+  {
+   "metric": "Fiyat/FCF",
+   "value": "veri yok",
+   "note": "piyasa değeri / serbest nakit akışı",
+   "tone": "gray"
+  }
+ ],
+ "beat_history": [
+  "beat",
+  "beat",
+  "beat",
+  "beat",
+  "inline",
+  "beat",
+  "beat",
+  "miss"
+ ],
+ "charts": {
+  "revenue": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    167.7,
+    180.2,
+    213.4,
+    181.5,
+    null,
+    201.9
+   ],
+   "unit": "$B"
+  },
+  "gross_margin": {
+   "labels": [
+    "Jun'25",
+    "Sep'25",
+    "Dec'25",
+    "Mar'26",
+    "Jun'26",
+    "Sep'26"
+   ],
+   "values": [
+    51.8,
+    50.8,
+    48.5,
+    51.8,
+    null,
+    53.2
+   ],
+   "unit": "%"
+  }
+ },
+ "news": [
+  {
+   "headline_tr": "Amazon Workers Launch Global 'Make Amazon Pay' Strikes",
+   "source": "fiscal.ai",
+   "published": "2026-11-28",
+   "url": "https://www.utusan.com.my/terkini/2026/11/pekerja-amazon-di-20-negara-lancar-mogok-protes/",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Amazon and Globalstar File Opposition to License Transfer Challenge",
+   "source": "fiscal.ai",
+   "published": "2026-11-28",
+   "url": "https://newsfilter.io/articles/response-by-globalstar-inc-amazon-com-inc-in-26-134-3f9b2ef147cb51e1b09733d1c163af88",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "Amazon Blocks AI Shopping Agents from Its Platform",
+   "source": "fiscal.ai",
+   "published": "2026-11-28",
+   "url": "https://newsfilter.io/articles/ai-shopping-agents-are-having-a-moment-but-amazon-and-a-growing-number-of-sites-797242a1e1cc57d9b4086f1febb2da9b",
+   "sentiment": "neu"
+  },
+  {
+   "headline_tr": "ScitiX Launches Model Inference Services on AWS Marketplace",
+   "source": "fiscal.ai",
+   "published": "2026-11-27",
+   "url": "https://www.prnewswire.com/apac/news-releases/scitix-model-inference-now-available-in-aws-marketplace-302951612.html",
+   "sentiment": "neu"
+  }
+ ],
+ "ai": null
+}
